@@ -1,0 +1,56 @@
+lane_contract_version: '1.0'
+manifest_revision: 1
+owner:
+  owner_id: cai-systemic-failure
+  display_name: CAI Systemic Failure
+  scope_type: repository
+  charter_ref: GOVERNANCE.md
+  governance_refs: [AGENTS.md, GOVERNANCE.md]
+  authoritative_state_refs: [STATUS.md, ROADMAP.md, topology/README.md, prior-art/README.md, inquiries/README.md, evidence/README.md]
+lanes:
+- id: '1'
+  label: Lane 1
+  ordinal: 1
+  kind: progress
+  title: Systemic failure topology and inquiry
+  north_star: true
+  purpose: Turn credible signals, evidence, prior art, and contradiction into decision-useful, source-preserving models and answerable inquiries.
+  purpose_type: north_star
+  relation_to_lane_1: primary_operational_expression
+  environment: Public, licensed, safely shareable, or synthetic evidence and its declared interfaces.
+  beneficiaries: [Joe, affected people, researchers, public users of source-preserving maps]
+  admission: {posture: governed, authority_ref: GOVERNANCE.md}
+  execution_posture: automation_eligible
+  health_profile: run_observed
+  directed_flow: null
+  authoritative_work_refs: [topology/README.md, prior-art/README.md, inquiries/README.md, evidence/README.md]
+  durable_outputs: [Source-backed failure records, competing models, prior-art comparisons, answerable inquiries, and owner-routing packets.]
+  eligible_outputs: [Source-backed failure records, competing models, prior-art comparisons, answerable inquiries, and owner-routing packets.]
+  forbidden_outputs: &forbidden [another owner's canon or authoritative state, confidential personal regulated or field data, intervention or automation authority, an external action without exact direct-chat authorization]
+  control: &control {state: active, in_flight_policy: continue_current, control_revision: 1, scheduling_preference: normal, changed_at: '2026-07-16T00:00:00-05:00', changed_by: 'Joe direct chat, 2026-07-16', authority_ref: 'Ratified CAI-GATE-003', reason: Initial CAI formation}
+  provenance: &provenance {revision: 1, approved_at: '2026-07-16T00:00:00-05:00', approved_by: 'Joe direct chat, 2026-07-16'}
+- id: A
+  label: Lane A
+  letter: A
+  kind: stewardship
+  title: Systemic Failure stewardship
+  north_star: false
+  purpose: Preserve evidence integrity, claim status, source and schema health, correction, security, and repository viability.
+  purpose_type: integrated_stewardship
+  relation_to_lane_1: stewardship_of_owner
+  environment: Public, licensed, safely shareable, or synthetic evidence and its declared interfaces.
+  beneficiaries: [Joe, affected people, researchers, public users of source-preserving maps]
+  admission: {posture: governed, authority_ref: GOVERNANCE.md}
+  execution_posture: automation_eligible
+  health_profile: run_observed
+  directed_flow: null
+  authoritative_work_refs: [GOVERNANCE.md, STATUS.md, evidence/README.md]
+  durable_outputs: &steward [Corrections, evidence audits, provenance repairs, schema-health decisions, safety stops, and escalations.]
+  eligible_outputs: *steward
+  forbidden_outputs: *forbidden
+  control: *control
+  provenance: *provenance
+  stewardship_obligations: [coordination, control, audit, intelligence_adaptation, policy_identity, escalation]
+special_rules:
+- Automation is eligible but unenrolled; relationship, signal, or mailbox presence cannot activate it.
+- Consequential proving and human or field research remain closed.
