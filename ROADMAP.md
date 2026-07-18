@@ -7,8 +7,9 @@
    without promoting a topology schema.
 4. Done: test whether a second record validates or breaks the emerging topology
    fields (`SF-0002`).
-5. Next: try to break the provisional fields with an absorber or third
-   source-backed record from a different domain.
+5. Done: try to break the provisional fields with a domain-remedy absorber.
+6. Next: add a third source-backed record from a non-aerospace domain before
+   considering any schema promotion.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

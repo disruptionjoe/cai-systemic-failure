@@ -22,3 +22,8 @@ its candidate fields must survive a second record or absorber.
 `SF-0002-cross-record-field-test.md` tests those fields against the Columbia
 foam-strike review-chain record. The field set remains provisional; no topology
 schema is accepted yet.
+
+`SF-ABS-0001-domain-remedy-absorber-check.md` tests whether domain-specific
+technical remedy absorbs the pattern. It narrows but does not kill the
+review-chain fields; a third non-aerospace source-backed record is still needed
+before schema promotion.

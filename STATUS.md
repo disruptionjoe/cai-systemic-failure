@@ -11,9 +11,11 @@ is routed as an answerable mechanism-design inquiry. `SF-0002` adds a second
 bounded public-source record from the Columbia Accident Investigation Board
 Volume I source set. The first cross-record test keeps the review-chain fields
 provisional, broadens the environment field, and leaves hazard history plus
-observation-request path as candidate pressures.
+observation-request path as candidate pressures. `SF-ABS-0001` tested the
+domain-remedy absorber against the first two records; it narrowed the field set
+to review-chain visibility but did not justify killing or promoting it.
 
 No topology ontology is asserted yet; the first schema should be derived only
-after the provisional fields survive another absorber or third record. No human
-research, field data, intervention, participation, external action, or
-consequential proving is active.
+after the provisional fields survive a third source-backed record from a
+different domain. No human research, field data, intervention, participation,
+external action, or consequential proving is active.
