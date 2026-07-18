@@ -18,3 +18,7 @@ routing.
 `SF-0001-causal-model-comparison.md` compares provisional causal models and
 source-reported intervention classes. It does not create an accepted ontology;
 its candidate fields must survive a second record or absorber.
+
+`SF-0002-cross-record-field-test.md` tests those fields against the Columbia
+foam-strike review-chain record. The field set remains provisional; no topology
+schema is accepted yet.
