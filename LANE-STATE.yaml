@@ -1,7 +1,7 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-18T16:47:00-05:00"
+evaluated_at: "2026-07-18T16:39:00-05:00"
 run_ref: RUN-20260718-498-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
@@ -9,12 +9,12 @@ lanes:
     reason_code: absorber_check_complete_third_domain_record_next
     evidence_ref: "topology/SF-ABS-0001-domain-remedy-absorber-check.md; topology/SF-0002-cross-record-field-test.md"
     summary: "Domain-remedy absorber did not kill fields; third non-aerospace record is next."
-    evaluated_at: "2026-07-18T16:47:00-05:00"
+    evaluated_at: "2026-07-18T16:39:00-05:00"
     run_ref: RUN-20260718-498-repository-work-cycle-cai-hourly
   - lane_id: A
     light: green
     reason_code: stewardship_controls_and_correction_route_intact
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml; evidence/README.md"
     summary: "Stewardship controls and correction routes remain explicit after absorber check."
-    evaluated_at: "2026-07-18T16:47:00-05:00"
+    evaluated_at: "2026-07-18T16:39:00-05:00"
     run_ref: RUN-20260718-498-repository-work-cycle-cai-hourly
