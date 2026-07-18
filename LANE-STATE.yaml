@@ -1,20 +1,20 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-18T17:35:59-05:00"
-run_ref: RUN-20260718-501-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-18T18:32:33-05:00"
+run_ref: RUN-20260718-504-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
-    light: yellow
-    reason_code: third_record_complete_schema_readiness_next
-    evidence_ref: "evidence/records/SF-0003-flint-water-corrosion-control-review-chain.md; topology/SF-0003-third-domain-field-test.md"
-    summary: "Third record supports fields; schema-readiness check is next."
-    evaluated_at: "2026-07-18T17:35:59-05:00"
-    run_ref: RUN-20260718-501-repository-work-cycle-cai-hourly
+    light: green
+    reason_code: schema_candidate_ready_with_gates
+    evidence_ref: "topology/SF-SCHEMA-READINESS-0001-review-chain-fields.md"
+    summary: "Source-gated review-chain schema candidate is ready, not accepted."
+    evaluated_at: "2026-07-18T18:32:33-05:00"
+    run_ref: RUN-20260718-504-repository-work-cycle-cai-hourly
   - lane_id: A
     light: green
     reason_code: stewardship_controls_and_correction_route_intact
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml; evidence/README.md"
-    summary: "Stewardship controls and correction routes remain explicit after third record."
-    evaluated_at: "2026-07-18T17:35:59-05:00"
-    run_ref: RUN-20260718-501-repository-work-cycle-cai-hourly
+    summary: "Stewardship controls and correction routes remain explicit after readiness check."
+    evaluated_at: "2026-07-18T18:32:33-05:00"
+    run_ref: RUN-20260718-504-repository-work-cycle-cai-hourly

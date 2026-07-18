@@ -32,3 +32,8 @@ before schema promotion.
 the third non-aerospace source-backed record. `SF-0003-third-domain-field-test.md`
 keeps the review-chain fields provisional and points next to a schema-readiness
 check rather than direct schema promotion.
+
+`SF-SCHEMA-READINESS-0001-review-chain-fields.md` completes that readiness
+check. It says a source-gated review-chain schema candidate may be drafted next,
+but no schema is accepted yet and the next candidate must preserve source,
+absorber, correction-route, and no-remedy boundaries.

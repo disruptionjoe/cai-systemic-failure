@@ -18,8 +18,11 @@ to review-chain visibility but did not justify killing or promoting it.
 sources. The third-domain test keeps the field set provisional, renames the
 change field to changed condition, strengthens affected-party standing, and
 points next to a schema-readiness check.
+`SF-SCHEMA-READINESS-0001` completes that check: the review-chain fields are
+ready for a constrained, source-gated schema candidate, not accepted schema.
 
 No topology ontology is asserted yet; the first schema should be considered
-only after a compact schema-readiness check kills or narrows unnecessary fields
-and preserves source requirements. No human research, field data, intervention,
-participation, external action, or consequential proving is active.
+only as a provisional candidate that preserves source requirements,
+counterevidence, correction routes, and no-remedy boundaries. No human
+research, field data, intervention, participation, external action, or
+consequential proving is active.

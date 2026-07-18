@@ -10,8 +10,11 @@
 5. Done: try to break the provisional fields with a domain-remedy absorber.
 6. Done: add a third source-backed record from a non-aerospace domain
    (`SF-0003`).
-7. Next: run a schema-readiness check that tries to kill, narrow, or source-gate
-   the provisional fields before any schema promotion.
+7. Done: run a schema-readiness check that narrows and source-gates the
+   provisional fields before any schema promotion.
+8. Next: draft a provisional review-chain field schema candidate with source,
+   absorber, correction-route, and no-remedy gates, then test it against a
+   fourth record or negative absorber before any acceptance.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
