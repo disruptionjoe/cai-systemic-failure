@@ -40,6 +40,19 @@ it to review without claiming to solve the aviation case.
 - A better existing owner already has the mechanism and the candidate should be
   transferred or closed.
 
+## Refinement From SF-0001-CM1
+
+The first causal-model comparison narrows the test. A receiver should check
+whether a proposed mechanism keeps three contradiction types visible:
+
+1. a changed function or input path changes the validation burden;
+2. a human-response assumption becomes unvalidated under changed alert,
+   workload, or interface conditions; and
+3. delegated review can see the contradiction without a central owner absorbing
+   domain authority.
+
+Passing paperwork fields is insufficient if the contradiction can remain hidden.
+
 ## Permitted Receiver Disposition
 
 The receiver may kill, revise, defer, transfer, or admit a synthetic-only

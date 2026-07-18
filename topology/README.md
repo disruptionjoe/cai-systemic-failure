@@ -14,3 +14,7 @@ correction route.
 provides the first bounded record. Its pattern is kept narrow: assumption
 validation, changed-function integration, delegated review, and correction
 routing.
+
+`SF-0001-causal-model-comparison.md` compares provisional causal models and
+source-reported intervention classes. It does not create an accepted ontology;
+its candidate fields must survive a second record or absorber.

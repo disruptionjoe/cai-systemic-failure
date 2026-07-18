@@ -1,20 +1,20 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-18T13:42:00-05:00"
-run_ref: RUN-20260718-491-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-18T14:38:00-05:00"
+run_ref: RUN-20260718-493-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
-    light: yellow
-    reason_code: first_record_admitted_comparison_next
-    evidence_ref: "evidence/records/SF-0001-boeing-737-max-certification-assumption-chain.md; inquiries/SFQ-0001-assumption-validation-and-integrated-review.md"
-    summary: "First record admitted; causal-model comparison and inquiry refinement are next."
-    evaluated_at: "2026-07-18T13:42:00-05:00"
-    run_ref: RUN-20260718-491-repository-work-cycle-cai-hourly
+    light: green
+    reason_code: first_comparison_complete_second_record_next
+    evidence_ref: "topology/SF-0001-causal-model-comparison.md; inquiries/SFQ-0001-assumption-validation-and-integrated-review.md"
+    summary: "First comparison complete; second record or absorber is the next topology test."
+    evaluated_at: "2026-07-18T14:38:00-05:00"
+    run_ref: RUN-20260718-493-repository-work-cycle-cai-hourly
   - lane_id: A
     light: green
     reason_code: stewardship_controls_and_correction_route_intact
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml; evidence/README.md"
     summary: "Stewardship controls and correction routes remain explicit after first record."
-    evaluated_at: "2026-07-18T13:42:00-05:00"
-    run_ref: RUN-20260718-491-repository-work-cycle-cai-hourly
+    evaluated_at: "2026-07-18T14:38:00-05:00"
+    run_ref: RUN-20260718-493-repository-work-cycle-cai-hourly
