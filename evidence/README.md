@@ -13,3 +13,6 @@ research material is rejected and routed to a separately authorized secure owner
 - `records/SF-0002-columbia-foam-strike-review-chain.md` - bounded
   public-source synthesis of a hazard-normalization and mission-review chain
   used to test the first topology fields.
+- `records/SF-0003-flint-water-corrosion-control-review-chain.md` - bounded
+  public-source synthesis of a non-aerospace drinking-water review chain used
+  to test the provisional topology fields.

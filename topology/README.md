@@ -27,3 +27,8 @@ schema is accepted yet.
 technical remedy absorbs the pattern. It narrows but does not kill the
 review-chain fields; a third non-aerospace source-backed record is still needed
 before schema promotion.
+
+`evidence/records/SF-0003-flint-water-corrosion-control-review-chain.md` adds
+the third non-aerospace source-backed record. `SF-0003-third-domain-field-test.md`
+keeps the review-chain fields provisional and points next to a schema-readiness
+check rather than direct schema promotion.
