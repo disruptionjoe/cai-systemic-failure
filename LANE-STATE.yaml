@@ -1,7 +1,7 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-18T15:45:00-05:00"
+evaluated_at: "2026-07-18T15:40:00-05:00"
 run_ref: RUN-20260718-496-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
@@ -9,12 +9,12 @@ lanes:
     reason_code: second_record_cross_test_complete_absorber_next
     evidence_ref: "evidence/records/SF-0002-columbia-foam-strike-review-chain.md; topology/SF-0002-cross-record-field-test.md"
     summary: "Second record tested provisional fields; absorber or third record is next."
-    evaluated_at: "2026-07-18T15:45:00-05:00"
+    evaluated_at: "2026-07-18T15:40:00-05:00"
     run_ref: RUN-20260718-496-repository-work-cycle-cai-hourly
   - lane_id: A
     light: green
     reason_code: stewardship_controls_and_correction_route_intact
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml; evidence/README.md"
     summary: "Stewardship controls and correction routes remain explicit after second record."
-    evaluated_at: "2026-07-18T15:45:00-05:00"
+    evaluated_at: "2026-07-18T15:40:00-05:00"
     run_ref: RUN-20260718-496-repository-work-cycle-cai-hourly
