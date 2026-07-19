@@ -117,3 +117,11 @@ the case as positive evidence because the official sources center inadequate
 gusset-plate capacity, original design calculation, added load, construction-
 load placement, bridge load-rating scope, and inspection guidance rather than
 source-backed assumption reuse under changed conditions.
+
+`SF-ABS-0007-resource-adequacy-rolling-outages.md` tests a non-synthetic
+resource-adequacy and capacity-tradeoff false-positive class using the
+California August 2020 rotating-outage official source set. The candidate
+refuses the case as positive evidence because the official sources center
+extreme-weather stress, resource adequacy, capacity planning, market practice,
+operating reserve scarcity, import limits, and net-load timing rather than
+source-backed assumption reuse under changed conditions.

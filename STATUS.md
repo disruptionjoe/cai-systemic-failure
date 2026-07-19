@@ -76,17 +76,24 @@ because the sources center inadequate gusset-plate capacity, original design
 calculation, added load, construction-load placement, bridge load-rating scope,
 and inspection guidance rather than source-backed assumption reuse under
 changed conditions.
+`SF-ABS-0007` then tests a non-synthetic resource-adequacy and capacity-
+tradeoff false-positive class using the California August 2020 rotating-outage
+official source set. The candidate refuses the case as positive evidence
+because the sources center extreme-weather stress, resource adequacy, capacity
+planning, market practice, operating reserve scarcity, import limits, and net-
+load timing rather than source-backed assumption reuse under changed
+conditions.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
 absorber refusal, one synthetic correction-route stress test, and two
 post-absorber dispositions plus one non-accepting acceptance-bar review, one
-source-quality falsifier, and one warning/communication false-positive absorber
-one single-owner execution false-positive absorber, and one slow-degradation
-infrastructure-capacity absorber while preserving source requirements,
-counterevidence, correction routes, resident-warning caution, absorber
-discipline, remaining falsifier classes, and no-remedy boundaries. No human
-research, field data, intervention, participation, external action,
-consequential proving, legal/regulatory conclusion, or schema acceptance is
-active.
+source-quality falsifier, one warning/communication false-positive absorber,
+one single-owner execution false-positive absorber, one slow-degradation
+infrastructure-capacity absorber, and one resource-adequacy capacity-tradeoff
+absorber while preserving source requirements, counterevidence, correction
+routes, resident-warning caution, absorber discipline, remaining falsifier
+classes, and no-remedy boundaries. No human research, field data,
+intervention, participation, external action, consequential proving,
+legal/regulatory conclusion, or schema acceptance is active.
