@@ -95,3 +95,10 @@ hindsight-artifact falsifier class. The candidate refuses source-thin pattern
 matches that require the repository to reconstruct assumption context, changed
 condition, validation burden, review owner, or correction route from hindsight
 rather than source material.
+
+`SF-ABS-0004-warning-communication-false-alert.md` tests a non-synthetic
+warning/communication false-positive class using the Hawaii false ballistic-
+missile alert official source set. The candidate refuses the case as positive
+evidence because the official sources center false alerting, drill procedure,
+alert origination, safeguards, and correction-message delay rather than
+source-backed assumption reuse under changed conditions.

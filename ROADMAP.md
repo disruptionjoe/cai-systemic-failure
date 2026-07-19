@@ -40,10 +40,13 @@
 17. Done: run a source-quality and hindsight-artifact falsifier that refuses
     source-thin pattern matches before any schema acceptance packet
     (`SF-SQA-0001`).
-18. Next: choose another remaining falsifier class, preferably a non-synthetic
-    false-positive class from resource scarcity, single-owner execution,
-    warning/communication, or slow degradation, or a false-negative pressure
-    test where a plausible review-chain failure is not well represented by the
+18. Done: run a non-synthetic warning/communication false-positive absorber
+    using the Hawaii false ballistic-missile alert source set
+    (`SF-ABS-0004`).
+19. Next: choose another remaining falsifier class, preferably a non-synthetic
+    false-positive class from resource scarcity, single-owner execution, slow
+    degradation, or newly formed assumption, or a false-negative pressure test
+    where a plausible review-chain failure is not well represented by the
     current fields.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or

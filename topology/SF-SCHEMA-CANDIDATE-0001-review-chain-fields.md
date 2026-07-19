@@ -93,9 +93,16 @@ media-only, retrospective, or dependent on hindsight reconstruction rather than
 durable source material that can carry the assumption context, changed
 condition, validation burden, review owner, and correction route.
 
+Record a case as an absorber or separate topology question, not positive
+evidence for this candidate, when public official sources center false
+alerting, public warning, communication, correction-message delay, drill
+procedure, alert origination, or alert-system safeguards rather than
+source-backed assumption reuse under changed conditions.
+
 These refusal notes are source-gated and do not authorize legal, regulatory,
 environmental, health, enforcement, automotive, compliance, building-code,
-fire-safety, emergency-response, public-safety, or domain-remedy conclusions.
+fire-safety, emergency-response, public-safety, warning, communication,
+alerting-system, or domain-remedy conclusions.
 
 ## Non-Promotion Rules
 
@@ -124,6 +131,7 @@ This candidate cannot be used to:
 | `SF-0005` | Fits as a refurbishment, external-wall, fire-safety, and resident-warning review-chain record under public official evidence. | Building-safety, product, fire-service, resident-engagement, regulatory, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
 | `SF-ABS-0003` | Refused as positive fit. The NIST Station nightclub source set is a fire/life-safety code, material, sprinkler, pyrotechnic, egress, inspection, and emergency-response protection absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can accept one building/fire-safety review-chain record without claiming every public fire-safety failure. |
 | `SF-SQA-0001` | Refused as positive fit. Source-thin or hindsight-built pattern matches cannot qualify without source-backed assumption context, changed condition, validation burden, review owner, and correction route. | Source-quality failure absorbs attractive narratives before they stretch the candidate into a retrospective pattern label. |
+| `SF-ABS-0004` | Refused as positive fit. The Hawaii false-alert source set is a warning/communication, drill-procedure, alert-origination, safeguard, and correction-message absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve warning-route pressure without claiming every public alerting or communication failure. |
 
 ## Next Falsifier
 
@@ -143,7 +151,9 @@ candidate remains provisional until those unresolved classes are tested,
 explicitly deferred with reasons, or routed to the proper owner.
 
 `SF-SQA-0001-source-quality-falsifier.md` tests one remaining class by refusing
-source-quality and hindsight-artifact fits. The next useful test should come
-from a different remaining class, preferably a non-synthetic false-positive
-case from resource scarcity, single-owner execution, warning/communication, or
-slow degradation, or a false-negative pressure test.
+source-quality and hindsight-artifact fits.
+`SF-ABS-0004-warning-communication-false-alert.md` tests another by refusing a
+non-synthetic warning/communication false-positive case. The next useful test
+should come from a different remaining class, preferably resource scarcity,
+single-owner execution, slow degradation, newly formed assumption, or a
+false-negative pressure test.

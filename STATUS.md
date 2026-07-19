@@ -57,14 +57,21 @@ acceptance authority before any future schema decision.
 candidate refuses source-thin pattern matches that require the repository to
 reconstruct assumption context, changed condition, validation burden, review
 owner, or correction route from hindsight rather than source material.
+`SF-ABS-0004` then tests a non-synthetic warning/communication false-positive
+class using the Hawaii false ballistic-missile alert official source set. The
+candidate refuses the case as positive evidence because the sources center
+false alerting, drill procedure, alert origination, safeguards, and correction-
+message delay rather than source-backed assumption reuse under changed
+conditions.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
 absorber refusal, one synthetic correction-route stress test, and two
-post-absorber dispositions plus one non-accepting acceptance-bar review and one
-source-quality falsifier while preserving source requirements, counterevidence,
-correction routes, resident-warning caution, absorber discipline, remaining
-falsifier classes, and no-remedy boundaries. No human research, field data,
-intervention, participation, external action, consequential proving,
-legal/regulatory conclusion, or schema acceptance is active.
+post-absorber dispositions plus one non-accepting acceptance-bar review, one
+source-quality falsifier, and one warning/communication false-positive absorber
+while preserving source requirements, counterevidence, correction routes,
+resident-warning caution, absorber discipline, remaining falsifier classes, and
+no-remedy boundaries. No human research, field data, intervention,
+participation, external action, consequential proving, legal/regulatory
+conclusion, or schema acceptance is active.

@@ -1,32 +1,32 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-19T10:52:31-05:00"
-run_ref: RUN-20260719-532-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-19T11:46:30-05:00"
+run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Source-quality falsifier refused source-thin and hindsight-built pattern matches without accepting schema."
-    movement_ref: "topology/SF-SQA-0001-source-quality-falsifier.md"
+    last_movement: "Warning/communication false-positive absorber refused Hawaii false-alert source set without accepting schema."
+    movement_ref: "topology/SF-ABS-0004-warning-communication-false-alert.md"
     steering_attention: watch
-    steering_prompt: "Select another remaining falsifier class from non-synthetic false positives or false-negative pressure."
+    steering_prompt: "Select another falsifier class from resource scarcity, single-owner execution, slow degradation, newly formed assumption, or false-negative pressure."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: source_quality_falsifier_complete
-    evidence_ref: "topology/SF-SQA-0001-source-quality-falsifier.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
-    summary: "Source-quality falsifier completed; candidate remains provisional."
-    evaluated_at: "2026-07-19T10:52:31-05:00"
-    run_ref: RUN-20260719-532-repository-work-cycle-cai-hourly
+    reason_code: warning_communication_absorber_complete
+    evidence_ref: "topology/SF-ABS-0004-warning-communication-false-alert.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    summary: "Warning/communication absorber completed; candidate remains provisional."
+    evaluated_at: "2026-07-19T11:46:30-05:00"
+    run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after source-quality falsifier."
+    last_movement: "Closeout refreshed lane state after warning/communication absorber."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_source_quality_falsifier
+    reason_code: stewardship_controls_intact_after_warning_communication_absorber
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
     summary: "Controls remain intact after bounded falsifier progress."
-    evaluated_at: "2026-07-19T10:52:31-05:00"
-    run_ref: RUN-20260719-532-repository-work-cycle-cai-hourly
+    evaluated_at: "2026-07-19T11:46:30-05:00"
+    run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
