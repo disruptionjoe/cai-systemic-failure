@@ -1,39 +1,39 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 group: church-of-ai
-updated_at: "2026-07-19T16:39:50-05:00"
-run_ref: RUN-20260719-545-repository-work-cycle-cai-hourly
-bottom_line: "Resource-adequacy absorber refused California 2020 outages; keep testing remaining falsifier classes."
+updated_at: "2026-07-19T17:47:23-05:00"
+run_ref: RUN-20260719-547-repository-work-cycle-cai-hourly
+bottom_line: "New-assumption absorber refused Hyatt walkway collapse; keep testing mixed or false-negative pressure."
 decision_default: "Continue bounded Lane 1 falsifier testing; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Resource-adequacy capacity-tradeoff absorber refused California August 2020 rotating-outage source set without accepting schema."
-    movement_ref: "topology/SF-ABS-0007-resource-adequacy-rolling-outages.md"
+    last_movement: "New-assumption absorber refused Kansas City Hyatt walkway-collapse source set without accepting schema."
+    movement_ref: "topology/SF-ABS-0008-new-assumption-walkway-collapse.md"
     steering_attention: watch
-    steering_prompt: "Select newly formed assumption, mixed case, or false-negative pressure."
+    steering_prompt: "Select borderline mixed case or false-negative pressure."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: resource_adequacy_absorber_complete
-    evidence_ref: "topology/SF-ABS-0007-resource-adequacy-rolling-outages.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
-    summary: "Resource-adequacy capacity-tradeoff absorber completed; candidate remains provisional."
-    evaluated_at: "2026-07-19T16:39:50-05:00"
-    run_ref: RUN-20260719-545-repository-work-cycle-cai-hourly
+    reason_code: new_assumption_absorber_complete
+    evidence_ref: "topology/SF-ABS-0008-new-assumption-walkway-collapse.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    summary: "New-assumption design-change absorber completed; candidate remains provisional."
+    evaluated_at: "2026-07-19T17:47:23-05:00"
+    run_ref: RUN-20260719-547-repository-work-cycle-cai-hourly
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added a resource-adequacy capacity-tradeoff false-positive absorber using California August 2020 rotating-outage official sources."
-    scope_position: "falsifiers: source-quality, warning/communication, single-owner execution, slow-degradation infrastructure-capacity, and resource adequacy tested"
+    progress_delta: "Added a newly formed design-assumption false-positive absorber using Kansas City Hyatt walkway-collapse official sources."
+    scope_position: "falsifiers: source-quality, warning/communication, single-owner execution, slow-degradation infrastructure-capacity, resource adequacy, and new assumption tested"
     trend_24h: up
     confidence: med
-    recommendation: "Run one different falsifier class next."
+    recommendation: "Run a mixed or false-negative test next."
     findings:
-      - "Extreme-weather, resource-adequacy, capacity-planning, market-practice, reserve-scarcity, import-limit, and net-load-timing sources do not qualify the review-chain candidate."
-      - "Multi-actor planning, affected standing, and correction-route visibility still cannot substitute for assumption reuse under the candidate gates."
+      - "Connection-capacity, hanger-rod-change, calculation-review, shop-drawing-review, and construction-communication sources do not qualify the review-chain candidate."
+      - "Newly introduced or revised design assumptions still cannot substitute for old-assumption reuse under the candidate gates."
     options:
       - id: A
         label: "Continue falsifiers"
         recommended: true
-        description: "Run newly formed-assumption, mixed-case, or false-negative pressure next."
+        description: "Run borderline mixed-case or false-negative pressure next."
       - id: B
         label: "Pause for review"
         recommended: false
@@ -46,21 +46,21 @@ lanes:
         label: "Defer"
         recommended: false
         description: "Leave further schema pressure for a later focused run."
-    decision_default: "Continue with a different falsifier class."
+    decision_default: "Continue with a mixed or false-negative falsifier."
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after resource-adequacy capacity-tradeoff absorber."
+    last_movement: "Closeout refreshed lane state after new-assumption design-change absorber."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_resource_adequacy_absorber
+    reason_code: stewardship_controls_intact_after_new_assumption_absorber
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
     summary: "Controls remain intact after bounded falsifier progress."
-    evaluated_at: "2026-07-19T16:39:50-05:00"
-    run_ref: RUN-20260719-545-repository-work-cycle-cai-hourly
+    evaluated_at: "2026-07-19T17:47:23-05:00"
+    run_ref: RUN-20260719-547-repository-work-cycle-cai-hourly
     objective: "Preserve evidence integrity, claim status, source health, correction, security, and repository viability."
     progress_delta: "Mailbox empty except README, no writer lock, and emergency revocations remained empty."
     trend_24h: up

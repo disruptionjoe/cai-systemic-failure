@@ -120,6 +120,12 @@ import limits, load forecast, resource procurement, or similar capacity-
 tradeoff controls rather than source-backed assumption reuse under changed
 conditions.
 
+Record a case as an absorber or separate topology question, not positive
+evidence for this candidate, when public official sources center newly
+introduced design, configuration, shop-drawing, construction-detail,
+calculation-review, or change-control assumptions rather than source-backed
+reuse of an old assumption under changed conditions.
+
 These refusal notes are source-gated and do not authorize legal, regulatory,
 environmental, health, enforcement, automotive, compliance, building-code,
 fire-safety, emergency-response, public-safety, warning, communication,
@@ -127,7 +133,9 @@ alerting-system, rail-safety, train-control, transportation-safety, bridge-
 safety, structural-engineering, transportation-infrastructure, inspection,
 maintenance, construction-load, electric-reliability, power-market, resource-
 procurement, operating-reserve, load-forecasting, planning, or domain-remedy
-conclusions.
+conclusions, construction-management conclusions, professional-liability
+conclusions, design-review conclusions, shop-drawing-review conclusions, or
+change-control conclusions.
 
 ## Non-Promotion Rules
 
@@ -160,6 +168,7 @@ This candidate cannot be used to:
 | `SF-ABS-0005` | Refused as positive fit. The Amtrak Train 188 source set is a single-owner execution, situational-awareness, speed-compliance, train-control, occupant-protection, and emergency-response absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve affected standing and correction-route visibility without claiming every point-of-operation execution failure. |
 | `SF-ABS-0006` | Refused as positive fit. The I-35W bridge-collapse source set is a slow-degradation, infrastructure-capacity, original-design-calculation, added-load, load-rating, construction-load, and inspection-guidance absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve long-lived defect and changed-load pressure without claiming every infrastructure-capacity failure. |
 | `SF-ABS-0007` | Refused as positive fit. The California August 2020 rotating-outage source set is a resource-adequacy, capacity-planning, market-practice, operating-reserve, import-limit, and net-load-timing absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve multi-actor planning and correction-route visibility without claiming every capacity-tradeoff failure. |
+| `SF-ABS-0008` | Refused as positive fit. The Kansas City Hyatt walkway-collapse source set is a new or changed design, connection-capacity, hanger-rod-arrangement, calculation-review, shop-drawing-review, and construction-communication absorber, not an old-assumption reuse review-chain record. | The absorber shows the candidate can preserve review and correction-route visibility without claiming every changed design or construction-detail failure. |
 
 ## Next Falsifier
 
@@ -189,6 +198,7 @@ case.
 non-synthetic slow-degradation and infrastructure-capacity false-positive case.
 `SF-ABS-0007-resource-adequacy-rolling-outages.md` tests another by refusing a
 non-synthetic resource-adequacy and capacity-tradeoff false-positive case.
+`SF-ABS-0008-new-assumption-walkway-collapse.md` tests another by refusing a
+non-synthetic newly formed or changed design-assumption false-positive case.
 The next useful test should come from a different remaining class, preferably a
-newly formed assumption, a borderline mixed case, or a false-negative pressure
-test.
+borderline mixed case or a false-negative pressure test.

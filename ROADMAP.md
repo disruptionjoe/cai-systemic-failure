@@ -51,10 +51,12 @@
 21. Done: run a non-synthetic resource-adequacy and capacity-tradeoff false-
     positive absorber using the California August 2020 rotating-outage source
     set (`SF-ABS-0007`).
-22. Next: choose another remaining falsifier class, preferably newly formed
-    assumption, a borderline mixed case, or a false-negative pressure test where
-    a plausible review-chain failure is not well represented by the current
-    fields.
+22. Done: run a non-synthetic newly formed or changed design-assumption false-
+    positive absorber using the Kansas City Hyatt walkway-collapse NBS/NIST
+    source set (`SF-ABS-0008`).
+23. Next: choose a different remaining falsifier class, preferably a borderline
+    mixed case or a false-negative pressure test where a plausible review-chain
+    failure is not well represented by the current fields.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

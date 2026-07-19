@@ -125,3 +125,11 @@ refuses the case as positive evidence because the official sources center
 extreme-weather stress, resource adequacy, capacity planning, market practice,
 operating reserve scarcity, import limits, and net-load timing rather than
 source-backed assumption reuse under changed conditions.
+
+`SF-ABS-0008-new-assumption-walkway-collapse.md` tests a non-synthetic newly
+formed or changed design-assumption false-positive class using the Kansas City
+Hyatt walkway-collapse NBS/NIST source set. The candidate refuses the case as
+positive evidence because the official sources center connection capacity,
+hanger-rod arrangement change, calculation review, shop-drawing review, and
+construction-detail communication rather than source-backed reuse of an old
+assumption under changed conditions.
