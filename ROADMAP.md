@@ -27,8 +27,11 @@
 13. Done: add fifth public-source pressure from a high-rise residential
     building, fire-safety, refurbishment, and resident-warning review-chain
     record (`SF-0005`) with a fifth-record correction-route test.
-14. Next: run a non-synthetic negative absorber that is not merely another
-    deliberate control-bypass case before any schema acceptance.
+14. Done: run a non-synthetic negative absorber that is not merely another
+    deliberate control-bypass case before any schema acceptance
+    (`SF-ABS-0003`).
+15. Next: write a two-absorber post-disposition comparing `SF-ABS-0002` and
+    `SF-ABS-0003` before any schema acceptance.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

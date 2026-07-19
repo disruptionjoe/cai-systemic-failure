@@ -40,12 +40,18 @@ residential building, fire-safety, refurbishment, and resident-warning source
 material. The fifth-record correction-route test keeps the candidate
 provisional and adds only a source-gated resident-warning-route annotation
 pressure.
+`SF-ABS-0003` then tests a non-synthetic Station nightclub fire negative
+absorber from public NIST sources. The candidate refuses that case as positive
+evidence because the source set centers fire/life-safety code, material,
+sprinkler, pyrotechnic, egress, and inspection or emergency-response protection
+rather than source-backed assumption reuse under changed conditions.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
-negative-absorber refusal, one post-absorber disposition, and one synthetic
-correction-route stress test while preserving source requirements,
-counterevidence, correction routes, resident-warning caution, and no-remedy
-boundaries. No human research, field data, intervention, participation,
-external action, consequential proving, legal/regulatory conclusion, or schema
-acceptance is active.
+control-bypass negative-absorber refusal, one domain-code/protection negative-
+absorber refusal, one post-absorber disposition, and one synthetic correction-
+route stress test while preserving source requirements, counterevidence,
+correction routes, resident-warning caution, and no-remedy boundaries. No human
+research, field data, intervention, participation, external action,
+consequential proving, legal/regulatory conclusion, or schema acceptance is
+active.

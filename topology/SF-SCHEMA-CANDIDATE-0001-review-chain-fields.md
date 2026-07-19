@@ -80,8 +80,16 @@ control bypass, test circumvention, false reporting, or similar adversarial
 compliance behavior rather than source-backed assumption reuse under changed
 conditions.
 
-This refusal note is source-gated and does not authorize legal, regulatory,
-environmental, health, enforcement, automotive, or compliance conclusions.
+Record a case as an absorber or separate topology question, not positive
+evidence for this candidate, when public source material centers domain-code
+application, fire/life-safety protection, material flammability, suppression,
+pyrotechnic, evacuation, inspection, emergency-response, or similar domain-
+specific remedy paths rather than source-backed assumption reuse under changed
+conditions.
+
+These refusal notes are source-gated and do not authorize legal, regulatory,
+environmental, health, enforcement, automotive, compliance, building-code,
+fire-safety, emergency-response, public-safety, or domain-remedy conclusions.
 
 ## Non-Promotion Rules
 
@@ -108,11 +116,12 @@ This candidate cannot be used to:
 | `SF-ABS-0002` | Refused as positive fit. The Volkswagen defeat-device source set is a control-bypass and false-reporting absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can reject a systemic-failure case instead of overgeneralizing. |
 | `SF-CRT-0001` | Refused as positive fit. The synthetic stress fixture has apparent assumption reuse under changed conditions but lacks an owner-visible correction route. | The stress test preserves correction-route discipline; assumption reuse alone cannot qualify the candidate. |
 | `SF-0005` | Fits as a refurbishment, external-wall, fire-safety, and resident-warning review-chain record under public official evidence. | Building-safety, product, fire-service, resident-engagement, regulatory, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
+| `SF-ABS-0003` | Refused as positive fit. The NIST Station nightclub source set is a fire/life-safety code, material, sprinkler, pyrotechnic, egress, inspection, and emergency-response protection absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can accept one building/fire-safety review-chain record without claiming every public fire-safety failure. |
 
 ## Next Falsifier
 
-Do not accept this schema yet. `SF-0005-fifth-record-correction-route-test.md`
-adds public-source pressure from a new domain and correction-route posture, but
-it does not provide acceptance authority. The next useful test is a
-non-synthetic negative absorber that is not merely another deliberate control-
-bypass case.
+Do not accept this schema yet. `SF-ABS-0003-negative-absorber-station-nightclub.md`
+adds a non-synthetic negative absorber that is not merely another deliberate
+control-bypass case, but it does not provide acceptance authority. The next
+useful test is a post-absorber disposition comparing `SF-ABS-0002` and
+`SF-ABS-0003` before any schema acceptance.
