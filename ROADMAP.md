@@ -30,8 +30,12 @@
 14. Done: run a non-synthetic negative absorber that is not merely another
     deliberate control-bypass case before any schema acceptance
     (`SF-ABS-0003`).
-15. Next: write a two-absorber post-disposition comparing `SF-ABS-0002` and
-    `SF-ABS-0003` before any schema acceptance.
+15. Done: write a two-absorber post-disposition comparing `SF-ABS-0002` and
+    `SF-ABS-0003` while refusing schema acceptance
+    (`SF-SCHEMA-DISPOSITION-0002`).
+16. Next: run a schema acceptance-bar review that names future promotion
+    prerequisites, remaining falsifier classes, and the proper acceptance
+    authority without accepting the schema.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

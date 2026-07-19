@@ -78,5 +78,9 @@ against the NIST Station nightclub fire source set. The candidate refuses the
 case as positive evidence because the official sources center fire/life-safety
 code, material, sprinkler, pyrotechnic, egress, inspection, and emergency-
 response protection rather than source-backed assumption reuse under changed
-conditions. The next useful step is a two-absorber post-disposition before any
-schema acceptance.
+conditions.
+
+`SF-SCHEMA-DISPOSITION-0002-two-absorber-post-disposition.md` compares
+`SF-ABS-0002` and `SF-ABS-0003`. It keeps the candidate provisional, refuses
+schema acceptance, preserves both refusal notes, and points next to a schema
+acceptance-bar review rather than promotion.

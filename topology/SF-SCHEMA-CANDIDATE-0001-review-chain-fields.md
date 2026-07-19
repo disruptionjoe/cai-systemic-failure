@@ -120,8 +120,12 @@ This candidate cannot be used to:
 
 ## Next Falsifier
 
-Do not accept this schema yet. `SF-ABS-0003-negative-absorber-station-nightclub.md`
-adds a non-synthetic negative absorber that is not merely another deliberate
-control-bypass case, but it does not provide acceptance authority. The next
-useful test is a post-absorber disposition comparing `SF-ABS-0002` and
-`SF-ABS-0003` before any schema acceptance.
+Do not accept this schema yet.
+`SF-SCHEMA-DISPOSITION-0002-two-absorber-post-disposition.md` compares
+`SF-ABS-0002` and `SF-ABS-0003`, keeps the candidate provisional, and refuses
+schema acceptance.
+
+The next useful test is a schema acceptance-bar review that names future
+promotion prerequisites, remaining false-positive or false-negative classes,
+counterevidence that would kill or demote the candidate, and the proper
+acceptance authority. That review should not accept the schema.

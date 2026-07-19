@@ -45,13 +45,17 @@ absorber from public NIST sources. The candidate refuses that case as positive
 evidence because the source set centers fire/life-safety code, material,
 sprinkler, pyrotechnic, egress, and inspection or emergency-response protection
 rather than source-backed assumption reuse under changed conditions.
+`SF-SCHEMA-DISPOSITION-0002` compares the Volkswagen defeat-device and Station
+nightclub negative absorbers. It keeps the candidate as a local provisional
+record screen, refuses schema acceptance, preserves both refusal notes, and
+points next to an acceptance-bar review rather than promotion.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
-absorber refusal, one post-absorber disposition, and one synthetic correction-
-route stress test while preserving source requirements, counterevidence,
-correction routes, resident-warning caution, and no-remedy boundaries. No human
-research, field data, intervention, participation, external action,
-consequential proving, legal/regulatory conclusion, or schema acceptance is
-active.
+absorber refusal, one synthetic correction-route stress test, and two
+post-absorber dispositions while preserving source requirements,
+counterevidence, correction routes, resident-warning caution, absorber
+discipline, and no-remedy boundaries. No human research, field data,
+intervention, participation, external action, consequential proving,
+legal/regulatory conclusion, or schema acceptance is active.
