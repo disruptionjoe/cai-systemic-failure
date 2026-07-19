@@ -32,11 +32,14 @@ evidence because the official sources center control bypass and false reporting
 rather than assumption reuse under changed conditions.
 `SF-SCHEMA-DISPOSITION-0001` keeps the candidate as a local provisional record
 screen after the negative absorber and refuses schema acceptance.
+`SF-CRT-0001` then runs a synthetic correction-route stress test. The candidate
+refuses a fixture with apparent assumption reuse under changed conditions when
+no owner-visible correction path can be named.
 
 No topology ontology is asserted yet; the first schema should be considered
-only as a provisional candidate that has survived one refusal test and a
-post-absorber disposition while preserving source requirements,
-counterevidence, correction routes, and no-remedy boundaries. No human
-research, field data, intervention, participation, external action,
-consequential proving, legal/regulatory conclusion, or schema acceptance is
-active.
+only as a provisional candidate that has survived one refusal test, a
+post-absorber disposition, and one synthetic correction-route stress test while
+preserving source requirements, counterevidence, correction routes, and
+no-remedy boundaries. No human research, field data, intervention,
+participation, external action, consequential proving, legal/regulatory
+conclusion, or schema acceptance is active.

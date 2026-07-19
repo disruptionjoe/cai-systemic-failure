@@ -1,32 +1,32 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-18T22:42:34-05:00"
-run_ref: RUN-20260718-516-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-18T23:55:00-05:00"
+run_ref: RUN-20260718-519-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Post-absorber disposition kept schema candidate provisional."
-    movement_ref: "topology/SF-SCHEMA-DISPOSITION-0001-post-absorber.md"
+    last_movement: "Synthetic correction-route stress test refused positive fit."
+    movement_ref: "topology/SF-CRT-0001-correction-route-stress-test.md"
     steering_attention: watch
-    steering_prompt: "Run another falsifier before any schema acceptance."
-    steering_ref: "topology/SF-SCHEMA-DISPOSITION-0001-post-absorber.md"
+    steering_prompt: "Use public-source pressure before any schema acceptance."
+    steering_ref: "ROADMAP.md"
     light: green
-    reason_code: post_absorber_disposition_complete
-    evidence_ref: "topology/SF-SCHEMA-DISPOSITION-0001-post-absorber.md"
-    summary: "Candidate stays provisional; next work is a different falsifier."
-    evaluated_at: "2026-07-18T22:42:34-05:00"
-    run_ref: RUN-20260718-516-repository-work-cycle-cai-hourly
+    reason_code: correction_route_stress_test_complete
+    evidence_ref: "topology/SF-CRT-0001-correction-route-stress-test.md"
+    summary: "Synthetic stress test preserved correction-route refusal gate."
+    evaluated_at: "2026-07-18T23:55:00-05:00"
+    run_ref: RUN-20260718-519-repository-work-cycle-cai-hourly
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after bounded progress."
+    last_movement: "Closeout refreshed lane state after correction-route stress test."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_disposition
+    reason_code: stewardship_controls_intact_after_stress_test
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
-    summary: "Controls remain intact after bounded post-absorber progress."
-    evaluated_at: "2026-07-18T22:42:34-05:00"
-    run_ref: RUN-20260718-516-repository-work-cycle-cai-hourly
+    summary: "Controls remain intact after bounded correction-route progress."
+    evaluated_at: "2026-07-18T23:55:00-05:00"
+    run_ref: RUN-20260718-519-repository-work-cycle-cai-hourly

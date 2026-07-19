@@ -103,12 +103,13 @@ This candidate cannot be used to:
 | `SF-0003` | Fits as a changed-source corrosion-control and exposure-risk review-chain record under public official evidence. | Drinking-water, public-health, legal, and civil-rights remedy domains narrow but do not absorb validation burden, affected-person standing, and correction route. |
 | `SF-0004` | Fits as a negative-pressure-test and barrier-assumption review-chain record under public official evidence. | Offshore energy, process-safety, emergency, environmental, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
 | `SF-ABS-0002` | Refused as positive fit. The Volkswagen defeat-device source set is a control-bypass and false-reporting absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can reject a systemic-failure case instead of overgeneralizing. |
+| `SF-CRT-0001` | Refused as positive fit. The synthetic stress fixture has apparent assumption reuse under changed conditions but lacks an owner-visible correction route. | The stress test preserves correction-route discipline; assumption reuse alone cannot qualify the candidate. |
 
 ## Next Falsifier
 
-Do not accept this schema yet. `SF-SCHEMA-DISPOSITION-0001-post-absorber.md`
-keeps the candidate as a local provisional record screen after four positive
-records, one narrowing domain-remedy absorber, and one clean negative absorber
-refusal. The next useful test is a materially different falsifier before any
-schema acceptance: a second negative absorber, a fifth source-backed record with
-new domain pressure, or a correction-route stress test.
+Do not accept this schema yet. `SF-CRT-0001-correction-route-stress-test.md`
+satisfies the immediate post-disposition falsifier as a synthetic gate stress
+test, but it does not provide real-world source confirmation or acceptance
+authority. The next useful test is public-source pressure from either a fifth
+record with materially new domain or correction-route posture, or a
+non-synthetic negative absorber that is not merely another control-bypass case.

@@ -59,3 +59,9 @@ changed conditions. The candidate remains provisional and unaccepted.
 disposition. It keeps `SF-SCHEMA-CANDIDATE-0001` as a local provisional record
 screen, refuses schema acceptance, and requires another meaningful falsifier
 before any promotion.
+
+`SF-CRT-0001-correction-route-stress-test.md` runs a synthetic correction-route
+stress test. The candidate refuses a fixture where assumption reuse, changed
+condition, validation burden, and affected standing appear present, but no
+owner-visible correction route can be named. The candidate remains provisional;
+the correction-route gate is hard.
