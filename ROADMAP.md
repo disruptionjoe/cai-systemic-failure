@@ -43,10 +43,12 @@
 18. Done: run a non-synthetic warning/communication false-positive absorber
     using the Hawaii false ballistic-missile alert source set
     (`SF-ABS-0004`).
-19. Next: choose another remaining falsifier class, preferably a non-synthetic
-    false-positive class from resource scarcity, single-owner execution, slow
-    degradation, or newly formed assumption, or a false-negative pressure test
-    where a plausible review-chain failure is not well represented by the
+19. Done: run a non-synthetic single-owner execution false-positive absorber
+    using the Amtrak Train 188 source set (`SF-ABS-0005`).
+20. Next: choose another remaining falsifier class, preferably a non-synthetic
+    false-positive class from resource scarcity, slow degradation, or newly
+    formed assumption, a borderline mixed case, or a false-negative pressure
+    test where a plausible review-chain failure is not well represented by the
     current fields.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or

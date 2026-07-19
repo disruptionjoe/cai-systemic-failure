@@ -1,32 +1,99 @@
-schema_version: "1.0"
+schema_version: "2.0"
 owner_id: cai-systemic-failure
-rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-19T11:46:30-05:00"
-run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
+group: church-of-ai
+updated_at: "2026-07-19T12:52:26-05:00"
+run_ref: RUN-20260719-536-repository-work-cycle-cai-hourly
+bottom_line: "Single-owner execution absorber refused Amtrak 188; keep testing remaining falsifier classes."
+decision_default: "Continue bounded Lane 1 falsifier testing; no Joe action needed."
+needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Warning/communication false-positive absorber refused Hawaii false-alert source set without accepting schema."
-    movement_ref: "topology/SF-ABS-0004-warning-communication-false-alert.md"
+    last_movement: "Single-owner execution absorber refused Amtrak Train 188 source set without accepting schema."
+    movement_ref: "topology/SF-ABS-0005-single-owner-execution-train-188.md"
     steering_attention: watch
-    steering_prompt: "Select another falsifier class from resource scarcity, single-owner execution, slow degradation, newly formed assumption, or false-negative pressure."
+    steering_prompt: "Select resource scarcity, slow degradation, newly formed assumption, mixed case, or false-negative pressure."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: warning_communication_absorber_complete
-    evidence_ref: "topology/SF-ABS-0004-warning-communication-false-alert.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
-    summary: "Warning/communication absorber completed; candidate remains provisional."
-    evaluated_at: "2026-07-19T11:46:30-05:00"
-    run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
+    reason_code: single_owner_execution_absorber_complete
+    evidence_ref: "topology/SF-ABS-0005-single-owner-execution-train-188.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    summary: "Single-owner execution absorber completed; candidate remains provisional."
+    evaluated_at: "2026-07-19T12:52:26-05:00"
+    run_ref: RUN-20260719-536-repository-work-cycle-cai-hourly
+    objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
+    progress_delta: "Added a single-owner execution false-positive absorber using Amtrak Train 188 official sources."
+    scope_position: "falsifiers: source-quality, warning/communication, and single-owner execution tested"
+    trend_24h: up
+    confidence: med
+    recommendation: "Run one different falsifier class next."
+    findings:
+      - "Point-of-operation execution and train-control failures do not qualify the review-chain candidate."
+      - "Affected standing plus visible correction routes still cannot substitute for assumption reuse."
+    options:
+      - id: A
+        label: "Continue falsifiers"
+        recommended: true
+        description: "Run resource-scarcity, slow-degradation, newly formed-assumption, mixed-case, or false-negative pressure next."
+      - id: B
+        label: "Pause for review"
+        recommended: false
+        description: "Hold the candidate provisional and let Joe inspect unresolved classes."
+      - id: C
+        label: "Draft packet"
+        recommended: false
+        description: "Prepare a non-accepting packet summarizing tested and unresolved gates."
+      - id: D
+        label: "Defer"
+        recommended: false
+        description: "Leave further schema pressure for a later focused run."
+    decision_default: "Continue with a different falsifier class."
+    needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after warning/communication absorber."
+    last_movement: "Closeout refreshed lane state after single-owner execution absorber."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_warning_communication_absorber
+    reason_code: stewardship_controls_intact_after_single_owner_absorber
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
     summary: "Controls remain intact after bounded falsifier progress."
-    evaluated_at: "2026-07-19T11:46:30-05:00"
-    run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
+    evaluated_at: "2026-07-19T12:52:26-05:00"
+    run_ref: RUN-20260719-536-repository-work-cycle-cai-hourly
+    objective: "Preserve evidence integrity, claim status, source health, correction, security, and repository viability."
+    progress_delta: "Mailbox empty except README, no writer lock, and emergency revocations remained empty."
+    trend_24h: up
+    confidence: high
+    recommendation: "No stewardship action needed."
+    findings:
+      - "No unarchived mailbox proposals required disposition."
+      - "Writer lock absent and emergency revocations empty before write."
+      - "Repo state was clean/even before work began."
+    options:
+      - id: A
+        label: "Continue progress"
+        recommended: true
+        description: "Let Lane 1 continue bounded falsifier work under the live grant."
+      - id: B
+        label: "Stewardship audit"
+        recommended: false
+        description: "Run a later source/index integrity pass if progress stalls."
+      - id: C
+        label: "Hold automation"
+        recommended: false
+        description: "Pause scheduled CAI-directed work only if Joe wants a governance review."
+      - id: D
+        label: "Defer"
+        recommended: false
+        description: "No current stewardship decision is needed."
+    decision_default: "Continue bounded Lane 1 progress."
+    needs_joe: false
+    drift_verdict: clean
+    action_counts:
+      mail: 0
+      reconciled: 0
+      integrity_repairs: 0
+      seeds_routed: 0
+      escalations: 0
+    attention_pointer: "nothing needs you"

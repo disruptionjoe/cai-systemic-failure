@@ -102,3 +102,10 @@ missile alert official source set. The candidate refuses the case as positive
 evidence because the official sources center false alerting, drill procedure,
 alert origination, safeguards, and correction-message delay rather than
 source-backed assumption reuse under changed conditions.
+
+`SF-ABS-0005-single-owner-execution-train-188.md` tests a non-synthetic
+single-owner execution false-positive class using the Amtrak Train 188 official
+source set. The candidate refuses the case as positive evidence because the
+official sources center situational awareness, task management, speed
+compliance, train-control protection, occupant protection, and emergency
+response rather than source-backed assumption reuse under changed conditions.
