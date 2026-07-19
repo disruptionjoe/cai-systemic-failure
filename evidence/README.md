@@ -16,3 +16,6 @@ research material is rejected and routed to a separately authorized secure owner
 - `records/SF-0003-flint-water-corrosion-control-review-chain.md` - bounded
   public-source synthesis of a non-aerospace drinking-water review chain used
   to test the provisional topology fields.
+- `records/SF-0004-deepwater-horizon-negative-pressure-review-chain.md` -
+  bounded public-source synthesis of an offshore energy/process-safety review
+  chain used as the fourth provisional schema-candidate test.

@@ -22,10 +22,14 @@ points next to a schema-readiness check.
 ready for a constrained, source-gated schema candidate, not accepted schema.
 `SF-SCHEMA-CANDIDATE-0001` drafts that provisional candidate with qualification
 gates, field refusal conditions, source-gated annotations, absorber controls,
-and non-promotion rules. It is still not accepted schema.
+and non-promotion rules. `SF-0004` adds a fourth source-backed Deepwater
+Horizon / Macondo negative-pressure-test record and tests the candidate in
+offshore energy/process safety. The candidate survives only provisionally and
+adds a source-gated procedural-acceptance annotation pressure. It is still not
+accepted schema.
 
 No topology ontology is asserted yet; the first schema should be considered
-only as a provisional candidate that must survive a fourth source-backed record
-or negative absorber while preserving source requirements, counterevidence,
-correction routes, and no-remedy boundaries. No human research, field data,
-intervention, participation, external action, or consequential proving is active.
+only as a provisional candidate that must survive a negative absorber while
+preserving source requirements, counterevidence, correction routes, and
+no-remedy boundaries. No human research, field data, intervention,
+participation, external action, or consequential proving is active.

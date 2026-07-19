@@ -42,3 +42,9 @@ absorber, correction-route, and no-remedy boundaries.
 candidate. It defines qualification gates, field refusals, source-gated
 annotations, non-promotion rules, and the next falsifier. The schema remains
 unaccepted until a fourth source-backed record or negative absorber tests it.
+
+`evidence/records/SF-0004-deepwater-horizon-negative-pressure-review-chain.md`
+adds a fourth source-backed domain test from offshore energy/process safety.
+`SF-0004-fourth-record-schema-candidate-test.md` keeps the candidate
+provisional, adds only an annotation pressure, and points next to a negative
+absorber before any acceptance.
