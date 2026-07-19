@@ -125,7 +125,12 @@ Do not accept this schema yet.
 `SF-ABS-0002` and `SF-ABS-0003`, keeps the candidate provisional, and refuses
 schema acceptance.
 
-The next useful test is a schema acceptance-bar review that names future
-promotion prerequisites, remaining false-positive or false-negative classes,
-counterevidence that would kill or demote the candidate, and the proper
-acceptance authority. That review should not accept the schema.
+`SF-SCHEMA-ACCEPTANCE-BAR-0001-review-chain-fields.md` completed a
+non-accepting acceptance-bar review. It names future promotion prerequisites,
+remaining false-positive and false-negative classes, counterevidence that would
+kill or demote the candidate, and the proper acceptance authority.
+
+The next useful test is one remaining falsifier class, preferably a
+non-synthetic false-positive class or a false-negative pressure test. The
+candidate remains provisional until those unresolved classes are tested,
+explicitly deferred with reasons, or routed to the proper owner.

@@ -84,3 +84,8 @@ conditions.
 `SF-ABS-0002` and `SF-ABS-0003`. It keeps the candidate provisional, refuses
 schema acceptance, preserves both refusal notes, and points next to a schema
 acceptance-bar review rather than promotion.
+
+`SF-SCHEMA-ACCEPTANCE-BAR-0001-review-chain-fields.md` runs that review. It
+keeps the candidate provisional, names promotion prerequisites, remaining
+falsifier classes, kill or demotion evidence, and the authority path required
+before any future schema acceptance.

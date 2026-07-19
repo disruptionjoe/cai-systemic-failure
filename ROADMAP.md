@@ -33,9 +33,13 @@
 15. Done: write a two-absorber post-disposition comparing `SF-ABS-0002` and
     `SF-ABS-0003` while refusing schema acceptance
     (`SF-SCHEMA-DISPOSITION-0002`).
-16. Next: run a schema acceptance-bar review that names future promotion
+16. Done: run a schema acceptance-bar review that names future promotion
     prerequisites, remaining falsifier classes, and the proper acceptance
-    authority without accepting the schema.
+    authority without accepting the schema
+    (`SF-SCHEMA-ACCEPTANCE-BAR-0001`).
+17. Next: choose one remaining falsifier class for bounded testing, preferably
+    a non-synthetic false-positive class or a false-negative pressure test,
+    before any schema acceptance packet.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

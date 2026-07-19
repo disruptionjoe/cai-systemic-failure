@@ -1,32 +1,32 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-19T08:47:27-05:00"
-run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-19T09:48:18-05:00"
+run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Two-absorber disposition preserved provisional status and refused acceptance."
-    movement_ref: "topology/SF-SCHEMA-DISPOSITION-0002-two-absorber-post-disposition.md"
+    last_movement: "Acceptance-bar review named promotion prerequisites and remaining falsifier classes without accepting schema."
+    movement_ref: "topology/SF-SCHEMA-ACCEPTANCE-BAR-0001-review-chain-fields.md"
     steering_attention: watch
-    steering_prompt: "Run an acceptance-bar review before any schema acceptance."
+    steering_prompt: "Select one remaining falsifier class before any schema acceptance packet."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: two_absorber_post_disposition_complete
-    evidence_ref: "topology/SF-SCHEMA-DISPOSITION-0002-two-absorber-post-disposition.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
-    summary: "Two negative absorbers compared; candidate remains provisional."
-    evaluated_at: "2026-07-19T08:47:27-05:00"
-    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
+    reason_code: acceptance_bar_review_complete
+    evidence_ref: "topology/SF-SCHEMA-ACCEPTANCE-BAR-0001-review-chain-fields.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    summary: "Acceptance bar documented; candidate remains provisional."
+    evaluated_at: "2026-07-19T09:48:18-05:00"
+    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after two-absorber disposition."
+    last_movement: "Closeout refreshed lane state after acceptance-bar review."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_two_absorber_disposition
+    reason_code: stewardship_controls_intact_after_acceptance_bar_review
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
-    summary: "Controls remain intact after bounded disposition progress."
-    evaluated_at: "2026-07-19T08:47:27-05:00"
-    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
+    summary: "Controls remain intact after bounded acceptance-bar progress."
+    evaluated_at: "2026-07-19T09:48:18-05:00"
+    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly

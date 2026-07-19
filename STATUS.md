@@ -49,13 +49,18 @@ rather than source-backed assumption reuse under changed conditions.
 nightclub negative absorbers. It keeps the candidate as a local provisional
 record screen, refuses schema acceptance, preserves both refusal notes, and
 points next to an acceptance-bar review rather than promotion.
+`SF-SCHEMA-ACCEPTANCE-BAR-0001` completes that review without accepting the
+schema. It keeps the candidate provisional, names promotion prerequisites,
+remaining falsifier classes, kill or demotion evidence, and the proper
+acceptance authority before any future schema decision.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
 absorber refusal, one synthetic correction-route stress test, and two
-post-absorber dispositions while preserving source requirements,
-counterevidence, correction routes, resident-warning caution, absorber
-discipline, and no-remedy boundaries. No human research, field data,
+post-absorber dispositions plus one non-accepting acceptance-bar review while
+preserving source requirements, counterevidence, correction routes,
+resident-warning caution, absorber discipline, remaining falsifier classes, and
+no-remedy boundaries. No human research, field data,
 intervention, participation, external action, consequential proving,
 legal/regulatory conclusion, or schema acceptance is active.
