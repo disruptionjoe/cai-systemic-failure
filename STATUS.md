@@ -53,14 +53,18 @@ points next to an acceptance-bar review rather than promotion.
 schema. It keeps the candidate provisional, names promotion prerequisites,
 remaining falsifier classes, kill or demotion evidence, and the proper
 acceptance authority before any future schema decision.
+`SF-SQA-0001` then runs a source-quality and hindsight-artifact falsifier. The
+candidate refuses source-thin pattern matches that require the repository to
+reconstruct assumption context, changed condition, validation burden, review
+owner, or correction route from hindsight rather than source material.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
 absorber refusal, one synthetic correction-route stress test, and two
-post-absorber dispositions plus one non-accepting acceptance-bar review while
-preserving source requirements, counterevidence, correction routes,
-resident-warning caution, absorber discipline, remaining falsifier classes, and
-no-remedy boundaries. No human research, field data,
+post-absorber dispositions plus one non-accepting acceptance-bar review and one
+source-quality falsifier while preserving source requirements, counterevidence,
+correction routes, resident-warning caution, absorber discipline, remaining
+falsifier classes, and no-remedy boundaries. No human research, field data,
 intervention, participation, external action, consequential proving,
 legal/regulatory conclusion, or schema acceptance is active.

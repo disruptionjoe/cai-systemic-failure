@@ -89,3 +89,9 @@ acceptance-bar review rather than promotion.
 keeps the candidate provisional, names promotion prerequisites, remaining
 falsifier classes, kill or demotion evidence, and the authority path required
 before any future schema acceptance.
+
+`SF-SQA-0001-source-quality-falsifier.md` tests the source-quality and
+hindsight-artifact falsifier class. The candidate refuses source-thin pattern
+matches that require the repository to reconstruct assumption context, changed
+condition, validation burden, review owner, or correction route from hindsight
+rather than source material.

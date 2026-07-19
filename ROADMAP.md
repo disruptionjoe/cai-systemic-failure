@@ -37,9 +37,14 @@
     prerequisites, remaining falsifier classes, and the proper acceptance
     authority without accepting the schema
     (`SF-SCHEMA-ACCEPTANCE-BAR-0001`).
-17. Next: choose one remaining falsifier class for bounded testing, preferably
-    a non-synthetic false-positive class or a false-negative pressure test,
-    before any schema acceptance packet.
+17. Done: run a source-quality and hindsight-artifact falsifier that refuses
+    source-thin pattern matches before any schema acceptance packet
+    (`SF-SQA-0001`).
+18. Next: choose another remaining falsifier class, preferably a non-synthetic
+    false-positive class from resource scarcity, single-owner execution,
+    warning/communication, or slow degradation, or a false-negative pressure
+    test where a plausible review-chain failure is not well represented by the
+    current fields.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

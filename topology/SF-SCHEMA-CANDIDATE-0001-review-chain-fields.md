@@ -87,6 +87,12 @@ pyrotechnic, evacuation, inspection, emergency-response, or similar domain-
 specific remedy paths rather than source-backed assumption reuse under changed
 conditions.
 
+Record a case as a lead, inquiry, absorber, or separate topology question, not
+positive evidence for this candidate, when the pattern match is source-thin,
+media-only, retrospective, or dependent on hindsight reconstruction rather than
+durable source material that can carry the assumption context, changed
+condition, validation burden, review owner, and correction route.
+
 These refusal notes are source-gated and do not authorize legal, regulatory,
 environmental, health, enforcement, automotive, compliance, building-code,
 fire-safety, emergency-response, public-safety, or domain-remedy conclusions.
@@ -117,6 +123,7 @@ This candidate cannot be used to:
 | `SF-CRT-0001` | Refused as positive fit. The synthetic stress fixture has apparent assumption reuse under changed conditions but lacks an owner-visible correction route. | The stress test preserves correction-route discipline; assumption reuse alone cannot qualify the candidate. |
 | `SF-0005` | Fits as a refurbishment, external-wall, fire-safety, and resident-warning review-chain record under public official evidence. | Building-safety, product, fire-service, resident-engagement, regulatory, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
 | `SF-ABS-0003` | Refused as positive fit. The NIST Station nightclub source set is a fire/life-safety code, material, sprinkler, pyrotechnic, egress, inspection, and emergency-response protection absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can accept one building/fire-safety review-chain record without claiming every public fire-safety failure. |
+| `SF-SQA-0001` | Refused as positive fit. Source-thin or hindsight-built pattern matches cannot qualify without source-backed assumption context, changed condition, validation burden, review owner, and correction route. | Source-quality failure absorbs attractive narratives before they stretch the candidate into a retrospective pattern label. |
 
 ## Next Falsifier
 
@@ -134,3 +141,9 @@ The next useful test is one remaining falsifier class, preferably a
 non-synthetic false-positive class or a false-negative pressure test. The
 candidate remains provisional until those unresolved classes are tested,
 explicitly deferred with reasons, or routed to the proper owner.
+
+`SF-SQA-0001-source-quality-falsifier.md` tests one remaining class by refusing
+source-quality and hindsight-artifact fits. The next useful test should come
+from a different remaining class, preferably a non-synthetic false-positive
+case from resource scarcity, single-owner execution, warning/communication, or
+slow degradation, or a false-negative pressure test.
