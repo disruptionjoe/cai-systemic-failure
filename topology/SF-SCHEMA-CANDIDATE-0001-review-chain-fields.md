@@ -106,11 +106,19 @@ protective-control absence or enforcement, or similar point-of-operation
 performance rather than source-backed assumption reuse under changed
 conditions.
 
+Record a case as an absorber or separate topology question, not positive
+evidence for this candidate, when public official sources center structural
+capacity, original design calculation, load rating, inspection guidance,
+maintenance drift, construction-load placement, or similar infrastructure-
+capacity controls rather than source-backed assumption reuse under changed
+conditions.
+
 These refusal notes are source-gated and do not authorize legal, regulatory,
 environmental, health, enforcement, automotive, compliance, building-code,
 fire-safety, emergency-response, public-safety, warning, communication,
-alerting-system, rail-safety, train-control, transportation-safety, or
-domain-remedy conclusions.
+alerting-system, rail-safety, train-control, transportation-safety, bridge-
+safety, structural-engineering, transportation-infrastructure, inspection,
+maintenance, construction-load, or domain-remedy conclusions.
 
 ## Non-Promotion Rules
 
@@ -141,6 +149,7 @@ This candidate cannot be used to:
 | `SF-SQA-0001` | Refused as positive fit. Source-thin or hindsight-built pattern matches cannot qualify without source-backed assumption context, changed condition, validation burden, review owner, and correction route. | Source-quality failure absorbs attractive narratives before they stretch the candidate into a retrospective pattern label. |
 | `SF-ABS-0004` | Refused as positive fit. The Hawaii false-alert source set is a warning/communication, drill-procedure, alert-origination, safeguard, and correction-message absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve warning-route pressure without claiming every public alerting or communication failure. |
 | `SF-ABS-0005` | Refused as positive fit. The Amtrak Train 188 source set is a single-owner execution, situational-awareness, speed-compliance, train-control, occupant-protection, and emergency-response absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve affected standing and correction-route visibility without claiming every point-of-operation execution failure. |
+| `SF-ABS-0006` | Refused as positive fit. The I-35W bridge-collapse source set is a slow-degradation, infrastructure-capacity, original-design-calculation, added-load, load-rating, construction-load, and inspection-guidance absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve long-lived defect and changed-load pressure without claiming every infrastructure-capacity failure. |
 
 ## Next Falsifier
 
@@ -165,6 +174,9 @@ source-quality and hindsight-artifact fits.
 non-synthetic warning/communication false-positive case. The next useful test
 `SF-ABS-0005-single-owner-execution-train-188.md` tests another by refusing a
 non-synthetic single-owner execution and protective-control false-positive
-case. The next useful test should come from a different remaining class,
-preferably resource scarcity, slow degradation, newly formed assumption, a
-borderline mixed case, or a false-negative pressure test.
+case.
+`SF-ABS-0006-slow-degradation-bridge-collapse.md` tests another by refusing a
+non-synthetic slow-degradation and infrastructure-capacity false-positive case.
+The next useful test should come from a different remaining class, preferably
+resource scarcity or capacity tradeoff, newly formed assumption, a borderline
+mixed case, or a false-negative pressure test.

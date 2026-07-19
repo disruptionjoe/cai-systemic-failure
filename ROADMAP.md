@@ -45,11 +45,13 @@
     (`SF-ABS-0004`).
 19. Done: run a non-synthetic single-owner execution false-positive absorber
     using the Amtrak Train 188 source set (`SF-ABS-0005`).
-20. Next: choose another remaining falsifier class, preferably a non-synthetic
-    false-positive class from resource scarcity, slow degradation, or newly
-    formed assumption, a borderline mixed case, or a false-negative pressure
-    test where a plausible review-chain failure is not well represented by the
-    current fields.
+20. Done: run a non-synthetic slow-degradation and infrastructure-capacity
+    false-positive absorber using the I-35W Mississippi River bridge-collapse
+    source set (`SF-ABS-0006`).
+21. Next: choose another remaining falsifier class, preferably resource
+    scarcity or capacity tradeoff, newly formed assumption, a borderline mixed
+    case, or a false-negative pressure test where a plausible review-chain
+    failure is not well represented by the current fields.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

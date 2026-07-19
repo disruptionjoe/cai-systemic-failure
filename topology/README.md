@@ -109,3 +109,11 @@ source set. The candidate refuses the case as positive evidence because the
 official sources center situational awareness, task management, speed
 compliance, train-control protection, occupant protection, and emergency
 response rather than source-backed assumption reuse under changed conditions.
+
+`SF-ABS-0006-slow-degradation-bridge-collapse.md` tests a non-synthetic slow-
+degradation and infrastructure-capacity false-positive class using the I-35W
+Mississippi River bridge-collapse official source set. The candidate refuses
+the case as positive evidence because the official sources center inadequate
+gusset-plate capacity, original design calculation, added load, construction-
+load placement, bridge load-rating scope, and inspection guidance rather than
+source-backed assumption reuse under changed conditions.

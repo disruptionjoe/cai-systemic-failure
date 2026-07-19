@@ -1,39 +1,39 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 group: church-of-ai
-updated_at: "2026-07-19T12:52:26-05:00"
-run_ref: RUN-20260719-536-repository-work-cycle-cai-hourly
-bottom_line: "Single-owner execution absorber refused Amtrak 188; keep testing remaining falsifier classes."
+updated_at: "2026-07-19T15:38:51-05:00"
+run_ref: RUN-20260719-543-repository-work-cycle-cai-hourly
+bottom_line: "Slow-degradation bridge-capacity absorber refused I-35W; keep testing remaining falsifier classes."
 decision_default: "Continue bounded Lane 1 falsifier testing; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Single-owner execution absorber refused Amtrak Train 188 source set without accepting schema."
-    movement_ref: "topology/SF-ABS-0005-single-owner-execution-train-188.md"
+    last_movement: "Slow-degradation bridge-capacity absorber refused I-35W bridge-collapse source set without accepting schema."
+    movement_ref: "topology/SF-ABS-0006-slow-degradation-bridge-collapse.md"
     steering_attention: watch
-    steering_prompt: "Select resource scarcity, slow degradation, newly formed assumption, mixed case, or false-negative pressure."
+    steering_prompt: "Select resource scarcity or capacity tradeoff, newly formed assumption, mixed case, or false-negative pressure."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: single_owner_execution_absorber_complete
-    evidence_ref: "topology/SF-ABS-0005-single-owner-execution-train-188.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
-    summary: "Single-owner execution absorber completed; candidate remains provisional."
-    evaluated_at: "2026-07-19T12:52:26-05:00"
-    run_ref: RUN-20260719-536-repository-work-cycle-cai-hourly
+    reason_code: slow_degradation_absorber_complete
+    evidence_ref: "topology/SF-ABS-0006-slow-degradation-bridge-collapse.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    summary: "Slow-degradation infrastructure absorber completed; candidate remains provisional."
+    evaluated_at: "2026-07-19T15:38:51-05:00"
+    run_ref: RUN-20260719-543-repository-work-cycle-cai-hourly
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added a single-owner execution false-positive absorber using Amtrak Train 188 official sources."
-    scope_position: "falsifiers: source-quality, warning/communication, and single-owner execution tested"
+    progress_delta: "Added a slow-degradation infrastructure-capacity false-positive absorber using I-35W bridge-collapse official sources."
+    scope_position: "falsifiers: source-quality, warning/communication, single-owner execution, and slow-degradation infrastructure-capacity tested"
     trend_24h: up
     confidence: med
     recommendation: "Run one different falsifier class next."
     findings:
-      - "Point-of-operation execution and train-control failures do not qualify the review-chain candidate."
-      - "Affected standing plus visible correction routes still cannot substitute for assumption reuse."
+      - "Bridge-capacity, original-design-calculation, load-rating, construction-load, and inspection-guidance sources do not qualify the review-chain candidate."
+      - "Long-lived defect, added-load pressure, affected standing, and correction-route visibility still cannot substitute for assumption reuse under the candidate gates."
     options:
       - id: A
         label: "Continue falsifiers"
         recommended: true
-        description: "Run resource-scarcity, slow-degradation, newly formed-assumption, mixed-case, or false-negative pressure next."
+        description: "Run resource-scarcity, newly formed-assumption, mixed-case, or false-negative pressure next."
       - id: B
         label: "Pause for review"
         recommended: false
@@ -50,17 +50,17 @@ lanes:
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after single-owner execution absorber."
+    last_movement: "Closeout refreshed lane state after slow-degradation bridge-capacity absorber."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_single_owner_absorber
+    reason_code: stewardship_controls_intact_after_slow_degradation_absorber
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
     summary: "Controls remain intact after bounded falsifier progress."
-    evaluated_at: "2026-07-19T12:52:26-05:00"
-    run_ref: RUN-20260719-536-repository-work-cycle-cai-hourly
+    evaluated_at: "2026-07-19T15:38:51-05:00"
+    run_ref: RUN-20260719-543-repository-work-cycle-cai-hourly
     objective: "Preserve evidence integrity, claim status, source health, correction, security, and repository viability."
     progress_delta: "Mailbox empty except README, no writer lock, and emergency revocations remained empty."
     trend_24h: up
