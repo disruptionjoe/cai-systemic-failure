@@ -104,7 +104,8 @@ This absorber test does not:
 
 ## Next Test
 
-Run a post-absorber disposition before any acceptance. The next file should
-decide whether the candidate is ready for a still-provisional schema-readiness
-disposition, needs a second negative absorber, or should remain a local pattern
-without promotion.
+`SF-SCHEMA-DISPOSITION-0001-post-absorber.md` records the post-absorber
+disposition. It keeps the candidate local and provisional. The next test should
+be a materially different falsifier before any acceptance: a second negative
+absorber, a fifth source-backed record with new domain pressure, or a
+correction-route stress test.

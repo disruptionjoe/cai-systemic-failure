@@ -54,3 +54,8 @@ the Volkswagen diesel-emissions defeat-device source set. The candidate refuses
 the case as positive evidence because the official sources center control
 bypass and false reporting rather than source-backed assumption reuse under
 changed conditions. The candidate remains provisional and unaccepted.
+
+`SF-SCHEMA-DISPOSITION-0001-post-absorber.md` records the post-absorber
+disposition. It keeps `SF-SCHEMA-CANDIDATE-0001` as a local provisional record
+screen, refuses schema acceptance, and requires another meaningful falsifier
+before any promotion.

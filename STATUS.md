@@ -30,10 +30,13 @@ accepted schema. `SF-ABS-0002` then tests a Volkswagen diesel-emissions
 defeat-device negative absorber. The candidate refuses that case as positive
 evidence because the official sources center control bypass and false reporting
 rather than assumption reuse under changed conditions.
+`SF-SCHEMA-DISPOSITION-0001` keeps the candidate as a local provisional record
+screen after the negative absorber and refuses schema acceptance.
 
 No topology ontology is asserted yet; the first schema should be considered
-only as a provisional candidate that has survived one refusal test while
-preserving source requirements, counterevidence, correction routes, and
-no-remedy boundaries. No human research, field data, intervention,
-participation, external action, consequential proving, legal/regulatory
-conclusion, or schema acceptance is active.
+only as a provisional candidate that has survived one refusal test and a
+post-absorber disposition while preserving source requirements,
+counterevidence, correction routes, and no-remedy boundaries. No human
+research, field data, intervention, participation, external action,
+consequential proving, legal/regulatory conclusion, or schema acceptance is
+active.

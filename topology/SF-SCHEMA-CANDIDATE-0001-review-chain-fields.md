@@ -106,9 +106,9 @@ This candidate cannot be used to:
 
 ## Next Falsifier
 
-Do not accept this schema yet. A fourth source-backed record and one negative
-absorber now exist. The next useful test is a post-absorber disposition that
-decides whether the candidate remains a local provisional pattern, needs a
-second negative absorber, or can move to a still-provisional schema-readiness
-disposition without violating source, absorber, correction-route, no-remedy,
-and non-promotion gates.
+Do not accept this schema yet. `SF-SCHEMA-DISPOSITION-0001-post-absorber.md`
+keeps the candidate as a local provisional record screen after four positive
+records, one narrowing domain-remedy absorber, and one clean negative absorber
+refusal. The next useful test is a materially different falsifier before any
+schema acceptance: a second negative absorber, a fifth source-backed record with
+new domain pressure, or a correction-route stress test.
