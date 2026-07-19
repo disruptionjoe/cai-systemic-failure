@@ -69,6 +69,17 @@ are not mandatory fields in this candidate:
 Annotations must not let a record qualify without the core source, assumption,
 changed-condition, validation-burden, absorber, and correction-route gates.
 
+## Refusal Notes
+
+Record a case as an absorber or separate topology question, not positive
+evidence for this candidate, when public source material centers deliberate
+control bypass, test circumvention, false reporting, or similar adversarial
+compliance behavior rather than source-backed assumption reuse under changed
+conditions.
+
+This refusal note is source-gated and does not authorize legal, regulatory,
+environmental, health, enforcement, automotive, or compliance conclusions.
+
 ## Non-Promotion Rules
 
 This candidate cannot be used to:
@@ -90,16 +101,14 @@ This candidate cannot be used to:
 | `SF-0001` | Fits as a certification and safety-assessment assumption reuse record under changed flight-control, input, and alert/workload conditions. | Ordinary training or checklist deficit narrows but does not absorb the review-chain residue. |
 | `SF-0002` | Fits as a hazard-acceptability and damage-assessment sufficiency record under live-mission anomaly conditions. | Domain-specific spaceflight remedy narrows but does not absorb owner-visible uncertainty and escalation failure. |
 | `SF-0003` | Fits as a changed-source corrosion-control and exposure-risk review-chain record under public official evidence. | Drinking-water, public-health, legal, and civil-rights remedy domains narrow but do not absorb validation burden, affected-person standing, and correction route. |
+| `SF-0004` | Fits as a negative-pressure-test and barrier-assumption review-chain record under public official evidence. | Offshore energy, process-safety, emergency, environmental, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
+| `SF-ABS-0002` | Refused as positive fit. The Volkswagen defeat-device source set is a control-bypass and false-reporting absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can reject a systemic-failure case instead of overgeneralizing. |
 
 ## Next Falsifier
 
-Do not accept this schema yet. The next useful test is one of:
-
-1. a fourth source-backed record from a different domain that qualifies only if
-   the candidate preserves source, absorber, correction, and no-remedy gates; or
-2. a negative absorber showing a systemic failure where assumption reuse under
-   changed conditions is not central, forcing this candidate to narrow or stay
-   local to the first records.
-
-Until that test exists, this file remains a candidate and the topology remains
-provisional.
+Do not accept this schema yet. A fourth source-backed record and one negative
+absorber now exist. The next useful test is a post-absorber disposition that
+decides whether the candidate remains a local provisional pattern, needs a
+second negative absorber, or can move to a still-provisional schema-readiness
+disposition without violating source, absorber, correction-route, no-remedy,
+and non-promotion gates.

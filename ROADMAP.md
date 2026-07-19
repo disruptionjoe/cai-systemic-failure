@@ -16,7 +16,10 @@
    absorber, correction-route, and no-remedy gates.
 9. Done: test the provisional candidate against a fourth source-backed record
    from offshore energy/process safety (`SF-0004`).
-10. Next: run a negative absorber before any acceptance.
+10. Done: run a negative absorber showing the candidate refuses a systemic
+    failure centered on control bypass and false reporting rather than
+    assumption reuse under changed conditions (`SF-ABS-0002`).
+11. Next: write a post-absorber disposition before any schema acceptance.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

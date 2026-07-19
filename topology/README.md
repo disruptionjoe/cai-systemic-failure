@@ -48,3 +48,9 @@ adds a fourth source-backed domain test from offshore energy/process safety.
 `SF-0004-fourth-record-schema-candidate-test.md` keeps the candidate
 provisional, adds only an annotation pressure, and points next to a negative
 absorber before any acceptance.
+
+`SF-ABS-0002-negative-absorber-defeat-device.md` tests the candidate against
+the Volkswagen diesel-emissions defeat-device source set. The candidate refuses
+the case as positive evidence because the official sources center control
+bypass and false reporting rather than source-backed assumption reuse under
+changed conditions. The candidate remains provisional and unaccepted.

@@ -1,20 +1,20 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-18T20:35:51-05:00"
-run_ref: RUN-20260718-510-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-18T21:32:52-05:00"
+run_ref: RUN-20260718-512-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
     light: green
-    reason_code: fourth_record_candidate_test_complete
-    evidence_ref: "topology/SF-0004-fourth-record-schema-candidate-test.md"
-    summary: "Fourth record supports candidate provisionally; negative absorber still next."
-    evaluated_at: "2026-07-18T20:35:51-05:00"
-    run_ref: RUN-20260718-510-repository-work-cycle-cai-hourly
+    reason_code: negative_absorber_refusal_complete
+    evidence_ref: "topology/SF-ABS-0002-negative-absorber-defeat-device.md"
+    summary: "Negative absorber refused cleanly; post-absorber disposition is next."
+    evaluated_at: "2026-07-18T21:32:52-05:00"
+    run_ref: RUN-20260718-512-repository-work-cycle-cai-hourly
   - lane_id: A
     light: green
-    reason_code: stewardship_controls_and_correction_route_intact
-    evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml; topology/SF-0004-fourth-record-schema-candidate-test.md"
-    summary: "Controls remain explicit after fourth-record schema test."
-    evaluated_at: "2026-07-18T20:35:51-05:00"
-    run_ref: RUN-20260718-510-repository-work-cycle-cai-hourly
+    reason_code: stewardship_controls_and_refusal_boundary_intact
+    evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml; topology/SF-ABS-0002-negative-absorber-defeat-device.md"
+    summary: "Controls remain explicit after negative absorber refusal."
+    evaluated_at: "2026-07-18T21:32:52-05:00"
+    run_ref: RUN-20260718-512-repository-work-cycle-cai-hourly

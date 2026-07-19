@@ -26,10 +26,14 @@ and non-promotion rules. `SF-0004` adds a fourth source-backed Deepwater
 Horizon / Macondo negative-pressure-test record and tests the candidate in
 offshore energy/process safety. The candidate survives only provisionally and
 adds a source-gated procedural-acceptance annotation pressure. It is still not
-accepted schema.
+accepted schema. `SF-ABS-0002` then tests a Volkswagen diesel-emissions
+defeat-device negative absorber. The candidate refuses that case as positive
+evidence because the official sources center control bypass and false reporting
+rather than assumption reuse under changed conditions.
 
 No topology ontology is asserted yet; the first schema should be considered
-only as a provisional candidate that must survive a negative absorber while
+only as a provisional candidate that has survived one refusal test while
 preserving source requirements, counterevidence, correction routes, and
 no-remedy boundaries. No human research, field data, intervention,
-participation, external action, or consequential proving is active.
+participation, external action, consequential proving, legal/regulatory
+conclusion, or schema acceptance is active.
