@@ -1,32 +1,32 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-18T23:55:00-05:00"
-run_ref: RUN-20260718-519-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-19T07:03:50-05:00"
+run_ref: RUN-20260719-522-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Synthetic correction-route stress test refused positive fit."
-    movement_ref: "topology/SF-CRT-0001-correction-route-stress-test.md"
+    last_movement: "Fifth public-source building/fire-safety record tested correction-route posture."
+    movement_ref: "topology/SF-0005-fifth-record-correction-route-test.md"
     steering_attention: watch
-    steering_prompt: "Use public-source pressure before any schema acceptance."
+    steering_prompt: "Use a non-synthetic negative absorber before any schema acceptance."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: correction_route_stress_test_complete
-    evidence_ref: "topology/SF-CRT-0001-correction-route-stress-test.md"
-    summary: "Synthetic stress test preserved correction-route refusal gate."
-    evaluated_at: "2026-07-18T23:55:00-05:00"
-    run_ref: RUN-20260718-519-repository-work-cycle-cai-hourly
+    reason_code: fifth_record_correction_route_test_complete
+    evidence_ref: "evidence/records/SF-0005-grenfell-tower-refurbishment-resident-warning-chain.md; topology/SF-0005-fifth-record-correction-route-test.md"
+    summary: "Fifth public record kept schema candidate provisional."
+    evaluated_at: "2026-07-19T07:03:50-05:00"
+    run_ref: RUN-20260719-522-repository-work-cycle-cai-hourly
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after correction-route stress test."
+    last_movement: "Closeout refreshed lane state after fifth source-backed record."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_stress_test
+    reason_code: stewardship_controls_intact_after_fifth_record
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
-    summary: "Controls remain intact after bounded correction-route progress."
-    evaluated_at: "2026-07-18T23:55:00-05:00"
-    run_ref: RUN-20260718-519-repository-work-cycle-cai-hourly
+    summary: "Controls remain intact after bounded public-source progress."
+    evaluated_at: "2026-07-19T07:03:50-05:00"
+    run_ref: RUN-20260719-522-repository-work-cycle-cai-hourly

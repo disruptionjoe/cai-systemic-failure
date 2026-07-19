@@ -35,11 +35,17 @@ screen after the negative absorber and refuses schema acceptance.
 `SF-CRT-0001` then runs a synthetic correction-route stress test. The candidate
 refuses a fixture with apparent assumption reuse under changed conditions when
 no owner-visible correction path can be named.
+`SF-0005` adds a fifth public-source Grenfell Tower record from high-rise
+residential building, fire-safety, refurbishment, and resident-warning source
+material. The fifth-record correction-route test keeps the candidate
+provisional and adds only a source-gated resident-warning-route annotation
+pressure.
 
 No topology ontology is asserted yet; the first schema should be considered
-only as a provisional candidate that has survived one refusal test, a
-post-absorber disposition, and one synthetic correction-route stress test while
-preserving source requirements, counterevidence, correction routes, and
-no-remedy boundaries. No human research, field data, intervention,
-participation, external action, consequential proving, legal/regulatory
-conclusion, or schema acceptance is active.
+only as a provisional candidate with five source-backed positive records, one
+negative-absorber refusal, one post-absorber disposition, and one synthetic
+correction-route stress test while preserving source requirements,
+counterevidence, correction routes, resident-warning caution, and no-remedy
+boundaries. No human research, field data, intervention, participation,
+external action, consequential proving, legal/regulatory conclusion, or schema
+acceptance is active.

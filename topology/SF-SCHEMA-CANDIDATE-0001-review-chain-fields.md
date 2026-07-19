@@ -1,7 +1,7 @@
 ---
 schema_id: SF-SCHEMA-CANDIDATE-0001
 status: provisional_schema_candidate
-records: [SF-0001, SF-0002, SF-0003]
+records: [SF-0001, SF-0002, SF-0003, SF-0004, SF-0005]
 lane: "1"
 created: 2026-07-18
 source_material: public_official_records_and_prior_topology_tests
@@ -65,6 +65,9 @@ are not mandatory fields in this candidate:
   accountable contradiction;
 - `jurisdictional_authority_gap`: formal authority boundaries that delayed,
   weakened, or blocked a stop condition despite visible risk.
+- `resident_warning_route`: resident, tenant, local-community, or affected-
+  party warnings that public sources show as possible review, escalation, stop,
+  or correction routes.
 
 Annotations must not let a record qualify without the core source, assumption,
 changed-condition, validation-burden, absorber, and correction-route gates.
@@ -104,12 +107,12 @@ This candidate cannot be used to:
 | `SF-0004` | Fits as a negative-pressure-test and barrier-assumption review-chain record under public official evidence. | Offshore energy, process-safety, emergency, environmental, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
 | `SF-ABS-0002` | Refused as positive fit. The Volkswagen defeat-device source set is a control-bypass and false-reporting absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can reject a systemic-failure case instead of overgeneralizing. |
 | `SF-CRT-0001` | Refused as positive fit. The synthetic stress fixture has apparent assumption reuse under changed conditions but lacks an owner-visible correction route. | The stress test preserves correction-route discipline; assumption reuse alone cannot qualify the candidate. |
+| `SF-0005` | Fits as a refurbishment, external-wall, fire-safety, and resident-warning review-chain record under public official evidence. | Building-safety, product, fire-service, resident-engagement, regulatory, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
 
 ## Next Falsifier
 
-Do not accept this schema yet. `SF-CRT-0001-correction-route-stress-test.md`
-satisfies the immediate post-disposition falsifier as a synthetic gate stress
-test, but it does not provide real-world source confirmation or acceptance
-authority. The next useful test is public-source pressure from either a fifth
-record with materially new domain or correction-route posture, or a
-non-synthetic negative absorber that is not merely another control-bypass case.
+Do not accept this schema yet. `SF-0005-fifth-record-correction-route-test.md`
+adds public-source pressure from a new domain and correction-route posture, but
+it does not provide acceptance authority. The next useful test is a
+non-synthetic negative absorber that is not merely another deliberate control-
+bypass case.

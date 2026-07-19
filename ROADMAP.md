@@ -24,9 +24,11 @@
 12. Done: run a materially different synthetic correction-route falsifier that
     refuses positive fit when no owner-visible correction path can be named
     (`SF-CRT-0001`).
-13. Next: add public-source pressure only if it brings a fifth record with new
-    domain or correction-route posture, or a non-synthetic negative absorber
-    that is not merely another control-bypass case.
+13. Done: add fifth public-source pressure from a high-rise residential
+    building, fire-safety, refurbishment, and resident-warning review-chain
+    record (`SF-0005`) with a fifth-record correction-route test.
+14. Next: run a non-synthetic negative absorber that is not merely another
+    deliberate control-bypass case before any schema acceptance.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

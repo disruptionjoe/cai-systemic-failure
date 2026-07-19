@@ -19,3 +19,7 @@ research material is rejected and routed to a separately authorized secure owner
 - `records/SF-0004-deepwater-horizon-negative-pressure-review-chain.md` -
   bounded public-source synthesis of an offshore energy/process-safety review
   chain used as the fourth provisional schema-candidate test.
+- `records/SF-0005-grenfell-tower-refurbishment-resident-warning-chain.md` -
+  bounded public-source synthesis of a high-rise residential building,
+  fire-safety, refurbishment, and resident-warning review chain used as the
+  fifth provisional schema-candidate test.

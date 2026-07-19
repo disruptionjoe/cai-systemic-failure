@@ -65,3 +65,10 @@ stress test. The candidate refuses a fixture where assumption reuse, changed
 condition, validation burden, and affected standing appear present, but no
 owner-visible correction route can be named. The candidate remains provisional;
 the correction-route gate is hard.
+
+`evidence/records/SF-0005-grenfell-tower-refurbishment-resident-warning-chain.md`
+adds a fifth public-source record from high-rise residential building and fire-
+safety source material. `SF-0005-fifth-record-correction-route-test.md` keeps
+the candidate provisional, adds only a source-gated resident-warning-route
+annotation pressure, and points next to a non-synthetic negative absorber before
+any schema acceptance.
