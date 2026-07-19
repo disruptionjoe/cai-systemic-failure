@@ -1,20 +1,20 @@
 schema_version: "1.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-18T18:32:33-05:00"
-run_ref: RUN-20260718-504-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-18T19:35:10-05:00"
+run_ref: RUN-20260718-507-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
     light: green
-    reason_code: schema_candidate_ready_with_gates
-    evidence_ref: "topology/SF-SCHEMA-READINESS-0001-review-chain-fields.md"
-    summary: "Source-gated review-chain schema candidate is ready, not accepted."
-    evaluated_at: "2026-07-18T18:32:33-05:00"
-    run_ref: RUN-20260718-504-repository-work-cycle-cai-hourly
+    reason_code: provisional_schema_candidate_drafted
+    evidence_ref: "topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    summary: "Provisional schema candidate exists; next needs fourth-record or absorber test."
+    evaluated_at: "2026-07-18T19:35:10-05:00"
+    run_ref: RUN-20260718-507-repository-work-cycle-cai-hourly
   - lane_id: A
     light: green
     reason_code: stewardship_controls_and_correction_route_intact
-    evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml; evidence/README.md"
-    summary: "Stewardship controls and correction routes remain explicit after readiness check."
-    evaluated_at: "2026-07-18T18:32:33-05:00"
-    run_ref: RUN-20260718-504-repository-work-cycle-cai-hourly
+    evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    summary: "Controls remain explicit after provisional schema candidate."
+    evaluated_at: "2026-07-18T19:35:10-05:00"
+    run_ref: RUN-20260718-507-repository-work-cycle-cai-hourly

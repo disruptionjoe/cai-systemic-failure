@@ -12,9 +12,10 @@
    (`SF-0003`).
 7. Done: run a schema-readiness check that narrows and source-gates the
    provisional fields before any schema promotion.
-8. Next: draft a provisional review-chain field schema candidate with source,
-   absorber, correction-route, and no-remedy gates, then test it against a
-   fourth record or negative absorber before any acceptance.
+8. Done: draft a provisional review-chain field schema candidate with source,
+   absorber, correction-route, and no-remedy gates.
+9. Next: test the provisional candidate against a fourth source-backed record
+   or negative absorber before any acceptance.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

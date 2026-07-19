@@ -1,0 +1,105 @@
+---
+schema_id: SF-SCHEMA-CANDIDATE-0001
+status: provisional_schema_candidate
+records: [SF-0001, SF-0002, SF-0003]
+lane: "1"
+created: 2026-07-18
+source_material: public_official_records_and_prior_topology_tests
+external_action: none
+---
+
+# SF Schema Candidate 0001 - Review-Chain Fields
+
+## Boundary
+
+This is a provisional review-chain field schema candidate for source-backed
+failure records. It implements the acceptance gate from
+`SF-SCHEMA-READINESS-0001-review-chain-fields.md`.
+
+It is not an accepted topology schema, universal systemic-failure ontology,
+domain remedy, public-health recommendation, engineering recommendation,
+legal or civil-rights finding, CAI doctrine, intervention plan, or proving
+authority. It is a candidate structure to be falsified, narrowed, or revised
+by a fourth source-backed record or negative absorber.
+
+## Record Qualification Gate
+
+A record may use this candidate only when all gate conditions are met:
+
+1. source material is public, licensed, safely shareable, or synthetic;
+2. the record names the source context and keeps correction routes open;
+3. an old assumption is reused under a changed condition or changed evidence
+   context;
+4. the changed condition creates a validation burden that sources show as
+   unmet, disputed, fragmented, or not owner-visible enough;
+5. affected system or affected-party standing remains explicit;
+6. delegation, review, or request paths are material to the contradiction; and
+7. at least one narrower absorber or countermodel is recorded.
+
+If these conditions are not met, the case may still be useful evidence, but it
+does not qualify as positive evidence for this candidate.
+
+## Candidate Fields
+
+| Field | Required content | Refusal condition |
+|---|---|---|
+| `assumption_source_context` | Name the reused assumption and the source, report, decision context, revision, or evidence basis supporting the synthesis. | Refuse if the record only says a system failed without tying the assumption to source context. |
+| `accountable_review_owner` | Distinguish the assumption owner from the owner who could review, stop, escalate, or revise its reuse. | Refuse if accountability is only a generic organization label. |
+| `affected_system_and_standing` | Name the affected system and the affected-party standing visible in the sources, including people when sources make them central. | Refuse if affected parties disappear behind process language. |
+| `changed_condition` | Identify the changed function, observed anomaly, source switch, evidence context, operating condition, or other change that alters the validation burden. | Refuse if the old assumption is reused under materially unchanged conditions. |
+| `validation_burden` | State what adequate revalidation would need to address and what source-backed evidence shows as unmet, disputed, fragmented, or unresolved. | Refuse if the record supplies no source-backed burden beyond hindsight. |
+| `observation_environment` | Preserve how the relevant evidence was made visible, missed, normalized, routed, or disputed without importing domain conclusions. | Refuse if the field becomes a domain-specific remedy or expertise claim. |
+| `delegation_visibility_gap` | Show how distributed review, authority, request paths, or delegated decisions fragmented the contradiction. | Refuse if no review-chain fragmentation is source-supported. |
+| `absorber_or_counterevidence` | Record the strongest narrower explanation and whether it absorbs, narrows, or fails to kill the review-chain residue. | Refuse if the candidate treats every case as confirming evidence. |
+| `correction_route_stop_condition` | Name the owner-visible route that could correct, escalate, stop, revise, or expose the assumption without this repo prescribing the remedy. | Refuse if correction requires this repository to act as the domain owner. |
+
+## Source-Gated Annotations
+
+These annotations may be recorded when source material supports them, but they
+are not mandatory fields in this candidate:
+
+- `hazard_history`: prior tolerated anomalies, incidents, or infrastructure
+  conditions that made later evidence appear normal;
+- `observation_request_path`: complaints, measurements, imagery requests,
+  inspections, external evidence, or other requests that failed to become an
+  accountable contradiction;
+- `jurisdictional_authority_gap`: formal authority boundaries that delayed,
+  weakened, or blocked a stop condition despite visible risk.
+
+Annotations must not let a record qualify without the core source, assumption,
+changed-condition, validation-burden, absorber, and correction-route gates.
+
+## Non-Promotion Rules
+
+This candidate cannot be used to:
+
+- infer a universal topology from three records;
+- convert domain remedies into topology fields;
+- issue engineering, public-health, civil-rights, legal, regulatory, or policy
+  recommendations;
+- treat affected owners as participants or research subjects;
+- use nonpublic, restricted, confidential, or field-collected evidence;
+- create an external action, relationship obligation, membership obligation,
+  intervention pathway, or CAI phase movement; or
+- move another repository's claims, canon, or work state.
+
+## Current Fit
+
+| Record | Fit | Absorber result |
+|---|---|---|
+| `SF-0001` | Fits as a certification and safety-assessment assumption reuse record under changed flight-control, input, and alert/workload conditions. | Ordinary training or checklist deficit narrows but does not absorb the review-chain residue. |
+| `SF-0002` | Fits as a hazard-acceptability and damage-assessment sufficiency record under live-mission anomaly conditions. | Domain-specific spaceflight remedy narrows but does not absorb owner-visible uncertainty and escalation failure. |
+| `SF-0003` | Fits as a changed-source corrosion-control and exposure-risk review-chain record under public official evidence. | Drinking-water, public-health, legal, and civil-rights remedy domains narrow but do not absorb validation burden, affected-person standing, and correction route. |
+
+## Next Falsifier
+
+Do not accept this schema yet. The next useful test is one of:
+
+1. a fourth source-backed record from a different domain that qualifies only if
+   the candidate preserves source, absorber, correction, and no-remedy gates; or
+2. a negative absorber showing a systemic failure where assumption reuse under
+   changed conditions is not central, forcing this candidate to narrow or stay
+   local to the first records.
+
+Until that test exists, this file remains a candidate and the topology remains
+provisional.

@@ -20,9 +20,12 @@ change field to changed condition, strengthens affected-party standing, and
 points next to a schema-readiness check.
 `SF-SCHEMA-READINESS-0001` completes that check: the review-chain fields are
 ready for a constrained, source-gated schema candidate, not accepted schema.
+`SF-SCHEMA-CANDIDATE-0001` drafts that provisional candidate with qualification
+gates, field refusal conditions, source-gated annotations, absorber controls,
+and non-promotion rules. It is still not accepted schema.
 
 No topology ontology is asserted yet; the first schema should be considered
-only as a provisional candidate that preserves source requirements,
-counterevidence, correction routes, and no-remedy boundaries. No human
-research, field data, intervention, participation, external action, or
-consequential proving is active.
+only as a provisional candidate that must survive a fourth source-backed record
+or negative absorber while preserving source requirements, counterevidence,
+correction routes, and no-remedy boundaries. No human research, field data,
+intervention, participation, external action, or consequential proving is active.

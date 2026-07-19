@@ -37,3 +37,8 @@ check rather than direct schema promotion.
 check. It says a source-gated review-chain schema candidate may be drafted next,
 but no schema is accepted yet and the next candidate must preserve source,
 absorber, correction-route, and no-remedy boundaries.
+
+`SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md` drafts that provisional
+candidate. It defines qualification gates, field refusals, source-gated
+annotations, non-promotion rules, and the next falsifier. The schema remains
+unaccepted until a fourth source-backed record or negative absorber tests it.
