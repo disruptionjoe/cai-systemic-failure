@@ -140,3 +140,10 @@ case as a sixth positive record or a clean negative absorber. It records
 source-gated design-basis reassessment annotation pressure while preserving
 nuclear-safety, tsunami-hazard, severe-accident, regulatory, emergency-
 response, legal, health, and domain-remedy boundaries.
+
+`SF-FN-0001-challenger-launch-decision-dissent-path.md` tests a false-negative
+pressure case using the public official Challenger/Rogers Commission source set.
+It does not count the case as a sixth positive record or accept schema. It
+records source-gated technical-dissent escalation annotation pressure while
+preserving launch-safety, spaceflight, engineering, management, legal,
+regulatory, public-safety, and domain-remedy boundaries.

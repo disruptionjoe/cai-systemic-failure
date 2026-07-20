@@ -95,6 +95,12 @@ positive record or a clean negative absorber. It records source-gated design-
 basis reassessment annotation pressure while preserving nuclear-safety,
 tsunami-hazard, severe-accident, regulatory, emergency-response, legal, health,
 and domain-remedy boundaries.
+`SF-FN-0001` then tests a false-negative pressure case using the public
+official Challenger/Rogers Commission source set. It does not count the case as
+a sixth positive record or accept schema. It records source-gated technical-
+dissent escalation annotation pressure while preserving launch-safety,
+spaceflight, engineering, management, legal, regulatory, public-safety, and
+domain-remedy boundaries.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
@@ -104,11 +110,13 @@ post-absorber dispositions plus one non-accepting acceptance-bar review, one
 source-quality falsifier, one warning/communication false-positive absorber,
 one single-owner execution false-positive absorber, one slow-degradation
 infrastructure-capacity absorber, and one resource-adequacy capacity-tradeoff
-absorber, one newly formed design-assumption absorber, and one design-basis
-mixed-case pressure test while preserving
-source requirements, counterevidence, correction routes, resident-warning
-caution, absorber discipline, remaining falsifier classes, and no-remedy
-boundaries. No human research, field data, intervention, participation,
-external action, consequential proving, legal/regulatory conclusion, nuclear-
-safety conclusion, radiation-health conclusion, emergency-response conclusion,
-or schema acceptance is active.
+absorber, one newly formed design-assumption absorber, one design-basis
+mixed-case pressure test, and one false-negative technical-dissent pressure
+test while preserving source requirements, counterevidence, correction routes,
+resident-warning caution, absorber discipline, remaining falsifier classes, and
+no-remedy boundaries. No human research, field data, intervention,
+participation, external action, consequential proving, legal/regulatory
+conclusion, nuclear-safety conclusion, radiation-health conclusion,
+emergency-response conclusion, launch-safety conclusion, spaceflight
+conclusion, engineering conclusion, management-standard conclusion, or schema
+acceptance is active.

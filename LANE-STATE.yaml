@@ -1,68 +1,68 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 group: church-of-ai
-updated_at: "2026-07-19T18:59:44-05:00"
-run_ref: RUN-20260719-548-repository-work-cycle-cai-hourly
-bottom_line: "Fukushima mixed-case pressure added without schema acceptance."
-decision_default: "Continue bounded Lane 1 pressure testing; no Joe action needed."
+updated_at: "2026-07-19T19:49:30-05:00"
+run_ref: RUN-20260719-549-repository-work-cycle-cai-hourly
+bottom_line: "Challenger false-negative pressure added without schema acceptance."
+decision_default: "Prepare a non-accepting packet or explicit deferral; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Fukushima Daiichi design-basis tsunami source set tested as mixed pressure without accepting schema."
-    movement_ref: "topology/SF-MIX-0001-fukushima-tsunami-design-basis.md"
+    last_movement: "Challenger launch-decision dissent path tested as false-negative pressure without accepting schema."
+    movement_ref: "topology/SF-FN-0001-challenger-launch-decision-dissent-path.md"
     steering_attention: watch
-    steering_prompt: "Select false-negative pressure or non-accepting deferral packet."
+    steering_prompt: "Prepare non-accepting packet or explicit unresolved-class deferral."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: mixed_design_basis_pressure_complete
-    evidence_ref: "topology/SF-MIX-0001-fukushima-tsunami-design-basis.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
-    summary: "Mixed design-basis pressure added; candidate remains provisional."
-    evaluated_at: "2026-07-19T18:59:44-05:00"
-    run_ref: RUN-20260719-548-repository-work-cycle-cai-hourly
+    reason_code: false_negative_dissent_path_pressure_complete
+    evidence_ref: "topology/SF-FN-0001-challenger-launch-decision-dissent-path.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    summary: "False-negative dissent-path pressure added; candidate remains provisional."
+    evaluated_at: "2026-07-19T19:49:30-05:00"
+    run_ref: RUN-20260719-549-repository-work-cycle-cai-hourly
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added a borderline mixed-case pressure test using public official Fukushima Daiichi source pointers."
-    scope_position: "falsifiers: source-quality, warning/communication, single-owner execution, slow-degradation infrastructure-capacity, resource adequacy, new assumption, and mixed design-basis pressure tested"
+    progress_delta: "Added a false-negative pressure test using public official Challenger/Rogers Commission source pointers."
+    scope_position: "falsifiers: source-quality, warning/communication, single-owner execution, slow-degradation infrastructure-capacity, resource adequacy, new assumption, mixed design-basis pressure, and false-negative dissent path tested"
     trend_24h: up
     confidence: med
-    recommendation: "Run a false-negative pressure test next or draft a non-accepting deferral packet."
+    recommendation: "Prepare a non-accepting acceptance packet or explicitly defer remaining unresolved classes before any schema-acceptance route."
     findings:
-      - "Fukushima Daiichi supports source-backed design-basis reassessment pressure but is not counted as a sixth positive record."
-      - "Nuclear-safety, tsunami-hazard, severe-accident, regulatory, emergency-response, legal, health, and domain-remedy boundaries remain closed."
+      - "Challenger supports source-backed technical-dissent escalation pressure but is not counted as a sixth positive record."
+      - "Launch-safety, spaceflight, engineering, management, legal, regulatory, public-safety, and domain-remedy boundaries remain closed."
     options:
       - id: A
-        label: "Run false negative"
-        recommended: true
-        description: "Test a plausible review-chain failure not well represented by the current fields."
-      - id: B
         label: "Draft packet"
+        recommended: true
+        description: "Prepare a non-accepting acceptance packet with explicit unresolved-class handling."
+      - id: B
+        label: "Defer classes"
         recommended: false
-        description: "Prepare a non-accepting packet with explicit unresolved-class deferrals."
+        description: "Record explicit deferrals for any remaining unresolved falsifier classes."
       - id: C
-        label: "Pause for review"
+        label: "Add record"
         recommended: false
-        description: "Hold the candidate provisional and let Joe inspect remaining pressures."
+        description: "Add another positive record only if it creates materially new field pressure."
       - id: D
         label: "Defer"
         recommended: false
-        description: "Leave further schema pressure for a later focused run."
-    decision_default: "Continue with a false-negative pressure test."
+        description: "Leave acceptance-packet work for a later focused run."
+    decision_default: "Draft a non-accepting packet or explicit unresolved-class deferral."
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after Fukushima mixed-case pressure test."
+    last_movement: "Closeout refreshed lane state after Challenger false-negative pressure test."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_mixed_pressure_test
+    reason_code: stewardship_controls_intact_after_false_negative_pressure_test
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
-    summary: "Controls remain intact after bounded mixed-case progress."
-    evaluated_at: "2026-07-19T18:59:44-05:00"
-    run_ref: RUN-20260719-548-repository-work-cycle-cai-hourly
+    summary: "Controls remain intact after bounded false-negative pressure progress."
+    evaluated_at: "2026-07-19T19:49:30-05:00"
+    run_ref: RUN-20260719-549-repository-work-cycle-cai-hourly
     objective: "Preserve evidence integrity, claim status, source health, correction, security, and repository viability."
-    progress_delta: "Mailbox empty except README, no writer lock, and emergency revocations remained empty."
+    progress_delta: "Mailbox empty except README, no repo writer lock, and emergency revocations remained empty."
     trend_24h: up
     confidence: high
     recommendation: "No stewardship action needed."
@@ -87,7 +87,7 @@ lanes:
         label: "Defer"
         recommended: false
         description: "No current stewardship decision is needed."
-    decision_default: "Continue bounded Lane 1 progress."
+    decision_default: "Continue bounded Lane 1 closeout toward non-accepting packet work."
     needs_joe: false
     drift_verdict: clean
     action_counts:

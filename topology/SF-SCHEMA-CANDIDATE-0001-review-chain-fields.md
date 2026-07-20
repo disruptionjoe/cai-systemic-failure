@@ -72,6 +72,10 @@ are not mandatory fields in this candidate:
   tests, design-basis reviews, licensing-basis updates, or external-hazard
   review paths that public sources show as pending, incomplete, nonbinding,
   fragmented, or not owner-visible enough.
+- `technical_dissent_escalation_path`: source-backed technical objections,
+  no-go recommendations, launch or operating constraints, waiver or constraint
+  review, management reversal or containment, and whether unresolved dissent
+  reached accountable decision owners.
 
 Annotations must not let a record qualify without the core source, assumption,
 changed-condition, validation-burden, absorber, and correction-route gates.
@@ -177,6 +181,7 @@ This candidate cannot be used to:
 | `SF-ABS-0007` | Refused as positive fit. The California August 2020 rotating-outage source set is a resource-adequacy, capacity-planning, market-practice, operating-reserve, import-limit, and net-load-timing absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve multi-actor planning and correction-route visibility without claiming every capacity-tradeoff failure. |
 | `SF-ABS-0008` | Refused as positive fit. The Kansas City Hyatt walkway-collapse source set is a new or changed design, connection-capacity, hanger-rod-arrangement, calculation-review, shop-drawing-review, and construction-communication absorber, not an old-assumption reuse review-chain record. | The absorber shows the candidate can preserve review and correction-route visibility without claiming every changed design or construction-detail failure. |
 | `SF-MIX-0001` | Mixed pressure, not counted as a sixth positive record. The Fukushima Daiichi source set shows old tsunami design-basis and reassessment pressure, but also strong nuclear-safety, tsunami-hazard, severe-accident, regulatory, and emergency-response absorber pressure. | The mixed test adds a source-gated design-basis reassessment annotation while refusing schema acceptance or domain-remedy conclusions. |
+| `SF-FN-0001` | False-negative pressure, not counted as a sixth positive record. The Challenger source set shows a plausible review-chain failure where old-assumption, changed-condition, validation-burden, dissent, reversal, and escalation visibility all matter. | The pressure adds a source-gated technical-dissent escalation annotation while refusing schema acceptance, launch-safety conclusions, or spaceflight/domain remedies. |
 
 ## Next Falsifier
 
@@ -190,15 +195,16 @@ non-accepting acceptance-bar review. It names future promotion prerequisites,
 remaining false-positive and false-negative classes, counterevidence that would
 kill or demote the candidate, and the proper acceptance authority.
 
-The next useful test is one remaining falsifier class, preferably a
-non-synthetic false-positive class or a false-negative pressure test. The
-candidate remains provisional until those unresolved classes are tested,
-explicitly deferred with reasons, or routed to the proper owner.
+Recent tests have covered the named source-quality, warning/communication,
+single-owner execution, slow-degradation infrastructure-capacity, resource
+adequacy, newly formed assumption, mixed-case, and false-negative pressure
+classes. The candidate remains provisional until any remaining unresolved
+classes are explicitly deferred with reasons or routed to the proper owner.
 
 `SF-SQA-0001-source-quality-falsifier.md` tests one remaining class by refusing
 source-quality and hindsight-artifact fits.
 `SF-ABS-0004-warning-communication-false-alert.md` tests another by refusing a
-non-synthetic warning/communication false-positive case. The next useful test
+non-synthetic warning/communication false-positive case.
 `SF-ABS-0005-single-owner-execution-train-188.md` tests another by refusing a
 non-synthetic single-owner execution and protective-control false-positive
 case.
@@ -212,5 +218,10 @@ non-synthetic newly formed or changed design-assumption false-positive case.
 where old design-basis assumption reuse and domain-specific nuclear,
 external-hazard, regulatory, and emergency-management explanations all remain
 material.
-The next useful test should be a false-negative pressure test, a non-accepting
-acceptance packet, or an explicit deferral of remaining unresolved classes.
+`SF-FN-0001-challenger-launch-decision-dissent-path.md` tests the
+false-negative class by showing that the candidate can represent Challenger
+only if technical dissent, no-launch recommendation, constraint reversal, and
+escalation visibility are explicitly available as source-gated annotation
+pressure. The next useful work is now a non-accepting acceptance packet or an
+explicit deferral of any remaining unresolved classes before routing an
+acceptance question.

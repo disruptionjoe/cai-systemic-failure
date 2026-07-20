@@ -57,9 +57,12 @@
 23. Done: run a borderline mixed-case pressure test using the Fukushima Daiichi
     design-basis tsunami source set without counting it as a sixth positive
     record or accepting schema (`SF-MIX-0001`).
-24. Next: run a false-negative pressure test where a plausible review-chain
-    failure is not well represented by the current fields, or prepare a
-    non-accepting packet that explicitly defers remaining unresolved classes.
+24. Done: run a false-negative pressure test where a plausible review-chain
+    failure is not well represented by the current fields, using the Challenger
+    launch-decision dissent path without counting it as a sixth positive record
+    or accepting schema (`SF-FN-0001`).
+25. Next: prepare a non-accepting acceptance packet or explicit unresolved-class
+    deferral before any schema-acceptance question is routed.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
