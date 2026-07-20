@@ -89,6 +89,12 @@ NBS/NIST source set. The candidate refuses the case as positive evidence
 because the sources center connection capacity, hanger-rod arrangement change,
 calculation review, shop-drawing review, and construction-detail communication
 rather than source-backed reuse of an old assumption under changed conditions.
+`SF-MIX-0001` then tests a borderline mixed case using public official
+Fukushima Daiichi source material. It does not count the case as a sixth
+positive record or a clean negative absorber. It records source-gated design-
+basis reassessment annotation pressure while preserving nuclear-safety,
+tsunami-hazard, severe-accident, regulatory, emergency-response, legal, health,
+and domain-remedy boundaries.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
@@ -98,9 +104,11 @@ post-absorber dispositions plus one non-accepting acceptance-bar review, one
 source-quality falsifier, one warning/communication false-positive absorber,
 one single-owner execution false-positive absorber, one slow-degradation
 infrastructure-capacity absorber, and one resource-adequacy capacity-tradeoff
-absorber, and one newly formed design-assumption absorber while preserving
+absorber, one newly formed design-assumption absorber, and one design-basis
+mixed-case pressure test while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, absorber discipline, remaining falsifier classes, and no-remedy
-boundaries. No human research, field data,
-intervention, participation, external action, consequential proving,
-legal/regulatory conclusion, or schema acceptance is active.
+boundaries. No human research, field data, intervention, participation,
+external action, consequential proving, legal/regulatory conclusion, nuclear-
+safety conclusion, radiation-health conclusion, emergency-response conclusion,
+or schema acceptance is active.

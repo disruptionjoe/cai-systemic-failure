@@ -133,3 +133,10 @@ positive evidence because the official sources center connection capacity,
 hanger-rod arrangement change, calculation review, shop-drawing review, and
 construction-detail communication rather than source-backed reuse of an old
 assumption under changed conditions.
+
+`SF-MIX-0001-fukushima-tsunami-design-basis.md` tests a borderline mixed case
+using public official Fukushima Daiichi source material. It does not count the
+case as a sixth positive record or a clean negative absorber. It records
+source-gated design-basis reassessment annotation pressure while preserving
+nuclear-safety, tsunami-hazard, severe-accident, regulatory, emergency-
+response, legal, health, and domain-remedy boundaries.

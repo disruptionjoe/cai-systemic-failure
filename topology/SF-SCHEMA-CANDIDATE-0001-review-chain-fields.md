@@ -68,6 +68,10 @@ are not mandatory fields in this candidate:
 - `resident_warning_route`: resident, tenant, local-community, or affected-
   party warnings that public sources show as possible review, escalation, stop,
   or correction routes.
+- `design_basis_reassessment_path`: formal backchecks, reassessments, stress
+  tests, design-basis reviews, licensing-basis updates, or external-hazard
+  review paths that public sources show as pending, incomplete, nonbinding,
+  fragmented, or not owner-visible enough.
 
 Annotations must not let a record qualify without the core source, assumption,
 changed-condition, validation-burden, absorber, and correction-route gates.
@@ -134,8 +138,11 @@ safety, structural-engineering, transportation-infrastructure, inspection,
 maintenance, construction-load, electric-reliability, power-market, resource-
 procurement, operating-reserve, load-forecasting, planning, or domain-remedy
 conclusions, construction-management conclusions, professional-liability
-conclusions, design-review conclusions, shop-drawing-review conclusions, or
-change-control conclusions.
+conclusions, design-review conclusions, shop-drawing-review conclusions,
+change-control conclusions, nuclear-safety conclusions, tsunami-hazard
+conclusions, severe-accident-management conclusions, emergency-planning
+conclusions, radiation-health conclusions, or external-hazard design-basis
+conclusions.
 
 ## Non-Promotion Rules
 
@@ -169,6 +176,7 @@ This candidate cannot be used to:
 | `SF-ABS-0006` | Refused as positive fit. The I-35W bridge-collapse source set is a slow-degradation, infrastructure-capacity, original-design-calculation, added-load, load-rating, construction-load, and inspection-guidance absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve long-lived defect and changed-load pressure without claiming every infrastructure-capacity failure. |
 | `SF-ABS-0007` | Refused as positive fit. The California August 2020 rotating-outage source set is a resource-adequacy, capacity-planning, market-practice, operating-reserve, import-limit, and net-load-timing absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve multi-actor planning and correction-route visibility without claiming every capacity-tradeoff failure. |
 | `SF-ABS-0008` | Refused as positive fit. The Kansas City Hyatt walkway-collapse source set is a new or changed design, connection-capacity, hanger-rod-arrangement, calculation-review, shop-drawing-review, and construction-communication absorber, not an old-assumption reuse review-chain record. | The absorber shows the candidate can preserve review and correction-route visibility without claiming every changed design or construction-detail failure. |
+| `SF-MIX-0001` | Mixed pressure, not counted as a sixth positive record. The Fukushima Daiichi source set shows old tsunami design-basis and reassessment pressure, but also strong nuclear-safety, tsunami-hazard, severe-accident, regulatory, and emergency-response absorber pressure. | The mixed test adds a source-gated design-basis reassessment annotation while refusing schema acceptance or domain-remedy conclusions. |
 
 ## Next Falsifier
 
@@ -200,5 +208,9 @@ non-synthetic slow-degradation and infrastructure-capacity false-positive case.
 non-synthetic resource-adequacy and capacity-tradeoff false-positive case.
 `SF-ABS-0008-new-assumption-walkway-collapse.md` tests another by refusing a
 non-synthetic newly formed or changed design-assumption false-positive case.
-The next useful test should come from a different remaining class, preferably a
-borderline mixed case or a false-negative pressure test.
+`SF-MIX-0001-fukushima-tsunami-design-basis.md` tests a borderline mixed case
+where old design-basis assumption reuse and domain-specific nuclear,
+external-hazard, regulatory, and emergency-management explanations all remain
+material.
+The next useful test should be a false-negative pressure test, a non-accepting
+acceptance packet, or an explicit deferral of remaining unresolved classes.
