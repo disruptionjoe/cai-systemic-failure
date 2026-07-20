@@ -6,7 +6,7 @@ own CAI strategy, other repositories' claims, interventions, participation, or
 field operations.
 
 Load `GOVERNANCE.md`, `STATUS.md`, `ROADMAP.md`, and `LANES.yaml` before work.
-For CapacityOS routing, load `../../../system/stewards/cai-systemic-failure/README.md`.
+For CapacityOS routing, load `../../private/system-operations/stewards/cai-systemic-failure/README.md`.
 A direct mount must remain sufficient without CapacityOS. System may narrow
 local authority and never broaden it.
 
