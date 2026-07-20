@@ -222,6 +222,12 @@ material.
 false-negative class by showing that the candidate can represent Challenger
 only if technical dissent, no-launch recommendation, constraint reversal, and
 escalation visibility are explicitly available as source-gated annotation
-pressure. The next useful work is now a non-accepting acceptance packet or an
-explicit deferral of any remaining unresolved classes before routing an
-acceptance question.
+pressure.
+
+`SF-SCHEMA-ACCEPTANCE-PACKET-0001-review-chain-fields.md` packages the current
+evidence and explicitly refuses schema acceptance. It keeps the candidate as a
+local provisional screen, freezes the current field list only for provisional
+use, names unresolved-class deferrals, and recommends no Joe action unless Joe
+separately asks to review acceptance. Future tests should be added only when a
+new public or synthetic case creates material pressure on a core field, refusal
+note, annotation, source gate, or correction-route gate.

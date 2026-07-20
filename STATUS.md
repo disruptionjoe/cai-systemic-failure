@@ -101,6 +101,12 @@ a sixth positive record or accept schema. It records source-gated technical-
 dissent escalation annotation pressure while preserving launch-safety,
 spaceflight, engineering, management, legal, regulatory, public-safety, and
 domain-remedy boundaries.
+`SF-SCHEMA-ACCEPTANCE-PACKET-0001` then packages the current acceptance
+evidence and explicitly refuses schema acceptance. It freezes the current core
+fields only for provisional local screening, preserves source-gated annotations
+as non-mandatory, names unresolved-class deferrals, refuses routing an
+acceptance question by default, and recommends no Joe action unless Joe
+separately wants to review acceptance.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
@@ -112,9 +118,10 @@ one single-owner execution false-positive absorber, one slow-degradation
 infrastructure-capacity absorber, and one resource-adequacy capacity-tradeoff
 absorber, one newly formed design-assumption absorber, one design-basis
 mixed-case pressure test, and one false-negative technical-dissent pressure
-test while preserving source requirements, counterevidence, correction routes,
-resident-warning caution, absorber discipline, remaining falsifier classes, and
-no-remedy boundaries. No human research, field data, intervention,
+test, and one non-accepting acceptance packet with explicit unresolved-class
+deferrals while preserving source requirements, counterevidence, correction
+routes, resident-warning caution, absorber discipline, remaining falsifier
+classes, and no-remedy boundaries. No human research, field data, intervention,
 participation, external action, consequential proving, legal/regulatory
 conclusion, nuclear-safety conclusion, radiation-health conclusion,
 emergency-response conclusion, launch-safety conclusion, spaceflight

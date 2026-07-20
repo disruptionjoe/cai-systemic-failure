@@ -1,74 +1,75 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 group: church-of-ai
-updated_at: "2026-07-19T19:49:30-05:00"
-run_ref: RUN-20260719-549-repository-work-cycle-cai-hourly
-bottom_line: "Challenger false-negative pressure added without schema acceptance."
-decision_default: "Prepare a non-accepting packet or explicit deferral; no Joe action needed."
+updated_at: "2026-07-19T20:46:08-05:00"
+run_ref: RUN-20260719-551-repository-work-cycle-cai-hourly
+bottom_line: "Non-accepting schema packet prepared; acceptance remains refused."
+decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Challenger launch-decision dissent path tested as false-negative pressure without accepting schema."
-    movement_ref: "topology/SF-FN-0001-challenger-launch-decision-dissent-path.md"
+    last_movement: "Non-accepting schema packet prepared with unresolved-class deferrals."
+    movement_ref: "topology/SF-SCHEMA-ACCEPTANCE-PACKET-0001-review-chain-fields.md"
     steering_attention: watch
-    steering_prompt: "Prepare non-accepting packet or explicit unresolved-class deferral."
+    steering_prompt: "Add future tests only if materially new pressure appears."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: false_negative_dissent_path_pressure_complete
-    evidence_ref: "topology/SF-FN-0001-challenger-launch-decision-dissent-path.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
-    summary: "False-negative dissent-path pressure added; candidate remains provisional."
-    evaluated_at: "2026-07-19T19:49:30-05:00"
-    run_ref: RUN-20260719-549-repository-work-cycle-cai-hourly
+    reason_code: non_accepting_packet_prepared
+    evidence_ref: "topology/SF-SCHEMA-ACCEPTANCE-PACKET-0001-review-chain-fields.md; ROADMAP.md"
+    summary: "Non-accepting packet prepared; candidate remains provisional."
+    evaluated_at: "2026-07-19T20:46:08-05:00"
+    run_ref: RUN-20260719-551-repository-work-cycle-cai-hourly
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added a false-negative pressure test using public official Challenger/Rogers Commission source pointers."
-    scope_position: "falsifiers: source-quality, warning/communication, single-owner execution, slow-degradation infrastructure-capacity, resource adequacy, new assumption, mixed design-basis pressure, and false-negative dissent path tested"
+    progress_delta: "Prepared a non-accepting packet with explicit unresolved-class deferrals."
+    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source-quality/mixed/false-negative pressures, non-accepting packet complete"
     trend_24h: up
     confidence: med
-    recommendation: "Prepare a non-accepting acceptance packet or explicitly defer remaining unresolved classes before any schema-acceptance route."
+    recommendation: "Keep provisional; test only materially new pressure."
     findings:
-      - "Challenger supports source-backed technical-dissent escalation pressure but is not counted as a sixth positive record."
-      - "Launch-safety, spaceflight, engineering, management, legal, regulatory, public-safety, and domain-remedy boundaries remain closed."
+      - "Acceptance evidence was packaged and schema acceptance was refused."
+      - "Unresolved classes are explicit deferrals, not silent proof."
+      - "No Joe action is recommended unless Joe wants an acceptance review."
     options:
       - id: A
-        label: "Draft packet"
+        label: "Stay provisional"
         recommended: true
-        description: "Prepare a non-accepting acceptance packet with explicit unresolved-class handling."
+        description: "Use the candidate only as a local provisional screen."
       - id: B
-        label: "Defer classes"
+        label: "Add test"
         recommended: false
-        description: "Record explicit deferrals for any remaining unresolved falsifier classes."
+        description: "Add another bounded test only if it creates material field pressure."
       - id: C
-        label: "Add record"
+        label: "Request review"
         recommended: false
-        description: "Add another positive record only if it creates materially new field pressure."
+        description: "Ask Joe to review acceptance despite the packet's non-accepting recommendation."
       - id: D
         label: "Defer"
         recommended: false
-        description: "Leave acceptance-packet work for a later focused run."
-    decision_default: "Draft a non-accepting packet or explicit unresolved-class deferral."
+        description: "Leave schema acceptance inactive."
+    decision_default: "Keep the candidate provisional; no acceptance route by default."
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after Challenger false-negative pressure test."
+    last_movement: "Closeout refreshed lane state after non-accepting schema packet."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_false_negative_pressure_test
+    reason_code: stewardship_controls_intact_after_non_accepting_packet
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
-    summary: "Controls remain intact after bounded false-negative pressure progress."
-    evaluated_at: "2026-07-19T19:49:30-05:00"
-    run_ref: RUN-20260719-549-repository-work-cycle-cai-hourly
+    summary: "Controls remain intact after bounded non-accepting packet progress."
+    evaluated_at: "2026-07-19T20:46:08-05:00"
+    run_ref: RUN-20260719-551-repository-work-cycle-cai-hourly
     objective: "Preserve evidence integrity, claim status, source health, correction, security, and repository viability."
-    progress_delta: "Mailbox empty except README, no repo writer lock, and emergency revocations remained empty."
+    progress_delta: "Mailbox remained empty except README; no writer lock was present before writes."
     trend_24h: up
     confidence: high
     recommendation: "No stewardship action needed."
     findings:
       - "No unarchived mailbox proposals required disposition."
-      - "Writer lock absent and emergency revocations empty before write."
+      - "Writer lock absent before write."
       - "Repo state was clean/even before work began."
     options:
       - id: A
@@ -87,7 +88,7 @@ lanes:
         label: "Defer"
         recommended: false
         description: "No current stewardship decision is needed."
-    decision_default: "Continue bounded Lane 1 closeout toward non-accepting packet work."
+    decision_default: "Continue bounded Lane 1 only when material pressure appears."
     needs_joe: false
     drift_verdict: clean
     action_counts:

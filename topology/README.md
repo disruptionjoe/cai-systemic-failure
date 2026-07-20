@@ -147,3 +147,8 @@ It does not count the case as a sixth positive record or accept schema. It
 records source-gated technical-dissent escalation annotation pressure while
 preserving launch-safety, spaceflight, engineering, management, legal,
 regulatory, public-safety, and domain-remedy boundaries.
+
+`SF-SCHEMA-ACCEPTANCE-PACKET-0001-review-chain-fields.md` packages the current
+acceptance evidence and explicitly refuses schema acceptance. It keeps the
+candidate as a local provisional screen, names unresolved-class deferrals, and
+recommends no Joe action unless Joe separately asks to review acceptance.
