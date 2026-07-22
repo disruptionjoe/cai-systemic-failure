@@ -6,6 +6,7 @@ records: [SF-0001, SF-0002, SF-0003, SF-0004, SF-0005]
 lane: "1"
 created: 2026-07-19
 source_material: repository_records_and_public_official_source_pointers
+source_revision: 027397065c35c8e41f5ad9cba289ebaed943ee31
 external_action: none
 ---
 
