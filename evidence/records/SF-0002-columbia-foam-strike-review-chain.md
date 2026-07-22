@@ -87,6 +87,19 @@ narrow for this record because the topology question is not a remedy; it is how
 the need for stronger evidence becomes visible and accountable before the
 system treats the old assumption as still adequate.
 
+## Uncertainty And Falsifiers
+
+This synthesis may compress distinct technical, mission-management, imagery-
+request, and institutional decisions into one review-chain pattern. The public
+report set supports a bounded comparison, not a complete reconstruction of
+individual knowledge, intent, or every decision path.
+
+Falsify or narrow this record if closer source review shows either that the
+unresolved damage concern, imagery need, technical dissent, and management
+disposition were already preserved as one accountable contradiction object, or
+that the proposed cross-domain pattern cannot be stated without importing a
+spaceflight-specific engineering conclusion.
+
 ## Owner Routing
 
 Any spaceflight engineering, NASA governance, certification, or operational
@@ -99,4 +112,3 @@ test generic topology fields.
 If later source review shows this synthesis overstates the CAIB record, correct
 this file and any dependent topology test. Do not silently promote the field
 set into a universal schema.
-
