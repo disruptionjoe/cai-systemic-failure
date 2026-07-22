@@ -4,6 +4,9 @@
   topology, prior art, inquiries, interfaces, and closed actions.
 - Public/source/synthetic input passes; secret, personal, regulated,
   confidential, and unauthorized field data fail closed.
+- A material record without named sources and revisions, claim status,
+  counterevidence, uncertainty, falsifiers, affected systems, or correction
+  route fails admission.
 - Hypotheses remain hypotheses and negative evidence is preserved.
 - Owner routing cannot authorize receiver work.
 - No schedule, health cache, work queue, or automation state appears in Lanes.
