@@ -18,6 +18,18 @@ accounts, posting, sending, spending, and deployment are closed.
 Before writes, resolve `git rev-parse --git-path capacityos-writer.lock`. If it
 exists, stop unless the active approved run owns it. Never discard user work.
 
+## Purpose, Passion, and Practice
+
+- **Purpose:** Make systemic failure legible without manufacturing certainty,
+  turning credible signals, evidence, prior art, and contradiction into
+  source-preserving models and answerable inquiries.
+- **Passion:** Test whether agents can help people see complex systemic failure
+  clearly enough to respond without collapsing complexity into blame,
+  ideology, or false certainty.
+- **Practice:** Map contested systems, preserve evidence and contradiction,
+  form the right questions, and route action without acting from premature
+  certainty.
+
 ## Versioning Default
 
 After any coherent batch of repository changes that Joe has authorized, commit
