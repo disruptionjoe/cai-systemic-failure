@@ -1,7 +1,9 @@
 ---
 inquiry_id: SFQ-0001
 status: routed_to_mechanism_design
+claim_status: bounded_question_from_source_backed_synthesis
 source_record: evidence/records/SF-0001-boeing-737-max-certification-assumption-chain.md
+source_revision: 73e38f42a937171b5469d21da37510477839afb7
 created: 2026-07-18
 receiver: cai-mechanism-design
 external_action: none
@@ -53,8 +55,30 @@ whether a proposed mechanism keeps three contradiction types visible:
 
 Passing paperwork fields is insufficient if the contradiction can remain hidden.
 
+## Counterevidence And Uncertainty
+
+The inquiry may collapse into an ordinary checklist, duplicate a mechanism
+already owned elsewhere, or overgeneralize one bounded aviation synthesis. The
+source record supports asking the question; it does not establish that a
+generic register will improve decisions, transfer across domains, or prevent
+harm. Those claims remain untested.
+
+## Affected Systems And Standing
+
+The immediate affected system is any synthetic representation used to test the
+question. People or operational systems carrying real safety, legitimacy, or
+review risk have standing over any later consequential use, which remains
+closed and outside this inquiry.
+
 ## Permitted Receiver Disposition
 
 The receiver may kill, revise, defer, transfer, or admit a synthetic-only
 candidate. The receiver may not deploy, publish externally, contact parties,
 create accounts, recruit participants, or impose obligations on another owner.
+
+## Correction Route
+
+Correct this inquiry and notify the receiver through a governed proposal if the
+source record is corrected, the owner-fit rationale changes, or later evidence
+shows that the question overstates what `SF-0001` supports. The receiver retains
+authority over its candidate and disposition records.
