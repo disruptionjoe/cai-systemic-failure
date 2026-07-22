@@ -66,7 +66,10 @@ Mechanism fragments:
 - Manufacturers and engineering organizations managing derivative products.
 - International aviation authorities depending on shared safety information.
 
-## Counterevidence And Limits
+## Counterevidence, Uncertainty, And Limits
+
+The primary uncertainty is how much the bounded retrospective source set omits
+from the full certification and decision record.
 
 - This record relies on retrospective investigation and review reports, not on
   the complete source certification file.
