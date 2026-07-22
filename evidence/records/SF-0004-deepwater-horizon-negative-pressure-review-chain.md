@@ -107,6 +107,17 @@ the source-backed contradiction: a changed validation condition, unresolved
 evidence, distributed review, affected standing, and a possible owner-visible
 stop route before old assumptions were reused.
 
+## Uncertainty And Falsifiers
+
+This synthesis may compress distinct well-design, test-procedure, rig-site,
+contractor, operator, and oversight decisions into one review-chain pattern. It
+does not reconstruct individual intent or decide among technical causal models.
+
+Falsify or narrow the record if closer source review shows that the conflicting
+test evidence and barrier assumption were already preserved as one accountable
+stop condition, or that the proposed pattern depends on an offshore-engineering
+conclusion rather than the bounded review-chain evidence.
+
 ## Owner Routing
 
 Any offshore-drilling engineering, well-control, environmental, regulatory,

@@ -102,6 +102,18 @@ show a changed-condition validation burden, affected-person standing,
 fragmented owner visibility, delayed correction route, and a need to keep
 source-backed contradiction visible before old assumptions are reused.
 
+## Uncertainty And Falsifiers
+
+This synthesis may compress distinct utility, state, federal, public-health,
+sampling, and resident-evidence pathways into one review-chain pattern. It does
+not reconstruct every actor's knowledge or settle engineering, legal, health,
+or civil-rights conclusions.
+
+Falsify or narrow the record if closer source review shows that the changed-
+source validation burden, resident evidence, owner disagreement, and correction
+route were already held as one accountable contradiction object, or that the
+pattern cannot be stated without importing a drinking-water-specific remedy.
+
 ## Owner Routing
 
 Any water engineering, lead-remediation, public-health, civil-rights,
@@ -115,4 +127,3 @@ generic topology fields.
 If later source review shows this synthesis overstates the official record,
 correct this file and any dependent topology test. Do not silently promote the
 field set into a universal schema or a policy prescription.
-
