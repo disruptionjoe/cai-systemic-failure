@@ -1,6 +1,7 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 group: church-of-ai
+rule_ref: system/runtime/flows/derive-lane-health.md
 updated_at: "2026-07-20T10:44:11-05:00"
 run_ref: RUN-20260720-103623-repository-work-cycle-cai-hourly
 bottom_line: "Non-accepting schema packet prepared; acceptance remains refused."
