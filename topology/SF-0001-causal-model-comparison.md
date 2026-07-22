@@ -1,6 +1,7 @@
 ---
 comparison_id: SF-0001-CM1
 status: provisional_comparison
+claim_status: bounded_provisional_synthesis
 record_id: SF-0001
 lane: "1"
 created: 2026-07-18
@@ -51,6 +52,19 @@ they become repository structure.
 | Certification visibility standards | JATR R4.2 through R4.6 address clarity, consistency, early coordination, fragmented descriptions, functional-change highlighting, and records of agreements. | Changed-function visibility and review timing. | Supports `change event`, `visibility owner`, and `integrated review trigger` fields. |
 | Delegation pressure review | JATR observations and recommendations on ODA environment and FAA communication address delegated authority pressure and visibility. | Delegated review integrity. | Supports `review owner`, `delegation path`, and `pressure/counterevidence` fields, but only when sourced. |
 
+## Uncertainty, Falsifiers, And Affected Standing
+
+The selected models are not exhaustive, and the bounded retrospective source
+set does not reconstruct every certification, engineering, management, or
+operational decision. Flight crews, passengers, operators, manufacturers,
+regulators, and authorities relying on shared safety information have affected
+standing; this comparison does not speak for them or settle domain conclusions.
+
+Revise or reject this comparison if closer official-source review shows that
+the paired assumption-drift, changed-function, and delegated-visibility models
+misstate the record, or if a better sourced model explains the observed review
+failure without the proposed topology fields.
+
 ## Provisional Topology Fields
 
 These are candidate fields only:
@@ -79,3 +93,9 @@ store assumptions, but whether it can keep three contradictions visible:
 If a candidate mechanism cannot distinguish these from an ordinary completed
 checklist, it should be revised or killed.
 
+## Correction Route
+
+Correct this comparison and its dependent topology fields if the source record
+or model fit changes. Recheck `SFQ-0001` and notify any receiver through a
+governed proposal when a correction materially changes the routed question;
+do not silently rewrite receiver-owned candidate truth.
