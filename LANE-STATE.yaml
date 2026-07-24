@@ -1,10 +1,9 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
-group: church-of-ai
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-07-20T10:44:11-05:00"
-run_ref: RUN-20260720-103623-repository-work-cycle-cai-hourly
-bottom_line: "Non-accepting schema packet prepared; acceptance remains refused."
+updated_at: "2026-07-23T22:18:00-05:00"
+run_ref: RUN-20260723-221004-cai-systemic-stewardship
+bottom_line: "Lane-state schema repaired; keep Lane 1 provisional until materially new pressure appears."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
@@ -52,26 +51,26 @@ lanes:
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "Closeout refreshed lane state after non-accepting schema packet."
+    last_movement: "Removed the obsolete duplicate group field from Lane state."
     movement_ref: "LANE-STATE.yaml"
     steering_attention: none
     steering_prompt: "none"
     steering_ref: "AGENTS.md; GOVERNANCE.md; LANES.yaml"
     light: green
-    reason_code: stewardship_controls_intact_after_non_accepting_packet
+    reason_code: stewardship_state_schema_repaired
     evidence_ref: "AGENTS.md; GOVERNANCE.md; STATUS.md; LANES.yaml"
-    summary: "Controls remain intact after bounded non-accepting packet progress."
-    evaluated_at: "2026-07-19T20:46:08-05:00"
-    run_ref: RUN-20260719-551-repository-work-cycle-cai-hourly
+    summary: "Lane-state schema restored; owner controls and Lane 1 priority remain intact."
+    evaluated_at: "2026-07-23T22:18:00-05:00"
+    run_ref: RUN-20260723-221004-cai-systemic-stewardship
     objective: "Preserve evidence integrity, claim status, source health, correction, security, and repository viability."
-    progress_delta: "Mailbox remained empty except README; no writer lock was present before writes."
+    progress_delta: "Removed one obsolete duplicate owner-group field and verified current integrity and priority."
     trend_24h: up
     confidence: high
     recommendation: "No stewardship action needed."
     findings:
+      - "The schema 2.0 summary carried a duplicate group field prohibited by the current Lane-state contract."
       - "No unarchived mailbox proposals required disposition."
-      - "Writer lock absent before write."
-      - "Repo state was clean/even before work began."
+      - "Evidence controls, current priority, writer state, and correction boundaries remain coherent."
     options:
       - id: A
         label: "Continue progress"
@@ -91,11 +90,11 @@ lanes:
         description: "No current stewardship decision is needed."
     decision_default: "Continue bounded Lane 1 only when material pressure appears."
     needs_joe: false
-    drift_verdict: clean
+    drift_verdict: clean_after_duplicate_group_field_repair
     action_counts:
       mail: 0
       reconciled: 0
-      integrity_repairs: 0
+      integrity_repairs: 1
       seeds_routed: 0
       escalations: 0
     attention_pointer: "nothing needs you"
