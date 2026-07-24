@@ -64,7 +64,11 @@
 25. Done: prepare a non-accepting acceptance packet with explicit unresolved-
     class deferrals, field freeze for provisional use, and no schema acceptance
     (`SF-SCHEMA-ACCEPTANCE-PACKET-0001`).
-26. Next: keep the candidate provisional and add another bounded test only if a
+26. Done: run a synthetic counterevidence-quality asymmetry falsifier that
+    refuses positive qualification when the named alternative has no traceable
+    source context or explicit synthetic basis and no claim posture
+    (`SF-CEQ-0001`).
+27. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

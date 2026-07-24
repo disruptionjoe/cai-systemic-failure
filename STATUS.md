@@ -107,6 +107,10 @@ fields only for provisional local screening, preserves source-gated annotations
 as non-mandatory, names unresolved-class deferrals, refuses routing an
 acceptance question by default, and recommends no Joe action unless Joe
 separately wants to review acceptance.
+`SF-CEQ-0001` then tests counterevidence-quality asymmetry with a synthetic
+fixture. The candidate refuses positive qualification when carefully sourced
+positive-fit fields are paired only with generic, untraceable, and ungraded
+alternatives. The core field list and provisional status remain unchanged.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
@@ -117,13 +121,13 @@ source-quality falsifier, one warning/communication false-positive absorber,
 one single-owner execution false-positive absorber, one slow-degradation
 infrastructure-capacity absorber, and one resource-adequacy capacity-tradeoff
 absorber, one newly formed design-assumption absorber, one design-basis
-mixed-case pressure test, and one false-negative technical-dissent pressure
-test, and one non-accepting acceptance packet with explicit unresolved-class
-deferrals while preserving source requirements, counterevidence, correction
-routes, resident-warning caution, absorber discipline, remaining falsifier
-classes, and no-remedy boundaries. No human research, field data, intervention,
-participation, external action, consequential proving, legal/regulatory
-conclusion, nuclear-safety conclusion, radiation-health conclusion,
-emergency-response conclusion, launch-safety conclusion, spaceflight
-conclusion, engineering conclusion, management-standard conclusion, or schema
-acceptance is active.
+mixed-case pressure test, one false-negative technical-dissent pressure test,
+one non-accepting acceptance packet with explicit unresolved-class deferrals,
+and one counterevidence-quality asymmetry falsifier while preserving source
+requirements, counterevidence, correction routes, resident-warning caution,
+absorber discipline, remaining falsifier classes, and no-remedy boundaries. No
+human research, field data, intervention, participation, external action,
+consequential proving, legal/regulatory conclusion, nuclear-safety conclusion,
+radiation-health conclusion, emergency-response conclusion, launch-safety
+conclusion, spaceflight conclusion, engineering conclusion,
+management-standard conclusion, or schema acceptance is active.

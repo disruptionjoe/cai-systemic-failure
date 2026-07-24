@@ -50,7 +50,7 @@ does not qualify as positive evidence for this candidate.
 | `validation_burden` | State what adequate revalidation would need to address and what source-backed evidence shows as unmet, disputed, fragmented, or unresolved. | Refuse if the record supplies no source-backed burden beyond hindsight. |
 | `observation_environment` | Preserve how the relevant evidence was made visible, missed, normalized, routed, or disputed without importing domain conclusions. | Refuse if the field becomes a domain-specific remedy or expertise claim. |
 | `delegation_visibility_gap` | Show how distributed review, authority, request paths, or delegated decisions fragmented the contradiction. | Refuse if no review-chain fragmentation is source-supported. |
-| `absorber_or_counterevidence` | Record the strongest narrower explanation and whether it absorbs, narrows, or fails to kill the review-chain residue. | Refuse if the candidate treats every case as confirming evidence. |
+| `absorber_or_counterevidence` | Record the strongest narrower explanation, its source context or explicit synthetic basis, its claim posture, and whether it absorbs, narrows, or fails to kill the review-chain residue. | Refuse if the candidate treats every case as confirming evidence or names only generic, untraceable, or ungraded alternatives. |
 | `correction_route_stop_condition` | Name the owner-visible route that could correct, escalate, stop, revise, or expose the assumption without this repo prescribing the remedy. | Refuse if correction requires this repository to act as the domain owner. |
 
 ## Source-Gated Annotations
@@ -100,6 +100,12 @@ positive evidence for this candidate, when the pattern match is source-thin,
 media-only, retrospective, or dependent on hindsight reconstruction rather than
 durable source material that can carry the assumption context, changed
 condition, validation burden, review owner, and correction route.
+
+Refuse positive qualification when the named absorber or counterevidence is
+only a generic alternative with no traceable source context or explicit
+synthetic basis and no claim posture. Preserve source-thin, contradicted,
+synthetic, or unresolved alternatives with those grades; do not treat
+performative skepticism as an inspectable countermodel.
 
 Record a case as an absorber or separate topology question, not positive
 evidence for this candidate, when public official sources center false
@@ -175,6 +181,7 @@ This candidate cannot be used to:
 | `SF-0005` | Fits as a refurbishment, external-wall, fire-safety, and resident-warning review-chain record under public official evidence. | Building-safety, product, fire-service, resident-engagement, regulatory, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
 | `SF-ABS-0003` | Refused as positive fit. The NIST Station nightclub source set is a fire/life-safety code, material, sprinkler, pyrotechnic, egress, inspection, and emergency-response protection absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can accept one building/fire-safety review-chain record without claiming every public fire-safety failure. |
 | `SF-SQA-0001` | Refused as positive fit. Source-thin or hindsight-built pattern matches cannot qualify without source-backed assumption context, changed condition, validation burden, review owner, and correction route. | Source-quality failure absorbs attractive narratives before they stretch the candidate into a retrospective pattern label. |
+| `SF-CEQ-0001` | Refused as positive fit. Source-backed positive-fit fields plus a generic, untraceable, and ungraded alternative do not satisfy the counterevidence gate. | The falsifier prevents performative skepticism from appearing as inspectable contradiction while preserving weak alternatives as graded leads or uncertainty. |
 | `SF-ABS-0004` | Refused as positive fit. The Hawaii false-alert source set is a warning/communication, drill-procedure, alert-origination, safeguard, and correction-message absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve warning-route pressure without claiming every public alerting or communication failure. |
 | `SF-ABS-0005` | Refused as positive fit. The Amtrak Train 188 source set is a single-owner execution, situational-awareness, speed-compliance, train-control, occupant-protection, and emergency-response absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve affected standing and correction-route visibility without claiming every point-of-operation execution failure. |
 | `SF-ABS-0006` | Refused as positive fit. The I-35W bridge-collapse source set is a slow-degradation, infrastructure-capacity, original-design-calculation, added-load, load-rating, construction-load, and inspection-guidance absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve long-lived defect and changed-load pressure without claiming every infrastructure-capacity failure. |
@@ -203,6 +210,10 @@ classes are explicitly deferred with reasons or routed to the proper owner.
 
 `SF-SQA-0001-source-quality-falsifier.md` tests one remaining class by refusing
 source-quality and hindsight-artifact fits.
+`SF-CEQ-0001-counterevidence-quality-asymmetry.md` tests whether the
+counterevidence field can be satisfied by generic, untraceable, and ungraded
+alternatives. It refuses that asymmetric evidence posture while keeping the
+core field list unchanged.
 `SF-ABS-0004-warning-communication-false-alert.md` tests another by refusing a
 non-synthetic warning/communication false-positive case.
 `SF-ABS-0005-single-owner-execution-train-188.md` tests another by refusing a

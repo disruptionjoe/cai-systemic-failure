@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-07-23T22:18:00-05:00"
-run_ref: RUN-20260723-221004-cai-systemic-stewardship
-bottom_line: "Lane-state schema repaired; keep Lane 1 provisional until materially new pressure appears."
+updated_at: "2026-07-24T17:15:00-05:00"
+run_ref: RUN-20260724-171230-cai-systemic-progress
+bottom_line: "Counterevidence now requires traceable, graded alternatives; keep the schema candidate provisional."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Non-accepting schema packet prepared with unresolved-class deferrals."
-    movement_ref: "topology/SF-SCHEMA-ACCEPTANCE-PACKET-0001-review-chain-fields.md"
+    last_movement: "Counterevidence-quality asymmetry falsifier narrowed the existing candidate gate."
+    movement_ref: "topology/SF-CEQ-0001-counterevidence-quality-asymmetry.md"
     steering_attention: watch
     steering_prompt: "Add future tests only if materially new pressure appears."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: non_accepting_packet_prepared
-    evidence_ref: "topology/SF-SCHEMA-ACCEPTANCE-PACKET-0001-review-chain-fields.md; ROADMAP.md"
-    summary: "Non-accepting packet prepared; candidate remains provisional."
-    evaluated_at: "2026-07-19T20:46:08-05:00"
-    run_ref: RUN-20260719-551-repository-work-cycle-cai-hourly
+    reason_code: counterevidence_quality_gate_narrowed
+    evidence_ref: "topology/SF-CEQ-0001-counterevidence-quality-asymmetry.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
+    summary: "Generic alternatives no longer satisfy the counterevidence gate; the candidate remains provisional."
+    evaluated_at: "2026-07-24T17:15:00-05:00"
+    run_ref: RUN-20260724-171230-cai-systemic-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Prepared a non-accepting packet with explicit unresolved-class deferrals."
-    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source-quality/mixed/false-negative pressures, non-accepting packet complete"
+    progress_delta: "Added a synthetic falsifier and required traceable source context or synthetic basis plus claim posture for counterevidence."
+    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source/counterevidence-quality, mixed, and false-negative pressures"
     trend_24h: up
-    confidence: med
+    confidence: high
     recommendation: "Keep provisional; test only materially new pressure."
     findings:
-      - "Acceptance evidence was packaged and schema acceptance was refused."
-      - "Unresolved classes are explicit deferrals, not silent proof."
-      - "No Joe action is recommended unless Joe wants an acceptance review."
+      - "Generic, untraceable, and ungraded alternatives are not inspectable counterevidence."
+      - "Counterevidence may remain unequal or uncertain if its source basis and claim posture are explicit."
+      - "The core field list and provisional candidate status remain unchanged."
     options:
       - id: A
         label: "Stay provisional"

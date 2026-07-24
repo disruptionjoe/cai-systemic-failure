@@ -96,6 +96,12 @@ matches that require the repository to reconstruct assumption context, changed
 condition, validation burden, review owner, or correction route from hindsight
 rather than source material.
 
+`SF-CEQ-0001-counterevidence-quality-asymmetry.md` tests whether carefully
+sourced positive-fit fields can be paired with generic, untraceable, and
+ungraded alternatives while still claiming the counterevidence gate passes.
+The candidate refuses that asymmetric evidence posture and keeps the existing
+core field list unchanged.
+
 `SF-ABS-0004-warning-communication-false-alert.md` tests a non-synthetic
 warning/communication false-positive class using the Hawaii false ballistic-
 missile alert official source set. The candidate refuses the case as positive
