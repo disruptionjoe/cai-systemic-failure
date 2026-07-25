@@ -72,7 +72,11 @@
     positive qualification when a record knowingly cites an earlier supporting
     revision while omitting a later material contradiction already present in
     the admitted source packet (`SF-SRL-0001`).
-28. Next: keep the candidate provisional and add another bounded test only if a
+28. Done: run a synthetic correction-route-authority falsifier that refuses
+    positive qualification when a named route is visibly unable to receive,
+    review, or carry the relevant correction to an accountable owner
+    (`SF-CRA-0001`).
+29. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

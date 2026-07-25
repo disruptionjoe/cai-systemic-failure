@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-07-24T22:20:00-05:00"
-run_ref: RUN-20260724-221205-cai-systemic-progress
-bottom_line: "Known material source-revision conflicts must remain visible; keep the schema candidate provisional."
+updated_at: "2026-07-25T07:12:11-05:00"
+run_ref: RUN-20260725-070927-cai-systemic-progress
+bottom_line: "A correction-route label must carry the relevant contradiction to an accountable path; keep the schema candidate provisional."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Source-revision-lineage falsifier narrowed the existing candidate source gate."
-    movement_ref: "topology/SF-SRL-0001-source-revision-lineage.md"
+    last_movement: "Correction-route-authority falsifier narrowed the existing candidate correction gate."
+    movement_ref: "topology/SF-CRA-0001-correction-route-authority.md"
     steering_attention: watch
     steering_prompt: "Add future tests only if materially new pressure appears."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: source_revision_lineage_gate_narrowed
-    evidence_ref: "topology/SF-SRL-0001-source-revision-lineage.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
-    summary: "An earlier source revision cannot silently carry qualification after a known later material contradiction; the candidate remains provisional."
-    evaluated_at: "2026-07-24T22:20:00-05:00"
-    run_ref: RUN-20260724-221205-cai-systemic-progress
+    reason_code: correction_route_authority_gate_narrowed
+    evidence_ref: "topology/SF-CRA-0001-correction-route-authority.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
+    summary: "A named route cannot silently carry qualification when admitted material shows it cannot carry the relevant correction; the candidate remains provisional."
+    evaluated_at: "2026-07-25T07:12:11-05:00"
+    run_ref: RUN-20260725-070927-cai-systemic-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added a synthetic two-revision falsifier and required disposition of known material source-lineage conflicts."
-    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, mixed, and false-negative pressures"
+    progress_delta: "Added a synthetic named-but-incapable-route falsifier and required a source or explicit synthetic basis for correction-route capability."
+    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, mixed, and false-negative pressures"
     trend_24h: up
     confidence: high
     recommendation: "Keep provisional; test only materially new pressure."
     findings:
-      - "Revision-specific citation is insufficient when a known later revision materially withdraws or contradicts the relied-on support."
-      - "Earlier revisions remain historical evidence, and unresolved material lineage conflict remains graded uncertainty."
+      - "A named correction route is insufficient when admitted material shows it cannot receive, review, or carry the relevant correction to an accountable path."
+      - "Imperfect or unresolved routes can remain graded uncertainty; the gate refuses only a name-only or demonstratedly incapable route presented as passed."
       - "The core field list and provisional candidate status remain unchanged."
     options:
       - id: A

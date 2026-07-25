@@ -117,6 +117,11 @@ relies on an earlier supporting revision while omitting a later revision in the
 admitted source packet that materially withdraws or contradicts that support.
 The earlier revision remains historical evidence; the core field list and
 provisional status remain unchanged.
+`SF-CRA-0001` then tests correction-route authority with a synthetic fixture.
+The candidate refuses positive qualification when a record names a visible
+route but the admitted packet shows that the route cannot receive, review, or
+carry the relevant correction to an accountable owner. The core field list and
+provisional status remain unchanged.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
@@ -129,8 +134,8 @@ infrastructure-capacity absorber, and one resource-adequacy capacity-tradeoff
 absorber, one newly formed design-assumption absorber, one design-basis
 mixed-case pressure test, one false-negative technical-dissent pressure test,
 one non-accepting acceptance packet with explicit unresolved-class deferrals,
-one counterevidence-quality asymmetry falsifier, and one source-revision-lineage
-falsifier while preserving source requirements, counterevidence, correction
+one counterevidence-quality asymmetry falsifier, one source-revision-lineage
+falsifier, and one correction-route-authority falsifier while preserving source requirements, counterevidence, correction
 routes, resident-warning caution, absorber discipline, remaining falsifier
 classes, and no-remedy boundaries. No human research, field data, intervention,
 participation, external action, consequential proving, legal/regulatory

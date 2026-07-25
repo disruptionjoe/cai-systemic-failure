@@ -53,7 +53,7 @@ does not qualify as positive evidence for this candidate.
 | `observation_environment` | Preserve how the relevant evidence was made visible, missed, normalized, routed, or disputed without importing domain conclusions. | Refuse if the field becomes a domain-specific remedy or expertise claim. |
 | `delegation_visibility_gap` | Show how distributed review, authority, request paths, or delegated decisions fragmented the contradiction. | Refuse if no review-chain fragmentation is source-supported. |
 | `absorber_or_counterevidence` | Record the strongest narrower explanation, its source context or explicit synthetic basis, its claim posture, and whether it absorbs, narrows, or fails to kill the review-chain residue. | Refuse if the candidate treats every case as confirming evidence or names only generic, untraceable, or ungraded alternatives. |
-| `correction_route_stop_condition` | Name the owner-visible route that could correct, escalate, stop, revise, or expose the assumption without this repo prescribing the remedy. | Refuse if correction requires this repository to act as the domain owner. |
+| `correction_route_stop_condition` | Name the owner-visible route and the admitted source or explicit synthetic basis showing how it can receive or surface the relevant contradiction to a party able to correct, escalate, stop, revise, or expose the assumption, without this repo prescribing the remedy. | Refuse if correction requires this repository to act as the domain owner, or if a named route is only a label or is shown unable to carry the relevant correction. |
 
 ## Source-Gated Annotations
 
@@ -115,6 +115,13 @@ materially supersedes, narrows, withdraws, or contradicts the support carrying
 a required field. Preserve the earlier revision as historical evidence and
 grade unresolved lineage conflict explicitly; do not treat every later revision
 or unrelated edit as disqualifying.
+
+Refuse positive qualification when a record names a correction route but the
+admitted source or explicit synthetic basis shows that route cannot receive,
+review, escalate, stop, revise, or expose the relevant assumption through an
+accountable path. A visible label alone is not a correction route; preserve an
+incapable or unresolved route as uncertainty, an absorber, an inquiry, or a
+separate topology question without inventing a remedy.
 
 Record a case as an absorber or separate topology question, not positive
 evidence for this candidate, when public official sources center false
@@ -187,6 +194,7 @@ This candidate cannot be used to:
 | `SF-0004` | Fits as a negative-pressure-test and barrier-assumption review-chain record under public official evidence. | Offshore energy, process-safety, emergency, environmental, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
 | `SF-ABS-0002` | Refused as positive fit. The Volkswagen defeat-device source set is a control-bypass and false-reporting absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can reject a systemic-failure case instead of overgeneralizing. |
 | `SF-CRT-0001` | Refused as positive fit. The synthetic stress fixture has apparent assumption reuse under changed conditions but lacks an owner-visible correction route. | The stress test preserves correction-route discipline; assumption reuse alone cannot qualify the candidate. |
+| `SF-CRA-0001` | Refused as positive fit. The synthetic fixture names a visible route, but its admitted packet shows that the route cannot receive, review, or carry the relevant correction to an accountable owner. | The falsifier prevents a route label from simulating an operable correction path. |
 | `SF-0005` | Fits as a refurbishment, external-wall, fire-safety, and resident-warning review-chain record under public official evidence. | Building-safety, product, fire-service, resident-engagement, regulatory, and legal domains narrow but do not absorb source-backed validation burden and correction route. |
 | `SF-ABS-0003` | Refused as positive fit. The NIST Station nightclub source set is a fire/life-safety code, material, sprinkler, pyrotechnic, egress, inspection, and emergency-response protection absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can accept one building/fire-safety review-chain record without claiming every public fire-safety failure. |
 | `SF-SQA-0001` | Refused as positive fit. Source-thin or hindsight-built pattern matches cannot qualify without source-backed assumption context, changed condition, validation burden, review owner, and correction route. | Source-quality failure absorbs attractive narratives before they stretch the candidate into a retrospective pattern label. |
@@ -228,6 +236,9 @@ core field list unchanged.
 revision can carry qualification after a known later revision in the admitted
 source packet materially withdraws or contradicts its support. It refuses that
 lineage omission while keeping the core field list unchanged.
+`SF-CRA-0001-correction-route-authority.md` tests whether a named but incapable
+route can satisfy the correction gate. It refuses that name-only route posture
+while keeping the core field list unchanged.
 `SF-ABS-0004-warning-communication-false-alert.md` tests another by refusing a
 non-synthetic warning/communication false-positive case.
 `SF-ABS-0005-single-owner-execution-train-188.md` tests another by refusing a

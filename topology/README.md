@@ -108,6 +108,12 @@ admitted packet that materially withdraws or contradicts the support carrying
 positive qualification. The candidate refuses that revision-laundering posture
 and keeps the existing core field list unchanged.
 
+`SF-CRA-0001-correction-route-authority.md` tests whether a record can satisfy
+the correction-route gate merely by naming a visible route that its admitted
+synthetic packet shows cannot receive, review, or carry the relevant correction
+to an accountable owner. The candidate refuses that name-only posture and keeps
+the existing core field list unchanged.
+
 `SF-ABS-0004-warning-communication-false-alert.md` tests a non-synthetic
 warning/communication false-positive class using the Hawaii false ballistic-
 missile alert official source set. The candidate refuses the case as positive
