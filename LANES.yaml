@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 2
+manifest_revision: 3
 owner:
   owner_id: cai-systemic-failure
   display_name: CAI Systemic Failure
@@ -54,3 +54,11 @@ lanes:
 special_rules:
 - CAI-directed automation is owner-permitted only through an explicit live System grant; relationship, signal, or mailbox presence cannot activate or broaden it.
 - Consequential proving and human or field research remain closed.
+extensions:
+  operating_architecture:
+    contract_version: "1.0"
+    operating_contract_refs: ["inquiries/OPERATING-MODEL.md"]
+    work_state_refs: ["STATUS.md", "ROADMAP.md", "topology/README.md", "prior-art/README.md", "inquiries/README.md", "evidence/README.md"]
+    channel_contract_refs: []
+    lane_a_portfolio_refs: ["LANE-STATE.yaml"]
+    return_contract_refs: ["inquiries/OPERATING-MODEL.md"]
