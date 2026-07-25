@@ -102,6 +102,12 @@ ungraded alternatives while still claiming the counterevidence gate passes.
 The candidate refuses that asymmetric evidence posture and keeps the existing
 core field list unchanged.
 
+`SF-SRL-0001-source-revision-lineage.md` tests whether a record can cite a
+named earlier source revision while hiding a known later revision in the
+admitted packet that materially withdraws or contradicts the support carrying
+positive qualification. The candidate refuses that revision-laundering posture
+and keeps the existing core field list unchanged.
+
 `SF-ABS-0004-warning-communication-false-alert.md` tests a non-synthetic
 warning/communication false-positive class using the Hawaii false ballistic-
 missile alert official source set. The candidate refuses the case as positive

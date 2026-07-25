@@ -27,7 +27,9 @@ by a fourth source-backed record or negative absorber.
 A record may use this candidate only when all gate conditions are met:
 
 1. source material is public, licensed, safely shareable, or synthetic;
-2. the record names the source context and keeps correction routes open;
+2. the record names the source context and relied-on revision, preserves any
+   known materially superseding or contradicting revision in the admitted
+   source packet, and keeps correction routes open;
 3. an old assumption is reused under a changed condition or changed evidence
    context;
 4. the changed condition creates a validation burden that sources show as
@@ -43,7 +45,7 @@ does not qualify as positive evidence for this candidate.
 
 | Field | Required content | Refusal condition |
 |---|---|---|
-| `assumption_source_context` | Name the reused assumption and the source, report, decision context, revision, or evidence basis supporting the synthesis. | Refuse if the record only says a system failed without tying the assumption to source context. |
+| `assumption_source_context` | Name the reused assumption and the source, report, decision context, revision, version, date, or evidence basis relied on for the synthesis. Preserve and disposition any known later revision in the admitted source packet that materially supersedes, narrows, withdraws, or contradicts that support. | Refuse if the record only says a system failed without tying the assumption to source context, or if it knowingly selects an earlier supporting revision while omitting a later material contradiction. |
 | `accountable_review_owner` | Distinguish the assumption owner from the owner who could review, stop, escalate, or revise its reuse. | Refuse if accountability is only a generic organization label. |
 | `affected_system_and_standing` | Name the affected system and the affected-party standing visible in the sources, including people when sources make them central. | Refuse if affected parties disappear behind process language. |
 | `changed_condition` | Identify the changed function, observed anomaly, source switch, evidence context, operating condition, or other change that alters the validation burden. | Refuse if the old assumption is reused under materially unchanged conditions. |
@@ -106,6 +108,13 @@ only a generic alternative with no traceable source context or explicit
 synthetic basis and no claim posture. Preserve source-thin, contradicted,
 synthetic, or unresolved alternatives with those grades; do not treat
 performative skepticism as an inspectable countermodel.
+
+Refuse positive qualification when the record cites an earlier source revision
+while omitting a known later revision in the admitted source packet that
+materially supersedes, narrows, withdraws, or contradicts the support carrying
+a required field. Preserve the earlier revision as historical evidence and
+grade unresolved lineage conflict explicitly; do not treat every later revision
+or unrelated edit as disqualifying.
 
 Record a case as an absorber or separate topology question, not positive
 evidence for this candidate, when public official sources center false
@@ -182,6 +191,7 @@ This candidate cannot be used to:
 | `SF-ABS-0003` | Refused as positive fit. The NIST Station nightclub source set is a fire/life-safety code, material, sprinkler, pyrotechnic, egress, inspection, and emergency-response protection absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can accept one building/fire-safety review-chain record without claiming every public fire-safety failure. |
 | `SF-SQA-0001` | Refused as positive fit. Source-thin or hindsight-built pattern matches cannot qualify without source-backed assumption context, changed condition, validation burden, review owner, and correction route. | Source-quality failure absorbs attractive narratives before they stretch the candidate into a retrospective pattern label. |
 | `SF-CEQ-0001` | Refused as positive fit. Source-backed positive-fit fields plus a generic, untraceable, and ungraded alternative do not satisfy the counterevidence gate. | The falsifier prevents performative skepticism from appearing as inspectable contradiction while preserving weak alternatives as graded leads or uncertainty. |
+| `SF-SRL-0001` | Refused as positive fit. A named earlier source revision cannot carry qualification when a known later revision in the admitted packet materially withdraws or contradicts its support and the record hides that lineage. | The falsifier prevents revision-specific citation from laundering materially superseded support while preserving earlier revisions as historical evidence. |
 | `SF-ABS-0004` | Refused as positive fit. The Hawaii false-alert source set is a warning/communication, drill-procedure, alert-origination, safeguard, and correction-message absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve warning-route pressure without claiming every public alerting or communication failure. |
 | `SF-ABS-0005` | Refused as positive fit. The Amtrak Train 188 source set is a single-owner execution, situational-awareness, speed-compliance, train-control, occupant-protection, and emergency-response absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve affected standing and correction-route visibility without claiming every point-of-operation execution failure. |
 | `SF-ABS-0006` | Refused as positive fit. The I-35W bridge-collapse source set is a slow-degradation, infrastructure-capacity, original-design-calculation, added-load, load-rating, construction-load, and inspection-guidance absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve long-lived defect and changed-load pressure without claiming every infrastructure-capacity failure. |
@@ -214,6 +224,10 @@ source-quality and hindsight-artifact fits.
 counterevidence field can be satisfied by generic, untraceable, and ungraded
 alternatives. It refuses that asymmetric evidence posture while keeping the
 core field list unchanged.
+`SF-SRL-0001-source-revision-lineage.md` tests whether a named earlier source
+revision can carry qualification after a known later revision in the admitted
+source packet materially withdraws or contradicts its support. It refuses that
+lineage omission while keeping the core field list unchanged.
 `SF-ABS-0004-warning-communication-false-alert.md` tests another by refusing a
 non-synthetic warning/communication false-positive case.
 `SF-ABS-0005-single-owner-execution-train-188.md` tests another by refusing a

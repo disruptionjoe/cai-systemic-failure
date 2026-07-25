@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-07-24T17:15:00-05:00"
-run_ref: RUN-20260724-171230-cai-systemic-progress
-bottom_line: "Counterevidence now requires traceable, graded alternatives; keep the schema candidate provisional."
+updated_at: "2026-07-24T22:20:00-05:00"
+run_ref: RUN-20260724-221205-cai-systemic-progress
+bottom_line: "Known material source-revision conflicts must remain visible; keep the schema candidate provisional."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Counterevidence-quality asymmetry falsifier narrowed the existing candidate gate."
-    movement_ref: "topology/SF-CEQ-0001-counterevidence-quality-asymmetry.md"
+    last_movement: "Source-revision-lineage falsifier narrowed the existing candidate source gate."
+    movement_ref: "topology/SF-SRL-0001-source-revision-lineage.md"
     steering_attention: watch
     steering_prompt: "Add future tests only if materially new pressure appears."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: counterevidence_quality_gate_narrowed
-    evidence_ref: "topology/SF-CEQ-0001-counterevidence-quality-asymmetry.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
-    summary: "Generic alternatives no longer satisfy the counterevidence gate; the candidate remains provisional."
-    evaluated_at: "2026-07-24T17:15:00-05:00"
-    run_ref: RUN-20260724-171230-cai-systemic-progress
+    reason_code: source_revision_lineage_gate_narrowed
+    evidence_ref: "topology/SF-SRL-0001-source-revision-lineage.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
+    summary: "An earlier source revision cannot silently carry qualification after a known later material contradiction; the candidate remains provisional."
+    evaluated_at: "2026-07-24T22:20:00-05:00"
+    run_ref: RUN-20260724-221205-cai-systemic-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added a synthetic falsifier and required traceable source context or synthetic basis plus claim posture for counterevidence."
-    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source/counterevidence-quality, mixed, and false-negative pressures"
+    progress_delta: "Added a synthetic two-revision falsifier and required disposition of known material source-lineage conflicts."
+    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, mixed, and false-negative pressures"
     trend_24h: up
     confidence: high
     recommendation: "Keep provisional; test only materially new pressure."
     findings:
-      - "Generic, untraceable, and ungraded alternatives are not inspectable counterevidence."
-      - "Counterevidence may remain unequal or uncertain if its source basis and claim posture are explicit."
+      - "Revision-specific citation is insufficient when a known later revision materially withdraws or contradicts the relied-on support."
+      - "Earlier revisions remain historical evidence, and unresolved material lineage conflict remains graded uncertainty."
       - "The core field list and provisional candidate status remain unchanged."
     options:
       - id: A

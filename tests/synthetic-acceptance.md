@@ -10,6 +10,10 @@
 - An absorber or counterevidence statement without traceable source context or
   explicit synthetic basis and an explicit claim posture fails candidate
   qualification; generic alternatives remain graded leads or uncertainty.
+- A record that knowingly relies on an earlier supporting source revision while
+  omitting a later material contradiction in the admitted source packet fails
+  candidate qualification; the earlier revision remains historical evidence
+  (`SF-SRL-0001`).
 - Hypotheses remain hypotheses and negative evidence is preserved.
 - Owner routing cannot authorize receiver work.
 - No schedule, health cache, work queue, or automation state appears in Lanes.

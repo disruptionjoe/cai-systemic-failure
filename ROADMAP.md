@@ -68,7 +68,11 @@
     refuses positive qualification when the named alternative has no traceable
     source context or explicit synthetic basis and no claim posture
     (`SF-CEQ-0001`).
-27. Next: keep the candidate provisional and add another bounded test only if a
+27. Done: run a synthetic source-revision-lineage falsifier that refuses
+    positive qualification when a record knowingly cites an earlier supporting
+    revision while omitting a later material contradiction already present in
+    the admitted source packet (`SF-SRL-0001`).
+28. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

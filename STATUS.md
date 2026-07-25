@@ -111,6 +111,12 @@ separately wants to review acceptance.
 fixture. The candidate refuses positive qualification when carefully sourced
 positive-fit fields are paired only with generic, untraceable, and ungraded
 alternatives. The core field list and provisional status remain unchanged.
+`SF-SRL-0001` then tests source-revision lineage with a synthetic two-revision
+fixture. The candidate refuses positive qualification when a record knowingly
+relies on an earlier supporting revision while omitting a later revision in the
+admitted source packet that materially withdraws or contradicts that support.
+The earlier revision remains historical evidence; the core field list and
+provisional status remain unchanged.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
@@ -123,11 +129,12 @@ infrastructure-capacity absorber, and one resource-adequacy capacity-tradeoff
 absorber, one newly formed design-assumption absorber, one design-basis
 mixed-case pressure test, one false-negative technical-dissent pressure test,
 one non-accepting acceptance packet with explicit unresolved-class deferrals,
-and one counterevidence-quality asymmetry falsifier while preserving source
-requirements, counterevidence, correction routes, resident-warning caution,
-absorber discipline, remaining falsifier classes, and no-remedy boundaries. No
-human research, field data, intervention, participation, external action,
-consequential proving, legal/regulatory conclusion, nuclear-safety conclusion,
-radiation-health conclusion, emergency-response conclusion, launch-safety
-conclusion, spaceflight conclusion, engineering conclusion,
-management-standard conclusion, or schema acceptance is active.
+one counterevidence-quality asymmetry falsifier, and one source-revision-lineage
+falsifier while preserving source requirements, counterevidence, correction
+routes, resident-warning caution, absorber discipline, remaining falsifier
+classes, and no-remedy boundaries. No human research, field data, intervention,
+participation, external action, consequential proving, legal/regulatory
+conclusion, nuclear-safety conclusion, radiation-health conclusion,
+emergency-response conclusion, launch-safety conclusion, spaceflight
+conclusion, engineering conclusion, management-standard conclusion, or schema
+acceptance is active.
