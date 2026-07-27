@@ -76,7 +76,10 @@
     positive qualification when a named route is visibly unable to receive,
     review, or carry the relevant correction to an accountable owner
     (`SF-CRA-0001`).
-29. Next: keep the candidate provisional and add another bounded test only if a
+29. Done: run a synthetic composite-evidence coherence falsifier that refuses
+    a record assembled from individually traceable but unbridged source
+    fragments (`SF-CEC-0001`).
+30. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

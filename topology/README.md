@@ -170,3 +170,9 @@ regulatory, public-safety, and domain-remedy boundaries.
 acceptance evidence and explicitly refuses schema acceptance. It keeps the
 candidate as a local provisional screen, names unresolved-class deferrals, and
 recommends no Joe action unless Joe separately asks to review acceptance.
+
+`SF-CEC-0001-composite-evidence-coherence.md` tests whether individually
+traceable source fragments can be assembled as one record without an admitted
+bridge connecting their assumption, changed condition, standing, and review
+path. The candidate refuses that composite-evidence posture and keeps the
+existing core field list unchanged.

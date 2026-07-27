@@ -18,6 +18,10 @@
   synthetic basis shows that route cannot receive, review, escalate, stop,
   revise, or expose the relevant assumption through an accountable path fails
   candidate qualification (`SF-CRA-0001`).
+- A record that combines individually traceable source fragments without an
+  admitted source-backed bridge connecting its assumption, changed condition,
+  affected standing, and review path to one bounded system fails candidate
+  qualification (`SF-CEC-0001`).
 - Hypotheses remain hypotheses and negative evidence is preserved.
 - Owner routing cannot authorize receiver work.
 - No schedule, health cache, work queue, or automation state appears in Lanes.

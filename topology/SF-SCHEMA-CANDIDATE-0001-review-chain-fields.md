@@ -45,9 +45,9 @@ does not qualify as positive evidence for this candidate.
 
 | Field | Required content | Refusal condition |
 |---|---|---|
-| `assumption_source_context` | Name the reused assumption and the source, report, decision context, revision, version, date, or evidence basis relied on for the synthesis. Preserve and disposition any known later revision in the admitted source packet that materially supersedes, narrows, withdraws, or contradicts that support. | Refuse if the record only says a system failed without tying the assumption to source context, or if it knowingly selects an earlier supporting revision while omitting a later material contradiction. |
+| `assumption_source_context` | Name the reused assumption and the source, report, decision context, revision, version, date, or evidence basis relied on for the synthesis. Where multiple fragments support a record, name the admitted source-backed bridge connecting the qualifying assumption, changed condition, standing, and review path to one bounded system or review chain. Preserve and disposition any known later revision in the admitted source packet that materially supersedes, narrows, withdraws, or contradicts that support. | Refuse if the record only says a system failed without tying the assumption to source context, combines unrelated source fragments without an admitted evidentiary bridge, or knowingly selects an earlier supporting revision while omitting a later material contradiction. |
 | `accountable_review_owner` | Distinguish the assumption owner from the owner who could review, stop, escalate, or revise its reuse. | Refuse if accountability is only a generic organization label. |
-| `affected_system_and_standing` | Name the affected system and the affected-party standing visible in the sources, including people when sources make them central. | Refuse if affected parties disappear behind process language. |
+| `affected_system_and_standing` | Name the bounded affected system and the affected-party standing visible in the sources, including people when sources make them central; when assembled from multiple fragments, preserve the admitted bridge that connects their standing to that system. | Refuse if affected parties disappear behind process language or the record borrows standing from an unrelated system without a source-backed bridge. |
 | `changed_condition` | Identify the changed function, observed anomaly, source switch, evidence context, operating condition, or other change that alters the validation burden. | Refuse if the old assumption is reused under materially unchanged conditions. |
 | `validation_burden` | State what adequate revalidation would need to address and what source-backed evidence shows as unmet, disputed, fragmented, or unresolved. | Refuse if the record supplies no source-backed burden beyond hindsight. |
 | `observation_environment` | Preserve how the relevant evidence was made visible, missed, normalized, routed, or disputed without importing domain conclusions. | Refuse if the field becomes a domain-specific remedy or expertise claim. |
@@ -115,6 +115,13 @@ materially supersedes, narrows, withdraws, or contradicts the support carrying
 a required field. Preserve the earlier revision as historical evidence and
 grade unresolved lineage conflict explicitly; do not treat every later revision
 or unrelated edit as disqualifying.
+
+Refuse positive qualification when individually traceable source fragments are
+combined as one record without an admitted source-backed bridge connecting the
+qualifying assumption, changed condition, affected system or standing, and
+review path. Multiple sources, incomplete bridges, and contested relationships
+may remain graded evidence; field-level citations alone cannot silently create
+a bounded review chain.
 
 Refuse positive qualification when a record names a correction route but the
 admitted source or explicit synthetic basis shows that route cannot receive,
