@@ -176,3 +176,9 @@ traceable source fragments can be assembled as one record without an admitted
 bridge connecting their assumption, changed condition, standing, and review
 path. The candidate refuses that composite-evidence posture and keeps the
 existing core field list unchanged.
+
+`SF-IPC-0001-intra-packet-contradiction.md` tests whether a directly material
+contradiction already visible within an admitted synthetic packet can remain
+undispositioned while the record labels a required source field passed. The
+candidate refuses that selective-source posture and keeps the existing core
+field list unchanged.

@@ -127,6 +127,11 @@ fixture. The candidate refuses positive qualification when individually
 traceable source fragments are combined without an admitted bridge connecting
 their assumption, changed condition, affected standing, and review path to one
 bounded system. The core field list and provisional status remain unchanged.
+`SF-IPC-0001` then tests intra-packet contradiction with a synthetic fixture.
+The candidate refuses positive qualification when admitted material directly
+and materially contradicts support for a required field while the record labels
+that field passed without preserving and grading the conflict. The core field
+list and provisional status remain unchanged.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
@@ -140,8 +145,8 @@ absorber, one newly formed design-assumption absorber, one design-basis
 mixed-case pressure test, one false-negative technical-dissent pressure test,
 one non-accepting acceptance packet with explicit unresolved-class deferrals,
 one counterevidence-quality asymmetry falsifier, one source-revision-lineage
-falsifier, one correction-route-authority falsifier, and one composite-evidence
-coherence falsifier while preserving source requirements, counterevidence, correction
+falsifier, one correction-route-authority falsifier, one composite-evidence
+coherence falsifier, and one intra-packet-contradiction falsifier while preserving source requirements, counterevidence, correction
 routes, resident-warning caution, absorber discipline, remaining falsifier
 classes, and no-remedy boundaries. No human research, field data, intervention,
 participation, external action, consequential proving, legal/regulatory

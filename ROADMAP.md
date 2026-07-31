@@ -79,7 +79,11 @@
 29. Done: run a synthetic composite-evidence coherence falsifier that refuses
     a record assembled from individually traceable but unbridged source
     fragments (`SF-CEC-0001`).
-30. Next: keep the candidate provisional and add another bounded test only if a
+30. Done: run a synthetic intra-packet-contradiction falsifier that refuses
+    positive qualification when admitted evidence directly and materially
+    contradicts a required field but the record leaves the conflict
+    undispositioned (`SF-IPC-0001`).
+31. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 
