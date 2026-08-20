@@ -133,15 +133,8 @@ and materially contradicts support for a required field while the record labels
 that field passed without preserving and grading the conflict. The core field
 list and provisional status remain unchanged.
 
-`SF-0006` then adds a sixth source-backed Therac-25 radiation therapy machine
-software failure record from healthcare domain. The sixth-record test validates
-the schema candidate's cross-domain applicability to healthcare, demonstrating
-that the review-chain fields (assumption, changed condition, affected standing,
-correction route) are valid for medical device failures. The schema candidate
-survives this domain diversity test and remains provisional.
-
 No topology ontology is asserted yet; the first schema should be considered
-only as a provisional candidate with six source-backed positive records, one
+only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
 absorber refusal, one synthetic correction-route stress test, and two
 post-absorber dispositions plus one non-accepting acceptance-bar review, one

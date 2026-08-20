@@ -83,14 +83,7 @@
     positive qualification when admitted evidence directly and materially
     contradicts a required field but the record leaves the conflict
     undispositioned (`SF-IPC-0001`).
-31. Done: add a sixth source-backed Therac-25 radiation therapy machine
-    software failure record from healthcare domain (`SF-0006`). The sixth-
-    record test validates the schema candidate's cross-domain applicability to
-    healthcare, demonstrating that the review-chain fields (assumption, changed
-    condition, affected standing, correction route) are valid for medical device
-    failures. The schema candidate survives this domain diversity test and
-    remains provisional.
-32. Next: keep the candidate provisional and add another bounded test only if a
+31. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 
