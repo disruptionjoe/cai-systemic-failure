@@ -21,14 +21,13 @@ timestamp: 2026-08-20T00:00:00-05:00
 
 ### More attention
 
-- **Domain diversity expansion**: The current corpus covers aerospace (Boeing 737 Max, Columbia), water safety (Flint), offshore energy (Deepwater Horizon), fire safety (Grenfell), nuclear safety (Fukushima). Consider adding:
-  - Healthcare system failures (e.g., medication error cascades, surgical safety)
+- **Domain diversity expansion**: The current corpus now includes aerospace (Boeing 737 Max, Columbia), water safety (Flint), offshore energy (Deepwater Horizon), fire safety (Grenfell), nuclear safety (Fukushima), and healthcare (Therac-25). Consider adding:
   - Financial system failures (e.g., 2008 crisis, algorithmic trading failures)
   - Transportation beyond aerospace (e.g., maritime accidents, rail failures, aviation beyond 737 Max)
   - Public health failures (e.g., pandemic response, vaccine distribution)
   - Environmental system failures (e.g., climate infrastructure, ecosystem collapse)
 
-- **False-positive absorber breadth**: Five negative absorbers tested (VW defeat devices, Station nightclub, Hawaii ballistic alert, Amtrak Train 188, I-35W bridge, California rolling outages, Kansas City Hyatt). Consider testing:
+- **False-positive absorber breadth**: Seven negative absorbers tested (VW defeat devices, Station nightclub, Hawaii ballistic alert, Amtrak Train 188, I-35W bridge, California rolling outages, Kansas City Hyatt). Consider testing:
   - Cybersecurity incident failures (e.g., SolarWinds, Colonial Pipeline)
   - Social media platform failures (e.g., misinformation campaigns, election interference)
   - AI/ML system failures (e.g., model hallucination, adversarial examples)
@@ -81,25 +80,25 @@ timestamp: 2026-08-20T00:00:00-05:00
 
 ## Discovery Observations
 
-1. **Evidence base is rich but narrow**: Five positive records across five domains demonstrate the review-chain pattern, but the repository has not yet shown that the pattern generalizes to a sixth domain with high confidence.
+1. **Evidence base is richer with domain diversity**: Six positive records across six domains (aerospace, water safety, offshore energy, fire safety, nuclear safety, healthcare) demonstrate the review-chain pattern. The schema candidate has shown cross-domain validity.
 
 2. **Refusal boundaries are well-defined**: Seven negative absorbers show what the schema refuses. This specificity is valuable but also suggests the schema may be too narrow for broad failure modeling.
 
 3. **Schema acceptance is perpetually deferred**: The repository has gone from 2026-07-17 to 2026-08-20 without accepting a schema. This is methodologically sound but risks paralysis. Consider whether provisional acceptance with explicit deferral conditions would be more productive.
 
-4. **Missing domain diversity**: No healthcare, finance, transportation, public health, or environmental cases are represented. This limits the claim that the schema is domain-general.
+4. **Healthcare domain now represented**: The Therac-25 case validates the schema's cross-domain applicability to medical device failures, demonstrating that the review-chain fields (assumption, changed condition, affected standing, correction route) are valid for healthcare cases.
 
-5. **Missing false-positive types**: Cybersecurity, social media, AI/ML, supply chain, and other modern failure types are not represented in the absorber set.
+5. **Missing domain diversity**: Finance, transportation (beyond aerospace), public health, and environmental cases are still not represented.
 
-6. **Synthesis opportunity**: A synthesis showing how the CAI schema compares to other failure taxonomies (e.g., Heinrich, Reason, Swinburne, James Reason's Swiss Cheese Model) would strengthen the repository's positioning.
+6. **Missing false-positive types**: Cybersecurity, social media, AI/ML, supply chain, and other modern failure types are not represented in the absorber set.
+
+7. **Synthesis opportunity**: A synthesis showing how the CAI schema compares to other failure taxonomies (e.g., Heinrich, Reason, Swinburne, James Reason's Swiss Cheese Model) would strengthen the repository's positioning.
 
 ## Conclusion
 
-The CAI Systemic Failure repository has built a methodologically sound, evidence-bearing failure topology with five positive records and seven negative absorbers. The schema remains appropriately provisional, but the persistent deferral of acceptance risks creating a "never-ending discovery" pattern.
+The CAI Systemic Failure repository has built a methodologically sound, evidence-bearing failure topology with six positive records and seven negative absorbers. The schema remains appropriately provisional, but the persistent deferral of acceptance risks creating a "never-ending discovery" pattern.
 
-The next Priority Progress work should be adding a sixth positive record from a clearly distinct domain (healthcare, finance, transportation, or public health) to demonstrate cross-domain validity. Alternatively, a synthesis comparing the CAI schema to other failure taxonomies could strengthen the case for provisional acceptance.
-
-The repository is well-positioned to move forward once it chooses between:
-- Broadening the evidence base with a sixth positive record
-- Deepening the methodological work with synthesis and comparison
-- Accepting the schema provisionally with explicit deferral conditions
+The next Priority Progress work should be:
+- Adding a sixth positive record from a clearly distinct domain (finance, transportation, public health, or environmental)
+- Expanding the false-positive absorber set with 2-3 more absorbers from new domains
+- Or accepting the schema provisionally with explicit deferral conditions after further domain diversity testing
