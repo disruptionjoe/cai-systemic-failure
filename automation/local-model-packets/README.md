@@ -15,7 +15,8 @@ six fixed-cadence local triggers
 
 one four-hour Frontier evaluator
   -> EVALUATE-AND-ADJUST.md
-  -> compare the newest same-prompt cohort
+  -> read the prior evaluation cursor
+  -> evaluate every completed attempt since it, grouped by prompt hash
   -> revise prompts when repeated evidence justifies it
   -> record the learning in LEARNING.md
 ```
@@ -37,5 +38,5 @@ results into repository truth. Those are later gates.
 
 Each packet contains one complete `prompt.md`. Evidence required by the local
 model is embedded in that file. A prompt revision creates a new request hash;
-evaluations compare responses only within the same hash cohort.
-
+evaluations consume every attempt after the prior per-packet cursor but compare
+quality and attribute failures only within the correct hash cohort.

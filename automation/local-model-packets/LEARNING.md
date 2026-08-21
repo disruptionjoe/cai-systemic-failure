@@ -20,7 +20,19 @@ compact Frontier review; completes Packet 03's non-collapse requirement; and
 gives Packet 05 an explicit evidence-to-verdict rule separating
 representability, positive-record counting, and schema acceptance.
 
-Next comparison: evaluate at least three completed attempts for each current
-prompt hash and determine whether completeness improves and Packet 05's
-semantic verdict stabilizes.
+### Evaluated-through cursor
 
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260821T200500.819073Z-9596-df0cd4` |
+| `02-field-trace` | `20260821T201500.604633Z-10662-f644a9` |
+| `03-positive-false-negative` | `20260821T192505.355788Z-7971-75b34c` |
+| `04-refusal-consistency` | `20260821T193500.665757Z-8171-c10fbb` |
+| `05-interacting-assumptions` | `20260821T194500.792653Z-8361-4e796b` |
+| `06-acceptance-refresh` | `20260821T195501.684224Z-8577-0735f9` |
+
+Next comparison: evaluate every completed attempt after each packet's cursor,
+group results by request hash, and determine whether completeness improves and
+Packet 05's semantic verdict stabilizes. Treat a normal prompt change as
+supported when the same material failure appears in at least two current-hash
+responses; a safety-boundary defect may be tightened immediately.
