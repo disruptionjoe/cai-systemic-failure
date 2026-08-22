@@ -245,3 +245,7 @@ already test. Admission authorizes only a bounded test, not positive
 qualification or schema acceptance. A case resembling an existing absorber
 family is not automatically rejected when it materially challenges or narrows
 that refusal note.
+At admission, do not run the candidate's qualification gates or reject a
+proposal merely because its evidence would fail or unsettle one; a credible
+failed or unresolved gate may itself be the material pressure that warrants a
+bounded test.

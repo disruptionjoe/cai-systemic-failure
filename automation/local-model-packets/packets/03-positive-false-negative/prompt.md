@@ -564,3 +564,6 @@ Replace the bracketed instruction with completed checks; do not repeat or
 describe the instruction. Write the complete table and both following
 sections in full. Do not count Challenger as a sixth positive record, turn
 Deepwater Horizon into a universal pattern, or accept the schema.
+Describe SF-0004 only as one bounded positive record for provisional local
+screening. Do not say it validates the schema, proves general applicability,
+or moves the candidate toward acceptance.

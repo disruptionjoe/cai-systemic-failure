@@ -236,3 +236,127 @@ The next cohort must show a usable, non-tautological Packet 01 gate; complete
 Packet 02 and 04 boundaries; no Packet 03 instruction-copy collapse; no repeat
 of Packet 05's representability/counting conflation; and continued Packet 06
 semantic stability.
+
+## 2026-08-22 — Admission-versus-qualification and bounded-fit cohort
+
+Twenty-three post-cursor attempts had completed factual receipts and were
+evaluated. Every request used its packet's current prompt hash. Compared with
+the immediately prior cohort, Packets 02 and 04 now produced substantive audit
+boundaries, Packet 03 no longer copied the table instruction, Packet 05's
+isolated wrong representability verdict did not recur, and Packet 06 remained
+stable. Two repeated semantic failures still required minimal prompt changes.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — evaluated hash
+  `86df058c217c7f4e6894150982fb5fab153f40910058f6e34f79d7d576857f15`:
+  `20260822T130503.959934Z-40988-0afd0b`,
+  `20260822T140500.991901Z-46510-03718a`, and
+  `20260822T150505.001675Z-56006-e00877`. Disposition: `adjusted`.
+  All three artifacts named novelty inputs and preserved provisional status,
+  but all three reused candidate qualification or refusal outcomes as admission
+  rejects. Direct contradiction, a failed gate, or an existing absorber-family
+  challenge can itself be the material pressure that warrants a bounded test;
+  it must not be screened out as though admission were positive qualification.
+  Two responses also retained the bracket wrapper around completed Frontier
+  checks, but that cosmetic deviation did not drive the revision. Agent Context
+  Engineer diagnosis: the prior separation sentence stated the lifecycle
+  distinction but did not tell the model that a failed or unsettled
+  qualification gate can be admissible test pressure. Current prompt hash after
+  that minimal rule clarification:
+  `0b6919c31b3582cbbc3e528a7a44a0012ecb81fdfcb364c43fa22edb812a5b36`.
+
+- `02-field-trace` — evaluated and current hash
+  `9fca3c552c13f46beb9a599984841f80e21943c870da391218811c4e177d24bf`:
+  `20260822T121500.901278Z-37536-709ad4`,
+  `20260822T131501.010732Z-41674-ff99b1`,
+  `20260822T141500.968177Z-47724-3c996f`, and
+  `20260822T151501.015274Z-56733-4091d8`. Disposition: `satisfactory`.
+  All four candidates supplied the nine ordered field rows, the optional
+  resident-warning disposition, and a substantive audit-boundary paragraph.
+  Three paragraphs explicitly carried every requested status and boundary;
+  one preserved the public-source and no-remedy boundaries but stated
+  proposal-only and provisional posture less directly. That isolated omission
+  does not justify tuning after the prior cohort's 9-of-15 empty-section
+  failure was eliminated.
+
+- `03-positive-false-negative` — evaluated hash
+  `8104e05a2a08f9301c7d0dfeaf0ffb1b35c4fe2e28a4ffabcbef490fb6a9db29`:
+  `20260822T122505.551590Z-39419-ba42f3`,
+  `20260822T132503.116176Z-44955-399ce0`,
+  `20260822T142501.153358Z-53611-704b2b`, and
+  `20260822T152504.126157Z-57635-d3dc22`. Disposition: `adjusted`.
+  All four responses produced the complete 13-row table, `NO WORDING CHANGE`,
+  a substantive non-collapse rule, and no instruction-copy collapse. Across
+  the cohort, however, SF-0004 was repeatedly said to validate the candidate,
+  validate schema applicability, or increment fit toward potential acceptance.
+  The evidence supports one bounded positive record and continued provisional
+  local screening, not schema validation or an acceptance trajectory. Agent
+  Context Engineer diagnosis: `positive-test posture` plus counting language
+  left a semantic bridge from bounded fit to validation that the non-promotion
+  instruction did not close. Current prompt hash after explicitly forbidding
+  that inference:
+  `bea821de14ff988c5f385f8609da4e4e39f4b870b0c8ed1a5bf46c530aac94c9`.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260822T123501.058758Z-39557-951ec0`,
+  `20260822T133504.949815Z-45230-1e9110`,
+  `20260822T143502.095515Z-54692-03ca17`, and
+  `20260822T153505.147731Z-60602-d9a3c5`. Disposition: `satisfactory`.
+  The three substantive responses each supplied the three distinct rows,
+  stable `NO CHANGE` disposition, and complete audit boundary. The fourth
+  completed transport receipt carried a zero-byte response. The isolated
+  transport anomaly does not justify a prompt change; the prior 15-of-16 empty
+  audit-boundary failure did not recur in any substantive response.
+
+- `05-interacting-assumptions` — evaluated and current hash
+  `d56bc8009400eb2d2f825afe12ffd285384cea3976a3fd9e097466515b21bae4`:
+  `20260822T124501.039780Z-39845-f36019`,
+  `20260822T134500.997828Z-45554-10fa74`,
+  `20260822T144504.959313Z-55529-a43435`, and
+  `20260822T154503.134394Z-60686-b0b740`. Disposition: `satisfactory`.
+  All four responses preserved A1 through A6, treated A4 as the admitted
+  bridge, reached `REPRESENTABLE` and `NO WORDING CHANGE`, kept the fixture out
+  of the positive-record count, and refused schema acceptance. One response
+  gave the two verdict sections without repeating their evidence locally, but
+  the mapped evidence and distinction were substantive elsewhere. The prior
+  isolated `NOT REPRESENTABLE` error did not recur.
+
+- `06-acceptance-refresh` — evaluated and current hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260822T125500.984238Z-40087-cbeb85`,
+  `20260822T135501.977380Z-45747-65f1c1`,
+  `20260822T145505.112355Z-55686-2467fa`, and
+  `20260822T155503.041448Z-60889-b43ab5`. Disposition: `satisfactory`.
+  All four addenda preserved the dated packet, distinguished all five later
+  tests, retained the nine fields, annotations, and five deferrals, refused
+  acceptance, and required no Joe action. Format and wording variation did not
+  alter the result.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260822T150505.001675Z-56006-e00877` |
+| `02-field-trace` | `20260822T151501.015274Z-56733-4091d8` |
+| `03-positive-false-negative` | `20260822T152504.126157Z-57635-d3dc22` |
+| `04-refusal-consistency` | `20260822T153505.147731Z-60602-d9a3c5` |
+| `05-interacting-assumptions` | `20260822T154503.134394Z-60686-b0b740` |
+| `06-acceptance-refresh` | `20260822T155503.041448Z-60889-b43ab5` |
+
+Changed prompt files:
+
+- `packets/01-next-test-gate/prompt.md`: clarified that a failed or unsettled
+  qualification gate may itself warrant admission of a bounded test.
+- `packets/03-positive-false-negative/prompt.md`: prohibited converting
+  SF-0004's bounded positive-record role into schema validation, general
+  applicability, or acceptance progress.
+
+Only `## Work now` changed; embedded evidence remains byte-for-byte unchanged.
+Quality improved materially over the prior cohort, but Gate 1 is not ready
+because Packets 01 and 03 now require new same-hash evidence. The next cohort
+must show that Packet 01 admits bounded pressure without pre-qualifying it and
+that Packet 03 preserves bounded positive fit without validation language;
+Packets 02 and 04 should retain complete boundaries, Packet 05 should keep the
+separated verdict, and Packet 06 should remain semantically stable.
