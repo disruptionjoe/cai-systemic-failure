@@ -360,3 +360,132 @@ must show that Packet 01 admits bounded pressure without pre-qualifying it and
 that Packet 03 preserves bounded positive fit without validation language;
 Packets 02 and 04 should retain complete boundaries, Packet 05 should keep the
 separated verdict, and Packet 06 should remain semantically stable.
+
+## 2026-08-22 — Admission-reject and counting-semantics cohort
+
+Twenty-four post-cursor attempts had completed factual receipts and were
+evaluated. Twenty-three used their packet's then-current prompt hash. Packet
+01 also had one old-hash attempt that began while the immediately prior
+evaluation was revising that prompt; it is evaluated separately and is not
+attributed to the revised prompt. Compared with the immediately prior cohort,
+Packets 02, 04, 05, and 06 retained their useful results, but the Packet 01 and
+03 semantic failures persisted despite the prior clarifications.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — older evaluated hash
+  `86df058c217c7f4e6894150982fb5fab153f40910058f6e34f79d7d576857f15`:
+  `20260822T160501.122470Z-61920-832278`. Disposition:
+  `insufficient_samples`. The single old-prompt result again used source
+  quality, contradiction, and correction-route outcomes as admission rejects;
+  no current-prompt judgment or edit is attributed to it. Current-cohort
+  evaluated hash
+  `0b6919c31b3582cbbc3e528a7a44a0012ecb81fdfcb364c43fa22edb812a5b36`:
+  `20260822T170501.193239Z-67545-08275b`,
+  `20260822T180501.191539Z-76024-bac086`, and
+  `20260822T190504.551741Z-80872-78c37e`. Disposition: `adjusted`.
+  All three artifacts named the affected pressure, evidence, and corpus gap
+  and preserved provisional status. All three nevertheless put a failed or
+  unsettled qualification condition into `Reject or hold checks`, including
+  undispositioned contradiction, source quality, absorber coverage, or
+  correction-route capability. Those conditions can themselves be the reason
+  to admit a bounded test. Agent Context Engineer diagnosis: the prompt stated
+  the lifecycle distinction, but the open-ended reject section and embedded
+  qualification evidence still supplied a stronger familiar rubric. Current
+  prompt hash after limiting admission rejection to missing inputs, no new
+  pressure, duplicates that do not narrow a note, or unsafe/out-of-scope work:
+  `d1083d33bd47bd041e72ddcdeb08cced1d91092f9aa1389210d48f355da047ee`.
+
+- `02-field-trace` — evaluated and current hash
+  `9fca3c552c13f46beb9a599984841f80e21943c870da391218811c4e177d24bf`:
+  `20260822T161505.304322Z-63185-7c890f`,
+  `20260822T171501.112496Z-68594-7ab1c8`,
+  `20260822T181504.156971Z-79116-badb84`, and
+  `20260822T191501.023079Z-81299-b90a89`. Disposition: `satisfactory`.
+  All four candidates supplied the nine ordered field rows, kept the resident-
+  warning route optional under existing fields, and wrote a substantive audit
+  boundary preserving public-source, proposal-only, provisional, no-remedy,
+  and no-external-action limits. One retained brackets around completed review
+  checks, but that isolated cosmetic deviation did not reduce artifact utility
+  or justify prompt tuning.
+
+- `03-positive-false-negative` — evaluated hash
+  `bea821de14ff988c5f385f8609da4e4e39f4b870b0c8ed1a5bf46c530aac94c9`:
+  `20260822T162500.944775Z-63840-a7204d`,
+  `20260822T172501.028499Z-74955-b0a37a`,
+  `20260822T182501.112770Z-80070-93d963`, and
+  `20260822T192505.541028Z-84714-f44ff7`. Disposition: `adjusted`.
+  One completed transport receipt carried a zero-byte response. Each of the
+  three substantive artifacts completed the 13-row table, chose `NO WORDING
+  CHANGE`, separated counting, and refused acceptance. Each also said SF-0004
+  validates or confirms the candidate, accumulates an evidence base, or adds
+  acceptance pressure, contradicting the bounded-record rule. Agent Context
+  Engineer diagnosis: the `positive-test posture` column label and record-count
+  language continued to cue validation and acceptance accumulation more
+  strongly than the closing prohibition. Current prompt hash after renaming
+  the column and defining count as corpus bookkeeping with no validation,
+  support, accumulation, progress, pressure, or threshold meaning:
+  `737674b4a41140eec1a11f2f6ac465573c4f753483730a1e3ca332b63fc77b40`.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260822T163501.017552Z-66883-80a2b9`,
+  `20260822T173501.967458Z-75042-d56ec6`,
+  `20260822T183501.075672Z-80165-957f0a`, and
+  `20260822T193504.221986Z-84866-fc8ad0`. Disposition: `satisfactory`.
+  All four artifacts preserved the three absorber families as distinct,
+  supplied parallel source-gated refusal rows, reached `NO CHANGE`, and wrote
+  substantive audit boundaries without converting domain controls into
+  topology fields.
+
+- `05-interacting-assumptions` — evaluated and current hash
+  `d56bc8009400eb2d2f825afe12ffd285384cea3976a3fd9e097466515b21bae4`:
+  `20260822T164500.886695Z-67001-7c1cb4`,
+  `20260822T174505.756514Z-75121-62710a`,
+  `20260822T184503.031333Z-80299-5ab1fe`, and
+  `20260822T194505.954309Z-85091-18a4ed`. Disposition: `satisfactory`.
+  All four artifacts preserved A1 through A6, treated A4 as the admitted
+  bridge, reached `REPRESENTABLE` and `NO WORDING CHANGE`, excluded the fixture
+  from the positive-record count, and refused schema acceptance. One used
+  `valid positive fit` language, but its explicit non-counting and
+  non-acceptance decisions kept the required separation, so the isolated
+  wording does not justify tuning.
+
+- `06-acceptance-refresh` — evaluated and current hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260822T165501.013853Z-67210-9c2b2f`,
+  `20260822T175501.248565Z-75215-a5eb12`,
+  `20260822T185505.023102Z-80547-6b6c9f`, and
+  `20260822T195501.217002Z-85287-a601e3`. Disposition: `satisfactory`.
+  All four addenda preserved the dated packet, distinguished the five later
+  tests, retained the nine fields, source-gated annotations, and all five
+  deferrals, refused acceptance, and required no Joe action. Minor differences
+  in which field carried a refusal effect did not merge the five pressures or
+  change the disposition.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260822T190504.551741Z-80872-78c37e` |
+| `02-field-trace` | `20260822T191501.023079Z-81299-b90a89` |
+| `03-positive-false-negative` | `20260822T192505.541028Z-84714-f44ff7` |
+| `04-refusal-consistency` | `20260822T193504.221986Z-84866-fc8ad0` |
+| `05-interacting-assumptions` | `20260822T194505.954309Z-85091-18a4ed` |
+| `06-acceptance-refresh` | `20260822T195501.217002Z-85287-a601e3` |
+
+Changed prompt files:
+
+- `packets/01-next-test-gate/prompt.md`: limited admission rejection to
+  admission-level conditions and made qualification failures test inputs.
+- `packets/03-positive-false-negative/prompt.md`: removed the validation cue
+  from the column label and made positive-record counting bookkeeping only.
+
+Only `## Work now` changed; embedded evidence remains byte-for-byte unchanged.
+Gate 1 is not ready. Cohort quality remained mixed rather than improving
+overall: Packets 02, 04, 05, and 06 stayed stable, while the prior Packet 01
+and 03 repairs did not change their repeated semantic failures. The next
+same-hash cohort must show that Packet 01 keeps qualification outcomes out of
+admission rejection and Packet 03 treats SF-0004 counting as neutral inventory
+rather than validation or acceptance progress; the other four packets should
+retain their current boundaries and semantic stability.

@@ -249,3 +249,9 @@ At admission, do not run the candidate's qualification gates or reject a
 proposal merely because its evidence would fail or unsettle one; a credible
 failed or unresolved gate may itself be the material pressure that warrants a
 bounded test.
+The `Reject or hold checks` may contain only a missing required input, no
+materially new pressure or duplicate pressure that does not narrow an existing
+note, or work outside the repository's safe authority. Do not list source
+quality, contradiction, absorber fit, qualification outcome, or correction-
+route capability as admission rejects; when credibly evidenced, those are
+conditions for the bounded test to examine.
