@@ -536,9 +536,9 @@ complete structure:
 CANDIDATE ARTIFACT - BEGIN
 # SF-0004 and SF-FN-0001 Role-Separation Table
 ## Decision table
-A Markdown table with exactly these columns:
-`Decision dimension | SF-0004 positive-test posture | SF-FN-0001 false-negative-pressure posture | Separation rule`
-and one substantive row for each of these dimensions, in order:
+| Decision dimension | SF-0004 positive-test posture | SF-FN-0001 false-negative-pressure posture | Separation rule |
+|---|---|---|---|
+Populate this table with one substantive row for each of these dimensions, in order:
 record role; source qualification; `assumption_source_context`;
 `accountable_review_owner`; `affected_system_and_standing`;
 `changed_condition`; `validation_burden`; `observation_environment`;

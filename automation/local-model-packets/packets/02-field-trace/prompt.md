@@ -570,6 +570,9 @@ and exactly one substantive row for each of these nine fields, in order:
 State where the existing core fields carry this pressure, why the evidence
 supports or does not support keeping it optional, and the main uncertainty.
 ## Audit boundary
+Write one complete paragraph preserving the public-source audit scope,
+proposal-only status, provisional schema status, no-remedy limit, and no
+external-action boundary.
 CANDIDATE ARTIFACT - END
 FRONTIER REVIEW - BEGIN
 - Verify: [write the exact traceability, field-count, absorber, standing,

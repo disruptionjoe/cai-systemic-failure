@@ -238,4 +238,10 @@ describe the instruction. Write every artifact section in full. Admit future
 work only when new public or synthetic material creates materially new
 pressure on a core field, refusal note, annotation, source gate, or
 correction-route gate. Preserve provisional status and the no-Joe-action
-default.
+default. Operationalize `materially new pressure` by requiring the proposed
+test to name the affected field, note, annotation, or gate; identify the new
+evidence or synthetic condition; and explain what the current corpus does not
+already test. Admission authorizes only a bounded test, not positive
+qualification or schema acceptance. A case resembling an existing absorber
+family is not automatically rejected when it materially challenges or narrows
+that refusal note.

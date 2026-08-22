@@ -730,6 +730,9 @@ give one exact replacement or addition supported by the supplied files.
 If `NO CHANGE`, explain why the existing three notes are sufficiently
 parallel without inventing a second rubric.
 ## Audit boundary
+Write one complete paragraph preserving the public-source audit scope, the
+three families' distinctness, proposal-only status, provisional schema status,
+domain-remedy limits, and no external-action boundary.
 CANDIDATE ARTIFACT - END
 FRONTIER REVIEW - BEGIN
 - Verify: [write the exact source-gating, distinctness, parallel-shape,
