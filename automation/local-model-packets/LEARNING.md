@@ -1149,3 +1149,123 @@ same-hash cohort must show Packet 05 using the exact neutral comparison without
 validation, confirmation, qualification, positive-fit, proof, acceptance, or
 counting claims anywhere in the artifact. The other five packets should retain
 their current semantic stability.
+
+## 2026-08-23 — Neutral-comparison and complete-gate cohort
+
+Twenty-four post-cursor attempts had completed factual receipts and were
+evaluated, all on their packet's current hash. Packets 01, 03, and 05 each had
+one completed zero-byte transport response. Packet 05's three substantive
+artifacts all repaired the SF-CEC-0001 comparison, but all three omitted the
+seven separate qualification-gate rows from the requested mapping table.
+Packets 01, 02, 03, 04, and 06 remained useful.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — evaluated and current hash
+  `48212324d285bde87245135ec13f9999a19905b176c4ddf6b3a6646cec538929`:
+  `20260823T160500.264510Z-24806-705611`,
+  `20260823T170501.377723Z-38841-cc2553`,
+  `20260823T180502.471730Z-48260-498c97`, and
+  `20260823T190500.370126Z-52982-612cf6`. Disposition: `satisfactory`.
+  One response was zero-byte. The three substantive cards remained reusable
+  future-proposal templates, described the corpus gap as an untested challenge
+  or narrowing pressure, limited rejection to the permitted conditions, and
+  preserved bounded-test, provisional, and no-Joe-action limits. One retained
+  a bracket wrapper around completed Frontier checks, but the semantic repair
+  remained stable.
+
+- `02-field-trace` — evaluated and current hash
+  `9d691c678ca8cc683326fbff51bfeb862648e388b2bff20bd1861dce077968b5`:
+  `20260823T161500.371016Z-30120-8dc748`,
+  `20260823T171503.337292Z-41444-9b508a`,
+  `20260823T181504.581306Z-49520-fc226a`, and
+  `20260823T191502.367356Z-53252-f16029`. Disposition: `satisfactory`.
+  All four artifacts supplied the nine ordered field rows, kept constraints in
+  requirement or refusal form, preserved resident-warning optionality, and
+  maintained the public-source, provisional, no-remedy, and no-external-action
+  boundaries. Isolated boundary terseness and one bracket wrapper did not
+  repeat or change the audit decision.
+
+- `03-positive-false-negative` — evaluated and current hash
+  `695dc83e0d81c977cd3aeac51d9c81cdd05e3d3b98ebf3b6875b8d8ddb55d5fb`:
+  `20260823T162500.347662Z-34337-200dc8`,
+  `20260823T172503.493814Z-44581-9ce283`,
+  `20260823T182503.431806Z-51521-4fa3e8`, and
+  `20260823T192503.472516Z-54633-dcce1d`. Disposition: `satisfactory`.
+  One response was zero-byte. The three substantive tables used the exact
+  bookkeeping labels and non-collapse paragraph, chose `NO WORDING CHANGE`,
+  kept Challenger out of the positive count, and refused acceptance. One row
+  omitted SF-0004's source-gated annotation effect and a different artifact
+  used evaluative `test` language once; neither deviation repeated.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260823T163503.400868Z-34675-748518`,
+  `20260823T173505.432893Z-46671-730466`,
+  `20260823T183505.175640Z-51908-11e65e`, and
+  `20260823T193504.397322Z-54788-ac53c3`. Disposition: `satisfactory`.
+  All four audits preserved the three absorber families as distinct, supplied
+  parallel source-gated refusal logic and narrower accounts, chose `NO CHANGE`,
+  and maintained proposal-only, provisional, domain-remedy, and no-external-
+  action boundaries. One artifact called the absorbers validating the existing
+  notes, but did not validate or promote the candidate and the wording did not
+  repeat.
+
+- `05-interacting-assumptions` — evaluated hash
+  `d898ad4143e8fb90987f44524cfe3cb9d4fde1d429b02fd5a5c6f7fcd404fbe5`:
+  `20260823T164504.498102Z-35053-5491b8`,
+  `20260823T174503.500615Z-47220-9aab72`,
+  `20260823T184500.452002Z-52135-98a556`, and
+  `20260823T194505.217106Z-54904-d7c624`. Disposition: `adjusted`.
+  One response was zero-byte. All three substantive artifacts preserved A1
+  through A6, used A4 as the admitted bridge, reproduced the exact neutral
+  SF-CEC-0001 comparison and `REPRESENTABLE` verdict, used descriptive mapping
+  statuses, chose `NO WORDING CHANGE`, and refused counting and acceptance.
+  The prior comparison failure materially improved. All three mapping tables,
+  however, contained only the nine core-field rows and omitted all seven
+  separate record-qualification-gate rows. Agent Context Engineer diagnosis:
+  `all qualification gates and nine core fields` allowed the model to collapse
+  the two sets because the fields were presented under a candidate-gate table
+  and no exact row count or gate labels distinguished them. The smallest repair
+  specifies seven labeled gate rows followed by nine field rows, exactly 16 in
+  total. Current prompt hash after that repair:
+  `0947dbf1fb6ff2fc4811808cc2b3a8b7fcb5e906a8d70a48646caa42aa073a33`.
+
+- `06-acceptance-refresh` — evaluated and current hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260823T165503.371957Z-35712-1b25cf`,
+  `20260823T175502.505834Z-47598-5c26fb`,
+  `20260823T185500.511382Z-52454-7b3594`, and
+  `20260823T195500.518521Z-55026-b0bbce`. Disposition: `satisfactory`.
+  All four addenda preserved the dated packet, distinguished the five later
+  refusal pressures, retained the nine fields, annotations, and five
+  deferrals, refused acceptance and routing, and required no Joe action. One
+  retained a bracket wrapper and one called the dated packet an accepted
+  record of its historical review, but neither artifact treated the schema as
+  accepted or made test count an acceptance threshold.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260823T190500.370126Z-52982-612cf6` |
+| `02-field-trace` | `20260823T191502.367356Z-53252-f16029` |
+| `03-positive-false-negative` | `20260823T192503.472516Z-54633-dcce1d` |
+| `04-refusal-consistency` | `20260823T193504.397322Z-54788-ac53c3` |
+| `05-interacting-assumptions` | `20260823T194505.217106Z-54904-d7c624` |
+| `06-acceptance-refresh` | `20260823T195500.518521Z-55026-b0bbce` |
+
+Changed prompt file:
+
+- `packets/05-interacting-assumptions/prompt.md`: made the mapping-table
+  completeness rule explicit as seven labeled qualification-gate rows followed
+  by nine core-field rows, exactly 16 substantive rows.
+
+Only `## Work now` changed; embedded evidence remains byte-for-byte unchanged.
+Gate 1 is not ready because Packet 05 requires a new same-hash cohort on
+`0947dbf1fb6ff2fc4811808cc2b3a8b7fcb5e906a8d70a48646caa42aa073a33`.
+Quality improved materially on its neutral comparison and remained stable for
+the other five packets, but Packet 05 was incomplete in every substantive
+sample. The next cohort must include all seven qualification-gate rows plus all
+nine core-field rows while retaining the exact neutral comparison, exact
+descriptive verdict, and non-promotion boundaries.

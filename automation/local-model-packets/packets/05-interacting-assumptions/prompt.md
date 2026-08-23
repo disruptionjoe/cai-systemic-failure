@@ -776,7 +776,11 @@ Preserve and explain A1 through A6 separately.
 ## Candidate gate results
 A complete Markdown table with exactly these columns:
 `Gate or field | Fixture evidence | Representation status`
-covering all qualification gates and nine core fields. In `Representation
+with exactly 16 substantive rows. First include seven separate rows labeled
+`qualification gate 1` through `qualification gate 7`, matching the seven
+conditions under `Record Qualification Gate` in their numbered order. Then
+include the nine core fields in their table order. Do not omit or merge the
+gate rows or treat the field rows as substitutes for them. In `Representation
 status`, use only `DESCRIBED`, `NOT DESCRIBED`, or `UNRESOLVED`; do not use
 `Pass`, `Fail`, `qualifies`, `refused`, or `accepted`. This table maps
 descriptive coverage only and does not decide qualification.
