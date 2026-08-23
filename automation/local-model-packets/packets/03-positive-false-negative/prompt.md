@@ -569,9 +569,16 @@ screening. Do not say it validates the schema, proves general applicability,
 or moves the candidate toward acceptance.
 Counting is corpus bookkeeping only. It does not accumulate evidence for the
 schema, support or confirm the candidate, or create acceptance pressure,
-progress, or a threshold. Use `one bounded positive record for provisional
-local screening` for SF-0004's role and counting descriptions. Across the
-entire artifact, use neutral bookkeeping language for repository-role effects.
-`Positive record` is a record-class label, not positive evidence for the
-candidate. Do not call either record a fit, validation, confirmation, support,
-or contribution for the candidate or its field shape.
+progress, or a threshold. In the `record role` and `counting and schema status`
+rows, use exactly `one bounded positive record for provisional local screening`
+for SF-0004 and `false-negative pressure test; not counted as a positive
+record` for SF-FN-0001. In every other table row, state only the supplied
+source facts and the records' different bookkeeping or annotation roles; do
+not say what either record tests, verifies, validates, fits, supports, confirms,
+contributes to, or proves about the candidate or its field shape.
+
+In `Non-collapse rule`, write exactly these three sentences: `SF-0004 is
+entered in corpus inventory as one bounded positive record for provisional
+local screening. SF-FN-0001 is entered as a false-negative pressure test and
+is not added to the positive-record count. Neither bookkeeping entry evaluates,
+supports, or changes the candidate or its acceptance status.`

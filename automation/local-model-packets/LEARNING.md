@@ -622,3 +622,132 @@ current posture or requiring a new family, and that Packet 03 uses neutral
 bookkeeping language without fit, validation, confirmation, support, or
 contribution claims. Packets 02, 04, 05, and 06 should retain their current
 semantic stability.
+
+## 2026-08-22 — Future-proposal and constrained-bookkeeping cohort
+
+Twenty-five post-cursor attempts had completed factual receipts and were
+evaluated. Twenty-four used their packet's then-current prompt hash. Packet 01
+also had one old-hash attempt that began while the immediately prior cycle was
+revising that prompt; it is evaluated separately. Compared with the prior
+cohort, Packet 01 now produced reusable future-proposal cards, Packets 02, 04,
+05, and 06 remained useful despite isolated anomalies, and Packet 03 continued
+to assign evaluative meaning to neutral repository bookkeeping.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — older evaluated hash
+  `d1083d33bd47bd041e72ddcdeb08cced1d91092f9aa1389210d48f355da047ee`:
+  `20260823T000501.240032Z-9897-78a778`. Disposition:
+  `insufficient_samples`. The single overlapping result again audited current
+  repository inputs rather than supplying only proposal-specific inputs and
+  retained the bracket wrapper around completed Frontier checks; no current-
+  prompt judgment or edit is attributed to it. Current evaluated hash
+  `60e7aed9fbbf3cc194858fcde867e8eb25b0585fe103fb216b4ec7ba87988629`:
+  `20260823T010504.211249Z-14816-ed9a79`,
+  `20260823T020500.297410Z-19128-e62d93`,
+  `20260823T030502.291641Z-24498-5e152e`, and
+  `20260823T040500.358324Z-29892-58ef18`. Disposition: `satisfactory`.
+  All four artifacts were reusable future-proposal cards, requested the named
+  pressure, new evidence or synthetic condition, and corpus gap, limited
+  rejection to the permitted admission conditions, and preserved bounded-test,
+  provisional, and no-Joe-action limits. One artifact again required evidence
+  distinct from existing absorber families and one retained a bracket wrapper,
+  but neither deviation repeated across two current-hash responses. The prior
+  object-of-evaluation failure materially improved.
+
+- `02-field-trace` — evaluated and current hash
+  `9fca3c552c13f46beb9a599984841f80e21943c870da391218811c4e177d24bf`:
+  `20260823T001504.173233Z-13051-dffca9`,
+  `20260823T011503.315249Z-15752-6bba27`,
+  `20260823T021504.406189Z-19515-b13a5e`, and
+  `20260823T031503.118031Z-28102-288e76`. Disposition: `satisfactory`.
+  All four artifacts supplied the nine ordered rows, kept the resident-warning
+  pressure optional under existing fields, and preserved the public-source,
+  proposal-only, provisional, no-remedy, and no-external-action boundaries.
+  One artifact inverted two narrowing constraints, but the other three were
+  substantive and consistent, so the isolated generation anomaly does not
+  justify prompt tuning.
+
+- `03-positive-false-negative` — evaluated hash
+  `690203db805c777f8ce7c4b95da5f94e9f36d144fa43d926ed5a6705e7b3d622`:
+  `20260823T002506.004718Z-14178-e3dd4f`,
+  `20260823T012501.227449Z-18579-dd36df`,
+  `20260823T022500.328692Z-20026-67970b`, and
+  `20260823T032505.692888Z-28489-1e1c6d`. Disposition: `adjusted`.
+  One completed receipt carried a zero-byte response. Each of the three
+  substantive artifacts completed the table, chose `NO WORDING CHANGE`, kept
+  Challenger out of the positive-record count, and refused acceptance. Each
+  nevertheless used test, verify, fit, contribution, or field-shape semantics
+  for one or both bookkeeping roles; one also omitted SF-0004's source-gated
+  procedural-acceptance annotation effect. Agent Context Engineer diagnosis:
+  the exact class label still activated familiar positive-evidence semantics,
+  while 13 freeform rows and a freeform non-collapse paragraph gave those
+  semantics several places to re-enter despite the closing prohibition.
+  Current prompt hash after fixing both role labels and the three-sentence
+  non-collapse rule, while restricting other cells to sourced facts and neutral
+  bookkeeping or annotation roles:
+  `8786b46c3ff93a968bc465af50e118014e6601caef7c61c3c88f766b82393efe`.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260823T003501.215247Z-14256-10d0d1`,
+  `20260823T013505.308346Z-18657-a94d92`,
+  `20260823T023505.235267Z-23183-c0c223`, and
+  `20260823T033501.182655Z-28782-df6a04`. Disposition: `satisfactory`.
+  One completed receipt carried a zero-byte response. The three substantive
+  artifacts preserved the absorber families as distinct, supplied parallel
+  source-gated refusal rows, chose `NO CHANGE`, and maintained the required
+  audit boundary. One bracket wrapper around completed checks was cosmetic.
+
+- `05-interacting-assumptions` — evaluated and current hash
+  `d56bc8009400eb2d2f825afe12ffd285384cea3976a3fd9e097466515b21bae4`:
+  `20260823T004500.275566Z-14314-1bfb55`,
+  `20260823T014500.531009Z-18754-f89b21`,
+  `20260823T024505.096996Z-23266-dc87c4`, and
+  `20260823T034500.270238Z-28913-d950da`. Disposition: `satisfactory`.
+  All four artifacts preserved A1 through A6, recognized A4 as the admitted
+  bridge, reached `REPRESENTABLE` and `NO WORDING CHANGE`, separated
+  representation from positive-record counting, and refused schema acceptance.
+  One artifact contained an internally contradictory gate row that called the
+  bridged fixture refused as one record before reaching the correct final
+  verdict. The other three did not repeat that anomaly.
+
+- `06-acceptance-refresh` — evaluated and current hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260823T005504.679678Z-14436-c88961`,
+  `20260823T015504.293783Z-18863-a9bae6`,
+  `20260823T025500.303310Z-23386-fba12f`, and
+  `20260823T035502.196121Z-29156-9fdd3c`. Disposition: `satisfactory`.
+  All four addenda preserved the dated packet, distinguished the five later
+  tests, retained the nine fields and source-gated annotation posture, refused
+  acceptance and routing, and required no Joe action. One artifact added three
+  test pressures to the unresolved-class list instead of preserving only the
+  five surviving deferrals, but the other three retained the correct set and
+  the deviation did not change the non-accepting disposition.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260823T040500.358324Z-29892-58ef18` |
+| `02-field-trace` | `20260823T031503.118031Z-28102-288e76` |
+| `03-positive-false-negative` | `20260823T032505.692888Z-28489-1e1c6d` |
+| `04-refusal-consistency` | `20260823T033501.182655Z-28782-df6a04` |
+| `05-interacting-assumptions` | `20260823T034500.270238Z-28913-d950da` |
+| `06-acceptance-refresh` | `20260823T035502.196121Z-29156-9fdd3c` |
+
+Changed prompt file:
+
+- `packets/03-positive-false-negative/prompt.md`: fixed the two role labels,
+  constrained the other table cells to source facts plus bookkeeping or
+  annotation roles, and supplied the exact neutral non-collapse paragraph.
+
+Only `## Work now` changed; embedded evidence remains byte-for-byte unchanged.
+Gate 1 is not ready because Packet 03 now requires new same-hash evidence.
+Quality improved partially: Packet 01 corrected its future-proposal decision
+object and the other stable packets remained useful, but Packet 03's semantic
+collapse persisted in every substantive response. The next same-hash cohort
+must show Packet 03 using the fixed role labels and neutral paragraph without
+fit, test, verify, validation, support, confirmation, contribution, proof, or
+field-shape claims. Packets 01, 02, 04, 05, and 06 should retain their current
+semantic stability without repeating the isolated anomalies above.
