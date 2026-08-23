@@ -892,3 +892,136 @@ polarized constraints in Packet 02, and representability without positive-fit,
 acceptance, validation, confirmation, or proof language in Packet 05. Packet
 03 should retain its recovered neutral roles, and Packets 04 and 06 should
 retain their semantic stability.
+
+## 2026-08-23 — Novelty and descriptive-separation cohort
+
+Twenty-four post-cursor attempts had completed factual receipts and were
+evaluated, all on their packet's then-current hash. Three completed transport
+receipts carried zero-byte responses, one each for Packets 01, 03, and 04.
+Compared with the immediately prior cohort, Packet 01's proposal-authority
+repair and Packet 02's constraint-polarity repair worked, while Packet 03
+regressed and Packet 05 continued to turn neutral bookkeeping or descriptive
+capacity into evaluative meaning. Packets 04 and 06 remained useful.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — evaluated hash
+  `6a175f044b38b70ac63102a822806d18aabca3ac3b3456b9aa3362c429e720f9`:
+  `20260823T090500.218423Z-70566-e6b6dd`,
+  `20260823T100500.166624Z-79387-570749`,
+  `20260823T110503.263631Z-88160-cf7409`, and
+  `20260823T120505.099829Z-93424-458ffc`. Disposition: `adjusted`. One
+  receipt carried a zero-byte response. All three substantive cards made
+  admission proposal-only, non-executing, and subject to later review, so the
+  prior authority failure improved. Two nevertheless required the new case or
+  evidence to be distinguished from existing absorber or falsifier families,
+  despite the rule that novelty is pressure rather than a distinct family.
+  Agent Context Engineer diagnosis: the freeform corpus-gap input continued to
+  activate category-novelty language even after the conceptual distinction was
+  stated later in the prompt. Current prompt hash after prohibiting
+  `distinct from` or equivalent case-level language in required inputs and
+  admit checks:
+  `48212324d285bde87245135ec13f9999a19905b176c4ddf6b3a6646cec538929`.
+
+- `02-field-trace` — evaluated and current hash
+  `9d691c678ca8cc683326fbff51bfeb862648e388b2bff20bd1861dce077968b5`:
+  `20260823T081502.378205Z-62549-6ebee3`,
+  `20260823T091500.261810Z-73229-ddf4fb`,
+  `20260823T101504.393505Z-83899-64b43f`, and
+  `20260823T111504.326644Z-89212-895cb0`. Disposition: `satisfactory`.
+  All four cards supplied the nine ordered rows, preserved refusal-condition
+  polarity with requirement or `refuse if` language, kept resident-warning
+  pressure optional, and maintained the public-source, proposal-only,
+  provisional, no-remedy, and no-external-action boundaries. The prior
+  repeated polarity inversion materially improved.
+
+- `03-positive-false-negative` — evaluated hash
+  `8786b46c3ff93a968bc465af50e118014e6601caef7c61c3c88f766b82393efe`:
+  `20260823T082502.370471Z-62716-e62bb6`,
+  `20260823T092500.277750Z-74255-bc4e70`,
+  `20260823T102503.432665Z-84139-f01b49`, and
+  `20260823T112500.918014Z-89429-01ebab`. Disposition: `adjusted`. One
+  receipt carried a zero-byte response. All three substantive artifacts used
+  the fixed role labels and exact non-collapse paragraph, but two freeform
+  separation cells called SF-0004 positive evidence or qualification and
+  described SF-FN-0001 as testing field shape. One other response omitted the
+  candidate end marker without repeating the semantic failure. Agent Context
+  Engineer diagnosis: the unconstrained separation cells beside exact
+  bookkeeping labels invited the model to reinterpret those labels despite
+  the later non-collapse paragraph. Current prompt hash after fixing the two
+  high-risk separation cells to one neutral sentence:
+  `695dc83e0d81c977cd3aeac51d9c81cdd05e3d3b98ebf3b6875b8d8ddb55d5fb`.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260823T083500.223832Z-64251-5935bf`,
+  `20260823T093500.283066Z-74403-e8b0f3`,
+  `20260823T103500.320116Z-84315-998349`, and
+  `20260823T113500.295348Z-89579-4d5af2`. Disposition: `satisfactory`.
+  One receipt carried a zero-byte response. The three substantive artifacts
+  kept the absorber families distinct, used parallel source-gated refusal
+  logic and narrower accounts, chose `NO CHANGE`, and preserved the public-
+  source, proposal-only, provisional, no-remedy, and no-external-action
+  boundaries. Isolated wording about a pending acceptance-bar review did not
+  alter the refusal decisions.
+
+- `05-interacting-assumptions` — evaluated hash
+  `7616bf92d0362d25b03805d0a71df3bf68c0b03f91066a5cd348a0e3368d0cd1`:
+  `20260823T084503.284993Z-65133-fe8ac3`,
+  `20260823T094500.302669Z-75029-c85a8d`,
+  `20260823T104501.537502Z-84508-1c1c45`, and
+  `20260823T114500.290164Z-89787-22d486`. Disposition: `adjusted`. All
+  four artifacts preserved A1 through A6, recognized A4 as the admitted
+  bridge, chose `REPRESENTABLE` and `NO WORDING CHANGE`, and refused schema
+  acceptance. All four nevertheless called the fixture valid, confirming,
+  validating, qualifying, correctly handled, or not misclassified, converting
+  descriptive capacity into a positive evaluation. Agent Context Engineer
+  diagnosis: a freeform gate-results table with `Pass` outcomes and a freeform
+  false-negative explanation overrode the abstract three-decision separation
+  rule. Current prompt hash after making the table a descriptive mapping with
+  fixed statuses and fixing the verdict to an exact neutral paragraph:
+  `9b3635721d67308afc34852f1e3c50810be3e33c549f50b5b88869c3ba6c94f2`.
+
+- `06-acceptance-refresh` — evaluated and current hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260823T085500.318843Z-68768-e1d5f8`,
+  `20260823T095500.286404Z-76972-9056c5`,
+  `20260823T105503.307947Z-84750-c61d38`, and
+  `20260823T115500.299433Z-89996-612702`. Disposition: `satisfactory`.
+  All four addenda preserved the dated packet, kept the five later tests
+  distinct, retained the nine fields, annotations, and five deferrals, refused
+  acceptance and routing, and required no Joe action. Isolated wording or
+  count anomalies in Frontier checks did not change the artifacts' material
+  non-accepting posture.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260823T120505.099829Z-93424-458ffc` |
+| `02-field-trace` | `20260823T111504.326644Z-89212-895cb0` |
+| `03-positive-false-negative` | `20260823T112500.918014Z-89429-01ebab` |
+| `04-refusal-consistency` | `20260823T113500.295348Z-89579-4d5af2` |
+| `05-interacting-assumptions` | `20260823T114500.290164Z-89787-22d486` |
+| `06-acceptance-refresh` | `20260823T115500.299433Z-89996-612702` |
+
+Changed prompt files:
+
+- `packets/01-next-test-gate/prompt.md`: prohibited case-level distinctness
+  language in the required-input and admission checks.
+- `packets/03-positive-false-negative/prompt.md`: fixed the two high-risk
+  separation-rule cells to neutral corpus-bookkeeping language.
+- `packets/05-interacting-assumptions/prompt.md`: replaced pass/fail gate
+  narration with descriptive mapping statuses and fixed the representability
+  verdict to exact non-qualifying language.
+
+Only `## Work now` changed; embedded evidence remains byte-for-byte unchanged.
+Gate 1 is not ready because Packets 01, 03, and 05 now require new same-hash
+evidence. Quality improved on Packet 01's proposal authority and Packet 02's
+constraint polarity, and Packets 04 and 06 remained stable, but the cohort was
+mixed overall because Packet 01 retained a repeated novelty error, Packet 03
+regressed, and Packet 05's prior repair did not hold. The next same-hash cohort
+must show pressure novelty without case-level distinctness in Packet 01,
+neutral separation cells throughout Packet 03, and descriptive coverage
+without qualification or validation in Packet 05. Packets 02, 04, and 06
+should retain their semantic stability.

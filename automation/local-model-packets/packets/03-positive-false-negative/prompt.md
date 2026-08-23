@@ -576,6 +576,11 @@ record` for SF-FN-0001. In every other table row, state only the supplied
 source facts and the records' different bookkeeping or annotation roles; do
 not say what either record tests, verifies, validates, fits, supports, confirms,
 contributes to, or proves about the candidate or its field shape.
+In the `Separation rule` cells for `record role` and `counting and schema
+status`, use exactly `Distinct corpus-inventory labels; neither entry evaluates
+the candidate or changes acceptance status.` Do not paraphrase either
+bookkeeping label as positive evidence, qualification, a field-shape test,
+progress, support, or acceptance pressure.
 
 In `Non-collapse rule`, write exactly these three sentences: `SF-0004 is
 entered in corpus inventory as one bounded positive record for provisional

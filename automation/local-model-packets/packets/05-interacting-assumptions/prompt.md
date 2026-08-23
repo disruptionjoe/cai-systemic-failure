@@ -754,6 +754,11 @@ Use these decision rules in order:
 4. For the false-negative verdict, use exactly `REPRESENTABLE`,
    `NOT REPRESENTABLE`, or `UNRESOLVED`, followed by the evidence for that
    disposition.
+   For this fixed fixture, write the entire section exactly as these three
+   sentences: `REPRESENTABLE. A1 through A6 can be recorded in the nine current
+   fields, with A4 as the admitted bridge. This is a descriptive-capacity
+   decision only; it is not a qualification, positive-record, validation,
+   confirmation, proof, or acceptance decision.`
 5. For exact wording pressure, use exactly `NO WORDING CHANGE`,
    `MINIMAL WORDING CANDIDATE`, or `UNRESOLVED`. Use a wording candidate only
    when the supplied evidence proves that ordinary plural interpretation is
@@ -768,8 +773,12 @@ CANDIDATE ARTIFACT - BEGIN
 ## Synthetic packet
 Preserve and explain A1 through A6 separately.
 ## Candidate gate results
-A complete Markdown table covering all qualification gates and nine core
-fields.
+A complete Markdown table with exactly these columns:
+`Gate or field | Fixture evidence | Representation status`
+covering all qualification gates and nine core fields. In `Representation
+status`, use only `DESCRIBED`, `NOT DESCRIBED`, or `UNRESOLVED`; do not use
+`Pass`, `Fail`, `qualifies`, `refused`, or `accepted`. This table maps
+descriptive coverage only and does not decide qualification.
 ## Distinction from SF-CEC-0001
 ## False-negative verdict
 ## Exact wording pressure

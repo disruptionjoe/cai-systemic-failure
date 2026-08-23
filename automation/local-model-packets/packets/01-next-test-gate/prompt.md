@@ -253,6 +253,10 @@ family is not automatically rejected when it materially challenges or narrows
 that refusal note. Material novelty is new challenge or narrowing pressure,
 not a distinct failure family; never require the proposed case or condition to
 be distinct from an existing absorber or falsifier family.
+In `Required inputs` and `Admit checks`, describe the corpus gap only as an
+`untested challenge or narrowing pressure`. Do not use `distinct from`,
+`different from`, or equivalent language that makes the proposed case,
+evidence, or condition itself differ from an existing family.
 At admission, do not run the candidate's qualification gates or reject a
 proposal merely because its evidence would fail or unsettle one; a credible
 failed or unresolved gate may itself be the material pressure that warrants a
