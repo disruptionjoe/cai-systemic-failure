@@ -213,8 +213,13 @@ lanes:
 ## Work now
 
 Create a complete Material Pressure Admission Card that operationalizes
-ROADMAP step 31 and the current lane posture. This packet does not select
-or invent a new failure test. It makes the existing wake condition usable.
+ROADMAP step 31 within the current lane boundaries. This is a reusable
+decision template for a future test proposal. It does not select or invent a
+new failure test, or assess, validate, or admit the current repository posture
+or the wake rule itself. In `Required inputs`, list the proposal-specific facts
+a reviewer must receive. In the two check sections, state decisions applied to
+that future proposal rather than checks that current repository files or state
+exist.
 
 Return Markdown only. Begin immediately with the first marker and use this
 complete structure:
@@ -244,7 +249,9 @@ evidence or synthetic condition; and explain what the current corpus does not
 already test. Admission authorizes only a bounded test, not positive
 qualification or schema acceptance. A case resembling an existing absorber
 family is not automatically rejected when it materially challenges or narrows
-that refusal note.
+that refusal note. Material novelty is new challenge or narrowing pressure,
+not a distinct failure family; never require the proposed case or condition to
+be distinct from an existing absorber or falsifier family.
 At admission, do not run the candidate's qualification gates or reject a
 proposal merely because its evidence would fail or unsettle one; a credible
 failed or unresolved gate may itself be the material pressure that warrants a

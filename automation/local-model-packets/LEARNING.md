@@ -489,3 +489,136 @@ same-hash cohort must show that Packet 01 keeps qualification outcomes out of
 admission rejection and Packet 03 treats SF-0004 counting as neutral inventory
 rather than validation or acceptance progress; the other four packets should
 retain their current boundaries and semantic stability.
+
+## 2026-08-22 — Reusable-card and neutral-role cohort
+
+Twenty-four post-cursor attempts had completed factual receipts and were
+evaluated. Each packet contributed four attempts, and every attempt used that
+packet's current prompt hash. Compared with the immediately prior cohort,
+Packets 02, 04, 05, and 06 remained useful. Packet 01 eliminated its prior
+qualification-as-admission-reject error but exposed a different repeated card-
+purpose failure. Packet 03 retained its prior validation semantics despite the
+bookkeeping clarification.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — evaluated hash
+  `d1083d33bd47bd041e72ddcdeb08cced1d91092f9aa1389210d48f355da047ee`:
+  `20260822T200501.051507Z-85914-869aa1`,
+  `20260822T210501.069974Z-92006-863ae3`,
+  `20260822T220501.056225Z-97889-b02604`, and
+  `20260822T230503.075596Z-3701-f3dc5d`. Disposition: `adjusted`.
+  All four responses kept source quality, contradiction, qualification, and
+  correction-route capability out of admission rejection, so the prior
+  failure improved. Three responses, however, treated the artifact as a check
+  or admission of current repository readiness instead of a reusable decision
+  card for a future proposal. Two also required novelty to be distinct from
+  existing absorber or falsifier families, which would exclude a case that
+  materially challenges or narrows an existing refusal note. Agent Context
+  Engineer diagnosis: `current lane posture` and `existing wake condition`
+  invited a current-state audit, while the familiar novelty cue outweighed the
+  later allowance for absorber-family narrowing. Current prompt hash after
+  making the future-proposal object explicit and defining novelty as new
+  challenge or narrowing pressure rather than a distinct family:
+  `60e7aed9fbbf3cc194858fcde867e8eb25b0585fe103fb216b4ec7ba87988629`.
+
+- `02-field-trace` — evaluated and current hash
+  `9fca3c552c13f46beb9a599984841f80e21943c870da391218811c4e177d24bf`:
+  `20260822T201505.978834Z-87002-74a029`,
+  `20260822T211501.065914Z-92258-c1b0d6`,
+  `20260822T221501.057518Z-98959-4c84a6`, and
+  `20260822T231503.098256Z-4148-ea7d2f`. Disposition: `satisfactory`.
+  All four artifacts supplied the nine ordered field rows, kept the resident-
+  warning route optional under existing fields, preserved affected standing
+  and absorber controls, and maintained the public-source, candidate,
+  provisional, no-remedy, and no-external-action boundaries. Two boundary
+  paragraphs carried proposal-only or provisional posture implicitly rather
+  than with both exact labels, but neither promoted the candidate or reduced
+  the artifact's review utility. The cohort remains materially stable.
+
+- `03-positive-false-negative` — evaluated hash
+  `737674b4a41140eec1a11f2f6ac465573c4f753483730a1e3ca332b63fc77b40`:
+  `20260822T202501.013359Z-90217-24fc0b`,
+  `20260822T212501.043621Z-93629-5cae88`,
+  `20260822T222505.134494Z-2700-683c5e`, and
+  `20260822T232503.100822Z-5070-44b8b2`. Disposition: `adjusted`.
+  All four responses completed the 13-row table, selected `NO WORDING CHANGE`,
+  refused acceptance, and did not count Challenger as a sixth positive record.
+  Three or more nevertheless called SF-0004 positive evidence, fit,
+  confirmation, or a contribution for the candidate, or said the pressure
+  test validates field shape. That repeats the prior semantic collapse even
+  where a later sentence correctly called counting neutral bookkeeping. Agent
+  Context Engineer diagnosis: the familiar meaning of `positive record`
+  continued to dominate the closing prohibition and leaked into several
+  artifact sections. Current prompt hash after relabeling the table column,
+  defining `positive record` as a class label only, and requiring neutral
+  bookkeeping language throughout:
+  `690203db805c777f8ce7c4b95da5f94e9f36d144fa43d926ed5a6705e7b3d622`.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260822T203501.184188Z-91131-48a5ca`,
+  `20260822T213503.137747Z-96877-0924f4`,
+  `20260822T223501.130099Z-2862-b9a937`, and
+  `20260822T233505.599022Z-7978-dbc145`. Disposition: `satisfactory`.
+  All four artifacts kept warning and communication, single-owner execution,
+  and resource adequacy distinct; supplied parallel refusal logic and narrower
+  source-backed accounts; chose `NO CHANGE`; and preserved provisional,
+  proposal-only, no-remedy, and no-external-action boundaries. One response
+  used isolated validation language for the existing refusal notes, but it did
+  not change a verdict or promote the candidate. The cohort remains stable.
+
+- `05-interacting-assumptions` — evaluated and current hash
+  `d56bc8009400eb2d2f825afe12ffd285384cea3976a3fd9e097466515b21bae4`:
+  `20260822T204502.060978Z-91335-a7f21c`,
+  `20260822T214501.115863Z-96981-21d3af`,
+  `20260822T224501.249649Z-2996-807540`, and
+  `20260822T234503.254347Z-8113-169547`. Disposition: `satisfactory`.
+  All four responses preserved A1 through A6, treated A4 as an admitted bridge,
+  reached `REPRESENTABLE` and `NO WORDING CHANGE`, kept representation separate
+  from positive-record counting, and refused schema acceptance. Fit or
+  validation wording in two responses described representability while their
+  explicit counting and non-promotion decisions stayed correct, so it does not
+  establish a material usability failure. The cohort remains stable.
+
+- `06-acceptance-refresh` — evaluated and current hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260822T205505.230515Z-91524-35b935`,
+  `20260822T215501.138233Z-97233-fb5aa5`,
+  `20260822T225502.266124Z-3251-04a3c9`, and
+  `20260822T235505.681692Z-8386-c314b2`. Disposition: `satisfactory`.
+  All four addenda preserved the dated packet, distinguished the five later
+  tests, retained the nine fields, source-gated annotations, refusal posture,
+  and all five deferrals, refused acceptance and routing, and required no Joe
+  action. The cohort remains semantically stable.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260822T230503.075596Z-3701-f3dc5d` |
+| `02-field-trace` | `20260822T231503.098256Z-4148-ea7d2f` |
+| `03-positive-false-negative` | `20260822T232503.100822Z-5070-44b8b2` |
+| `04-refusal-consistency` | `20260822T233505.599022Z-7978-dbc145` |
+| `05-interacting-assumptions` | `20260822T234503.254347Z-8113-169547` |
+| `06-acceptance-refresh` | `20260822T235505.681692Z-8386-c314b2` |
+
+Changed prompt files:
+
+- `packets/01-next-test-gate/prompt.md`: made the card a future-proposal
+  decision template and prevented novelty from requiring a distinct failure
+  family.
+- `packets/03-positive-false-negative/prompt.md`: made role language neutral
+  throughout and defined positive record as a class label rather than evidence
+  for the candidate.
+
+Only `## Work now` changed; embedded evidence remains byte-for-byte unchanged.
+Gate 1 is not ready. Cohort quality improved only partially: Packet 01 fixed
+its prior reject-list failure and the other four stable packets remained useful,
+but Packet 01 exposed a repeated object-of-evaluation error and Packet 03's
+semantic collapse did not improve. The next same-hash cohort must show that
+Packet 01 applies proposal-specific inputs and decisions without auditing the
+current posture or requiring a new family, and that Packet 03 uses neutral
+bookkeeping language without fit, validation, confirmation, support, or
+contribution claims. Packets 02, 04, 05, and 06 should retain their current
+semantic stability.

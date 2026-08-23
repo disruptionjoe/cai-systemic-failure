@@ -536,7 +536,7 @@ complete structure:
 CANDIDATE ARTIFACT - BEGIN
 # SF-0004 and SF-FN-0001 Role-Separation Table
 ## Decision table
-| Decision dimension | SF-0004 bounded positive-record posture | SF-FN-0001 false-negative-pressure posture | Separation rule |
+| Decision dimension | SF-0004 corpus-bookkeeping role | SF-FN-0001 false-negative-pressure role | Separation rule |
 |---|---|---|---|
 Populate this table with one substantive row for each of these dimensions, in order:
 record role; source qualification; `assumption_source_context`;
@@ -570,4 +570,8 @@ or moves the candidate toward acceptance.
 Counting is corpus bookkeeping only. It does not accumulate evidence for the
 schema, support or confirm the candidate, or create acceptance pressure,
 progress, or a threshold. Use `one bounded positive record for provisional
-local screening` for SF-0004's role and counting descriptions.
+local screening` for SF-0004's role and counting descriptions. Across the
+entire artifact, use neutral bookkeeping language for repository-role effects.
+`Positive record` is a record-class label, not positive evidence for the
+candidate. Do not call either record a fit, validation, confirmation, support,
+or contribution for the candidate or its field shape.
