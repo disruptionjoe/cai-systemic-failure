@@ -239,7 +239,7 @@ semantic stability.
 
 ## 2026-08-22 — Admission-versus-qualification and bounded-fit cohort
 
-Twenty-three post-cursor attempts had completed factual receipts and were
+Twenty-four post-cursor attempts had completed factual receipts and were
 evaluated. Every request used its packet's current prompt hash. Compared with
 the immediately prior cohort, Packets 02 and 04 now produced substantive audit
 boundaries, Packet 03 no longer copied the table instruction, Packet 05's
@@ -768,14 +768,16 @@ collapse in Packet 05 justified minimal prompt repairs.
 - `01-next-test-gate` — evaluated hash
   `60e7aed9fbbf3cc194858fcde867e8eb25b0585fe103fb216b4ec7ba87988629`:
   `20260823T050505.319438Z-37990-fb057b`,
-  `20260823T060500.213641Z-45577-be876a`, and
-  `20260823T070501.263891Z-52298-55adae`. Disposition: `adjusted`.
-  All three artifacts remained reusable future-proposal cards, used the
+  `20260823T060500.213641Z-45577-be876a`,
+  `20260823T070501.263891Z-52298-55adae`, and
+  `20260823T080500.262621Z-59019-8dee89`. Disposition: `adjusted`.
+  All four artifacts remained reusable future-proposal cards, used the
   proposal-specific inputs, and limited rejection to the permitted admission
   conditions. One artifact, however, said admission authorizes execution of
-  the bounded test, while another described authorization of the test without
+  the bounded test, while two described authorization of the test without
   preserving later review. That exceeds the proposal-only boundary even though
-  both refused qualification and acceptance. Agent Context Engineer diagnosis:
+  the artifacts refused qualification and acceptance. Agent Context Engineer
+  diagnosis:
   `Admission authorizes only a bounded test` left the object of authorization
   ambiguous after the earlier decision-object repair. Current prompt hash after
   making admission approval proposal-only and explicitly non-executing:
@@ -864,7 +866,7 @@ collapse in Packet 05 justified minimal prompt repairs.
 
 | Packet | evaluated_through_attempt |
 |---|---|
-| `01-next-test-gate` | `20260823T070501.263891Z-52298-55adae` |
+| `01-next-test-gate` | `20260823T080500.262621Z-59019-8dee89` |
 | `02-field-trace` | `20260823T071501.285879Z-56605-a062c0` |
 | `03-positive-false-negative` | `20260823T072500.252963Z-56810-4f5ac8` |
 | `04-refusal-consistency` | `20260823T073503.217568Z-56903-83222c` |
