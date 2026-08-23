@@ -747,7 +747,10 @@ Use these decision rules in order:
    supplied evidence explicitly makes the singular exclusive.
 3. Keep representation, positive-record counting, and schema acceptance as
    separate decisions. A representable synthetic pressure test is not thereby
-   a positive record or an accepted schema.
+   a positive record or an accepted schema. `REPRESENTABLE` means only that the
+   current fields can describe this fixture. Do not call the fixture a positive
+   fit, valid positive record, accepted case, validation, confirmation, or
+   proof that the candidate handles the class.
 4. For the false-negative verdict, use exactly `REPRESENTABLE`,
    `NOT REPRESENTABLE`, or `UNRESOLVED`, followed by the evidence for that
    disposition.

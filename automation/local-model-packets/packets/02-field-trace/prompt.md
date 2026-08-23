@@ -581,5 +581,9 @@ FRONTIER REVIEW - END
 
 Replace the bracketed instruction with completed checks; do not repeat or
 describe the instruction. Write every table row and artifact section in full.
+In the `Uncertainty or narrowing constraint` column, state each constraint as
+a requirement that preserves the source boundary. Never state a refusal or
+failed-gate condition as though it were true of SF-0005; write `must not` or
+`refuse if` when carrying such a condition into the audit card.
 Do not add source facts, reinterpret official findings, prescribe a building
 or fire-safety remedy, or promote the schema.

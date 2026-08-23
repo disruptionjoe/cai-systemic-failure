@@ -246,8 +246,9 @@ correction-route gate. Preserve provisional status and the no-Joe-action
 default. Operationalize `materially new pressure` by requiring the proposed
 test to name the affected field, note, annotation, or gate; identify the new
 evidence or synthetic condition; and explain what the current corpus does not
-already test. Admission authorizes only a bounded test, not positive
-qualification or schema acceptance. A case resembling an existing absorber
+already test. Admission approves only a bounded test proposal for later
+review; it does not authorize execution, positive qualification, or schema
+acceptance. A case resembling an existing absorber
 family is not automatically rejected when it materially challenges or narrows
 that refusal note. Material novelty is new challenge or narrowing pressure,
 not a distinct failure family; never require the proposed case or condition to

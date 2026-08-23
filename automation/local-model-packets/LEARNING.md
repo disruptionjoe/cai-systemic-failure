@@ -751,3 +751,142 @@ must show Packet 03 using the fixed role labels and neutral paragraph without
 fit, test, verify, validation, support, confirmation, contribution, proof, or
 field-shape claims. Packets 01, 02, 04, 05, and 06 should retain their current
 semantic stability without repeating the isolated anomalies above.
+
+## 2026-08-23 — Proposal authority, constraint polarity, and representability cohort
+
+Twenty-three post-cursor attempts had completed factual receipts and were
+evaluated. Every request used its packet's then-current prompt hash. Two
+completed transport receipts carried zero-byte responses, one each for Packets
+03 and 05. Compared with the immediately prior cohort, Packet 03's neutral-role
+repair eliminated the repeated bookkeeping collapse. Packets 04 and 06
+remained useful, but a proposal-authority violation in Packet 01, a repeated
+constraint-polarity failure in Packet 02, and repeated representability-to-fit
+collapse in Packet 05 justified minimal prompt repairs.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — evaluated hash
+  `60e7aed9fbbf3cc194858fcde867e8eb25b0585fe103fb216b4ec7ba87988629`:
+  `20260823T050505.319438Z-37990-fb057b`,
+  `20260823T060500.213641Z-45577-be876a`, and
+  `20260823T070501.263891Z-52298-55adae`. Disposition: `adjusted`.
+  All three artifacts remained reusable future-proposal cards, used the
+  proposal-specific inputs, and limited rejection to the permitted admission
+  conditions. One artifact, however, said admission authorizes execution of
+  the bounded test, while another described authorization of the test without
+  preserving later review. That exceeds the proposal-only boundary even though
+  both refused qualification and acceptance. Agent Context Engineer diagnosis:
+  `Admission authorizes only a bounded test` left the object of authorization
+  ambiguous after the earlier decision-object repair. Current prompt hash after
+  making admission approval proposal-only and explicitly non-executing:
+  `6a175f044b38b70ac63102a822806d18aabca3ac3b3456b9aa3362c429e720f9`.
+
+- `02-field-trace` — evaluated hash
+  `9fca3c552c13f46beb9a599984841f80e21943c870da391218811c4e177d24bf`:
+  `20260823T041500.247345Z-33450-591c4a`,
+  `20260823T051500.243499Z-39689-ce270f`,
+  `20260823T061502.193676Z-50154-057a8d`, and
+  `20260823T071501.285879Z-56605-a062c0`. Disposition: `adjusted`.
+  Three artifacts supplied useful nine-row traces, optional resident-warning
+  dispositions, and complete boundaries. The fourth asserted `Accountability
+  is only a generic organization label` and `Reuse of old assumption under
+  materially unchanged conditions` as narrowing constraints. This repeats the
+  immediately prior same-hash cohort's polarity inversion rather than a new
+  isolated anomaly. Agent Context Engineer diagnosis: the prompt named an
+  uncertainty column but did not tell the model to preserve the negation when
+  converting refusal conditions into constraints. Current prompt hash after
+  requiring constraint language such as `must not` or `refuse if`:
+  `9d691c678ca8cc683326fbff51bfeb862648e388b2bff20bd1861dce077968b5`.
+
+- `03-positive-false-negative` — evaluated and current hash
+  `8786b46c3ff93a968bc465af50e118014e6601caef7c61c3c88f766b82393efe`:
+  `20260823T042503.281294Z-33657-a01b6b`,
+  `20260823T052501.326035Z-43672-ed1974`,
+  `20260823T062504.176686Z-50369-1ae28a`, and
+  `20260823T072500.252963Z-56810-4f5ac8`. Disposition: `satisfactory`.
+  One completed receipt carried a zero-byte response. Each of the three
+  substantive artifacts used the fixed role labels, completed all 13 rows,
+  chose `NO WORDING CHANGE`, reproduced the exact neutral non-collapse rule,
+  kept Challenger out of the positive-record count, and refused acceptance.
+  One row used isolated `acceptance pressure` wording as a contrast, but the
+  exact role and non-collapse decisions did not assign evidentiary or
+  acceptance meaning to either bookkeeping entry. The prior repeated role
+  collapse materially improved.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260823T043500.302841Z-33818-62483e`,
+  `20260823T053503.209283Z-43876-114912`,
+  `20260823T063500.280905Z-50503-9b6e62`, and
+  `20260823T073503.217568Z-56903-83222c`. Disposition: `satisfactory`.
+  All four artifacts kept the three absorber families distinct, supplied
+  parallel source-gated refusal logic and narrower accounts, chose `NO
+  CHANGE`, and preserved proposal-only, provisional, no-remedy, and
+  no-external-action boundaries. Two Frontier sections retained brackets, but
+  the completed checks remained inspectable and the cosmetic deviation did not
+  reduce artifact utility.
+
+- `05-interacting-assumptions` — evaluated hash
+  `d56bc8009400eb2d2f825afe12ffd285384cea3976a3fd9e097466515b21bae4`:
+  `20260823T044501.299928Z-35374-891bad`,
+  `20260823T054503.353938Z-44036-1751e2`,
+  `20260823T064500.258213Z-50581-909edc`, and
+  `20260823T074500.248635Z-57748-b9014c`. Disposition: `adjusted`.
+  One completed receipt carried a zero-byte response. All three substantive
+  artifacts preserved A1 through A6, recognized A4 as the admitted bridge,
+  reached `REPRESENTABLE` and `NO WORDING CHANGE`, and refused schema
+  acceptance. All three nevertheless converted representability into claims
+  that the fixture was a valid or positive record, that the schema accepts it,
+  or that the result confirms or validates candidate handling. One explicitly
+  called the fixture a positive record while later saying it did not count for
+  acceptance. Agent Context Engineer diagnosis: the three-decision separation
+  rule named the distinctions but left `REPRESENTABLE` open to familiar
+  qualification and validation semantics in the freeform verdict sections.
+  Current prompt hash after defining representability as description only and
+  prohibiting positive-fit, acceptance, validation, confirmation, and proof
+  claims: `7616bf92d0362d25b03805d0a71df3bf68c0b03f91066a5cd348a0e3368d0cd1`.
+
+- `06-acceptance-refresh` — evaluated and current hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260823T045504.158904Z-36684-14d7bb`,
+  `20260823T055504.858687Z-44156-69b8fc`,
+  `20260823T065500.247092Z-50700-bf5dbb`, and
+  `20260823T075501.367925Z-57873-92a3fa`. Disposition: `satisfactory`.
+  All four addenda preserved the dated packet, distinguished all five later
+  tests, retained the nine fields and source-gated annotation posture,
+  preserved the five deferrals, refused acceptance and routing, and required
+  no Joe action. One coverage table described three field effects as
+  `narrowed` or `updated` before its following section correctly kept the
+  fields frozen. That isolated internal wording anomaly did not recur and did
+  not change its final disposition.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260823T070501.263891Z-52298-55adae` |
+| `02-field-trace` | `20260823T071501.285879Z-56605-a062c0` |
+| `03-positive-false-negative` | `20260823T072500.252963Z-56810-4f5ac8` |
+| `04-refusal-consistency` | `20260823T073503.217568Z-56903-83222c` |
+| `05-interacting-assumptions` | `20260823T074500.248635Z-57748-b9014c` |
+| `06-acceptance-refresh` | `20260823T075501.367925Z-57873-92a3fa` |
+
+Changed prompt files:
+
+- `packets/01-next-test-gate/prompt.md`: made proposal admission explicitly
+  non-executing and subject to later review.
+- `packets/02-field-trace/prompt.md`: required narrowing constraints to keep
+  refusal-condition polarity explicit.
+- `packets/05-interacting-assumptions/prompt.md`: defined representability as
+  descriptive capacity only and prohibited positive-fit or validation claims.
+
+Only `## Work now` changed; embedded evidence remains byte-for-byte unchanged.
+Gate 1 is not ready because Packets 01, 02, and 05 now require new same-hash
+evidence. Quality improved materially for Packet 03 and remained stable for
+Packets 04 and 06, but the cohort was mixed overall because the three adjusted
+prompts exposed material boundary or semantic failures. The next same-hash
+cohort must show proposal-only non-executing admission in Packet 01, correctly
+polarized constraints in Packet 02, and representability without positive-fit,
+acceptance, validation, confirmation, or proof language in Packet 05. Packet
+03 should retain its recovered neutral roles, and Packets 04 and 06 should
+retain their semantic stability.
