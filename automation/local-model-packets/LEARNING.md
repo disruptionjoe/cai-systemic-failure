@@ -1025,3 +1025,127 @@ must show pressure novelty without case-level distinctness in Packet 01,
 neutral separation cells throughout Packet 03, and descriptive coverage
 without qualification or validation in Packet 05. Packets 02, 04, and 06
 should retain their semantic stability.
+
+## 2026-08-23 — Repair verification and neutral-comparison cohort
+
+Twenty-three post-cursor attempts had completed factual receipts and were
+evaluated, all on their packet's current hash. One completed Packet 05
+transport receipt carried a zero-byte response. Compared with the immediately
+prior cohort, Packet 01 stopped requiring case-level distinctness and Packet
+03 kept its separation cells neutral. Packet 05's descriptive table and exact
+verdict improved, but two of three substantive artifacts reintroduced
+validation or confirmation in the freeform comparison with SF-CEC-0001.
+Packets 02, 04, and 06 remained useful.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — evaluated and current hash
+  `48212324d285bde87245135ec13f9999a19905b176c4ddf6b3a6646cec538929`:
+  `20260823T130500.275303Z-5826-53a171`,
+  `20260823T140503.315894Z-11271-7d7e90`, and
+  `20260823T150503.360286Z-16627-cd481c`. Disposition: `satisfactory`.
+  All three cards described the corpus gap as an untested challenge or
+  narrowing pressure, never required the proposed case or condition to be
+  distinct from an existing family, and limited rejection to the permitted
+  conditions. They also kept admission proposal-only, non-executing,
+  provisional, and subject to later review. The prior repeated novelty error
+  materially improved.
+
+- `02-field-trace` — evaluated and current hash
+  `9d691c678ca8cc683326fbff51bfeb862648e388b2bff20bd1861dce077968b5`:
+  `20260823T121500.288235Z-97523-70c947`,
+  `20260823T131502.339348Z-7589-cb4687`,
+  `20260823T141505.058342Z-11930-60f97a`, and
+  `20260823T151502.472812Z-17744-74d883`. Disposition: `satisfactory`.
+  All four artifacts supplied the nine ordered field rows, preserved every
+  narrowing constraint as a requirement or refusal condition, kept resident
+  warning pressure optional, and maintained the public-source, provisional,
+  no-remedy, and no-external-action boundaries. One Frontier section retained
+  a bracket wrapper and one boundary paragraph made proposal-only status
+  implicit rather than explicit, but neither isolated presentation deviation
+  changed the audit decision or repeated polarity failure.
+
+- `03-positive-false-negative` — evaluated and current hash
+  `695dc83e0d81c977cd3aeac51d9c81cdd05e3d3b98ebf3b6875b8d8ddb55d5fb`:
+  `20260823T122500.278262Z-2884-0002ac`,
+  `20260823T132500.298728Z-9476-ed45fd`,
+  `20260823T142501.395217Z-12994-5c73d1`, and
+  `20260823T152503.451964Z-18628-8726a3`. Disposition: `satisfactory`.
+  All four tables used the exact record-role and counting labels, chose `NO
+  WORDING CHANGE`, reproduced the exact non-collapse paragraph, kept
+  Challenger out of the positive-record count, and refused acceptance. Three
+  completed the separation cells with neutral inventory, source, context, or
+  annotation distinctions. One artifact left most separation cells blank,
+  but that isolated completeness anomaly did not repeat the prior semantic
+  collapse or justify tuning the current prompt. The neutral-cell repair
+  materially improved the cohort.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260823T123503.203774Z-4306-413a9c`,
+  `20260823T133504.795010Z-9792-26e11b`,
+  `20260823T143504.325633Z-14751-09daa5`, and
+  `20260823T153503.317551Z-19562-a6a78e`. Disposition: `satisfactory`.
+  All four audits kept warning and communication, single-owner execution, and
+  resource adequacy distinct; supplied parallel source-gated refusal logic and
+  narrower accounts; chose `NO CHANGE`; and preserved public-source,
+  proposal-only, provisional, domain-remedy, and no-external-action limits.
+
+- `05-interacting-assumptions` — evaluated hash
+  `9b3635721d67308afc34852f1e3c50810be3e33c549f50b5b88869c3ba6c94f2`:
+  `20260823T124504.638775Z-4557-283784`,
+  `20260823T134502.318503Z-10433-2fb300`,
+  `20260823T144500.468719Z-15185-a9c2b5`, and
+  `20260823T154500.353779Z-21118-96bed0`. Disposition: `adjusted`.
+  One completed receipt carried a zero-byte response. Each of the three
+  substantive artifacts preserved A1 through A6, treated A4 as the admitted
+  bridge, used only descriptive mapping statuses, reproduced the exact
+  `REPRESENTABLE` paragraph, chose `NO WORDING CHANGE`, and refused counting
+  and acceptance. The first nevertheless said the comparison with SF-CEC-0001
+  validates candidate coverage, and the third said it confirms descriptive
+  capacity. Agent Context Engineer diagnosis: the fixed table and verdict
+  removed evaluative language from those sections, but the freeform
+  `Distinction from SF-CEC-0001` section still invited a comparative success
+  judgment that overrode the cross-section prohibition. Current prompt hash
+  after fixing that comparison to exact neutral fixture-condition language:
+  `d898ad4143e8fb90987f44524cfe3cb9d4fde1d429b02fd5a5c6f7fcd404fbe5`.
+
+- `06-acceptance-refresh` — evaluated and current hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260823T125500.291149Z-5002-83146d`,
+  `20260823T135501.465677Z-10651-a0a391`,
+  `20260823T145500.315666Z-15683-22b217`, and
+  `20260823T155503.385344Z-21954-601e76`. Disposition: `satisfactory`.
+  All four addenda preserved the dated packet, kept the five later pressures
+  distinct, retained the nine fields, annotations, and five deferrals, refused
+  acceptance and routing, and required no Joe action. One coverage table used
+  `tightens` for field effects before its following section correctly froze
+  the fields, but that isolated wording anomaly did not change the addendum's
+  non-accepting disposition.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260823T150503.360286Z-16627-cd481c` |
+| `02-field-trace` | `20260823T151502.472812Z-17744-74d883` |
+| `03-positive-false-negative` | `20260823T152503.451964Z-18628-8726a3` |
+| `04-refusal-consistency` | `20260823T153503.317551Z-19562-a6a78e` |
+| `05-interacting-assumptions` | `20260823T154500.353779Z-21118-96bed0` |
+| `06-acceptance-refresh` | `20260823T155503.385344Z-21954-601e76` |
+
+Changed prompt file:
+
+- `packets/05-interacting-assumptions/prompt.md`: applied the descriptive-only
+  prohibition to every section and fixed the SF-CEC-0001 comparison to exact
+  neutral fixture-condition language.
+
+Only `## Work now` changed; embedded evidence remains byte-for-byte unchanged.
+Gate 1 is not ready because Packet 05 now requires a new same-hash cohort.
+Quality improved materially for Packets 01 and 03, remained stable for Packets
+02, 04, and 06, and improved only partially for Packet 05 because its neutral
+table and verdict held while the freeform comparison still collapsed. The next
+same-hash cohort must show Packet 05 using the exact neutral comparison without
+validation, confirmation, qualification, positive-fit, proof, acceptance, or
+counting claims anywhere in the artifact. The other five packets should retain
+their current semantic stability.

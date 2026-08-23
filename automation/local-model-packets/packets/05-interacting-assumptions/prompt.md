@@ -750,7 +750,8 @@ Use these decision rules in order:
    a positive record or an accepted schema. `REPRESENTABLE` means only that the
    current fields can describe this fixture. Do not call the fixture a positive
    fit, valid positive record, accepted case, validation, confirmation, or
-   proof that the candidate handles the class.
+   proof that the candidate handles the class. This prohibition applies in
+   every artifact section, including `Distinction from SF-CEC-0001`.
 4. For the false-negative verdict, use exactly `REPRESENTABLE`,
    `NOT REPRESENTABLE`, or `UNRESOLVED`, followed by the evidence for that
    disposition.
@@ -793,4 +794,8 @@ FRONTIER REVIEW - END
 Replace the bracketed instruction with completed checks; do not repeat or
 describe it. Write the full test artifact. Do not add a core field. Composite
 source fragments and interacting reused assumptions are not automatically the
-same class.
+same class. In `Distinction from SF-CEC-0001`, write exactly these two
+sentences: `SF-CEC-0001 records an unbridged composite; A4 records the admitted
+bridge for A1 through A6 in this fixture. This distinction identifies different
+fixture conditions only and does not evaluate, qualify, validate, confirm,
+prove, accept, or count either entry.`
