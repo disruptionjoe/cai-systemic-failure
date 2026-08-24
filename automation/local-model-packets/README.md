@@ -28,7 +28,8 @@ The local executor transports exact prompt bytes and owns no prompt content,
 evaluation, workflow decision, target-repository write, or acceptance. The
 Frontier evaluator may refine the active prepared requests from repeated
 evidence, but it does not integrate local-model results into repository truth.
-Frontier verification and ingestion remain the next gate.
+Gate 2 has met the readiness floor for a Frontier ingestion trial. The active
+target-side contract for that next gate is `OPERATING-CYCLE.md`.
 
 ## Active Phase 2 campaign
 
