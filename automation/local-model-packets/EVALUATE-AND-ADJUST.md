@@ -2,9 +2,12 @@
 
 Perform one evidence-led improvement cycle over all six System Failures packet
 prompts. This is a lightweight, explicitly Joe-directed model-capability
-experiment. It is not a CapacityOS Run, Repository Observation, Stewardship
-run, Progress run, or target-work ingestion pass. Do not create Runtime plans,
-claims, preflight or postflight records, or Run receipts.
+experiment. Gate 1 is complete. The active Gate 2 question is whether a new
+Frontier-authored packet campaign transfers the learned packet structure into
+useful new candidate work. This is not a CapacityOS Run, Repository
+Observation, Stewardship run, Progress run, or target-work ingestion pass. Do
+not create Runtime plans, claims, preflight or postflight records, or Run
+receipts.
 
 ## Surfaces
 
@@ -81,6 +84,10 @@ For each prompt-hash group choose one disposition:
 - `needs_human_judgment`: the prompt exposes a genuine domain choice that
   cannot be resolved from supplied evidence without changing repository truth.
 
+For every Phase 2 packet, also preserve whether its original Frontier-authored
+request hash was satisfactory before any repair. That first-pass transfer
+result never changes when a later hash improves.
+
 ## Adjust the prompts
 
 Revise every clearly failing prompt in the same cycle; do not artificially
@@ -90,6 +97,11 @@ A normal prompt adjustment requires the same material usability failure in at
 least two responses with the current prompt hash. A proposal-boundary or safety
 violation may justify immediate tightening. Do not tune the current prompt
 around an old-hash failure, one cosmetic deviation, or one weak sample.
+
+Gate 2 is not an invitation to optimize six fixed tests indefinitely. If the
+same packet type remains materially unusable after two distinct, evidence-led
+prompt repairs, stop expanding the prompt, retain the evidence, and report the
+packet type as a current local-model boundary for Frontier handling.
 
 For an adjusted packet:
 
@@ -116,13 +128,18 @@ Append one compact dated cycle to `LEARNING.md` containing:
 - the Agent Context Engineer diagnosis where a prompt failed;
 - exact prompt files changed and the intended improvement;
 - comparison with the immediately prior cohort when available;
-- overall Gate 1 status and what the next same-hash cohort must establish.
+- Phase 2 first-pass transfer status, current stabilized status, and what the
+  next same-hash cohort must establish.
 
 The learning entry is evidence from an experiment, not a Run receipt or target
-finding. A cycle may legitimately change several prompts or none. Do not report
-Gate 1 ready merely because outputs are longer or more compliant. Readiness
-requires complete, grounded, useful work and no unresolved material semantic
-conflict across repeated same-prompt outputs.
+finding. A cycle may legitimately change several prompts or none. Gate 2 is
+ready for a Frontier ingestion trial when at least four of the six original
+Phase 2 request hashes are satisfactory, including at least one comparison or
+reconciliation packet and at least one temporal-coherence test packet; the
+remaining packet types have explicit, bounded failure diagnoses; and no useful
+candidate contains an unresolved proposal, safety, evidence, or promotion
+boundary violation. Later repaired hashes are evidence of stabilizability, not
+first-pass transfer success.
 
 Validate changed prompts for complete markers, required sections, and preserved
 evidence. Follow repository versioning instructions and commit only this

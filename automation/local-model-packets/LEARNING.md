@@ -1643,3 +1643,54 @@ persists, especially Packet 03's global neutral-bookkeeping rule and Packet
 02's exact audit boundary; isolated wrapper, wording, or checklist anomalies
 should be monitored without prompt expansion unless they become materially
 unusable.
+
+## 2026-08-24 — Gate 2 Frontier-authored campaign cutover
+
+Gate 1 closed ready on six repeated current-hash cohorts. Joe directed the
+experiment to advance to new Frontier-authored packets. The six stable Mac
+transport slots, hourly minutes, local model alias, executor, output paths, and
+four-hour Frontier evaluation schedule remain unchanged. Only the six
+CapacityOS-owned prompt files and this phase-aware evaluation contract changed.
+
+Gate 2 tests first-pass transfer rather than further optimization of the Gate 1
+benchmark. The new campaign combines three cross-record synthesis controls with
+a related three-packet temporal-coherence campaign:
+
+| Stable slot | New Frontier-authored work | Original Phase 2 request hash |
+|---|---|---|
+| `01-next-test-gate` | temporal-coherence material-pressure admission | `b8909ba96526e2a588a3f6a688b1f0e4eababd3914c963f834fc61c4d3ca3d68` |
+| `02-field-trace` | five-falsifier control crosswalk | `955054e5e2657badab63f1c33fc6f94fc3f1c4b2c76e8e670979f5544a582762` |
+| `03-positive-false-negative` | five-absorber refusal-boundary matrix | `df339cd0613868ff0f058ea4d6029fad738c089482b03b00201abf5e27e0180b` |
+| `04-refusal-consistency` | source-gated annotation-lineage reconciliation | `c2587e71843c054dafe3b00b4f50dd2f462264d09467afb650a52ef0ff0c65bb` |
+| `05-interacting-assumptions` | temporal-coherence qualification trace | `b4dd3aa3cb3b9502f89d7d5a9108ea9be82ad094aab2cb80010919da592e7ce2` |
+| `06-acceptance-refresh` | complete temporal-coherence falsifier draft | `7ab5cae156467b97b521d79909c19a069780d80e32a8523b8730fea9a56903b4` |
+
+The temporal fixture asks whether same-system, revision-complete,
+contradiction-visible, counterevidence-graded, and route-capable fragments may
+still manufacture apparent old-assumption reuse when no admitted temporal
+bridge shows the assumption remained active during the changed condition. It
+is synthetic, proposal-only, and intended to narrow an existing source,
+changed-condition, or record-coherence control rather than create a tenth core
+field.
+
+### Gate 2 starting cursor
+
+The cursor remains the last Gate 1 evaluation boundary. Any completed Gate 1
+attempt after these cursors is an old-hash overlap and must be evaluated
+separately, never attributed to the Phase 2 first-pass cohort.
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260824T070500.657082Z-11931-e1e733` |
+| `02-field-trace` | `20260824T071500.708232Z-13286-300a80` |
+| `03-positive-false-negative` | `20260824T072501.722440Z-14921-a65e71` |
+| `04-refusal-consistency` | `20260824T073500.713108Z-15047-cd6f79` |
+| `05-interacting-assumptions` | `20260824T074500.743262Z-15491-6b470c` |
+| `06-acceptance-refresh` | `20260824T075505.724195Z-15651-28d79e` |
+
+Gate 2 is ready for a Frontier ingestion trial when at least four of the six
+original hashes are satisfactory, including one comparison or reconciliation
+packet and one temporal-coherence test packet; the remaining packet types have
+bounded diagnoses; and useful candidates preserve evidence, proposal,
+provisional, safety, and non-promotion boundaries. A later repaired hash may
+show stabilizability but cannot rewrite the first-pass transfer result.
