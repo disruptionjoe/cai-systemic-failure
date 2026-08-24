@@ -129,7 +129,33 @@ Append one compact dated cycle to `LEARNING.md` containing:
 - exact prompt files changed and the intended improvement;
 - comparison with the immediately prior cohort when available;
 - Phase 2 first-pass transfer status, current stabilized status, and what the
-  next same-hash cohort must establish.
+  next same-hash cohort must establish; and
+- any prompt-principle evidence, counterevidence, bound, or state change added
+  to the ledger, or an explicit statement that the ledger remains unchanged.
+
+Also maintain the provisional prompt-principle ledger at the top of
+`LEARNING.md`. The ledger is a set of evidence-bearing hypotheses, not an
+end-all-be-all checklist or a requirement to place every principle in every
+prompt. Update it only when the evaluated cohort adds material support,
+counterevidence, a useful bound, or Phase 2 transfer evidence. Use these
+evidence states:
+
+- `open_hypothesis`: plausible, but the experiment does not yet decide it;
+- `observed`: visible in one useful comparison;
+- `repeated_same_hash`: repeated across samples of one prompt hash;
+- `cross_packet_supported`: supported across materially different packet
+  types, while still awaiting the new-campaign transfer test;
+- `phase_2_transferred`: supported by a materially new Phase 2 prompt type;
+- `bounded_or_revised`: counterevidence narrows or replaces the original
+  formulation.
+
+For a changed principle, cite the packet ids and dated cycle or hash groups
+that supply the evidence, preserve counterexamples, and state the next
+discriminating comparison. Do not promote a packet-specific repair into a
+general principle merely because one repaired hash improved. Do not change a
+prompt solely to manufacture evidence for a principle, inject the entire
+ledger into every prompt, or treat the ledger as another scoring rubric. Let
+normal packet outcomes test whether the candidate principles transfer.
 
 The learning entry is evidence from an experiment, not a Run receipt or target
 finding. A cycle may legitimately change several prompts or none. Gate 2 is

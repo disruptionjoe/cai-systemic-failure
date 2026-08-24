@@ -4,6 +4,33 @@ This is the compact comparison record for repeated same-prompt cohorts. It is
 experiment evidence, not a CapacityOS Run receipt or accepted System Failures
 finding.
 
+## Provisional prompt-principle ledger
+
+These are working hypotheses inferred from the packet experiment, not a final
+prompting checklist. A principle may be supported, contradicted, narrowed, or
+retired as materially different prompts produce evidence. `Gate 2 transfer`
+remains `untested` until a current Phase 2 hash supplies evidence; success on a
+repaired Gate 1 benchmark cannot establish that transfer.
+
+Evidence states are `open_hypothesis`, `observed`, `repeated_same_hash`,
+`cross_packet_supported`, `phase_2_transferred`, and `bounded_or_revised`.
+
+| ID | Candidate principle | Evidence state | Evidence so far | Bound or counterevidence | Gate 2 transfer test |
+|---|---|---|---|---|---|
+| `PP-01` | Ask directly for the finished artifact and remove nonessential orientation, alternatives, selection narration, percentages, and self-report. | `cross_packet_supported` | The 2026-08-21 initial simplification was followed by 13 complete Packet 03 tables in 15 samples and the intended Packet 05 verdict in 13 of 15 substantive samples; Packet 06 remained useful with the direct artifact contract. | This supports removing competing meta-work, not the claim that the shortest prompt is best or that embedded evidence should be reduced. | Test whether the six new artifact types remain complete without adding orientation or self-check wrappers. |
+| `PP-02` | Name the exact decision object and operationally separate nearby decisions. | `cross_packet_supported` | Packet 01 required admission versus qualification versus execution separation; Packet 03 required bookkeeping versus evidence versus acceptance separation; Packet 05 required representability versus qualification, counting, and acceptance separation. Repaired cohorts improved only after those distinctions became executable rules. | A conceptual sentence saying two decisions differ was repeatedly insufficient when the artifact still contained open-ended decision surfaces. | Test whether the new admission, reconciliation, qualification, and falsifier packets keep their named decisions separate on first pass. |
+| `PP-03` | Put a load-bearing rule at the exact section, cell, or verdict where the model must apply it. | `cross_packet_supported` | Bare Packet 02 and 04 boundary headings produced empty sections; Packet 03 separation cells and Frontier review, and Packet 05 comparison prose, reopened failures despite global prohibitions. Localized repairs held in later cohorts. | Flexible wording remained useful in non-load-bearing explanation. The principle is locality of critical control, not total scripting. | Watch every freeform Phase 2 section that carries proposal, qualification, lineage, or non-promotion meaning. |
+| `PP-04` | When completeness is objectively enumerable, give literal labels, order, and counts. | `cross_packet_supported` | Packet 02 stabilized around nine ordered fields, Packet 03 stopped copying a prose placeholder after receiving a literal table header, and Packet 05 supplied all required material only after the prompt specified seven gate rows plus nine field rows, exactly 16. | Exact counts are not evidence of semantic quality and should not be imposed on genuinely open-ended judgment. | Compare the exact-row Phase 2 crosswalks and traces with the less enumerated complete falsifier draft. |
+| `PP-05` | Treat familiar labels as semantic priors; redefine or replace them locally when ordinary meaning conflicts with the intended decision. | `cross_packet_supported` | `admit` drifted toward execution in Packet 01, `positive record` repeatedly became validation or acceptance progress in Packet 03, and `Pass`, `valid`, and `REPRESENTABLE` became qualification or confirmation in Packet 05. Neutral labels and exact local definitions improved later cohorts. | Loaded words need not always be banned; they need enough local control to prevent the wrong inference. | Watch `admit`, `preserved`, `qualifies`, `supported`, `narrowed`, and similar terms in the new packets for unintended promotion or authority. |
+| `PP-06` | Freeform sections are risky when they carry a load-bearing semantic boundary. | `bounded_or_revised` | Packet 03 freeform separation and review text and Packet 05 freeform verdict and comparison text repeatedly became semantic escape hatches. | The stronger claim that freeform sections are generally bad is contradicted by Packet 06 and substantive portions of Packets 02 and 04, which remained useful with flexible prose. | Determine whether the new freeform comparison, reconciliation, verdict, revision-pressure, and Frontier-review sections preserve their local boundaries. |
+| `PP-07` | Use exact wording selectively for critical status, polarity, and non-collapse boundaries. | `bounded_or_revised` | Packet 02's exact proposal-only opening, Packet 03's exact neutral non-collapse paragraph, and Packet 05's exact descriptive verdict and comparison stabilized repeated failures. | The stronger claim that exact wording is generally better is unsupported. Cosmetic variation usually did not reduce utility, and scripting whole artifacts would risk benchmark overfit. | Test whether exact boundary phrases transfer while the surrounding new artifact remains substantively flexible. |
+| `PP-08` | Prompt brevity by itself improves quality. | `open_hypothesis` | Removing orientation and self-report wrappers coincided with large improvements in the first revised cohort. | The change also added clearer decision rules and artifact structure, while long evidence-bearing prompts remained useful. Current evidence cannot isolate brevity as the cause. | Compare Phase 2 outcomes by instruction burden without removing evidence or weakening the artifact contract. |
+
+Update this ledger only when a cohort changes the evidence. Do not add every
+principle to every packet, edit a prompt merely to confirm a principle, or
+convert the ledger into a second scoring system. The dated cycles below remain
+the detailed evidence and hash-separated comparison record.
+
 ## 2026-08-21 — Initial artifact-contract cohort
 
 Sixteen comparable scheduled attempts completed normally with no failed,
