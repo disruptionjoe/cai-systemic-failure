@@ -1396,3 +1396,129 @@ bookkeeping-boundary failure. The next cohort must keep SF-0004's label neutral
 in every section, including Frontier review, with no positive-evidence,
 positive-fit, support, confirmation, validation, progress, or acceptance
 framing. The other five packets should retain their current semantic stability.
+
+## 2026-08-23 — Neutral-bookkeeping verification and explicit-boundary repair
+
+Twenty-four post-cursor attempts had completed factual receipts and were
+evaluated, all on their packet's current hash. Packet 01 had one completed
+zero-byte response and Packet 03 had two. Packet 03's two substantive artifacts
+kept SF-0004 neutral everywhere, including Frontier review, but the repeated
+transport empties leave too little consistently useful current-hash evidence
+for Gate 1. Packet 02 repeated an explicit proposal-only-boundary omission in
+two of four artifacts and received one minimal repair. The other packets
+remained broadly stable despite isolated, non-repeating anomalies.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — evaluated and current hash
+  `48212324d285bde87245135ec13f9999a19905b176c4ddf6b3a6646cec538929`:
+  `20260824T000504.976018Z-78741-220e32`,
+  `20260824T010500.573207Z-80955-684213`,
+  `20260824T020502.565887Z-84076-eb8049`, and
+  `20260824T030500.530620Z-87187-891795`. Disposition: `satisfactory`.
+  One response was zero-byte. The three substantive cards all named the
+  affected pressure, evidence or condition, and untested challenge or narrowing
+  pressure; limited rejection to permitted conditions; and preserved bounded,
+  provisional, non-executing admission. One artifact misplaced an extra marker
+  pair and another invented an unsupported `Schema 2.0` name, but neither
+  anomaly repeated or revived the prior novelty error.
+
+- `02-field-trace` — evaluated hash
+  `9d691c678ca8cc683326fbff51bfeb862648e388b2bff20bd1861dce077968b5`:
+  `20260824T001503.580846Z-79127-e87763`,
+  `20260824T011500.516406Z-81167-1f20a2`,
+  `20260824T021505.386171Z-84559-985e9b`, and
+  `20260824T031503.494694Z-87925-b91cc9`. Disposition: `adjusted`.
+  All four artifacts supplied the nine ordered field rows, carried constraints
+  in requirement or refusal form, kept resident-warning pressure optional, and
+  preserved provisional, no-remedy, and no-external-action boundaries. The
+  last two artifacts, however, only implied proposal-only status instead of
+  preserving it explicitly in `Audit boundary`. Agent Context Engineer
+  diagnosis: the five-part freeform boundary instruction left a load-bearing
+  status phrase vulnerable to omission even though the rest of each artifact
+  stayed bounded. Current prompt hash after fixing one exact opening sentence:
+  `c5c2eefdeb65d32090492e8e079b0d28d583430774f7b249e279f47d4e9acf81`.
+
+- `03-positive-false-negative` — evaluated and current hash
+  `9d9236393a34d86922e4691119f4bc745a88e4439c318ccc69605fd06e6a4ca1`:
+  `20260824T002501.438830Z-79457-dd329b`,
+  `20260824T012500.486227Z-83331-3631a2`,
+  `20260824T022502.466611Z-85945-5032f6`, and
+  `20260824T032502.661969Z-90249-24a60d`. Disposition:
+  `insufficient_samples`. Two completed receipts were zero-byte. Both
+  substantive artifacts used the exact bookkeeping labels and non-collapse
+  paragraph, chose `NO WORDING CHANGE`, kept Challenger out of the positive
+  count, refused acceptance, and did not call SF-0004 positive evidence, fit,
+  support, confirmation, or validation in any section. One used the isolated
+  phrase `validation-burden test` in a field row, but did not convert the
+  bookkeeping label into evidence for the candidate. The prior global semantic
+  failure materially improved in available content; no prompt revision is
+  justified without another substantive same-hash cohort.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260824T003503.447721Z-79522-888067`,
+  `20260824T013500.479373Z-83441-ca05a9`,
+  `20260824T023501.652653Z-86046-0cb1b6`, and
+  `20260824T033502.564799Z-90403-b2a2ed`. Disposition: `satisfactory`.
+  All four audits kept the three absorber families distinct, supplied parallel
+  refusal logic and narrower accounts, chose `NO CHANGE`, and preserved
+  provisional, domain-remedy, and no-external-action limits. One Frontier
+  review restated check categories instead of fully instantiating them and one
+  audit made proposal-only status implicit; neither deviation repeated.
+
+- `05-interacting-assumptions` — evaluated and current hash
+  `0947dbf1fb6ff2fc4811808cc2b3a8b7fcb5e906a8d70a48646caa42aa073a33`:
+  `20260824T004501.641950Z-79617-926451`,
+  `20260824T014505.248092Z-83664-18b5d6`,
+  `20260824T024500.491647Z-86159-262e1f`, and
+  `20260824T034505.315705Z-90580-fd57ff`. Disposition: `satisfactory`.
+  All four artifacts preserved A1 through A6, supplied 16 mapping rows,
+  reproduced the exact neutral comparison and descriptive verdict, and refused
+  counting and acceptance. One artifact misaligned the last three numbered
+  gate conditions and used the invalid isolated disposition `NO WORDING
+  CANDIDATE`; the other three mapped the seven gates correctly and used `NO
+  WORDING CHANGE`, so the prior completeness and neutral-comparison repairs
+  remain stable without prompt tuning.
+
+- `06-acceptance-refresh` — evaluated and current hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260824T005500.535406Z-79704-d82238`,
+  `20260824T015505.846948Z-83796-b69f3e`,
+  `20260824T025503.670636Z-86241-335256`, and
+  `20260824T035500.669035Z-90786-44c3ff`. Disposition: `satisfactory`.
+  All four addenda preserved the dated packet, distinguished the five later
+  pressures, retained the nine fields, annotations, and five deferrals,
+  refused acceptance and routing, and required no Joe action. One artifact
+  called the results evidence of candidate resilience, but it still treated
+  the tests as refusal pressure and explicitly denied completeness and
+  acceptance; that wording did not repeat.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260824T030500.530620Z-87187-891795` |
+| `02-field-trace` | `20260824T031503.494694Z-87925-b91cc9` |
+| `03-positive-false-negative` | `20260824T032502.661969Z-90249-24a60d` |
+| `04-refusal-consistency` | `20260824T033502.564799Z-90403-b2a2ed` |
+| `05-interacting-assumptions` | `20260824T034505.315705Z-90580-fd57ff` |
+| `06-acceptance-refresh` | `20260824T035500.669035Z-90786-44c3ff` |
+
+Changed prompt file:
+
+- `packets/02-field-trace/prompt.md`: fixed the opening sentence of `Audit
+  boundary` so public-source, proposal-only, and provisional status cannot be
+  dropped while completing the remaining no-remedy and external-action limits.
+
+Only `## Work now` changed; embedded evidence remains byte-for-byte unchanged.
+Compared with the immediately prior cohort, Packet 03's global
+bookkeeping-boundary failure improved in both substantive artifacts and Packet
+05 retained its complete neutral mapping. Packet 02 regressed on explicit
+proposal-only boundary wording and was minimally repaired; Packets 01, 04, and
+06 remained broadly stable. Gate 1 is not ready because Packet 02 now requires
+a new same-hash cohort and Packet 03 needs another substantive same-hash cohort
+after two repeated zero-byte transports. The next comparison must show Packet
+02's exact explicit boundary in every artifact and Packet 03's neutral
+bookkeeping in a consistently complete cohort; the other four packets should
+retain their semantic stability.

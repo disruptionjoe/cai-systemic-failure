@@ -572,7 +572,8 @@ supports or does not support keeping it optional, and the main uncertainty.
 ## Audit boundary
 Write one complete paragraph preserving the public-source audit scope,
 proposal-only status, provisional schema status, no-remedy limit, and no
-external-action boundary.
+external-action boundary. Begin that paragraph with exactly `This is a
+public-source, proposal-only audit of a provisional schema candidate.`
 CANDIDATE ARTIFACT - END
 FRONTIER REVIEW - BEGIN
 - Verify: [write the exact traceability, field-count, absorber, standing,
