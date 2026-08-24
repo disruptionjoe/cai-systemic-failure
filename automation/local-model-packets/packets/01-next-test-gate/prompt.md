@@ -104,7 +104,14 @@ FRONTIER REVIEW - END
 Write every section in full. In `Existing-control comparison`, separately
 compare source-revision lineage, composite-evidence coherence, intra-packet
 contradiction, counterevidence quality, and correction-route authority. Do not
-call temporal adjacency proof of reuse. If you admit the proposal, state what
-existing control would be narrowed; do not propose a tenth core field unless
-the supplied evidence makes narrowing an existing control impossible. Preserve
-the candidate's provisional status and the no-Joe-action default.
+call temporal adjacency proof of reuse. Apply these exact non-duplication facts
+inside that comparison: T2 is admitted, preserved, and graded; an admitted
+same-system and review-lineage bridge is present but is not a temporal bridge;
+no direct material conflict is left undispositioned; the countermodel is
+traceable and graded; and the correction route is capable. Therefore do not
+describe the fixture as an omitted-revision, unrelated-fragment,
+undispositioned-conflict, generic-counterevidence, or incapable-route failure.
+If you admit the proposal, state what existing control would be narrowed; do
+not propose a tenth core field unless the supplied evidence makes narrowing an
+existing control impossible. Preserve the candidate's provisional status and
+the no-Joe-action default.
