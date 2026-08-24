@@ -581,6 +581,9 @@ status`, use exactly `Distinct corpus-inventory labels; neither entry evaluates
 the candidate or changes acceptance status.` Do not paraphrase either
 bookkeeping label as positive evidence, qualification, a field-shape test,
 progress, support, or acceptance pressure.
+This prohibition applies everywhere in the artifact, including every
+`Separation rule` cell and `FRONTIER REVIEW`: never call SF-0004 positive
+evidence, a positive fit, candidate support, confirmation, or validation.
 
 In `Non-collapse rule`, write exactly these three sentences: `SF-0004 is
 entered in corpus inventory as one bounded positive record for provisional
