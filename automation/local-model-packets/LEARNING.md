@@ -1694,3 +1694,124 @@ packet and one temporal-coherence test packet; the remaining packet types have
 bounded diagnoses; and useful candidates preserve evidence, proposal,
 provisional, safety, and non-promotion boundaries. A later repaired hash may
 show stabilizability but cannot rewrite the first-pass transfer result.
+
+## 2026-08-24 — Gate 1 overlap after Gate 2 cutover
+
+Twenty-three post-cursor attempts had completed factual receipts and were
+evaluated. All used the prior Gate 1 prompt hash because they started before
+the Gate 2 prompt cutover; none is evidence for a current Phase 2 prompt. One
+additional Packet 04 receipt, `20260824T113504.561534Z-45528-b2dcc0`, had
+status `skipped_busy` and no response, so it was not treated as a completed
+model attempt. Packet 03 had two substantive responses and two completed
+zero-byte responses. The other five overlap cohorts remained materially
+stable, and no old-hash result justified changing a current prompt.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — evaluated old hash
+  `48212324d285bde87245135ec13f9999a19905b176c4ddf6b3a6646cec538929`:
+  `20260824T080502.680020Z-16352-747b55`,
+  `20260824T090500.703260Z-27620-01c48b`,
+  `20260824T100500.731680Z-35528-7bd1b5`, and
+  `20260824T110503.642859Z-41388-4dcac3`. Disposition: `satisfactory`.
+  All four cards named the affected field, note, annotation, or gate, the new
+  evidence or synthetic condition, and an untested challenge or narrowing
+  pressure; preserved bounded proposal status; and refused execution and
+  schema acceptance. One card omitted the explicit no-Joe-action phrase while
+  retaining provisional and non-executing status, an isolated completeness
+  deviation that did not revive the prior novelty failure. Current Phase 2
+  hash `b8909ba96526e2a588a3f6a688b1f0e4eababd3914c963f834fc61c4d3ca3d68`
+  has no completed attempt yet.
+
+- `02-field-trace` — evaluated old hash
+  `c5c2eefdeb65d32090492e8e079b0d28d583430774f7b249e279f47d4e9acf81`:
+  `20260824T081502.709256Z-17026-bfebee`,
+  `20260824T091502.128398Z-28070-8c4816`,
+  `20260824T101504.585953Z-36525-e5f762`, and
+  `20260824T111500.277439Z-43205-a40d7c`. Disposition: `satisfactory`.
+  Every artifact supplied the nine ordered field rows, kept the optional
+  resident-warning pressure, and used the exact public-source, proposal-only,
+  provisional audit opening. One constraint contained an awkward double
+  negative, but it did not change a gate, prescribe a remedy, or alter the
+  audit decision. Current Phase 2 hash
+  `955054e5e2657badab63f1c33fc6f94fc3f1c4b2c76e8e670979f5544a582762`
+  has no completed attempt yet.
+
+- `03-positive-false-negative` — evaluated old hash
+  `9d9236393a34d86922e4691119f4bc745a88e4439c318ccc69605fd06e6a4ca1`:
+  `20260824T082504.654634Z-20180-ed97e0`,
+  `20260824T092502.318863Z-30193-3279ed`,
+  `20260824T102504.614864Z-37719-7bb7e8`, and
+  `20260824T112504.687108Z-43309-292ec3`. Disposition:
+  `insufficient_samples`. Two completed responses were zero-byte. Both
+  substantive artifacts preserved the exact corpus-bookkeeping labels and
+  non-collapse rule, selected `NO WORDING CHANGE`, kept Challenger outside the
+  positive count, and did not convert SF-0004 into candidate evidence, fit,
+  support, confirmation, or validation. This overlap is semantically stable
+  where content exists, but only two useful new artifacts do not constitute a
+  complete cohort. Current Phase 2 hash
+  `df339cd0613868ff0f058ea4d6029fad738c089482b03b00201abf5e27e0180b`
+  has no completed attempt yet.
+
+- `04-refusal-consistency` — evaluated old hash
+  `724c3170d5a7a473ca8171596130138a6c5c68e78a703fe56538209587ac2cb4`:
+  `20260824T083503.695236Z-21441-758f72`,
+  `20260824T093501.693014Z-30311-cb3f59`, and
+  `20260824T103500.773911Z-39794-5b750d`. Disposition: `satisfactory`.
+  All three completed audits kept the absorber families distinct, used
+  parallel source-gated refusal logic and narrower accounts, chose `NO
+  CHANGE`, and preserved provisional, no-remedy, and no-external-action
+  boundaries. One Frontier review merely restated its check categories, an
+  isolated completeness anomaly outside the core artifact. Current Phase 2
+  hash `c2587e71843c054dafe3b00b4f50dd2f462264d09467afb650a52ef0ff0c65bb`
+  has no completed attempt yet.
+
+- `05-interacting-assumptions` — evaluated old hash
+  `0947dbf1fb6ff2fc4811808cc2b3a8b7fcb5e906a8d70a48646caa42aa073a33`:
+  `20260824T084500.719851Z-22837-1f0125`,
+  `20260824T094500.661640Z-31199-f4e5e5`,
+  `20260824T104501.646357Z-40016-587ea8`, and
+  `20260824T114500.567573Z-47039-317af1`. Disposition: `satisfactory`.
+  All four artifacts preserved A1 through A6, supplied seven gate rows and
+  nine core-field rows, reproduced the exact neutral comparison and
+  `REPRESENTABLE` verdict, chose `NO WORDING CHANGE`, and refused counting and
+  acceptance. One artifact misaligned the evidence in two adjacent gate rows,
+  and one called the synthetic bridge source-backed; neither changed the
+  fixture, descriptive verdict, or non-promotion result. Current Phase 2 hash
+  `b4dd3aa3cb3b9502f89d7d5a9108ea9be82ad094aab2cb80010919da592e7ce2`
+  has no completed attempt yet.
+
+- `06-acceptance-refresh` — evaluated old hash
+  `046e0f66eec64bda43b74df32cb870565a15826a61e70f35c69158dbbc69b8da`:
+  `20260824T085500.760635Z-26250-0e97ed`,
+  `20260824T095504.792852Z-33432-b9d6d5`,
+  `20260824T105505.601867Z-40210-04a7c3`, and
+  `20260824T115505.426512Z-48544-3634c4`. Disposition: `satisfactory`.
+  Every addendum preserved the dated packet, kept the five later pressures
+  distinct, retained the nine fields and five deferrals, refused acceptance
+  and routing, and required no Joe action. Current Phase 2 hash
+  `7ab5cae156467b97b521d79909c19a069780d80e32a8523b8730fea9a56903b4`
+  has no completed attempt yet.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260824T110503.642859Z-41388-4dcac3` |
+| `02-field-trace` | `20260824T111500.277439Z-43205-a40d7c` |
+| `03-positive-false-negative` | `20260824T112504.687108Z-43309-292ec3` |
+| `04-refusal-consistency` | `20260824T103500.773911Z-39794-5b750d` |
+| `05-interacting-assumptions` | `20260824T114500.567573Z-47039-317af1` |
+| `06-acceptance-refresh` | `20260824T115505.426512Z-48544-3634c4` |
+
+No prompt file changed. No prompt failed in this cycle, so no Agent Context
+Engineer repair diagnosis applies. Compared with the immediately prior Gate 1
+cohort, semantic quality stayed stable where transport produced content; this
+overlap neither improves nor tests Gate 2. Phase 2 first-pass transfer status
+and current stabilized status are `untested` for all six original request
+hashes. Gate 2 is not ready for ingestion because zero original Phase 2 hashes
+have completed evidence. The next cohort must use the current hashes and
+establish first-pass utility for at least four packets, including one
+comparison or reconciliation packet and one temporal-coherence packet, while
+preserving every proposal, safety, evidence, provisional, and non-promotion
+boundary.
