@@ -128,3 +128,9 @@ could use if history confirms restoration is appropriate. Do not claim that
 restoration is already accepted. Keep every annotation optional,
 source-gated, non-qualifying by itself, and unable to authorize domain findings
 or remedies. Preserve provisional status and no external action.
+Write every required section in full. In `Procedural-acceptance lineage gap`,
+state the origin and status evidence, the two later-list omissions, the lack of
+supplied intentional-retirement evidence, and why Frontier review is required.
+In `Boundaries`, state the proposal-only, optional, source-gated,
+non-qualifying, provisional, no-domain-finding, no-remedy, and
+no-external-action limits.
