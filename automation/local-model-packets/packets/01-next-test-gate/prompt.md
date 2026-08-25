@@ -113,5 +113,5 @@ describe the fixture as an omitted-revision, unrelated-fragment,
 undispositioned-conflict, generic-counterevidence, or incapable-route failure.
 If you admit the proposal, state what existing control would be narrowed; do
 not propose a tenth core field unless the supplied evidence makes narrowing an
-existing control impossible. Preserve the candidate's provisional status and
-the no-Joe-action default.
+existing control impossible. In `Disposition`, state that the candidate
+remains provisional and that no Joe action is requested.

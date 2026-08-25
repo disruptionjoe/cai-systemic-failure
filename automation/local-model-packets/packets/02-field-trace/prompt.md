@@ -100,6 +100,9 @@ The table must contain exactly five substantive rows, in this order:
 - IPC concerns a direct material conflict already visible inside the admitted
   packet and left undispositioned.
 
+In each `Nearest confusable falsifier` cell, name at least one of the other four
+falsifiers and state the nearby decision it makes instead. Do not use `none`,
+`generic source quality`, or another unnamed generic category in that column.
 Do not state that any falsifier validates, confirms, supports, or accepts the
 candidate. Do not create a hierarchy among the five controls. In `Combined
 use`, explain how more than one may apply to one record without merging their

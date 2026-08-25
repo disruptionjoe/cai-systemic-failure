@@ -123,7 +123,6 @@ external_action: none
 ## Verdict
 ## Candidate revision pressure
 ## Non-promotion result
-## Next test
 CANDIDATE ARTIFACT - END
 FRONTIER REVIEW - BEGIN
 - Proposed review location: `topology/P2-TC-0001-temporal-coherence.md`
@@ -135,7 +134,8 @@ premises are supplied and which qualifying decision fails. Do not treat shared
 system identity, chronological ordering, or disclosure of T2 as evidence that
 `A-old` remained active at T3. Separate this test explicitly from CEQ, SRL,
 CRA, CEC, and IPC. Prefer a narrow revision to existing source-context,
-changed-condition, or record-level bridge language over a new core field. Do
-not state that the test validates, confirms, strengthens, or accepts the
-candidate. Preserve graded uncertainty, provisional status, no remedy, no
-external action, and no Joe action by default.
+changed-condition, or record-level bridge language. Do not introduce a tenth
+gate or field and do not create or name a follow-on test. Do not state that the
+test validates, confirms, strengthens, or accepts the candidate. Preserve
+graded uncertainty, provisional status, no remedy, no external action, and no
+Joe action by default.
