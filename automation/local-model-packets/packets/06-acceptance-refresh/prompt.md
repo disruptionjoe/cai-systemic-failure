@@ -130,12 +130,17 @@ FRONTIER REVIEW - BEGIN
 FRONTIER REVIEW - END
 
 Write every section in full. The gate-results table must make clear which
-premises are supplied and which qualifying decision fails. Do not treat shared
-system identity, chronological ordering, or disclosure of T2 as evidence that
-`A-old` remained active at T3. Separate this test explicitly from CEQ, SRL,
-CRA, CEC, and IPC. Prefer a narrow revision to existing source-context,
-changed-condition, or record-level bridge language. Do not introduce a tenth
-gate or field and do not create or name a follow-on test. Do not state that the
-test validates, confirms, strengthens, or accepts the candidate. Preserve
-graded uncertainty, provisional status, no remedy, no external action, and no
-Joe action by default.
+premises are supplied and which qualifying decision fails. It must contain
+exactly four substantive rows, in this order: `assumption_source_context`,
+`changed_condition`, `absorber_or_counterevidence`, and
+`correction_route_stop_condition`. Put the qualification decision in
+`Verdict`, not in another table row. Do not split a field into subrows or add
+rows for temporal coherence, general review-chain or system properties, or the
+five existing falsifiers. Do not treat shared system identity, chronological
+ordering, or disclosure of T2 as evidence that `A-old` remained active at T3.
+Separate this test explicitly from CEQ, SRL, CRA, CEC, and IPC. Prefer a narrow
+revision to existing source-context, changed-condition, or record-level bridge
+language. Do not introduce a tenth gate or field and do not create or name a
+follow-on test. Do not state that the test validates, confirms, strengthens,
+or accepts the candidate. Preserve graded uncertainty, provisional status, no
+remedy, no external action, and no Joe action by default.
