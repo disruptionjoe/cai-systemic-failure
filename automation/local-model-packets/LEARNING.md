@@ -4,6 +4,31 @@ This is the compact comparison record for repeated same-prompt cohorts. It is
 experiment evidence, not a CapacityOS Run receipt or accepted System Failures
 finding.
 
+## 2026-08-25 — Evaluation-contract transition
+
+Joe accepted a production-oriented quality bar: judge local work by how much
+useful contribution Frontier Progress retains, how much correction actual
+candidate errors require, and whether Frontier must effectively recreate the
+work. Keep ordinary verification, integration, and scope-extension burden
+separate from candidate errors. Raw-attempt evaluations now nominate
+`frontier_ready`, `frontier_repairable`, `marginal_candidate`,
+`no_candidate_value`, `boundary_failure`, `transport_failure`, or
+`needs_human_judgment`; they do not claim actual retention.
+
+The two completed ingestion cycles remain qualitative bootstrap evidence and
+are not retroactively rescored. They retained material Packet 04 and 06 work
+in `RUN-20260824-194915-cai-systemic-failure-prepared-progress`, then material
+Packet 02 and 03 work in
+`RUN-20260825-035341-cai-systemic-failure-prepared-progress`. Both receipts say
+Frontier concentrated on verification and bounded repair instead of first-
+draft production. The next operating cycles must emit the standardized
+contribution bands before prompt-family leverage can be compared over time.
+
+Contribution-evidence cursor:
+`RUN-20260825-035341-cai-systemic-failure-operating-cycle`. Historical prompt
+cohort entries below preserve their original terminology and meaning. No
+prompt changed in this transition.
+
 ## Provisional prompt-principle ledger
 
 These are working hypotheses inferred from the packet experiment, not a final

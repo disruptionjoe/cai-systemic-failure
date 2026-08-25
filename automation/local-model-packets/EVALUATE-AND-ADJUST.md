@@ -49,17 +49,19 @@ For each of the six packet folders:
    even when no prompt changes. If no new attempt exists, retain the prior
    cursor.
 
-## Evaluate the actual work
+## Evaluate candidate utility
 
-Judge whether each response produced a candidate that a Frontier model could
-verify and use, not merely whether it emitted text or matched Markdown
-cosmetically.
+Judge whether each response produced a candidate worth sending to Frontier
+Progress, not whether it is already a final owner artifact. Draft
+imperfections matter only when they create material correction or recreation
+work. Evidence, authority, safety, proposal, uncertainty, and provenance
+failures remain hard boundaries.
 
 Apply these inline lenses. They are viewpoints, not extra agents, personas, or
 mandatory report sections.
 
-- **Artifact utility:** Is the requested artifact complete, substantive, and
-  useful for the named repository purpose?
+- **Candidate utility:** Does the response supply substantive structure,
+  analysis, prose, or code that could reduce Frontier production work?
 - **Evidence and boundary fidelity:** Are material claims grounded in the
   embedded evidence? Are uncertainty, provisional status, non-promotion,
   source gates, and proposal-only limits preserved?
@@ -74,36 +76,48 @@ mandatory report sections.
   rule, or tightening one required artifact section over adding orchestration,
   lifecycle narration, schemas, personas, scoring systems, or new machinery.
 
-For each prompt-hash group choose one disposition:
+For each prompt-hash group choose one provisional disposition:
 
-- `satisfactory`: the cohort is consistently useful and no prompt change is
-  justified;
-- `adjusted`: repeated evidence justifies a prompt revision made in this cycle;
-- `insufficient_samples`: the group can be evaluated, but does not yet contain
-  enough repeated evidence to justify prompt revision;
+- `frontier_ready`: candidates are consistently substantive enough for direct
+  Frontier verification and possible integration;
+- `frontier_repairable`: candidates contain material reusable work but show a
+  repeated defect that Frontier must correct;
+- `marginal_candidate`: some work may be reusable, but likely leverage is low
+  or inconsistent;
+- `no_candidate_value`: Frontier would effectively need to start over;
+- `boundary_failure`: evidence, authority, safety, provenance, or proposal
+  boundaries make the candidate unsafe to route;
+- `transport_failure`: no semantic judgment is possible because execution or
+  delivery failed; or
 - `needs_human_judgment`: the prompt exposes a genuine domain choice that
   cannot be resolved from supplied evidence without changing repository truth.
 
-For every Phase 2 packet, also preserve whether its original Frontier-authored
-request hash was satisfactory before any repair. That first-pass transfer
-result never changes when a later hash improves.
+These are nomination judgments, not claims about actual retained contribution.
+Only a sealed Frontier Progress receipt can establish retention, candidate
+error burden, non-error Frontier burden, owner effect, and net leverage.
+
+For every Phase 2 packet, also preserve the provisional disposition of its
+original Frontier-authored request hash before any repair. That first-pass
+transfer result never changes when a later hash improves.
 
 ## Adjust the prompts
 
-Revise every clearly failing prompt in the same cycle; do not artificially
-limit the pass to one packet or one edit.
+Revise every clearly costly prompt in the same cycle; do not tune ordinary
+draft imperfections that Frontier can cheaply verify or finish.
 
-A normal prompt adjustment requires the same material usability failure in at
-least two responses with the current prompt hash. A proposal-boundary or safety
-violation may justify immediate tightening. Do not tune the current prompt
-around an old-hash failure, one cosmetic deviation, or one weak sample.
+A normal prompt adjustment requires the same material leverage-reducing
+failure in at least two responses with the current prompt hash, or sealed
+Progress evidence that the defect caused material correction or effective
+recreation. A proposal-boundary or safety violation may justify immediate
+tightening. Do not tune the current prompt around an old-hash failure, one
+cosmetic deviation, one weak sample, or non-error Frontier integration work.
 
 Gate 2 is not an invitation to optimize six fixed tests indefinitely. If the
 same packet type remains materially unusable after two distinct, evidence-led
 prompt repairs, stop expanding the prompt, retain the evidence, and report the
 packet type as a current local-model boundary for Frontier handling.
 
-For an adjusted packet:
+For a prompt adjustment:
 
 1. Preserve the packet's embedded `## Evidence` material and all source text
    byte-for-byte.
@@ -117,6 +131,10 @@ For an adjusted packet:
 6. Do not create a new work item, change accepted System Failures truth, ingest
    a response, alter model settings, edit the six local schedules, or modify
    the executor.
+7. Record the failure hypothesis, packet family, prior prompt version and
+   hash, intended observable improvement, and new prompt hash. Judge whether
+   it worked only from later attempts using the new hash; the evidence that
+   motivated the edit is not proof of improvement.
 
 ## Compare and learn
 
@@ -126,12 +144,25 @@ Append one compact dated cycle to `LEARNING.md` containing:
 - the new per-packet `evaluated_through_attempt` cursor;
 - the per-packet disposition and the material evidence for it;
 - the Agent Context Engineer diagnosis where a prompt failed;
-- exact prompt files changed and the intended improvement;
+- exact prompt files changed, failure hypothesis, prior version/hash, intended
+  observable improvement, and new hash;
 - comparison with the immediately prior cohort when available;
+- newly sealed Frontier contribution evaluations since the prior contribution
+  cursor, grouped only by packet family and prompt hash, including retained
+  contribution, candidate error burden, non-error verification/integration/
+  scope-extension burden, net leverage, owner effect, and validation pointer;
 - Phase 2 first-pass transfer status, current stabilized status, and what the
   next same-hash cohort must establish; and
 - any prompt-principle evidence, counterevidence, bound, or state change added
   to the ledger, or an explicit statement that the ledger remains unchanged.
+
+Maintain a separate contribution-evidence cursor alongside the six raw-attempt
+cursors. Advance it only through a completed operating cycle whose candidates
+all have terminal dispositions and whose admitted owner effects have terminal
+receipts. If integration failed or was interrupted, keep the prior cursor.
+Deduplicate retries by candidate attempt ID plus target starting revision.
+Historical entries keep the terminology and meaning they had when written;
+never reinterpret them after a prompt or contract change.
 
 Also maintain the provisional prompt-principle ledger at the top of
 `LEARNING.md`. The ledger is a set of evidence-bearing hypotheses, not an
@@ -158,17 +189,17 @@ ledger into every prompt, or treat the ledger as another scoring rubric. Let
 normal packet outcomes test whether the candidate principles transfer.
 
 The learning entry is evidence from an experiment, not a Run receipt or target
-finding. A cycle may legitimately change several prompts or none. Gate 2 is
-ready for a Frontier ingestion trial when at least four of the six original
-Phase 2 request hashes are satisfactory, including at least one comparison or
-reconciliation packet and at least one temporal-coherence test packet; the
-remaining packet types have explicit, bounded failure diagnoses; and no useful
-candidate contains an unresolved proposal, safety, evidence, or promotion
-boundary violation. Later repaired hashes are evidence of stabilizability, not
+finding. A cycle may legitimately change several prompts or none. Candidate
+readiness means enough exact attempts are `frontier_ready` or
+`frontier_repairable` to test ingestion without an unresolved hard boundary.
+Operational usefulness is established only by repeated sealed contribution
+evaluations showing useful or high net leverage across the packet families we
+intend to delegate. Later repaired hashes are evidence of stabilizability, not
 first-pass transfer success.
 
 Validate changed prompts for complete markers, required sections, and preserved
 evidence. Follow repository versioning instructions and commit only this
 experiment directory. Never stage unrelated work. End with a concise statement
-of cohort quality, prompts changed, whether quality improved, and the next
-comparison condition.
+of candidate utility, actual Frontier leverage since the prior contribution
+cursor, prompts changed, whether the intended observable improved, and the
+next comparison condition.

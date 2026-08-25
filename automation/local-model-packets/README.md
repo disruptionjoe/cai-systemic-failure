@@ -20,6 +20,7 @@ one four-hour Frontier evaluator
   -> EVALUATE-AND-ADJUST.md
   -> read the prior evaluation cursor
   -> evaluate every completed attempt since it, grouped by prompt hash
+  -> read new sealed Frontier contribution evaluations
   -> revise prompts when repeated evidence justifies it
   -> record the learning in LEARNING.md
 ```
@@ -28,8 +29,16 @@ The local executor transports exact prompt bytes and owns no prompt content,
 evaluation, workflow decision, target-repository write, or acceptance. The
 Frontier evaluator may refine the active prepared requests from repeated
 evidence, but it does not integrate local-model results into repository truth.
-Gate 2 has met the readiness floor for a Frontier ingestion trial. The active
-target-side contract for that next gate is `OPERATING-CYCLE.md`.
+Raw-output evaluation nominates candidates; sealed Frontier Progress receipts
+show what was actually retained, what was erroneous, what normal integration
+work remained, and whether the local contribution created net leverage. The
+active target-side contract is `OPERATING-CYCLE.md`.
+
+This is one learning loop across two existing evidence surfaces, not a second
+evaluation service. `LEARNING.md` keeps hash-separated candidate cohorts and
+compact packet-family leverage trends. Runtime receipts remain the immutable
+source for individual owner effects and validations. No trigger, cadence,
+model setting, or automation changes when this evaluation contract changes.
 
 ## Active Phase 2 campaign
 

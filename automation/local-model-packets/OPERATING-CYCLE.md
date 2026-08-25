@@ -19,8 +19,9 @@ six unchanged Mac packet triggers
 
 four-hour Frontier evaluator
   -> evaluates completed attempts by prompt hash
+  -> reads sealed Frontier contribution evaluations
   -> owns Phase 2 prompt repair
-  -> advances LEARNING.md cursors
+  -> advances separate raw-attempt and contribution cursors
 
 Frontier Repository Operating Cycle
   -> read-only Repository Observation
@@ -38,18 +39,13 @@ The four-hour evaluator is the only process allowed to modify the six active
 recommend future work or a later campaign, but it must leave current prompt
 bytes and the six Mac jobs unchanged.
 
-The first ingestion trial may select only exact completed attempts from packet
-types whose newest sealed evaluation makes them eligible. The current Gate 2
-floor is:
+An ingestion trial may select only exact completed attempts whose packet type,
+prompt hash, and attempt ID the newest sealed evaluation makes eligible. Do
+not preserve a static packet allowlist after evaluator state changes.
 
-- eligible original-hash packet types: `02-field-trace`,
-  `03-positive-false-negative`, `04-refusal-consistency`, and
-  `06-acceptance-refresh`;
-- not yet eligible: repaired `01-next-test-gate` and
-  `05-interacting-assumptions`.
-
-Eligibility is not acceptance and does not require all four packet types to be
-used. Frontier Progress must choose an exact candidate or compatible batch,
+Eligibility is not acceptance and does not require all eligible packet types
+to be used. Frontier Progress must choose an exact candidate or compatible
+batch,
 verify it independently against current repository truth, and preserve every
 source, uncertainty, provisional, falsifier, no-remedy, non-promotion, and
 external-action boundary.
@@ -62,8 +58,22 @@ material part of it. Repository Progress occurs only when a separately
 admitted Progress effect passes native validation and durably changes owner
 truth.
 
+Each Frontier Progress receipt records retained contribution, candidate error
+burden, non-error Frontier verification/integration/scope-extension burden,
+net leverage, owner effect, and validation. Correct but incomplete work may
+require material Frontier integration without being an error. Formatting or
+draft polish is not a defect unless it materially increases production work.
+
 Transport success, nonempty text, a receipt, a summary, or a claim that no work
-was needed is never candidate or repository Progress.
+was needed is never candidate or repository Progress. Evidence, authority,
+safety, proposal, uncertainty, and provenance violations remain hard failures.
+
+Every end-to-end record preserves packet family/version, prompt hash, attempt
+ID, evaluator receipt, Progress receipt, target starting revision, and
+resulting owner revision. Compare only like prompt versions. Advance the
+operating cursor only after every candidate through the mark has a terminal
+disposition; failed or interrupted integration retains the prior cursor, and
+retries deduplicate by attempt ID plus target starting revision.
 
 ## State transitions
 
