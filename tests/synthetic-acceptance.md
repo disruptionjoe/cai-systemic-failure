@@ -30,6 +30,14 @@
   evidence that the assumption remained active or was reused during that
   condition fails candidate qualification; same-system chronology is not a
   temporal bridge (`SF-TC-0001`).
+- Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
+  decision objects; no control becomes a generic source-quality test or a
+  hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).
+- Comparing `SF-ABS-0004` through `SF-ABS-0008` preserves warning and
+  communication, single-owner execution, infrastructure capacity, resource
+  adequacy, and new-design/change-control as distinct narrower explanations;
+  familiar cues do not convert an absorber into positive fit
+  (`SF-ABSORBER-BOUNDARY-MATRIX`).
 - A source-gated annotation named by an originating test and preserved by later
   status cannot disappear from current annotation lists without an explicit
   retirement disposition; restoring lineage does not promote the annotation.

@@ -142,6 +142,13 @@ candidate refuses positive qualification when an old assumption and a later
 changed condition share a system but the admitted sequence says the assumption
 was retired first and supplies no evidence of continued reliance or reuse. The
 nine core fields and provisional status remain unchanged.
+`SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
+together without collapsing their different decision objects into generic
+source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
+the five public-source absorbers from `SF-ABS-0004` through `SF-ABS-0008` while
+preserving their distinct narrower explanations, affected standing, graded
+uncertainty, and no-remedy boundaries. Neither comparison adds evidence, a
+core field, an acceptance threshold, a domain conclusion, or external action.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one

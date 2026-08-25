@@ -90,7 +90,14 @@
 32. Done: run a synthetic temporal-coherence falsifier that refuses positive
     qualification when same-system chronology does not show the old assumption
     remained active or was reused during the changed condition (`SF-TC-0001`).
-33. Next: keep the candidate provisional and add another bounded test only if a
+33. Done: create a five-falsifier control crosswalk that keeps CEQ, SRL, CRA,
+    CEC, and IPC independently usable without a generic source-quality collapse
+    (`SF-FALSIFIER-CONTROL-CROSSWALK`).
+34. Done: create a five-absorber refusal boundary matrix that preserves warning
+    and communication, single-owner execution, infrastructure capacity,
+    resource adequacy, and new-design/change-control as distinct narrower
+    explanations (`SF-ABSORBER-BOUNDARY-MATRIX`).
+35. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-24T19:49:15-05:00"
-run_ref: RUN-20260824-194915-cai-systemic-failure-prepared-progress
-bottom_line: "Source-backed bridges must preserve annotation lineage and temporal reuse; keep the schema candidate provisional."
+updated_at: "2026-08-25T03:53:41-05:00"
+run_ref: RUN-20260825-035341-cai-systemic-failure-prepared-progress
+bottom_line: "Five falsifiers and five public-source absorbers now have non-collapsing comparison controls; keep the schema candidate provisional."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Annotation lineage was repaired and a temporal-coherence falsifier narrowed existing source-context controls."
-    movement_ref: "topology/SF-ANNOTATION-LINEAGE-RECONCILIATION.md; topology/SF-TC-0001-temporal-coherence.md"
+    last_movement: "Added verified comparison surfaces for five falsifiers and five public-source negative absorbers."
+    movement_ref: "topology/SF-FALSIFIER-CONTROL-CROSSWALK.md; topology/SF-ABSORBER-BOUNDARY-MATRIX.md"
     steering_attention: watch
     steering_prompt: "Add future tests only if materially new pressure appears."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: annotation_lineage_and_temporal_bridge_controls_narrowed
-    evidence_ref: "topology/SF-ANNOTATION-LINEAGE-RECONCILIATION.md; topology/SF-TC-0001-temporal-coherence.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
-    summary: "Current annotation lists preserve the procedural-acceptance pressure, and same-system chronology cannot substitute for evidence of continued assumption reuse."
-    evaluated_at: "2026-08-24T19:49:15-05:00"
-    run_ref: RUN-20260824-194915-cai-systemic-failure-prepared-progress
+    reason_code: falsifier_and_absorber_comparisons_verified
+    evidence_ref: "topology/SF-FALSIFIER-CONTROL-CROSSWALK.md; topology/SF-ABSORBER-BOUNDARY-MATRIX.md; ROADMAP.md"
+    summary: "Existing refusal controls are easier to apply together without merging distinct falsifiers or absorber mechanisms."
+    evaluated_at: "2026-08-25T03:53:41-05:00"
+    run_ref: RUN-20260825-035341-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Restored one omitted optional annotation and added a synthetic temporal-coherence falsifier without changing the core field list."
-    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, composite-evidence coherence, intra-packet contradiction, temporal coherence, annotation-lineage, mixed, and false-negative pressures"
+    progress_delta: "Added one five-falsifier control crosswalk and one five-absorber boundary matrix without changing evidence or the core field list."
+    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, composite-evidence coherence, intra-packet contradiction, temporal coherence, annotation-lineage, mixed, and false-negative pressures; comparison controls now explicit"
     trend_24h: up
     confidence: high
     recommendation: "Keep provisional; test only materially new pressure."
     findings:
-      - "Repository history preserves procedural-acceptance criteria as an optional source-gated annotation; its omission from two current lists was not an intentional retirement."
-      - "Same-system identity and chronology do not prove an old assumption remained active or was reused during a later changed condition."
+      - "CEQ, SRL, CRA, CEC, and IPC retain separate refusal objects and may apply together without merging."
+      - "The five public-source absorbers retain distinct warning, execution, capacity, resource-adequacy, and change-control explanations."
       - "The core field list and provisional candidate status remain unchanged."
     options:
       - id: A

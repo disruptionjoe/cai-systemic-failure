@@ -195,3 +195,14 @@ chronological order can substitute for evidence that an old assumption remained
 active or was reused during a later changed condition. The candidate refuses
 the synthetic fixture, narrows existing source-context and record-bridge
 language, adds no core field, and remains provisional.
+
+`SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
+their exact refusal objects and nearest confusable decisions. It keeps the five
+controls independently usable rather than collapsing them into generic source
+quality or creating a hierarchy.
+
+`SF-ABSORBER-BOUNDARY-MATRIX.md` compares the five public-source negative
+absorbers `SF-ABS-0004` through `SF-ABS-0008`. It preserves warning and
+communication, single-owner execution, infrastructure capacity, resource
+adequacy, and new-design/change-control as distinct narrower explanations
+while keeping the common refusal and non-promotion boundary visible.
