@@ -25,7 +25,7 @@ draft production. The next operating cycles must emit the standardized
 contribution bands before prompt-family leverage can be compared over time.
 
 Contribution-evidence cursor:
-`RUN-20260825-035341-cai-systemic-failure-operating-cycle`. Historical prompt
+`RUN-20260825-164945-cai-systemic-failure-operating-cycle`. Historical prompt
 cohort entries below preserve their original terminology and meaning. No
 prompt changed in this transition.
 
@@ -2867,3 +2867,186 @@ retains its exact four-row, verdict-local, no-follow-on result; Packet 02 must
 return to complete nearby-decision cells; the other packets must retain their
 semantic stability. Continue to treat output-limit zero-byte receipts as
 transport evidence rather than prompt-quality evidence.
+
+## 2026-08-25 — Same-hash stability and duplicate-effect contribution cohort
+
+Twenty-five post-cursor attempts had completed factual receipts and were
+evaluated: five for Packet 01 and four for every other packet. Selection closed
+at `2026-08-25T20:10:36Z`, when no later attempt was running. All attempts used
+their packet's current request hash. Twenty-three responses were substantive.
+Packet 05 attempt
+`20260825T164505.357426Z-49391-4d40d2` and Packet 04 attempt
+`20260825T193502.408684Z-60880-b1029f` completed at the 16,384-token limit with
+zero response bytes and are `transport_failure` results with no semantic
+judgment.
+
+### Hash groups, attempts, and provisional dispositions
+
+- `01-next-test-gate` — evaluated and current hash
+  `ed7767ad7acd9c2701fe178c107381c81e7607107bb12e243234a6ab07b4fd27`:
+  `20260825T160503.131777Z-45820-3107d0`,
+  `20260825T170501.000393Z-52487-6dcd0a`,
+  `20260825T180501.036487Z-55759-d4f4a5`, and
+  `20260825T190500.334692Z-57917-ca3108`, plus
+  `20260825T200503.246544Z-62107-4e41e5`. Disposition:
+  `frontier_ready`. All five admitted the bounded proposal, applied the five
+  localized non-duplication facts, narrowed an existing assumption-source,
+  changed-condition, or record-level bridge control, and kept the candidate
+  provisional with no Joe action. Some stop-condition language remains awkward
+  and one draft loosely called temporal coherence a core field. The fifth
+  draft's bounded-test question reversed the intended polarity by asking
+  whether admission of a temporal bridge invalidates the reuse gate, after its
+  analysis correctly diagnosed the absence of that bridge. That localized
+  question requires repair, but the admission decision and reusable analysis
+  remain intact and the error did not repeat.
+
+- `02-field-trace` — evaluated and current hash
+  `6bd67a6c71ba0d5ffe3e2b5dd5deb5042d40b32274886d2649175538474538ed`:
+  `20260825T161503.006014Z-48425-77eb4f`,
+  `20260825T171500.984271Z-53443-98b497`,
+  `20260825T181501.045551Z-56026-e11b01`, and
+  `20260825T191500.333819Z-58485-c1cd56`. Disposition:
+  `frontier_ready`. Every draft supplied the exact five ordered rows, named a
+  different falsifier and its nearby decision in every comparison cell, kept
+  combined use non-hierarchical, and preserved graded uncertainty and the
+  provisional no-remedy boundary. The fourth draft did not restate the
+  no-external-action limit explicitly, but it authorized no action and the
+  other three stated the boundary. This is isolated inexpensive completion
+  work, not a repeated current-hash failure.
+
+- `03-positive-false-negative` — evaluated and current hash
+  `df339cd0613868ff0f058ea4d6029fad738c089482b03b00201abf5e27e0180b`:
+  `20260825T162504.209080Z-48698-ca32cc`,
+  `20260825T172505.057812Z-53991-573dd7`,
+  `20260825T182502.053147Z-56713-efeb8f`, and
+  `20260825T192500.648580Z-60725-b23843`. Disposition:
+  `frontier_ready`. All four matrices contained the five ordered absorbers,
+  preserved the warning, single-owner execution, infrastructure-capacity,
+  resource-adequacy, and new-design distinctions, named the missing
+  old-assumption-reuse residue, and used `NO CORE FIELD CHANGE; KEEP
+  PROVISIONAL`. Public-source, affected-standing, uncertainty, domain-remedy,
+  and no-external-action boundaries remained usable.
+
+- `04-refusal-consistency` — evaluated and current hash
+  `b43dee1112bd4d13a2befa01c12bbde9b1d49ae7880bcfb9886768f0729a0100`:
+  `20260825T163500.987288Z-49199-27869c`,
+  `20260825T173504.046610Z-54590-742aa8`,
+  `20260825T183502.241873Z-56839-c1b997`, and
+  `20260825T193502.408684Z-60880-b1029f`. Disposition:
+  `frontier_ready`. The three substantive drafts supplied the exact four rows,
+  retained the procedural-acceptance lineage gap and three consistent
+  dispositions, completed both freeform sections, made restoration contingent
+  on Frontier history review, and preserved all proposal and non-promotion
+  boundaries. The second draft falsely cited the nonexistent
+  `STATUS.md#annotation-posture` anchor. That isolated provenance-boundary
+  draft must not be routed without removing the false anchor; the other two
+  substantive candidates are directly usable. The fourth attempt was a
+  zero-byte `transport_failure`.
+
+- `05-interacting-assumptions` — evaluated and current hash
+  `b4dd3aa3cb3b9502f89d7d5a9108ea9be82ad094aab2cb80010919da592e7ce2`:
+  `20260825T164505.357426Z-49391-4d40d2`,
+  `20260825T174504.102602Z-54966-61248d`,
+  `20260825T184501.096210Z-57112-380527`, and
+  `20260825T194502.369765Z-61159-a59e1a`. Disposition:
+  `frontier_ready`. The three substantive traces supplied all 16 ordered rows,
+  marked Gate 3 `REFUSED — NO TEMPORAL BRIDGE`, separated the five existing
+  falsifiers, carried refusal through the qualification and non-promotion
+  result, and preferred narrowing existing controls. One draft used the
+  ambiguous phrase `Candidate rejected` after correctly keeping the candidate
+  provisional, and another used `UNQUALIFIED` outside the allowed labels while
+  preserving the correct refusal. These are distinct, cheap terminology
+  repairs rather than a repeated semantic failure. The first attempt was a
+  zero-byte `transport_failure`.
+
+- `06-acceptance-refresh` — evaluated and current repaired hash
+  `9be145f52878bfd10c6bbe5086ff1399b47e271556a132f9a2f263036100cec2`:
+  `20260825T165504.217866Z-49950-fb6550`,
+  `20260825T175502.246727Z-55182-e1401c`,
+  `20260825T185505.301409Z-57407-ee344e`, and
+  `20260825T195506.008698Z-61295-a47bed`. Disposition:
+  `frontier_ready`. All four drafts retained exactly the four ordered
+  existing-field rows, put the qualification refusal in `Verdict`, graded the
+  correction route capable, separated all five existing falsifiers, preferred
+  a narrow existing-control revision, and created neither a derived check nor
+  a named follow-on test. Provisional, non-promotion, no-remedy,
+  no-external-action, and no-Joe-action boundaries held.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260825T200503.246544Z-62107-4e41e5` |
+| `02-field-trace` | `20260825T191500.333819Z-58485-c1cd56` |
+| `03-positive-false-negative` | `20260825T192500.648580Z-60725-b23843` |
+| `04-refusal-consistency` | `20260825T193502.408684Z-60880-b1029f` |
+| `05-interacting-assumptions` | `20260825T194502.369765Z-61159-a59e1a` |
+| `06-acceptance-refresh` | `20260825T195506.008698Z-61295-a47bed` |
+
+No prompt file changed. No current prompt produced the same material
+leverage-reducing failure in at least two substantive responses. The isolated
+Packet 04 false anchor is a hard provenance boundary for that draft, while the
+Packet 01 wording and isolated question-polarity error, Packet 02 boundary
+omission, and Packet 05 terminology slips are ordinary bounded repairs.
+Cross-packet provenance slips remain worth monitoring, but none of these
+issues establishes a repeated failure of any one current prompt hash. No Agent
+Context Engineer diagnosis or prompt adjustment is warranted.
+
+Compared with the immediately prior cohort, Packet 02 returned from one
+incomplete comparison draft to four complete comparison tables; Packet 01
+retained five correct admission decisions but introduced one isolated reversed
+test-question polarity; Packet 03 retained its stable matrices; Packet 04
+retained section completeness but introduced one isolated false anchor; Packet
+05 kept the correct temporal refusal despite two separate terminology slips;
+and Packet 06 extended its exact-row, verdict-local, no-follow-on result from
+three of three to four of four substantive samples. Zero-byte length-limit
+receipts fell from four to two and remain transport evidence rather than
+prompt-quality evidence.
+
+### Newly sealed Frontier contribution evidence
+
+`RUN-20260825-164945-cai-systemic-failure-operating-cycle` completed after the
+prior contribution cursor. Every evaluator-sealed candidate through the prior
+raw-attempt cursors received a terminal routing disposition, no Prepared
+Progress child was admitted, the target remained at
+`a4a784910494f5b63b07dd12ec60553c9e26d4c0`, and System close completed. The
+contribution-evidence cursor therefore advances to that operating cycle.
+
+| Packet family and prompt hash | Contribution disposition and retained band | Candidate error burden | Non-error Frontier burden | Net leverage and owner effect | Validation pointer |
+|---|---|---|---|---|---|
+| Packet 01 / `ed7767...fd27` | `not_admitted`; `none`. Temporal admission pressure already represented by `SF-TC-0001`. | `none` measured; no candidate entered Progress. | `light` current-owner non-duplication verification. | `none`; owner effect `none`. | `RUN-20260825-164945-cai-systemic-failure-operating-cycle/run-plan.md` |
+| Packet 02 / `6bd67a...38ed` | `not_admitted`; `none`. The five-falsifier crosswalk already exists. | `none` measured; no candidate entered Progress. | `light` current-owner non-duplication verification. | `none`; owner effect `none`. | Same parent receipt and stewardship routing item `SF-OC-20260825-10`. |
+| Packet 03 / `df339c...0180b` | `not_admitted`; `none`. The five-absorber matrix already exists. | `none` measured; no candidate entered Progress. | `light` current-owner non-duplication verification. | `none`; owner effect `none`. | Same parent receipt and routing item `SF-OC-20260825-11`. |
+| Packet 04 / `b43dee...0100` | `not_admitted`; `none`. Annotation-lineage reconciliation already exists. | `none` measured; no candidate entered Progress. | `light` current-owner non-duplication verification. | `none`; owner effect `none`. | Same parent receipt and routing item `SF-OC-20260825-12`. |
+| Packet 05 / `b4dd3a...7ce2` | `not_admitted`; `none`. The qualification-trace effect already exists in `SF-TC-0001`. | `none` measured; no candidate entered Progress. | `light` current-owner non-duplication verification. | `none`; owner effect `none`. | Same parent receipt and routing item `SF-OC-20260825-13`. |
+| Packet 06 / `9be145...cec2` | `not_admitted`; `none`. The exact-row temporal-falsifier effect already exists in `SF-TC-0001`. | `disqualifying` for the isolated false-Roadmap-pointer attempt; no error band was measured for the other unadmitted attempts. | `light` current-owner non-duplication and provenance verification. | `none`; owner effect `none`. | Same parent receipt and routing item `SF-OC-20260825-13`. |
+
+This is a sealed negative contribution result, not a downgrade of raw candidate
+utility. The candidates can be reusable drafts and still create no net owner
+leverage when current repository truth already contains their effects. The
+cycle's target-native validation is the unchanged owner revision plus the
+complete Observation, Stewardship, owner-results, and parent receipts; no
+integration validation exists because no Progress effect was admitted.
+
+Historical Phase 2 first-pass transfer status remains `satisfactory` for the
+original-hash Packets 02, 03, 04, and 06, `adjusted` for Packet 01, and
+`insufficient_samples` for Packet 05. Current stabilized status remains
+`frontier_ready` for all six packet families. Gate 2's candidate-readiness bar
+remains met, while the newly sealed cycle shows that this already-represented
+campaign produced no new target-native leverage at the current owner revision.
+This evaluation ingested nothing.
+
+The prompt-principle ledger remains unchanged. The raw cohort adds stability
+but no material new support, counterevidence, bound, or state change beyond
+the existing principles. The duplicate-effect contribution result concerns
+campaign novelty and owner-state timing, not a new prompt-structure principle.
+
+The next same-hash cohort must retain Packet 01's five localized distinctions
+and restore the bounded-test question's correct missing-bridge polarity,
+Packet 02's complete nearby-decision cells and explicit external-action
+boundary, Packet 03's five absorber distinctions, Packet 04's complete
+sections without invented pointers, Packet 05's allowed labels and clear
+record-versus-candidate decision, and Packet 06's exact four rows, capable
+route, verdict-local refusal, and no-follow-on result. A later operating cycle
+can establish useful Frontier leverage only if a sealed candidate supplies a
+nonduplicative owner effect or current owner truth changes enough to reopen one.
