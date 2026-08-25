@@ -19,10 +19,10 @@ Evidence states are `open_hypothesis`, `observed`, `repeated_same_hash`,
 |---|---|---|---|---|---|
 | `PP-01` | Ask directly for the finished artifact and remove nonessential orientation, alternatives, selection narration, percentages, and self-report. | `phase_2_transferred` | The 2026-08-21 initial simplification was followed by 13 complete Packet 03 tables in 15 samples and the intended Packet 05 verdict in 13 of 15 substantive samples; Packet 06 remained useful with the direct artifact contract. The 2026-08-24 Gate 2 first-pass hashes for Packets 02, 03, 04, and 06 then produced 16 complete Frontier-usable artifacts across materially new work types. | This supports removing competing meta-work, not the claim that the shortest prompt is best or that embedded evidence should be reduced. Packet 01 remained structurally complete while failing its non-duplication judgment, and one Packet 05 artifact stopped after its table. | Confirm Packet 01's repaired decision comparison and Packet 05's full-section completeness without restoring meta-work. |
 | `PP-02` | Name the exact decision object and operationally separate nearby decisions. | `phase_2_transferred` | Packet 01 required admission versus qualification versus execution separation; Packet 03 required bookkeeping versus evidence versus acceptance separation; Packet 05 required representability versus qualification, counting, and acceptance separation. Repaired cohorts improved only after those distinctions became executable rules. Gate 2 Packets 02, 03, 04, and 06 kept falsifier, absorber, lineage, and temporal-qualification decisions separate on their original hashes. | A conceptual sentence saying two decisions differ was repeatedly insufficient when the artifact still contained open-ended decision surfaces. Gate 2 Packet 01 named all nearby falsifiers but repeatedly misclassified the fixture until their decision facts were localized. | Test whether Packet 01's repaired comparison now preserves all five non-duplication decisions and whether Packet 05 stays complete. |
-| `PP-03` | Put a load-bearing rule at the exact section, cell, or verdict where the model must apply it. | `phase_2_transferred` | Bare Packet 02 and 04 boundary headings produced empty sections; Packet 03 separation cells and Frontier review, and Packet 05 comparison prose, reopened failures despite global prohibitions. Localized repairs held in later cohorts. Gate 2 row- and section-local controls held across original-hash Packets 02, 03, 04, and 06. | Flexible wording remained useful in non-load-bearing explanation. The principle is locality of critical control, not total scripting. Packet 01's embedded evidence stated all five exclusions, but every substantive response still misapplied at least one inside `Existing-control comparison`. | Compare Packet 01's localized five-fact repair with its original hash while leaving the evidence unchanged. |
+| `PP-03` | Put a load-bearing rule at the exact section, cell, or verdict where the model must apply it. | `phase_2_transferred` | Bare Packet 02 and 04 boundary headings produced empty sections; Packet 03 separation cells and Frontier review, and Packet 05 comparison prose, reopened failures despite global prohibitions. Localized repairs held in later cohorts. Gate 2 row- and section-local controls held across original-hash Packets 02, 03, 04, and 06. Packet 01's localized five-fact comparison then held across seven repaired-hash artifacts, and Packet 04's localized lineage-gap and boundary facts filled both sections in all four repaired-hash artifacts. | Flexible wording remained useful in non-load-bearing explanation. The principle is locality of critical control, not total scripting. Packet 01's embedded evidence stated all five exclusions, but every substantive original-hash response still misapplied at least one inside `Existing-control comparison`. | Monitor repaired Packets 01 and 04 for retained local-rule application without adding broader scripting. |
 | `PP-04` | When completeness is objectively enumerable, give literal labels, order, and counts. | `phase_2_transferred` | Packet 02 stabilized around nine ordered fields, Packet 03 stopped copying a prose placeholder after receiving a literal table header, and Packet 05 supplied all required material only after the prompt specified seven gate rows plus nine field rows, exactly 16. Gate 2 Packets 02, 03, and 04 supplied every exact ordered row across all 12 original-hash responses; the next Packet 05 cohort supplied all 16 rows and every prose section in all four artifacts. | Exact counts are not evidence of semantic quality and should not be imposed on genuinely open-ended judgment. One earlier Packet 05 response supplied all 16 rows but left four required prose sections empty; two later Packet 04 reconciliations supplied all four rows but left the required lineage-gap section empty. | Confirm Packet 04's repaired freeform sections and Packet 05's qualification-verdict stability while retaining exact row completeness. |
 | `PP-05` | Treat familiar labels as semantic priors; redefine or replace them locally when ordinary meaning conflicts with the intended decision. | `cross_packet_supported` | `admit` drifted toward execution in Packet 01, `positive record` repeatedly became validation or acceptance progress in Packet 03, and `Pass`, `valid`, and `REPRESENTABLE` became qualification or confirmation in Packet 05. Neutral labels and exact local definitions improved later cohorts. | Loaded words need not always be banned; they need enough local control to prevent the wrong inference. | Watch `admit`, `preserved`, `qualifies`, `supported`, `narrowed`, and similar terms in the new packets for unintended promotion or authority. |
-| `PP-06` | Freeform sections are risky when they carry a load-bearing semantic boundary. | `bounded_or_revised` | Packet 03 freeform separation and review text and Packet 05 freeform verdict and comparison text repeatedly became semantic escape hatches. In the 2026-08-24 repaired-hash cycle, two Packet 04 artifacts completed the exact table but left the load-bearing lineage-gap section empty. | The stronger claim that freeform sections are generally bad is contradicted by Packet 06 and substantive portions of Packets 02 and 04, which remained useful with flexible prose. | Test whether Packet 04's localized lineage-gap and boundary facts eliminate empty sections without scripting the reconciliation prose. |
+| `PP-06` | Freeform sections are risky when they carry a load-bearing semantic boundary. | `bounded_or_revised` | Packet 03 freeform separation and review text and Packet 05 freeform verdict and comparison text repeatedly became semantic escape hatches. In the 2026-08-24 repaired-hash cycle, two Packet 04 artifacts completed the exact table but left the load-bearing lineage-gap section empty. The next four repaired-hash Packet 04 artifacts filled both freeform sections after their required facts were localized. | The stronger claim that freeform sections are generally bad is contradicted by Packet 06 and substantive portions of Packets 02 and 04, which remained useful with flexible prose. Packet 04 improved without scripting the reconciliation wording. | Confirm Packet 04 retains complete freeform sections; keep Packet 05's verdict consistency separate from zero-byte transport outcomes. |
 | `PP-07` | Use exact wording selectively for critical status, polarity, and non-collapse boundaries. | `phase_2_transferred` | Packet 02's exact proposal-only opening, Packet 03's exact neutral non-collapse paragraph, and Packet 05's exact descriptive verdict and comparison stabilized repeated failures. Gate 2 Packets 03 and 04 preserved exact disposition labels across eight original-hash artifacts, while Packets 05 and 06 retained refusal and non-promotion polarity around flexible prose. | The stronger claim that exact wording is generally better is unsupported. Cosmetic variation usually did not reduce utility, and scripting whole artifacts would risk benchmark overfit. Exact status wording also did not prevent Packet 05's isolated empty-section artifact. | Retest exact Packet 01 non-duplication facts and Packet 05 status labels without scripting their surrounding analysis. |
 | `PP-08` | Prompt brevity by itself improves quality. | `open_hypothesis` | Removing orientation and self-report wrappers coincided with large improvements in the first revised cohort. | The change also added clearer decision rules and artifact structure, while long evidence-bearing prompts remained useful. Current evidence cannot isolate brevity as the cause. | Compare Phase 2 outcomes by instruction burden without removing evidence or weakening the artifact contract. |
 
@@ -2116,3 +2116,134 @@ this cycle did not ingest any candidate. The next same-hash comparison must
 establish that Packet 04 fills both localized reconciliation sections and that
 Packet 05's overall verdict follows its Gate 3 refusal, while Packets 01, 02,
 03, and 06 retain their current semantic stability.
+
+## 2026-08-24 — Repaired reconciliation and transport-limited qualification cohort
+
+Twenty-four post-cursor attempts had completed factual receipts and were
+evaluated, four for each packet and all on the packet's current request hash.
+The repaired Packet 04 prompt filled both previously unstable freeform sections
+in every artifact. Packet 05's two substantive artifacts both followed Gate 3
+through to the correct refusal verdict, but two other completed receipts carried
+zero-byte responses. No prompt failure repeated often enough to justify a new
+revision.
+
+### Hash groups, attempts, and dispositions
+
+- `01-next-test-gate` — evaluated and current repaired hash
+  `2ca18827975b1831032e438633842a211b1f5774f9495d942adf50a1e8c04b91`:
+  `20260824T200504.821877Z-7131-da2067`,
+  `20260824T210502.737520Z-11943-ee11c3`,
+  `20260824T220505.447199Z-14691-321767`, and
+  `20260824T230503.896835Z-17193-bcfbc7`. Disposition: `satisfactory`.
+  All four completed the admission artifact, chose `ADMIT BOUNDED TEST
+  PROPOSAL`, applied the five non-duplication facts, and narrowed an existing
+  source-context, changed-condition, or record-bridge control instead of
+  treating the fixture as an existing falsifier. One artifact placed some
+  comparison facts under adjacent falsifier labels, and stop-condition wording
+  varied, but every artifact preserved the provisional proposal boundary and
+  none requested or implied Joe action, schema acceptance, or execution.
+
+- `02-field-trace` — evaluated and current original Phase 2 hash
+  `955054e5e2657badab63f1c33fc6f94fc3f1c4b2c76e8e670979f5544a582762`:
+  `20260824T201502.852334Z-7791-46fce0`,
+  `20260824T211505.372056Z-12369-d9b23e`,
+  `20260824T221501.941838Z-15176-d773da`, and
+  `20260824T231501.793375Z-17896-c3689f`. Disposition: `satisfactory`.
+  Every crosswalk contained the five ordered substantive rows, retained the
+  distinct CEQ, SRL, CRA, CEC, and IPC refusal tests in combined use, preserved
+  graded uncertainty, and refused remedies, findings, acceptance, or external
+  action. One artifact filled `Nearest confusable falsifier` with generic
+  `None specified in evidence` entries, but its exact triggers and non-collapse
+  rules still kept the five controls operationally distinct. The isolated loss
+  of comparison specificity does not justify prompt tuning.
+
+- `03-positive-false-negative` — evaluated and current original Phase 2 hash
+  `df339cd0613868ff0f058ea4d6029fad738c089482b03b00201abf5e27e0180b`:
+  `20260824T202503.920991Z-8024-c44fe8`,
+  `20260824T212505.066522Z-13763-1e8332`,
+  `20260824T222503.000220Z-15767-439fa3`, and
+  `20260824T232501.986927Z-20161-139af7`. Disposition: `satisfactory`.
+  All four matrices supplied the five ordered absorbers, preserved warning or
+  communication, single-owner execution, infrastructure capacity, resource
+  adequacy, and new-design or change-control as distinct narrower accounts,
+  used `NO CORE FIELD CHANGE; KEEP PROVISIONAL`, and retained public-source,
+  standing, uncertainty, domain-remedy, and no-external-action boundaries.
+
+- `04-refusal-consistency` — evaluated and current repaired hash
+  `b43dee1112bd4d13a2befa01c12bbde9b1d49ae7880bcfb9886768f0729a0100`:
+  `20260824T203504.789067Z-8197-8eb7e9`,
+  `20260824T213501.752554Z-13907-0dcc25`,
+  `20260824T223500.711864Z-15970-ffc926`, and
+  `20260824T233501.987807Z-20265-36af13`. Disposition: `satisfactory`.
+  Every reconciliation supplied the exact four rows and correct lineage
+  dispositions. All four fully stated the procedural-acceptance origin and
+  status evidence, both later-list omissions, lack of intentional-retirement
+  evidence, and need for Frontier review. All four also supplied the complete
+  proposal-only, optional, source-gated, non-qualifying, provisional,
+  no-domain-finding, no-remedy, and no-external-action boundary. The immediately
+  prior two-of-four empty-section failure did not recur.
+
+- `05-interacting-assumptions` — evaluated and current original Phase 2 hash
+  `b4dd3aa3cb3b9502f89d7d5a9108ea9be82ad094aab2cb80010919da592e7ce2`:
+  `20260824T204503.834811Z-10574-6150c9`,
+  `20260824T214504.751770Z-14057-5ac6df`,
+  `20260824T224501.867279Z-16474-415b3a`, and
+  `20260824T234504.870978Z-20492-9a93f8`. Disposition:
+  `insufficient_samples`. Two completed receipts carried zero-byte responses.
+  Both substantive artifacts supplied the exact 16 rows and every prose
+  section, marked Gate 3 `REFUSED — NO TEMPORAL BRIDGE`, carried that refusal
+  into the overall qualification verdict, narrowed existing controls, and
+  preserved non-promotion. One row isolatedly called the correction-route
+  burden unmet before the same artifact correctly stated that the route was
+  capable; the overall verdict remained grounded. The prior isolated
+  `UNRESOLVED` verdict did not recur where content existed, but two useful
+  artifacts are not a complete new cohort. Zero-byte transport outcomes are not
+  repeated prompt-usability failures, so the prompt remains unchanged.
+
+- `06-acceptance-refresh` — evaluated and current original Phase 2 hash
+  `7ab5cae156467b97b521d79909c19a069780d80e32a8523b8730fea9a56903b4`:
+  `20260824T205502.866827Z-10729-c5e921`,
+  `20260824T215502.904514Z-14211-d733fe`,
+  `20260824T225502.998689Z-16715-caaa47`, and
+  `20260824T235500.777275Z-20637-6b4112`. Disposition: `satisfactory`.
+  All four complete drafts isolated temporal coherence, separated CEQ, SRL,
+  CRA, CEC, and IPC, defeated positive qualification without a temporal bridge,
+  and preserved synthetic, provisional, no-remedy, no-external-action, and
+  non-promotion boundaries. One draft offered a new temporal-status field as an
+  alternative even though existing-field narrowing remained available; the
+  other three narrowed existing source-context or bridge language. That
+  isolated overbuild branch does not justify prompt expansion but should not
+  recur.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260824T230503.896835Z-17193-bcfbc7` |
+| `02-field-trace` | `20260824T231501.793375Z-17896-c3689f` |
+| `03-positive-false-negative` | `20260824T232501.986927Z-20161-139af7` |
+| `04-refusal-consistency` | `20260824T233501.987807Z-20265-36af13` |
+| `05-interacting-assumptions` | `20260824T234504.870978Z-20492-9a93f8` |
+| `06-acceptance-refresh` | `20260824T235500.777275Z-20637-6b4112` |
+
+No prompt file changed. Compared with the immediately prior cohort, Packet 04
+improved from two empty load-bearing sections to four complete reconciliations,
+and Packet 05's wrong overall verdict did not recur in substantive output.
+Quality did not improve uniformly because Packet 05 returned only two
+substantive artifacts. The ledger adds repaired-hash support for localizing
+load-bearing section rules and narrows the freeform-section principle; no other
+principle changed.
+
+Phase 2 first-pass transfer remains permanently `satisfactory` for Packets 02,
+03, 04, and 06, `adjusted` for Packet 01, and `insufficient_samples` for Packet
+05. Current stabilized status is `satisfactory` for Packets 01, 02, 03, 04,
+and 06 and `insufficient_samples` for Packet 05.
+
+Gate 2 remains ready for a Frontier ingestion trial because the immutable
+first-pass bar remains met, Packet 04's repaired hash is now stable, Packet 05's
+remaining limit is bounded, and useful artifacts preserve evidence, proposal,
+safety, provisional, and non-promotion boundaries. This cycle did not ingest
+any candidate. The next same-hash cohort must establish a complete substantive
+Packet 05 cohort whose overall verdict follows Gate 3; retain Packet 04 section
+completeness and the other four packets' semantic stability, and monitor Packet
+06's isolated new-field branch without expanding the prompt unless it repeats.
