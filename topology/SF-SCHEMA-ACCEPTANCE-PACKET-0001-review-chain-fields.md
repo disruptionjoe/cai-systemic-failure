@@ -51,6 +51,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-SQA-0001` | Source-quality falsifier that refuses hindsight-built or source-thin pattern matches. |
 | `SF-MIX-0001` | Mixed case that adds design-basis reassessment annotation pressure without positive count. |
 | `SF-FN-0001` | False-negative pressure test that adds technical-dissent escalation annotation pressure without positive count. |
+| `SF-ANNOTATION-LINEAGE-RECONCILIATION` | Repository-history reconciliation restoring one omitted optional annotation without promotion. |
+| `SF-TC-0001` | Synthetic temporal-coherence falsifier that refuses same-system chronology without evidence of continued assumption reuse. |
 
 ## Acceptance Evidence
 
@@ -62,6 +64,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Correction-route gate | `SF-CRT-0001` refuses a fixture with no owner-visible correction route. | Keeps the gate hard, but non-synthetic correction-route opacity remains deferred. |
 | Mixed-case pressure | `SF-MIX-0001` adds design-basis reassessment annotation pressure without counting a sixth positive record. | Preserves borderline complexity without promotion. |
 | False-negative pressure | `SF-FN-0001` adds technical-dissent escalation annotation pressure without counting a sixth positive record. | Shows one blind-spot class can be represented by annotation, not that all such classes are covered. |
+| Annotation lineage | Repository history preserves `procedural_acceptance_criteria_gap` from `SF-0004` through `SF-SCHEMA-DISPOSITION-0001`, with no intentional-retirement evidence. | Restores the optional annotation to current lists; does not promote it or alter qualification. |
+| Temporal coherence | `SF-TC-0001` refuses a synthetic same-system sequence where the old assumption was retired before the changed condition and no continued-reuse bridge exists. | Narrows existing source-context and record-bridge controls; adds no core field and does not support acceptance. |
 
 ## Explicit Deferrals
 
@@ -105,6 +109,7 @@ The current source-gated annotations remain non-mandatory:
 - `hazard_history`;
 - `observation_request_path`;
 - `jurisdictional_authority_gap`;
+- `procedural_acceptance_criteria_gap`;
 - `resident_warning_route`;
 - `design_basis_reassessment_path`; and
 - `technical_dissent_escalation_path`.

@@ -83,7 +83,14 @@
     positive qualification when admitted evidence directly and materially
     contradicts a required field but the record leaves the conflict
     undispositioned (`SF-IPC-0001`).
-31. Next: keep the candidate provisional and add another bounded test only if a
+31. Done: reconcile source-gated annotation lineage, restore the omitted
+    `procedural_acceptance_criteria_gap` to current lists, and keep every
+    annotation optional and non-qualifying
+    (`SF-ANNOTATION-LINEAGE-RECONCILIATION`).
+32. Done: run a synthetic temporal-coherence falsifier that refuses positive
+    qualification when same-system chronology does not show the old assumption
+    remained active or was reused during the changed condition (`SF-TC-0001`).
+33. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

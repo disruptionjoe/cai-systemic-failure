@@ -132,6 +132,16 @@ The candidate refuses positive qualification when admitted material directly
 and materially contradicts support for a required field while the record labels
 that field passed without preserving and grading the conflict. The core field
 list and provisional status remain unchanged.
+`SF-ANNOTATION-LINEAGE-RECONCILIATION` then audits four source-gated annotation
+pressures against repository history. It restores
+`procedural_acceptance_criteria_gap` to the maintained candidate and the
+non-accepting packet after finding no intentional-retirement evidence, while
+keeping the annotation optional and non-qualifying.
+`SF-TC-0001` then tests temporal coherence with a synthetic fixture. The
+candidate refuses positive qualification when an old assumption and a later
+changed condition share a system but the admitted sequence says the assumption
+was retired first and supplies no evidence of continued reliance or reuse. The
+nine core fields and provisional status remain unchanged.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
@@ -146,8 +156,10 @@ mixed-case pressure test, one false-negative technical-dissent pressure test,
 one non-accepting acceptance packet with explicit unresolved-class deferrals,
 one counterevidence-quality asymmetry falsifier, one source-revision-lineage
 falsifier, one correction-route-authority falsifier, one composite-evidence
-coherence falsifier, and one intra-packet-contradiction falsifier while preserving source requirements, counterevidence, correction
-routes, resident-warning caution, absorber discipline, remaining falsifier
+coherence falsifier, one intra-packet-contradiction falsifier, one annotation-
+lineage reconciliation, and one temporal-coherence falsifier while preserving
+source requirements, counterevidence, correction routes, resident-warning
+caution, procedural-acceptance caution, absorber discipline, remaining falsifier
 classes, and no-remedy boundaries. No human research, field data, intervention,
 participation, external action, consequential proving, legal/regulatory
 conclusion, nuclear-safety conclusion, radiation-health conclusion,

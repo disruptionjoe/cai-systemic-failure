@@ -26,6 +26,13 @@
   for a required field, while the record labels that field passed without
   preserving and grading the conflict, fails candidate qualification
   (`SF-IPC-0001`).
+- A record that joins an old assumption to a later changed condition without
+  evidence that the assumption remained active or was reused during that
+  condition fails candidate qualification; same-system chronology is not a
+  temporal bridge (`SF-TC-0001`).
+- A source-gated annotation named by an originating test and preserved by later
+  status cannot disappear from current annotation lists without an explicit
+  retirement disposition; restoring lineage does not promote the annotation.
 - Hypotheses remain hypotheses and negative evidence is preserved.
 - Owner routing cannot authorize receiver work.
 - No schedule, health cache, work queue, or automation state appears in Lanes.

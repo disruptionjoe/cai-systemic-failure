@@ -182,3 +182,16 @@ contradiction already visible within an admitted synthetic packet can remain
 undispositioned while the record labels a required source field passed. The
 candidate refuses that selective-source posture and keeps the existing core
 field list unchanged.
+
+`SF-ANNOTATION-LINEAGE-RECONCILIATION.md` reconciles four source-gated
+annotation pressures across their originating tests, the maintained candidate,
+the non-accepting packet, and status. It restores
+`procedural_acceptance_criteria_gap` to the two current lists after finding no
+intentional-retirement evidence, while keeping every annotation optional and
+non-qualifying.
+
+`SF-TC-0001-temporal-coherence.md` tests whether same-system identity and
+chronological order can substitute for evidence that an old assumption remained
+active or was reused during a later changed condition. The candidate refuses
+the synthetic fixture, narrows existing source-context and record-bridge
+language, adds no core field, and remains provisional.

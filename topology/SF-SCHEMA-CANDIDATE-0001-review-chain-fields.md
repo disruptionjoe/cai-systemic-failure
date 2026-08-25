@@ -47,7 +47,7 @@ does not qualify as positive evidence for this candidate.
 
 | Field | Required content | Refusal condition |
 |---|---|---|
-| `assumption_source_context` | Name the reused assumption and the source, report, decision context, revision, version, date, or evidence basis relied on for the synthesis. Where multiple fragments support a record, name the admitted source-backed bridge connecting the qualifying assumption, changed condition, standing, and review path to one bounded system or review chain. Preserve and disposition any known later revision, or direct material contradiction, in the admitted source packet that supersedes, narrows, withdraws, or conflicts with that support. | Refuse if the record only says a system failed without tying the assumption to source context, combines unrelated source fragments without an admitted evidentiary bridge, knowingly selects an earlier supporting revision while omitting a later material contradiction, or labels a directly contradicted required field passed without grading the conflict. |
+| `assumption_source_context` | Name the reused assumption and the source, report, decision context, revision, version, date, or evidence basis relied on for the synthesis. Where multiple fragments or times support a record, name the admitted source-backed bridge connecting the qualifying assumption, changed condition, standing, and review path to one bounded system or review chain, including evidence that the assumption remained active or was reused during the changed condition. Preserve and disposition any known later revision, retirement or replacement event, or direct material contradiction in the admitted source packet that supersedes, narrows, withdraws, or conflicts with that support. | Refuse if the record only says a system failed without tying the assumption to source context, combines unrelated source fragments or disjoint times without an admitted evidentiary bridge, knowingly selects an earlier supporting revision while omitting a later material contradiction, treats same-system chronology as proof that a retired assumption remained active, or labels a directly contradicted required field passed without grading the conflict. |
 | `accountable_review_owner` | Distinguish the assumption owner from the owner who could review, stop, escalate, or revise its reuse. | Refuse if accountability is only a generic organization label. |
 | `affected_system_and_standing` | Name the bounded affected system and the affected-party standing visible in the sources, including people when sources make them central; when assembled from multiple fragments, preserve the admitted bridge that connects their standing to that system. | Refuse if affected parties disappear behind process language or the record borrows standing from an unrelated system without a source-backed bridge. |
 | `changed_condition` | Identify the changed function, observed anomaly, source switch, evidence context, operating condition, or other change that alters the validation burden. | Refuse if the old assumption is reused under materially unchanged conditions. |
@@ -68,7 +68,10 @@ are not mandatory fields in this candidate:
   inspections, external evidence, or other requests that failed to become an
   accountable contradiction;
 - `jurisdictional_authority_gap`: formal authority boundaries that delayed,
-  weakened, or blocked a stop condition despite visible risk.
+  weakened, or blocked a stop condition despite visible risk;
+- `procedural_acceptance_criteria_gap`: missing, disputed, or inadequate
+  source-backed criteria for accepting a validation test before a
+  consequential operation continues;
 - `resident_warning_route`: resident, tenant, local-community, or affected-
   party warnings that public sources show as possible review, escalation, stop,
   or correction routes.
@@ -216,6 +219,7 @@ This candidate cannot be used to:
 | `SF-CEQ-0001` | Refused as positive fit. Source-backed positive-fit fields plus a generic, untraceable, and ungraded alternative do not satisfy the counterevidence gate. | The falsifier prevents performative skepticism from appearing as inspectable contradiction while preserving weak alternatives as graded leads or uncertainty. |
 | `SF-SRL-0001` | Refused as positive fit. A named earlier source revision cannot carry qualification when a known later revision in the admitted packet materially withdraws or contradicts its support and the record hides that lineage. | The falsifier prevents revision-specific citation from laundering materially superseded support while preserving earlier revisions as historical evidence. |
 | `SF-IPC-0001` | Refused as positive fit. A named admitted packet cannot carry qualification when it directly and materially contradicts the support for a required field and the record leaves that conflict undispositioned. | The falsifier prevents selective source excerpts from silently passing a field while preserving graded contested or unresolved evidence. |
+| `SF-TC-0001` | Refused as positive fit. Same-system identity and chronology cannot carry qualification when the admitted packet shows the old assumption was retired before the changed condition and supplies no evidence of continued reliance or reuse. | The falsifier prevents a record from manufacturing temporal coexistence while keeping the nine core fields unchanged. |
 | `SF-ABS-0004` | Refused as positive fit. The Hawaii false-alert source set is a warning/communication, drill-procedure, alert-origination, safeguard, and correction-message absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve warning-route pressure without claiming every public alerting or communication failure. |
 | `SF-ABS-0005` | Refused as positive fit. The Amtrak Train 188 source set is a single-owner execution, situational-awareness, speed-compliance, train-control, occupant-protection, and emergency-response absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve affected standing and correction-route visibility without claiming every point-of-operation execution failure. |
 | `SF-ABS-0006` | Refused as positive fit. The I-35W bridge-collapse source set is a slow-degradation, infrastructure-capacity, original-design-calculation, added-load, load-rating, construction-load, and inspection-guidance absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve long-lived defect and changed-load pressure without claiming every infrastructure-capacity failure. |
@@ -256,6 +260,10 @@ lineage omission while keeping the core field list unchanged.
 contradiction already visible within an admitted packet can be left
 undispositioned while a required source field is labelled passed. It refuses
 that selective-source posture while keeping the core field list unchanged.
+`SF-TC-0001-temporal-coherence.md` tests whether same-system identity and
+chronology can substitute for evidence that an old assumption remained active
+or was reused during a later changed condition. It refuses that temporal gap
+while keeping the core field list unchanged.
 `SF-CRA-0001-correction-route-authority.md` tests whether a named but incapable
 route can satisfy the correction gate. It refuses that name-only route posture
 while keeping the core field list unchanged.
@@ -287,3 +295,8 @@ use, names unresolved-class deferrals, and recommends no Joe action unless Joe
 separately asks to review acceptance. Future tests should be added only when a
 new public or synthetic case creates material pressure on a core field, refusal
 note, annotation, source gate, or correction-route gate.
+
+`SF-ANNOTATION-LINEAGE-RECONCILIATION.md` restores the source-gated
+`procedural_acceptance_criteria_gap` annotation to the maintained candidate and
+non-accepting packet after repository history showed no intentional retirement.
+It does not promote the annotation or accept the schema.

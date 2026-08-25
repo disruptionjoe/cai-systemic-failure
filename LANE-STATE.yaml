@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-07-31T02:14:36-05:00"
-run_ref: RUN-20260731-021436-cai-systemic-progress
-bottom_line: "An admitted packet cannot silently contradict a required field; keep the schema candidate provisional."
+updated_at: "2026-08-24T19:49:15-05:00"
+run_ref: RUN-20260824-194915-cai-systemic-failure-prepared-progress
+bottom_line: "Source-backed bridges must preserve annotation lineage and temporal reuse; keep the schema candidate provisional."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Intra-packet contradiction falsifier narrowed existing source and counterevidence controls."
-    movement_ref: "topology/SF-IPC-0001-intra-packet-contradiction.md"
+    last_movement: "Annotation lineage was repaired and a temporal-coherence falsifier narrowed existing source-context controls."
+    movement_ref: "topology/SF-ANNOTATION-LINEAGE-RECONCILIATION.md; topology/SF-TC-0001-temporal-coherence.md"
     steering_attention: watch
     steering_prompt: "Add future tests only if materially new pressure appears."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: intra_packet_contradiction_gate_narrowed
-    evidence_ref: "topology/SF-IPC-0001-intra-packet-contradiction.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
-    summary: "A direct material contradiction in the admitted packet cannot silently pass a required field; the candidate remains provisional."
-    evaluated_at: "2026-07-31T02:14:36-05:00"
-    run_ref: RUN-20260731-021436-cai-systemic-progress
+    reason_code: annotation_lineage_and_temporal_bridge_controls_narrowed
+    evidence_ref: "topology/SF-ANNOTATION-LINEAGE-RECONCILIATION.md; topology/SF-TC-0001-temporal-coherence.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
+    summary: "Current annotation lists preserve the procedural-acceptance pressure, and same-system chronology cannot substitute for evidence of continued assumption reuse."
+    evaluated_at: "2026-08-24T19:49:15-05:00"
+    run_ref: RUN-20260824-194915-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added a synthetic intra-packet-contradiction falsifier and required direct material conflicts to be graded before qualification."
-    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, composite-evidence coherence, intra-packet contradiction, mixed, and false-negative pressures"
+    progress_delta: "Restored one omitted optional annotation and added a synthetic temporal-coherence falsifier without changing the core field list."
+    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, composite-evidence coherence, intra-packet contradiction, temporal coherence, annotation-lineage, mixed, and false-negative pressures"
     trend_24h: up
     confidence: high
     recommendation: "Keep provisional; test only materially new pressure."
     findings:
-      - "An admitted packet cannot silently pass a field when it directly and materially contradicts the source support for that field."
-      - "Contested, narrowed, or unresolved support can remain graded evidence; the gate refuses only undispositioned contradiction presented as passed."
+      - "Repository history preserves procedural-acceptance criteria as an optional source-gated annotation; its omission from two current lists was not an intentional retirement."
+      - "Same-system identity and chronology do not prove an old assumption remained active or was reused during a later changed condition."
       - "The core field list and provisional candidate status remain unchanged."
     options:
       - id: A
