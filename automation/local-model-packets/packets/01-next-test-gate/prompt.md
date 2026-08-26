@@ -1,106 +1,106 @@
-# Draft a correction-route decision-window pressure test
+# Draft a validation-surrogate coverage pressure test
 
 ## Boundary
 
 Write one complete proposal artifact from only the embedded synthetic evidence.
-Do not claim repository access, edit files, invent sources, prescribe a remedy,
-accept the provisional schema, create follow-on work, or request Joe action.
-The result is candidate material for Frontier verification, not owner truth.
+Do not claim repository access, edit files, invent sources, make a domain
+expertise claim, prescribe a remedy, accept the provisional schema, create
+follow-on work, or request Joe action. The result is candidate material for
+Frontier verification, not owner truth.
 
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-A positive record requires source-backed old-assumption reuse under a changed
-condition, a material validation burden, explicit affected standing, material
-delegation or review paths, a narrower absorber or countermodel, and an open
-correction route. The candidate remains provisional.
+A positive record requires old-assumption reuse under a changed condition and
+a validation burden that source-backed evidence shows as unmet, disputed,
+fragmented, or not owner-visible enough. The candidate remains provisional.
 </evidence>
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The correction route must name an owner-visible route and an admitted basis
-showing how it can carry the contradiction to a party able to correct,
-escalate, stop, revise, or expose the assumption. Refuse if a named route is
-only a label or is shown unable to carry the relevant correction.
-</evidence>
-
-<evidence path="topology/SF-CRA-0001-correction-route-authority.md#verdict">
-A visible label alone is not a correction route. The admitted source or
-synthetic basis must show that the route can receive, review, escalate, stop,
-revise, or expose the relevant assumption through an accountable path.
-Capability is required; successful correction is not guaranteed and no remedy
-is prescribed.
+The validation burden must state what adequate revalidation would need to
+address and what source-backed evidence shows as unmet, disputed, fragmented,
+or unresolved. Refuse a burden supplied only by hindsight.
 </evidence>
 
 <evidence path="topology/SF-TC-0001-temporal-coherence.md#verdict">
-Same-system identity and chronology do not prove the old assumption remained
-active or was reused during the changed condition. Temporal support must carry
-the qualifying relationship rather than merely place events on one timeline.
+Same-system identity and chronology do not prove an old assumption remained
+active or was reused during a changed condition. Temporal support must carry
+the qualifying relationship.
 </evidence>
 
-<synthetic_fixture id="CRW-FIXTURE-01">
-- T1: bounded system `S` uses old assumption `A-old`. Revision-labeled source
-  material names the assumption owner, accountable review owner, affected
-  standing, and route `R`. `R` can receive and preserve a contradiction and
-  can expose it to the accountable owner.
-- T2: changed condition `C-new` creates an admitted validation burden while
-  `A-old` remains in use. A traceable contradiction and graded narrower
-  countermodel enter `R` before decision `D-reuse`.
-- The same admitted charter says `R` may review, escalate, stop, or revise only
-  at scheduled session `T4`. It provides no interim or emergency authority.
-- T3: `D-reuse` occurs and commits the bounded system to the reuse decision
-  before `T4`. The contradiction was visible and received, but `R` could not
-  carry it to any party able to change `D-reuse` during the decision window.
-- T4: `R` may review and expose the preserved contradiction after the decision.
-  The fixture does not say whether later correction is possible or desirable.
-- A draft record marks `correction_route_stop_condition` passed solely because
-  `R` is accountable and eventually capable, without grading the mismatch
-  between the route's authority window and `D-reuse`.
+<evidence path="topology/SF-SQA-0001-source-quality-falsifier.md#verdict">
+A source-thin or hindsight-built pattern match cannot qualify without durable
+material carrying assumption context, changed condition, validation burden,
+review owner, and correction route.
+</evidence>
+
+<synthetic_fixture id="VSC-FIXTURE-01">
+- T1: bounded system `S` uses old assumption `A-old`. Revision-labeled
+  synthetic material names the assumption owner, accountable review owner,
+  affected standing, review path, and a capable owner-visible correction route.
+- At T1, validation procedure `V-base` tests `A-old` in environment `E-base`.
+  Its admitted scope explicitly excludes condition class `C-new`. `V-base`
+  passes every stated acceptance criterion inside `E-base`.
+- T2: `C-new` occurs while `A-old` remains in use. The admitted packet states
+  that `C-new` changes the operating coupling that creates the record's
+  validation burden. It does not say `V-base` was defective or that its
+  baseline result should be withdrawn.
+- Before decision `D-reuse`, no admitted validation tests `A-old` under
+  `C-new`, maps `V-base` coverage to `C-new`, or explains why the excluded
+  condition is immaterial. The gap is visible to the review path.
+- A traceable, graded countermodel says `V-base` is valid evidence for
+  `E-base`; it does not claim that the baseline result covers `C-new`.
+- A draft record marks `validation_burden` passed as adequately revalidated
+  solely because `V-base` formally passed. It does not distinguish a valid
+  baseline result from coverage of the changed condition.
 - Every other apparent gate is supplied only as a synthetic premise for testing
-  that route decision. All names and facts are synthetic. No real system,
-  person, organization, remedy, domain conclusion, or external action is
-  represented.
+  that validation decision. All names and facts are synthetic. No real system,
+  measurement, person, organization, remedy, domain conclusion, or external
+  action is represented.
 </synthetic_fixture>
 
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-CRW-0001-correction-route-decision-window.md` with exactly these sections:
+`SF-VSC-0001-validation-surrogate-coverage.md` with exactly these sections:
 
-1. YAML frontmatter containing `test_id: SF-CRW-0001`,
+1. YAML frontmatter containing `test_id: SF-VSC-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_route_pressure_proposal`,
+   `status: synthetic_validation_coverage_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF CRW 0001 - Correction Route Decision Window`.
+2. `# SF VSC 0001 - Validation Surrogate Coverage`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
-   no-remedy, no-promotion, uncertainty, and no-action status.
-4. `## Synthetic Fixture` with a T1/T2/T3/T4 table faithful to every fixture
-   fact. Keep receipt and exposure capability distinct from decision-window
-   authority.
-5. `## Route Capability Timeline` separating when `R` can receive, preserve,
-   expose, review, escalate, stop, and revise; identify `D-reuse` without
-   inventing an emergency path or later remedy.
+   no-remedy, no-promotion, no-domain-expertise, uncertainty, and no-action
+   status.
+4. `## Synthetic Fixture` with a T1/T2/pre-decision table faithful to every
+   fixture fact. Do not call `V-base` invalid or invent a test under `C-new`.
+5. `## Coverage Ledger` separating what `V-base` actually tested, what it
+   explicitly excluded, what `C-new` changes, and what coverage relationship
+   remains unsupported. A passed baseline test is evidence inside its stated
+   scope, not automatically evidence for every later condition.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give each row `PASS`, `FAIL`, or `UNRESOLVED` plus one fixture-local reason.
-7. `## Nearby-Control Comparison` comparing decision-window capability with
-   CRA structural route capability and TC assumption/changed-condition
-   coexistence. State the different decision object for each. A route that can
-   preserve or expose evidence later is not automatically able to carry the
-   relevant correction before the named decision.
+   Treat the supplied non-validation premises as supplied; do not mark them
+   unresolved merely because `V-base` does not establish them.
+7. `## Nearby-Control Comparison` comparing validation-surrogate coverage with
+   TC temporal coexistence and SQA source/hindsight sufficiency. State the
+   different decision object for each. Do not convert coverage alignment into
+   a demand for perfect validation or a domain-specific test.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-CRW-0001` if current route wording leaves material ambiguity
-     about capability during the relevant decision window; or
-   - `DUPLICATE — CURRENT WORDING SUFFICIENT` if CRA's relevant-correction
-     capability already requires that timing distinction.
-   Do not equate delayed capability with no route, and do not prescribe a
-   faster route.
+   - `PROPOSE SF-VSC-0001` if current validation-burden wording leaves material
+     ambiguity about whether a passed test covers the changed condition it is
+     used to revalidate; or
+   - `DUPLICATE — CURRENT WORDING SUFFICIENT` if the existing requirement to
+     state what adequate revalidation must address already requires this
+     coverage distinction.
 9. `## Candidate Effect` stating whether current owner wording is sufficient
-   or needs one narrow timing clarification. Do not add a core field, require
-   guaranteed correction, or accept the schema.
-10. `## Frontier Verification` listing only exact timeline, authority,
+   or needs one narrow coverage-alignment clarification. Do not add a core
+   field, invalidate `V-base`, require certainty, or accept the schema.
+10. `## Frontier Verification` listing only exact scope, condition, timing,
     nonduplication, wording, and boundary checks needed before integration.
 
 Return only the finished artifact.
