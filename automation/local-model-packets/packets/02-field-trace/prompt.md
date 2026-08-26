@@ -77,7 +77,7 @@ complete structure:
 CANDIDATE ARTIFACT - BEGIN
 # Five-Falsifier Control Crosswalk
 ## Crosswalk
-| Falsifier | False appearance | Exact refusal trigger | Existing control narrowed | What may still be preserved | Nearest confusable falsifier | Non-collapse rule |
+| Falsifier | False appearance | Exact refusal trigger | Existing control narrowed | What may still be preserved | Nearest confusable falsifier and its different decision | Non-collapse rule |
 |---|---|---|---|---|---|---|
 ## Combined use
 ## Provisional boundary
@@ -100,11 +100,12 @@ The table must contain exactly five substantive rows, in this order:
 - IPC concerns a direct material conflict already visible inside the admitted
   packet and left undispositioned.
 
-In each `Nearest confusable falsifier` cell, name at least one of the other four
-falsifiers and state the nearby decision it makes instead. Do not use `none`,
-`generic source quality`, or another unnamed generic category in that column.
-Do not state that any falsifier validates, confirms, supports, or accepts the
-candidate. Do not create a hierarchy among the five controls. In `Combined
-use`, explain how more than one may apply to one record without merging their
-decision tests. Preserve graded uncertainty and the provisional, no-remedy,
-no-external-action boundary.
+In each `Nearest confusable falsifier and its different decision` cell, name at
+least one of the other four falsifiers and state inside that cell the nearby
+decision it makes instead. Do not defer that decision to `Non-collapse rule`.
+Do not use `none`, `generic source quality`, or another unnamed generic
+category in that column. Do not state that any falsifier validates, confirms,
+supports, or accepts the candidate. Do not create a hierarchy among the five
+controls. In `Combined use`, explain how more than one may apply to one record
+without merging their decision tests. Preserve graded uncertainty and the
+provisional, no-remedy, no-external-action boundary.
