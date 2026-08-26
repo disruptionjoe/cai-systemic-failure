@@ -103,10 +103,13 @@ FRONTIER REVIEW - END
 
 Write every section in full. In `Existing-control comparison`, separately
 compare source-revision lineage, composite-evidence coherence, intra-packet
-contradiction, counterevidence quality, and correction-route authority. Do not
-call temporal adjacency proof of reuse. Apply these exact non-duplication facts
-inside that comparison: T2 is admitted, preserved, and graded; an admitted
-same-system and review-lineage bridge is present but is not a temporal bridge;
+contradiction, counterevidence quality, and correction-route authority. Call
+the missing control an admitted temporal bridge showing `A-old` remained active
+or was reused during T3. Chronological proximity or adjacency between T1 and
+T3 is not that bridge and must not be called proof. Apply these exact non-
+duplication facts inside that comparison: T2 is admitted, preserved, and
+graded; an admitted same-system and review-lineage bridge is present but is not
+a temporal bridge;
 no direct material conflict is left undispositioned; the countermodel is
 traceable and graded; and the correction route is capable. Therefore do not
 describe the fixture as an omitted-revision, unrelated-fragment,
