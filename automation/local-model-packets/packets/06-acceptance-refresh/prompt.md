@@ -129,12 +129,15 @@ FRONTIER REVIEW - BEGIN
 - Verify: write the exact material-pressure, temporal-evidence, non-duplication, gate, wording, and non-promotion checks Frontier must perform
 FRONTIER REVIEW - END
 
-Write every section in full. The gate-results table must make clear which
-premises are supplied and which qualifying decision fails. It must contain
-exactly four substantive rows, in this order: `assumption_source_context`,
+Write every section in full. The gate-results table must contain exactly four
+substantive rows, in this order: `assumption_source_context`,
 `changed_condition`, `absorber_or_counterevidence`, and
-`correction_route_stop_condition`. Put the qualification decision in
-`Verdict`, not in another table row. Do not split a field into subrows or add
+`correction_route_stop_condition`. In those rows, report only the supplied
+field-local premises: T1 names `A-old`, T3 names the changed condition, the
+countermodel is traceable and graded, and the correction route is capable. Do
+not put `Qualification Failed`, `Decision: Negative`, or the overall
+qualification decision in any table cell. Put the missing-temporal-bridge
+refusal only in `Verdict`. Do not split a field into subrows or add
 rows for temporal coherence, general review-chain or system properties, or the
 five existing falsifiers. Do not treat shared system identity, chronological
 ordering, or disclosure of T2 as evidence that `A-old` remained active at T3.
