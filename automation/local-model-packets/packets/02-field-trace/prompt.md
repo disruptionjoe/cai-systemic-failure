@@ -1,4 +1,4 @@
-# Draft a coordination-without-visibility-gap pressure test
+# Draft a correction-route label-subsumption pressure test
 
 ## Boundary
 
@@ -10,93 +10,84 @@ Frontier verification, not owner truth.
 
 ## Evidence
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-A positive record requires delegation, review, or request paths to be material
-to the contradiction. A complicated process is not itself positive evidence.
-</evidence>
-
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `delegation_visibility_gap` field must show how distributed review,
-authority, request paths, or delegated decisions fragmented the contradiction.
-Refuse when no review-chain fragmentation is source-supported.
+The `correction_route_stop_condition` field must name an owner-visible route
+and the admitted basis showing how it can carry the relevant contradiction to
+a party able to correct, escalate, stop, revise, or expose the assumption.
 </evidence>
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `observation_environment` field preserves how relevant evidence was made
-visible, missed, normalized, routed, or disputed without importing a domain
-conclusion.
+<evidence path="topology/SF-CRA-0001-correction-route-authority.md#verdict">
+Route capability is required, not guaranteed success. A route may be
+contested, delayed, imperfect, or uncertain; refusal applies when the admitted
+packet shows it cannot carry the relevant correction.
 </evidence>
 
-<synthetic_fixture id="CVG-FIXTURE-01">
-- One bounded synthetic system has four review roles, three formal handoffs,
-  and a shared revision-labeled review log.
-- The log makes the relevant contradiction visible to every role before the
-  bounded decision, records each handoff, preserves each response, and routes
-  the unresolved contradiction to the accountable review owner.
-- The accountable owner explicitly receives and grades the contradiction. A
-  capable owner-visible correction route remains open. The decision outcome is
-  unresolved, but no evidence is lost, hidden, split across inaccessible
-  paths, or prevented from reaching accountable review.
-- Revision-labeled synthetic material separately supplies old-assumption reuse,
-  changed condition, affected standing, validation burden, observation
-  context, a traceable graded countermodel, and correction-route capability.
-- Draft `D-complex` marks `delegation_visibility_gap` `PASS` solely because
-  four roles and three handoffs exist.
-- Draft `D-local` marks that field `FAIL` because the admitted packet shows
-  coordination complexity without contradiction fragmentation, while grading
-  every separately supplied field on its own evidence.
-- Every name and fact is synthetic. No real system, measurement, person,
+<evidence path="topology/SF-FALSIFIER-CONTROL-CROSSWALK.md#crosswalk">
+CRA tests whether a named route can carry correction to accountable review.
+Capability is required, success is not guaranteed, and no remedy is prescribed.
+</evidence>
+
+<synthetic_fixture id="CRS-FIXTURE-01">
+- One bounded synthetic record names route `R-capable`. Revision-labeled
+  synthetic material shows it can receive the relevant contradiction, surface
+  it to accountable review, and support correction, escalation, stop,
+  revision, or exposure. Success remains uncertain and no remedy is prescribed.
+- Draft `D-current` records those capability facts under
+  `correction_route_stop_condition` and grades the route capable but uncertain.
+- Draft `D-label` records the same facts and reaches the same field outcome,
+  but calls `R-capable` a `decision-interruption channel` and claims that this
+  narrower label creates a new correction control.
+- The new label adds no receiving path, authority, accountable recipient,
+  correction capability, uncertainty grade, refusal trigger, or decision
+  outcome beyond current correction-route wording and CRA.
+- Every non-correction-route gate is supplied only as a synthetic premise for
+  this test. All names and facts are synthetic. No real route, system, person,
   organization, remedy, domain conclusion, or external action is represented.
 </synthetic_fixture>
 
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-CVG-0001-coordination-without-visibility-gap.md` with exactly these
-sections:
+`SF-CRS-0001-correction-route-label-subsumption.md` with exactly these sections:
 
-1. YAML frontmatter containing `test_id: SF-CVG-0001`,
+1. YAML frontmatter containing `test_id: SF-CRS-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_coordination_without_visibility_gap_proposal`,
+   `status: synthetic_correction_route_label_subsumption_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF CVG 0001 - Coordination Without Visibility Gap`.
+2. `# SF CRS 0001 - Correction-Route Label Subsumption`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, and no-action
    status.
-4. `## Synthetic Fixture` faithfully separating review complexity, evidence
-   visibility, contradiction routing, accountable receipt, unresolved outcome,
-   and the two draft postures. Do not call an unresolved outcome proof that
-   the review chain fragmented the contradiction.
-5. `## Visibility Ledger` comparing `D-complex` and `D-local`: role count,
-   handoffs, evidence visibility, contradiction preservation, accountable
-   receipt, and remaining uncertainty.
+4. `## Synthetic Fixture` faithfully separating route capability, accountable
+   receipt, uncertainty of success, `D-current`, and `D-label`.
+5. `## Fact and Outcome Ledger` comparing the drafts for receiving path,
+   authority, accountable recipient, capability, uncertainty, outcome, and
+   label only.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give each row `PASS`, `FAIL`, or `UNRESOLVED` plus one fixture-local reason.
-   Treat every supplied non-delegation premise as supplied. Grade
-   `delegation_visibility_gap` from source-supported contradiction
-   fragmentation, not actor count, handoff count, or unresolved outcome.
-7. `## Nearby-Control Comparison` comparing contradiction fragmentation with
-   observation visibility and correction-route capability. State the different
-   decision object for each; do not merge the three controls.
-8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-CVG-0001` if current wording materially allows coordination
-     complexity or an unresolved outcome to substitute for source-supported
-     contradiction fragmentation; or
-   - `DUPLICATE — CURRENT WORDING SUFFICIENT` if the existing requirement to
-     show how review paths fragmented the contradiction and the explicit
-     refusal when no fragmentation is supported already decides the fixture.
-   In either case, refuse positive qualification of this fixture while
-   preserving all separately supplied evidence and uncertainty.
-9. `## Candidate Effect` stating whether current owner wording is sufficient
-   or needs one narrow complexity-versus-fragmentation clarification. Do not
-   add a core field, prescribe a remedy, turn coordination complexity into a
-   failure verdict, or accept the schema.
-10. `## Frontier Verification` listing only exact evidence, visibility,
-    fragmentation, accountable-receipt, nonduplication, supplied-premise,
+   Treat every supplied non-correction-route premise as supplied. Grade only
+   `correction_route_stop_condition` from the label-subsumption facts; do not
+   turn uncertain success into incapable routing.
+7. `## Nearby-Control Comparison` keeping route visibility, route capability,
+   and correction success distinct. State whether the new label adds a
+   different required fact or outcome.
+8. `## Subsumption Rule` stating exactly: when an existing field or control
+   uses the same required facts to reach the same outcome, return duplicate or
+   already handled even if the proposed mechanism has a narrower label.
+9. `## Verdict` choosing exactly one:
+   - `PROPOSE SF-CRS-0001` only if `decision-interruption channel` adds a
+     materially different required fact or decision outcome absent from CRA;
+   - `DUPLICATE — CURRENT CONTROLS SUBSUME THE LABEL` when the label uses the
+     same facts for the same outcome.
+10. `## Candidate Effect` stating whether any wording change is justified.
+    Do not add a core field, prescribe a remedy, require guaranteed success,
+    accept the schema, or rename CRA merely to preserve the proposed label.
+11. `## Frontier Verification` listing only exact evidence, capability,
+    accountable-recipient, uncertainty, supplied-premise, subsumption,
     wording, and boundary checks needed before integration.
 
 Return only the finished artifact.
