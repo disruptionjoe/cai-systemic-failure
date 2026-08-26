@@ -115,6 +115,8 @@ FRONTIER REVIEW - END
 The table must contain exactly four substantive rows in this order:
 `procedural_acceptance_criteria_gap`, `resident_warning_route`,
 `design_basis_reassessment_path`, and `technical_dissent_escalation_path`.
+In every `Status recognition` cell, write exactly `STATUS.md` and nothing
+else.
 Use only these lineage dispositions:
 
 - `CONSISTENTLY PRESERVED` when all supplied later surfaces retain the item;
@@ -131,8 +133,9 @@ or remedies. Preserve provisional status and no external action.
 Write every required section in full. In `Procedural-acceptance lineage gap`,
 state the origin and status evidence, the two later-list omissions, the lack of
 supplied intentional-retirement evidence, and why Frontier review is required.
-Use only evidence paths exactly as supplied above. Cite status recognition as
-`STATUS.md`; do not invent a fragment anchor or other more-specific pointer.
+Use only evidence paths exactly as supplied above. In this section, cite status
+recognition only with the literal token `STATUS.md`; append no fragment,
+heading, anchor, or other suffix.
 In `Boundaries`, state the proposal-only, optional, source-gated,
 non-qualifying, provisional, no-domain-finding, no-remedy, and
 no-external-action limits.

@@ -44,11 +44,11 @@ Evidence states are `open_hypothesis`, `observed`, `repeated_same_hash`,
 |---|---|---|---|---|---|
 | `PP-01` | Ask directly for the finished artifact and remove nonessential orientation, alternatives, selection narration, percentages, and self-report. | `phase_2_transferred` | The 2026-08-21 initial simplification was followed by 13 complete Packet 03 tables in 15 samples and the intended Packet 05 verdict in 13 of 15 substantive samples; Packet 06 remained useful with the direct artifact contract. The 2026-08-24 Gate 2 first-pass hashes for Packets 02, 03, 04, and 06 then produced 16 complete Frontier-usable artifacts across materially new work types. In the 2026-08-24 qualification-recovery cohort, Packet 06's required `Next test` section led two of three substantive artifacts to invent named follow-on work after already completing the bounded verdict. After that section was removed, three consecutive substantive repaired-hash cohorts, including all three substantive 2026-08-25 exact-row samples, completed the falsifier without naming follow-on work. | This supports removing competing meta-work, not the claim that the shortest prompt is best or that embedded evidence should be reduced. Packet 01 remained structurally complete while failing its non-duplication judgment, and one Packet 05 artifact stopped after its table. Removing Packet 06's follow-on section did not by itself control its still-open gate-results table: one first repaired-hash draft and all four 2026-08-25 candidate-utility drafts added at least one derived or non-field row. The later exact-row repair removed that separate overbuild in all three substantive samples. | Retain Packet 06's no-follow-on result and exact bounded table while preserving the other direct artifact contracts' useful sections. |
 | `PP-02` | Name the exact decision object and operationally separate nearby decisions. | `phase_2_transferred` | Packet 01 required admission versus qualification versus execution separation; Packet 03 required bookkeeping versus evidence versus acceptance separation; Packet 05 required representability versus qualification, counting, and acceptance separation. Repaired cohorts improved only after those distinctions became executable rules. Gate 2 Packets 02, 03, 04, and 06 kept falsifier, absorber, lineage, and temporal-qualification decisions separate on their original hashes. | A conceptual sentence saying two decisions differ was repeatedly insufficient when the artifact still contained open-ended decision surfaces. Gate 2 Packet 01 named all nearby falsifiers but repeatedly misclassified the fixture until their decision facts were localized. | Test whether Packet 01's repaired comparison now preserves all five non-duplication decisions and whether Packet 05 stays complete. |
-| `PP-03` | Put a load-bearing rule at the exact section, cell, or verdict where the model must apply it. | `phase_2_transferred` | Bare Packet 02 and 04 boundary headings produced empty sections; Packet 03 separation cells and Frontier review, and Packet 05 comparison prose, reopened failures despite global prohibitions. Localized repairs held in later cohorts. Gate 2 row- and section-local controls held across original-hash Packets 02, 03, 04, and 06. Packet 01's localized five-fact comparison then held across eight repaired-hash artifacts, and Packet 04's localized lineage-gap and boundary facts filled both sections in four of four and then three of three substantive repaired-hash artifacts. In the 2026-08-24 qualification-recovery cohort, all three Packet 01 artifacts omitted a globally stated decision boundary, while three of four Packet 02 artifacts left a named comparison cell generic or empty of an actual falsifier. After local repair, all three 2026-08-25 Packet 01 artifacts placed the provisional and no-Joe-action facts in `Disposition`, and all four Packet 02 artifacts named another falsifier for every comparison. In the late 2026-08-25 cohort, two of four Packet 02 artifacts again moved the required nearby decision out of the named-comparison cell; the repair placed both the peer and its different decision in the literal column label, and seven consecutive substantive repaired-hash samples completed that cell-local decision. Packet 06 then exposed a nearby locality failure: two of three substantive exact-four-row drafts propagated the overall qualification failure into field-result cells despite a verdict-only instruction, so the repair now localizes the supplied field evidence and explicitly excludes verdict language from the table. | Flexible wording remained useful in non-load-bearing explanation. The principle is locality of critical control, not total scripting. Packet 01's embedded evidence stated all five exclusions, but every substantive original-hash response still misapplied at least one inside `Existing-control comparison`. One repaired Packet 02 artifact placed the nearby decision in the adjacent non-collapse cell rather than the named-comparison cell, while remaining operationally distinct. The first post-change Packet 02 attempt was a zero-byte transport failure, so it carries no semantic evidence. | Confirm that Packet 06 hash `73f005...09ca` keeps all four field rows premise-local and the missing-temporal-bridge refusal only in `Verdict`; Packet 02 must retain its seven-sample cell-local result. |
+| `PP-03` | Put a load-bearing rule at the exact section, cell, or verdict where the model must apply it. | `phase_2_transferred` | Bare Packet 02 and 04 boundary headings produced empty sections; Packet 03 separation cells and Frontier review, and Packet 05 comparison prose, reopened failures despite global prohibitions. Localized repairs held in later cohorts. Gate 2 row- and section-local controls held across original-hash Packets 02, 03, 04, and 06. Packet 01's localized five-fact comparison then held across eight repaired-hash artifacts, and Packet 04's localized lineage-gap and boundary facts filled both sections in four of four and then three of three substantive repaired-hash artifacts. In the 2026-08-24 qualification-recovery cohort, all three Packet 01 artifacts omitted a globally stated decision boundary, while three of four Packet 02 artifacts left a named comparison cell generic or empty of an actual falsifier. After local repair, all three 2026-08-25 Packet 01 artifacts placed the provisional and no-Joe-action facts in `Disposition`, and all four Packet 02 artifacts named another falsifier for every comparison. In the late 2026-08-25 cohort, two of four Packet 02 artifacts again moved the required nearby decision out of the named-comparison cell; the repair placed both the peer and its different decision in the literal column label, and seven consecutive substantive repaired-hash samples completed that cell-local decision. Packet 06 then exposed a nearby locality failure: two of three substantive exact-four-row drafts propagated the overall qualification failure into field-result cells despite a verdict-only instruction, so the repair localized the supplied field evidence and explicitly excluded verdict language from the table. All four first repaired-hash Packet 06 samples then kept the four field premises local and put the missing-temporal-bridge refusal only in `Verdict`. | Flexible wording remained useful in non-load-bearing explanation. The principle is locality of critical control, not total scripting. Packet 01's embedded evidence stated all five exclusions, but every substantive original-hash response still misapplied at least one inside `Existing-control comparison`. One repaired Packet 02 artifact placed the nearby decision in the adjacent non-collapse cell rather than the named-comparison cell, while remaining operationally distinct. The first post-change Packet 02 attempt was a zero-byte transport failure, so it carries no semantic evidence. One first repaired-hash Packet 06 artifact left its non-result constraint cells empty and another misphrased the revision pressure, showing that result locality does not guarantee whole-artifact precision. | Retain Packet 06 hash `73f005...09ca` with all four field rows premise-local and the refusal only in `Verdict`; Packet 02 must retain its cell-local result after this cohort's transport failure. |
 | `PP-04` | When completeness is objectively enumerable, give literal labels, order, and counts. | `phase_2_transferred` | Packet 02 stabilized around nine ordered fields, Packet 03 stopped copying a prose placeholder after receiving a literal table header, and Packet 05 supplied all required material only after the prompt specified seven gate rows plus nine field rows, exactly 16. Gate 2 Packets 02, 03, and 04 supplied every exact ordered row across all 12 original-hash responses; the next Packet 05 cohort supplied all 16 rows and every prose section in all four artifacts. Packet 06's exact four-row repair then removed the repeated derived-row overbuild in all three substantive new-hash samples while preserving the verdict. | Exact counts are not evidence of semantic quality and should not be imposed on genuinely open-ended judgment. One earlier Packet 05 response supplied all 16 rows but left four required prose sections empty; two later Packet 04 reconciliations supplied all four rows but left the required lineage-gap section empty. The 2026-08-25 transport-limited cohort also shows that literal completeness cannot cure zero-byte delivery. | Retain exact row completeness while separately checking Packet 02 cell semantics, Packet 04 freeform sections, and Packet 05's qualification verdict. |
 | `PP-05` | Treat familiar labels as semantic priors; redefine or replace them locally when ordinary meaning conflicts with the intended decision. | `cross_packet_supported` | `admit` drifted toward execution in Packet 01, `positive record` repeatedly became validation or acceptance progress in Packet 03, and `Pass`, `valid`, and `REPRESENTABLE` became qualification or confirmation in Packet 05. Neutral labels and exact local definitions improved later cohorts. | Loaded words need not always be banned; they need enough local control to prevent the wrong inference. | Watch `admit`, `preserved`, `qualifies`, `supported`, `narrowed`, and similar terms in the new packets for unintended promotion or authority. |
 | `PP-06` | Freeform sections are risky when they carry a load-bearing semantic boundary. | `bounded_or_revised` | Packet 03 freeform separation and review text and Packet 05 freeform verdict and comparison text repeatedly became semantic escape hatches. In the 2026-08-24 repaired-hash cycle, two Packet 04 artifacts completed the exact table but left the load-bearing lineage-gap section empty. The next four repaired-hash Packet 04 artifacts filled both freeform sections after their required facts were localized. | The stronger claim that freeform sections are generally bad is contradicted by Packet 06 and substantive portions of Packets 02 and 04, which remained useful with flexible prose. Packet 04 improved without scripting the reconciliation wording. | Confirm Packet 04 retains complete freeform sections; keep Packet 05's verdict consistency separate from zero-byte transport outcomes. |
-| `PP-07` | Use exact wording selectively for critical status, polarity, non-collapse, and provenance boundaries. | `phase_2_transferred` | Packet 02's exact proposal-only opening, Packet 03's exact neutral non-collapse paragraph, and Packet 05's exact descriptive verdict and comparison stabilized repeated failures. Gate 2 Packets 03 and 04 preserved exact disposition labels across eight original-hash artifacts, while Packets 05 and 06 retained refusal and non-promotion polarity around flexible prose. After one prior isolated false pointer, two of four late 2026-08-25 Packet 04 artifacts invented the same nonexistent `STATUS.md#annotation-posture` anchor; all three substantive first repaired-hash samples then used bare `STATUS.md` without inventing an anchor. Two of five later Packet 01 artifacts nevertheless called temporal adjacency proof despite the negative prohibition; after the prompt positively defined the required admitted temporal bridge, all three first repaired-hash samples used that standard without calling adjacency proof. | The stronger claim that exact wording is generally better is unsupported. Cosmetic variation usually did not reduce utility, and scripting whole artifacts would risk benchmark overfit. Exact status wording also did not prevent Packet 05's isolated empty-section artifact. One repaired-hash Packet 04 artifact shortened two supplied fragment paths to valid bare files, showing that safe provenance can remain usable without perfect reproduction. One of the next four Packet 04 repaired-hash samples reintroduced the nonexistent `STATUS.md#annotation-posture` anchor despite the exact bare-pointer instruction; six of seven cumulative substantive repaired-hash samples remained safe, so this is an isolated generation anomaly rather than a new repair basis. | Retain Packet 01's repaired temporal-bridge result and confirm that Packet 04's false anchor does not repeat on the same hash. |
+| `PP-07` | Use exact wording selectively for critical status, polarity, non-collapse, and provenance boundaries. | `phase_2_transferred` | Packet 02's exact proposal-only opening, Packet 03's exact neutral non-collapse paragraph, and Packet 05's exact descriptive verdict and comparison stabilized repeated failures. Gate 2 Packets 03 and 04 preserved exact disposition labels across eight original-hash artifacts, while Packets 05 and 06 retained refusal and non-promotion polarity around flexible prose. After one prior isolated false pointer, two of four late 2026-08-25 Packet 04 artifacts invented the same nonexistent `STATUS.md#annotation-posture` anchor; all three substantive first repaired-hash samples then used bare `STATUS.md` without inventing an anchor. Two of five later Packet 01 artifacts nevertheless called temporal adjacency proof despite the negative prohibition; after the prompt positively defined the required admitted temporal bridge, all three first repaired-hash samples used that standard without calling adjacency proof. A second Packet 04 repaired-hash sample later invented the same false status anchor, so the evaluator localized the literal `STATUS.md` token to every status cell and the lineage-gap prose. | The stronger claim that exact wording is generally better is unsupported. Cosmetic variation usually did not reduce utility, and scripting whole artifacts would risk benchmark overfit. Exact status wording also did not prevent Packet 05's isolated empty-section artifact. One repaired-hash Packet 04 artifact shortened two supplied fragment paths to valid bare files, showing that safe provenance can remain usable without perfect reproduction. The first bare-pointer repair reduced but did not eliminate the false-anchor defect: nine of 11 cumulative substantive repaired-hash samples were safe, while two independently invented the same prohibited suffix. | Retain Packet 01's repaired temporal-bridge result and judge only later Packet 04 hash `a514b9...06bb` when testing the cell-local literal-pointer repair. |
 | `PP-08` | Prompt brevity by itself improves quality. | `open_hypothesis` | Removing orientation and self-report wrappers coincided with large improvements in the first revised cohort. | The change also added clearer decision rules and artifact structure, while long evidence-bearing prompts remained useful. Current evidence cannot isolate brevity as the cause. | Compare Phase 2 outcomes by instruction burden without removing evidence or weakening the artifact contract. |
 
 Update this ledger only when a cohort changes the evidence. Do not add every
@@ -3594,3 +3594,184 @@ testing its repair; Packet 04 must not repeat the false status anchor, and
 Packets 01, 02, 03, and 05 must retain their current semantic controls. Actual
 Frontier leverage still requires a later sealed nonduplicative owner effect or
 materially changed owner truth.
+
+## 2026-08-26 — Verdict-locality verification and literal-pointer repair cohort
+
+Twenty-four post-cursor attempts had completed factual receipts and were
+evaluated: four for every packet. Selection closed at
+`2026-08-26T12:04:16Z`, with no later attempt running. Every attempt used its
+packet's then-current request hash. Twenty-three responses were substantive.
+Packet 02 attempt `20260826T111500.475582Z-57070-ed1ef2` completed at the
+16,384-token limit with zero response bytes and is a `transport_failure` with
+no semantic judgment.
+
+### Hash groups, attempts, and provisional dispositions
+
+- `01-next-test-gate` — evaluated and current repaired hash
+  `4628704cf8d0c7b1bf79eaef51be3a52eb98a6054e08241aa6359e833f467264`:
+  `20260826T080500.409131Z-27048-31c427`,
+  `20260826T090500.515525Z-42803-eb2109`,
+  `20260826T100505.356904Z-53710-9d785c`, and
+  `20260826T110505.505981Z-56747-e28e0d`. Disposition:
+  `frontier_ready`. All four admitted the bounded proposal, named the missing
+  control as an admitted temporal bridge showing `A-old` active or reused
+  during T3, and refused to treat same-system lineage or adjacency as that
+  bridge. They preserved the five non-duplication facts, the provisional
+  boundary, and no Joe action. Stop-condition and test-question wording varied,
+  but none recreated the prior adjacency-proof failure.
+
+- `02-field-trace` — evaluated and current repaired hash
+  `dffeedcc09ee2bb197ed8ad64249d8add2d52d15f171f93e401009d33d34f741`:
+  `20260826T081500.369864Z-27722-c34321`,
+  `20260826T091500.465987Z-44000-445ffc`,
+  `20260826T101500.490590Z-55318-affe31`, and
+  `20260826T111500.475582Z-57070-ed1ef2`. Disposition:
+  `frontier_ready`; the last attempt is separately a `transport_failure`.
+  All three substantive drafts supplied the exact five ordered rows and put a
+  named peer plus its different decision in every intended comparison cell.
+  Combined use remained non-hierarchical and the provisional, graded,
+  no-remedy, and no-external-action boundary held. The repaired locality result
+  now spans ten consecutive substantive samples.
+
+- `03-positive-false-negative` — evaluated and current hash
+  `df339cd0613868ff0f058ea4d6029fad738c089482b03b00201abf5e27e0180b`:
+  `20260826T082500.391354Z-29881-6f6728`,
+  `20260826T092500.271836Z-44991-247b4f`,
+  `20260826T102500.573748Z-55596-f0110c`, and
+  `20260826T112504.788180Z-59696-19a5f8`. Disposition:
+  `frontier_ready`. Every matrix contained the exact five absorbers in order,
+  preserved the warning, single-owner execution, infrastructure-capacity,
+  resource-adequacy, and new-design distinctions, named the missing qualifying
+  residue, and returned `NO CORE FIELD CHANGE; KEEP PROVISIONAL`. Public-source,
+  affected-standing, uncertainty, no-remedy, and no-promotion boundaries held.
+
+- `04-refusal-consistency` — evaluated prior current repaired hash
+  `7046ea76f033092937155bf45c1bcb559254d99c37be654b9ba14e22cfe8e0d7`:
+  `20260826T083503.581560Z-33360-5d0d03`,
+  `20260826T093502.387417Z-45144-6ec879`,
+  `20260826T103502.446771Z-55763-bf93e2`, and
+  `20260826T113502.426383Z-59781-3663c3`. Disposition:
+  `frontier_repairable`, with attempt
+  `20260826T093502.387417Z-45144-6ec879` separately a candidate-level
+  `boundary_failure`. All four supplied the exact reconciliation rows,
+  lineage-gap facts, conditional restoration wording, and proposal-only
+  annotation boundaries. Three used bare `STATUS.md`; the named failing attempt
+  invented the prohibited nonexistent `STATUS.md#annotation-posture` pointer.
+  This is the second same-hash recurrence across 11 substantive samples, so the
+  provenance defect now meets the repair threshold. The prompt has untested
+  current hash
+  `a514b994955c0e2d4362365c805f4424deab687a8c49341d470a4b48b79606bb`.
+
+- `05-interacting-assumptions` — evaluated and current hash
+  `b4dd3aa3cb3b9502f89d7d5a9108ea9be82ad094aab2cb80010919da592e7ce2`:
+  `20260826T084505.219236Z-34651-ad2b5a`,
+  `20260826T094500.446386Z-47119-a22a70`,
+  `20260826T104500.399424Z-55997-b24b28`, and
+  `20260826T114502.573524Z-59884-8c36e1`. Disposition:
+  `frontier_ready`. Every artifact supplied all 16 ordered rows, refused Gate 3
+  for the missing temporal bridge, separated the five existing falsifiers, and
+  preferred narrowing existing controls. One draft labeled the overall verdict
+  `UNRESOLVED` while explicitly refusing Gate 3, and another blurred record
+  non-qualification with candidate promotion. Both are bounded line-level
+  corrections; the reusable qualification trace and non-promotion boundary
+  remain intact.
+
+- `06-acceptance-refresh` — evaluated and current repaired hash
+  `73f005420dd6bb61cf55521d6bc9629343a4efa4cc379ab1916583c80f9709ca`:
+  `20260826T085500.381330Z-39749-dfb18c`,
+  `20260826T095500.471005Z-50112-82bb3c`,
+  `20260826T105504.577690Z-56194-025d99`, and
+  `20260826T115503.567796Z-59975-7f9d26`. Disposition:
+  `frontier_ready`. All four first repaired-hash samples kept the four ordered
+  table results premise-local and placed the missing-temporal-bridge refusal
+  only in `Verdict`. They separated CEQ, SRL, CRA, CEC, and IPC, kept the
+  candidate provisional, and created no follow-on test. One draft used generic
+  same-system bridge wording in its revision pressure and another left the
+  non-result constraint cells blank, but those bounded imperfections do not
+  recreate the repaired field-versus-verdict error. The intended observable
+  improved in all four samples.
+
+### Evaluated-through cursor
+
+| Packet | evaluated_through_attempt |
+|---|---|
+| `01-next-test-gate` | `20260826T110505.505981Z-56747-e28e0d` |
+| `02-field-trace` | `20260826T111500.475582Z-57070-ed1ef2` |
+| `03-positive-false-negative` | `20260826T112504.788180Z-59696-19a5f8` |
+| `04-refusal-consistency` | `20260826T113502.426383Z-59781-3663c3` |
+| `05-interacting-assumptions` | `20260826T114502.573524Z-59884-8c36e1` |
+| `06-acceptance-refresh` | `20260826T115503.567796Z-59975-7f9d26` |
+
+One prompt file changed, only in `## Work now`:
+
+- `packets/04-refusal-consistency/prompt.md`: prior version was the provenance
+  repair from commit `886f534`, hash `7046ea...e0d7`. Failure hypothesis: the
+  global bare-pointer instruction remained far enough from the table cells and
+  lineage-gap prose that two same-hash drafts independently completed the
+  supplied status path with a plausible but nonexistent fragment. The prompt
+  now requires every `Status recognition` cell to contain exactly `STATUS.md`
+  and requires the prose to use that literal token with no suffix. Intended
+  observable: every status cell and lineage-gap reference uses bare
+  `STATUS.md`, with no invented fragment or heading. New hash:
+  `a514b994955c0e2d4362365c805f4424deab687a8c49341d470a4b48b79606bb`.
+
+The Agent Context Engineer diagnosis is limited to Packet 04. The earlier
+instruction named the correct pointer but left its application global across
+two load-bearing output surfaces. The model twice completed the path with the
+same semantically plausible suffix. The repair localizes one literal token to
+the exact cells and paragraph where provenance must hold; it adds no section,
+schema, review mechanism, or lifecycle narration. The new hash has no later
+sample, so this cycle does not claim the repair worked.
+
+Compared with the immediately prior cohort, Packet 06's first repaired-hash
+cohort improved its field-versus-verdict observable in all four samples.
+Packets 01, 02, and 03 retained their current semantic controls, while Packet
+02 added one transport failure. Packet 05 retained its temporal refusal with
+two bounded wording slips. Packet 04 repeated the previously isolated false
+anchor, converting it into a same-hash provenance repair basis.
+
+### Newly sealed Frontier contribution evidence
+
+`RUN-20260826-084854-cai-systemic-failure-operating-cycle` completed after the
+prior contribution cursor. It gave every evaluator-sealed candidate through
+the prior raw-attempt cursors a terminal `already_handled` or `reject`
+disposition, admitted no Prepared Progress, left the target at
+`acd16fd8035bb01d5715e8a00b8dd17961983b94`, and completed System close. Five
+then-unevaluated attempts were explicitly deferred to this evaluator and are
+not counted as contribution evidence. The contribution-evidence cursor
+therefore advances to this operating cycle.
+
+| Packet family and prompt hash | Contribution disposition and retained band | Candidate error burden | Non-error Frontier burden | Net leverage and owner effect | Validation pointer |
+|---|---|---|---|---|---|
+| Packet 01 / `462870...7264` | `already_handled`; `none`. The temporal-admission pressure is represented by `SF-TC-0001`. | `none` measured; no candidate entered Progress. | `light` current-owner non-duplication verification. | `none`; owner effect `none`. | `RUN-20260826-084854-cai-systemic-failure-operating-cycle/children/RUN-20260826-084854-cai-systemic-failure-stewardship/run-plan.md`, item `SF-OC-20260826-25`. |
+| Packet 02 / `dffeed...f741` | `already_handled`; `none`. The repaired crosswalk content duplicates `SF-FALSIFIER-CONTROL-CROSSWALK`. | No owner-effect error band measured; cell-locality evidence remains evaluator-owned. | `light` non-duplication and prompt-ownership verification. | `none`; owner effect `none`. | Same receipt, item `SF-OC-20260826-26`. |
+| Packet 03 / `df339c...0180b` | `already_handled`; `none`. The absorber matrix is already maintained. | `none` measured; no candidate entered Progress. | `light` current-owner non-duplication verification. | `none`; owner effect `none`. | Same receipt, item `SF-OC-20260826-27`. |
+| Packet 04 / `7046ea...e0d7` | Provenance-safe drafts `already_handled`; false-anchor attempt `reject`; retained band `none`. | `disqualifying` provenance burden for attempt `20260826T063500.337957Z-19122-c7b4ac`. | `light` provenance and non-duplication verification. | `none`; owner effect `none`. | Same receipt, items `SF-OC-20260826-28` and `SF-OC-20260826-29`. |
+| Packet 05 / `b4dd3a...7ce2` | `already_handled`; `none`. The qualification-trace effect exists in `SF-TC-0001`. | `none` measured; no candidate entered Progress. | `light` current-owner non-duplication verification. | `none`; owner effect `none`. | Same receipt, item `SF-OC-20260826-30`. |
+| Packet 06 / `9be145...cec2` | `already_handled`; `none`. The temporal refusal duplicates `SF-TC-0001`; the evaluator owns the locality repair. | No owner-effect error band measured; the raw table defect was repaired outside Progress. | `light` non-duplication and prompt-ownership verification. | `none`; owner effect `none`. | Same receipt, item `SF-OC-20260826-31`. |
+
+The sealed cycle added no Prepared Progress or contribution effect of its own.
+Its result is terminal routing, provenance rejection, and preservation of the
+evaluator wake. No integration validation exists because no owner effect was
+admitted; the parent and child receipts validated the unchanged owner revision
+and complete System close. Actual Frontier leverage since the prior cursor is
+therefore `none` for this cycle, and this evaluation ingested nothing.
+
+Historical Phase 2 first-pass transfer status remains `satisfactory` for the
+original-hash Packets 02, 03, 04, and 06, `adjusted` for Packet 01, and
+`insufficient_samples` for Packet 05. Current stabilized status is
+`frontier_ready` for Packets 01, 02, 03, 05, and 06. Packet 04 is
+`frontier_repairable` at its prior hash, and its new hash is untested. Gate 2
+retains enough candidate-ready families for Frontier ingestion testing, but
+operational usefulness still requires a sealed nonduplicative owner effect or
+materially changed owner truth.
+
+The ledger records Packet 06's first repaired-hash success in `PP-03` and
+Packet 04's repeated false-anchor counterevidence plus cell-local repair in
+`PP-07`; both evidence states remain `phase_2_transferred`. No other principle
+state changed. The next comparison must judge only later Packet 04 hash
+`a514b9...06bb` when testing its literal-pointer repair; Packet 06 must retain
+its premise-local table and verdict-only refusal, Packet 05 must keep its
+qualification verdict explicit, and Packets 01 through 03 must retain their
+current semantic controls. Actual Frontier leverage still requires a later
+sealed nonduplicative owner effect or materially changed owner truth.
