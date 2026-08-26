@@ -1,84 +1,100 @@
 # System Failures local-model operating cycle
 
-Status: `ingestion_trial`
+Status: `operational_pilot`
 
-This is the target-owned interface for the Frontier Repository Operating Cycle
-that observes System Failures, stewards the repository service, prepares work,
-and conditionally verifies and incorporates bounded candidate work through a
-normal Progress Run. The complete execution contract and receipts remain in
-System Runtime. This file owns only the target-side experiment state and
-packet boundaries.
+This is the target-owned interface for an hourly Frontier Repository Operating
+Cycle using two rolling local-model packet slots. The complete governed Run
+contract and receipts remain in System Runtime.
 
-## Current topology
+## Live topology
 
 ```text
-six unchanged Mac packet triggers
-  -> prepared prompt.md files
+two Mac packet triggers per hour
+  -> two exact active prompt.md slots
   -> qwen3.5:9b-prog008
   -> immutable local candidate attempts
 
-four-hour Frontier evaluator
-  -> evaluates completed attempts by prompt hash
-  -> reads sealed Frontier contribution evaluations
-  -> owns Phase 2 prompt repair
-  -> advances separate raw-attempt and contribution cursors
-
-Frontier Repository Operating Cycle
+hourly Frontier Repository Operating Cycle
   -> read-only Repository Observation
-  -> Systemic Repository Stewardship and routing ledger
-  -> conditional Prepared Progress
-  -> pointer-only cycle close
+  -> Systemic Repository Stewardship
+  -> verify and integrate useful candidates through Prepared Progress
+  -> replenish completed packet slots through the same governed Progress
+  -> pointer-only close
+
+four-hour Frontier learning review
+  -> aggregate sealed contribution evidence
+  -> append LEARNING.md
+  -> never edit active prompts or gate hourly integration
 ```
 
 There is no scheduled self-selecting Deep Progress source for this pilot.
 
-## Phase 2 ownership
+## Active slots and ownership
 
-The four-hour evaluator is the only process allowed to modify the six active
-`prompt.md` files while status is `ingestion_trial`. Systemic Stewardship may
-recommend future work or a later campaign, but it must leave current prompt
-bytes and the six Mac jobs unchanged.
+The stable active transport slots are:
 
-An ingestion trial may select only exact completed attempts whose packet type,
-prompt hash, and attempt ID the newest sealed evaluation makes eligible. Do
-not preserve a static packet allowlist after evaluator state changes.
+- `packets/01-next-test-gate/prompt.md` — rolling slot A;
+- `packets/02-field-trace/prompt.md` — rolling slot B.
 
-Eligibility is not acceptance and does not require all eligible packet types
-to be used. Frontier Progress must choose an exact candidate or compatible
-batch,
-verify it independently against current repository truth, and preserve every
-source, uncertainty, provisional, falsifier, no-remedy, non-promotion, and
-external-action boundary.
+Their folder names are transport identifiers, not permanent work types. The
+other four Phase 2 packet folders are retained as experiment history and are
+not on the live Mac schedule.
 
-## Progress semantics
+Systemic Repository Stewardship is the sole writer of the two active prompts.
+For each slot it freezes the current prompt hash and completed attempts. After
+every attempt through the frozen boundary receives a terminal disposition, a
+Prepared Progress child may install one new complete prompt for that slot as
+bounded process Progress. The next prompt must address a materially different
+unhandled repository pressure and embed all evidence the local model needs.
 
-The local model performs candidate production, not a governed owner Run. A
-candidate counts as useful only when the Frontier model can verify and retain a
-material part of it. Repository Progress occurs only when a separately
-admitted Progress effect passes native validation and durably changes owner
-truth.
+Do not rewrite a slot while its current attempt is running, reuse an already
+handled effect, or make the local executor select work. The four-hour learning
+review may recommend authoring changes in `LEARNING.md`, but it cannot edit
+active prompts, schedules, model settings, or target truth.
 
-Each Frontier Progress receipt records retained contribution, candidate error
-burden, non-error Frontier verification/integration/scope-extension burden,
-net leverage, owner effect, and validation. Correct but incomplete work may
-require material Frontier integration without being an error. Formatting or
-draft polish is not a defect unless it materially increases production work.
+## Hourly operating behavior
 
-Transport success, nonempty text, a receipt, a summary, or a claim that no work
-was needed is never candidate or repository Progress. Evidence, authority,
-safety, proposal, uncertainty, and provenance violations remain hard failures.
+The hourly parent freezes every completed factual attempt after its prior
+cursor. It does not wait for a separate evaluator seal. Observation and
+Systemic Stewardship inspect the raw response as untrusted candidate evidence,
+compare it with current owner truth and prior dispositions, and route it as:
 
-Every end-to-end record preserves packet family/version, prompt hash, attempt
-ID, evaluator receipt, Progress receipt, target starting revision, and
-resulting owner revision. Compare only like prompt versions. Advance the
-operating cursor only after every candidate through the mark has a terminal
-disposition; failed or interrupted integration retains the prior cursor, and
+- `prepared_frontier_progress` when useful candidate material may support a
+  coherent owner effect;
+- `already_handled`, `reject`, `defer`, or `needs_judgment` when it should not
+  enter Progress; and
+- `local_packet` for the next exact bounded prompt to install in a completed
+  slot.
+
+Prepared Progress independently verifies every admitted claim and may retain,
+repair, narrow, replace, or discard candidate content. A compatible batch may
+combine candidate integration with replenishing both completed slots. If no
+candidate survives, fresh nonduplicative packet preparation is still a valid
+bounded Progress effect. It is not target research Progress until the prompt
+is later executed, verified, and incorporated into owner truth.
+
+## Progress and learning semantics
+
+Repository Progress occurs only through a separately admitted Progress child
+that passes target-native validation and durably changes owner truth. Local
+text, transport success, a receipt, packet preparation, duplicate detection,
+or `nothing to do` is not research Progress.
+
+Each candidate disposition preserves packet slot, prompt hash, attempt ID,
+target starting revision, and resulting Progress receipt. Each admitted
+candidate records retained contribution, candidate error burden, ordinary
+Frontier verification/integration/scope-extension burden, net leverage, owner
+effect, and validation. Correct but incomplete work is not an error merely
+because Frontier finishes it.
+
+Evidence, authority, safety, proposal, uncertainty, provenance, no-remedy,
+non-promotion, and no-external-action boundaries remain hard requirements.
+Advance a cursor only after every candidate through it has a terminal
+disposition. Failed or interrupted integration retains the prior cursor;
 retries deduplicate by attempt ID plus target starting revision.
 
-## State transitions
+## Pilot decision
 
-`ingestion_trial` may change to `operational_pilot` only after Joe accepts the
-trial evidence. At that point Systemic Stewardship may become the sole owner of
-packet selection and replenishment, and the four-hour evaluator may become
-read-only, be absorbed, or be retired. No scheduled process changes this state
-implicitly.
+Joe moved this repository directly into `operational_pilot` on 2026-08-26.
+The purpose is to learn from real repeated integration, not to keep optimizing
+a fixed benchmark. Continue running and adapting from sealed owner effects.

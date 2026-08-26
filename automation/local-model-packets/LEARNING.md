@@ -4,6 +4,26 @@ This is the compact comparison record for repeated same-prompt cohorts. It is
 experiment evidence, not a CapacityOS Run receipt or accepted System Failures
 finding.
 
+## 2026-08-26 — Operational-pilot cutover
+
+Joe ended the fixed six-packet benchmark posture and authorized a real
+production loop. Two rolling slots now receive one local attempt each hour;
+the hourly Frontier operating cycle directly dispositions, verifies,
+integrates, and replenishes them. The prior four-hour evaluator becomes an
+aggregate contribution-learning review and may no longer edit active prompts
+or gate integration.
+
+The first operational prompts are fresh synthetic tests of correction-route
+continuity across owner transfer and affected-standing continuity across a
+changed system boundary. Their outputs have no presumed usefulness; the next
+hourly cycle must decide whether each is distinct, duplicate, erroneous, or
+useful and record actual leverage if it admits either. Phase 2 packet folders
+03 through 06 remain historical and are no longer scheduled.
+
+The prior raw-attempt cursors and contribution cursor remain historical
+evidence. Operational cycles now own their own exact unseen-attempt cursor.
+No historical cohort is rescored by this transition.
+
 ## 2026-08-25 — Evaluation-contract transition
 
 Joe accepted a production-oriented quality bar: judge local work by how much

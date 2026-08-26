@@ -1,64 +1,44 @@
-# Local-model packet experiment
+# Local-model packet operational pilot
 
-This directory owns the prepared System Failures prompts used by the six
-host-local Qwen slots during the PROG-008 / PROG-004 capability experiment.
-The prompts are proposal-only experiment inputs, not accepted repository
-findings or automation authority. Gate 1 established that six fixed,
-Frontier-refined packets could produce repeated useful work. Gate 2 tests
-whether a Frontier-authored new campaign transfers those lessons without
-packet-by-packet benchmark overfitting.
+This directory owns the prepared System Failures prompts used by the host-local
+Qwen model. Local responses are proposal-only candidate material; Frontier
+Progress owns verification, repository writes, validation, and acceptance.
 
-The live shape is:
+## Live shape
 
 ```text
-six fixed-cadence local triggers
-  -> one exact packet folder each in packets/
+two stable packet slots
+  -> two Mac launches per hour
   -> qwen3.5:9b-prog008
-  -> immutable request, response, and transport receipt in local-model-scout
+  -> immutable request, response, and transport receipt
 
-one four-hour Frontier evaluator
-  -> EVALUATE-AND-ADJUST.md
-  -> read the prior evaluation cursor
-  -> evaluate every completed attempt since it, grouped by prompt hash
-  -> read new sealed Frontier contribution evaluations
-  -> revise prompts when repeated evidence justifies it
-  -> record the learning in LEARNING.md
+hourly Frontier operating cycle
+  -> disposition and verify new attempts
+  -> integrate useful work through normal Progress
+  -> install the next complete prompts in completed slots
+
+four-hour aggregate learning review
+  -> summarize sealed contribution evidence in LEARNING.md
+  -> never edit active prompts
 ```
 
-The local executor transports exact prompt bytes and owns no prompt content,
-evaluation, workflow decision, target-repository write, or acceptance. The
-Frontier evaluator may refine the active prepared requests from repeated
-evidence, but it does not integrate local-model results into repository truth.
-Raw-output evaluation nominates candidates; sealed Frontier Progress receipts
-show what was actually retained, what was erroneous, what normal integration
-work remained, and whether the local contribution created net leverage. The
-active target-side contract is `OPERATING-CYCLE.md`.
+The active slot paths are `packets/01-next-test-gate/prompt.md` and
+`packets/02-field-trace/prompt.md`. Their names are stable transport IDs left
+from the experiment; their contents rotate. Packet folders 03 through 06 are
+historical Phase 2 evidence and are not active launch targets.
 
-This is one learning loop across two existing evidence surfaces, not a second
-evaluation service. `LEARNING.md` keeps hash-separated candidate cohorts and
-compact packet-family leverage trends. Runtime receipts remain the immutable
-source for individual owner effects and validations. No trigger, cadence,
-model setting, or automation changes when this evaluation contract changes.
+Every prompt is a complete request with embedded public, licensed, safely
+shareable, or synthetic evidence. The local executor reads only the explicitly
+selected prompt, injects no instructions, makes no workflow decision, and
+sends no model-setting override. Output remains immutable under
+`/Users/joe/Brain/local-model-scout/outputs`.
 
-## Active Phase 2 campaign
+The hourly operating cycle is the sole active-prompt writer. A slot changes
+only after its completed attempts have terminal dispositions. A replacement
+prompt receives a new hash and asks for one materially different, bounded,
+nonduplicative candidate artifact. The four-hour review records aggregate
+learning without racing production.
 
-The folder names are stable transport-slot identifiers retained so the six Mac
-triggers never need campaign-specific rewiring. The active prompt inside each
-slot now requests:
-
-- `01-next-test-gate`: temporal-coherence material-pressure admission;
-- `02-field-trace`: five-falsifier control crosswalk;
-- `03-positive-false-negative`: five-absorber refusal-boundary matrix;
-- `04-refusal-consistency`: source-gated annotation-lineage reconciliation;
-- `05-interacting-assumptions`: temporal-coherence qualification trace; and
-- `06-acceptance-refresh`: complete temporal-coherence falsifier draft.
-
-Each packet contains one complete `prompt.md`. Evidence required by the local
-model is embedded in that file. A prompt revision creates a new request hash;
-evaluations consume every attempt after the prior per-packet cursor but compare
-quality and attribute failures only within the correct hash cohort.
-
-Gate 2 preserves the first request hash for each new packet as the transfer
-baseline. Later prompt repair may show that a packet can be stabilized, but it
-cannot retroactively turn a failed first-hash cohort into Frontier-authored
-first-pass success.
+Transport success, nonempty text, packet preparation, or `nothing to do` is
+not repository Progress. The production question is whether verified local
+work creates useful or high Frontier leverage in durable owner effects.
