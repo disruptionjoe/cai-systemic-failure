@@ -1,4 +1,4 @@
-# Draft a correction-route recipient versus review-owner pressure test
+# Draft a route-capability matter-scope pressure test
 
 ## Boundary
 
@@ -11,12 +11,11 @@ Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `accountable_review_owner` field names the owner with relevant authority
-during the reuse decision window. The `correction_route_stop_condition` field
-must show how a route can receive or surface the relevant contradiction to a
-party able to correct, escalate, stop, revise, or expose the assumption. The
-route need not terminate at the same named review owner and must not be only a
-label or an incapable path.
+The `correction_route_stop_condition` field must show how a route can receive
+or surface the relevant contradiction to a party able to correct, escalate,
+stop, revise, or expose the assumption. The route must be more than a label or
+an incapable path, and the admitted capability must be relevant to the bounded
+system and reuse decision.
 </evidence>
 
 <evidence path="topology/SF-CRA-0001-correction-route-authority.md#verdict">
@@ -26,79 +25,85 @@ authority. Preserve imperfect, delayed, contested, or unresolved outcomes as
 graded uncertainty without prescribing a remedy.
 </evidence>
 
-<synthetic_fixture id="CRR-FIXTURE-01">
+<synthetic_fixture id="RMS-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Old assumption `A-old` is reused under changed condition `C-new` before
-  decision `D-final` at `T-final`.
-- Officer `O-review` is the source-backed `accountable_review_owner` for the
-  reuse decision and passes that separate field.
-- Before `T-final`, route `R-alt` receives contradiction `E-contrary`,
-  preserves its identity, and surfaces it to distinct officer `O-route`.
-- Admitted instrument `I-route` shows `O-route` can escalate, stop, revise, or
-  expose this assumption for this bounded system and decision class.
-- `O-route` is not named as `accountable_review_owner`; the fixture does not
-  state that `O-review` personally receives `E-contrary`.
-- Draft `D-same` marks `correction_route_stop_condition` `FAIL` solely because
-  the route recipient and review owner differ. Draft `D-capable` marks it
-  `PASS` while preserving the distinct roles and uncertainty.
-- Do not infer delegation, owner agreement, authority exercise, outcome,
-  adequacy, misconduct, or a remedy. This tests capable route recipient versus
-  identity with the review owner.
+- Old assumption `A-old` is reused under changed condition `C-new` for bounded
+  system `S-bounded` in decision class `K-bounded` before final decision
+  `D-final` at `T-final`.
+- Officer `O-review` is the source-backed `accountable_review_owner` and passes
+  that separate field.
+- Before `T-final`, route `R-alt` receives contradiction `E-contrary` under
+  receipt `REC-alt` and carries it under trace `TRACE-alt` to visible recipient
+  `O-route` without changing its identity.
+- Instrument `I-general` gives `O-route` correction, escalation, stop,
+  revision, and exposure powers only for other system `S-other` and decision
+  class `K-other`. It explicitly excludes `S-bounded` and `K-bounded`.
+- No admitted instrument gives `O-route` or another route recipient relevant
+  capability for `S-bounded` and `K-bounded` before `T-final`.
+- Draft `D-general` marks `correction_route_stop_condition` `PASS` solely from
+  `O-route`'s general title and out-of-scope powers. Draft `D-scoped` marks the
+  field `FAIL` while preserving receipt, carriage, visibility, and the exact
+  scope exclusion.
+- Do not infer route failure, owner agreement, authority exercise, outcome,
+  adequacy, misconduct, or a remedy. This tests capability existence versus
+  matter-scope relevance.
 - All names and facts are synthetic; this is not a new record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-CRR-0001-route-recipient-and-review-owner.md` with exactly:
+Draft `SF-RMS-0001-route-capability-matter-scope.md` with exactly:
 
-1. YAML frontmatter: `test_id: SF-CRR-0001`,
+1. YAML frontmatter: `test_id: SF-RMS-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_route_recipient_proposal`,
+   `status: synthetic_route_scope_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF CRR 0001 - Route Recipient And Review Owner`.
+2. `# SF RMS 0001 - Route Capability Matter Scope`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
    no-promotion, no-domain-expertise, uncertainty, no-new-record,
-   no-delegation inference, no-owner-agreement inference,
+   no-route-failure inference, no-owner-agreement inference,
    no-authority-exercise inference, no-outcome-or-adequacy inference,
    no-misconduct inference, and no-action status.
-4. `## Synthetic Fixture` separating `A-old`, `C-new`, `D-final`, `T-final`,
-   `O-review`, `R-alt`, `E-contrary`, `O-route`, `I-route`, `D-same`, and
-   `D-capable`; never convert different role identity into route incapability.
-5. `## Route Recipient Ledger` with exactly two rows, one per draft, and
-   columns for draft, evidence identity, route, receipt, carriage, review
-   owner, route recipient, recipient instrument, matter scope, owner
-   visibility, escalation, stop, revision, exposure, same-person status,
-   target-field result, qualification result, and uncertainty. Preserve all
-   supplied route facts in both rows; vary only the draft's interpretation.
+4. `## Synthetic Fixture` separating `A-old`, `C-new`, `S-bounded`,
+   `K-bounded`, `D-final`, `T-final`, `O-review`, `R-alt`, `E-contrary`,
+   `REC-alt`, `TRACE-alt`, `O-route`, `I-general`, `S-other`, `K-other`,
+   `D-general`, and `D-scoped`; never extend out-of-scope capability to the
+   bounded matter.
+5. `## Route Scope Ledger` with exactly two rows, one per draft, and columns
+   for draft, evidence identity, route, receipt, carriage trace, review owner,
+   route recipient, recipient visibility, instrument, instrument system,
+   instrument decision class, target system, target decision class,
+   correction, escalation, stop, revision, exposure, scope match,
+   target-field result, qualification result, and uncertainty. Use exactly the
+   supplied identifiers and facts in both rows; vary only each draft's
+   interpretation, target-field result, and qualification result.
 6. `## Candidate Gate Trace` with these nine rows in order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give each non-target row `PASS` / `supplied premise`; give
-   `correction_route_stop_condition` `PASS` / `the route carries the
-   contradiction to a distinct visible party with admitted relevant
-   correction capability`. Infer no failed gate.
-7. `## Nearby-Control Comparison` keeping review-owner identity, route-
-   recipient identity, role difference, instrument, matter scope, receipt,
-   carriage, visibility, capability, authority exercise, outcome, adequacy,
-   qualification, uncertainty, and remedy distinct. State whether current
-   wording already permits a distinct capable party to receive the correction.
+   `correction_route_stop_condition` `FAIL` / `the only admitted recipient
+   instrument excludes the bounded system and decision class`. Infer no other
+   failed gate.
+7. `## Nearby-Control Comparison` keeping route receipt, carriage, recipient
+   visibility, general capability, matter scope, relevant capability,
+   authority exercise, outcome, adequacy, qualification, uncertainty, and
+   remedy distinct. State whether current wording already requires capability
+   relevant to the bounded matter rather than capability somewhere else.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-CRR-0001 — THE CORRECTION ROUTE MUST TERMINATE AT THE SAME PERSON AS THE ACCOUNTABLE REVIEW OWNER`
-     only if `D-same` is required; or
-   - `ALREADY HANDLED — A DISTINCT CAPABLE PARTY MAY RECEIVE THE CORRECTION ROUTE`
-     when current wording already requires capability rather than identical
-     role identity.
+   - `PROPOSE SF-RMS-0001 — GENERAL OUT-OF-SCOPE CAPABILITY IS ENOUGH FOR THE CORRECTION ROUTE`
+     only if `D-general` can pass; or
+   - `ALREADY HANDLED — ROUTE CAPABILITY MUST APPLY TO THE BOUNDED SYSTEM AND DECISION CLASS`
+     when current wording already requires relevant capability.
 9. `## Candidate Effect`: exactly `PROPOSE CLARIFYING
-   correction_route_stop_condition TO REQUIRE THE ACCOUNTABLE REVIEW OWNER AS
-   THE ROUTE RECIPIENT` for `PROPOSE`, or exactly `NONE — CURRENT CONTROL
-   ALREADY REQUIRES A CAPABLE VISIBLE RECIPIENT WITHOUT REQUIRING THE SAME
-   REVIEW OWNER` for already handled. Propose no route design, owner action,
-   remedy, acceptance rule, or new field.
+   correction_route_stop_condition TO REQUIRE MATTER-SCOPE RELEVANCE` for
+   `PROPOSE`, or exactly `NONE — CURRENT CONTROL ALREADY REQUIRES RELEVANT
+   CAPABILITY FOR THE BOUNDED MATTER` for already handled. Propose no route
+   design, owner action, remedy, acceptance rule, or new field.
 10. `## Frontier Verification` listing only exact evidence, route, receipt,
-    carriage, review owner, route recipient, instrument, matter and system
-    scope, relevant capabilities, decision window, supplied premises,
+    carriage, review owner, route recipient, visibility, instrument, source and
+    target scopes, capabilities, decision window, supplied premises,
     qualification, wording, and boundary checks.
 
 Return only the finished artifact. Emit raw Markdown without a code fence; the
