@@ -1,4 +1,4 @@
-# Draft an optional-annotation substitution pressure test
+# Draft a consequence-severity versus affected-standing pressure test
 
 ## Boundary
 
@@ -11,38 +11,41 @@ Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-A record qualifies only when every core gate condition is met, including
-source context, assumption reuse under a changed condition, validation burden,
-affected standing, material review-path fragmentation, and a recorded narrower
-absorber or countermodel.
-</evidence>
-
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#source-gated-annotations">
-Source-gated annotations may be recorded when supported, but they are not
-mandatory core fields and must not let a record qualify without the core
-source, assumption, changed-condition, validation-burden, absorber, and
+A positive record requires an explicitly bounded affected system and the
+standing of affected parties visible in the admitted material, in addition to
+the other source, assumption, changed-condition, review, absorber, and
 correction-route gates.
 </evidence>
 
-<evidence path="topology/SF-FN-0001-challenger-launch-decision-dissent-path.md#verdict">
-Technical-dissent escalation may create source-gated annotation pressure while
-remaining non-qualifying, non-promotional, and distinct from a core-field
-change or domain conclusion.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
+The `affected_system_and_standing` field must name the bounded affected system
+and the affected-party standing visible in the sources, including people when
+the sources make them central. Refuse when affected parties disappear behind
+process language or when standing is borrowed from an unrelated system without
+an admitted bridge.
 </evidence>
 
-<synthetic_fixture id="ANS-FIXTURE-01">
-- One bounded synthetic record explicitly supports a
-  `technical_dissent_escalation_path`: a named technical objection reaches a
-  review meeting and remains unresolved in the admitted packet.
-- The same packet explicitly says there is no source-backed or synthetic basis
-  showing that distributed review, delegated authority, or request paths
-  fragmented the contradiction. The `delegation_visibility_gap` core field
-  therefore fails.
-- All other core qualification gates are supplied only as synthetic premises
-  for this test. The annotation does not repair or supply the failed core gate.
-- Draft `D-annotation-pass` qualifies the record because the supported
-  annotation is relevant to review. Draft `D-core-bound` records the annotation
-  but refuses positive qualification because one required core field fails.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#boundary">
+The candidate is a provisional review-chain screen. It does not infer missing
+standing from consequence severity, make a domain conclusion, prescribe a
+remedy, or authorize action.
+</evidence>
+
+<synthetic_fixture id="SAS-FIXTURE-01">
+- One bounded synthetic packet names system `SYS-1` and states that event
+  `E-severe` caused prolonged loss of service, expensive equipment damage, and
+  a high operational consequence grade.
+- The packet contains no source-backed or explicit synthetic basis naming any
+  affected person, community, user, worker, customer, owner, or other party's
+  standing in relation to `SYS-1`. Consequence severity is supplied, but
+  affected-party standing is not.
+- Draft `D-severity` marks `affected_system_and_standing` passed because the
+  consequences are severe and the system is bounded. Draft `D-standing-bound`
+  preserves the bounded system and severity but marks the standing gate
+  unresolved because the admitted packet names no affected-party standing.
+- Every non-standing core gate is supplied only as a synthetic premise for
+  this exact test. No narrower absorber, correction route, remedy, domain
+  conclusion, or external action is inferred from severity.
 - All names and facts are synthetic. No real system, source, person,
   organization, remedy, domain conclusion, or external action is represented.
 </synthetic_fixture>
@@ -50,43 +53,46 @@ change or domain conclusion.
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-ANS-0001-optional-annotation-substitution.md` with exactly these sections:
+`SF-SAS-0001-consequence-severity-affected-standing.md` with exactly these
+sections:
 
-1. YAML frontmatter containing `test_id: SF-ANS-0001`,
+1. YAML frontmatter containing `test_id: SF-SAS-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_annotation_substitution_proposal`,
+   `status: synthetic_severity_standing_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF ANS 0001 - Optional Annotation Substitution`.
+2. `# SF SAS 0001 - Consequence Severity And Affected Standing`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, and no-action
    status.
-4. `## Synthetic Fixture` faithfully separating the supported annotation,
-   failed core field, supplied core premises, `D-annotation-pass`, and
-   `D-core-bound`.
-5. `## Annotation And Core-Gate Ledger` comparing annotation support,
-   core-field support, qualification effect, and uncertainty for both drafts.
+4. `## Synthetic Fixture` faithfully separating `SYS-1`, `E-severe`, the
+   supplied consequence facts, the missing standing basis, `D-severity`, and
+   `D-standing-bound`.
+5. `## Severity And Standing Ledger` comparing bounded-system evidence,
+   consequence evidence, affected-party evidence, standing result, and
+   uncertainty for both drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give each row `PASS`, `FAIL`, or `UNRESOLVED` plus one fixture-local reason.
-   Mark every supplied core premise `PASS` because it is supplied for this
-   exact test. Grade only `delegation_visibility_gap` from the explicit missing
-   fragmentation basis; do not use the annotation to repair that core field.
-7. `## Nearby-Control Comparison` keeping source-gated annotation support,
-   core-field qualification, and optional metadata distinct. State whether
-   current wording already forbids annotation substitution.
+   Mark every supplied non-standing premise `PASS` because it is supplied for
+   this exact test. Grade only `affected_system_and_standing` from the bounded
+   system and explicit absence of affected-party standing; do not infer
+   standing from severity.
+7. `## Nearby-Control Comparison` keeping bounded-system identity,
+   consequence severity, and affected-party standing distinct. State whether
+   current wording already prevents severity from substituting for standing.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-ANS-0001` only if current controls let a supported optional
-     annotation substitute for a failed required core gate;
-   - `ALREADY HANDLED — OPTIONAL ANNOTATIONS CANNOT REPAIR A FAILED CORE GATE`
-     when current wording already forbids substitution.
+   - `PROPOSE SF-SAS-0001` only if current controls let severe consequences
+     substitute for absent affected-party standing; or
+   - `ALREADY HANDLED — CONSEQUENCE SEVERITY DOES NOT SUPPLY AFFECTED STANDING`
+     when current wording already requires the standing basis.
 9. `## Candidate Effect` stating whether any wording change is justified. Do
-   not add a core field, make the annotation mandatory, erase the annotation,
-   accept the schema, or create a control hierarchy.
-10. `## Frontier Verification` listing only exact evidence, annotation,
-    core-gate, supplied-premise, qualification, wording, and boundary checks
-    needed before integration.
+   not add a core field, invent affected parties, prescribe a remedy, accept
+   the schema, or create a control hierarchy.
+10. `## Frontier Verification` listing only exact evidence, bounded-system,
+    consequence, standing, supplied-premise, qualification, wording, and
+    boundary checks needed before integration.
 
 Return only the finished artifact.
