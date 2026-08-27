@@ -1,4 +1,4 @@
-# Draft a countermodel presence versus absorption pressure test
+# Draft a delegation-record presence versus review-fragmentation pressure test
 
 ## Boundary
 
@@ -11,43 +11,44 @@ Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `absorber_or_counterevidence` field records the strongest narrower
-explanation, its source context or explicit synthetic basis, its claim posture,
-whether it absorbs, narrows, or fails to kill the review-chain residue, and any
-direct material contradiction bearing on a required field. Refuse generic,
-untraceable, or ungraded alternatives.
+The `accountable_review_owner` field distinguishes the assumption owner from
+the owner who could review, stop, escalate, or revise its reuse. Refuse when
+accountability is only a generic organization label.
 </evidence>
 
-<evidence path="topology/SF-FALSIFIER-CONTROL-CROSSWALK.md#crosswalk">
-`SF-CEQ-0001` requires the alternative to be traceable and graded. A weak
-alternative may remain a graded lead or uncertainty, and counterevidence need
-not match the positive case in volume or certainty. Generic skepticism cannot
-pass the gate.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
+The `delegation_visibility_gap` field must show how distributed review,
+authority, request paths, or delegated decisions fragmented the contradiction.
+Refuse if no review-chain fragmentation is source-supported.
 </evidence>
 
-<evidence path="topology/SF-ABSORBER-BOUNDARY-MATRIX.md#shared-refusal-shape">
-Familiar candidate cues are not sufficient, and a narrower explanation may
-absorb a case when no qualifying old-assumption-reuse residue remains. A
-refused case can stay graded evidence; refusal does not erase standing, settle
-uncertainty, or prescribe a remedy.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
+The `correction_route_stop_condition` field names the owner-visible route and
+the admitted source or explicit synthetic basis showing how it can surface the
+relevant contradiction to a party able to correct, escalate, stop, revise, or
+expose the assumption. A route label alone is insufficient.
 </evidence>
 
-<synthetic_fixture id="CPA-FIXTURE-01">
-- One bounded synthetic packet supplies a traceable countermodel `CM-local`
-  with explicit synthetic basis and claim posture `narrowing hypothesis`.
-- `CM-local` explains one local symptom `X-noise` but does not explain the
-  supplied old-assumption reuse, validation-relevant changed condition,
-  affected standing, or fragmented review path. No admitted fact shows that
-  it absorbs the remaining review-chain residue.
-- The packet preserves and grades `CM-local` as `narrows one symptom; fails to
-  kill the bounded residue`. No direct material contradiction is hidden.
-- Draft `D-presence` marks `absorber_or_counterevidence` `FAIL` and refuses the
-  record solely because a traceable countermodel exists. Draft `D-absorption`
-  records and grades `CM-local`, keeps the field `PASS`, and does not claim
-  that presence alone establishes absorption.
-- Every non-target core gate is supplied as `PASS` for this exact logic test.
-  Those supplied grades are not real findings, a new positive record, or
-  schema acceptance.
+<synthetic_fixture id="DVG-FIXTURE-01">
+- One bounded synthetic packet supplies a named accountable review owner
+  `O-review`, a capable correction route `R-review`, and every non-target core
+  gate as `PASS` for this exact logic test.
+- A delegation record `DR-list` names two reviewers and assigns them document
+  sections. The admitted packet also shows that both reviewers can see the
+  same contradiction, `O-review` receives their results, and `R-review`
+  remains able to carry the contradiction to `O-review`.
+- No admitted fact shows divided authority, a missing request path, hidden
+  results, fragmented contradiction, or a delegated decision isolated from
+  the accountable owner.
+- Contrast `DR-fragmented` would split the evidence so neither reviewer nor
+  `O-review` could see the contradiction, but `DR-fragmented` did not occur
+  and cannot be borrowed as evidence.
+- Draft `D-record` marks `delegation_visibility_gap` `PASS` solely because a
+  delegation record exists. Draft `D-fragmentation` marks the field `FAIL`
+  because admitted delegation remains owner-visible and does not fragment the
+  contradiction, keeping `DR-fragmented` only as a contrast.
+- The supplied non-target grades are not real findings, a new positive record,
+  or schema acceptance.
 - All names and facts are synthetic. No real source, system, person,
   organization, remedy, domain conclusion, or external action is represented.
 </synthetic_fixture>
@@ -55,23 +56,23 @@ uncertainty, or prescribe a remedy.
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-CPA-0001-countermodel-presence-and-absorption.md` with exactly these
+`SF-DVG-0001-delegation-visibility-and-fragmentation.md` with exactly these
 sections:
 
-1. YAML frontmatter containing `test_id: SF-CPA-0001`,
+1. YAML frontmatter containing `test_id: SF-DVG-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_countermodel_absorption_proposal`,
+   `status: synthetic_delegation_visibility_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF CPA 0001 - Countermodel Presence And Absorption`.
+2. `# SF DVG 0001 - Delegation Visibility And Fragmentation`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
    and no-action status.
-4. `## Synthetic Fixture` faithfully separating `CM-local`, `X-noise`, the
-   countermodel's explicit basis and posture, the residue it does not explain,
-   `D-presence`, and `D-absorption`. Do not treat traceability or presence as
-   proof of absorption.
-5. `## Countermodel Effect Ledger` comparing traceability, claim posture,
-   explained scope, unexplained residue, direct contradiction, field result,
+4. `## Synthetic Fixture` faithfully separating `O-review`, `R-review`,
+   `DR-list`, `DR-fragmented`, `D-record`, and `D-fragmentation`. Do not treat
+   delegation or multiple reviewers as proof of fragmented review.
+5. `## Delegation Visibility Ledger` comparing delegation record, evidence
+   visibility, contradiction visibility, accountable-owner visibility,
+   correction-route continuity, fragmentation result, target-field result,
    and uncertainty for both drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
@@ -79,26 +80,28 @@ sections:
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give every non-target row `PASS` with the literal reason `supplied premise`.
-   Give `absorber_or_counterevidence` `PASS` because the traceable countermodel
-   is preserved and graded as narrowing one symptom without killing the
-   supplied review-chain residue. Do not regrade the supplied core premises.
-7. `## Nearby-Control Comparison` keeping countermodel traceability, presence,
-   graded narrowing, direct contradiction, and full absorption distinct. State
-   whether current wording already requires the countermodel's effect on the
-   residue to be evaluated rather than inferred from presence.
+   Give `delegation_visibility_gap` `FAIL` because the admitted delegation
+   remains visible to the reviewers and accountable owner and does not
+   fragment the contradiction. Do not regrade the supplied core premises.
+7. `## Nearby-Control Comparison` keeping delegation record, distributed
+   review, contradiction visibility, owner visibility, correction-route
+   capability, hypothetical fragmentation, and overall qualification
+   distinct. State whether current wording already requires actual
+   review-chain fragmentation rather than delegation presence.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-CPA-0001` only if current controls make any traceable
-     countermodel automatically absorb the record; or
-   - `ALREADY HANDLED — COUNTERMODEL PRESENCE DOES NOT BY ITSELF ESTABLISH ABSORPTION`
-     when current wording already records whether the alternative absorbs,
-     narrows, or fails to kill the residue.
+   - `PROPOSE SF-DVG-0001` only if current controls treat any delegation as a
+     qualifying visibility gap; or
+   - `ALREADY HANDLED — DELEGATION PRESENCE DOES NOT ESTABLISH REVIEW-CHAIN FRAGMENTATION`
+     when current wording already requires source-supported fragmentation of
+     the contradiction.
 9. `## Candidate Effect` containing exactly `NONE — CURRENT CONTROL ALREADY
-   GRADES COUNTERMODEL EFFECT ON THE RESIDUE` when the verdict is already
-   handled. Do not propose a countermodel hierarchy, score, remedy, or new
-   acceptance rule.
-10. `## Frontier Verification` listing only exact evidence, traceability,
-    claim-posture, explained-scope, residue, contradiction, supplied-premise,
-    qualification, wording, and boundary checks needed before integration.
+   REQUIRES DELEGATION TO FRAGMENT CONTRADICTION VISIBILITY` when the verdict
+   is already handled. Do not propose a delegation taxonomy, workflow, remedy,
+   authority change, or new acceptance rule.
+10. `## Frontier Verification` listing only exact evidence, delegation-record,
+    evidence-visibility, contradiction-visibility, accountable-owner,
+    correction-route, fragmentation, supplied-premise, qualification,
+    wording, and boundary checks needed before integration.
 
 Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
 artifact or its YAML frontmatter in a code fence; the first response line must
