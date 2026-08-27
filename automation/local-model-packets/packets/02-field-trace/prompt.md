@@ -1,4 +1,4 @@
-# Draft a planned revalidation versus completed revalidation evidence pressure test
+# Draft a later-completed revalidation versus decision-time evidence pressure test
 
 ## Boundary
 
@@ -17,94 +17,72 @@ fragmented, or unresolved. Refuse if the record supplies no source-backed
 burden beyond hindsight.
 </evidence>
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-The changed condition must create a validation burden that sources show as
-unmet, disputed, fragmented, or not owner-visible enough.
-</evidence>
-
-<synthetic_fixture id="PRE-FIXTURE-01">
-- One bounded synthetic packet supplies every non-target core gate as `PASS`
-  for this exact logic test.
-- Old assumption `A-old` is reused under changed condition `C-new` before
-  decision `D-final` at `T-final`.
-- Traceable plan `P-plan` is approved before `T-final`. It names three checks,
-  owners, due dates, and expected evidence for revalidating `A-old` under
-  `C-new`.
-- The admitted packet contains no execution receipt, observations, results,
-  acceptance record, or other evidence that any planned check occurred before
-  `T-final`. It explicitly records all three checks as `not_started` at
-  `T-final`.
-- Draft `D-plan` marks the validation burden resolved because `P-plan` exists
-  and is traceable. Draft `D-evidence` preserves the plan as provenance but
-  marks the burden unmet at `T-final` because the admitted checks remain
-  unperformed.
-- The fixture does not infer that the plan is useless, that a later execution
-  failed, that completion would have changed the outcome, or that any remedy
-  is required. It tests planned revalidation versus source-backed evidence of
-  completed revalidation during the decision window.
-- The supplied non-target grades are not real findings, a new positive record,
-  or schema acceptance.
-- All names and facts are synthetic. No real source, system, person,
-  organization, remedy, domain conclusion, or external action is represented.
+<synthetic_fixture id="LVE-FIXTURE-01">
+- Every non-target core gate is supplied as `PASS` for this exact logic test.
+- `A-old` is reused under `C-new` before decision `D-final` at `T-final`.
+- Adequate revalidation requires checks `V1`, `V2`, and `V3`. At `T-final`,
+  the decision packet records all three incomplete and the burden unresolved.
+- After `D-final`, all checks are executed. Traceable result `R-late` completes
+  at `T-late`, supports `A-old` under `C-new`, and is available when the later
+  artifact is written. Both timestamps and states remain in the packet.
+- Draft `D-later` backdates `R-late` and marks the burden resolved for
+  `D-final`. Draft `D-window` preserves the later result but marks the burden
+  unmet at `T-final` because no completed result was then available.
+- Do not infer that `R-late` is invalid, later checks failed, a timely result
+  would change the outcome, or a remedy is required. This tests later completed
+  evidence versus evidence available for the decision under review.
+- All names and facts are synthetic; this is not a new record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft the finished Markdown artifact
-`SF-PRE-0001-planned-and-completed-revalidation-evidence.md` with exactly these
-sections:
+Draft `SF-LVE-0001-later-validation-and-decision-time-evidence.md` with exactly:
 
-1. YAML frontmatter containing `test_id: SF-PRE-0001`,
+1. YAML frontmatter: `test_id: SF-LVE-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_revalidation_evidence_proposal`,
+   `status: synthetic_validation_timing_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF PRE 0001 - Planned And Completed Revalidation Evidence`.
-3. `## Boundary` preserving proposal-only, provisional, synthetic,
-   no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
-   no-plan-uselessness inference, no-later-failure inference,
-   no-outcome-counterfactual, and no-action status.
-4. `## Synthetic Fixture` faithfully separating `A-old`, `C-new`, `P-plan`,
-   the three planned checks, `D-final`, `T-final`, `D-plan`, and `D-evidence`.
-   Do not convert plan approval, named owners, due dates, expected evidence, or
-   traceability into execution, observations, results, or acceptance.
-5. `## Plan And Evidence Ledger` comparing plan identity, approval,
-   check owners, due dates, expected evidence, execution receipt, observation
-   evidence, result evidence, acceptance evidence, status at `T-final`,
-   target-field result, qualification result, and uncertainty for both drafts.
-6. `## Candidate Gate Trace` with these nine rows in this order:
+2. `# SF LVE 0001 - Later Validation And Decision-Time Evidence`.
+3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
+   no-promotion, no-domain-expertise, uncertainty, no-new-record,
+   no-later-result-invalidity, no-later-failure, no-outcome-counterfactual, and
+   no-action status.
+4. `## Synthetic Fixture` separating `A-old`, `C-new`, `V1`, `V2`, `V3`,
+   `D-final`, `T-final`, `R-late`, `T-late`, `D-later`, and `D-window`; do not
+   move `R-late` earlier, erase its later value, or convert later completion
+   into decision-time completion.
+5. `## Validation Timing Ledger` comparing required checks, execution time,
+   result identity, completion time, evidence at `T-final`, evidence at artifact
+   writing, decision-time burden, later burden, target-field result,
+   qualification result, and uncertainty for both drafts.
+6. `## Candidate Gate Trace` with these nine rows in order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
-   Give every non-target row `PASS` with the literal reason `supplied premise`.
-   Give `validation_burden` `PASS` with the literal reason `source-backed
-   planned checks remain unperformed at the reuse decision`. Do not infer plan
-   uselessness, later failure, outcome change, acceptance, or failure of
-   another gate.
-7. `## Nearby-Control Comparison` keeping plan existence, plan traceability,
-   approval, named ownership, due date, expected evidence, execution,
-   observation, result, acceptance, unmet burden, later completion, and overall
-   qualification distinct. State whether current wording already prevents a
-   plan alone from being treated as completed revalidation evidence.
+   Give each non-target row `PASS` / `supplied premise`; give
+   `validation_burden` `PASS` / `revalidation was unresolved during the reuse
+   decision and completed only later`. Infer no other failed gate.
+7. `## Nearby-Control Comparison` keeping changed condition, required checks,
+   execution, result completion, result availability, decision-time burden,
+   artifact-time knowledge, later value, backdating, qualification, and
+   acceptance distinct. State whether current wording already prevents later
+   completed revalidation from retroactively closing the earlier burden.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-PRE-0001 — PLAN EXISTENCE CAN BE MISREAD AS COMPLETED REVALIDATION`
-     only if current controls let a traceable approved plan close the burden
-     without execution evidence; or
-   - `ALREADY HANDLED — A REVALIDATION PLAN DOES NOT ESTABLISH COMPLETED REVALIDATION`
-     when current wording already preserves the source-backed unmet burden.
-9. `## Candidate Effect` containing exactly `PROPOSE CLARIFYING
-   validation_burden TO PRESERVE PLAN EVIDENCE WITHOUT TREATING IT AS
-   COMPLETED REVALIDATION` when the verdict is `PROPOSE`, or exactly `NONE —
-   CURRENT CONTROL ALREADY DISTINGUISHES PLANNED REVALIDATION FROM COMPLETED
-   REVALIDATION EVIDENCE` when the verdict is already handled. Do not propose a
-   validation method, schedule, owner assignment, remedy, acceptance rule, or
-   new field.
-10. `## Frontier Verification` listing only exact evidence, decision window,
-    plan identity, approval, check owners, due dates, expected evidence,
-    execution receipt, observations, results, acceptance, status at decision,
-    supplied-premise, qualification, wording, and boundary checks needed before
-    integration.
+   - `PROPOSE SF-LVE-0001 — VALIDATION EVIDENCE TIMING IS NOT EXPLICIT` only if
+     later evidence can retroactively close the burden; or
+   - `ALREADY HANDLED — LATER COMPLETED REVALIDATION DOES NOT CLOSE THE EARLIER DECISION-TIME BURDEN`
+     when the burden already remains tied to the decision under review.
+9. `## Candidate Effect`: exactly `PROPOSE CLARIFYING validation_burden TO
+   PRESERVE LATER RESULTS WITHOUT BACKDATING THEM INTO THE REUSE DECISION
+   WINDOW` for `PROPOSE`, or exactly `NONE — CURRENT CONTROL ALREADY PRESERVES
+   THE DECISION-TIME BURDEN AND GRADES LATER REVALIDATION SEPARATELY` for
+   already handled. Propose no method, schedule, owner, remedy, acceptance
+   rule, or new field.
+10. `## Frontier Verification` listing only exact evidence, changed condition,
+    required checks, execution and completion time, result identity, decision
+    time, availability, later value, backdating, supplied premises,
+    qualification, wording, and boundary checks.
 
-Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
-artifact or its YAML frontmatter in a code fence; the first response line must
-be `---` and the frontmatter must end with a second `---` before the title.
+Return only raw Markdown. Do not use a code fence; the first line must be `---`
+and frontmatter must end with a second `---` before the title.
