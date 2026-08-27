@@ -1,4 +1,4 @@
-# Draft a delegation-record presence versus review-fragmentation pressure test
+# Draft a graded-contradiction versus silent-field-pass pressure test
 
 ## Boundary
 
@@ -11,44 +11,46 @@ Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `accountable_review_owner` field distinguishes the assumption owner from
-the owner who could review, stop, escalate, or revise its reuse. Refuse when
-accountability is only a generic organization label.
+The `absorber_or_counterevidence` field must record the strongest narrower
+explanation, its source context or explicit synthetic basis, its claim posture,
+whether it absorbs, narrows, or fails to kill the review-chain residue, and any
+direct material contradiction in the admitted packet bearing on a required
+field. Refuse if a direct material contradiction remains undispositioned.
 </evidence>
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `delegation_visibility_gap` field must show how distributed review,
-authority, request paths, or delegated decisions fragmented the contradiction.
-Refuse if no review-chain fragmentation is source-supported.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#refusal-notes">
+Refuse positive qualification when the admitted packet directly and materially
+contradicts support for a required field and the record labels that field
+passed without preserving and grading the conflict. This does not require
+source unanimity or make every tension disqualifying; contested, narrowed, or
+unresolved support remains explicit rather than silently passed.
 </evidence>
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `correction_route_stop_condition` field names the owner-visible route and
-the admitted source or explicit synthetic basis showing how it can surface the
-relevant contradiction to a party able to correct, escalate, stop, revise, or
-expose the assumption. A route label alone is insufficient.
+<evidence path="topology/SF-FALSIFIER-CONTROL-CROSSWALK.md#crosswalk">
+IPC decides whether a conflict already visible in the admitted packet was left
+undispositioned. Contested, narrowed, contradicted, or unresolved support may
+remain usable when explicit, but a materially conflicted field cannot be
+silently labeled passed.
 </evidence>
 
-<synthetic_fixture id="DVG-FIXTURE-01">
-- One bounded synthetic packet supplies a named accountable review owner
-  `O-review`, a capable correction route `R-review`, and every non-target core
-  gate as `PASS` for this exact logic test.
-- A delegation record `DR-list` names two reviewers and assigns them document
-  sections. The admitted packet also shows that both reviewers can see the
-  same contradiction, `O-review` receives their results, and `R-review`
-  remains able to carry the contradiction to `O-review`.
-- No admitted fact shows divided authority, a missing request path, hidden
-  results, fragmented contradiction, or a delegated decision isolated from
-  the accountable owner.
-- Contrast `DR-fragmented` would split the evidence so neither reviewer nor
-  `O-review` could see the contradiction, but `DR-fragmented` did not occur
-  and cannot be borrowed as evidence.
-- Draft `D-record` marks `delegation_visibility_gap` `PASS` solely because a
-  delegation record exists. Draft `D-fragmentation` marks the field `FAIL`
-  because admitted delegation remains owner-visible and does not fragment the
-  contradiction, keeping `DR-fragmented` only as a contrast.
-- The supplied non-target grades are not real findings, a new positive record,
-  or schema acceptance.
+<synthetic_fixture id="GCF-FIXTURE-01">
+- One bounded synthetic packet supplies every core gate other than
+  `affected_system_and_standing` and `absorber_or_counterevidence` as `PASS`
+  for this exact logic test.
+- Synthetic source fragment `S-support` supports bounded system `SYS-one` and
+  affected standing `G-one`.
+- Equally admitted synthetic fragment `S-conflict` directly and materially
+  contradicts whether `G-one` belongs to `SYS-one`. Neither fragment has
+  priority, and the conflict cannot be resolved from the admitted packet.
+- Draft `D-silent` preserves only `S-support`, labels
+  `affected_system_and_standing` `PASS`, and leaves `S-conflict`
+  undispositioned.
+- Draft `D-graded` preserves both fragments, labels the target field
+  `CONTESTED`, grades the contradiction `unresolved`, and refuses positive
+  qualification without deleting the bounded record from further inquiry.
+- The fixture does not establish a real standing claim, require unanimity,
+  erase contested evidence, or authorize a new record, remedy, acceptance
+  decision, or action.
 - All names and facts are synthetic. No real source, system, person,
   organization, remedy, domain conclusion, or external action is represented.
 </synthetic_fixture>
@@ -56,52 +58,54 @@ expose the assumption. A route label alone is insufficient.
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-DVG-0001-delegation-visibility-and-fragmentation.md` with exactly these
+`SF-GCF-0001-graded-contradiction-and-field-status.md` with exactly these
 sections:
 
-1. YAML frontmatter containing `test_id: SF-DVG-0001`,
+1. YAML frontmatter containing `test_id: SF-GCF-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_delegation_visibility_proposal`,
+   `status: synthetic_graded_contradiction_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF DVG 0001 - Delegation Visibility And Fragmentation`.
+2. `# SF GCF 0001 - Graded Contradiction And Field Status`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
-   and no-action status.
-4. `## Synthetic Fixture` faithfully separating `O-review`, `R-review`,
-   `DR-list`, `DR-fragmented`, `D-record`, and `D-fragmentation`. Do not treat
-   delegation or multiple reviewers as proof of fragmented review.
-5. `## Delegation Visibility Ledger` comparing delegation record, evidence
-   visibility, contradiction visibility, accountable-owner visibility,
-   correction-route continuity, fragmentation result, target-field result,
-   and uncertainty for both drafts.
+   no-source-unanimity, and no-action status.
+4. `## Synthetic Fixture` faithfully separating `S-support`, `S-conflict`,
+   `SYS-one`, `G-one`, `D-silent`, and `D-graded`. Do not resolve the admitted
+   contradiction, discard either fragment, or treat explicit grading as a
+   positive-field pass.
+5. `## Contradiction Disposition Ledger` comparing admitted support, admitted
+   contradiction, preservation, conflict grade, target-field status, positive-
+   qualification result, inquiry retention, and uncertainty for both drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
-   Give every non-target row `PASS` with the literal reason `supplied premise`.
-   Give `delegation_visibility_gap` `FAIL` because the admitted delegation
-   remains visible to the reviewers and accountable owner and does not
-   fragment the contradiction. Do not regrade the supplied core premises.
-7. `## Nearby-Control Comparison` keeping delegation record, distributed
-   review, contradiction visibility, owner visibility, correction-route
-   capability, hypothetical fragmentation, and overall qualification
-   distinct. State whether current wording already requires actual
-   review-chain fragmentation rather than delegation presence.
+   Give every row other than `affected_system_and_standing` and
+   `absorber_or_counterevidence` `PASS` with the literal reason `supplied premise`.
+   Give `affected_system_and_standing` `CONTESTED` with the literal reason
+   `direct material contradiction preserved and graded unresolved`. Give
+   `absorber_or_counterevidence` `PASS` with the literal reason `contradiction
+   preserved and graded`; do not regrade any other supplied gate.
+7. `## Nearby-Control Comparison` keeping source disagreement, direct material
+   contradiction, explicit grading, field pass, positive qualification,
+   source unanimity, and inquiry retention distinct. State whether current
+   wording already refuses the silent pass while allowing explicit contested
+   evidence to remain visible.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-DVG-0001` only if current controls treat any delegation as a
-     qualifying visibility gap; or
-   - `ALREADY HANDLED — DELEGATION PRESENCE DOES NOT ESTABLISH REVIEW-CHAIN FRAGMENTATION`
-     when current wording already requires source-supported fragmentation of
-     the contradiction.
+   - `PROPOSE SF-GCF-0001` only if current controls either permit a silent
+     `PASS` or require every graded conflict to be erased from inquiry; or
+   - `ALREADY HANDLED — DIRECT MATERIAL CONTRADICTION MUST BE GRADED AND CANNOT SILENTLY PASS`
+     when current wording already preserves explicit contested evidence while
+     refusing positive qualification.
 9. `## Candidate Effect` containing exactly `NONE — CURRENT CONTROL ALREADY
-   REQUIRES DELEGATION TO FRAGMENT CONTRADICTION VISIBILITY` when the verdict
-   is already handled. Do not propose a delegation taxonomy, workflow, remedy,
-   authority change, or new acceptance rule.
-10. `## Frontier Verification` listing only exact evidence, delegation-record,
-    evidence-visibility, contradiction-visibility, accountable-owner,
-    correction-route, fragmentation, supplied-premise, qualification,
-    wording, and boundary checks needed before integration.
+   PRESERVES GRADED CONFLICT WHILE REFUSING A SILENT FIELD PASS` when the
+   verdict is already handled. Do not propose a conflict score, source
+   hierarchy, remedy, deletion rule, or new acceptance threshold.
+10. `## Frontier Verification` listing only exact evidence, support-fragment,
+    contradiction-fragment, preservation, grade, target-field, counterevidence,
+    supplied-premise, qualification, inquiry-retention, wording, and boundary
+    checks needed before integration.
 
 Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
 artifact or its YAML frontmatter in a code fence; the first response line must
