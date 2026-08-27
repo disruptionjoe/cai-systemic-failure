@@ -1,4 +1,4 @@
-# Draft a formal-retirement versus documented operative-reuse pressure test
+# Draft a named-reviewer versus accountable-review-authority pressure test
 
 ## Boundary
 
@@ -10,41 +10,36 @@ Frontier verification, not owner truth.
 
 ## Evidence
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-A qualifying record must show an old assumption reused under a changed
-condition or changed evidence context, and the changed condition must create a
-validation burden shown as unmet, disputed, fragmented, or not owner-visible
-enough.
-</evidence>
-
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `assumption_source_context` field must preserve any known retirement or
-replacement event and include evidence that the assumption remained active or
-was reused during the changed condition. Refuse when chronology substitutes
-for evidence of continued reliance or reuse.
+The `accountable_review_owner` field must distinguish the assumption owner
+from the owner who could review, stop, escalate, or revise its reuse. Refuse if
+accountability is only a generic organization label.
 </evidence>
 
-<evidence path="topology/SF-TC-0001-temporal-coherence.md#verdict">
-Same-system identity and chronology do not establish that an old assumption
-remained active or was reused during a later changed condition.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
+Delegation, review, or request paths must be material to the contradiction, and
+the changed condition must create a validation burden shown as unmet,
+disputed, fragmented, or not owner-visible enough.
 </evidence>
 
-<synthetic_fixture id="FOR-FIXTURE-01">
-- One bounded synthetic packet supplies changed condition `C-late` and every
-  non-target core gate as `PASS` for this exact logic test.
-- Master register `R-master` marks assumption `A-old` retired before `C-late`.
-- Later exception record `W-live`, issued after `C-late`, explicitly
-  reauthorizes `A-old` as an operative premise for decision scope `S-late`.
-- `W-live` identifies `R-master`, preserves the prior retirement, limits the
-  reuse to `S-late`, and records stop condition `Q-stop`. The admitted packet
-  does not treat the retirement as erased or claim reuse outside `S-late`.
-- Draft `D-status` marks `assumption_source_context` `FAIL` from the formal
-  retirement alone. Draft `D-use` marks the field `PASS` because the packet
-  preserves both the retirement and the explicit later operative reuse.
-- The fixture does not claim that every exception revives a retired
-  assumption, that `W-live` is valid beyond its stated scope, or that the reuse
-  is a remedy, safe, adequate, or accepted. It tests only whether documented
-  later operative reuse remains evidence despite an earlier formal status.
+<synthetic_fixture id="NRA-FIXTURE-01">
+- One bounded synthetic packet supplies every non-target core gate as `PASS`
+  for this exact logic test.
+- Old assumption `A-old` is reused under changed condition `C-new` before
+  decision `D-final`.
+- Meeting record `M-attend` names reviewer `R-observer`, records that
+  `R-observer` received the contradiction packet, and permits comment.
+- The same admitted packet explicitly says `R-observer` cannot stop,
+  escalate, approve, reject, or revise reuse of `A-old`.
+- Authority charter `C-authority` names `O-control` as the owner who can review,
+  stop, escalate, or revise that reuse. `O-control` receives the contradiction
+  packet before `D-final`.
+- Draft `D-name` marks `accountable_review_owner` `PASS` by naming
+  `R-observer`. Draft `D-authority` marks `R-observer` non-accountable for this
+  field and identifies `O-control` as the accountable review owner.
+- The fixture does not infer that `O-control` reviewed adequately, exercised
+  authority, made a safe decision, accepted the contradiction, or supplied a
+  remedy. It tests only named review presence versus accountable authority.
 - The supplied non-target grades are not real findings, a new positive record,
   or schema acceptance.
 - All names and facts are synthetic. No real source, system, person,
@@ -54,53 +49,56 @@ remained active or was reused during a later changed condition.
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-FOR-0001-formal-retirement-and-operative-reuse.md` with exactly these
+`SF-NRA-0001-named-reviewer-and-accountable-authority.md` with exactly these
 sections:
 
-1. YAML frontmatter containing `test_id: SF-FOR-0001`,
+1. YAML frontmatter containing `test_id: SF-NRA-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_formal_status_proposal`,
+   `status: synthetic_review_authority_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF FOR 0001 - Formal Retirement And Operative Reuse`.
+2. `# SF NRA 0001 - Named Reviewer And Accountable Authority`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
-   limited-scope, and no-action status.
-4. `## Synthetic Fixture` faithfully separating `R-master`, `A-old`,
-   `C-late`, `W-live`, `S-late`, `Q-stop`, `D-status`, and `D-use`. Do not
-   erase the retirement, generalize the exception, or infer adequacy from
-   reauthorization.
-5. `## Status And Operative-Role Ledger` comparing formal status, status
-   source, later record, later decision scope, operative premise, reuse
-   evidence, scope limit, stop condition, target-field result, qualification
-   result, and uncertainty for both drafts.
+   no-adequacy-inference, no-exercise-of-authority inference, and no-action
+   status.
+4. `## Synthetic Fixture` faithfully separating `A-old`, `C-new`, `D-final`,
+   `M-attend`, `R-observer`, `C-authority`, `O-control`, `D-name`, and
+   `D-authority`. Do not convert attendance, receipt, or permission to comment
+   into stop, escalation, approval, rejection, or revision authority.
+5. `## Reviewer And Authority Ledger` comparing named reviewer, packet
+   receipt, comment permission, stop authority, escalation authority, approval
+   or rejection authority, revision authority, authority source, accountable
+   owner result, qualification result, and uncertainty for both drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give every non-target row `PASS` with the literal reason `supplied premise`.
-   Give `assumption_source_context` `PASS` with the literal reason `formal
-   retirement and documented later operative reuse are both preserved`. Do
-   not infer adequacy, acceptance, or failure of any other gate.
-7. `## Nearby-Control Comparison` keeping formal retirement, historical
-   evidence, later reauthorization, operative reuse, decision-scope limit,
-   continued reliance, chronology, stop condition, and overall qualification
-   distinct. State whether current wording already requires both retirement
-   lineage and evidence of later operative reuse to be preserved.
+   Give `accountable_review_owner` `PASS` with the literal reason `owner with
+   review, stop, escalation, and revision authority is identified`. Do not
+   infer adequacy, authority exercise, acceptance, or failure of another gate.
+7. `## Nearby-Control Comparison` keeping reviewer identity, attendance,
+   packet receipt, comment permission, assumption ownership, accountable
+   review authority, authority source, authority exercise, review adequacy,
+   and overall qualification distinct. State whether current wording already
+   requires an owner able to review, stop, escalate, or revise reuse rather
+   than a merely named reviewer.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-FOR-0001` only if current controls require formal retirement
-     to defeat explicit source-backed later operative reuse; or
-   - `ALREADY HANDLED — FORMAL RETIREMENT DOES NOT OVERRIDE DOCUMENTED LATER OPERATIVE REUSE`
-     when current wording already preserves retirement lineage while judging
-     whether the assumption was actually reused in the later decision context.
+   - `PROPOSE SF-NRA-0001` only if current controls let a named reviewer without
+     the relevant authority satisfy `accountable_review_owner`; or
+   - `ALREADY HANDLED — NAMED REVIEW PRESENCE DOES NOT ESTABLISH ACCOUNTABLE REVIEW AUTHORITY`
+     when current wording already requires the relevant review, stop,
+     escalation, or revision authority.
 9. `## Candidate Effect` containing exactly `NONE — CURRENT CONTROL ALREADY
-   PRESERVES FORMAL RETIREMENT AND DOCUMENTED LATER OPERATIVE REUSE AS DISTINCT
-   FACTS` when the verdict is already handled. Do not propose an exception
-   policy, retirement rule, remedy, or new acceptance rule.
-10. `## Frontier Verification` listing only exact evidence, formal-status,
-    status-source, later-record, decision-scope, operative-premise, reuse,
-    scope-limit, stop-condition, supplied-premise, qualification, wording, and
-    boundary checks needed before integration.
+   DISTINGUISHES NAMED REVIEW PRESENCE FROM ACCOUNTABLE REVIEW AUTHORITY` when
+   the verdict is already handled. Do not propose an organization design,
+   delegation rule, remedy, adequacy finding, acceptance rule, or new field.
+10. `## Frontier Verification` listing only exact evidence, reviewer-identity,
+    attendance, packet-receipt, comment-permission, stop-authority,
+    escalation-authority, approval-or-rejection-authority, revision-authority,
+    authority-source, supplied-premise, qualification, wording, and boundary
+    checks needed before integration.
 
 Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
 artifact or its YAML frontmatter in a code fence; the first response line must
