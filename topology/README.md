@@ -196,6 +196,12 @@ active or was reused during a later changed condition. The candidate refuses
 the synthetic fixture, narrows existing source-context and record-bridge
 language, adds no core field, and remains provisional.
 
+`SF-DRA-0001-later-authority-and-decision-time-authority.md` tests whether a
+later charter and capable future owner can satisfy accountable review for an
+earlier reuse decision. The candidate refuses later-only authority for that
+decision, preserves it as graded historical or future-route evidence, narrows
+one existing field, adds no core field, and remains provisional.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

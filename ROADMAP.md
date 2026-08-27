@@ -97,7 +97,10 @@
     and communication, single-owner execution, infrastructure capacity,
     resource adequacy, and new-design/change-control as distinct narrower
     explanations (`SF-ABSORBER-BOUNDARY-MATRIX`).
-35. Next: keep the candidate provisional and add another bounded test only if a
+35. Done: run a synthetic decision-time review-authority falsifier that refuses
+    later-only authority as proof of accountable review for an earlier reuse
+    decision (`SF-DRA-0001`).
+36. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

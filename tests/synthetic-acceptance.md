@@ -30,6 +30,10 @@
   evidence that the assumption remained active or was reused during that
   condition fails candidate qualification; same-system chronology is not a
   temporal bridge (`SF-TC-0001`).
+- A record whose only named accountable review owner receives relevant
+  authority after the reuse decision under review fails candidate
+  qualification for that decision; later authority remains graded evidence
+  and is not backdated (`SF-DRA-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).

@@ -142,6 +142,12 @@ candidate refuses positive qualification when an old assumption and a later
 changed condition share a system but the admitted sequence says the assumption
 was retired first and supplies no evidence of continued reliance or reuse. The
 nine core fields and provisional status remain unchanged.
+`SF-DRA-0001` then tests decision-time review authority with a synthetic
+fixture. The candidate refuses positive qualification when its only named
+capable owner receives relevant authority after the reuse decision is final.
+Later authority remains graded historical or future-route evidence; the
+accountable-owner wording is narrowed, no core field is added, and the
+candidate remains provisional.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
@@ -164,7 +170,8 @@ one non-accepting acceptance packet with explicit unresolved-class deferrals,
 one counterevidence-quality asymmetry falsifier, one source-revision-lineage
 falsifier, one correction-route-authority falsifier, one composite-evidence
 coherence falsifier, one intra-packet-contradiction falsifier, one annotation-
-lineage reconciliation, and one temporal-coherence falsifier while preserving
+lineage reconciliation, one temporal-coherence falsifier, and one decision-
+time-review-authority falsifier while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, procedural-acceptance caution, absorber discipline, remaining falsifier
 classes, and no-remedy boundaries. No human research, field data, intervention,
