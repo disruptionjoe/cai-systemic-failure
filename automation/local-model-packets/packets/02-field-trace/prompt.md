@@ -1,4 +1,4 @@
-# Draft an evidence-presence versus review-chain-visibility pressure test
+# Draft a single-actor awareness versus delegated-review fragmentation pressure test
 
 ## Boundary
 
@@ -11,16 +11,15 @@ Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `observation_environment` field must preserve how the relevant evidence
-was made visible, missed, normalized, routed, or disputed without importing
-domain conclusions. Refuse if the field becomes a domain-specific remedy or
-expertise claim.
+The `delegation_visibility_gap` field must show how distributed review,
+authority, request paths, or delegated decisions fragmented the contradiction.
+Refuse if no review-chain fragmentation is source-supported.
 </evidence>
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-A qualifying record must preserve the admitted evidence basis and the review
-chain without manufacturing certainty. A field may remain contested,
-provisional, or unresolved when the source posture is explicit.
+Delegation, review, or request paths must be material to the contradiction, and
+the changed condition must create a validation burden shown as unmet,
+disputed, fragmented, or not owner-visible enough.
 </evidence>
 
 <evidence path="ROADMAP.md">
@@ -29,25 +28,25 @@ public or synthetic case creates material pressure on a core field, refusal
 note, annotation, source gate, or correction-route gate.
 </evidence>
 
-<synthetic_fixture id="EPV-FIXTURE-01">
+<synthetic_fixture id="DVA-FIXTURE-01">
 - One bounded synthetic packet supplies every non-target core gate as `PASS`
   for this exact logic test.
-- Contemporaneous fragment `E-logged` records a relevant contradiction before
-  decision `D-reuse` and is stored in archive `L-store`.
-- The admitted packet states that `E-logged` was retrievable only through a
-  specific search that no review actor performed before `D-reuse`. It was not
-  surfaced by an alert, review packet, request path, or ordinary review view.
-- Later inspection `I-later` discovers `E-logged` after `D-reuse`. The fixture
-  does not treat that later discovery as retrospective creation of the
-  evidence; the fragment existed contemporaneously but was missed by the
-  review chain.
-- Draft `D-presence` says the contradiction was visible because `E-logged`
-  existed in `L-store`. Draft `D-environment` records contemporaneous presence,
-  archive retrievability, no pre-decision surfacing, and later discovery as
-  distinct facts.
-- The fixture does not claim that all stored data must be alerted, prescribe a
-  monitoring design, infer negligence, establish a remedy failure, or require
-  that every review actor personally see every fragment.
+- Contradiction `E-conflict` reaches analyst `A-review` before decision
+  `D-final`. `A-review` acknowledges it and may annotate a local record but
+  cannot stop, revise, or decide `D-final`.
+- Delegated decision authority is split between `O-scope`, which approves the
+  applicable scope without receiving `E-conflict`, and `O-release`, which
+  approves release from summary `P-short` that omits `E-conflict`.
+- No admitted fact says that `A-review`'s awareness was surfaced to either
+  delegated decision owner before `D-final`. The fixture preserves awareness
+  by one actor and fragmentation across the decision chain as distinct facts.
+- Draft `D-aware` marks `delegation_visibility_gap` `FAIL` because one review
+  actor saw the contradiction. Draft `D-chain` marks the field `PASS` because
+  single-actor awareness did not make the contradiction visible across the
+  delegated decision path.
+- The fixture does not infer negligence, prescribe routing or organization
+  design, claim that every delegated decision is fragmented, or require every
+  actor to receive every fragment.
 - The supplied non-target grades are not real findings, a new positive record,
   or schema acceptance.
 - All names and facts are synthetic. No real source, system, person,
@@ -57,54 +56,56 @@ note, annotation, source gate, or correction-route gate.
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-EPV-0001-evidence-presence-and-review-visibility.md` with exactly these
+`SF-DVA-0001-delegated-review-and-actor-awareness.md` with exactly these
 sections:
 
-1. YAML frontmatter containing `test_id: SF-EPV-0001`,
+1. YAML frontmatter containing `test_id: SF-DVA-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_evidence_visibility_proposal`,
+   `status: synthetic_delegated_visibility_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF EPV 0001 - Evidence Presence And Review Visibility`.
+2. `# SF DVA 0001 - Delegated Review And Actor Awareness`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
-   no-monitoring-prescription, and no-action status.
-4. `## Synthetic Fixture` faithfully separating `E-logged`, `L-store`,
-   `D-reuse`, `I-later`, `D-presence`, and `D-environment`. Do not treat
-   contemporaneous storage as proof of review-chain visibility or later
-   discovery as proof that the evidence did not previously exist.
-5. `## Presence And Visibility Ledger` comparing evidence existence, storage,
-   retrievability, pre-decision surfacing, review-actor awareness, later
-   discovery, observation-environment description, target-field result, and
-   uncertainty for both drafts.
+   no-negligence, no-organization-prescription, and no-action status.
+4. `## Synthetic Fixture` faithfully separating `E-conflict`, `A-review`,
+   `D-final`, `O-scope`, `O-release`, `P-short`, `D-aware`, and `D-chain`.
+   Do not treat single-actor awareness as proof of end-to-end visibility or
+   delegated authority as proof of fragmentation by itself.
+5. `## Awareness And Delegation Ledger` comparing contradiction receipt,
+   actor awareness, actor authority, scope-owner visibility, release-owner
+   visibility, summary content, delegated decision path, fragmentation,
+   target-field result, and uncertainty for both drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give every non-target row `PASS` with the literal reason `supplied premise`.
-   Give `observation_environment` `PASS` with the literal reason
-   `contemporaneous evidence existed but was not surfaced to the review chain;
-   the miss is preserved`. Do not infer failure of any other gate.
-7. `## Nearby-Control Comparison` keeping contemporaneous existence, storage,
-   retrievability, ordinary availability, review-chain surfacing, actor
-   awareness, later discovery, field completeness, and overall qualification
-   distinct. State whether current wording already distinguishes evidence
-   presence from how evidence was made visible or missed.
+   Give `delegation_visibility_gap` `PASS` with the literal reason `one review
+   actor saw the contradiction but delegated decision authority remained
+   fragmented across the review chain`. Do not infer failure of any other
+   gate.
+7. `## Nearby-Control Comparison` keeping evidence receipt, actor awareness,
+   actor authority, annotation ability, decision ownership, delegated scope,
+   summary omission, owner-visible contradiction, review-chain fragmentation,
+   and overall qualification distinct. State whether current wording already
+   distinguishes one actor seeing evidence from the contradiction becoming
+   visible across the delegated decision chain.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-EPV-0001` only if current controls equate contemporaneous
-     evidence presence with review-chain visibility or cannot represent a
-     source-backed miss; or
-   - `ALREADY HANDLED — EVIDENCE PRESENCE DOES NOT ESTABLISH REVIEW-CHAIN VISIBILITY`
-     when current wording already requires the observation environment to
-     preserve how evidence was made visible or missed.
+   - `PROPOSE SF-DVA-0001` only if current controls treat awareness by any one
+     review actor as defeating a source-backed delegated visibility gap; or
+   - `ALREADY HANDLED — SINGLE-ACTOR AWARENESS DOES NOT DEFEAT DELEGATED REVIEW FRAGMENTATION`
+     when current wording already asks whether distributed review and authority
+     fragmented the contradiction across the review chain.
 9. `## Candidate Effect` containing exactly `NONE — CURRENT CONTROL ALREADY
-   DISTINGUISHES EVIDENCE PRESENCE FROM HOW IT WAS MADE VISIBLE OR MISSED` when
-   the verdict is already handled. Do not propose an alert threshold,
-   monitoring design, remedy, negligence finding, or new acceptance rule.
-10. `## Frontier Verification` listing only exact evidence, existence,
-    storage, retrievability, pre-decision-surfacing, actor-awareness, later-
-    discovery, observation-environment, supplied-premise, qualification,
-    wording, and boundary checks needed before integration.
+   DISTINGUISHES SINGLE-ACTOR AWARENESS FROM OWNER-VISIBLE REVIEW-CHAIN
+   INTEGRATION` when the verdict is already handled. Do not propose a routing
+   rule, organization design, remedy, negligence finding, or new acceptance
+   rule.
+10. `## Frontier Verification` listing only exact evidence, contradiction-
+    receipt, actor-awareness, actor-authority, scope-owner, release-owner,
+    summary-content, delegated-path, fragmentation, supplied-premise,
+    qualification, wording, and boundary checks needed before integration.
 
 Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
 artifact or its YAML frontmatter in a code fence; the first response line must

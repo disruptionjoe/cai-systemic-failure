@@ -1,4 +1,4 @@
-# Draft an assumption-label identity versus operative-reuse pressure test
+# Draft a formal-retirement versus documented operative-reuse pressure test
 
 ## Boundary
 
@@ -18,11 +18,10 @@ enough.
 </evidence>
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `assumption_source_context` field must name the reused assumption and the
-source, report, decision context, revision, version, date, or evidence basis
-relied on for the synthesis. Refuse when same-system chronology substitutes for
-evidence that the assumption remained active or was reused during the changed
-condition.
+The `assumption_source_context` field must preserve any known retirement or
+replacement event and include evidence that the assumption remained active or
+was reused during the changed condition. Refuse when chronology substitutes
+for evidence of continued reliance or reuse.
 </evidence>
 
 <evidence path="topology/SF-TC-0001-temporal-coherence.md#verdict">
@@ -30,24 +29,22 @@ Same-system identity and chronology do not establish that an old assumption
 remained active or was reused during a later changed condition.
 </evidence>
 
-<synthetic_fixture id="ARO-FIXTURE-01">
+<synthetic_fixture id="FOR-FIXTURE-01">
 - One bounded synthetic packet supplies changed condition `C-late` and every
   non-target core gate as `PASS` for this exact logic test.
-- Earlier decision record `R-early` uses literal label `A-shared` as an
-  operative premise for decision scope `S-early`.
-- Later record `R-late` occurs after `C-late` and contains the same literal
-  label `A-shared` only in an archived-background paragraph describing
-  `R-early`.
-- The operative premises for later decision scope `S-late` are separately
-  named as `B-live`. The admitted packet contains no adoption, reliance,
-  carry-forward, or reuse of `A-shared` in `S-late`.
-- Draft `D-label` marks `assumption_source_context` `PASS` from the repeated
-  label and later chronology alone. Draft `D-role` marks the field `FAIL`
-  because literal identity does not establish operative reuse in the later
-  decision context.
-- The fixture does not claim that wording identity is meaningless, that
-  `A-shared` was formally retired, or that `B-live` is a remedy or a better
-  premise. It tests only the evidence required for operative reuse.
+- Master register `R-master` marks assumption `A-old` retired before `C-late`.
+- Later exception record `W-live`, issued after `C-late`, explicitly
+  reauthorizes `A-old` as an operative premise for decision scope `S-late`.
+- `W-live` identifies `R-master`, preserves the prior retirement, limits the
+  reuse to `S-late`, and records stop condition `Q-stop`. The admitted packet
+  does not treat the retirement as erased or claim reuse outside `S-late`.
+- Draft `D-status` marks `assumption_source_context` `FAIL` from the formal
+  retirement alone. Draft `D-use` marks the field `PASS` because the packet
+  preserves both the retirement and the explicit later operative reuse.
+- The fixture does not claim that every exception revives a retired
+  assumption, that `W-live` is valid beyond its stated scope, or that the reuse
+  is a remedy, safe, adequate, or accepted. It tests only whether documented
+  later operative reuse remains evidence despite an earlier formal status.
 - The supplied non-target grades are not real findings, a new positive record,
   or schema acceptance.
 - All names and facts are synthetic. No real source, system, person,
@@ -57,52 +54,53 @@ remained active or was reused during a later changed condition.
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-ARO-0001-assumption-label-and-operative-reuse.md` with exactly these
+`SF-FOR-0001-formal-retirement-and-operative-reuse.md` with exactly these
 sections:
 
-1. YAML frontmatter containing `test_id: SF-ARO-0001`,
+1. YAML frontmatter containing `test_id: SF-FOR-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_assumption_reuse_proposal`,
+   `status: synthetic_formal_status_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF ARO 0001 - Assumption Label And Operative Reuse`.
+2. `# SF FOR 0001 - Formal Retirement And Operative Reuse`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
-   and no-action status.
-4. `## Synthetic Fixture` faithfully separating `A-shared`, `R-early`,
-   `S-early`, `C-late`, `R-late`, `S-late`, `B-live`, `D-label`, and
-   `D-role`. Do not infer operative reuse from wording identity, chronology,
-   or same-system context.
-5. `## Label And Decision-Role Ledger` comparing literal label, source record,
-   decision scope, operative premise, background mention, reuse evidence,
-   target-field result, qualification result, and uncertainty for both drafts.
+   limited-scope, and no-action status.
+4. `## Synthetic Fixture` faithfully separating `R-master`, `A-old`,
+   `C-late`, `W-live`, `S-late`, `Q-stop`, `D-status`, and `D-use`. Do not
+   erase the retirement, generalize the exception, or infer adequacy from
+   reauthorization.
+5. `## Status And Operative-Role Ledger` comparing formal status, status
+   source, later record, later decision scope, operative premise, reuse
+   evidence, scope limit, stop condition, target-field result, qualification
+   result, and uncertainty for both drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give every non-target row `PASS` with the literal reason `supplied premise`.
-   Give `assumption_source_context` `FAIL` with the literal reason `same label
-   and chronology do not establish operative reuse in the later decision
-   context`. Do not infer failure of any other gate.
-7. `## Nearby-Control Comparison` keeping literal wording identity, source
-   continuity, same-system chronology, background mention, operative reliance,
-   decision-scope continuity, assumption retirement, and overall qualification
-   distinct. State whether current wording already requires evidence of reuse
-   in the relevant decision context.
+   Give `assumption_source_context` `PASS` with the literal reason `formal
+   retirement and documented later operative reuse are both preserved`. Do
+   not infer adequacy, acceptance, or failure of any other gate.
+7. `## Nearby-Control Comparison` keeping formal retirement, historical
+   evidence, later reauthorization, operative reuse, decision-scope limit,
+   continued reliance, chronology, stop condition, and overall qualification
+   distinct. State whether current wording already requires both retirement
+   lineage and evidence of later operative reuse to be preserved.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-ARO-0001` only if current controls allow label identity or
-     chronology alone to establish operative assumption reuse; or
-   - `ALREADY HANDLED — LABEL IDENTITY DOES NOT ESTABLISH OPERATIVE ASSUMPTION REUSE`
-     when current wording already requires evidence that the assumption was
-     active or reused in the relevant decision context.
+   - `PROPOSE SF-FOR-0001` only if current controls require formal retirement
+     to defeat explicit source-backed later operative reuse; or
+   - `ALREADY HANDLED — FORMAL RETIREMENT DOES NOT OVERRIDE DOCUMENTED LATER OPERATIVE REUSE`
+     when current wording already preserves retirement lineage while judging
+     whether the assumption was actually reused in the later decision context.
 9. `## Candidate Effect` containing exactly `NONE — CURRENT CONTROL ALREADY
-   REQUIRES EVIDENCE OF OPERATIVE REUSE IN THE RELEVANT DECISION CONTEXT` when
-   the verdict is already handled. Do not propose a semantic-similarity score,
-   a presumption of retirement, a remedy, or a new acceptance rule.
-10. `## Frontier Verification` listing only exact evidence, label, source-
-    record, decision-scope, operative-premise, background-mention, reuse,
-    supplied-premise, qualification, wording, and boundary checks needed before
-    integration.
+   PRESERVES FORMAL RETIREMENT AND DOCUMENTED LATER OPERATIVE REUSE AS DISTINCT
+   FACTS` when the verdict is already handled. Do not propose an exception
+   policy, retirement rule, remedy, or new acceptance rule.
+10. `## Frontier Verification` listing only exact evidence, formal-status,
+    status-source, later-record, decision-scope, operative-premise, reuse,
+    scope-limit, stop-condition, supplied-premise, qualification, wording, and
+    boundary checks needed before integration.
 
 Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
 artifact or its YAML frontmatter in a code fence; the first response line must
