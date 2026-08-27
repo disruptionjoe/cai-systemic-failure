@@ -52,6 +52,24 @@ handled effect, or make the local executor select work. The four-hour learning
 review may recommend authoring changes in `LEARNING.md`, but it cannot edit
 active prompts, schedules, model settings, or target truth.
 
+## Pilot versioning authority
+
+Joe's direct instruction on 2026-08-27 confirms that an admitted Prepared
+Progress child under this `operational_pilot` carries standing authorization
+for normal non-force GitHub versioning of its exact declared owner write scope.
+The child owns target commit, push to the configured branch and remote, fresh
+publication attestation, session finish, and claim release. It does not wait
+for a separate per-cycle disclosure or push approval for public, licensed,
+safely shareable, or synthetic owner files already admitted by the valid
+envelope.
+
+Resolve this standing authority during admission, before the first owner
+write. If it does not resolve, stop before editing or committing; never strand
+a local owner commit by inventing a new permission gate during target close.
+This standing authority grants no force-push, no write outside the admitted
+scope, no sensitive or non-public content, and no external action outside
+ordinary GitHub versioning.
+
 ## Hourly operating behavior
 
 The hourly parent freezes every completed factual attempt after its prior
