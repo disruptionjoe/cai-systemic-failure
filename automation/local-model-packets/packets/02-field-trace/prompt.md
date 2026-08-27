@@ -1,4 +1,4 @@
-# Draft a single-actor awareness versus delegated-review fragmentation pressure test
+# Draft a delegated-review presence versus integrated-visibility pressure test
 
 ## Boundary
 
@@ -28,25 +28,26 @@ public or synthetic case creates material pressure on a core field, refusal
 note, annotation, source gate, or correction-route gate.
 </evidence>
 
-<synthetic_fixture id="DVA-FIXTURE-01">
+<synthetic_fixture id="DVI-FIXTURE-01">
 - One bounded synthetic packet supplies every non-target core gate as `PASS`
   for this exact logic test.
 - Contradiction `E-conflict` reaches analyst `A-review` before decision
-  `D-final`. `A-review` acknowledges it and may annotate a local record but
-  cannot stop, revise, or decide `D-final`.
+  `D-final`. `A-review` acknowledges it and records it in packet `P-full`.
 - Delegated decision authority is split between `O-scope`, which approves the
-  applicable scope without receiving `E-conflict`, and `O-release`, which
-  approves release from summary `P-short` that omits `E-conflict`.
-- No admitted fact says that `A-review`'s awareness was surfaced to either
-  delegated decision owner before `D-final`. The fixture preserves awareness
-  by one actor and fragmentation across the decision chain as distinct facts.
-- Draft `D-aware` marks `delegation_visibility_gap` `FAIL` because one review
-  actor saw the contradiction. Draft `D-chain` marks the field `PASS` because
-  single-actor awareness did not make the contradiction visible across the
-  delegated decision path.
-- The fixture does not infer negligence, prescribe routing or organization
-  design, claim that every delegated decision is fragmented, or require every
-  actor to receive every fragment.
+  applicable scope, and `O-release`, which approves release.
+- Before either approval and before `D-final`, both `O-scope` and `O-release`
+  receive the same complete `P-full`, acknowledge `E-conflict`, and retain a
+  shared pointer to the same contradiction record.
+- The admitted packet supplies no missing handoff, omitted summary, hidden
+  evidence, actor-only awareness, unresolved owner visibility, or other
+  fragmentation across the delegated decision path.
+- Draft `D-count` marks `delegation_visibility_gap` `PASS` merely because more
+  than one delegated decision owner exists. Draft `D-integrated` marks the
+  field `FAIL` because distributed authority did not fragment contradiction
+  visibility in this fixture.
+- The fixture does not infer that review was adequate, the decision was safe,
+  acknowledgment was acceptance, every delegated chain is integrated, or
+  complete visibility is a remedy.
 - The supplied non-target grades are not real findings, a new positive record,
   or schema acceptance.
 - All names and facts are synthetic. No real source, system, person,
@@ -56,56 +57,59 @@ note, annotation, source gate, or correction-route gate.
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-DVA-0001-delegated-review-and-actor-awareness.md` with exactly these
+`SF-DVI-0001-delegated-review-with-integrated-visibility.md` with exactly these
 sections:
 
-1. YAML frontmatter containing `test_id: SF-DVA-0001`,
+1. YAML frontmatter containing `test_id: SF-DVI-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_delegated_visibility_proposal`,
+   `status: synthetic_delegated_integration_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF DVA 0001 - Delegated Review And Actor Awareness`.
+2. `# SF DVI 0001 - Delegated Review With Integrated Visibility`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
-   no-negligence, no-organization-prescription, and no-action status.
+   no-adequacy-inference, no-acceptance-inference, and no-action status.
 4. `## Synthetic Fixture` faithfully separating `E-conflict`, `A-review`,
-   `D-final`, `O-scope`, `O-release`, `P-short`, `D-aware`, and `D-chain`.
-   Do not treat single-actor awareness as proof of end-to-end visibility or
-   delegated authority as proof of fragmentation by itself.
-5. `## Awareness And Delegation Ledger` comparing contradiction receipt,
-   actor awareness, actor authority, scope-owner visibility, release-owner
-   visibility, summary content, delegated decision path, fragmentation,
-   target-field result, and uncertainty for both drafts.
+   `P-full`, `D-final`, `O-scope`, `O-release`, `D-count`, and
+   `D-integrated`. Do not treat multiple delegated owners as fragmentation by
+   itself or complete visibility as proof of review adequacy or decision
+   safety.
+5. `## Delegation And Visibility Ledger` comparing contradiction receipt,
+   analyst awareness, packet completeness, scope-owner visibility,
+   release-owner visibility, acknowledgment timing, shared evidence pointer,
+   delegated decision path, fragmentation, target-field result,
+   qualification result, and uncertainty for both drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give every non-target row `PASS` with the literal reason `supplied premise`.
-   Give `delegation_visibility_gap` `PASS` with the literal reason `one review
-   actor saw the contradiction but delegated decision authority remained
-   fragmented across the review chain`. Do not infer failure of any other
-   gate.
-7. `## Nearby-Control Comparison` keeping evidence receipt, actor awareness,
-   actor authority, annotation ability, decision ownership, delegated scope,
-   summary omission, owner-visible contradiction, review-chain fragmentation,
-   and overall qualification distinct. State whether current wording already
-   distinguishes one actor seeing evidence from the contradiction becoming
-   visible across the delegated decision chain.
+   Give `delegation_visibility_gap` `FAIL` with the literal reason `distributed
+   decision authority preserved end-to-end contradiction visibility`. Do not
+   infer adequacy, acceptance, or failure of any other gate.
+7. `## Nearby-Control Comparison` keeping actor awareness, packet
+   completeness, decision ownership, delegation count, scope-owner visibility,
+   release-owner visibility, acknowledgment timing, shared evidence pointer,
+   review-chain fragmentation, validation adequacy, and overall qualification
+   distinct. State whether current wording already requires source-supported
+   fragmentation rather than delegation presence alone.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-DVA-0001` only if current controls treat awareness by any one
-     review actor as defeating a source-backed delegated visibility gap; or
-   - `ALREADY HANDLED — SINGLE-ACTOR AWARENESS DOES NOT DEFEAT DELEGATED REVIEW FRAGMENTATION`
-     when current wording already asks whether distributed review and authority
-     fragmented the contradiction across the review chain.
+   - `PROPOSE SF-DVI-0001` only if current controls treat multiple delegated
+     decision owners as sufficient evidence of a visibility gap even when the
+     complete contradiction is visible end to end; or
+   - `ALREADY HANDLED — DELEGATED REVIEW PRESENCE DOES NOT ESTABLISH REVIEW-CHAIN FRAGMENTATION`
+     when current wording already refuses the target field without
+     source-supported fragmentation.
 9. `## Candidate Effect` containing exactly `NONE — CURRENT CONTROL ALREADY
-   DISTINGUISHES SINGLE-ACTOR AWARENESS FROM OWNER-VISIBLE REVIEW-CHAIN
-   INTEGRATION` when the verdict is already handled. Do not propose a routing
-   rule, organization design, remedy, negligence finding, or new acceptance
-   rule.
+   REQUIRES SOURCE-SUPPORTED FRAGMENTATION RATHER THAN DELEGATION PRESENCE
+   ALONE` when the verdict is already handled. Do not propose an organization
+   design, routing rule, remedy, adequacy finding, acceptance rule, or new
+   field.
 10. `## Frontier Verification` listing only exact evidence, contradiction-
-    receipt, actor-awareness, actor-authority, scope-owner, release-owner,
-    summary-content, delegated-path, fragmentation, supplied-premise,
-    qualification, wording, and boundary checks needed before integration.
+    receipt, analyst-awareness, packet-completeness, scope-owner,
+    release-owner, acknowledgment-timing, shared-pointer, delegated-path,
+    fragmentation, supplied-premise, qualification, wording, and boundary
+    checks needed before integration.
 
 Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
 artifact or its YAML frontmatter in a code fence; the first response line must
