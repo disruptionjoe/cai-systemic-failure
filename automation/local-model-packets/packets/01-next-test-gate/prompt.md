@@ -1,4 +1,4 @@
-# Draft a named-reviewer versus accountable-review-authority pressure test
+# Draft a later authority versus decision-time review authority pressure test
 
 ## Boundary
 
@@ -17,29 +17,33 @@ accountability is only a generic organization label.
 </evidence>
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-Delegation, review, or request paths must be material to the contradiction, and
-the changed condition must create a validation burden shown as unmet,
-disputed, fragmented, or not owner-visible enough.
+An old assumption must be reused under a changed condition or evidence
+context, and the changed condition must create a validation burden shown as
+unmet, disputed, fragmented, or not owner-visible enough.
 </evidence>
 
-<synthetic_fixture id="NRA-FIXTURE-01">
+<synthetic_fixture id="DRA-FIXTURE-01">
 - One bounded synthetic packet supplies every non-target core gate as `PASS`
   for this exact logic test.
-- Old assumption `A-old` is reused under changed condition `C-new` before
-  decision `D-final`.
-- Meeting record `M-attend` names reviewer `R-observer`, records that
-  `R-observer` received the contradiction packet, and permits comment.
-- The same admitted packet explicitly says `R-observer` cannot stop,
+- Old assumption `A-old` is reused under changed condition `C-new` at
+  `T-reuse`, before decision `D-final` at `T-final`.
+- Before and through `T-final`, reviewer `R-comment` may attend, receive the
+  contradiction packet, and comment, but cannot review authoritatively, stop,
   escalate, approve, reject, or revise reuse of `A-old`.
-- Authority charter `C-authority` names `O-control` as the owner who can review,
-  stop, escalate, or revise that reuse. `O-control` receives the contradiction
-  packet before `D-final`.
-- Draft `D-name` marks `accountable_review_owner` `PASS` by naming
-  `R-observer`. Draft `D-authority` marks `R-observer` non-accountable for this
-  field and identifies `O-control` as the accountable review owner.
-- The fixture does not infer that `O-control` reviewed adequately, exercised
-  authority, made a safe decision, accepted the contradiction, or supplied a
-  remedy. It tests only named review presence versus accountable authority.
+- Charter revision `C-late` becomes operative only at `T-late`, after
+  `T-final`. It gives owner `O-late` review, stop, escalation, approval or
+  rejection, and revision authority for future reuse decisions.
+- The admitted packet explicitly says `O-late` had none of that authority at
+  `T-reuse` or before `D-final` and that no other accountable owner is shown
+  during the relevant decision window.
+- Draft `D-current` marks `accountable_review_owner` `PASS` because `O-late`
+  holds the named authority when the draft is written. Draft `D-window` marks
+  the field `FAIL` because the authority begins only after the reuse decision
+  and cannot establish accountable review authority for that decision.
+- The fixture does not infer that later authority is useless, that `O-late`
+  exercised authority, that earlier review would have changed the outcome, or
+  that any remedy is required. It tests later authority versus authority
+  available during the reuse decision window.
 - The supplied non-target grades are not real findings, a new positive record,
   or schema acceptance.
 - All names and facts are synthetic. No real source, system, person,
@@ -49,56 +53,63 @@ disputed, fragmented, or not owner-visible enough.
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-NRA-0001-named-reviewer-and-accountable-authority.md` with exactly these
+`SF-DRA-0001-later-authority-and-decision-time-authority.md` with exactly these
 sections:
 
-1. YAML frontmatter containing `test_id: SF-NRA-0001`,
+1. YAML frontmatter containing `test_id: SF-DRA-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_review_authority_proposal`,
+   `status: synthetic_decision_time_authority_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF NRA 0001 - Named Reviewer And Accountable Authority`.
+2. `# SF DRA 0001 - Later Authority And Decision-Time Authority`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
-   no-adequacy-inference, no-exercise-of-authority inference, and no-action
+   no-outcome-counterfactual, no-authority-exercise inference, and no-action
    status.
-4. `## Synthetic Fixture` faithfully separating `A-old`, `C-new`, `D-final`,
-   `M-attend`, `R-observer`, `C-authority`, `O-control`, `D-name`, and
-   `D-authority`. Do not convert attendance, receipt, or permission to comment
-   into stop, escalation, approval, rejection, or revision authority.
-5. `## Reviewer And Authority Ledger` comparing named reviewer, packet
-   receipt, comment permission, stop authority, escalation authority, approval
-   or rejection authority, revision authority, authority source, accountable
-   owner result, qualification result, and uncertainty for both drafts.
+4. `## Synthetic Fixture` faithfully separating `A-old`, `C-new`, `T-reuse`,
+   `D-final`, `T-final`, `R-comment`, `C-late`, `T-late`, `O-late`,
+   `D-current`, and `D-window`. Do not move `C-late` before `D-final`, convert
+   attendance or comment permission into authority, or infer an outcome.
+5. `## Authority Timeline Ledger` comparing authority source, effective time,
+   review authority, stop authority, escalation authority, approval or
+   rejection authority, revision authority, relation to `T-reuse`, relation to
+   `D-final`, accountable-owner result, target-field result, qualification
+   result, and uncertainty for both drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give every non-target row `PASS` with the literal reason `supplied premise`.
-   Give `accountable_review_owner` `PASS` with the literal reason `owner with
-   review, stop, escalation, and revision authority is identified`. Do not
-   infer adequacy, authority exercise, acceptance, or failure of another gate.
-7. `## Nearby-Control Comparison` keeping reviewer identity, attendance,
-   packet receipt, comment permission, assumption ownership, accountable
-   review authority, authority source, authority exercise, review adequacy,
-   and overall qualification distinct. State whether current wording already
-   requires an owner able to review, stop, escalate, or revise reuse rather
-   than a merely named reviewer.
+   Give `accountable_review_owner` `FAIL` with the literal reason `authority
+   begins only after the reuse decision`. Do not infer authority exercise,
+   outcome change, acceptance, or failure of another gate.
+7. `## Nearby-Control Comparison` keeping named reviewer, attendance, packet
+   receipt, comment permission, current charter existence, charter effective
+   time, later authority, decision-time authority, authority exercise, review
+   adequacy, correction-route timing, and overall qualification distinct.
+   State whether current wording already requires the accountable owner to
+   possess relevant authority during the reuse decision window rather than
+   merely at the later artifact-writing time.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-NRA-0001` only if current controls let a named reviewer without
-     the relevant authority satisfy `accountable_review_owner`; or
-   - `ALREADY HANDLED — NAMED REVIEW PRESENCE DOES NOT ESTABLISH ACCOUNTABLE REVIEW AUTHORITY`
-     when current wording already requires the relevant review, stop,
-     escalation, or revision authority.
-9. `## Candidate Effect` containing exactly `NONE — CURRENT CONTROL ALREADY
-   DISTINGUISHES NAMED REVIEW PRESENCE FROM ACCOUNTABLE REVIEW AUTHORITY` when
-   the verdict is already handled. Do not propose an organization design,
-   delegation rule, remedy, adequacy finding, acceptance rule, or new field.
-10. `## Frontier Verification` listing only exact evidence, reviewer-identity,
-    attendance, packet-receipt, comment-permission, stop-authority,
-    escalation-authority, approval-or-rejection-authority, revision-authority,
-    authority-source, supplied-premise, qualification, wording, and boundary
-    checks needed before integration.
+   - `PROPOSE SF-DRA-0001 — DECISION-TIME REVIEW AUTHORITY IS NOT EXPLICIT`
+     only if current controls allow authority acquired after `D-final` to
+     satisfy `accountable_review_owner` for that earlier decision; or
+   - `ALREADY HANDLED — LATER AUTHORITY DOES NOT ESTABLISH DECISION-TIME ACCOUNTABLE REVIEW AUTHORITY`
+     when current wording already requires relevant authority for the reuse
+     decision under review.
+9. `## Candidate Effect` containing exactly `PROPOSE CLARIFYING
+   accountable_review_owner TO REQUIRE RELEVANT AUTHORITY DURING THE REUSE
+   DECISION WINDOW` when the verdict is `PROPOSE`, or exactly `NONE — CURRENT
+   CONTROL ALREADY REQUIRES ACCOUNTABLE REVIEW AUTHORITY FOR THE REUSE
+   DECISION UNDER REVIEW` when the verdict is already handled. Do not propose
+   a remedy, organization design, retroactive authority rule, acceptance rule,
+   or new field.
+10. `## Frontier Verification` listing only exact evidence, timeline,
+    reviewer-role, attendance, packet-receipt, comment-permission,
+    charter-effective-time, review-authority, stop-authority,
+    escalation-authority, approval-or-rejection-authority,
+    revision-authority, decision-window, supplied-premise, qualification,
+    wording, and boundary checks needed before integration.
 
 Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
 artifact or its YAML frontmatter in a code fence; the first response line must
