@@ -1,4 +1,4 @@
-# Draft a retrospective-evidence versus observation-environment pressure test
+# Draft an optional-annotation absence versus core-qualification pressure test
 
 ## Boundary
 
@@ -11,96 +11,95 @@ Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-A positive record requires source-backed assumption reuse under a changed
-condition, a validation burden, explicit affected standing, material review
-paths, a narrower countermodel, and an owner-visible correction route.
+A record may use the provisional candidate only when its public, licensed,
+safely shareable, or synthetic source posture and the named core source,
+assumption reuse, changed-condition, validation-burden, affected-standing,
+review-path, countermodel, and correction-route conditions are met.
 </evidence>
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `observation_environment` field preserves how the relevant evidence was
-made visible, missed, normalized, routed, or disputed without importing a
-domain conclusion. Refuse when the field becomes a domain-specific remedy or
-expertise claim.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#source-gated-annotations">
+Source-gated annotations may be recorded when material supports them, but they
+are not mandatory candidate fields. An annotation cannot let a record qualify
+without the core source, assumption, changed-condition, validation-burden,
+absorber, and correction-route gates.
 </evidence>
 
-<evidence path="topology/SF-SQA-0001-source-quality-falsifier.md#verdict">
-Source-thin or hindsight-built pattern matches cannot qualify without durable
-source material that carries the assumption context, changed condition,
-validation burden, review owner, and correction route.
+<evidence path="topology/SF-ANNOTATION-LINEAGE-RECONCILIATION.md#disposition">
+The annotation-lineage reconciliation restored
+`procedural_acceptance_criteria_gap` to the maintained optional annotation list
+without promoting it to a core field, changing a qualification gate, accepting
+the schema, or making the annotation mandatory.
 </evidence>
 
-<synthetic_fixture id="ROE-FIXTURE-01">
-- One bounded synthetic packet concerns reuse of `A-old` under `C-new` at
-  decision time `T2`.
-- The packet explicitly says no relevant observation, measurement, log,
-  request, or other evidence existed or was available to the review chain at
-  `T2`; nothing was then visible, missed, normalized, routed, or disputed.
-- At `T3`, after the bounded decision, reconstruction `E-post` creates new
-  synthetic evidence about conditions at `T2`. The packet distinguishes this
-  later-created evidence from evidence that existed but was overlooked or
-  blocked during the earlier review.
-- Draft `D-retro-pass` marks `observation_environment` passed because
-  `E-post` is visible now. Draft `D-environment-bound` preserves `E-post` as
-  retrospective evidence but marks the field unresolved for the tested review
-  because the admitted packet supplies no relevant evidence environment at
-  `T2`.
-- Every non-observation core gate is supplied only as a synthetic premise for
-  this exact test. The fixture does not dispute those premises or use the
-  target observation result to regrade them.
-- All names and facts are synthetic. No real system, measurement, source,
-  person, organization, remedy, domain conclusion, or external action is
-  represented.
+<synthetic_fixture id="OAN-FIXTURE-01">
+- One bounded synthetic packet states that all nine core candidate rows are
+  satisfied for this exact logic test. Their grades are supplied premises, not
+  real-world findings, schema acceptance, or a new positive record.
+- The packet contains no source-backed or explicit synthetic basis for the
+  optional annotation `procedural_acceptance_criteria_gap`. The annotation is
+  therefore absent rather than passed, failed, or inferred.
+- Draft `D-mandatory` marks the whole candidate qualification failed solely
+  because the optional annotation is absent. Draft `D-optional` preserves the
+  annotation as not recorded and does not add a tenth gate to the nine supplied
+  core rows.
+- The fixture does not test whether any real record qualifies, whether the
+  provisional candidate should be accepted, or whether a procedural criterion,
+  remedy, domain conclusion, or external action should exist.
+- All names and facts are synthetic. No real system, source, person,
+  organization, remedy, domain conclusion, or external action is represented.
 </synthetic_fixture>
 
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-ROE-0001-retrospective-evidence-observation-environment.md` with exactly
-these sections:
+`SF-OAN-0001-optional-annotation-nonrequirement.md` with exactly these
+sections:
 
-1. YAML frontmatter containing `test_id: SF-ROE-0001`,
+1. YAML frontmatter containing `test_id: SF-OAN-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_retrospective_observation_proposal`,
+   `status: synthetic_optional_annotation_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF ROE 0001 - Retrospective Evidence And Observation Environment`.
+2. `# SF OAN 0001 - Optional Annotation Nonrequirement`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
-   no-remedy, no-promotion, no-domain-expertise, uncertainty, and no-action
-   status.
-4. `## Synthetic Fixture` faithfully separating `A-old`, `C-new`, `T2`,
-   `T3`, `E-post`, `D-retro-pass`, and `D-environment-bound`. Do not relabel
-   later-created evidence as evidence that was present but missed at `T2`.
-5. `## Evidence Timing Ledger` comparing evidence existence at `T2`, later
-   creation at `T3`, visibility, missed-or-routed status, field result, and
-   uncertainty for both drafts.
+   no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
+   and no-action status.
+4. `## Synthetic Fixture` faithfully separating the nine supplied core rows,
+   the absent `procedural_acceptance_criteria_gap` basis, `D-mandatory`, and
+   `D-optional`. Do not invent annotation support or turn supplied premises
+   into real findings.
+5. `## Annotation Requirement Ledger` comparing core-gate posture, annotation
+   support, annotation result, whole-record result, and uncertainty for both
+   drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
-   Give each row `PASS`, `FAIL`, or `UNRESOLVED` plus one fixture-local reason.
-   For every non-target row, copy the supplied grade `PASS` and use the literal
-   reason `supplied premise`; do not infer or regrade it from observation-
-   timing facts. Grade only `observation_environment` from whether relevant
-   evidence existed within the tested review environment, not from later
-   reconstruction alone.
-7. `## Nearby-Control Comparison` keeping later source availability, evidence
-   creation, prior observation environment, and hindsight reconstruction
-   distinct. State whether current wording plus the source-quality refusal
-   already prevents retrospective evidence from masquerading as prior
-   visibility, missed evidence, normalization, routing, or dispute.
+   Give every row the supplied grade `PASS` and use the literal reason
+   `supplied premise`; do not infer or regrade a core row from the absent
+   optional annotation. Then add one separate annotation row for
+   `procedural_acceptance_criteria_gap` with result `NOT RECORDED` and the
+   literal reason `no supplied annotation basis`; do not count it as a tenth
+   core gate.
+7. `## Nearby-Control Comparison` keeping core qualification, optional
+   annotation support, and schema acceptance distinct. State whether current
+   wording already prevents annotation absence from failing otherwise supplied
+   core gates while also preventing an annotation from rescuing a failed core
+   gate.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-ROE-0001` only if current controls let evidence created after
-     the decision supply the observation environment of the earlier review; or
-   - `ALREADY HANDLED — LATER-CREATED EVIDENCE DOES NOT SUPPLY A PRIOR OBSERVATION ENVIRONMENT`
-     when current wording already preserves that distinction.
+   - `PROPOSE SF-OAN-0001` only if current controls make
+     `procedural_acceptance_criteria_gap` mandatory for candidate
+     qualification; or
+   - `ALREADY HANDLED — OPTIONAL ANNOTATION ABSENCE DOES NOT ADD A CORE GATE`
+     when current wording already preserves its optional status.
 9. `## Candidate Effect` stating whether any narrow wording change is
-   justified. Do not add a core field, erase retrospective evidence, invent
-   prior visibility, prescribe observation or a remedy, accept the schema, or
-   create a control hierarchy.
-10. `## Frontier Verification` listing only exact evidence, evidence timing,
-    creation versus visibility, hindsight, supplied-premise, qualification,
-    wording, and boundary checks needed before integration.
+   justified. Do not add or remove a core field, invent annotation evidence,
+   qualify a real record, prescribe a remedy, accept the schema, or create a
+   control hierarchy.
+10. `## Frontier Verification` listing only exact evidence, nine-core-row,
+    annotation-lineage, optionality, supplied-premise, qualification,
+    non-acceptance, wording, and boundary checks needed before integration.
 
 Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
 artifact or its YAML frontmatter in a code fence; the first response line must
-be `---`.
+be `---` and the frontmatter must end with a second `---` before the title.
