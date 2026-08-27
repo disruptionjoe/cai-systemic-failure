@@ -86,5 +86,6 @@ Draft `SF-ASA-0001-role-title-and-scope-relevant-authority.md` with exactly:
     acting authority, decision window, supplied premises, qualification,
     wording, and boundary checks.
 
-Return only raw Markdown. Do not use a code fence; the first line must be `---`
-and frontmatter must end with a second `---` before the title.
+Return only the finished artifact. Emit it as raw Markdown. Do not use a code
+fence; the first line must be `---` and frontmatter must end with a second
+`---` before the title.
