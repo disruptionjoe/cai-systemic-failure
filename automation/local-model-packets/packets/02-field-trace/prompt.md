@@ -1,4 +1,4 @@
-# Draft a later-revision materiality versus chronology pressure test
+# Draft a countermodel presence versus absorption pressure test
 
 ## Boundary
 
@@ -10,42 +10,43 @@ Frontier verification, not owner truth.
 
 ## Evidence
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-The admitted packet preserves any known materially superseding or
-contradicting revision and grades any direct material contradiction bearing on
-a required field.
-</evidence>
-
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-`assumption_source_context` preserves and dispositions a known later revision,
-retirement event, or direct material contradiction that supersedes, narrows,
-withdraws, or conflicts with support carrying a required field. Mere laterness
-is not listed as a refusal condition.
+The `absorber_or_counterevidence` field records the strongest narrower
+explanation, its source context or explicit synthetic basis, its claim posture,
+whether it absorbs, narrows, or fails to kill the review-chain residue, and any
+direct material contradiction bearing on a required field. Refuse generic,
+untraceable, or ungraded alternatives.
 </evidence>
 
-<evidence path="topology/SF-SRL-0001-source-revision-lineage.md#verdict">
-An earlier source revision cannot carry qualification when a known later
-revision in the admitted packet materially withdraws or contradicts its
-support and the record hides that lineage. The earlier revision remains
-historical evidence and the material lineage conflict is graded explicitly.
+<evidence path="topology/SF-FALSIFIER-CONTROL-CROSSWALK.md#crosswalk">
+`SF-CEQ-0001` requires the alternative to be traceable and graded. A weak
+alternative may remain a graded lead or uncertainty, and counterevidence need
+not match the positive case in volume or certainty. Generic skepticism cannot
+pass the gate.
 </evidence>
 
-<synthetic_fixture id="RMC-FIXTURE-01">
-- Revision `R1` supplies bounded support for assumption `A-old` remaining in
-  use during changed condition `C-new`.
-- Known later revision `R2` changes only document pagination, a record
-  identifier, and formatting. It explicitly preserves the substantive
-  statement that `A-old` remained in use during `C-new` and introduces no
-  withdrawal, retirement, narrowing, supersession, or contradiction bearing
-  on any required field.
-- The admitted packet preserves both revisions, explains their relationship,
-  and cites the stable substantive statement. No lineage is hidden.
-- Draft `D-chronology` marks `assumption_source_context` `FAIL` solely because
-  `R2` is later than `R1`. Draft `D-material` preserves both revisions and
-  keeps the field `PASS` because the later revision is admitted but does not
-  materially change the support.
-- Every non-source-context core gate is supplied as `PASS` for this exact
-  logic test. Those grades are not real findings, a new positive record, or
+<evidence path="topology/SF-ABSORBER-BOUNDARY-MATRIX.md#shared-refusal-shape">
+Familiar candidate cues are not sufficient, and a narrower explanation may
+absorb a case when no qualifying old-assumption-reuse residue remains. A
+refused case can stay graded evidence; refusal does not erase standing, settle
+uncertainty, or prescribe a remedy.
+</evidence>
+
+<synthetic_fixture id="CPA-FIXTURE-01">
+- One bounded synthetic packet supplies a traceable countermodel `CM-local`
+  with explicit synthetic basis and claim posture `narrowing hypothesis`.
+- `CM-local` explains one local symptom `X-noise` but does not explain the
+  supplied old-assumption reuse, validation-relevant changed condition,
+  affected standing, or fragmented review path. No admitted fact shows that
+  it absorbs the remaining review-chain residue.
+- The packet preserves and grades `CM-local` as `narrows one symptom; fails to
+  kill the bounded residue`. No direct material contradiction is hidden.
+- Draft `D-presence` marks `absorber_or_counterevidence` `FAIL` and refuses the
+  record solely because a traceable countermodel exists. Draft `D-absorption`
+  records and grades `CM-local`, keeps the field `PASS`, and does not claim
+  that presence alone establishes absorption.
+- Every non-target core gate is supplied as `PASS` for this exact logic test.
+  Those supplied grades are not real findings, a new positive record, or
   schema acceptance.
 - All names and facts are synthetic. No real source, system, person,
   organization, remedy, domain conclusion, or external action is represented.
@@ -54,47 +55,49 @@ historical evidence and the material lineage conflict is graded explicitly.
 ## Work now
 
 Draft the finished Markdown artifact
-`SF-RMC-0001-later-revision-materiality.md` with exactly these sections:
+`SF-CPA-0001-countermodel-presence-and-absorption.md` with exactly these
+sections:
 
-1. YAML frontmatter containing `test_id: SF-RMC-0001`,
+1. YAML frontmatter containing `test_id: SF-CPA-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_revision_materiality_proposal`,
+   `status: synthetic_countermodel_absorption_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF RMC 0001 - Later Revision Materiality And Chronology`.
+2. `# SF CPA 0001 - Countermodel Presence And Absorption`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    no-remedy, no-promotion, no-domain-expertise, uncertainty, no-new-record,
    and no-action status.
-4. `## Synthetic Fixture` faithfully separating `R1`, `R2`, `A-old`,
-   `C-new`, the nonmaterial changes, preserved substantive support,
-   `D-chronology`, and `D-material`. Do not hide `R2` or invent a material
-   contradiction.
-5. `## Revision Materiality Ledger` comparing revision order, admitted
-   relationship, substantive support, withdrawal or contradiction,
-   source-context result, and uncertainty for both drafts.
+4. `## Synthetic Fixture` faithfully separating `CM-local`, `X-noise`, the
+   countermodel's explicit basis and posture, the residue it does not explain,
+   `D-presence`, and `D-absorption`. Do not treat traceability or presence as
+   proof of absorption.
+5. `## Countermodel Effect Ledger` comparing traceability, claim posture,
+   explained scope, unexplained residue, direct contradiction, field result,
+   and uncertainty for both drafts.
 6. `## Candidate Gate Trace` with these nine rows in this order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give every non-target row `PASS` with the literal reason `supplied premise`.
-   Give `assumption_source_context` `PASS` because both revisions and their
-   nonmaterial relationship are admitted and the relevant support remains
-   substantively unchanged. Do not infer failure from chronology alone.
-7. `## Nearby-Control Comparison` keeping revision preservation, material
-   supersession or contradiction, chronology, and field qualification
-   distinct. State whether current wording already attaches refusal to
-   material change rather than mere laterness.
+   Give `absorber_or_counterevidence` `PASS` because the traceable countermodel
+   is preserved and graded as narrowing one symptom without killing the
+   supplied review-chain residue. Do not regrade the supplied core premises.
+7. `## Nearby-Control Comparison` keeping countermodel traceability, presence,
+   graded narrowing, direct contradiction, and full absorption distinct. State
+   whether current wording already requires the countermodel's effect on the
+   residue to be evaluated rather than inferred from presence.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-RMC-0001` only if current controls make every later revision
-     invalidate earlier support even when no material support changes; or
-   - `ALREADY HANDLED — LATERNESS WITHOUT MATERIAL CHANGE DOES NOT INVALIDATE SUPPORT`
-     when current wording already requires material supersession,
-     contradiction, narrowing, withdrawal, or retirement.
+   - `PROPOSE SF-CPA-0001` only if current controls make any traceable
+     countermodel automatically absorb the record; or
+   - `ALREADY HANDLED — COUNTERMODEL PRESENCE DOES NOT BY ITSELF ESTABLISH ABSORPTION`
+     when current wording already records whether the alternative absorbs,
+     narrows, or fails to kill the residue.
 9. `## Candidate Effect` containing exactly `NONE — CURRENT CONTROL ALREADY
-   REQUIRES MATERIAL REVISION EFFECT` when the verdict is already handled. Do
-   not propose chronology-only, formatting, or identifier wording.
-10. `## Frontier Verification` listing only exact revision, chronology,
-    materiality, lineage-preservation, support, supplied-premise,
+   GRADES COUNTERMODEL EFFECT ON THE RESIDUE` when the verdict is already
+   handled. Do not propose a countermodel hierarchy, score, remedy, or new
+   acceptance rule.
+10. `## Frontier Verification` listing only exact evidence, traceability,
+    claim-posture, explained-scope, residue, contradiction, supplied-premise,
     qualification, wording, and boundary checks needed before integration.
 
 Return only the finished artifact. Emit it as raw Markdown. Do not wrap the
