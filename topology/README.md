@@ -289,6 +289,11 @@ revision replaces two historical components with one current composite
 component. It refuses separate historical coverage and label-only equivalence
 while allowing explicit current-composite coverage to continue gate checks.
 
+`SF-VBT-SAME-LABEL-SCOPE-REVISION-0001.md` tests coverage after a pre-decision
+revision keeps a validation-component label but changes its current required
+scope. It refuses historical-scope and label-only coverage while allowing an
+explicit bridge to the current scope to continue gate checks.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

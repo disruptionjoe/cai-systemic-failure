@@ -101,6 +101,11 @@
   component; complete current-composite coverage may continue gate checks
   while separate historical coverage and label-only equivalence fail
   (`SF-VBT-MERGED-COMPONENT-COVERAGE-0001`).
+- An unchanged validation-component label does not preserve the component's
+  historical scope after a timely admitted burden revision changes its current
+  required scope; explicit current-scope coverage may continue gate checks
+  while historical-scope and label-only coverage fail
+  (`SF-VBT-SAME-LABEL-SCOPE-REVISION-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).

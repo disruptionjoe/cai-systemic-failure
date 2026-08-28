@@ -219,6 +219,12 @@ merges them into one current composite component. Complete current composite
 coverage may continue gate checks; separate historical coverage and label-only
 equivalence fail. Both tests add no field or record and leave the candidate
 provisional.
+`SF-VBT-SAME-LABEL-SCOPE-REVISION-0001` then shows that an unchanged
+validation-component label does not preserve its historical scope after a
+pre-decision burden revision changes the current required scope. Historical-
+scope and label-only drafts fail while explicit current-scope coverage may
+continue gate checks. The test adds no field or record and leaves the candidate
+provisional.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
@@ -245,7 +251,7 @@ lineage reconciliation, one temporal-coherence falsifier, one decision-time-
 review-authority falsifier, one observation-route-chronology falsifier, one
 capable-route stop-condition falsifier, one validation-burden timing falsifier,
 one decision-time control crosswalk, seven bounded crosswalk applications, and
-six validation-bridge coverage tests,
+seven validation-bridge coverage tests,
 while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, procedural-acceptance caution, absorber discipline, remaining falsifier

@@ -156,7 +156,10 @@
 52. Done: test whether coverage of two historical components proves coverage
     after a pre-decision revision merges them into one current composite
     component (`SF-VBT-MERGED-COMPONENT-COVERAGE-0001`).
-53. Next: keep the candidate provisional and add another bounded test only if a
+53. Done: test whether an unchanged validation-component label preserves its
+    historical scope after a timely pre-decision burden revision changes the
+    current required scope (`SF-VBT-SAME-LABEL-SCOPE-REVISION-0001`).
+54. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

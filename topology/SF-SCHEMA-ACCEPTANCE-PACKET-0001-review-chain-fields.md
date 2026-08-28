@@ -70,6 +70,7 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-VBT-SPLIT-COMPONENT-COVERAGE-0001` | Synthetic test separating historical parent-component coverage from coverage of two current child components. |
 | `SF-DTCX-ORC-VBT-DUAL-REFUSAL-0001` | Synthetic application showing that ORC and VBT can refuse independently without rewriting the other controls. |
 | `SF-VBT-MERGED-COMPONENT-COVERAGE-0001` | Synthetic test separating historical separate-component coverage from coverage of one current composite component. |
+| `SF-VBT-SAME-LABEL-SCOPE-REVISION-0001` | Synthetic test separating component-label identity from coverage of the component's current revised scope. |
 
 ## Acceptance Evidence
 
@@ -100,6 +101,7 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Split-component coverage | `SF-VBT-SPLIT-COMPONENT-COVERAGE-0001` refuses historical-parent-only and partial current coverage while allowing complete current-child coverage. | Adds no field or acceptance support; keeps revision, parent membership, child membership, and current completeness distinct. |
 | ORC/VBT dual-control application | `SF-DTCX-ORC-VBT-DUAL-REFUSAL-0001` refuses one fixture independently on ORC and VBT. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
 | Merged-component coverage | `SF-VBT-MERGED-COMPONENT-COVERAGE-0001` refuses separate historical coverage and label-only equivalence while allowing complete current-composite coverage. | Adds no field or acceptance support; keeps revision, separate membership, composite membership, and current completeness distinct. |
+| Same-label scope-revision coverage | `SF-VBT-SAME-LABEL-SCOPE-REVISION-0001` refuses historical-scope and label-only coverage while allowing explicit coverage of the current revised scope. | Adds no field or acceptance support; keeps label identity, historical scope, current scope, revision, and coverage distinct. |
 
 ## Explicit Deferrals
 
