@@ -1,4 +1,4 @@
-# Draft an affected-standing versus shared-owner-label pressure test
+# Draft an exact-assumption support versus adjacent citation pressure test
 
 ## Boundary
 
@@ -10,49 +10,51 @@ This is candidate material for Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `affected_system_and_standing` field must name the bounded affected system
-and affected-party standing visible in sources. Refuse standing borrowed from
-an unrelated system without a source-backed bridge.
+The `assumption_source_context` field must name the reused assumption and the
+source revision, version, date, or evidence basis relied on, tying that exact
+assumption to identifiable source context. A source label alone does not pass.
 </evidence>
 
-<synthetic_fixture id="SOL-FIXTURE-01">
+<synthetic_fixture id="ASR-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Owner label `OWNER-X` administers bounded systems `S-alpha` and `S-beta`.
-- Source `E-alpha` establishes group `P-alpha` as affected in `S-alpha` only.
-- Source `E-beta` establishes the other required facts for `S-beta` but names
-  no affected party. No admitted bridge connects `P-alpha` to `S-beta`.
-- Draft `D-owner` transfers standing to `S-beta` because both systems share
-  `OWNER-X`. Draft `D-bounded` preserves standing for `S-alpha` and marks
-  standing in `S-beta` `UNRESOLVED`.
-- Do not infer common population, impact, authority exercise, outcome, or remedy.
-- All facts are synthetic; this is not a new record or acceptance.
+- Report `REPORT-M@V3` contains separate admitted sections `P-alpha` and
+  `P-beta`. `P-alpha` supports assumption `A-alpha`; `P-beta` supports
+  assumption `A-beta`.
+- The record under review claims reuse of `A-beta`.
+- Draft `D-adjacent` cites `REPORT-M@V3#P-alpha` for `A-beta` because the page
+  is in the same report. Draft `D-exact` cites `REPORT-M@V3#P-beta`.
+- No later revision, contradiction, retirement, or bridge between `A-alpha`
+  and `A-beta` is admitted.
+- Do not invent shared meaning, source supersession, contradiction, authority
+  exercise, outcome, or remedy.
+- All names and facts are synthetic; this is not a new record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-SOL-0001-affected-standing-and-shared-owner-label.md` with exactly:
+Draft `SF-ASR-0001-exact-assumption-source-support.md` with exactly:
 
-1. YAML frontmatter: `test_id: SF-SOL-0001`,
+1. YAML frontmatter: `test_id: SF-ASR-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_affected_standing_proposal`,
+   `status: synthetic_exact_assumption_support_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF SOL 0001 - Affected Standing And Shared Owner Label`.
+2. `# SF ASR 0001 - Exact Assumption Support Versus Adjacent Citation`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, uncertainty, no-new-record, no-population or impact identity
-   inference, no-authority-exercise inference, no-outcome inference, and no action.
+   no-promotion, uncertainty, no-new-record, no-shared-meaning invention,
+   no-supersession or contradiction invention, no-outcome inference, and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Standing Scope Ledger` copying these records literally:
+5. `## Assumption Support Ledger` copying these records literally:
 
-   `draft: D-owner | owner_label: OWNER-X | target_system: S-beta | target_source: E-beta | comparison_system: S-alpha | standing_source: E-alpha | affected_group: P-alpha | standing_in_comparison_system: YES | standing_in_target_system: UNRESOLVED | bridge_to_target_system: NONE | verified_result: FAIL | qualification: REFUSE | uncertainty: target standing unsupported`
+   `draft: D-adjacent | claimed_assumption: A-beta | cited_source: REPORT-M@V3#P-alpha | source_supports: A-alpha | exact_support_for_claim: NO | admitted_bridge: NONE | later_revision: NONE | material_contradiction: NONE | verified_result: FAIL | qualification: REFUSE | uncertainty: adjacent support substituted`
 
-   `draft: D-bounded | owner_label: OWNER-X | target_system: S-beta | target_source: E-beta | comparison_system: S-alpha | standing_source: E-alpha | affected_group: P-alpha | standing_in_comparison_system: YES | standing_in_target_system: UNRESOLVED | bridge_to_target_system: NONE | verified_result: FAIL | qualification: REFUSE | uncertainty: target standing unsupported`
+   `draft: D-exact | claimed_assumption: A-beta | cited_source: REPORT-M@V3#P-beta | source_supports: A-beta | exact_support_for_claim: YES | admitted_bridge: NOT_NEEDED | later_revision: NONE | material_contradiction: NONE | verified_result: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: none added`
 6. `## Candidate Gate Trace` copying exactly these lines:
 
-   `assumption_source_context: PASS — supplied premise`
+   `assumption_source_context: FAIL — D-adjacent cites support for A-alpha rather than the claimed reused assumption A-beta`
 
    `accountable_review_owner: PASS — supplied premise`
 
-   `affected_system_and_standing: FAIL — E-alpha supports P-alpha standing only for S-alpha and no admitted bridge connects that standing to S-beta`
+   `affected_system_and_standing: PASS — supplied premise`
 
    `changed_condition: PASS — supplied premise`
 
@@ -67,17 +69,17 @@ Draft `SF-SOL-0001-affected-standing-and-shared-owner-label.md` with exactly:
    `correction_route_stop_condition: PASS — supplied premise`
 
    Infer no other failed gate.
-7. `## Nearby-Control Comparison` distinguishing owner-label identity, bounded-
-   system identity, affected-group identity, source-backed standing, bridge,
-   qualification, uncertainty, outcome, and remedy. State whether current
-   affected-standing wording already refuses `D-owner`.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — A SHARED OWNER LABEL DOES
-   NOT TRANSFER AFFECTED-PARTY STANDING BETWEEN BOUNDED SYSTEMS` or `PROPOSE
-   SF-SOL-0001 — A SHARED OWNER LABEL TRANSFERS AFFECTED-PARTY STANDING`.
+7. `## Nearby-Control Comparison` distinguishing report identity, revision
+   identity, section identity, exact assumption support, adjacent support,
+   bridge, qualification, uncertainty, outcome, and remedy. State whether
+   current source-context wording already refuses `D-adjacent`.
+8. `## Verdict`: choose exactly `ALREADY HANDLED — A CITATION FOR AN ADJACENT
+   ASSUMPTION DOES NOT SUPPORT THE CLAIMED REUSED ASSUMPTION` or `PROPOSE
+   SF-ASR-0001 — ANY SECTION OF THE SAME REPORT SUPPORTS THE CLAIMED ASSUMPTION`.
 9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   AFFECTED-STANDING WORDING ALREADY REFUSES OWNER-LABEL-BASED TRANSFER`; for
-   propose, exactly `PROPOSE CLARIFYING affected_system_and_standing TO
-   REQUIRE A SYSTEM-SPECIFIC STANDING BRIDGE`.
+   ASSUMPTION-SOURCE-CONTEXT WORDING ALREADY REQUIRES SUPPORT FOR THE EXACT
+   REUSED ASSUMPTION`; for propose, exactly `PROPOSE ALLOWING SAME-REPORT
+   ADJACENT SUPPORT IN assumption_source_context`.
 10. `## Frontier Verification` listing only exact fixture facts, the nine gate
     results, verdict/effect coherence, and boundary checks.
 

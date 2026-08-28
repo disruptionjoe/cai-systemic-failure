@@ -1,4 +1,4 @@
-# Draft a relied-on source-revision identity pressure test
+# Draft a changed-evidence-context versus physical-change pressure test
 
 ## Boundary
 
@@ -9,50 +9,57 @@ This is candidate material for Frontier verification, not owner truth.
 
 ## Evidence
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `assumption_source_context` field must name the reused assumption and the
-source revision, version, date, or evidence basis relied on. Refuse a field
-that does not tie the assumption to identifiable source context.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
+Positive qualification requires an old assumption reused under a changed
+condition or changed evidence context. The `changed_condition` field may name
+an observed anomaly, source switch, evidence-context change, operating change,
+or other change that alters the validation burden. Refuse reuse under
+materially unchanged conditions.
 </evidence>
 
-<synthetic_fixture id="RSI-FIXTURE-01">
+<synthetic_fixture id="CEV-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Report title `REPORT-Q` has admitted revisions `R1` and `R2`.
-- `R1` explicitly supports old assumption `A-old`; `R2` is a later metadata-
-  only revision that neither withdraws nor contradicts `A-old`.
-- Draft `D-title` cites only `REPORT-Q` and does not identify the relied-on
-  revision. Draft `D-revision` cites `REPORT-Q@R1` as the relied-on support.
-- Do not invent supersession, contradiction, retirement, outcome, or remedy.
+- System `S-one` reuses old assumption `A-old` at decision `T-reuse`.
+- Physical operating condition `O-one` is materially unchanged from the
+  earlier decision window.
+- Admitted source `E-old` supported `A-old`. Before `T-reuse`, admitted source
+  `E-new` materially disputes that support and therefore changes the evidence
+  context and validation burden. The conflict is preserved and graded.
+- Draft `D-physical` marks `changed_condition` failed solely because `O-one`
+  did not change. Draft `D-evidence` marks it passed because `E-new` changed
+  the admitted evidence context before reuse.
+- Do not invent a physical change, source supersession, authority exercise,
+  outcome, remedy, or ungraded contradiction.
 - All names and facts are synthetic; this is not a new record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-RSI-0001-relied-on-source-revision-identity.md` with exactly:
+Draft `SF-CEV-0001-changed-evidence-context.md` with exactly:
 
-1. YAML frontmatter: `test_id: SF-RSI-0001`,
+1. YAML frontmatter: `test_id: SF-CEV-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_source_revision_identity_proposal`,
+   `status: synthetic_changed_evidence_context_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF RSI 0001 - Relied-On Source Revision Identity`.
+2. `# SF CEV 0001 - Changed Evidence Context Without Physical Change`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, uncertainty, no-new-record, no-supersession invention,
-   no-contradiction invention, no-outcome inference, and no action.
+   no-promotion, uncertainty, no-new-record, no-physical-change invention,
+   no-authority-exercise inference, no-outcome inference, and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Revision Identity Ledger` copying these records literally:
+5. `## Change Context Ledger` copying these records literally:
 
-   `draft: D-title | report: REPORT-Q | revisions_admitted: R1,R2 | relied_revision: UNSPECIFIED | R1_assumption_support: YES | R2_effect: METADATA_ONLY | later_contradiction: NONE | verified_result: FAIL | qualification: REFUSE | uncertainty: relied revision unidentified`
+   `draft: D-physical | system: S-one | reused_assumption: A-old | decision: T-reuse | physical_condition: O-one | physical_change: NONE | earlier_source: E-old | new_admitted_source: E-new | evidence_context_change: MATERIAL_DISPUTE | contradiction_grade: PRESERVED | changed_condition_result: FAIL | qualification: REFUSE | uncertainty: physical-change-only reading`
 
-   `draft: D-revision | report: REPORT-Q | revisions_admitted: R1,R2 | relied_revision: R1 | R1_assumption_support: YES | R2_effect: METADATA_ONLY | later_contradiction: NONE | verified_result: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: none added`
+   `draft: D-evidence | system: S-one | reused_assumption: A-old | decision: T-reuse | physical_condition: O-one | physical_change: NONE | earlier_source: E-old | new_admitted_source: E-new | evidence_context_change: MATERIAL_DISPUTE | contradiction_grade: PRESERVED | changed_condition_result: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: no physical change`
 6. `## Candidate Gate Trace` copying exactly these lines:
 
-   `assumption_source_context: FAIL — D-title names REPORT-Q but not the relied-on revision`
+   `assumption_source_context: PASS — supplied premise; E-old and E-new are admitted and the conflict is graded`
 
    `accountable_review_owner: PASS — supplied premise`
 
    `affected_system_and_standing: PASS — supplied premise`
 
-   `changed_condition: PASS — supplied premise`
+   `changed_condition: PASS — E-new materially changes the admitted evidence context and validation burden before T-reuse`
 
    `validation_burden: PASS — supplied premise`
 
@@ -65,17 +72,16 @@ Draft `SF-RSI-0001-relied-on-source-revision-identity.md` with exactly:
    `correction_route_stop_condition: PASS — supplied premise`
 
    Infer no other failed gate.
-7. `## Nearby-Control Comparison` distinguishing report-title identity,
-   revision identity, relied-on support, later metadata change, contradiction,
+7. `## Nearby-Control Comparison` distinguishing physical-condition change,
+   changed evidence context, material dispute, graded contradiction, reuse,
    qualification, uncertainty, outcome, and remedy. State whether current
-   source-context wording already refuses `D-title`.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — A REPORT TITLE WITHOUT THE
-   RELIED-ON REVISION DOES NOT SATISFY SOURCE CONTEXT` or `PROPOSE SF-RSI-0001
-   — A REPORT TITLE ALONE IDENTIFIES THE RELIED-ON SOURCE REVISION`.
+   changed-condition wording already supports `D-evidence`.
+8. `## Verdict`: choose exactly `ALREADY HANDLED — A MATERIAL EVIDENCE-CONTEXT
+   CHANGE CAN ALTER THE VALIDATION BURDEN WITHOUT A PHYSICAL CHANGE` or
+   `PROPOSE SF-CEV-0001 — ONLY A PHYSICAL CHANGE CAN SATISFY changed_condition`.
 9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   ASSUMPTION-SOURCE-CONTEXT WORDING ALREADY REQUIRES RELIED-ON REVISION
-   IDENTITY`; for propose, exactly `PROPOSE CLARIFYING
-   assumption_source_context TO REQUIRE RELIED-ON REVISION IDENTITY`.
+   CHANGED-CONDITION WORDING ALREADY INCLUDES CHANGED EVIDENCE CONTEXT`; for
+   propose, exactly `PROPOSE NARROWING changed_condition TO PHYSICAL CHANGES`.
 10. `## Frontier Verification` listing only exact fixture facts, the nine gate
     results, verdict/effect coherence, and boundary checks.
 
