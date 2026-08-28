@@ -22,9 +22,9 @@ hourly Frontier Repository Operating Cycle
   -> pointer-only close
 
 four-hour Frontier learning review
-  -> aggregate sealed contribution evidence
-  -> append LEARNING.md
-  -> never edit active prompts or gate hourly integration
+  -> evaluate guidance -> Observation -> Stewardship -> owner effect
+  -> append shared learning and refresh bounded advisory guidance
+  -> never interpret target truth, edit active prompts, or gate integration
 ```
 
 There is no scheduled self-selecting Deep Progress source for this pilot.
@@ -48,9 +48,10 @@ bounded process Progress. The next prompt must address a materially different
 unhandled repository pressure and embed all evidence the local model needs.
 
 Do not rewrite a slot while its current attempt is running, reuse an already
-handled effect, or make the local executor select work. The four-hour learning
-review may recommend authoring changes in `LEARNING.md`, but it cannot edit
-active prompts, schedules, model settings, or target truth.
+handled effect, or make the local executor select work. The four-hour review
+may maintain bounded Observation questions and one Stewardship advisory in
+Runtime guidance, but it cannot interpret target truth, edit active prompts,
+schedules, model settings, or the executor.
 
 ## Pilot versioning authority
 
@@ -73,9 +74,16 @@ ordinary GitHub versioning.
 ## Hourly operating behavior
 
 The hourly parent freezes every completed factual attempt after its prior
-cursor. It does not wait for a separate evaluator seal. Observation and
-Systemic Stewardship inspect the raw response as untrusted candidate evidence,
-compare it with current owner truth and prior dispositions, and route it as:
+cursor. It does not wait for a separate evaluator seal. Observation inspects
+the raw response, current owner truth, prior effects, and the exact projected
+supplemental questions as untrusted evidence. It records inspected material,
+direct facts, counterevidence, recency/boundary, immutable pointers, and
+unknowns only. It does not diagnose, recommend, classify family utility, or
+select work.
+
+Systemic Stewardship consumes the exact sealed Observation plus current owner
+truth, completed Progress evidence, the frozen candidate boundary, and the
+applicable Runtime advisory. Stewardship alone interprets and routes work as:
 
 - `prepared_frontier_progress` when useful candidate material may support a
   coherent owner effect;
@@ -83,6 +91,15 @@ compare it with current owner truth and prior dispositions, and route it as:
   enter Progress; and
 - `local_packet` for the next exact bounded prompt to install in a completed
   slot.
+
+Each packet family has a stable lineage ID across prompt rewrites and slot
+renaming. Stewardship records whether it adopts, adapts, or declines advisory
+guidance with exact target evidence. Two consecutive sealed opportunities with
+both no retained contribution and no useful target-native owner effect require
+rotation or retirement unless a named diagnostic question is bounded to at
+most two cycles or four attempts. The default two-slot balance is one
+production family tied to a named unfinished owner need and one exploration
+family; changing that balance never adds slots, cadence, or model capacity.
 
 Prepared Progress independently verifies every admitted claim and may retain,
 repair, narrow, replace, or discard candidate content. A compatible batch may

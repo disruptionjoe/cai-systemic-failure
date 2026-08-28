@@ -18,8 +18,9 @@ hourly Frontier operating cycle
   -> install the next complete prompts in completed slots
 
 four-hour aggregate learning review
-  -> summarize sealed contribution evidence in LEARNING.md
-  -> never edit active prompts
+  -> evaluate whether guidance improves retained owner effects
+  -> refresh bounded Observation questions and Stewardship advice
+  -> never interpret target truth or edit active prompts
 ```
 
 The active slot paths are `packets/01-next-test-gate/prompt.md` and
@@ -33,11 +34,13 @@ selected prompt, injects no instructions, makes no workflow decision, and
 sends no model-setting override. Output remains immutable under
 `/Users/joe/Brain/local-model-scout/outputs`.
 
-The hourly operating cycle is the sole active-prompt writer. A slot changes
+Systemic Repository Stewardship in the hourly operating cycle is the sole
+active-prompt author. A slot changes
 only after its completed attempts have terminal dispositions. A replacement
 prompt receives a new hash and asks for one materially different, bounded,
-nonduplicative candidate artifact. The four-hour review records aggregate
-learning without racing production.
+nonduplicative candidate artifact. Observation remains evidence-only. The
+four-hour review records aggregate adaptation learning and bounded advisory
+guidance without racing or controlling production.
 
 Transport success, nonempty text, packet preparation, or `nothing to do` is
 not repository Progress. The production question is whether verified local
