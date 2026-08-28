@@ -173,6 +173,12 @@ fixture. TC, DRA, ORC, and CSC pass only as supplied premises while VBT refuses
 qualification because the only covering validation completes after the reuse
 decision. The application adds no field or record and leaves the candidate
 provisional.
+`SF-DTCX-DUAL-REFUSAL-0001` then applies the same five controls to a second
+synthetic fixture. DRA and VBT refuse qualification independently while TC,
+ORC, and CSC pass only as supplied premises. `SF-VBT-BRIDGED-COVERAGE-0001`
+separately shows that timely validation events do not cover a decision-time
+burden without a timely admitted bridge connecting their scope to that burden.
+Both tests add no field or record and leave the candidate provisional.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
@@ -198,7 +204,8 @@ coherence falsifier, one intra-packet-contradiction falsifier, one annotation-
 lineage reconciliation, one temporal-coherence falsifier, one decision-time-
 review-authority falsifier, one observation-route-chronology falsifier, one
 capable-route stop-condition falsifier, one validation-burden timing falsifier,
-one decision-time control crosswalk, and one bounded crosswalk application
+one decision-time control crosswalk, two bounded crosswalk applications, and
+one bridged-validation coverage test,
 while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, procedural-acceptance caution, absorber discipline, remaining falsifier

@@ -116,7 +116,13 @@
 40. Done: apply all five decision-time controls to one bounded synthetic
     fixture, preserve their separate results, and refuse qualification only on
     the failed validation-timing gate (`SF-DTCX-APPLICATION-0001`).
-41. Next: keep the candidate provisional and add another bounded test only if a
+41. Done: apply the decision-time controls to a second bounded synthetic
+    fixture and show that DRA and VBT can refuse qualification independently
+    without rewriting TC, ORC, or CSC (`SF-DTCX-DUAL-REFUSAL-0001`).
+42. Done: test whether timely validation events cover the decision-time burden
+    only when an admitted timely bridge connects their scope to that burden
+    (`SF-VBT-BRIDGED-COVERAGE-0001`).
+43. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

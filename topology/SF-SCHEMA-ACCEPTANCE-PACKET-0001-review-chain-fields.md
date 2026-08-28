@@ -58,6 +58,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-CSC-0001` | Synthetic capable-route stop-condition falsifier that refuses route capability without an explicit backed condition for unresolved contradiction. |
 | `SF-VBT-0001` | Synthetic validation-burden timing falsifier that refuses post-decision validation as proof of decision-time satisfaction. |
 | `SF-DECISION-TIME-CONTROL-CROSSWALK` | Comparison of TC, DRA, ORC, VBT, and CSC without control collapse or hierarchy. |
+| `SF-DTCX-DUAL-REFUSAL-0001` | Synthetic application showing that DRA and VBT can refuse independently without rewriting the other controls. |
+| `SF-VBT-BRIDGED-COVERAGE-0001` | Synthetic test separating timely validation events from timely admitted bridge coverage of the burden. |
 
 ## Acceptance Evidence
 
@@ -76,6 +78,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Capable-route stop condition | `SF-CSC-0001` refuses a synthetic draft that names a capable route and recipient but no backed condition that suspends qualification while the contradiction remains unresolved. | Narrows the existing correction-route control; adds no core field and does not support acceptance. |
 | Validation-burden timing | `SF-VBT-0001` refuses a synthetic draft that backdates validation completed only after the reuse decision. | Narrows the existing validation-burden control; adds no core field and does not support acceptance. |
 | Decision-time control comparison | `SF-DECISION-TIME-CONTROL-CROSSWALK` keeps five nearby controls independently usable. | Adds no evidence, field, threshold, hierarchy, or acceptance support. |
+| Dual-control application | `SF-DTCX-DUAL-REFUSAL-0001` refuses one fixture independently on DRA and VBT. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
+| Bridged validation coverage | `SF-VBT-BRIDGED-COVERAGE-0001` refuses timely events whose admitted scope is not bridged to the decision-time burden, and separately refuses a bridge admitted only after the decision. | Adds no field or acceptance support; keeps event timing, bridge timing, and scope distinct. |
 
 ## Explicit Deferrals
 

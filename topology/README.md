@@ -231,6 +231,14 @@ fixture. Four controls pass only as supplied premises while VBT fails on
 post-decision validation, showing that one refusal does not rewrite the other
 decision objects or promote the candidate.
 
+`SF-DTCX-DUAL-REFUSAL-0001.md` applies the same controls to a second synthetic
+fixture. DRA and VBT fail independently while TC, ORC, and CSC pass only as
+supplied premises, preserving separate decision objects and provisional status.
+
+`SF-VBT-BRIDGED-COVERAGE-0001.md` separates timely validation-event existence
+from scope coverage and bridge timing. It refuses unbridged and late-bridged
+coverage while allowing a timely admitted bridge to continue gate checks.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source
