@@ -1,4 +1,4 @@
-# Draft a changed-evidence-context versus physical-change pressure test
+# Draft an observation-availability versus handling-trace pressure test
 
 ## Boundary
 
@@ -9,61 +9,58 @@ This is candidate material for Frontier verification, not owner truth.
 
 ## Evidence
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-Positive qualification requires an old assumption reused under a changed
-condition or changed evidence context. The `changed_condition` field may name
-an observed anomaly, source switch, evidence-context change, operating change,
-or other change that alters the validation burden. Refuse reuse under
-materially unchanged conditions.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
+The `observation_environment` field must preserve how the relevant evidence
+was made visible, missed, normalized, routed, or disputed without importing
+domain conclusions. Refuse if the field becomes a domain-specific remedy or
+expertise claim.
 </evidence>
 
-<synthetic_fixture id="CEV-FIXTURE-01">
+<synthetic_fixture id="OHT-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- System `S-one` reuses old assumption `A-old` at decision `T-reuse`.
-- Physical operating condition `O-one` is materially unchanged from the
-  earlier decision window.
-- Admitted source `E-old` supported `A-old`. Before `T-reuse`, admitted source
-  `E-new` materially disputes that support and therefore changes the evidence
-  context and validation burden. The conflict is preserved and graded.
-- Draft `D-physical` marks `changed_condition` failed solely because `O-one`
-  did not change. Draft `D-evidence` marks it passed because `E-new` changed
-  the admitted evidence context before reuse.
-- Do not invent a physical change, source supersession, authority exercise,
-  outcome, remedy, or ungraded contradiction.
+- Monitor `M-one` recorded signal `S-red` before reuse decision `T-reuse`.
+- Draft `D-available` names only the existence of `M-one` and `S-red`; the
+  admitted packet supplies no account of whether `S-red` was displayed,
+  missed, normalized, routed, or disputed.
+- Draft `D-traced` uses admitted log `LOG-one` and review note `NOTE-one` to
+  show that `S-red` was displayed, normalized as expected variation, and not
+  routed to review owner `O-one` before `T-reuse`.
+- Do not infer sensor adequacy, operator expertise, negligence, authority
+  exercise, outcome, remedy, or domain conclusion.
 - All names and facts are synthetic; this is not a new record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-CEV-0001-changed-evidence-context.md` with exactly:
+Draft `SF-OHT-0001-observation-handling-trace.md` with exactly:
 
-1. YAML frontmatter: `test_id: SF-CEV-0001`,
+1. YAML frontmatter: `test_id: SF-OHT-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_changed_evidence_context_proposal`,
+   `status: synthetic_observation_handling_trace_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF CEV 0001 - Changed Evidence Context Without Physical Change`.
+2. `# SF OHT 0001 - Observation Availability Versus Handling Trace`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, uncertainty, no-new-record, no-physical-change invention,
-   no-authority-exercise inference, no-outcome inference, and no action.
+   no-promotion, uncertainty, no-new-record, no-adequacy or expertise
+   inference, no-authority-exercise inference, no-outcome inference, and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Change Context Ledger` copying these records literally:
+5. `## Observation Handling Ledger` copying these records literally:
 
-   `draft: D-physical | system: S-one | reused_assumption: A-old | decision: T-reuse | physical_condition: O-one | physical_change: NONE | earlier_source: E-old | new_admitted_source: E-new | evidence_context_change: MATERIAL_DISPUTE | contradiction_grade: PRESERVED | changed_condition_result: FAIL | qualification: REFUSE | uncertainty: physical-change-only reading`
+   `draft: D-available | monitor: M-one | signal: S-red | decision: T-reuse | evidence_exists: YES | display_status: UNSUPPLIED | normalization_status: UNSUPPLIED | route_status: UNSUPPLIED | dispute_status: UNSUPPLIED | handling_trace: NONE | observation_environment_result: FAIL | qualification: REFUSE | uncertainty: availability only`
 
-   `draft: D-evidence | system: S-one | reused_assumption: A-old | decision: T-reuse | physical_condition: O-one | physical_change: NONE | earlier_source: E-old | new_admitted_source: E-new | evidence_context_change: MATERIAL_DISPUTE | contradiction_grade: PRESERVED | changed_condition_result: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: no physical change`
+   `draft: D-traced | monitor: M-one | signal: S-red | decision: T-reuse | evidence_exists: YES | display_status: DISPLAYED | normalization_status: EXPECTED_VARIATION | route_status: NOT_ROUTED_TO_O-one | dispute_status: NONE_SUPPLIED | handling_trace: LOG-one+NOTE-one | observation_environment_result: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: no adequacy or outcome inference`
 6. `## Candidate Gate Trace` copying exactly these lines:
 
-   `assumption_source_context: PASS — supplied premise; E-old and E-new are admitted and the conflict is graded`
+   `assumption_source_context: PASS — supplied premise`
 
    `accountable_review_owner: PASS — supplied premise`
 
    `affected_system_and_standing: PASS — supplied premise`
 
-   `changed_condition: PASS — E-new materially changes the admitted evidence context and validation burden before T-reuse`
+   `changed_condition: PASS — supplied premise`
 
    `validation_burden: PASS — supplied premise`
 
-   `observation_environment: PASS — supplied premise`
+   `observation_environment: FAIL — D-available names evidence existence but supplies no account of visibility, missing, normalization, routing, or dispute`
 
    `delegation_visibility_gap: PASS — supplied premise`
 
@@ -72,16 +69,17 @@ Draft `SF-CEV-0001-changed-evidence-context.md` with exactly:
    `correction_route_stop_condition: PASS — supplied premise`
 
    Infer no other failed gate.
-7. `## Nearby-Control Comparison` distinguishing physical-condition change,
-   changed evidence context, material dispute, graded contradiction, reuse,
+7. `## Nearby-Control Comparison` distinguishing observation availability,
+   handling trace, visibility, missing, normalization, routing, dispute,
    qualification, uncertainty, outcome, and remedy. State whether current
-   changed-condition wording already supports `D-evidence`.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — A MATERIAL EVIDENCE-CONTEXT
-   CHANGE CAN ALTER THE VALIDATION BURDEN WITHOUT A PHYSICAL CHANGE` or
-   `PROPOSE SF-CEV-0001 — ONLY A PHYSICAL CHANGE CAN SATISFY changed_condition`.
+   observation-environment wording already refuses `D-available`.
+8. `## Verdict`: choose exactly `ALREADY HANDLED — EVIDENCE AVAILABILITY DOES
+   NOT SUBSTITUTE FOR A SOURCE-BACKED OBSERVATION HANDLING TRACE` or `PROPOSE
+   SF-OHT-0001 — EVIDENCE AVAILABILITY ALONE SATISFIES observation_environment`.
 9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   CHANGED-CONDITION WORDING ALREADY INCLUDES CHANGED EVIDENCE CONTEXT`; for
-   propose, exactly `PROPOSE NARROWING changed_condition TO PHYSICAL CHANGES`.
+   OBSERVATION-ENVIRONMENT WORDING ALREADY REQUIRES HOW EVIDENCE WAS MADE
+   VISIBLE, MISSED, NORMALIZED, ROUTED, OR DISPUTED`; for propose, exactly
+   `PROPOSE ALLOWING AVAILABILITY-ONLY observation_environment`.
 10. `## Frontier Verification` listing only exact fixture facts, the nine gate
     results, verdict/effect coherence, and boundary checks.
 
