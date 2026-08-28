@@ -67,6 +67,14 @@
 - A timely bridge that covers only one named component of a multi-component
   validation burden does not satisfy the whole burden; generic completion
   language is not component coverage (`SF-VBT-MULTI-COMPONENT-BRIDGE-0001`).
+- A bounded application may fail TC and ORC independently while DRA, VBT, and
+  CSC pass only as supplied premises; neither refusal rewrites the other
+  control results or changes schema status
+  (`SF-DTCX-TC-ORC-DUAL-REFUSAL-0001`).
+- A validation bridge complete for an earlier burden does not satisfy the
+  current decision-time burden after a timely admitted revision adds a named
+  component; the current burden controls the coverage check
+  (`SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).

@@ -128,7 +128,14 @@
 44. Done: test whether a timely validation bridge covers every named component
     of one decision-time burden rather than merely naming completed validation
     (`SF-VBT-MULTI-COMPONENT-BRIDGE-0001`).
-45. Next: keep the candidate provisional and add another bounded test only if a
+45. Done: apply the decision-time controls to a fourth bounded synthetic
+    fixture and show that TC and ORC can refuse qualification independently
+    without rewriting DRA, VBT, or CSC
+    (`SF-DTCX-TC-ORC-DUAL-REFUSAL-0001`).
+46. Done: test whether a timely validation bridge remains complete against the
+    current named burden after a pre-decision revision adds a component
+    (`SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001`).
+47. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

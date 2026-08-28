@@ -249,6 +249,16 @@ two-component decision-time validation burden. It refuses partial and generic
 coverage while allowing an explicit all-component bridge to continue gate
 checks.
 
+`SF-DTCX-TC-ORC-DUAL-REFUSAL-0001.md` applies the five decision-time controls
+to a fourth synthetic fixture. TC and ORC fail independently while DRA, VBT,
+and CSC pass only as supplied premises, preserving separate decision objects
+and provisional status.
+
+`SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001.md` tests a timely prior bridge
+against a burden that gains a named component before the decision. It refuses
+stale and generic coverage while allowing an explicit bridge covering every
+component of the current burden to continue gate checks.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

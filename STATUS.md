@@ -186,6 +186,13 @@ separately shows that a timely bridge must cover every named component of a
 decision-time validation burden; partial or generic coverage fails without
 becoming a timing failure. Both tests add no field or record and leave the
 candidate provisional.
+`SF-DTCX-TC-ORC-DUAL-REFUSAL-0001` then applies the controls to a fourth
+synthetic fixture. TC and ORC refuse qualification independently while DRA,
+VBT, and CSC pass only as supplied premises.
+`SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001` separately shows that a bridge
+complete for an earlier burden does not satisfy a current decision-time burden
+after a pre-decision revision adds a named component. Both tests add no field
+or record and leave the candidate provisional.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
@@ -211,8 +218,8 @@ coherence falsifier, one intra-packet-contradiction falsifier, one annotation-
 lineage reconciliation, one temporal-coherence falsifier, one decision-time-
 review-authority falsifier, one observation-route-chronology falsifier, one
 capable-route stop-condition falsifier, one validation-burden timing falsifier,
-one decision-time control crosswalk, two bounded crosswalk applications, and
-one bridged-validation coverage test,
+one decision-time control crosswalk, four bounded crosswalk applications, and
+three validation-bridge coverage tests,
 while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, procedural-acceptance caution, absorber discipline, remaining falsifier
