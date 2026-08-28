@@ -43,6 +43,13 @@
   while the relevant contradiction remains unresolved fails candidate
   qualification; route capability is not itself a stop condition
   (`SF-CSC-0001`).
+- A record whose relevant validation completes only after the reuse decision
+  is final fails candidate qualification when it backdates that event to mark
+  the decision-time validation burden satisfied; later validation remains
+  graded evidence (`SF-VBT-0001`).
+- Applying TC, DRA, ORC, VBT, and CSC together preserves five separate
+  decision objects; no control becomes a generic timing test or hierarchy over
+  the others (`SF-DECISION-TIME-CONTROL-CROSSWALK`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).

@@ -56,6 +56,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-DRA-0001` | Synthetic decision-time-authority falsifier that refuses later-only review authority for an earlier reuse decision. |
 | `SF-ORC-0001` | Synthetic observation-route chronology falsifier that refuses later-only routing or dispute as proof of decision-time handling. |
 | `SF-CSC-0001` | Synthetic capable-route stop-condition falsifier that refuses route capability without an explicit backed condition for unresolved contradiction. |
+| `SF-VBT-0001` | Synthetic validation-burden timing falsifier that refuses post-decision validation as proof of decision-time satisfaction. |
+| `SF-DECISION-TIME-CONTROL-CROSSWALK` | Comparison of TC, DRA, ORC, VBT, and CSC without control collapse or hierarchy. |
 
 ## Acceptance Evidence
 
@@ -72,6 +74,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Decision-time review authority | `SF-DRA-0001` refuses a synthetic record whose only capable owner receives relevant authority after the reuse decision is final. | Narrows the existing accountable-owner control; adds no core field and does not support acceptance. |
 | Observation-route chronology | `SF-ORC-0001` refuses a synthetic draft that merges pre-decision normalization with routing and dispute occurring only after the decision is final. | Narrows the existing observation-environment control; adds no core field and does not support acceptance. |
 | Capable-route stop condition | `SF-CSC-0001` refuses a synthetic draft that names a capable route and recipient but no backed condition that suspends qualification while the contradiction remains unresolved. | Narrows the existing correction-route control; adds no core field and does not support acceptance. |
+| Validation-burden timing | `SF-VBT-0001` refuses a synthetic draft that backdates validation completed only after the reuse decision. | Narrows the existing validation-burden control; adds no core field and does not support acceptance. |
+| Decision-time control comparison | `SF-DECISION-TIME-CONTROL-CROSSWALK` keeps five nearby controls independently usable. | Adds no evidence, field, threshold, hierarchy, or acceptance support. |
 
 ## Explicit Deferrals
 

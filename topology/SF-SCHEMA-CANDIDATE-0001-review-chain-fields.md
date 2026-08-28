@@ -51,7 +51,7 @@ does not qualify as positive evidence for this candidate.
 | `accountable_review_owner` | Distinguish the assumption owner from the owner who held relevant authority during the reuse decision window and could review, stop, escalate, approve or reject, or revise that reuse. Preserve later authority as graded historical or future-route evidence rather than backdating it. | Refuse if accountability is only a generic organization label or if the named owner's relevant authority begins only after the reuse decision under review. Do not infer that capability was exercised. |
 | `affected_system_and_standing` | Name the bounded affected system and the affected-party standing visible in the sources, including people when sources make them central; when assembled from multiple fragments, preserve the admitted bridge that connects their standing to that system. | Refuse if affected parties disappear behind process language or the record borrows standing from an unrelated system without a source-backed bridge. |
 | `changed_condition` | Identify the changed function, observed anomaly, source switch, evidence context, operating condition, or other change that alters the validation burden. | Refuse if the old assumption is reused under materially unchanged conditions. |
-| `validation_burden` | State what adequate revalidation would need to address and what source-backed evidence shows as unmet, disputed, fragmented, or unresolved. | Refuse if the record supplies no source-backed burden beyond hindsight. |
+| `validation_burden` | State what adequate revalidation would need to address and what source-backed evidence shows as unmet, disputed, fragmented, unresolved, or not owner-visible enough during the relevant reuse decision window. Preserve validation completed only after that window as graded historical or follow-on evidence rather than backdating it. | Refuse if the record supplies no source-backed burden beyond hindsight or uses post-decision validation to mark the decision-time burden satisfied. |
 | `observation_environment` | Preserve how and when the relevant evidence was made visible, missed, normalized, routed, or disputed relative to the decision under review, without importing domain conclusions. | Refuse if the field becomes a domain-specific remedy or expertise claim, or collapses pre-decision handling and later-only routing or dispute into one timeless pass. |
 | `delegation_visibility_gap` | Show how distributed review, authority, request paths, or delegated decisions fragmented the contradiction. | Refuse if no review-chain fragmentation is source-supported. |
 | `absorber_or_counterevidence` | Record the strongest narrower explanation, its source context or explicit synthetic basis, its claim posture, whether it absorbs, narrows, or fails to kill the review-chain residue, and any direct material contradiction in the admitted packet bearing on a required field. | Refuse if the candidate treats every case as confirming evidence, names only generic, untraceable, or ungraded alternatives, or leaves an admitted direct material contradiction undispositioned. |
@@ -162,6 +162,12 @@ passed. Preserve the handling sequence and grade later-only routing or dispute
 as historical, correction-route, or unresolved evidence; do not infer signal
 adequacy, negligence, authority exercise, outcome, or remedy.
 
+Refuse positive qualification when a changed condition creates a validation
+burden during the reuse decision window but the only completed or owner-visible
+validation occurs after that decision is final and the record backdates it.
+Preserve later validation as graded historical or follow-on evidence; do not
+infer real-world adequacy, authority exercise, duty, outcome, or remedy.
+
 Record a case as an absorber or separate topology question, not positive
 evidence for this candidate, when public official sources center false
 alerting, public warning, communication, correction-message delay, drill
@@ -244,6 +250,7 @@ This candidate cannot be used to:
 | `SF-DRA-0001` | Refused as positive fit. A later charter and capable future owner cannot establish accountable review authority for an earlier reuse decision when no relevant authority existed during that decision window. | The falsifier prevents artifact-time authority from being backdated while keeping later authority visible and the nine core fields unchanged. |
 | `SF-ORC-0001` | Refused as positive fit. A draft cannot merge pre-decision normalization with routing and dispute that occurred only after the decision became final and call the evidence handled for that decision. | The falsifier preserves decision-relevant observation chronology without inferring signal adequacy, authority, negligence, outcome, or remedy. |
 | `SF-CSC-0001` | Refused as positive fit. A capable route and authorized recipient cannot satisfy the correction-route-and-stop-condition field when no admitted condition keeps qualification stopped or unresolved while the contradiction remains unresolved. | The falsifier prevents route capability from substituting for an explicit backed stop condition while keeping the nine core fields unchanged. |
+| `SF-VBT-0001` | Refused as positive fit. Validation completed only after the reuse decision cannot be backdated to mark the decision-time validation burden satisfied. | The falsifier preserves later validation as graded evidence while keeping the nine core fields unchanged. |
 | `SF-ABS-0004` | Refused as positive fit. The Hawaii false-alert source set is a warning/communication, drill-procedure, alert-origination, safeguard, and correction-message absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve warning-route pressure without claiming every public alerting or communication failure. |
 | `SF-ABS-0005` | Refused as positive fit. The Amtrak Train 188 source set is a single-owner execution, situational-awareness, speed-compliance, train-control, occupant-protection, and emergency-response absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve affected standing and correction-route visibility without claiming every point-of-operation execution failure. |
 | `SF-ABS-0006` | Refused as positive fit. The I-35W bridge-collapse source set is a slow-degradation, infrastructure-capacity, original-design-calculation, added-load, load-rating, construction-load, and inspection-guidance absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve long-lived defect and changed-load pressure without claiming every infrastructure-capacity failure. |
@@ -300,6 +307,13 @@ keeps the core field list unchanged.
 route can satisfy the correction gate without an explicit backed condition
 that suspends qualification while the contradiction remains unresolved. It
 refuses that substitution and keeps the core field list unchanged.
+`SF-VBT-0001-validation-burden-timing.md` tests whether validation completed
+only after a reuse decision can satisfy the validation burden for that
+decision. It refuses backdating, preserves later validation as graded evidence,
+and keeps the core field list unchanged.
+`SF-DECISION-TIME-CONTROL-CROSSWALK.md` compares TC, DRA, ORC, VBT, and CSC by
+their distinct decision objects without creating a hierarchy or accepted
+schema.
 `SF-CRA-0001-correction-route-authority.md` tests whether a named but incapable
 route can satisfy the correction gate. It refuses that name-only route posture
 while keeping the core field list unchanged.

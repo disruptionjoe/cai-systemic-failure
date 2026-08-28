@@ -1,4 +1,4 @@
-# Draft validation-burden timing pressure test
+# Test validation timing against validation scope
 
 ## Boundary
 
@@ -11,98 +11,59 @@ Family lineage: `SF-LIN-VALIDATION-TIMING-01`.
 
 ## Evidence
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-An old assumption must be reused under a changed condition, and the changed
-condition must create a validation burden that admitted evidence shows as
-unmet, disputed, fragmented, or not owner-visible enough.
-</evidence>
-
-<synthetic_fixture id="VBT-FIXTURE-01">
-- Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Reuse decision `T-reuse` occurred at `T0` under changed condition `C-new`.
-- Validation burden `VB-new` existed at `T0` because `C-new` required
-  revalidation of the reused assumption before the decision could count as
-  adequately validated.
-- Draft `D-backdated` supplies no completed validation, dispute resolution, or
-  owner-visible validation result before `T0`. It marks `validation_burden`
-  passed only because validation event `V-late` completed at `T1`, after
-  `T-reuse` was final, and then backdates that result to `T0`.
-- Draft `D-timely` supplies validation event `V-pre`, completed and made
-  owner-visible at `T-1`, whose admitted synthetic scope covers `VB-new` before
-  `T-reuse` at `T0`.
-- The fixture does not say either validation is real, adequate outside its
-  supplied scope, exercised by an authority, causally effective, a duty, a
-  remedy, or evidence of an outcome.
+<synthetic_fixture id="VBT-SCOPE-01">
+- Reuse decision `T-reuse` occurs at `T0` under changed condition `C-new`.
+- Validation burden `VB-new` exists at `T0` and specifically requires checking
+  whether reused assumption `A-old` remains adequate under `C-new`.
+- `D-old-scope` cites `V-old`, completed and owner-visible at `T-1`, but its
+  admitted scope covers only condition `C-old`, not `C-new` or `VB-new`.
+- `D-covered` cites `V-covered`, completed and owner-visible at `T-1`, whose
+  admitted synthetic scope explicitly covers `A-old`, `C-new`, and `VB-new`.
+- `D-late` cites `V-late`, whose admitted synthetic scope covers `A-old`,
+  `C-new`, and `VB-new`, but it completes at `T1` after `T-reuse` is final.
+- Every non-target core gate is supplied as `PASS`. The fixture does not prove
+  real-world adequacy, authority exercise, duty, cause, remedy, or outcome.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-VBT-0001-validation-burden-timing.md` with exactly:
+Draft `SF-VBT-SCOPE-0001.md` with exactly:
 
-1. Begin with this literal raw frontmatter block, including both `---` lines:
-
-   `---`
-
-   `test_id: SF-VBT-0001`
-
-   `candidate: SF-SCHEMA-CANDIDATE-0001`
-
-   `status: synthetic_validation_burden_timing_proposal`
-
-   `source_material: synthetic`
-
-   `external_action: none`
-
-   `---`
-2. `# SF VBT 0001 - Validation-Burden Timing`.
-3. `## Boundary` preserving proposal-only, provisional, synthetic, uncertainty,
-   no-remedy, no-promotion, no-new-record, no-authority-exercise inference,
-   no-duty inference, no-causal inference, no-outcome inference, and no action.
+1. Raw frontmatter with both delimiter lines and these fields:
+   `test_id: SF-VBT-SCOPE-0001`, `candidate: SF-SCHEMA-CANDIDATE-0001`,
+   `status: synthetic_validation_scope_timing_proposal`,
+   `source_material: synthetic`, and `external_action: none`.
+2. `# SF VBT Scope 0001 - Timing And Coverage`.
+3. `## Boundary` preserving proposal-only, provisional, synthetic,
+   uncertainty, no-remedy, no-promotion, no-new-record, no-authority-exercise
+   inference, no-duty inference, no-causal inference, no-outcome inference,
+   and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Validation Timing Ledger` copying these records literally:
+5. `## Validation Ledger` copying these three records literally:
 
-   `draft: D-backdated | reuse_decision: T-reuse | decision_time: T0 | changed_condition: C-new | validation_burden: VB-new | validation_event: V-late | validation_completed: T1 | owner_visible_before_decision: NO | backdated_to_decision: YES | verified_result: FAIL | uncertainty: later validation does not establish decision-time satisfaction`
+   `draft: D-old-scope | event: V-old | completed: T-1 | owner_visible: T-1 | admitted_scope: C-old only | covers_VB-new: NO | timing_result: PASS | scope_result: FAIL | qualification_result: FAIL`
 
-   `draft: D-timely | reuse_decision: T-reuse | decision_time: T0 | changed_condition: C-new | validation_burden: VB-new | validation_event: V-pre | validation_completed: T-1 | owner_visible_before_decision: YES | backdated_to_decision: NO | verified_result: PASS | uncertainty: synthetic scope coverage does not prove real-world adequacy or outcome`
-6. `## Candidate Gate Trace` copying exactly these lines:
+   `draft: D-covered | event: V-covered | completed: T-1 | owner_visible: T-1 | admitted_scope: A-old plus C-new plus VB-new | covers_VB-new: YES | timing_result: PASS | scope_result: PASS | qualification_result: CONTINUE GATE CHECKS`
 
-   `assumption_source_context: PASS — supplied premise`
+   `draft: D-late | event: V-late | completed: T1 | owner_visible: T1 | admitted_scope: A-old plus C-new plus VB-new | covers_VB-new: YES | timing_result: FAIL | scope_result: PASS | qualification_result: FAIL`
+6. `## Distinction` stating that event existence, scope coverage, completion
+   time, owner-visibility time, decision time, synthetic gate result,
+   real-world adequacy, authority exercise, duty, outcome, and remedy remain
+   separate. Do not call `D-old-scope` a timing failure or `D-late` a scope
+   failure.
+7. `## Candidate Gate Trace` with exactly the nine current core gate names.
+   Copy every non-target gate as `PASS — supplied premise`. For
+   `validation_burden`, record the three draft results without inferring any
+   other failed gate. End with literal `Infer no other failed gate.`
+8. `## Verdict` with exactly `ALREADY HANDLED — VALIDATION MUST BOTH COVER THE
+   CHANGED-CONDITION BURDEN AND BE COMPLETED AND OWNER-VISIBLE IN THE RELEVANT
+   DECISION WINDOW`.
+9. `## Candidate Effect` with exactly `NONE — CURRENT validation_burden
+   WORDING PRESERVES SCOPE, COMPLETION, VISIBILITY, AND DECISION TIME WITHOUT
+   BACKDATING`.
+10. `## Frontier Verification` with exactly five bullets: fixture facts; three
+    ledger records; nine gate results; verdict/effect coherence; raw
+    frontmatter and boundaries.
 
-   `accountable_review_owner: PASS — supplied premise`
-
-   `affected_system_and_standing: PASS — supplied premise`
-
-   `changed_condition: PASS — supplied premise`
-
-   `validation_burden: FAIL — D-backdated substitutes post-decision validation at T1 for decision-time satisfaction at T0`
-
-   `observation_environment: PASS — supplied premise`
-
-   `delegation_visibility_gap: PASS — supplied premise`
-
-   `absorber_or_counterevidence: PASS — supplied premise`
-
-   `correction_route_stop_condition: PASS — supplied premise`
-
-   `Infer no other failed gate.`
-7. `## Nearby-Control Comparison` distinguishing burden existence, burden
-   scope, validation event, completion time, owner visibility time, decision
-   time, backdating, adequacy, authority exercise, duty, outcome, and remedy.
-   State whether current wording already refuses `D-backdated` and permits
-   `D-timely` to continue gate checks.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — POST-DECISION VALIDATION
-   CANNOT BE BACKDATED TO SATISFY A DECISION-TIME VALIDATION BURDEN` or
-   `PROPOSE SF-VBT-0001 — CURRENT WORDING ALLOWS POST-DECISION VALIDATION TO
-   SATISFY A DECISION-TIME VALIDATION BURDEN`.
-9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   QUALIFICATION AND validation_burden WORDING REQUIRE THE BURDEN TO REMAIN
-   UNMET, DISPUTED, FRAGMENTED, OR NOT OWNER-VISIBLE ENOUGH AT THE RELEVANT
-   DECISION`; for propose, exactly `PROPOSE VALIDATION-BURDEN TIMING HANDLING`.
-10. `## Frontier Verification` with exactly five bullets: fixture facts; all
-    nine gate results; verdict/effect coherence; raw-frontmatter validity; and
-    boundary checks.
-
-Return only the finished artifact. Emit raw Markdown, not a code fence. The
-first line and the line after `external_action: none` must both be `---`. Copy
-all five YAML fields, both ledger records, and the literal `Infer no other
-failed gate.` line. Stay under 900 words.
+Return only the finished artifact. Emit raw Markdown, not a code fence. The first line and the line after
+`external_action: none` must both be `---`. Stay under 900 words.

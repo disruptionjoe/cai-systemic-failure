@@ -107,7 +107,13 @@
     route capability without an explicit source- or synthetic-backed condition
     keeping qualification stopped or unresolved while the contradiction
     remains unresolved (`SF-CSC-0001`).
-38. Next: keep the candidate provisional and add another bounded test only if a
+38. Done: create a decision-time control crosswalk that keeps temporal reuse,
+    review authority, evidence handling, validation timing, and correction-route
+    stop conditions distinct (`SF-DECISION-TIME-CONTROL-CROSSWALK`).
+39. Done: run a synthetic validation-burden timing falsifier that refuses
+    post-decision validation as proof of decision-time satisfaction
+    (`SF-VBT-0001`).
+40. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

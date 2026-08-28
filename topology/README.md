@@ -215,6 +215,17 @@ unresolved while the contradiction remains unresolved. The candidate refuses
 that substitution, narrows one existing field, adds no core field, and remains
 provisional.
 
+`SF-VBT-0001-validation-burden-timing.md` tests whether validation completed
+only after a reuse decision can be backdated to satisfy the burden for that
+decision. The candidate refuses the substitution, preserves later validation
+as graded evidence, narrows one existing field, adds no core field, and remains
+provisional.
+
+`SF-DECISION-TIME-CONTROL-CROSSWALK.md` compares TC, DRA, ORC, VBT, and CSC by
+their exact decision objects and refusal conditions. It keeps the five controls
+independently usable without creating a generic timing control, hierarchy, or
+accepted schema.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

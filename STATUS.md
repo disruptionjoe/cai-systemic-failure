@@ -159,6 +159,15 @@ names a route able to carry a contradiction to a capable owner but supplies no
 backed condition keeping qualification stopped or unresolved while the
 contradiction remains unresolved. Correction-route wording is narrowed, no core
 field is added, and the candidate remains provisional.
+`SF-VBT-0001` then tests validation-burden timing with a synthetic fixture. The
+candidate refuses positive qualification when validation completes only after
+the reuse decision is final and the draft backdates it to mark the
+decision-time burden satisfied. Later validation remains graded historical or
+follow-on evidence; validation-burden wording is narrowed, no core field is
+added, and the candidate remains provisional.
+`SF-DECISION-TIME-CONTROL-CROSSWALK` then keeps TC, DRA, ORC, VBT, and CSC
+separate by decision object and refusal condition without creating a generic
+timing control or hierarchy.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
@@ -182,8 +191,9 @@ one counterevidence-quality asymmetry falsifier, one source-revision-lineage
 falsifier, one correction-route-authority falsifier, one composite-evidence
 coherence falsifier, one intra-packet-contradiction falsifier, one annotation-
 lineage reconciliation, one temporal-coherence falsifier, one decision-time-
-review-authority falsifier, one observation-route-chronology falsifier, and one
-capable-route stop-condition falsifier while preserving
+review-authority falsifier, one observation-route-chronology falsifier, one
+capable-route stop-condition falsifier, one validation-burden timing falsifier,
+and one decision-time control crosswalk while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, procedural-acceptance caution, absorber discipline, remaining falsifier
 classes, and no-remedy boundaries. No human research, field data, intervention,
