@@ -1,4 +1,4 @@
-# Draft an observation-availability versus handling-trace pressure test
+# Draft an observation-route chronology pressure test
 
 ## Boundary
 
@@ -16,38 +16,40 @@ domain conclusions. Refuse if the field becomes a domain-specific remedy or
 expertise claim.
 </evidence>
 
-<synthetic_fixture id="OHT-FIXTURE-01">
+<synthetic_fixture id="ORC-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Monitor `M-one` recorded signal `S-red` before reuse decision `T-reuse`.
-- Draft `D-available` names only the existence of `M-one` and `S-red`; the
-  admitted packet supplies no account of whether `S-red` was displayed,
-  missed, normalized, routed, or disputed.
-- Draft `D-traced` uses admitted log `LOG-one` and review note `NOTE-one` to
-  show that `S-red` was displayed, normalized as expected variation, and not
-  routed to review owner `O-one` before `T-reuse`.
-- Do not infer sensor adequacy, operator expertise, negligence, authority
-  exercise, outcome, remedy, or domain conclusion.
-- All names and facts are synthetic; this is not a new record or acceptance.
+- Signal `S-one` was displayed and logged before reuse decision `T-reuse`.
+- Before `T-reuse`, review note `N-pre` normalized `S-one` as expected variation
+  and no admitted evidence shows that it was routed or disputed.
+- After `T-reuse` became final, escalation log `L-post` routed `S-one` to review
+  owner `O-one`, who disputed the earlier normalization.
+- Draft `D-eventual` records display, normalization, routing, and dispute but
+  omits their timing and marks `observation_environment` passed.
+- Draft `D-chronology` preserves the pre-decision normalization and the later-
+  only route and dispute, then marks the field unresolved for the reuse decision.
+- Do not infer signal adequacy, owner authority, negligence, outcome, remedy,
+  or domain conclusion. All names and facts are synthetic; this is not a new
+  record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-OHT-0001-observation-handling-trace.md` with exactly:
+Draft `SF-ORC-0001-observation-route-chronology.md` with exactly:
 
-1. YAML frontmatter: `test_id: SF-OHT-0001`,
+1. YAML frontmatter: `test_id: SF-ORC-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_observation_handling_trace_proposal`,
+   `status: synthetic_observation_route_chronology_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF OHT 0001 - Observation Availability Versus Handling Trace`.
+2. `# SF ORC 0001 - Observation Route Chronology`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, uncertainty, no-new-record, no-adequacy or expertise
-   inference, no-authority-exercise inference, no-outcome inference, and no action.
+   no-promotion, uncertainty, no-new-record, no-signal-adequacy inference,
+   no-authority or negligence inference, no-outcome inference, and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Observation Handling Ledger` copying these records literally:
+5. `## Observation Chronology Ledger` copying these records literally:
 
-   `draft: D-available | monitor: M-one | signal: S-red | decision: T-reuse | evidence_exists: YES | display_status: UNSUPPLIED | normalization_status: UNSUPPLIED | route_status: UNSUPPLIED | dispute_status: UNSUPPLIED | handling_trace: NONE | observation_environment_result: FAIL | qualification: REFUSE | uncertainty: availability only`
+   `draft: D-eventual | signal: S-one | display_time: BEFORE_T-reuse | normalization: EXPECTED_VARIATION_BEFORE_T-reuse | route_time: AFTER_T-reuse_FINAL | dispute_time: AFTER_T-reuse_FINAL | chronology_preserved: NO | observation_environment_result: PASS | verified_result: FAIL | qualification: REFUSE | uncertainty: timing omitted`
 
-   `draft: D-traced | monitor: M-one | signal: S-red | decision: T-reuse | evidence_exists: YES | display_status: DISPLAYED | normalization_status: EXPECTED_VARIATION | route_status: NOT_ROUTED_TO_O-one | dispute_status: NONE_SUPPLIED | handling_trace: LOG-one+NOTE-one | observation_environment_result: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: no adequacy or outcome inference`
+   `draft: D-chronology | signal: S-one | display_time: BEFORE_T-reuse | normalization: EXPECTED_VARIATION_BEFORE_T-reuse | route_time: AFTER_T-reuse_FINAL | dispute_time: AFTER_T-reuse_FINAL | chronology_preserved: YES | observation_environment_result: UNRESOLVED_FOR_T-reuse | verified_result: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: later route does not establish decision-time handling`
 6. `## Candidate Gate Trace` copying exactly these lines:
 
    `assumption_source_context: PASS — supplied premise`
@@ -60,7 +62,7 @@ Draft `SF-OHT-0001-observation-handling-trace.md` with exactly:
 
    `validation_burden: PASS — supplied premise`
 
-   `observation_environment: FAIL — D-available names evidence existence but supplies no account of visibility, missing, normalization, routing, or dispute`
+   `observation_environment: FAIL — D-eventual collapses pre-decision normalization and post-decision routing and dispute into one timeless pass`
 
    `delegation_visibility_gap: PASS — supplied premise`
 
@@ -69,18 +71,19 @@ Draft `SF-OHT-0001-observation-handling-trace.md` with exactly:
    `correction_route_stop_condition: PASS — supplied premise`
 
    Infer no other failed gate.
-7. `## Nearby-Control Comparison` distinguishing observation availability,
-   handling trace, visibility, missing, normalization, routing, dispute,
-   qualification, uncertainty, outcome, and remedy. State whether current
-   observation-environment wording already refuses `D-available`.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — EVIDENCE AVAILABILITY DOES
-   NOT SUBSTITUTE FOR A SOURCE-BACKED OBSERVATION HANDLING TRACE` or `PROPOSE
-   SF-OHT-0001 — EVIDENCE AVAILABILITY ALONE SATISFIES observation_environment`.
+7. `## Nearby-Control Comparison` distinguishing event existence, event time,
+   display, normalization, routing, dispute, decision-time handling,
+   qualification, uncertainty, authority, outcome, and remedy. State whether
+   current observation-environment wording already refuses `D-eventual`.
+8. `## Verdict`: choose exactly `ALREADY HANDLED — OBSERVATION-ENVIRONMENT
+   HANDLING MUST PRESERVE EVENT CHRONOLOGY RELEVANT TO THE DECISION` or
+   `PROPOSE SF-ORC-0001 — CURRENT OBSERVATION-ENVIRONMENT WORDING DOES NOT
+   REQUIRE DECISION-RELEVANT HANDLING CHRONOLOGY`.
 9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   OBSERVATION-ENVIRONMENT WORDING ALREADY REQUIRES HOW EVIDENCE WAS MADE
-   VISIBLE, MISSED, NORMALIZED, ROUTED, OR DISPUTED`; for propose, exactly
-   `PROPOSE ALLOWING AVAILABILITY-ONLY observation_environment`.
-10. `## Frontier Verification` listing only exact fixture facts, the nine gate
+   OBSERVATION-ENVIRONMENT WORDING ALREADY REQUIRES PRESERVING HOW THE EVIDENCE
+   WAS HANDLED, INCLUDING THE SUPPLIED CHRONOLOGY`; for propose, exactly
+   `PROPOSE DECISION-RELEVANT CHRONOLOGY FOR observation_environment`.
+10. `## Frontier Verification` listing only exact fixture facts, all nine gate
     results, verdict/effect coherence, and boundary checks.
 
 Return only the finished artifact. Emit raw Markdown. The first line must be `---`.
