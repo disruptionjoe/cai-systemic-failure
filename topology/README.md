@@ -279,6 +279,16 @@ revision replaces one historical parent component with two current named
 components. It refuses historical-only and partial current coverage while
 allowing complete current-component coverage to continue gate checks.
 
+`SF-DTCX-ORC-VBT-DUAL-REFUSAL-0001.md` applies the five decision-time controls
+to a seventh bounded synthetic fixture. ORC and VBT fail independently while
+TC, DRA, and CSC pass only as supplied premises, preserving separate decision
+objects and provisional status.
+
+`SF-VBT-MERGED-COMPONENT-COVERAGE-0001.md` tests coverage after a pre-decision
+revision replaces two historical components with one current composite
+component. It refuses separate historical coverage and label-only equivalence
+while allowing explicit current-composite coverage to continue gate checks.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

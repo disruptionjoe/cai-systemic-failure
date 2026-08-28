@@ -149,7 +149,14 @@
 50. Done: test whether coverage of one historical parent component proves
     coverage after a pre-decision revision replaces it with two current named
     components (`SF-VBT-SPLIT-COMPONENT-COVERAGE-0001`).
-51. Next: keep the candidate provisional and add another bounded test only if a
+51. Done: apply the decision-time controls to a seventh bounded synthetic
+    fixture and show that ORC and VBT can refuse qualification independently
+    without rewriting TC, DRA, or CSC
+    (`SF-DTCX-ORC-VBT-DUAL-REFUSAL-0001`).
+52. Done: test whether coverage of two historical components proves coverage
+    after a pre-decision revision merges them into one current composite
+    component (`SF-VBT-MERGED-COMPONENT-COVERAGE-0001`).
+53. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

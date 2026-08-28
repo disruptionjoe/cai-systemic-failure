@@ -68,6 +68,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001` | Synthetic test separating current burden coverage from surplus coverage of a component retired before the decision. |
 | `SF-DTCX-TC-VBT-DUAL-REFUSAL-0001` | Synthetic application showing that TC and VBT can refuse independently without rewriting the other controls. |
 | `SF-VBT-SPLIT-COMPONENT-COVERAGE-0001` | Synthetic test separating historical parent-component coverage from coverage of two current child components. |
+| `SF-DTCX-ORC-VBT-DUAL-REFUSAL-0001` | Synthetic application showing that ORC and VBT can refuse independently without rewriting the other controls. |
+| `SF-VBT-MERGED-COMPONENT-COVERAGE-0001` | Synthetic test separating historical separate-component coverage from coverage of one current composite component. |
 
 ## Acceptance Evidence
 
@@ -96,6 +98,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Retired-component coverage | `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001` refuses legacy-only coverage while allowing complete current coverage with or without surplus retired-component coverage. | Adds no field or acceptance support; keeps revision, current membership, and historical coverage distinct. |
 | TC/VBT dual-control application | `SF-DTCX-TC-VBT-DUAL-REFUSAL-0001` refuses one fixture independently on TC and VBT. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
 | Split-component coverage | `SF-VBT-SPLIT-COMPONENT-COVERAGE-0001` refuses historical-parent-only and partial current coverage while allowing complete current-child coverage. | Adds no field or acceptance support; keeps revision, parent membership, child membership, and current completeness distinct. |
+| ORC/VBT dual-control application | `SF-DTCX-ORC-VBT-DUAL-REFUSAL-0001` refuses one fixture independently on ORC and VBT. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
+| Merged-component coverage | `SF-VBT-MERGED-COMPONENT-COVERAGE-0001` refuses separate historical coverage and label-only equivalence while allowing complete current-composite coverage. | Adds no field or acceptance support; keeps revision, separate membership, composite membership, and current completeness distinct. |
 
 ## Explicit Deferrals
 

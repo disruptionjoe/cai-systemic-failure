@@ -210,6 +210,15 @@ revision replaces it with two current named components. Complete current
 coverage may continue gate checks; historical-only and partial current
 coverage fail. Both tests add no field or record and leave the candidate
 provisional.
+`SF-DTCX-ORC-VBT-DUAL-REFUSAL-0001` then applies the controls to a seventh
+synthetic fixture. ORC and VBT refuse qualification independently while TC,
+DRA, and CSC pass only as supplied premises.
+`SF-VBT-MERGED-COMPONENT-COVERAGE-0001` separately shows that coverage of two
+historical components does not prove coverage after a pre-decision revision
+merges them into one current composite component. Complete current composite
+coverage may continue gate checks; separate historical coverage and label-only
+equivalence fail. Both tests add no field or record and leave the candidate
+provisional.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
@@ -235,8 +244,8 @@ coherence falsifier, one intra-packet-contradiction falsifier, one annotation-
 lineage reconciliation, one temporal-coherence falsifier, one decision-time-
 review-authority falsifier, one observation-route-chronology falsifier, one
 capable-route stop-condition falsifier, one validation-burden timing falsifier,
-one decision-time control crosswalk, six bounded crosswalk applications, and
-five validation-bridge coverage tests,
+one decision-time control crosswalk, seven bounded crosswalk applications, and
+six validation-bridge coverage tests,
 while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, procedural-acceptance caution, absorber discipline, remaining falsifier

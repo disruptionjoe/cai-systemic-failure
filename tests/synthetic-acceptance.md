@@ -92,6 +92,15 @@
   components; complete current-child coverage may continue gate checks while
   historical-only and partial current coverage fail
   (`SF-VBT-SPLIT-COMPONENT-COVERAGE-0001`).
+- A bounded application may fail ORC and VBT independently while TC, DRA, and
+  CSC pass only as supplied premises; neither refusal rewrites the other
+  control results or changes schema status
+  (`SF-DTCX-ORC-VBT-DUAL-REFUSAL-0001`).
+- Coverage of two historical components does not satisfy a current burden
+  after a timely admitted revision replaces them with one named composite
+  component; complete current-composite coverage may continue gate checks
+  while separate historical coverage and label-only equivalence fail
+  (`SF-VBT-MERGED-COMPONENT-COVERAGE-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).
