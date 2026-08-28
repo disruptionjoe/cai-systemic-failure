@@ -50,6 +50,9 @@
 - Applying TC, DRA, ORC, VBT, and CSC together preserves five separate
   decision objects; no control becomes a generic timing test or hierarchy over
   the others (`SF-DECISION-TIME-CONTROL-CROSSWALK`).
+- A bounded application may pass TC, DRA, ORC, and CSC as supplied premises
+  while VBT independently fails; the one refusal does not rewrite the other
+  control results or change schema status (`SF-DTCX-APPLICATION-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).

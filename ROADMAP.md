@@ -113,7 +113,10 @@
 39. Done: run a synthetic validation-burden timing falsifier that refuses
     post-decision validation as proof of decision-time satisfaction
     (`SF-VBT-0001`).
-40. Next: keep the candidate provisional and add another bounded test only if a
+40. Done: apply all five decision-time controls to one bounded synthetic
+    fixture, preserve their separate results, and refuse qualification only on
+    the failed validation-timing gate (`SF-DTCX-APPLICATION-0001`).
+41. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

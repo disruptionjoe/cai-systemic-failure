@@ -226,6 +226,11 @@ their exact decision objects and refusal conditions. It keeps the five controls
 independently usable without creating a generic timing control, hierarchy, or
 accepted schema.
 
+`SF-DTCX-APPLICATION-0001.md` applies those five controls to one synthetic
+fixture. Four controls pass only as supplied premises while VBT fails on
+post-decision validation, showing that one refusal does not rewrite the other
+decision objects or promote the candidate.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

@@ -168,6 +168,11 @@ added, and the candidate remains provisional.
 `SF-DECISION-TIME-CONTROL-CROSSWALK` then keeps TC, DRA, ORC, VBT, and CSC
 separate by decision object and refusal condition without creating a generic
 timing control or hierarchy.
+`SF-DTCX-APPLICATION-0001` then applies all five controls to one synthetic
+fixture. TC, DRA, ORC, and CSC pass only as supplied premises while VBT refuses
+qualification because the only covering validation completes after the reuse
+decision. The application adds no field or record and leaves the candidate
+provisional.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
@@ -193,7 +198,8 @@ coherence falsifier, one intra-packet-contradiction falsifier, one annotation-
 lineage reconciliation, one temporal-coherence falsifier, one decision-time-
 review-authority falsifier, one observation-route-chronology falsifier, one
 capable-route stop-condition falsifier, one validation-burden timing falsifier,
-and one decision-time control crosswalk while preserving
+one decision-time control crosswalk, and one bounded crosswalk application
+while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, procedural-acceptance caution, absorber discipline, remaining falsifier
 classes, and no-remedy boundaries. No human research, field data, intervention,
