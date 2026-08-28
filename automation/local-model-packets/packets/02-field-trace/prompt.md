@@ -1,4 +1,4 @@
-# Draft a correction-route referential-integrity pressure test
+# Draft an evidence-visibility versus decision-time-interpretability pressure test
 
 ## Boundary
 
@@ -11,87 +11,105 @@ Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `correction_route_stop_condition` field must name an owner-visible route
-and an admitted basis showing how it can receive or surface the relevant
-contradiction to a party able to correct, escalate, stop, revise, or expose the
-assumption. Refuse a route that is only a label or cannot carry the relevant
-correction.
+The `observation_environment` field must preserve how the relevant evidence
+was made visible, missed, normalized, routed, or disputed without importing
+domain conclusions. The `assumption_source_context` field must preserve the
+admitted evidence basis and the source-backed bridge connecting the qualifying
+assumption, changed condition, standing, and review path.
 </evidence>
 
-<evidence path="topology/SF-CRA-0001-correction-route-authority.md#verdict">
-A route need not guarantee success, but it must make the relevant contradiction
-available through an accountable path. Outcome remains graded uncertainty.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
+The record must name source context, show an old assumption reused under a
+changed condition, preserve affected standing, make review paths material to
+the contradiction, and record a narrower absorber or countermodel. Every
+non-target gate below is supplied as `PASS` for this exact logic test.
 </evidence>
 
-<synthetic_fixture id="RRI-FIXTURE-01">
-- Every non-target core gate is supplied as `PASS` for this exact logic test.
+<synthetic_fixture id="EVI-FIXTURE-01">
 - Old assumption `A-old` is reused under changed condition `C-new` for bounded
   system `S-bounded` before final decision `D-final`.
-- Evidence packet `E-relevant` contains synthetic basis `SRC-relevant` and the
-  relevant contradiction. Unrelated packet `E-other` contains neither.
-- Route `R-mutable` sends notice `N-ref` with location label `REF-mutable` to
-  capable recipient `O-capable` before `D-final`.
-- At notice time `REF-mutable` resolves to `E-relevant`. Before `O-capable`
-  retrieves it, the location is overwritten and resolves only to `E-other`.
-  No immutable content identifier, retained copy, or alternate route preserves
-  access to `E-relevant` before `D-final`.
-- Receipt `REC-other` verifies that `O-capable` retrieved `E-other`; it does
-  not verify access to `E-relevant` or `SRC-relevant`.
-- Draft `D-label` marks `correction_route_stop_condition` `PASS` because the
-  notice and location label remain visible. Draft `D-content` preserves the
-  same facts and marks the field `FAIL` because the relevant contradiction is
-  unavailable through the route at retrieval time.
-- Do not infer bad faith, data loss outside this fixture, route redesign,
-  recipient agreement, authority exercise, outcome, or remedy.
+- Synthetic evidence `E-coded` contains relevant contradiction `K-limit`, but
+  its displayed payload uses only token `ALPHA-17`.
+- Before `D-final`, route `R-visible` delivers `E-coded` to accountable reviewer
+  `O-review`; display `V-display` visibly shows `ALPHA-17`, and receipt
+  `REC-visible` verifies that exact display event.
+- The admitted pre-decision packet contains no codebook, label, mapping, or
+  source context connecting `ALPHA-17` to `K-limit`. No alternate admitted
+  evidence makes that connection before `D-final`.
+- Mapping `M-late` first connects `ALPHA-17` to `K-limit` after `D-final`.
+  Preserve its later evidentiary value without backdating interpretability.
+- Draft `D-seen` marks `observation_environment` `PASS` because the token was
+  visibly displayed before the decision. Draft `D-reviewable` preserves the
+  same facts and marks the field `FAIL` because the relevant contradiction was
+  not interpretable from admitted evidence during the decision window.
+- Do not infer interface quality, reviewer competence, bad faith, information
+  withholding, outcome, authority exercise, source invalidity, or remedy.
 - All names and facts are synthetic; this is not a new record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-RRI-0001-correction-route-referential-integrity.md` with exactly:
+Draft `SF-EVI-0001-evidence-visibility-and-interpretability.md` with exactly:
 
-1. YAML frontmatter: `test_id: SF-RRI-0001`,
+1. YAML frontmatter: `test_id: SF-EVI-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_route_integrity_proposal`,
+   `status: synthetic_observation_interpretability_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF RRI 0001 - Correction Route Referential Integrity`.
+2. `# SF EVI 0001 - Evidence Visibility And Decision-Time Interpretability`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, no-domain-expertise, uncertainty, no-new-record, no-bad-faith
-   inference, no-retention-policy inference, no-route-redesign, no-authority-
-   exercise or recipient-agreement inference, no-outcome inference, and
-   no-action status.
-4. `## Synthetic Fixture` separating every named object and never treating the
-   stable location label or `REC-other` as proof that the relevant
-   contradiction remained available.
-5. `## Route Integrity Ledger` using exactly these two keyed records and keys
-   in this order. Copy every supplied value literally; edit only
+   no-promotion, no-domain-expertise, uncertainty, no-new-record, no-interface-
+   quality inference, no-reviewer-competence inference, no-bad-faith or
+   withholding inference, no-authority-exercise inference, no-outcome
+   inference, no-source-invalidity inference, no-backdating, and no action.
+4. `## Synthetic Fixture` separating every named object and never treating
+   token display or `REC-visible` as proof that the relevant contradiction was
+   interpretable before `D-final`.
+5. `## Observation Reviewability Ledger` using exactly these two keyed records
+   and keys in this order. Copy every supplied value literally; edit only
    `draft_claim` and `verified_result`:
 
-   `draft: D-label | relevant_packet: E-relevant | relevant_basis: SRC-relevant | unrelated_packet: E-other | route: R-mutable | notice: N-ref | reference: REF-mutable | recipient: O-capable | notice_timing: before D-final | at_notice: E-relevant | at_retrieval: E-other only | immutable_id: NONE | retained_copy: NONE | receipt: REC-other | relevant_content_available: NO | draft_claim: PASS | verified_result: FAIL | qualification: REFUSE | uncertainty: outcome not inferred`
+   `draft: D-seen | evidence: E-coded | contradiction: K-limit | displayed_token: ALPHA-17 | route: R-visible | display: V-display | reviewer: O-review | receipt: REC-visible | display_timing: before D-final | token_visible: YES | predecision_mapping: NONE | alternate_bridge: NONE | later_mapping: M-late after D-final | contradiction_interpretable_before_decision: NO | draft_claim: PASS | verified_result: FAIL | qualification: REFUSE | uncertainty: outcome not inferred`
 
-   `draft: D-content | relevant_packet: E-relevant | relevant_basis: SRC-relevant | unrelated_packet: E-other | route: R-mutable | notice: N-ref | reference: REF-mutable | recipient: O-capable | notice_timing: before D-final | at_notice: E-relevant | at_retrieval: E-other only | immutable_id: NONE | retained_copy: NONE | receipt: REC-other | relevant_content_available: NO | draft_claim: FAIL | verified_result: FAIL | qualification: REFUSE | uncertainty: outcome not inferred`
-6. `## Candidate Gate Trace` with the nine candidate fields in current order.
-   Give every non-target field `PASS — supplied premise`; give
-   `correction_route_stop_condition` `FAIL — R-mutable cannot surface
-   E-relevant or SRC-relevant to O-capable at retrieval time`. Infer no other
-   failed gate.
-7. `## Nearby-Control Comparison` keeping notice delivery, label stability,
-   referential integrity, relevant-content availability, recipient
-   capability, receipt identity, authority exercise, route outcome,
-   qualification, uncertainty, and remedy distinct. State whether current
-   relevant-contradiction carriage wording already refuses `D-label`.
+   `draft: D-reviewable | evidence: E-coded | contradiction: K-limit | displayed_token: ALPHA-17 | route: R-visible | display: V-display | reviewer: O-review | receipt: REC-visible | display_timing: before D-final | token_visible: YES | predecision_mapping: NONE | alternate_bridge: NONE | later_mapping: M-late after D-final | contradiction_interpretable_before_decision: NO | draft_claim: FAIL | verified_result: FAIL | qualification: REFUSE | uncertainty: outcome not inferred`
+6. `## Candidate Gate Trace` copying exactly these nine lines in order:
+
+   `assumption_source_context: PASS — supplied premise`
+
+   `accountable_review_owner: PASS — supplied premise`
+
+   `affected_system_and_standing: PASS — supplied premise`
+
+   `changed_condition: PASS — supplied premise`
+
+   `validation_burden: PASS — supplied premise`
+
+   `observation_environment: FAIL — ALPHA-17 was visible but no admitted predecision mapping made K-limit interpretable to O-review`
+
+   `delegation_visibility_gap: PASS — supplied premise`
+
+   `absorber_or_counterevidence: PASS — supplied premise`
+
+   `correction_route_stop_condition: PASS — supplied premise`
+
+   Infer no other failed gate.
+7. `## Nearby-Control Comparison` keeping evidence identity, token visibility,
+   delivery receipt, source context, mapping availability, contradiction
+   interpretability, reviewer authority, authority exercise, later evidence,
+   qualification, uncertainty, outcome, and remedy distinct. State whether
+   current relevant-evidence visibility wording already refuses `D-seen`.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-RRI-0001 — A VISIBLE LOCATION LABEL SATISFIES THE ROUTE AFTER ITS RELEVANT CONTENT CHANGES`; or
-   - `ALREADY HANDLED — A ROUTE MUST STILL SURFACE THE RELEVANT CONTRADICTION, NOT MERELY ITS OLD LABEL`.
-9. `## Candidate Effect`: exactly `PROPOSE CLARIFYING
-   correction_route_stop_condition TO REQUIRE REFERENTIAL INTEGRITY` for
-   `PROPOSE`, or exactly `NONE — CURRENT RELEVANT-CORRECTION CARRIAGE CONTROLS
-   ALREADY REFUSE A LABEL THAT NO LONGER RESOLVES TO THE CONTRADICTION` for
-   already handled. Propose no storage design, retention policy, route repair,
-   remedy, acceptance rule, annotation, or new field.
+   - `PROPOSE SF-EVI-0001 — DISPLAYING AN UNMAPPED TOKEN MAKES THE RELEVANT CONTRADICTION REVIEWABLE`; or
+   - `ALREADY HANDLED — RELEVANT EVIDENCE MUST BE INTERPRETABLE, NOT MERELY DISPLAYED AS AN UNMAPPED TOKEN`.
+9. `## Candidate Effect`: exactly `PROPOSE CLARIFYING observation_environment
+   TO REQUIRE DECISION-TIME INTERPRETABILITY OF THE RELEVANT EVIDENCE` for
+   `PROPOSE`, or exactly `NONE — CURRENT RELEVANT-EVIDENCE VISIBILITY CONTROL
+   ALREADY REFUSES AN UNMAPPED TOKEN` for already handled. Propose no interface
+   design, codebook, mapping system, remedy, acceptance rule, annotation, or
+   new field.
 10. `## Frontier Verification` listing only exact evidence, identifiers,
-    resolution states and timing, receipt identity, relevant-content
-    availability, supplied premises, qualification, wording, and boundaries.
+    display and mapping timing, receipt identity, token visibility,
+    contradiction interpretability, supplied premises, qualification,
+    wording, and boundaries.
 
 Return only the finished artifact. Emit raw Markdown without a code fence; the
 first line must be `---` and frontmatter must close before the title. Use one
