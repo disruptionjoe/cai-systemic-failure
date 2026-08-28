@@ -31,6 +31,23 @@ Execution Boundary below. Never discard user work.
   form the right questions, and route action without acting from premature
   certainty.
 
+## Current Research Priority
+
+Prioritize recognizable current and historical failure cases over further
+synthetic control-surface elaboration. The main research job is to determine
+when an apparent fluke is an instance of a recurring systemic pattern, why the
+pattern recurs, and at what scales it appears.
+
+Use provisional lenses rather than a universal taxonomy: information spread
+and correction; resource control and allocation; authority, delegation, and
+decision weighting; coercive or material power; participation and standing;
+scale, recursion, and centralization; and feedback, enforcement, recovery, and
+adaptation. Prefer one source-backed bounded case, cross-case comparison, or
+pattern hypothesis that can produce an answerable Mechanism Design inquiry.
+Use a synthetic fixture only when it discriminates a named uncertainty raised
+by real evidence. Do not extend the current review-chain schema or its test
+matrix merely to keep automation active.
+
 ## System Execution Boundary
 
 This repository owns its purpose, governance, authoritative work and Lane

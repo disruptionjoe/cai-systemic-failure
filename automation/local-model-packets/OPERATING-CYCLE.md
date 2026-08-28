@@ -36,6 +36,27 @@ The stable active transport slots are:
 - `packets/01-next-test-gate/prompt.md` — rolling slot A;
 - `packets/02-field-trace/prompt.md` — rolling slot B.
 
+### Current packet-selection priority
+
+Stewardship should use the next terminal slot opportunities to move away from
+serial synthetic review-chain elaboration and toward the repository's public
+research purpose. Prefer, in order:
+
+1. a bounded public-source record of a consequential current or historical
+   failure at a named scale;
+2. a source-preserving comparison showing whether two or more cases share a
+   causal pattern or only superficial resemblance;
+3. a trace of how information, resources, authority, power, participation,
+   scale, and feedback interacted in one case; or
+4. an answerable inquiry that routes a sufficiently supported failure pattern
+   to Mechanism Design without prescribing the remedy.
+
+One slot may explore a new pattern while the other consolidates a supported
+pattern, but both require a named nonduplicative research contribution. A
+synthetic packet is subordinate and must answer a discriminating question
+created by public-source evidence. A new permutation of the existing schema,
+control crosswalk, validation bridge, or authority boundary is not enough.
+
 Their folder names are transport identifiers, not permanent work types. The
 other four Phase 2 packet folders are retained as experiment history and are
 not on the live Mac schedule.

@@ -28,6 +28,13 @@ The active slot paths are `packets/01-next-test-gate/prompt.md` and
 from the experiment; their contents rotate. Packet folders 03 through 06 are
 historical Phase 2 evidence and are not active launch targets.
 
+The current content priority is public-source research: recognizable present
+or historical failure cases, cross-case pattern tests, causal traces across
+information/resource/authority/power/participation/scale/feedback lenses, and
+answerable inquiries for Mechanism Design. Further synthetic elaboration of
+the existing review-chain controls is deprioritized unless a real case creates
+one exact unresolved question that the fixture can discriminate.
+
 Every prompt is a complete request with embedded public, licensed, safely
 shareable, or synthetic evidence. The local executor reads only the explicitly
 selected prompt, injects no instructions, makes no workflow decision, and
