@@ -1,108 +1,89 @@
-# Draft decision-time review-authority scope pressure test
+# Draft decision-time control crosswalk
 
 ## Boundary
 
-Write one complete proposal artifact from only the embedded synthetic evidence.
-Do not claim repository access, edit files, invent sources, prescribe a remedy,
-accept the provisional schema, create follow-on work, or request Joe action.
-This is candidate material for Frontier verification, not owner truth.
+Write one complete proposal artifact from only the embedded synthetic owner
+evidence. Do not claim repository access, edit files, invent sources, add or
+change a field, prescribe a remedy, accept the provisional schema, create
+follow-on work, or request Joe action. This is candidate material for Frontier
+verification, not owner truth.
+
+Family lineage: `SF-LIN-DECISION-CONTROL-CROSSWALK-01`.
 
 ## Evidence
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `accountable_review_owner` field must distinguish the assumption owner from
-the owner who held relevant authority during the reuse decision window and
-could review, stop, escalate, approve or reject, or revise that reuse. A role
-or authority at the right time does not satisfy the field when its matter scope
-does not cover the reuse decision under review.
-</evidence>
+<synthetic_fixture id="DTC-CROSSWALK-01">
+<owner_control id="SF-TC-0001">
+Decision object: whether an old assumption remained active or was reused during
+the changed condition. Refuse when chronology shows retirement before the
+changed condition and supplies no continued-reliance or reuse bridge.
+</owner_control>
 
-<synthetic_fixture id="RAS-FIXTURE-01">
-- Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Reuse decision `T-reuse` for bounded system `S-target` occurred at `T0`.
-- Owner `O-report` held a named review title at `T0`, but admitted charter
-  `CH-report` limited that authority to receiving status reports for separate
-  system `S-report`; it did not cover `T-reuse`, `S-target`, or the ability to
-  review, stop, escalate, approve, reject, or revise that reuse.
-- Draft `D-title` marks accountable review passed because `O-report` held a
-  review title and some authority at `T0`.
-- Draft `D-scoped` instead names owner `O-decision` and admitted charter
-  `CH-decision`, operative at `T0`, whose matter scope covers `T-reuse` in
-  `S-target` and the supplied review, stop, escalation, approval, rejection,
-  and revision capabilities.
-- The fixture does not say either owner is real, that either authority was
-  exercised, that a duty or remedy exists, or that an outcome followed.
+<owner_control id="SF-DRA-0001">
+Decision object: whether the named accountable owner held relevant authority
+during the reuse decision window. Refuse when relevant authority begins only
+after the reuse decision is final; later authority remains graded evidence.
+</owner_control>
+
+<owner_control id="SF-ORC-0001">
+Decision object: whether relevant evidence handling occurred before the reuse
+decision rather than only afterward. Refuse when later routing or dispute is
+merged with pre-decision visibility or normalization into one timeless pass.
+</owner_control>
+
+<owner_control id="SF-CSC-0001">
+Decision object: whether a capable correction route also has an explicit
+source- or synthetic-backed condition keeping qualification stopped or
+unresolved while the relevant contradiction remains unresolved. Refuse when
+route capability substitutes for that stop condition.
+</owner_control>
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-RAS-0001-decision-time-review-authority-scope.md` with exactly:
+Draft `SF-DECISION-TIME-CONTROL-CROSSWALK.md` with exactly:
 
 1. Begin with this literal raw frontmatter block, including both `---` lines:
 
    `---`
 
-   `test_id: SF-RAS-0001`
+   `test_id: SF-DTCX-0001`
 
-   `candidate: SF-SCHEMA-CANDIDATE-0001`
-
-   `status: synthetic_review_authority_scope_proposal`
+   `status: synthetic_decision_time_crosswalk_proposal`
 
    `source_material: synthetic`
+
+   `schema_effect: none`
 
    `external_action: none`
 
    `---`
-2. `# SF RAS 0001 - Decision-Time Review Authority Scope`.
-3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, uncertainty, no-new-record, no-authority-exercise inference,
-   no-duty inference, no-outcome inference, and no action.
-4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Authority Scope Ledger` copying these records literally:
+2. `# SF Decision-Time Control Crosswalk`.
+3. `## Boundary` preserving proposal-only, provisional, synthetic, uncertainty,
+   no-remedy, no-promotion, no-field-change, no-new-record, no-authority-
+   exercise inference, no-outcome inference, and no action.
+4. `## Control Crosswalk` containing exactly these four pipe-delimited records,
+   in this order and without changing any value:
 
-   `draft: D-title | decision: T-reuse | decision_time: T0 | target_system: S-target | named_owner: O-report | authority_source: CH-report | authority_time: T0 | authority_scope: S-report status receipt only | target_decision_scope: NONE | target_capability: NONE | verified_result: FAIL | uncertainty: same-time title and unrelated authority do not establish relevant authority`
+   `control: SF-TC-0001 | decision_object: assumption operative reuse | fail_condition: retired before changed condition with no continued-reliance or reuse bridge | preserved_evidence: later chronology remains graded | not_equivalent_to: owner authority, evidence handling, or correction-route stop`
 
-   `draft: D-scoped | decision: T-reuse | decision_time: T0 | target_system: S-target | named_owner: O-decision | authority_source: CH-decision | authority_time: T0 | authority_scope: T-reuse in S-target | target_decision_scope: PRESENT | target_capability: REVIEW_STOP_ESCALATE_APPROVE_REJECT_REVISE | verified_result: PASS | uncertainty: authority is synthetic and exercise is not inferred`
-6. `## Candidate Gate Trace` copying exactly these lines:
+   `control: SF-DRA-0001 | decision_object: decision-time relevant owner authority | fail_condition: relevant authority begins only after the reuse decision is final | preserved_evidence: later authority remains graded historical or future-route evidence | not_equivalent_to: assumption reuse, evidence handling, or correction-route stop`
 
-   `assumption_source_context: PASS — supplied premise`
+   `control: SF-ORC-0001 | decision_object: predecision evidence handling | fail_condition: routing or dispute occurs only after the reuse decision but is merged into a timeless pass | preserved_evidence: later handling remains graded historical, route, or unresolved evidence | not_equivalent_to: assumption reuse, owner authority, or correction-route stop`
 
-   `accountable_review_owner: FAIL — D-title substitutes same-time title and unrelated authority for relevant authority over T-reuse in S-target`
-
-   `affected_system_and_standing: PASS — supplied premise`
-
-   `changed_condition: PASS — supplied premise`
-
-   `validation_burden: PASS — supplied premise`
-
-   `observation_environment: PASS — supplied premise`
-
-   `delegation_visibility_gap: PASS — supplied premise`
-
-   `absorber_or_counterevidence: PASS — supplied premise`
-
-   `correction_route_stop_condition: PASS — supplied premise`
-
-   `Infer no other failed gate.`
-7. `## Nearby-Control Comparison` distinguishing title, authority existence,
-   authority time, authority matter scope, target decision, target system,
-   capability, authority exercise, duty, outcome, and remedy. State whether
-   current wording already refuses `D-title` and permits `D-scoped` to continue
-   gate checks.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — SAME-TIME AUTHORITY OUTSIDE
-   THE REUSE DECISION SCOPE IS NOT ACCOUNTABLE REVIEW AUTHORITY` or `PROPOSE
-   SF-RAS-0001 — CURRENT WORDING ALLOWS UNRELATED SAME-TIME AUTHORITY TO
-   SATISFY accountable_review_owner`.
-9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   accountable_review_owner WORDING REQUIRES RELEVANT AUTHORITY OVER THE REUSE
-   DECISION`; for propose, exactly `PROPOSE REVIEW-AUTHORITY MATTER-SCOPE
-   HANDLING`.
-10. `## Frontier Verification` with exactly five bullets: fixture facts; all
-    nine gate results; verdict/effect coherence; raw-frontmatter validity; and
-    boundary checks.
+   `control: SF-CSC-0001 | decision_object: backed qualification stop while contradiction remains unresolved | fail_condition: capable route has no explicit backed stop condition | preserved_evidence: route capability remains graded without qualifying the record | not_equivalent_to: assumption reuse, owner authority, or evidence handling`
+5. `## Non-Collapse Checks` with exactly four bullets, one per control, stating
+   why passing or failing that control does not decide any of the other three.
+6. `## Combined Use` explaining that one record may implicate several controls,
+   but every decision object must be evaluated separately and no hierarchy,
+   universal sequence, or accepted schema is created.
+7. `## Candidate Effect` with exactly `PROPOSE COMPARISON ARTIFACT ONLY — NO
+   FIELD, RECORD, STATUS, ACCEPTANCE, OR REMEDY CHANGE`.
+8. `## Frontier Verification` with exactly five bullets: four records copied;
+   decision objects remain distinct; fail conditions remain distinct;
+   preserved-evidence boundaries remain intact; raw-frontmatter and hard
+   boundaries pass.
 
 Return only the finished artifact. Emit raw Markdown, not a code fence. The
 first line and the line after `external_action: none` must both be `---`. Copy
-all five YAML fields and the literal `Infer no other failed gate.` line. Use
-one concise row or bullet per item, do not repeat evidence, and stay under 850
-words.
+the four records literally, use each once, and stay under 800 words.
