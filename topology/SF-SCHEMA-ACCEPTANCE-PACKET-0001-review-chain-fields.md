@@ -64,6 +64,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-VBT-MULTI-COMPONENT-BRIDGE-0001` | Synthetic test separating timely bridge existence from coverage of every named burden component. |
 | `SF-DTCX-TC-ORC-DUAL-REFUSAL-0001` | Synthetic application showing that TC and ORC can refuse independently without rewriting the other controls. |
 | `SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001` | Synthetic test separating prior complete coverage from coverage of the current burden after a pre-decision revision. |
+| `SF-DTCX-DRA-CSC-DUAL-REFUSAL-0001` | Synthetic application showing that DRA and CSC can refuse independently without rewriting the other controls. |
+| `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001` | Synthetic test separating current burden coverage from surplus coverage of a component retired before the decision. |
 
 ## Acceptance Evidence
 
@@ -88,6 +90,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Multi-component bridge coverage | `SF-VBT-MULTI-COMPONENT-BRIDGE-0001` refuses partial or generic coverage of one named multi-component burden. | Adds no field or acceptance support; keeps timing and component completeness distinct. |
 | TC/ORC dual-control application | `SF-DTCX-TC-ORC-DUAL-REFUSAL-0001` refuses one fixture independently on TC and ORC. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
 | Revised-burden bridge coverage | `SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001` refuses a bridge that omits a component added to the current burden before the decision. | Adds no field or acceptance support; keeps revision, timing, and current-component completeness distinct. |
+| DRA/CSC dual-control application | `SF-DTCX-DRA-CSC-DUAL-REFUSAL-0001` refuses one fixture independently on DRA and CSC. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
+| Retired-component coverage | `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001` refuses legacy-only coverage while allowing complete current coverage with or without surplus retired-component coverage. | Adds no field or acceptance support; keeps revision, current membership, and historical coverage distinct. |
 
 ## Explicit Deferrals
 

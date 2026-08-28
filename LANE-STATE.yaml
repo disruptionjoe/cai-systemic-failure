@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-28T14:05:41-05:00"
-run_ref: RUN-20260828-190541-cai-systemic-failure-prepared-progress
-bottom_line: "TC/ORC refusals and current-burden revision coverage remain distinct; keep the schema candidate provisional."
+updated_at: "2026-08-28T15:04:18-05:00"
+run_ref: RUN-20260828-200418-cai-systemic-failure-prepared-progress
+bottom_line: "DRA/CSC refusals and retired-component coverage remain distinct; keep the schema candidate provisional."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Applied independent TC/ORC refusals and tested revised current-burden bridge coverage in bounded synthetic fixtures."
-    movement_ref: "topology/SF-DTCX-TC-ORC-DUAL-REFUSAL-0001.md; topology/SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001.md"
+    last_movement: "Applied independent DRA/CSC refusals and tested retired-component coverage in bounded synthetic fixtures."
+    movement_ref: "topology/SF-DTCX-DRA-CSC-DUAL-REFUSAL-0001.md; topology/SF-VBT-RETIRED-COMPONENT-COVERAGE-0001.md"
     steering_attention: watch
     steering_prompt: "Add future tests only if materially new pressure appears."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: tc_orc_refusal_and_current_burden_coverage_verified
-    evidence_ref: "topology/SF-DTCX-TC-ORC-DUAL-REFUSAL-0001.md; topology/SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001.md; ROADMAP.md"
-    summary: "TC and ORC refuse independently, while bridge coverage must follow the current named burden after a pre-decision revision."
-    evaluated_at: "2026-08-28T14:05:41-05:00"
-    run_ref: RUN-20260828-190541-cai-systemic-failure-prepared-progress
+    reason_code: dra_csc_refusal_and_retired_component_coverage_verified
+    evidence_ref: "topology/SF-DTCX-DRA-CSC-DUAL-REFUSAL-0001.md; topology/SF-VBT-RETIRED-COMPONENT-COVERAGE-0001.md; ROADMAP.md"
+    summary: "DRA and CSC refuse independently, while coverage follows the current burden after a component is retired."
+    evaluated_at: "2026-08-28T15:04:18-05:00"
+    run_ref: RUN-20260828-200418-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added one TC/ORC dual-refusal application and one revised current-burden bridge test without changing the nine-field count or accepting the schema."
+    progress_delta: "Added one DRA/CSC dual-refusal application and one retired-component coverage test without changing the nine-field count or accepting the schema."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
     recommendation: "Keep provisional; test only materially new pressure."
     findings:
-      - "TC and ORC refuse qualification independently in one application fixture."
-      - "A timely bridge must cover every named component of the current decision-time burden after revision."
+      - "DRA and CSC refuse qualification independently in one application fixture."
+      - "Coverage follows current burden membership after a pre-decision component retirement."
       - "The nine-field list and provisional candidate status remain unchanged."
     options:
       - id: A

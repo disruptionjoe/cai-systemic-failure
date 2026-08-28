@@ -259,6 +259,16 @@ against a burden that gains a named component before the decision. It refuses
 stale and generic coverage while allowing an explicit bridge covering every
 component of the current burden to continue gate checks.
 
+`SF-DTCX-DRA-CSC-DUAL-REFUSAL-0001.md` applies the five decision-time controls
+to a fifth synthetic fixture. DRA and CSC fail independently while TC, ORC,
+and VBT pass only as supplied premises, preserving separate decision objects
+and provisional status.
+
+`SF-VBT-RETIRED-COMPONENT-COVERAGE-0001.md` tests current burden membership
+after a pre-decision revision removes one historical component. It refuses
+legacy-only coverage while allowing complete current coverage with or without
+surplus retired-component coverage to continue gate checks.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

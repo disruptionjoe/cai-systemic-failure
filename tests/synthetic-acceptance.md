@@ -75,6 +75,14 @@
   current decision-time burden after a timely admitted revision adds a named
   component; the current burden controls the coverage check
   (`SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001`).
+- A bounded application may fail DRA and CSC independently while TC, ORC, and
+  VBT pass only as supplied premises; neither refusal rewrites the other
+  control results or changes schema status
+  (`SF-DTCX-DRA-CSC-DUAL-REFUSAL-0001`).
+- Coverage is judged against the current named decision-time burden after a
+  timely admitted revision removes one historical component; retired-component
+  coverage is neither a substitute for current coverage nor a failure when
+  current coverage is complete (`SF-VBT-RETIRED-COMPONENT-COVERAGE-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).

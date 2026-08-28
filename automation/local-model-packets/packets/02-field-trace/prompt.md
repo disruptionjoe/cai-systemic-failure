@@ -1,4 +1,4 @@
-# Test retired-component validation coverage
+# Test split-component validation coverage
 
 ## Boundary
 
@@ -12,20 +12,19 @@ Family lineage: `SF-LIN-VALIDATION-TIMING-01`.
 
 ## Evidence
 
-<synthetic_fixture id="VBT-RETIRED-COMPONENT-COVERAGE-01">
+<synthetic_fixture id="VBT-SPLIT-COMPONENT-COVERAGE-01">
 - Reuse decision `T-reuse` occurs at `T0` under changed condition `C-new`.
-- At `T-2`, validation burden `VB-v1` has three named components:
-  `VC-assumption`, `VC-interaction`, and `VC-legacy`. Validation events for all
-  three components complete and become owner-visible at `T-2`; timely bridge
-  `BR-v1` explicitly covers all three.
-- At `T-1`, admitted burden revision `VB-v2` removes `VC-legacy` and preserves
-  only `VC-assumption` and `VC-interaction` as the named decision-time burden.
-- `D-current` cites timely events `V-assumption` and `V-interaction` plus
-  timely bridge `BR-v2`, which explicitly covers both current components.
-- `D-legacy-only` cites only `V-legacy` and bridge `BR-legacy`, which cover the
-  removed component but neither current component.
-- `D-superset` cites all three events and `BR-v1`, which explicitly covers the
-  two current components plus the removed component.
+- At `T-2`, validation burden `VB-v1` has one named component `VC-control`.
+  Validation event `V-control` completes and becomes owner-visible at `T-2`;
+  timely bridge `BR-v1` explicitly covers `VC-control`.
+- At `T-1`, admitted burden revision `VB-v2` replaces `VC-control` with two
+  current named components: `VC-assumption` and `VC-interaction`.
+- `D-parent` cites only `V-control` and `BR-v1`; neither names either current
+  `VB-v2` component.
+- `D-split` cites timely events `V-assumption` and `V-interaction` plus timely
+  bridge `BR-v2`, which explicitly covers both current components.
+- `D-partial` cites timely event `V-assumption` and bridge `BR-partial`, which
+  explicitly covers `VC-assumption` but not `VC-interaction`.
 - Every non-target core gate is supplied as `PASS`. All supplied events,
   bridges, and the burden revision are timely and owner-visible. The fixture
   does not prove real-world adequacy, authority exercise, duty, cause, remedy,
@@ -34,14 +33,14 @@ Family lineage: `SF-LIN-VALIDATION-TIMING-01`.
 
 ## Work now
 
-Draft `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001.md` with exactly:
+Draft `SF-VBT-SPLIT-COMPONENT-COVERAGE-0001.md` with exactly:
 
 1. Raw frontmatter with both delimiter lines and these fields:
-   `test_id: SF-VBT-RETIRED-COMPONENT-COVERAGE-0001`,
+   `test_id: SF-VBT-SPLIT-COMPONENT-COVERAGE-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_retired_component_coverage_proposal`,
+   `status: synthetic_split_component_coverage_proposal`,
    `source_material: synthetic`, and `external_action: none`.
-2. `# SF VBT Retired Component Coverage 0001`.
+2. `# SF VBT Split Component Coverage 0001`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic,
    uncertainty, no-remedy, no-promotion, no-field-change, no-new-record,
    no-authority-exercise inference, no-duty inference, no-causal inference,
@@ -49,17 +48,18 @@ Draft `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001.md` with exactly:
 4. `## Synthetic Fixture` preserving every supplied fact.
 5. `## Validation Ledger` copying these three records literally:
 
-   `draft: D-current | burden: VB-v2 | events: V-assumption plus V-interaction | bridge: BR-v2 at T-1 | covers_current: VC-assumption plus VC-interaction | covers_removed: NONE | current_coverage_result: PASS | qualification_result: CONTINUE GATE CHECKS`
+   `draft: D-parent | burden: VB-v2 | events: V-control | bridge: BR-v1 at T-2 | covers_current: NONE | covers_historical: VC-control | current_coverage_result: FAIL | qualification_result: FAIL`
 
-   `draft: D-legacy-only | burden: VB-v2 | events: V-legacy | bridge: BR-legacy at T-1 | covers_current: NONE | covers_removed: VC-legacy | current_coverage_result: FAIL | qualification_result: FAIL`
+   `draft: D-split | burden: VB-v2 | events: V-assumption plus V-interaction | bridge: BR-v2 at T-1 | covers_current: VC-assumption plus VC-interaction | covers_historical: NONE | current_coverage_result: PASS | qualification_result: CONTINUE GATE CHECKS`
 
-   `draft: D-superset | burden: VB-v2 | events: V-assumption plus V-interaction plus V-legacy | bridge: BR-v1 at T-2 | covers_current: VC-assumption plus VC-interaction | covers_removed: VC-legacy | current_coverage_result: PASS | qualification_result: CONTINUE GATE CHECKS`
-6. `## Distinction` stating that current burden membership, historical burden
-   membership, event existence, bridge existence, current-component coverage,
-   surplus removed-component coverage, completion time, owner-visibility time,
-   decision time, synthetic gate result, real-world adequacy, authority
-   exercise, duty, outcome, and remedy remain separate. Do not infer that
-   removed-component coverage is required or disqualifying.
+   `draft: D-partial | burden: VB-v2 | events: V-assumption | bridge: BR-partial at T-1 | covers_current: VC-assumption | covers_historical: NONE | current_coverage_result: FAIL | qualification_result: FAIL`
+6. `## Distinction` stating that historical parent-component membership,
+   current child-component membership, event existence, bridge existence,
+   current-component coverage, historical-component coverage, completion
+   time, owner-visibility time, decision time, synthetic gate result,
+   real-world adequacy, authority exercise, duty, outcome, and remedy remain
+   separate. Do not infer that historical parent-component coverage proves
+   coverage of either current child component.
 7. `## Candidate Gate Trace` copying these nine records exactly:
 
    `assumption_source_context: PASS — supplied premise`
@@ -70,7 +70,7 @@ Draft `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001.md` with exactly:
 
    `changed_condition: PASS — supplied premise`
 
-   `validation_burden: D-current PASS; D-legacy-only FAIL; D-superset PASS`
+   `validation_burden: D-parent FAIL; D-split PASS; D-partial FAIL`
 
    `observation_environment: PASS — supplied premise`
 
@@ -81,10 +81,10 @@ Draft `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001.md` with exactly:
    `correction_route_stop_condition: PASS — supplied premise`
 
    End with literal `Infer no other failed gate.`
-8. `## Verdict` with exactly `TEST FOR NEW PRESSURE — COVERAGE IS JUDGED
-   AGAINST THE CURRENT NAMED DECISION-TIME BURDEN; COVERAGE OF A REMOVED
-   COMPONENT IS NEITHER A SUBSTITUTE NOR A FAILURE`.
-9. `## Candidate Effect` with exactly `PROPOSE RETIRED-COMPONENT COVERAGE TEST
+8. `## Verdict` with exactly `TEST FOR NEW PRESSURE — COVERAGE OF A
+   PRE-REVISION PARENT COMPONENT DOES NOT PROVE COVERAGE OF THE CURRENT NAMED
+   CHILD COMPONENTS`.
+9. `## Candidate Effect` with exactly `PROPOSE SPLIT-COMPONENT COVERAGE TEST
    ONLY — NO FIELD, RECORD, STATUS, ACCEPTANCE, OR REMEDY CHANGE`.
 10. `## Frontier Verification` with exactly five bullets: fixture facts; three
     ledger records; nine gate results; verdict/effect coherence; raw
