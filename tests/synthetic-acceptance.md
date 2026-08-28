@@ -60,6 +60,13 @@
   their scopes separately name the assumption and changed condition; an
   admitted timely bridge must connect their coverage to the named burden, and
   a post-decision bridge is not backdated (`SF-VBT-BRIDGED-COVERAGE-0001`).
+- A bounded application may fail ORC and CSC independently while TC, DRA, and
+  VBT pass only as supplied premises; neither refusal rewrites the other
+  control results or changes schema status
+  (`SF-DTCX-ORC-CSC-DUAL-REFUSAL-0001`).
+- A timely bridge that covers only one named component of a multi-component
+  validation burden does not satisfy the whole burden; generic completion
+  language is not component coverage (`SF-VBT-MULTI-COMPONENT-BRIDGE-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).

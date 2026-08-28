@@ -60,6 +60,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-DECISION-TIME-CONTROL-CROSSWALK` | Comparison of TC, DRA, ORC, VBT, and CSC without control collapse or hierarchy. |
 | `SF-DTCX-DUAL-REFUSAL-0001` | Synthetic application showing that DRA and VBT can refuse independently without rewriting the other controls. |
 | `SF-VBT-BRIDGED-COVERAGE-0001` | Synthetic test separating timely validation events from timely admitted bridge coverage of the burden. |
+| `SF-DTCX-ORC-CSC-DUAL-REFUSAL-0001` | Synthetic application showing that ORC and CSC can refuse independently without rewriting the other controls. |
+| `SF-VBT-MULTI-COMPONENT-BRIDGE-0001` | Synthetic test separating timely bridge existence from coverage of every named burden component. |
 
 ## Acceptance Evidence
 
@@ -80,6 +82,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Decision-time control comparison | `SF-DECISION-TIME-CONTROL-CROSSWALK` keeps five nearby controls independently usable. | Adds no evidence, field, threshold, hierarchy, or acceptance support. |
 | Dual-control application | `SF-DTCX-DUAL-REFUSAL-0001` refuses one fixture independently on DRA and VBT. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
 | Bridged validation coverage | `SF-VBT-BRIDGED-COVERAGE-0001` refuses timely events whose admitted scope is not bridged to the decision-time burden, and separately refuses a bridge admitted only after the decision. | Adds no field or acceptance support; keeps event timing, bridge timing, and scope distinct. |
+| ORC/CSC dual-control application | `SF-DTCX-ORC-CSC-DUAL-REFUSAL-0001` refuses one fixture independently on ORC and CSC. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
+| Multi-component bridge coverage | `SF-VBT-MULTI-COMPONENT-BRIDGE-0001` refuses partial or generic coverage of one named multi-component burden. | Adds no field or acceptance support; keeps timing and component completeness distinct. |
 
 ## Explicit Deferrals
 

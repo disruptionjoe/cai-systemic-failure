@@ -239,6 +239,16 @@ supplied premises, preserving separate decision objects and provisional status.
 from scope coverage and bridge timing. It refuses unbridged and late-bridged
 coverage while allowing a timely admitted bridge to continue gate checks.
 
+`SF-DTCX-ORC-CSC-DUAL-REFUSAL-0001.md` applies the five decision-time controls
+to a third synthetic fixture. ORC and CSC fail independently while TC, DRA,
+and VBT pass only as supplied premises, preserving separate decision objects
+and provisional status.
+
+`SF-VBT-MULTI-COMPONENT-BRIDGE-0001.md` tests a timely bridge against a
+two-component decision-time validation burden. It refuses partial and generic
+coverage while allowing an explicit all-component bridge to continue gate
+checks.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

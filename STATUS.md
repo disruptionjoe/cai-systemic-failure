@@ -179,6 +179,13 @@ ORC, and CSC pass only as supplied premises. `SF-VBT-BRIDGED-COVERAGE-0001`
 separately shows that timely validation events do not cover a decision-time
 burden without a timely admitted bridge connecting their scope to that burden.
 Both tests add no field or record and leave the candidate provisional.
+`SF-DTCX-ORC-CSC-DUAL-REFUSAL-0001` then applies the same controls to a third
+synthetic fixture. ORC and CSC refuse qualification independently while TC,
+DRA, and VBT pass only as supplied premises. `SF-VBT-MULTI-COMPONENT-BRIDGE-0001`
+separately shows that a timely bridge must cover every named component of a
+decision-time validation burden; partial or generic coverage fails without
+becoming a timing failure. Both tests add no field or record and leave the
+candidate provisional.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares

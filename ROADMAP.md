@@ -122,7 +122,13 @@
 42. Done: test whether timely validation events cover the decision-time burden
     only when an admitted timely bridge connects their scope to that burden
     (`SF-VBT-BRIDGED-COVERAGE-0001`).
-43. Next: keep the candidate provisional and add another bounded test only if a
+43. Done: apply the decision-time controls to a third bounded synthetic fixture
+    and show that ORC and CSC can refuse qualification independently without
+    rewriting TC, DRA, or VBT (`SF-DTCX-ORC-CSC-DUAL-REFUSAL-0001`).
+44. Done: test whether a timely validation bridge covers every named component
+    of one decision-time burden rather than merely naming completed validation
+    (`SF-VBT-MULTI-COMPONENT-BRIDGE-0001`).
+45. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 
