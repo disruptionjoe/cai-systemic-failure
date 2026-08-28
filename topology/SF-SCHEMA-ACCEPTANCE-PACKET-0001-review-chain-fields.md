@@ -66,6 +66,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001` | Synthetic test separating prior complete coverage from coverage of the current burden after a pre-decision revision. |
 | `SF-DTCX-DRA-CSC-DUAL-REFUSAL-0001` | Synthetic application showing that DRA and CSC can refuse independently without rewriting the other controls. |
 | `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001` | Synthetic test separating current burden coverage from surplus coverage of a component retired before the decision. |
+| `SF-DTCX-TC-VBT-DUAL-REFUSAL-0001` | Synthetic application showing that TC and VBT can refuse independently without rewriting the other controls. |
+| `SF-VBT-SPLIT-COMPONENT-COVERAGE-0001` | Synthetic test separating historical parent-component coverage from coverage of two current child components. |
 
 ## Acceptance Evidence
 
@@ -92,6 +94,8 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Revised-burden bridge coverage | `SF-VBT-REVISED-MULTI-COMPONENT-BRIDGE-0001` refuses a bridge that omits a component added to the current burden before the decision. | Adds no field or acceptance support; keeps revision, timing, and current-component completeness distinct. |
 | DRA/CSC dual-control application | `SF-DTCX-DRA-CSC-DUAL-REFUSAL-0001` refuses one fixture independently on DRA and CSC. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
 | Retired-component coverage | `SF-VBT-RETIRED-COMPONENT-COVERAGE-0001` refuses legacy-only coverage while allowing complete current coverage with or without surplus retired-component coverage. | Adds no field or acceptance support; keeps revision, current membership, and historical coverage distinct. |
+| TC/VBT dual-control application | `SF-DTCX-TC-VBT-DUAL-REFUSAL-0001` refuses one fixture independently on TC and VBT. | Exercises combined use without adding a field, hierarchy, or acceptance support. |
+| Split-component coverage | `SF-VBT-SPLIT-COMPONENT-COVERAGE-0001` refuses historical-parent-only and partial current coverage while allowing complete current-child coverage. | Adds no field or acceptance support; keeps revision, parent membership, child membership, and current completeness distinct. |
 
 ## Explicit Deferrals
 

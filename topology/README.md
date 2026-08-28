@@ -269,6 +269,16 @@ after a pre-decision revision removes one historical component. It refuses
 legacy-only coverage while allowing complete current coverage with or without
 surplus retired-component coverage to continue gate checks.
 
+`SF-DTCX-TC-VBT-DUAL-REFUSAL-0001.md` applies the five decision-time controls
+to a sixth synthetic fixture. TC and VBT fail independently while DRA, ORC,
+and CSC pass only as supplied premises, preserving separate decision objects
+and provisional status.
+
+`SF-VBT-SPLIT-COMPONENT-COVERAGE-0001.md` tests coverage after a pre-decision
+revision replaces one historical parent component with two current named
+components. It refuses historical-only and partial current coverage while
+allowing complete current-component coverage to continue gate checks.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

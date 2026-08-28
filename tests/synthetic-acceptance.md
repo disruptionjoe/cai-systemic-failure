@@ -83,6 +83,15 @@
   timely admitted revision removes one historical component; retired-component
   coverage is neither a substitute for current coverage nor a failure when
   current coverage is complete (`SF-VBT-RETIRED-COMPONENT-COVERAGE-0001`).
+- A bounded application may fail TC and VBT independently while DRA, ORC, and
+  CSC pass only as supplied premises; neither refusal rewrites the other
+  control results or changes schema status
+  (`SF-DTCX-TC-VBT-DUAL-REFUSAL-0001`).
+- Coverage of one historical parent component does not satisfy a current
+  burden after a timely admitted revision replaces it with two named child
+  components; complete current-child coverage may continue gate checks while
+  historical-only and partial current coverage fail
+  (`SF-VBT-SPLIT-COMPONENT-COVERAGE-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).
