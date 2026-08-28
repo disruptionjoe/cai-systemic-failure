@@ -148,6 +148,11 @@ capable owner receives relevant authority after the reuse decision is final.
 Later authority remains graded historical or future-route evidence; the
 accountable-owner wording is narrowed, no core field is added, and the
 candidate remains provisional.
+`SF-ORC-0001` then tests observation-route chronology with a synthetic fixture.
+The candidate refuses positive qualification when a draft merges pre-decision
+normalization with routing and dispute that occur only after the reuse decision
+is final. Later events remain graded evidence; observation-environment wording
+is narrowed, no core field is added, and the candidate remains provisional.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
@@ -170,8 +175,8 @@ one non-accepting acceptance packet with explicit unresolved-class deferrals,
 one counterevidence-quality asymmetry falsifier, one source-revision-lineage
 falsifier, one correction-route-authority falsifier, one composite-evidence
 coherence falsifier, one intra-packet-contradiction falsifier, one annotation-
-lineage reconciliation, one temporal-coherence falsifier, and one decision-
-time-review-authority falsifier while preserving
+lineage reconciliation, one temporal-coherence falsifier, one decision-time-
+review-authority falsifier, and one observation-route-chronology falsifier while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, procedural-acceptance caution, absorber discipline, remaining falsifier
 classes, and no-remedy boundaries. No human research, field data, intervention,

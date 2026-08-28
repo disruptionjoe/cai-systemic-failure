@@ -54,6 +54,7 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-ANNOTATION-LINEAGE-RECONCILIATION` | Repository-history reconciliation restoring one omitted optional annotation without promotion. |
 | `SF-TC-0001` | Synthetic temporal-coherence falsifier that refuses same-system chronology without evidence of continued assumption reuse. |
 | `SF-DRA-0001` | Synthetic decision-time-authority falsifier that refuses later-only review authority for an earlier reuse decision. |
+| `SF-ORC-0001` | Synthetic observation-route chronology falsifier that refuses later-only routing or dispute as proof of decision-time handling. |
 
 ## Acceptance Evidence
 
@@ -68,6 +69,7 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Annotation lineage | Repository history preserves `procedural_acceptance_criteria_gap` from `SF-0004` through `SF-SCHEMA-DISPOSITION-0001`, with no intentional-retirement evidence. | Restores the optional annotation to current lists; does not promote it or alter qualification. |
 | Temporal coherence | `SF-TC-0001` refuses a synthetic same-system sequence where the old assumption was retired before the changed condition and no continued-reuse bridge exists. | Narrows existing source-context and record-bridge controls; adds no core field and does not support acceptance. |
 | Decision-time review authority | `SF-DRA-0001` refuses a synthetic record whose only capable owner receives relevant authority after the reuse decision is final. | Narrows the existing accountable-owner control; adds no core field and does not support acceptance. |
+| Observation-route chronology | `SF-ORC-0001` refuses a synthetic draft that merges pre-decision normalization with routing and dispute occurring only after the decision is final. | Narrows the existing observation-environment control; adds no core field and does not support acceptance. |
 
 ## Explicit Deferrals
 

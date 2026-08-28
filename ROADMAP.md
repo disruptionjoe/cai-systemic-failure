@@ -100,7 +100,10 @@
 35. Done: run a synthetic decision-time review-authority falsifier that refuses
     later-only authority as proof of accountable review for an earlier reuse
     decision (`SF-DRA-0001`).
-36. Next: keep the candidate provisional and add another bounded test only if a
+36. Done: run a synthetic observation-route chronology falsifier that refuses
+    later-only routing or dispute as proof of decision-time evidence handling
+    (`SF-ORC-0001`).
+37. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

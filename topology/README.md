@@ -202,6 +202,12 @@ earlier reuse decision. The candidate refuses later-only authority for that
 decision, preserves it as graded historical or future-route evidence, narrows
 one existing field, adds no core field, and remains provisional.
 
+`SF-ORC-0001-observation-route-chronology.md` tests whether a draft can merge
+pre-decision normalization with routing and dispute that occurred only after
+the reuse decision became final. The candidate refuses that timeless handling
+pass, preserves later events as graded evidence, narrows one existing field,
+adds no core field, and remains provisional.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source

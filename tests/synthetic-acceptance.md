@@ -34,6 +34,10 @@
   authority after the reuse decision under review fails candidate
   qualification for that decision; later authority remains graded evidence
   and is not backdated (`SF-DRA-0001`).
+- A record that merges pre-decision display or normalization with routing or
+  dispute occurring only after the decision is final fails candidate
+  qualification for decision-time observation handling; later events remain
+  graded evidence and are not backdated (`SF-ORC-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).

@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-27T13:05:47-05:00"
-run_ref: RUN-20260827-180547-cai-systemic-failure-prepared-progress
-bottom_line: "Later-only authority no longer qualifies an earlier reuse decision; keep the schema candidate provisional."
+updated_at: "2026-08-28T04:05:24-05:00"
+run_ref: RUN-20260828-090524-cai-systemic-failure-prepared-progress
+bottom_line: "Later-only routing no longer qualifies as decision-time observation handling; keep the schema candidate provisional."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Added a verified decision-time review-authority falsifier and narrowed the existing accountable-owner control."
-    movement_ref: "topology/SF-DRA-0001-later-authority-and-decision-time-authority.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    last_movement: "Added a verified observation-route chronology falsifier and narrowed the existing observation-environment control."
+    movement_ref: "topology/SF-ORC-0001-observation-route-chronology.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
     steering_attention: watch
     steering_prompt: "Add future tests only if materially new pressure appears."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: decision_time_review_authority_falsified
-    evidence_ref: "topology/SF-DRA-0001-later-authority-and-decision-time-authority.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
-    summary: "A later capable owner cannot be backdated into the accountable review chain for an earlier reuse decision."
-    evaluated_at: "2026-08-27T13:05:47-05:00"
-    run_ref: RUN-20260827-180547-cai-systemic-failure-prepared-progress
+    reason_code: observation_route_chronology_falsified
+    evidence_ref: "topology/SF-ORC-0001-observation-route-chronology.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
+    summary: "Routing or dispute after a final decision cannot be backdated into decision-time observation handling."
+    evaluated_at: "2026-08-28T04:05:24-05:00"
+    run_ref: RUN-20260828-090524-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added one synthetic decision-time-authority falsifier and narrowed one existing field without changing the nine-field count or accepting the schema."
-    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
+    progress_delta: "Added one synthetic observation-route chronology falsifier and narrowed one existing field without changing the nine-field count or accepting the schema."
+    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
     recommendation: "Keep provisional; test only materially new pressure."
     findings:
-      - "Authority acquired after a reuse decision cannot establish the accountable review owner for that earlier decision."
-      - "Later authority remains useful graded historical or future-route evidence and is not treated as exercised authority."
+      - "Observation routing or dispute after a final reuse decision cannot establish handling for that earlier decision."
+      - "Later handling remains useful graded historical or correction-route evidence and is not backdated."
       - "The nine-field list and provisional candidate status remain unchanged."
     options:
       - id: A

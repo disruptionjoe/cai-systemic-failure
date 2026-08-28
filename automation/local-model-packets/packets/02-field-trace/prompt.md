@@ -1,4 +1,4 @@
-# Draft an explicit-synthetic-basis traceability pressure test
+# Draft an oversight role versus affected-party standing pressure test
 
 ## Boundary
 
@@ -10,52 +10,53 @@ This is candidate material for Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `absorber_or_counterevidence` field must record the strongest narrower
-explanation, its source context or explicit synthetic basis, its claim posture,
-whether it absorbs, narrows, or fails to kill the review-chain residue, and any
-direct material contradiction in the admitted packet bearing on a required
-field. Refuse generic, untraceable, or ungraded alternatives.
+The `affected_system_and_standing` field must name the bounded affected system
+and affected-party standing visible in the sources, including people when
+sources make them central. Refuse if affected parties disappear behind process
+language or standing is borrowed from an unrelated system without a bridge.
 </evidence>
 
-<synthetic_fixture id="ESB-FIXTURE-01">
+<synthetic_fixture id="ORS-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Review-chain residue `R-one` is the bounded residue under test.
-- Draft `D-label` names alternative `A-label`, marks it `synthetic`, supplies
-  no premises or mechanism, and grades it `ABSORBS`.
-- Draft `D-basis` names alternative `A-basis`, explicitly supplies synthetic
-  premises `P-one` and `P-two` plus mechanism `M-one`, states claim posture
-  `SYNTHETIC_NARROWER_EXPLANATION`, and grades it `NARROWS_R-one`.
-- The fixture does not say that either alternative is true, source-backed, or
-  a remedy. It supplies no contradiction, outcome, authority exercise, or
-  domain conclusion.
-- All names and facts are synthetic; this is not a new record or acceptance.
+- Bounded system `S-target` is the system under review.
+- Entity `E-oversight` has a traceable oversight and reporting role concerning
+  `S-target`, but the fixture supplies no exposure, dependency, representation,
+  affected-person relation, or other affected-party standing for it.
+- Party `P-affected` has an explicit synthetic dependency on `S-target` and is
+  named as the affected party in the admitted bridge.
+- Draft `D-role` names only `E-oversight` and marks standing passed because its
+  oversight role concerns `S-target`.
+- Draft `D-standing` names `P-affected`, preserves its bridge, and keeps
+  `E-oversight` separate as an oversight actor.
+- Do not infer duty, liability, remedy, outcome, or domain conclusion. All
+  names and facts are synthetic; this is not a new record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-ESB-0001-explicit-synthetic-basis.md` with exactly:
+Draft `SF-ORS-0001-oversight-role-affected-standing.md` with exactly:
 
-1. YAML frontmatter: `test_id: SF-ESB-0001`,
+1. YAML frontmatter: `test_id: SF-ORS-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_basis_traceability_proposal`,
+   `status: synthetic_standing_role_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF ESB 0001 - Explicit Synthetic Basis Traceability`.
+2. `# SF ORS 0001 - Oversight Role And Affected Standing`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, uncertainty, no-new-record, no-truth or source-backing
-   inference, no-authority inference, no-outcome inference, and no action.
+   no-promotion, uncertainty, no-new-record, no-duty or liability inference,
+   no-outcome inference, and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Synthetic Basis Ledger` copying these records literally:
+5. `## Standing Ledger` copying these records literally:
 
-   `draft: D-label | residue: R-one | alternative: A-label | basis_type: SYNTHETIC_LABEL_ONLY | premises: NONE | mechanism: NONE | claim_posture: UNSUPPLIED | absorber_grade: ABSORBS | traceability: FAIL | qualification: REFUSE | uncertainty: label is not an explicit basis`
+   `draft: D-role | system: S-target | named_party: E-oversight | relation: OVERSIGHT_REPORTING_ROLE | affected_party_bridge: NONE | standing_result: PASS | verified_result: FAIL | qualification: REFUSE | uncertainty: oversight role is not affected-party standing`
 
-   `draft: D-basis | residue: R-one | alternative: A-basis | basis_type: EXPLICIT_SYNTHETIC | premises: P-one+P-two | mechanism: M-one | claim_posture: SYNTHETIC_NARROWER_EXPLANATION | absorber_grade: NARROWS_R-one | traceability: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: synthetic basis is not truth or source evidence`
+   `draft: D-standing | system: S-target | named_party: P-affected | relation: EXPLICIT_SYNTHETIC_DEPENDENCY | affected_party_bridge: PRESENT | standing_result: PASS | verified_result: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: synthetic standing is not a real-world claim`
 6. `## Candidate Gate Trace` copying exactly these lines:
 
    `assumption_source_context: PASS — supplied premise`
 
    `accountable_review_owner: PASS — supplied premise`
 
-   `affected_system_and_standing: PASS — supplied premise`
+   `affected_system_and_standing: FAIL — D-role substitutes an oversight role for source- or synthetic-backed affected-party standing`
 
    `changed_condition: PASS — supplied premise`
 
@@ -65,23 +66,23 @@ Draft `SF-ESB-0001-explicit-synthetic-basis.md` with exactly:
 
    `delegation_visibility_gap: PASS — supplied premise`
 
-   `absorber_or_counterevidence: FAIL — D-label substitutes a synthetic label for explicit premises, mechanism, claim posture, and graded effect on R-one`
+   `absorber_or_counterevidence: PASS — supplied premise`
 
    `correction_route_stop_condition: PASS — supplied premise`
 
    Infer no other failed gate.
-7. `## Nearby-Control Comparison` distinguishing synthetic label, explicit
-   synthetic basis, premises, mechanism, source context, claim posture,
-   absorber grade, residue effect, traceability, qualification, uncertainty,
-   outcome, and remedy. State whether current counterevidence wording already
-   refuses `D-label`.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — A SYNTHETIC LABEL DOES NOT
-   SUBSTITUTE FOR AN EXPLICIT TRACEABLE SYNTHETIC BASIS` or `PROPOSE
-   SF-ESB-0001 — SYNTHETIC LABELING ALONE SATISFIES absorber_or_counterevidence`.
+7. `## Nearby-Control Comparison` distinguishing bounded-system relation,
+   oversight role, reporting role, affected-party standing, exposure,
+   dependency, representation, admitted bridge, qualification, uncertainty,
+   duty, liability, outcome, and remedy. State whether current standing wording
+   already refuses `D-role`.
+8. `## Verdict`: choose exactly `ALREADY HANDLED — AN OVERSIGHT ROLE DOES NOT
+   SUBSTITUTE FOR AFFECTED-PARTY STANDING` or `PROPOSE SF-ORS-0001 — CURRENT
+   STANDING WORDING ALLOWS OVERSIGHT ROLE TO SUBSTITUTE FOR AFFECTED STANDING`.
 9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   COUNTEREVIDENCE WORDING ALREADY REQUIRES SOURCE CONTEXT OR AN EXPLICIT
-   SYNTHETIC BASIS WITH CLAIM POSTURE AND GRADED RESIDUE EFFECT`; for propose,
-   exactly `PROPOSE LABEL-ONLY synthetic absorber_or_counterevidence`.
+   affected_system_and_standing WORDING REQUIRES AFFECTED-PARTY STANDING AND A
+   BRIDGE TO THE BOUNDED SYSTEM`; for propose, exactly `PROPOSE OVERSIGHT-ROLE
+   EXCLUSION FOR affected_system_and_standing`.
 10. `## Frontier Verification` listing only exact fixture facts, all nine gate
     results, verdict/effect coherence, and boundary checks.
 
