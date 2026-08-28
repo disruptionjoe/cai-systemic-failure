@@ -1,4 +1,4 @@
-# Draft a representative title versus bridged affected standing pressure test
+# Draft expired versus operative stop-condition pressure test
 
 ## Boundary
 
@@ -10,66 +10,63 @@ This is candidate material for Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `affected_system_and_standing` field must name the bounded affected system
-and affected-party standing visible in the admitted source or explicit
-synthetic basis. Refuse if affected parties disappear behind process language
-or standing is borrowed without a bridge to the bounded system.
+The `correction_route_stop_condition` field requires a capable owner-visible
+route and an admitted source- or synthetic-backed condition that keeps
+qualification stopped or unresolved while the relevant contradiction remains
+unresolved. A historical condition that expired before the contradiction arose
+does not remain operative merely because its text once existed.
 </evidence>
 
-<synthetic_fixture id="RSB-FIXTURE-01">
+<synthetic_fixture id="ESC-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- `S-target` is the bounded system under review, and `P-affected` has an
-  explicit synthetic dependency on it.
-- Entity `E-title` has the formal title `affected-party representative`, but
-  the admitted fixture supplies no mandate, represented party, dependency,
-  exposure, or bridge connecting it to `S-target`.
-- Entity `E-bridge` has a synthetic mandate from `P-affected` to represent that
-  party for matters concerning `S-target`; the admitted bridge names the party,
-  mandate, dependency, and bounded system.
-- Draft `D-title` names only `E-title` and marks standing passed from the title.
-- Draft `D-bridge` names `P-affected`, preserves the bridge through
-  `E-bridge`, and keeps representative identity distinct from affected-party
-  identity.
-- Do not infer duty, liability, remedy, outcome, or domain conclusion. All
-  names and facts are synthetic; this is not a new record or acceptance.
+- Route `R-live` can carry contradiction `K-late` to accountable owner
+  `O-live`, who has the supplied relevant authority.
+- Condition `C-old` required qualification to stop while a contradiction was
+  unresolved, but its admitted validity ended at `T-expire`.
+- Contradiction `K-late` first arose at `T-late`, after `T-expire`.
+- Draft `D-expired` relies only on `C-old`; draft `D-operative` supplies
+  synthetic condition `C-live`, effective at `T-late` and remaining operative
+  while `K-late` is unresolved.
+- The fixture does not say either condition is a remedy, that authority was
+  exercised, or that an outcome followed. All facts are synthetic.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-RSB-0001-representative-title-bridged-standing.md` with exactly:
+Draft `SF-ESC-0001-expired-operative-stop-condition.md` with exactly:
 
 1. Begin with this literal raw frontmatter block, including both `---` lines:
 
    `---`
 
-   `test_id: SF-RSB-0001`
+   `test_id: SF-ESC-0001`
 
    `candidate: SF-SCHEMA-CANDIDATE-0001`
 
-   `status: synthetic_standing_representation_proposal`
+   `status: synthetic_stop_condition_timing_proposal`
 
    `source_material: synthetic`
 
    `external_action: none`
 
    `---`
-2. `# SF RSB 0001 - Representative Title And Bridged Affected Standing`.
+2. `# SF ESC 0001 - Expired And Operative Stop Conditions`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, uncertainty, no-new-record, no-duty or liability inference,
+   no-promotion, uncertainty, no-new-record, no-authority-exercise inference,
    no-outcome inference, and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Standing Ledger` copying these records literally:
+5. `## Condition Ledger` copying these records literally:
 
-   `draft: D-title | system: S-target | named_party: E-title | representative_title: PRESENT | represented_party: NONE | mandate: NONE | affected_party_bridge: NONE | standing_result: PASS | verified_result: FAIL | qualification: REFUSE | uncertainty: title alone does not establish affected standing`
+   `draft: D-expired | route: R-live | contradiction: K-late | recipient: O-live | condition: C-old | condition_end: T-expire | contradiction_start: T-late | operative_while_unresolved: NO | verified_result: FAIL | uncertainty: historical condition expired before contradiction`
 
-   `draft: D-bridge | system: S-target | named_party: P-affected | representative: E-bridge | mandate: PRESENT | dependency: PRESENT | affected_party_bridge: PRESENT | standing_result: PASS | verified_result: PASS | qualification: CONTINUE_GATE_CHECKS | uncertainty: synthetic representation is not a real-world claim`
+   `draft: D-operative | route: R-live | contradiction: K-late | recipient: O-live | condition: C-live | condition_start: T-late | operative_while_unresolved: YES | verified_result: PASS | uncertainty: condition is synthetic and not a remedy`
 6. `## Candidate Gate Trace` copying exactly these lines:
 
    `assumption_source_context: PASS — supplied premise`
 
    `accountable_review_owner: PASS — supplied premise`
 
-   `affected_system_and_standing: FAIL — D-title substitutes a representative title for admitted affected-party standing and a bridge to S-target`
+   `affected_system_and_standing: PASS — supplied premise`
 
    `changed_condition: PASS — supplied premise`
 
@@ -81,27 +78,26 @@ Draft `SF-RSB-0001-representative-title-bridged-standing.md` with exactly:
 
    `absorber_or_counterevidence: PASS — supplied premise`
 
-   `correction_route_stop_condition: PASS — supplied premise`
+   `correction_route_stop_condition: FAIL — D-expired relies on a condition that ended before K-late arose and was not operative while the contradiction remained unresolved`
 
    Infer no other failed gate.
-7. `## Nearby-Control Comparison` distinguishing representative title,
-   represented party, mandate, dependency, exposure, affected-party identity,
-   admitted bridge, bounded system, qualification, uncertainty, duty,
-   liability, outcome, and remedy. State whether current wording already
-   refuses `D-title` and permits `D-bridge` to continue gate checks.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — A REPRESENTATIVE TITLE DOES
-   NOT SUBSTITUTE FOR BRIDGED AFFECTED-PARTY STANDING` or `PROPOSE SF-RSB-0001
-   — CURRENT WORDING ALLOWS A REPRESENTATIVE TITLE TO SUBSTITUTE FOR AFFECTED
-   STANDING`.
+7. `## Nearby-Control Comparison` distinguishing route capability,
+   condition existence, condition validity window, contradiction timing,
+   operative consequence, uncertainty, authority exercise, outcome, and
+   remedy. State whether current wording already refuses `D-expired` and
+   permits `D-operative` to continue gate checks.
+8. `## Verdict`: choose exactly `ALREADY HANDLED — AN EXPIRED CONDITION DOES
+   NOT REMAIN OPERATIVE FOR A LATER CONTRADICTION` or `PROPOSE SF-ESC-0001 —
+   CURRENT WORDING ALLOWS AN EXPIRED CONDITION TO SATISFY THE STOP GATE`.
 9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   affected_system_and_standing WORDING REQUIRES THE AFFECTED PARTY AND A
-   BRIDGE TO THE BOUNDED SYSTEM`; for propose, exactly `PROPOSE
-   REPRESENTATIVE-TITLE REFUSAL AND BRIDGED-REPRESENTATION HANDLING`.
-10. `## Frontier Verification` listing only exact fixture facts, all nine gate
-    results, verdict/effect coherence, raw-frontmatter validity, and boundary
-    checks.
+   correction_route_stop_condition WORDING REQUIRES A CONDITION OPERATIVE
+   WHILE THE CONTRADICTION REMAINS UNRESOLVED`; for propose, exactly `PROPOSE
+   STOP-CONDITION VALIDITY-WINDOW HANDLING`.
+10. `## Frontier Verification` with exactly five bullets: fixture facts; all
+    nine gate results; verdict/effect coherence; raw-frontmatter validity; and
+    boundary checks.
 
 Return only the finished artifact. Emit raw Markdown, not a code fence. The
 first line and the line after `external_action: none` must both be `---`. Copy
 all five YAML fields. Use one concise row or bullet per item, do not repeat
-evidence, and stay under 900 words.
+evidence, and stay under 850 words.

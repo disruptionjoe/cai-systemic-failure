@@ -1,4 +1,4 @@
-# Draft an explicit stop condition versus discretionary review pressure test
+# Draft archive custody versus operative assumption support pressure test
 
 ## Boundary
 
@@ -10,61 +10,59 @@ This is candidate material for Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `correction_route_stop_condition` field requires an owner-visible route
-that can carry the relevant contradiction to a capable party and an admitted
-source- or synthetic-backed condition that keeps qualification stopped or
-unresolved while that contradiction remains unresolved. Route capability does
-not substitute for the condition, and the repository does not prescribe the
-remedy.
+The `assumption_source_context` field must name the reused assumption and the
+source, revision, decision context, or evidence basis relied on for the
+synthesis. Repository custody, citation metadata, or access to a revision does
+not by itself show that the revision supports the named assumption or that the
+assumption informed the reuse decision.
 </evidence>
 
-<synthetic_fixture id="DSR-FIXTURE-01">
+<synthetic_fixture id="ADC-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Route `R-capable` can carry contradiction `K-two` to accountable owner
-  `O-capable`, who has the supplied relevant authority.
-- Draft `D-review` says `O-capable` may review the matter if concerns arise,
-  but supplies no condition tied to unresolved `K-two`, no decision checkpoint,
-  and no qualification consequence.
-- Draft `D-stop` preserves the route and supplies condition `C-two`: if
-  `K-two` remains unresolved at checkpoint `T-two`, qualification stops and
-  remains unresolved.
-- The fixture does not say that review occurred, that `C-two` is a remedy, or
-  that an outcome followed. All facts are synthetic; this is not a new record
-  or acceptance.
+- Archive `A-store` contains revision `R-cited`, and team `T-review` has read
+  access to the archive.
+- Draft `D-custody` cites `R-cited` and the archive path, but the admitted
+  fixture supplies no statement in `R-cited` supporting assumption `A-old`
+  and no trace connecting `A-old` to reuse decision `T-reuse`.
+- Draft `D-use` preserves the same custody metadata and supplies synthetic
+  statement `S-assumption` in `R-cited` plus trace `TR-use` connecting
+  `A-old`, `R-cited`, and `T-reuse`.
+- The fixture does not say archive access was exercised, that either draft is
+  a real record, or that an outcome followed. All facts are synthetic.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-DSR-0001-discretionary-review-explicit-stop-condition.md` with exactly:
+Draft `SF-ADC-0001-archive-custody-operative-assumption-support.md` with exactly:
 
 1. Begin with this literal raw frontmatter block, including both `---` lines:
 
    `---`
 
-   `test_id: SF-DSR-0001`
+   `test_id: SF-ADC-0001`
 
    `candidate: SF-SCHEMA-CANDIDATE-0001`
 
-   `status: synthetic_stop_condition_proposal`
+   `status: synthetic_assumption_support_proposal`
 
    `source_material: synthetic`
 
    `external_action: none`
 
    `---`
-2. `# SF DSR 0001 - Discretionary Review And Explicit Stop Condition`.
+2. `# SF ADC 0001 - Archive Custody And Operative Assumption Support`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, uncertainty, no-new-record, no-authority-exercise inference,
+   no-promotion, uncertainty, no-new-record, no-access-exercise inference,
    no-outcome inference, and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Condition Ledger` copying these records literally:
+5. `## Support Ledger` copying these records literally:
 
-   `draft: D-review | route: R-capable | contradiction: K-two | recipient: O-capable | route_capability: PASS | backed_condition: NONE | checkpoint: NONE | qualification_effect: NONE | verified_result: FAIL | uncertainty: discretionary review is not a stop condition`
+   `draft: D-custody | archive: A-store | revision: R-cited | access: PRESENT | assumption_statement: NONE | reuse_trace: NONE | verified_result: FAIL | uncertainty: custody and access do not establish operative support`
 
-   `draft: D-stop | route: R-capable | contradiction: K-two | recipient: O-capable | route_capability: PASS | backed_condition: C-two | checkpoint: T-two | qualification_effect: STOP_AND_UNRESOLVED_IF_K-two_UNRESOLVED | verified_result: PASS | uncertainty: condition is synthetic and not a remedy`
+   `draft: D-use | archive: A-store | revision: R-cited | access: PRESENT | assumption_statement: S-assumption | reuse_trace: TR-use | verified_result: PASS | uncertainty: synthetic support is not a real-world claim`
 6. `## Candidate Gate Trace` copying exactly these lines:
 
-   `assumption_source_context: PASS — supplied premise`
+   `assumption_source_context: FAIL — D-custody names custody and revision metadata but supplies no assumption support or reuse-decision trace`
 
    `accountable_review_owner: PASS — supplied premise`
 
@@ -80,26 +78,26 @@ Draft `SF-DSR-0001-discretionary-review-explicit-stop-condition.md` with exactly
 
    `absorber_or_counterevidence: PASS — supplied premise`
 
-   `correction_route_stop_condition: FAIL — D-review supplies route capability but no contradiction-tied backed condition, checkpoint, or qualification consequence`
+   `correction_route_stop_condition: PASS — supplied premise`
 
    Infer no other failed gate.
-7. `## Nearby-Control Comparison` distinguishing route capability,
-   discretionary review, contradiction-tied condition, checkpoint,
-   qualification consequence, uncertainty, authority exercise, outcome, and
-   remedy. State whether current wording already refuses `D-review`.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — DISCRETIONARY REVIEW DOES
-   NOT SUBSTITUTE FOR AN EXPLICIT STOP CONDITION` or `PROPOSE SF-DSR-0001 —
-   CURRENT WORDING ALLOWS DISCRETIONARY REVIEW TO SUBSTITUTE FOR A STOP
-   CONDITION`.
+7. `## Nearby-Control Comparison` distinguishing archive custody, access,
+   revision identity, assumption support, reuse-decision trace, uncertainty,
+   access exercise, outcome, and remedy. State whether current wording already
+   refuses `D-custody` and permits `D-use` to continue gate checks.
+8. `## Verdict`: choose exactly `ALREADY HANDLED — ARCHIVE CUSTODY DOES NOT
+   SUBSTITUTE FOR OPERATIVE ASSUMPTION SUPPORT` or `PROPOSE SF-ADC-0001 —
+   CURRENT WORDING ALLOWS CUSTODY METADATA TO SUBSTITUTE FOR ASSUMPTION
+   SUPPORT`.
 9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   correction_route_stop_condition WORDING REQUIRES A BACKED CONDITION AND
-   QUALIFICATION CONSEQUENCE`; for propose, exactly `PROPOSE A
-   CONTRADICTION-TIED CONDITION, CHECKPOINT, AND QUALIFICATION CONSEQUENCE`.
-10. `## Frontier Verification` listing only exact fixture facts, all nine gate
-    results, verdict/effect coherence, raw-frontmatter validity, and boundary
-    checks.
+   assumption_source_context WORDING REQUIRES ASSUMPTION SUPPORT AND A
+   REUSE-DECISION TRACE`; for propose, exactly `PROPOSE CLAIM-LEVEL SUPPORT AND
+   REUSE-TRACE HANDLING`.
+10. `## Frontier Verification` with exactly five bullets: fixture facts; all
+    nine gate results; verdict/effect coherence; raw-frontmatter validity; and
+    boundary checks.
 
 Return only the finished artifact. Emit raw Markdown, not a code fence. The
 first line and the line after `external_action: none` must both be `---`. Copy
 all five YAML fields. Use one concise row or bullet per item, do not repeat
-evidence, and stay under 900 words.
+evidence, and stay under 850 words.
