@@ -1,4 +1,4 @@
-# Draft an evidence-visibility versus decision-time-interpretability pressure test
+# Draft an affected-standing versus shared-label pressure test
 
 ## Boundary
 
@@ -11,79 +11,73 @@ Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `observation_environment` field must preserve how the relevant evidence
-was made visible, missed, normalized, routed, or disputed without importing
-domain conclusions. The `assumption_source_context` field must preserve the
-admitted evidence basis and the source-backed bridge connecting the qualifying
-assumption, changed condition, standing, and review path.
+The `affected_system_and_standing` field must name the bounded affected system
+and affected-party standing visible in the sources. When assembled from
+multiple fragments, preserve the admitted bridge connecting that standing to
+that system. Refuse standing borrowed from an unrelated system without a
+source-backed bridge.
 </evidence>
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
-The record must name source context, show an old assumption reused under a
-changed condition, preserve affected standing, make review paths material to
-the contradiction, and record a narrower absorber or countermodel. Every
-non-target gate below is supplied as `PASS` for this exact logic test.
+The record must preserve affected standing and make review paths material to
+the contradiction. Every non-target gate below is supplied as `PASS` for this
+exact logic test.
 </evidence>
 
-<synthetic_fixture id="EVI-FIXTURE-01">
-- Old assumption `A-old` is reused under changed condition `C-new` for bounded
-  system `S-bounded` before final decision `D-final`.
-- Synthetic evidence `E-coded` contains relevant contradiction `K-limit`, but
-  its displayed payload uses only token `ALPHA-17`.
-- Before `D-final`, route `R-visible` delivers `E-coded` to accountable reviewer
-  `O-review`; display `V-display` visibly shows `ALPHA-17`, and receipt
-  `REC-visible` verifies that exact display event.
-- The admitted pre-decision packet contains no codebook, label, mapping, or
-  source context connecting `ALPHA-17` to `K-limit`. No alternate admitted
-  evidence makes that connection before `D-final`.
-- Mapping `M-late` first connects `ALPHA-17` to `K-limit` after `D-final`.
-  Preserve its later evidentiary value without backdating interpretability.
-- Draft `D-seen` marks `observation_environment` `PASS` because the token was
-  visibly displayed before the decision. Draft `D-reviewable` preserves the
-  same facts and marks the field `FAIL` because the relevant contradiction was
-  not interpretable from admitted evidence during the decision window.
-- Do not infer interface quality, reviewer competence, bad faith, information
-  withholding, outcome, authority exercise, source invalidity, or remedy.
+<synthetic_fixture id="SSL-FIXTURE-01">
+- Old assumption `A-old` is reused under changed condition `C-new` in bounded
+  target system `S-target` before final decision `D-final`.
+- Source `E-other` establishes that group `P-shared` has affected-party
+  standing in different bounded system `S-other`.
+- Both systems use the same program label `PROGRAM-Z`, but the packet supplies
+  no source-backed bridge connecting `P-shared` or its standing to `S-target`.
+- Source `E-target` establishes the other required facts for `S-target` but
+  names no affected party. No alternate admitted source supplies that standing.
+- Draft `D-label` marks `affected_system_and_standing` `PASS` because the shared
+  program label appears in both systems. Draft `D-bounded` preserves
+  `P-shared` as standing for `S-other` and marks standing for `S-target`
+  `UNRESOLVED`.
+- Do not infer that the systems, populations, impacts, or authorities are the
+  same; do not infer that `P-shared` lacks standing outside this packet.
 - All names and facts are synthetic; this is not a new record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-EVI-0001-evidence-visibility-and-interpretability.md` with exactly:
+Draft `SF-SSL-0001-affected-standing-and-shared-label.md` with exactly:
 
-1. YAML frontmatter: `test_id: SF-EVI-0001`,
+1. YAML frontmatter: `test_id: SF-SSL-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_observation_interpretability_proposal`,
+   `status: synthetic_affected_standing_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF EVI 0001 - Evidence Visibility And Decision-Time Interpretability`.
+2. `# SF SSL 0001 - Affected Standing And Shared Label`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, no-domain-expertise, uncertainty, no-new-record, no-interface-
-   quality inference, no-reviewer-competence inference, no-bad-faith or
-   withholding inference, no-authority-exercise inference, no-outcome
-   inference, no-source-invalidity inference, no-backdating, and no action.
+   no-promotion, no-domain-expertise, uncertainty, no-new-record,
+   no-system-identity inference, no-population or impact identity inference,
+   no-authority inference, no-standing denial beyond this packet, no-causal
+   or outcome inference, and no action.
 4. `## Synthetic Fixture` separating every named object and never treating
-   token display or `REC-visible` as proof that the relevant contradiction was
-   interpretable before `D-final`.
-5. `## Observation Reviewability Ledger` using exactly these two keyed records
-   and keys in this order. Copy every supplied value literally; edit only
-   `draft_claim` and `verified_result`:
+   shared label `PROGRAM-Z` as a source-backed standing bridge.
+5. `## Standing Scope Ledger` using exactly these two keyed records and keys in
+   this order. Copy every supplied value literally; edit only `draft_claim`
+   and `verified_result`:
 
-   `draft: D-seen | evidence: E-coded | contradiction: K-limit | displayed_token: ALPHA-17 | route: R-visible | display: V-display | reviewer: O-review | receipt: REC-visible | display_timing: before D-final | token_visible: YES | predecision_mapping: NONE | alternate_bridge: NONE | later_mapping: M-late after D-final | contradiction_interpretable_before_decision: NO | draft_claim: PASS | verified_result: FAIL | qualification: REFUSE | uncertainty: outcome not inferred`
+   `draft: D-label | target_system: S-target | target_source: E-target | comparison_system: S-other | standing_source: E-other | affected_group: P-shared | shared_label: PROGRAM-Z | standing_in_comparison_system: YES | standing_in_target_system: UNRESOLVED | bridge_to_target_system: NONE | decision: D-final | draft_claim: PASS | verified_result: FAIL | qualification: REFUSE | uncertainty: target standing unsupported`
 
-   `draft: D-reviewable | evidence: E-coded | contradiction: K-limit | displayed_token: ALPHA-17 | route: R-visible | display: V-display | reviewer: O-review | receipt: REC-visible | display_timing: before D-final | token_visible: YES | predecision_mapping: NONE | alternate_bridge: NONE | later_mapping: M-late after D-final | contradiction_interpretable_before_decision: NO | draft_claim: FAIL | verified_result: FAIL | qualification: REFUSE | uncertainty: outcome not inferred`
+   `draft: D-bounded | target_system: S-target | target_source: E-target | comparison_system: S-other | standing_source: E-other | affected_group: P-shared | shared_label: PROGRAM-Z | standing_in_comparison_system: YES | standing_in_target_system: UNRESOLVED | bridge_to_target_system: NONE | decision: D-final | draft_claim: UNRESOLVED | verified_result: FAIL | qualification: REFUSE | uncertainty: target standing unsupported`
 6. `## Candidate Gate Trace` copying exactly these nine lines in order:
 
    `assumption_source_context: PASS — supplied premise`
 
    `accountable_review_owner: PASS — supplied premise`
 
-   `affected_system_and_standing: PASS — supplied premise`
+   `affected_system_and_standing: FAIL — E-other supports P-shared standing only for S-other and no admitted bridge connects that standing to S-target`
 
    `changed_condition: PASS — supplied premise`
 
    `validation_burden: PASS — supplied premise`
 
-   `observation_environment: FAIL — ALPHA-17 was visible but no admitted predecision mapping made K-limit interpretable to O-review`
+   `observation_environment: PASS — supplied premise`
 
    `delegation_visibility_gap: PASS — supplied premise`
 
@@ -92,24 +86,22 @@ Draft `SF-EVI-0001-evidence-visibility-and-interpretability.md` with exactly:
    `correction_route_stop_condition: PASS — supplied premise`
 
    Infer no other failed gate.
-7. `## Nearby-Control Comparison` keeping evidence identity, token visibility,
-   delivery receipt, source context, mapping availability, contradiction
-   interpretability, reviewer authority, authority exercise, later evidence,
-   qualification, uncertainty, outcome, and remedy distinct. State whether
-   current relevant-evidence visibility wording already refuses `D-seen`.
+7. `## Nearby-Control Comparison` keeping program-label identity, bounded-
+   system identity, affected-group identity, source-backed standing, bridge
+   evidence, qualification, uncertainty, outcome, and remedy distinct. State
+   whether current affected-standing wording already refuses `D-label`.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-EVI-0001 — DISPLAYING AN UNMAPPED TOKEN MAKES THE RELEVANT CONTRADICTION REVIEWABLE`; or
-   - `ALREADY HANDLED — RELEVANT EVIDENCE MUST BE INTERPRETABLE, NOT MERELY DISPLAYED AS AN UNMAPPED TOKEN`.
-9. `## Candidate Effect`: exactly `PROPOSE CLARIFYING observation_environment
-   TO REQUIRE DECISION-TIME INTERPRETABILITY OF THE RELEVANT EVIDENCE` for
-   `PROPOSE`, or exactly `NONE — CURRENT RELEVANT-EVIDENCE VISIBILITY CONTROL
-   ALREADY REFUSES AN UNMAPPED TOKEN` for already handled. Propose no interface
-   design, codebook, mapping system, remedy, acceptance rule, annotation, or
+   - `PROPOSE SF-SSL-0001 — A SHARED PROGRAM LABEL TRANSFERS AFFECTED-PARTY STANDING BETWEEN BOUNDED SYSTEMS`; or
+   - `ALREADY HANDLED — A SHARED PROGRAM LABEL DOES NOT TRANSFER AFFECTED-PARTY STANDING WITHOUT A SOURCE-BACKED BRIDGE`.
+9. `## Candidate Effect`: exactly `PROPOSE CLARIFYING
+   affected_system_and_standing TO REQUIRE A SYSTEM-SPECIFIC STANDING BRIDGE`
+   for `PROPOSE`, or exactly `NONE — CURRENT AFFECTED-STANDING CONTROL ALREADY
+   REFUSES BORROWED STANDING FROM AN UNRELATED SYSTEM` for already handled.
+   Propose no new standing, bridge, remedy, acceptance rule, annotation, or
    new field.
 10. `## Frontier Verification` listing only exact evidence, identifiers,
-    display and mapping timing, receipt identity, token visibility,
-    contradiction interpretability, supplied premises, qualification,
-    wording, and boundaries.
+    systems and sources, group and label, standing and bridge status, supplied
+    premises, qualification, wording, and boundaries.
 
 Return only the finished artifact. Emit raw Markdown without a code fence; the
 first line must be `---` and frontmatter must close before the title. Use one
