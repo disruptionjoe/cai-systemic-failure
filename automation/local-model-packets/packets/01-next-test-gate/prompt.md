@@ -1,4 +1,4 @@
-# Draft archive custody versus operative assumption support pressure test
+# Draft decision-time assumption-use trace pressure test
 
 ## Boundary
 
@@ -12,57 +12,57 @@ This is candidate material for Frontier verification, not owner truth.
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
 The `assumption_source_context` field must name the reused assumption and the
 source, revision, decision context, or evidence basis relied on for the
-synthesis. Repository custody, citation metadata, or access to a revision does
-not by itself show that the revision supports the named assumption or that the
-assumption informed the reuse decision.
+synthesis. A later-written trace does not by itself show that the assumption
+informed the earlier reuse decision.
 </evidence>
 
-<synthetic_fixture id="ADC-FIXTURE-01">
+<synthetic_fixture id="DTS-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Archive `A-store` contains revision `R-cited`, and team `T-review` has read
-  access to the archive.
-- Draft `D-custody` cites `R-cited` and the archive path, but the admitted
-  fixture supplies no statement in `R-cited` supporting assumption `A-old`
-  and no trace connecting `A-old` to reuse decision `T-reuse`.
-- Draft `D-use` preserves the same custody metadata and supplies synthetic
-  statement `S-assumption` in `R-cited` plus trace `TR-use` connecting
-  `A-old`, `R-cited`, and `T-reuse`.
-- The fixture does not say archive access was exercised, that either draft is
-  a real record, or that an outcome followed. All facts are synthetic.
+- Revision `R-support` contains synthetic statement `S-old` supporting reused
+  assumption `A-old`.
+- Reuse decision `T-reuse` occurred at `T0`.
+- Draft `D-late` cites `R-support` and trace `TR-late`, but `TR-late` was first
+  written at `T1`, after `T0`, and the admitted fixture supplies no evidence
+  that `A-old` informed `T-reuse` at decision time.
+- Draft `D-grounded` preserves the same source and later trace and also
+  supplies synthetic decision record `E-use`, created at `T0`, linking
+  `A-old`, `R-support`, and `T-reuse`.
+- The fixture does not say either draft is real, that a later trace is always
+  invalid, that authority was exercised, or that an outcome followed.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-ADC-0001-archive-custody-operative-assumption-support.md` with exactly:
+Draft `SF-DTS-0001-decision-time-assumption-support.md` with exactly:
 
 1. Begin with this literal raw frontmatter block, including both `---` lines:
 
    `---`
 
-   `test_id: SF-ADC-0001`
+   `test_id: SF-DTS-0001`
 
    `candidate: SF-SCHEMA-CANDIDATE-0001`
 
-   `status: synthetic_assumption_support_proposal`
+   `status: synthetic_assumption_timing_proposal`
 
    `source_material: synthetic`
 
    `external_action: none`
 
    `---`
-2. `# SF ADC 0001 - Archive Custody And Operative Assumption Support`.
+2. `# SF DTS 0001 - Decision-Time Assumption Support`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
-   no-promotion, uncertainty, no-new-record, no-access-exercise inference,
+   no-promotion, uncertainty, no-new-record, no-authority-exercise inference,
    no-outcome inference, and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
 5. `## Support Ledger` copying these records literally:
 
-   `draft: D-custody | archive: A-store | revision: R-cited | access: PRESENT | assumption_statement: NONE | reuse_trace: NONE | verified_result: FAIL | uncertainty: custody and access do not establish operative support`
+   `draft: D-late | assumption: A-old | source: R-support | source_statement: S-old | decision: T-reuse | decision_time: T0 | trace: TR-late | trace_time: T1 | contemporaneous_use_record: NONE | verified_result: FAIL | uncertainty: later trace alone does not prove decision-time use`
 
-   `draft: D-use | archive: A-store | revision: R-cited | access: PRESENT | assumption_statement: S-assumption | reuse_trace: TR-use | verified_result: PASS | uncertainty: synthetic support is not a real-world claim`
+   `draft: D-grounded | assumption: A-old | source: R-support | source_statement: S-old | decision: T-reuse | decision_time: T0 | trace: TR-late | trace_time: T1 | contemporaneous_use_record: E-use | verified_result: PASS | uncertainty: all support is synthetic`
 6. `## Candidate Gate Trace` copying exactly these lines:
 
-   `assumption_source_context: FAIL — D-custody names custody and revision metadata but supplies no assumption support or reuse-decision trace`
+   `assumption_source_context: FAIL — D-late supplies source support and a later trace but no evidence that A-old informed T-reuse at T0`
 
    `accountable_review_owner: PASS — supplied premise`
 
@@ -81,18 +81,18 @@ Draft `SF-ADC-0001-archive-custody-operative-assumption-support.md` with exactly
    `correction_route_stop_condition: PASS — supplied premise`
 
    Infer no other failed gate.
-7. `## Nearby-Control Comparison` distinguishing archive custody, access,
-   revision identity, assumption support, reuse-decision trace, uncertainty,
-   access exercise, outcome, and remedy. State whether current wording already
-   refuses `D-custody` and permits `D-use` to continue gate checks.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — ARCHIVE CUSTODY DOES NOT
-   SUBSTITUTE FOR OPERATIVE ASSUMPTION SUPPORT` or `PROPOSE SF-ADC-0001 —
-   CURRENT WORDING ALLOWS CUSTODY METADATA TO SUBSTITUTE FOR ASSUMPTION
-   SUPPORT`.
+7. `## Nearby-Control Comparison` distinguishing source support, source
+   identity, decision timing, trace timing, contemporaneous use evidence,
+   uncertainty, authority exercise, outcome, and remedy. State whether current
+   wording already refuses `D-late` and permits `D-grounded` to continue gate
+   checks.
+8. `## Verdict`: choose exactly `ALREADY HANDLED — A LATER TRACE ALONE DOES
+   NOT PROVE DECISION-TIME ASSUMPTION USE` or `PROPOSE SF-DTS-0001 — CURRENT
+   WORDING ALLOWS A LATER TRACE TO SUBSTITUTE FOR DECISION-TIME USE EVIDENCE`.
 9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   assumption_source_context WORDING REQUIRES ASSUMPTION SUPPORT AND A
-   REUSE-DECISION TRACE`; for propose, exactly `PROPOSE CLAIM-LEVEL SUPPORT AND
-   REUSE-TRACE HANDLING`.
+   assumption_source_context WORDING REQUIRES THE ASSUMPTION TO INFORM THE
+   REUSE DECISION`; for propose, exactly `PROPOSE DECISION-TIME ASSUMPTION-USE
+   HANDLING`.
 10. `## Frontier Verification` with exactly five bullets: fixture facts; all
     nine gate results; verdict/effect coherence; raw-frontmatter validity; and
     boundary checks.
