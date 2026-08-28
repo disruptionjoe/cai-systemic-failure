@@ -55,6 +55,7 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | `SF-TC-0001` | Synthetic temporal-coherence falsifier that refuses same-system chronology without evidence of continued assumption reuse. |
 | `SF-DRA-0001` | Synthetic decision-time-authority falsifier that refuses later-only review authority for an earlier reuse decision. |
 | `SF-ORC-0001` | Synthetic observation-route chronology falsifier that refuses later-only routing or dispute as proof of decision-time handling. |
+| `SF-CSC-0001` | Synthetic capable-route stop-condition falsifier that refuses route capability without an explicit backed condition for unresolved contradiction. |
 
 ## Acceptance Evidence
 
@@ -70,6 +71,7 @@ unresolved classes should be treated as deferrals rather than silent proof.
 | Temporal coherence | `SF-TC-0001` refuses a synthetic same-system sequence where the old assumption was retired before the changed condition and no continued-reuse bridge exists. | Narrows existing source-context and record-bridge controls; adds no core field and does not support acceptance. |
 | Decision-time review authority | `SF-DRA-0001` refuses a synthetic record whose only capable owner receives relevant authority after the reuse decision is final. | Narrows the existing accountable-owner control; adds no core field and does not support acceptance. |
 | Observation-route chronology | `SF-ORC-0001` refuses a synthetic draft that merges pre-decision normalization with routing and dispute occurring only after the decision is final. | Narrows the existing observation-environment control; adds no core field and does not support acceptance. |
+| Capable-route stop condition | `SF-CSC-0001` refuses a synthetic draft that names a capable route and recipient but no backed condition that suspends qualification while the contradiction remains unresolved. | Narrows the existing correction-route control; adds no core field and does not support acceptance. |
 
 ## Explicit Deferrals
 

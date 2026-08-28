@@ -55,7 +55,7 @@ does not qualify as positive evidence for this candidate.
 | `observation_environment` | Preserve how and when the relevant evidence was made visible, missed, normalized, routed, or disputed relative to the decision under review, without importing domain conclusions. | Refuse if the field becomes a domain-specific remedy or expertise claim, or collapses pre-decision handling and later-only routing or dispute into one timeless pass. |
 | `delegation_visibility_gap` | Show how distributed review, authority, request paths, or delegated decisions fragmented the contradiction. | Refuse if no review-chain fragmentation is source-supported. |
 | `absorber_or_counterevidence` | Record the strongest narrower explanation, its source context or explicit synthetic basis, its claim posture, whether it absorbs, narrows, or fails to kill the review-chain residue, and any direct material contradiction in the admitted packet bearing on a required field. | Refuse if the candidate treats every case as confirming evidence, names only generic, untraceable, or ungraded alternatives, or leaves an admitted direct material contradiction undispositioned. |
-| `correction_route_stop_condition` | Name the owner-visible route and the admitted source or explicit synthetic basis showing how it can receive or surface the relevant contradiction to a party able to correct, escalate, stop, revise, or expose the assumption, without this repo prescribing the remedy. | Refuse if correction requires this repository to act as the domain owner, or if a named route is only a label or is shown unable to carry the relevant correction. |
+| `correction_route_stop_condition` | Name the owner-visible route and the admitted source or explicit synthetic basis showing how it can receive or surface the relevant contradiction to a party able to correct, escalate, stop, revise, or expose the assumption. Also name the admitted source- or synthetic-backed condition that keeps qualification stopped or unresolved when the relevant contradiction remains unresolved, without this repo prescribing the remedy. | Refuse if correction requires this repository to act as the domain owner, if a named route is only a label or is shown unable to carry the relevant correction, or if route capability substitutes for an explicit backed stop condition. |
 
 ## Source-Gated Annotations
 
@@ -140,6 +140,13 @@ review, escalate, stop, revise, or expose the relevant assumption through an
 accountable path. A visible label alone is not a correction route; preserve an
 incapable or unresolved route as uncertainty, an absorber, an inquiry, or a
 separate topology question without inventing a remedy.
+
+Refuse positive qualification when a capable correction route is named but the
+admitted source or explicit synthetic basis supplies no condition that keeps
+qualification stopped or unresolved while the relevant contradiction remains
+unresolved. Route capability is not itself a stop condition; preserve the
+missing condition as uncertainty or an unresolved inquiry without prescribing
+a remedy or inferring that authority was exercised.
 
 Refuse positive qualification when the only named accountable review owner
 receives relevant review, stop, escalation, approval or rejection, or revision
@@ -236,6 +243,7 @@ This candidate cannot be used to:
 | `SF-TC-0001` | Refused as positive fit. Same-system identity and chronology cannot carry qualification when the admitted packet shows the old assumption was retired before the changed condition and supplies no evidence of continued reliance or reuse. | The falsifier prevents a record from manufacturing temporal coexistence while keeping the nine core fields unchanged. |
 | `SF-DRA-0001` | Refused as positive fit. A later charter and capable future owner cannot establish accountable review authority for an earlier reuse decision when no relevant authority existed during that decision window. | The falsifier prevents artifact-time authority from being backdated while keeping later authority visible and the nine core fields unchanged. |
 | `SF-ORC-0001` | Refused as positive fit. A draft cannot merge pre-decision normalization with routing and dispute that occurred only after the decision became final and call the evidence handled for that decision. | The falsifier preserves decision-relevant observation chronology without inferring signal adequacy, authority, negligence, outcome, or remedy. |
+| `SF-CSC-0001` | Refused as positive fit. A capable route and authorized recipient cannot satisfy the correction-route-and-stop-condition field when no admitted condition keeps qualification stopped or unresolved while the contradiction remains unresolved. | The falsifier prevents route capability from substituting for an explicit backed stop condition while keeping the nine core fields unchanged. |
 | `SF-ABS-0004` | Refused as positive fit. The Hawaii false-alert source set is a warning/communication, drill-procedure, alert-origination, safeguard, and correction-message absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve warning-route pressure without claiming every public alerting or communication failure. |
 | `SF-ABS-0005` | Refused as positive fit. The Amtrak Train 188 source set is a single-owner execution, situational-awareness, speed-compliance, train-control, occupant-protection, and emergency-response absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve affected standing and correction-route visibility without claiming every point-of-operation execution failure. |
 | `SF-ABS-0006` | Refused as positive fit. The I-35W bridge-collapse source set is a slow-degradation, infrastructure-capacity, original-design-calculation, added-load, load-rating, construction-load, and inspection-guidance absorber, not an assumption-reuse review-chain record. | The absorber shows the candidate can preserve long-lived defect and changed-load pressure without claiming every infrastructure-capacity failure. |
@@ -288,6 +296,10 @@ graded future-route evidence, and keeps the core field list unchanged.
 and dispute can be collapsed into evidence handling for an already-final reuse
 decision. It refuses the timeless pass, preserves the handling sequence, and
 keeps the core field list unchanged.
+`SF-CSC-0001-capable-route-explicit-stop-condition.md` tests whether a capable
+route can satisfy the correction gate without an explicit backed condition
+that suspends qualification while the contradiction remains unresolved. It
+refuses that substitution and keeps the core field list unchanged.
 `SF-CRA-0001-correction-route-authority.md` tests whether a named but incapable
 route can satisfy the correction gate. It refuses that name-only route posture
 while keeping the core field list unchanged.

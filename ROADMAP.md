@@ -103,7 +103,11 @@
 36. Done: run a synthetic observation-route chronology falsifier that refuses
     later-only routing or dispute as proof of decision-time evidence handling
     (`SF-ORC-0001`).
-37. Next: keep the candidate provisional and add another bounded test only if a
+37. Done: run a synthetic capable-route stop-condition falsifier that refuses
+    route capability without an explicit source- or synthetic-backed condition
+    keeping qualification stopped or unresolved while the contradiction
+    remains unresolved (`SF-CSC-0001`).
+38. Next: keep the candidate provisional and add another bounded test only if a
     new public or synthetic case creates material pressure on a core field,
     refusal note, annotation, source gate, or correction-route gate.
 

@@ -38,6 +38,11 @@
   dispute occurring only after the decision is final fails candidate
   qualification for decision-time observation handling; later events remain
   graded evidence and are not backdated (`SF-ORC-0001`).
+- A record that names a capable correction route but no admitted source- or
+  synthetic-backed condition that keeps qualification stopped or unresolved
+  while the relevant contradiction remains unresolved fails candidate
+  qualification; route capability is not itself a stop condition
+  (`SF-CSC-0001`).
 - Applying CEQ, SRL, CRA, CEC, and IPC together preserves five separate
   decision objects; no control becomes a generic source-quality test or a
   hierarchy over the others (`SF-FALSIFIER-CONTROL-CROSSWALK`).

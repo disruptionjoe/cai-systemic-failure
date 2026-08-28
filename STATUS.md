@@ -153,6 +153,12 @@ The candidate refuses positive qualification when a draft merges pre-decision
 normalization with routing and dispute that occur only after the reuse decision
 is final. Later events remain graded evidence; observation-environment wording
 is narrowed, no core field is added, and the candidate remains provisional.
+`SF-CSC-0001` then tests capable-route stop-condition completeness with a
+synthetic fixture. The candidate refuses positive qualification when a draft
+names a route able to carry a contradiction to a capable owner but supplies no
+backed condition keeping qualification stopped or unresolved while the
+contradiction remains unresolved. Correction-route wording is narrowed, no core
+field is added, and the candidate remains provisional.
 `SF-FALSIFIER-CONTROL-CROSSWALK` then makes CEQ, SRL, CRA, CEC, and IPC usable
 together without collapsing their different decision objects into generic
 source quality or a control hierarchy. `SF-ABSORBER-BOUNDARY-MATRIX` compares
@@ -176,7 +182,8 @@ one counterevidence-quality asymmetry falsifier, one source-revision-lineage
 falsifier, one correction-route-authority falsifier, one composite-evidence
 coherence falsifier, one intra-packet-contradiction falsifier, one annotation-
 lineage reconciliation, one temporal-coherence falsifier, one decision-time-
-review-authority falsifier, and one observation-route-chronology falsifier while preserving
+review-authority falsifier, one observation-route-chronology falsifier, and one
+capable-route stop-condition falsifier while preserving
 source requirements, counterevidence, correction routes, resident-warning
 caution, procedural-acceptance caution, absorber discipline, remaining falsifier
 classes, and no-remedy boundaries. No human research, field data, intervention,

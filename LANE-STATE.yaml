@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-28T04:05:24-05:00"
-run_ref: RUN-20260828-090524-cai-systemic-failure-prepared-progress
-bottom_line: "Later-only routing no longer qualifies as decision-time observation handling; keep the schema candidate provisional."
+updated_at: "2026-08-28T05:04:15-05:00"
+run_ref: RUN-20260828-100415-cai-systemic-failure-prepared-progress
+bottom_line: "A capable correction route no longer substitutes for an explicit backed stop condition; keep the schema candidate provisional."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Added a verified observation-route chronology falsifier and narrowed the existing observation-environment control."
-    movement_ref: "topology/SF-ORC-0001-observation-route-chronology.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
+    last_movement: "Added a verified capable-route stop-condition falsifier and narrowed the existing correction-route control."
+    movement_ref: "topology/SF-CSC-0001-capable-route-explicit-stop-condition.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md"
     steering_attention: watch
     steering_prompt: "Add future tests only if materially new pressure appears."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: observation_route_chronology_falsified
-    evidence_ref: "topology/SF-ORC-0001-observation-route-chronology.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
-    summary: "Routing or dispute after a final decision cannot be backdated into decision-time observation handling."
-    evaluated_at: "2026-08-28T04:05:24-05:00"
-    run_ref: RUN-20260828-090524-cai-systemic-failure-prepared-progress
+    reason_code: capable_route_without_stop_condition_falsified
+    evidence_ref: "topology/SF-CSC-0001-capable-route-explicit-stop-condition.md; topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md; ROADMAP.md"
+    summary: "A capable route cannot pass the correction gate without an explicit backed condition for unresolved contradiction."
+    evaluated_at: "2026-08-28T05:04:15-05:00"
+    run_ref: RUN-20260828-100415-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added one synthetic observation-route chronology falsifier and narrowed one existing field without changing the nine-field count or accepting the schema."
-    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
+    progress_delta: "Added one synthetic capable-route stop-condition falsifier and narrowed one existing field without changing the nine-field count or accepting the schema."
+    scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
     recommendation: "Keep provisional; test only materially new pressure."
     findings:
-      - "Observation routing or dispute after a final reuse decision cannot establish handling for that earlier decision."
-      - "Later handling remains useful graded historical or correction-route evidence and is not backdated."
+      - "Route capability and recipient authority do not themselves supply a stop condition."
+      - "Qualification remains stopped or unresolved when the backed condition is met and the contradiction remains unresolved."
       - "The nine-field list and provisional candidate status remain unchanged."
     options:
       - id: A

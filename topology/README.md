@@ -208,6 +208,13 @@ the reuse decision became final. The candidate refuses that timeless handling
 pass, preserves later events as graded evidence, narrows one existing field,
 adds no core field, and remains provisional.
 
+`SF-CSC-0001-capable-route-explicit-stop-condition.md` tests whether a capable
+route and recipient can satisfy the correction field without an explicit
+source- or synthetic-backed condition that keeps qualification stopped or
+unresolved while the contradiction remains unresolved. The candidate refuses
+that substitution, narrows one existing field, adds no core field, and remains
+provisional.
+
 `SF-FALSIFIER-CONTROL-CROSSWALK.md` compares CEQ, SRL, CRA, CEC, and IPC by
 their exact refusal objects and nearest confusable decisions. It keeps the five
 controls independently usable rather than collapsing them into generic source
