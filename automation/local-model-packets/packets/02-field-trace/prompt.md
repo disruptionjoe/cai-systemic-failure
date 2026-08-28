@@ -1,4 +1,4 @@
-# Draft relevant-contradiction stop-condition scope pressure test
+# Draft general availability versus decision-chain visibility pressure test
 
 ## Boundary
 
@@ -9,57 +9,64 @@ This is candidate material for Frontier verification, not owner truth.
 
 ## Evidence
 
-<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `correction_route_stop_condition` field requires a capable owner-visible
-route and an admitted source- or synthetic-backed condition that keeps
-qualification stopped or unresolved while the relevant contradiction remains
-unresolved. A condition governing another contradiction does not satisfy the
-gate merely because it is operative.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#record-qualification-gate">
+The changed condition must create a validation burden that admitted evidence
+shows as unmet, disputed, fragmented, or not owner-visible enough.
 </evidence>
 
-<synthetic_fixture id="SCS-FIXTURE-01">
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
+The `observation_environment` field must preserve how and when relevant
+evidence was made visible, missed, normalized, routed, or disputed relative to
+the decision under review. General availability does not by itself establish
+visibility in the accountable decision chain.
+</evidence>
+
+<synthetic_fixture id="DCV-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Route `R-live` can carry target contradiction `K-target` to accountable owner
-  `O-live`, who has the supplied relevant authority.
-- Condition `C-other` is operative while contradiction `K-other` remains
-  unresolved, but the admitted fixture does not bind `C-other` to `K-target`.
-- Draft `D-mismatch` relies only on `C-other` for `K-target`.
-- Draft `D-matched` supplies synthetic condition `C-target`, operative while
-  `K-target` remains unresolved and explicitly binding qualification of the
-  target claim to that contradiction.
-- The fixture does not say either condition is a remedy, that authority was
-  exercised, or that an outcome followed. All facts are synthetic.
+- Evidence signal `E-signal` existed at `T-1`, before reuse decision `T-reuse`
+  at `T0`, and was stored in generally accessible archive `A-open`.
+- The admitted fixture supplies no pointer, notice, route, request, queue,
+  review event, or other bridge carrying `E-signal` from `A-open` to accountable
+  decision owner `O-decision` or the target review chain before `T0`.
+- Draft `D-available` marks decision-time visibility passed solely because
+  `A-open` was generally accessible at `T-1`.
+- Draft `D-bridged` preserves the same archive evidence and also supplies
+  synthetic route event `R-pre`, completed at `T-1`, linking `E-signal` to
+  `O-decision` and the target review queue before `T0`.
+- The fixture does not say the archive is inadequate, that the signal was
+  understood, that authority was exercised, that a remedy exists, or that an
+  outcome followed.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-SCS-0001-stop-condition-scope-alignment.md` with exactly:
+Draft `SF-DCV-0001-decision-chain-visibility.md` with exactly:
 
 1. Begin with this literal raw frontmatter block, including both `---` lines:
 
    `---`
 
-   `test_id: SF-SCS-0001`
+   `test_id: SF-DCV-0001`
 
    `candidate: SF-SCHEMA-CANDIDATE-0001`
 
-   `status: synthetic_stop_condition_scope_proposal`
+   `status: synthetic_decision_chain_visibility_proposal`
 
    `source_material: synthetic`
 
    `external_action: none`
 
    `---`
-2. `# SF SCS 0001 - Stop-Condition Scope Alignment`.
+2. `# SF DCV 0001 - Decision-Chain Visibility`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
    no-promotion, uncertainty, no-new-record, no-authority-exercise inference,
-   no-outcome inference, and no action.
+   no-understanding inference, no-outcome inference, and no action.
 4. `## Synthetic Fixture` preserving every supplied fact.
-5. `## Condition Ledger` copying these records literally:
+5. `## Visibility Ledger` copying these records literally:
 
-   `draft: D-mismatch | route: R-live | target_contradiction: K-target | recipient: O-live | condition: C-other | condition_scope: K-other | operative_while_target_unresolved: NO | verified_result: FAIL | uncertainty: operative condition governs another contradiction`
+   `draft: D-available | signal: E-signal | signal_time: T-1 | location: A-open | general_access: YES | target_decision: T-reuse | decision_time: T0 | accountable_owner: O-decision | predecision_bridge: NONE | decision_chain_visibility: UNRESOLVED | verified_result: FAIL | uncertainty: general availability does not prove accountable visibility`
 
-   `draft: D-matched | route: R-live | target_contradiction: K-target | recipient: O-live | condition: C-target | condition_scope: K-target | operative_while_target_unresolved: YES | verified_result: PASS | uncertainty: condition is synthetic and not a remedy`
+   `draft: D-bridged | signal: E-signal | signal_time: T-1 | location: A-open | general_access: YES | target_decision: T-reuse | decision_time: T0 | accountable_owner: O-decision | predecision_bridge: R-pre | decision_chain_visibility: PRESENT | verified_result: PASS | uncertainty: visibility does not prove understanding or authority exercise`
 6. `## Candidate Gate Trace` copying exactly these lines:
 
    `assumption_source_context: PASS — supplied premise`
@@ -72,33 +79,34 @@ Draft `SF-SCS-0001-stop-condition-scope-alignment.md` with exactly:
 
    `validation_burden: PASS — supplied premise`
 
-   `observation_environment: PASS — supplied premise`
+   `observation_environment: FAIL — D-available substitutes general archive access for a predecision bridge to O-decision and the target review chain`
 
    `delegation_visibility_gap: PASS — supplied premise`
 
    `absorber_or_counterevidence: PASS — supplied premise`
 
-   `correction_route_stop_condition: FAIL — D-mismatch relies on a condition governing K-other rather than K-target`
+   `correction_route_stop_condition: PASS — supplied premise`
 
-   Infer no other failed gate.
-7. `## Nearby-Control Comparison` distinguishing route capability, condition
-   existence, condition scope, target contradiction, operative consequence,
-   uncertainty, authority exercise, outcome, and remedy. State whether current
-   wording already refuses `D-mismatch` and permits `D-matched` to continue
-   gate checks.
-8. `## Verdict`: choose exactly `ALREADY HANDLED — AN OPERATIVE CONDITION FOR
-   ANOTHER CONTRADICTION DOES NOT SATISFY THE TARGET STOP GATE` or `PROPOSE
-   SF-SCS-0001 — CURRENT WORDING ALLOWS AN OUT-OF-SCOPE CONDITION TO SATISFY
-   THE TARGET STOP GATE`.
+   `Infer no other failed gate.`
+7. `## Nearby-Control Comparison` distinguishing evidence existence, storage,
+   general access, timing, target decision, accountable owner, review-chain
+   bridge, decision-chain visibility, understanding, authority exercise,
+   outcome, and remedy. State whether current wording already refuses
+   `D-available` and permits `D-bridged` to continue gate checks.
+8. `## Verdict`: choose exactly `ALREADY HANDLED — GENERAL AVAILABILITY DOES
+   NOT ESTABLISH DECISION-CHAIN VISIBILITY` or `PROPOSE SF-DCV-0001 — CURRENT
+   WORDING ALLOWS GENERAL AVAILABILITY TO SUBSTITUTE FOR ACCOUNTABLE
+   DECISION-CHAIN VISIBILITY`.
 9. `## Candidate Effect`: for already handled, exactly `NONE — CURRENT
-   correction_route_stop_condition WORDING REQUIRES THE CONDITION TO GOVERN
-   THE RELEVANT CONTRADICTION`; for propose, exactly `PROPOSE STOP-CONDITION
-   SCOPE-ALIGNMENT HANDLING`.
+   QUALIFICATION AND observation_environment WORDING REQUIRE ACCOUNTABLE
+   DECISION-CHAIN VISIBILITY`; for propose, exactly `PROPOSE DECISION-CHAIN
+   VISIBILITY HANDLING`.
 10. `## Frontier Verification` with exactly five bullets: fixture facts; all
     nine gate results; verdict/effect coherence; raw-frontmatter validity; and
     boundary checks.
 
 Return only the finished artifact. Emit raw Markdown, not a code fence. The
 first line and the line after `external_action: none` must both be `---`. Copy
-all five YAML fields. Use one concise row or bullet per item, do not repeat
-evidence, and stay under 850 words.
+all five YAML fields and the literal `Infer no other failed gate.` line. Use
+one concise row or bullet per item, do not repeat evidence, and stay under 850
+words.
