@@ -1,4 +1,4 @@
-# Draft a partial-window versus decision-time authority pressure test
+# Draft a multi-condition validation-coverage pressure test
 
 ## Boundary
 
@@ -11,97 +11,94 @@ Frontier verification, not owner truth.
 ## Evidence
 
 <evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#candidate-fields">
-The `accountable_review_owner` field must distinguish the assumption owner
-from the owner who held relevant authority during the reuse decision window
-and could review, stop, escalate, approve or reject, or revise that reuse.
-Refuse if relevant authority begins only after the decision. Do not infer
-authority exercise.
+The `changed_condition` field identifies the change that alters the validation
+burden. The `validation_burden` field states what adequate revalidation would
+need to address and what source-backed evidence shows as unmet, disputed,
+fragmented, or unresolved. Refuse a burden inferred only from hindsight.
 </evidence>
 
-<evidence path="topology/SF-DRA-0001-later-authority-and-decision-time-authority.md#verdict">
-Authority acquired after a reuse decision is final cannot establish the
-accountable review owner for that earlier decision. Later authority remains
-graded historical or future-route evidence, not backdated exercised authority.
+<evidence path="topology/SF-SCHEMA-CANDIDATE-0001-review-chain-fields.md#qualification-gate">
+Positive qualification requires an old assumption reused under a changed
+condition and a validation burden that admitted evidence shows as unmet,
+disputed, fragmented, or not owner-visible enough. Other supplied gates do not
+erase a failed validation-burden field.
 </evidence>
 
-<synthetic_fixture id="PWA-FIXTURE-01">
+<synthetic_fixture id="MVC-FIXTURE-01">
 - Every non-target core gate is supplied as `PASS` for this exact logic test.
-- Old assumption `A-old` is reused for bounded system `S-bounded` under changed
-  condition `C-new` in decision window `W-reuse`, which begins at `T-open` and
-  becomes final at `T-final`.
-- Instrument `I-early` gives officer `O-early` relevant review, stop,
-  escalation, approval or rejection, and revision authority at `T-open`, but
-  expires at `T-expire` before the final reuse decision at `T-final`.
-- No admitted instrument renews or extends `O-early` through `T-final`.
-- Instrument `I-current` gives officer `O-current` those exact powers from
-  before `T-expire` through `T-final`. The fixture does not state whether
-  either officer exercised authority.
-- Draft `D-partial` names `O-early` and marks `accountable_review_owner` `PASS`
-  because authority existed during an early portion of `W-reuse`.
-- Draft `D-final` names `O-current` and preserves continuous applicable
-  authority through the final reuse decision.
-- Do not infer vacancy, misconduct, review adequacy, outcome change, exercise,
-  or a remedy. This tests partial-window authority versus applicable authority
-  at the final reuse decision.
+- Old assumption `A-old` is reused for bounded system `S-bounded` after two
+  admitted changed conditions become jointly operative: load change `C-load`
+  and interface change `C-interface`.
+- Burden statement `B-joint` says adequate revalidation must address
+  `C-load`, `C-interface`, and their interaction `X-joint` for `S-bounded`.
+- Completed test `V-load` addresses `C-load` and passes. It does not address
+  `C-interface` or `X-joint`.
+- Summary `SUM-complete` truthfully says `V-load` completed and passed, but
+  supplies no other test, analysis, dispute resolution, or owner-visible
+  evidence for `C-interface` or `X-joint`.
+- Draft `D-aggregate` claims `validation_burden` `PASS` because a completed
+  validation exists. Draft `D-covered` preserves the same facts and marks the
+  field `FAIL` because two named parts of `B-joint` remain unresolved.
+- Do not infer that `V-load` is defective, that either change caused an
+  outcome, that another validation occurred, or that a remedy is required.
+  This tests completed partial validation versus coverage of the admitted
+  burden, not domain adequacy.
 - All names and facts are synthetic; this is not a new record or acceptance.
 </synthetic_fixture>
 
 ## Work now
 
-Draft `SF-PWA-0001-partial-window-and-decision-time-authority.md` with exactly:
+Draft `SF-MVC-0001-multi-condition-validation-coverage.md` with exactly:
 
-1. YAML frontmatter: `test_id: SF-PWA-0001`,
+1. YAML frontmatter: `test_id: SF-MVC-0001`,
    `candidate: SF-SCHEMA-CANDIDATE-0001`,
-   `status: synthetic_partial_window_authority_proposal`,
+   `status: synthetic_validation_coverage_proposal`,
    `source_material: synthetic`, `external_action: none`.
-2. `# SF PWA 0001 - Partial Window And Decision-Time Authority`.
+2. `# SF MVC 0001 - Multi-Condition Validation Coverage`.
 3. `## Boundary` preserving proposal-only, provisional, synthetic, no-remedy,
    no-promotion, no-domain-expertise, uncertainty, no-new-record,
-   no-vacancy-or-misconduct inference, no-review-adequacy inference,
-   no-outcome-counterfactual, no-authority-exercise inference, and no-action
-   status.
-4. `## Synthetic Fixture` separating `A-old`, `S-bounded`, `C-new`,
-   `W-reuse`, `T-open`, `T-expire`, `T-final`, `I-early`, `O-early`,
-   `I-current`, `O-current`, `D-partial`, and `D-final`; never extend expired
-   authority through the final decision without admitted evidence.
-5. `## Authority Window Ledger` with exactly two rows, one per draft, and
-   columns for draft, officer, instrument, matter scope, authority start,
-   authority end, final-decision authority, review, stop, escalation,
-   approval or rejection, revision, target-field result, qualification result,
-   and uncertainty. Preserve all supplied capabilities; vary only whether they
-   remain applicable at `T-final`.
+   no-test-defect inference, no-causal or outcome inference, no-unobserved-
+   validation inference, no-adequacy conclusion, and no-action status.
+4. `## Synthetic Fixture` separating `A-old`, `S-bounded`, `C-load`,
+   `C-interface`, `B-joint`, `X-joint`, `V-load`, `SUM-complete`,
+   `D-aggregate`, and `D-covered`; never turn completion of `V-load` into
+   coverage of the other named burden components.
+5. `## Validation Coverage Ledger` with exactly two rows, one per draft, and
+   columns for draft, assumption, system, changed-condition set, burden,
+   completed validation, covered component, uncovered component, uncovered
+   interaction, completion statement, draft-claimed target result,
+   verified target result, qualification result, and uncertainty. Use the
+   same supplied facts in both rows; vary only each draft's interpretation and
+   claimed result. The verified result is `FAIL` for both rows.
 6. `## Candidate Gate Trace` with these nine rows in order:
    `assumption_source_context`, `accountable_review_owner`,
    `affected_system_and_standing`, `changed_condition`, `validation_burden`,
    `observation_environment`, `delegation_visibility_gap`,
    `absorber_or_counterevidence`, `correction_route_stop_condition`.
    Give each non-target row `PASS` / `supplied premise`; give
-   `accountable_review_owner` `FAIL` / `the named officer's authority expires
-   before the final reuse decision and no admitted instrument extends it`.
-   Infer no other failed gate.
-7. `## Nearby-Control Comparison` keeping early participation, authority
-   existence, applicable matter scope, authority duration, final-decision
-   authority, later authority, authority exercise, review adequacy,
-   qualification, uncertainty, and remedy distinct. State whether current
-   wording already requires relevant authority at the reuse decision rather
-   than authority at any earlier point in the window.
+   `validation_burden` `FAIL` / `completed V-load covers C-load but admitted
+   burden B-joint still lacks C-interface and X-joint coverage`. Infer no
+   other failed gate.
+7. `## Nearby-Control Comparison` keeping validation existence, completion,
+   result, burden definition, component coverage, interaction coverage,
+   domain adequacy, qualification, uncertainty, causation, and remedy
+   distinct. State whether current wording already requires addressing the
+   admitted validation burden rather than merely completing some validation.
 8. `## Verdict` choosing exactly one:
-   - `PROPOSE SF-PWA-0001 — EARLY PARTIAL-WINDOW AUTHORITY IS ENOUGH AFTER IT EXPIRES BEFORE THE FINAL REUSE DECISION`
-     only if `D-partial` can pass; or
-   - `ALREADY HANDLED — EXPIRED PARTIAL-WINDOW AUTHORITY DOES NOT ESTABLISH THE DECISION-TIME ACCOUNTABLE OWNER`
-     when current wording already requires relevant authority at the reuse
-     decision.
-9. `## Candidate Effect`: exactly `PROPOSE CLARIFYING
-   accountable_review_owner TO REQUIRE APPLICABLE AUTHORITY AT THE FINAL REUSE
-   DECISION` for `PROPOSE`, or exactly `NONE — CURRENT CONTROL ALREADY
-   REQUIRES RELEVANT AUTHORITY DURING THE REUSE DECISION` for already handled.
-   Propose no assignment, succession design, remedy, acceptance rule, or new
-   field.
-10. `## Frontier Verification` listing only exact evidence, instruments,
-    officers, matter and system scope, times, authority duration, final
-    decision, supplied premises, qualification, wording, and boundary checks.
+   - `PROPOSE SF-MVC-0001 — ANY COMPLETED VALIDATION SATISFIES A MULTI-CONDITION BURDEN`
+     only if `D-aggregate` can pass; or
+   - `ALREADY HANDLED — COMPLETION DOES NOT ESTABLISH COVERAGE OF THE ADMITTED VALIDATION BURDEN`
+     when current wording already requires burden-relevant coverage.
+9. `## Candidate Effect`: exactly `PROPOSE CLARIFYING validation_burden TO
+   REQUIRE COVERAGE OF EVERY NAMED BURDEN COMPONENT` for `PROPOSE`, or exactly
+   `NONE — CURRENT CONTROL ALREADY REQUIRES THE RECORD TO STATE WHAT ADEQUATE
+   REVALIDATION MUST ADDRESS AND WHAT REMAINS UNRESOLVED` for already handled.
+   Propose no test design, remedy, acceptance rule, annotation, or new field.
+10. `## Frontier Verification` listing only exact evidence, identifiers,
+    changed-condition set, burden components, completed-test scope, uncovered
+    scope, supplied premises, qualification, wording, and boundary checks.
 
 Return only the finished artifact. Emit raw Markdown without a code fence; the
 first line must be `---` and frontmatter must end with a second `---` before
 the title. Use one concise row or bullet per required item, do not repeat
-evidence, and keep the finished artifact under 1,500 words.
+evidence, and keep the finished artifact under 1,300 words.
