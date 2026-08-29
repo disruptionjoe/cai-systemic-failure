@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-29T04:04:42-05:00"
-run_ref: RUN-20260829-090442-cai-systemic-failure-prepared-progress
-bottom_line: "Both official-report reviews are partial; separate lineage dispositions are the next gate."
+updated_at: "2026-08-29T05:03:56-05:00"
+run_ref: RUN-20260829-100356-cai-systemic-failure-prepared-progress
+bottom_line: "The Flint inquiry continues unchanged; the incomplete Texas hypothesis is deferred."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Integrated two partial official-report trace reviews and supplied one bounded disposition packet per case."
-    movement_ref: "inquiries/SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001.md; topology/SF-TEXAS-WINTERIZATION-TRACE-REVIEW-0001.md"
+    last_movement: "Dispositioned both partial-trace lineages and rotated the live slots to distinct public-case boundary tests."
+    movement_ref: "inquiries/SFQ-0002-DISPOSITION-0002-FLINT-OIG.md; topology/SF-STRESS-KNOWLEDGE-DISPOSITION-0002.md"
     steering_attention: watch
     steering_prompt: "Distinguish recurring knowledge-to-validation failure from event severity and narrower causes."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: official_source_partial_traces_ready_for_disposition
-    evidence_ref: "inquiries/SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001.md; topology/SF-TEXAS-WINTERIZATION-TRACE-REVIEW-0001.md; ROADMAP.md"
-    summary: "Each official report supports a bounded partial trace but leaves decision-time links unknown; neither dependent lineage is yet dispositioned."
-    evaluated_at: "2026-08-29T04:04:42-05:00"
-    run_ref: RUN-20260829-090442-cai-systemic-failure-prepared-progress
+    reason_code: partial_trace_lineages_dispositioned_and_rotated
+    evidence_ref: "inquiries/SFQ-0002-DISPOSITION-0002-FLINT-OIG.md; topology/SF-STRESS-KNOWLEDGE-DISPOSITION-0002.md; ROADMAP.md"
+    summary: "Flint supports keeping the inquiry unchanged but not another intermediate contract; Texas lacks the complete trace required to continue its narrowed hypothesis."
+    evaluated_at: "2026-08-29T05:03:56-05:00"
+    run_ref: RUN-20260829-100356-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Converted both official-report packets into source-preserving partial-trace results and disposition successors without changing the nine-field count or accepting the schema."
+    progress_delta: "Closed both dependent-lineage decisions, preserving the partial evidence while continuing one inquiry and deferring one hypothesis without schema promotion."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep provisional; disposition each dependent lineage from its partial trace before another source contract, comparison, or case."
+    recommendation: "Keep provisional; test the Challenger inquiry boundary and cross-scale recurrence without reopening the deferred Texas lineage."
     findings:
-      - "The Flint review supports dated complaint evidence, its Region 5 record source, and receipt while leaving six decision-time links unknown."
-      - "The Texas review supports a dated knowledge object, limited readiness-check translation, and limited relevance while leaving five load-bearing links unknown."
-      - "Both partial traces preserve domain absorbers, candidate-only receiver fit where applicable, no remedy, and non-promotion."
+      - "The Flint partial trace makes standing versus institutional receipt concrete but leaves the inquiry's decision-time chain unproved."
+      - "The Texas partial trace fails the prior complete-trace continuation condition, so the narrowed hypothesis is deferred pending source-local evidence."
+      - "Both dispositions preserve domain absorbers, candidate-only receiver fit where applicable, no remedy, and non-promotion."
     options:
       - id: A
         label: "Stay provisional"

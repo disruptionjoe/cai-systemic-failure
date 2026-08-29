@@ -1,48 +1,50 @@
-# Disposition the Flint inquiry after a partial OIG trace
+# Test the SFQ-0002 boundary against Challenger technical dissent
 
 ## Boundary
 
-Return one raw Markdown provisional inquiry disposition using only the frozen
-owner facts below. Do not reopen sources, invent a missing link, infer blame or
-duty, prescribe a remedy, accept a schema, change candidate-only receiver fit,
-create receiver work, or request action. Family lineage:
-`SF-LIN-PUBLIC-FLINT-INQUIRY-DISPOSITION-02`.
+Return one raw Markdown provisional boundary test using only the frozen owner
+facts below. Do not reopen sources, invent a missing link, equate resident and
+technical evidence, infer blame or duty, prescribe a remedy, accept a schema,
+change candidate-only receiver fit, create receiver work, or request action.
+Family lineage: `SF-LIN-PUBLIC-SFQ0002-CHALLENGER-BOUNDARY-01`.
 
 ## Frozen Owner Facts
 
 - `SFQ-0002` asks when affected-party or operational observations become
-  decision-relevant validation and correction objects across boundaries.
-- Its prior disposition was `continue_unmodified` pending one independent case
-  trace.
-- `SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001` now returns
-  `partial_trace_only` from EPA OIG Report 18-P-0221.
-- Supported: dated complaint evidence, the OIG's Region 5 record source, and
-  receipt of 87 complaints by Region 5 before the January 2016 order.
-- `unknown`: custody of one selected observation, recipient authority then in
-  force, then-current validation-burden linkage, source-preserved disposition,
-  timely unresolved stop, and causal relevance.
-- Later tracking, escalation, and intervention recommendations do not prove a
-  timely stop already existed.
-- Drinking-water, health, civil-rights, regulatory, and legal absorbers remain
-  available. Receiver fit remains candidate-only.
+  decision-relevant validation and correction objects across infrastructure
+  and authority boundaries.
+- `SFQ-0002-DISPOSITION-0002-FLINT-OIG` keeps that inquiry unmodified after a
+  partial complaint trace and refuses another intermediate Flint contract.
+- `SF-FN-0001` is a source-backed Challenger/Rogers Commission false-negative
+  pressure test. It preserves technical-dissent escalation pressure but does
+  not count Challenger as a sixth positive or accept schema.
+- Affected standing, operational observation, and technical dissent are
+  distinct evidence types. Source, custody, recipient, authority, timing,
+  validation burden, disposition, and stop condition cannot be borrowed
+  across them.
+- Launch-safety, spaceflight, engineering, management, regulatory, legal, and
+  public-safety absorbers remain sovereign.
 
 ## Required Artifact
 
-Draft `SFQ-0002-DISPOSITION-0002-FLINT-OIG.md` with frontmatter:
-`disposition_id`, `status: provisional_inquiry_disposition`, `subject:
-SFQ-0002`, `disposition`, `claim_posture: provisional`, `source_material:
-SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001`, and `external_action: none`.
+Draft `SFQ-0002-CHALLENGER-BOUNDARY-TEST-0001.md` with frontmatter:
+`test_id`, `status: provisional_inquiry_boundary_test`, `subject: SFQ-0002`,
+`disposition`, `claim_posture: provisional`, `source_material: SF-FN-0001`,
+and `external_action: none`.
 
-Include title, `Boundary`, `Prior inquiry`, `New source-review result`,
-`Disposition`, `Scope retained`, `Scope refused`, `Evidence still required`,
-`Falsifier`, `Candidate effect`, and `Frontier verification`.
+Include title, `Boundary`, `Inquiry under test`, `Challenger pressure`, a
+nine-row `Boundary matrix` for observation type, standing, source, custody,
+recipient, authority, timing/validation burden, disposition/stop, and domain
+absorber, then `Disposition`, `Scope retained`, `Scope refused`, `Falsifier`,
+`Candidate effect`, and `Frontier verification`.
 
-Disposition must be exactly one of `continue_unmodified`, `narrow`, `defer`,
-or `retire`. Explain whether a partial trace changes the inquiry without
-treating missing links as evidence of a shared mechanism.
+Disposition must be exactly one of `distinct_but_relevant`, `absorbed`,
+`supports_narrowing`, or `supports_expansion`. Do not use case plurality or
+shared severity as mechanism evidence.
 
-Candidate effect must be exactly: `DISPOSITION SFQ-0002 AFTER ONE PARTIAL FLINT
-TRACE — NO SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION
-CHANGE`.
+Candidate effect must be exactly: `TEST CHALLENGER TECHNICAL DISSENT AGAINST
+THE SFQ-0002 INQUIRY BOUNDARY — NO SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK,
+OR EXTERNAL-ACTION CHANGE`.
 
-Return only the finished artifact, without a code fence, under 800 words.
+Return only the finished artifact. Do not use a code fence. Keep it under 900
+words.

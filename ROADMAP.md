@@ -195,10 +195,19 @@
     unsupported link as unknown, and add no schema, remedy, receiver, or
     external-action effect (`SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001`,
     `SF-TEXAS-WINTERIZATION-TRACE-REVIEW-0001`).
-62. In progress: disposition `SFQ-0002` and the narrowed Texas stress-knowledge
-    hypothesis separately after the partial official-report traces. Continue,
-    narrow, defer, or retire each lineage from its own evidence; do not add
-    another intermediate review contract, comparison, or new case first.
+62. Done: disposition `SFQ-0002` and the narrowed Texas stress-knowledge
+    hypothesis separately after the partial official-report traces. Continue
+    `SFQ-0002` unmodified while refusing another intermediate Flint contract;
+    defer the Texas hypothesis until source-local evidence supplies a missing
+    load-bearing link (`SFQ-0002-DISPOSITION-0002-FLINT-OIG`,
+    `SF-STRESS-KNOWLEDGE-DISPOSITION-0002`).
+63. In progress: test whether Challenger technical dissent belongs inside or
+    outside the still-provisional affected-observation inquiry, and separately
+    test whether the two partial Flint and Texas traces support any recurrence
+    claim across municipal/federal and regional/interdependent scales. Preserve
+    observation type, standing, source, authority, timing, domain absorbers,
+    and every unknown; do not reopen the deferred Texas lineage or treat case
+    plurality as a mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

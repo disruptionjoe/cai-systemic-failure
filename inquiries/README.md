@@ -30,3 +30,7 @@ Mechanism Design through the common envelope.
   record source, and receipt by Region 5 are supported, while custody,
   decision-time authority, validation, disposition, stop, and causal links
   remain unknown; `SFQ-0002` and receiver fit remain provisional.
+- `SFQ-0002-DISPOSITION-0002-FLINT-OIG.md` - continues `SFQ-0002` unmodified
+  after the partial OIG trace. The result preserves supported complaint and
+  receipt facts, keeps six decision-time links unknown, refuses another
+  intermediate Flint contract, and leaves receiver fit candidate-only.

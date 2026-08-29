@@ -314,6 +314,20 @@ and closure links unknown. Neither partial trace changes the inquiry,
 hypothesis, schema, receiver fit, remedy, acceptance, or external-action
 posture; the active packets now disposition the two dependent lineages.
 
+`SFQ-0002-DISPOSITION-0002-FLINT-OIG` then continues the affected-observation
+inquiry unmodified after the partial Flint trace. The supported complaint
+evidence and Region 5 receipt make the standing-versus-receipt distinction
+concrete, while six missing decision-time links prevent a shared-mechanism
+claim or another intermediate Flint contract. `SF-STRESS-KNOWLEDGE-
+DISPOSITION-0002` separately defers the narrowed Texas hypothesis: the dated
+knowledge object, limited readiness-check translation, and limited relevance
+survive, but missing custody, accountable authority, decision, and closure
+links fail the prior complete-trace continuation condition. Neither disposition
+changes the five positive records, nine fields, provisional schema, receiver
+authority, remedy, acceptance, or external-action posture. The active packets
+now test one technical-dissent boundary for `SFQ-0002` and one cross-scale
+recurrence gate without reopening either completed lineage.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

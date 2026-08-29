@@ -362,3 +362,10 @@ limited translation into recurring readiness-check inputs, and limited
 source-stated relevance are supported, while custody, accountable-recipient
 authority, decision, and stop or closure links remain unknown. The narrowed
 stress-knowledge hypothesis remains unproved.
+
+`SF-STRESS-KNOWLEDGE-DISPOSITION-0002.md` defers that narrowed hypothesis after
+the partial trace fails its prior complete-trace continuation condition. The
+dated knowledge object, limited validation translation, and limited relevance
+remain provisional residue; missing custody, accountable authority, decision,
+and closure links prevent continuation until source-local evidence changes the
+boundary.
