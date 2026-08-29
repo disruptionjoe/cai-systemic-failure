@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-29T08:18:16-05:00"
-run_ref: RUN-20260829-130515-cai-systemic-failure-prepared-progress
-bottom_line: "Challenger closes as a partial trace; Columbia preserves only a three-case visibility candidate, not recurrence."
+updated_at: "2026-08-29T09:03:46-05:00"
+run_ref: RUN-20260829-140346-cai-systemic-failure-prepared-progress
+bottom_line: "Flint adds cross-domain visibility pressure without recurrence or a shared mechanism; final absorption awaits slot A."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Closed the Challenger partial trace and Columbia falsifier, retired both burdensome lineages, and installed one final diagnostic exception."
-    movement_ref: "topology/SF-CHALLENGER-DISSENT-PARTIAL-TRACE-0001.md; topology/SF-COMP-VISIBILITY-PATTERN-COLUMBIA-FALSIFIER-0001.md"
+    last_movement: "Preserved Flint cross-domain visibility pressure, retired its materially burdensome diagnostic family, and prepared a distinct East Palestine public-record packet."
+    movement_ref: "topology/SF-VISIBILITY-FLINT-FALSIFIER-0001.md; automation/local-model-packets/packets/02-field-trace/prompt.md"
     steering_attention: watch
     steering_prompt: "Distinguish recurring knowledge-to-validation failure from event severity and narrower causes."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: challenger_partial_trace_and_three_case_visibility_candidate_bounded
-    evidence_ref: "topology/SF-CHALLENGER-DISSENT-PARTIAL-TRACE-0001.md; topology/SF-COMP-VISIBILITY-PATTERN-COLUMBIA-FALSIFIER-0001.md; ROADMAP.md"
-    summary: "Challenger supports a partial trace and Columbia preserves a three-case visibility candidate while all recurring control links remain unproved."
-    evaluated_at: "2026-08-29T08:18:16-05:00"
-    run_ref: RUN-20260829-130515-cai-systemic-failure-prepared-progress
+    reason_code: flint_cross_domain_visibility_pressure_without_mechanism
+    evidence_ref: "topology/SF-VISIBILITY-FLINT-FALSIFIER-0001.md; ROADMAP.md"
+    summary: "Flint independently preserves contradiction-visibility pressure while custody, authority, timing, disposition, stop, and a shared mechanism remain unproved."
+    evaluated_at: "2026-08-29T09:03:46-05:00"
+    run_ref: RUN-20260829-140346-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Completed Roadmap 65 with a bounded Challenger partial trace and Columbia falsifier, retired both material-burden lineages, and installed one final diagnostic exception."
+    progress_delta: "Advanced Roadmap 66 with the Flint cross-domain pressure result, kept slot A unchanged for final disposition, retired slot B's material-burden family, and prepared Roadmap 67's East Palestine record packet."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep provisional; use one final diagnostic to retain, absorb, or retire the visibility candidate without scaling."
+    recommendation: "Keep provisional; let the existing slot-A disposition close the visibility candidate while slot B returns to a distinct public-source record."
     findings:
-      - "The Challenger partial trace preserves recommendation, reversal, and incomplete visibility while complete custody, authority, stop, and causal links remain unknown."
-      - "Columbia independently preserves accountable-contradiction-object pressure but does not establish recurrence or a common control mechanism."
-      - "Both material-burden lineages are retired; the successor diagnostic is capped at one cycle and two attempts."
+      - "Flint independently preserves accountable-contradiction-object pressure outside aerospace but does not establish recurrence or a shared control mechanism."
+      - "Complete custody, decision-time authority, timing, disposition, stop, and causal links remain unknown; sovereign water and public-health explanations remain active."
+      - "The Flint family retires without scale; the next slot-B family is a materially distinct NTSB-grounded East Palestine public-record candidate."
     options:
       - id: A
         label: "Stay provisional"

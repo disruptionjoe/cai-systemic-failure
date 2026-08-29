@@ -408,3 +408,10 @@ accountable-contradiction-object pressure, so the result remains a provisional
 three-case visibility candidate rather than a recurrence claim. No common
 custody, authority, disposition, stop, validation method, or causal mechanism
 is established.
+
+`SF-VISIBILITY-FLINT-FALSIFIER-0001.md` tests that candidate outside aerospace.
+Flint independently preserves accountable-contradiction-object pressure, so
+the result is `cross_domain_visibility_pressure`; it does not establish
+recurrence or a common mechanism. Complete custody, authority, timing,
+disposition, stop, and causal links remain unknown, and the existing
+provisional screen may still absorb the residue.

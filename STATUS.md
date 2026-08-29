@@ -368,6 +368,21 @@ retired without scale. The two active slots now form one final one-cycle,
 two-attempt diagnostic exception to decide whether the visibility pressure is
 novel, absorbed by the existing provisional screen, cross-domain, or retired.
 
+`SF-VISIBILITY-FLINT-FALSIFIER-0001` then finds bounded cross-domain
+contradiction-visibility pressure without establishing recurrence or a shared
+mechanism. Flint independently preserves a changed source, corrosion-control
+and exposure validation burdens, resident complaints, sampling, official
+concern, divided utility/state/federal paths, later emergency action, and the
+owner finding that those facts were not made into one accountable
+contradiction object early enough. Complete custody, decision-time authority,
+timing, disposition, stop, and causal links remain unknown; drinking-water,
+public-health, civil-rights, oversight, emergency-authority, and legal accounts
+remain sovereign. The result may still be absorbed by the existing
+provisional screen, so the final candidate disposition waits for the already-
+installed slot-A test. The materially burdensome Flint diagnostic lineage is
+retired without scale; slot B now prepares one materially different NTSB-
+grounded East Palestine public-record candidate.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

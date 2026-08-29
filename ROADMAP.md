@@ -221,12 +221,19 @@
     treating case count or shared aerospace domain as recurrence
     (`SF-CHALLENGER-DISSENT-PARTIAL-TRACE-0001`,
     `SF-COMP-VISIBILITY-PATTERN-COLUMBIA-FALSIFIER-0001`).
-66. In progress: run one final diagnostic exception, limited to one cycle and
-    two attempts, to decide whether the three-case contradiction-visibility
-    pressure adds a bounded inquiry beyond the existing provisional screen and
-    survives a Flint cross-domain falsifier. Retain, absorb, or retire the
-    candidate after this diagnostic; do not rotate into another adjacent
-    one-opportunity artifact contract.
+66. In progress: complete the final contradiction-visibility disposition.
+    Flint independently preserves cross-domain visibility pressure but does not
+    establish recurrence or a shared custody, authority, disposition, stop,
+    validation, or causal mechanism (`SF-VISIBILITY-FLINT-FALSIFIER-0001`).
+    Await the already-installed slot-A disposition to decide whether the three-
+    case candidate adds a bounded inquiry beyond the existing provisional
+    screen, is absorbed, or retires. Do not add another visibility test.
+67. Prepared only: use the now-terminal slot B for one materially different
+    NTSB-grounded East Palestine public-record candidate at freight-rail,
+    hazardous-materials, local-emergency-response, and community scale. Keep
+    the defective-bearing/monitoring phase distinct from the post-derailment
+    information/authority phase; the packet creates no record until a later
+    attempt is independently verified and integrated.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
