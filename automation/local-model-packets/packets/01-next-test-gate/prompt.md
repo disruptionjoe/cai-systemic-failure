@@ -1,55 +1,58 @@
-# Draft one affected-observation source-trace gap register
+# Disposition current Flint trace-source sufficiency
 
 ## Boundary
 
-Return one raw Markdown evidence-trace proposal using only the bounded owner
-evidence embedded below. Do not claim repository or source access, fill an
-unknown, equate observation types, infer blame or legal duty, prescribe a
-remedy, accept a schema, create receiver work, or request action. Family
-lineage: `SF-LIN-PUBLIC-AFFECTED-OBSERVATION-TRACE-01`.
+Return one raw Markdown source-sufficiency disposition using only the bounded
+owner evidence below. Do not claim source or repository access, upgrade an
+unknown, reconstruct a chain, infer blame or duty, prescribe a remedy, accept
+a schema, create receiver work, or request action. Family lineage:
+`SF-LIN-PUBLIC-FLINT-TRACE-SUFFICIENCY-01`.
 
-## Bounded owner evidence
+## Frozen evidence state
 
-<record id="SFQ-0002-DISPOSITION-0001">
-- SFQ-0002 continues unmodified.
-- Flint/Grenfell adds a second affected-party path but no new mechanism class.
-- The next search must reconstruct one case independently: named observation,
-  date, source and affected standing, custodian, recipient, recipient
-  authority, then-current validation burden, disposition, and timely stop.
+<record id="FLINT-TRACE-SUFFICIENCY">
+- Current owner synthesis names resident complaints, independent sampling,
+  official concern, residents including children as affected parties, and
+  corrosion-control, sampling, service-line, exposure, and complaint-evidence
+  validation burdens.
+- It names utility, state-primacy, public-health, and federal oversight or
+  emergency paths only as classes; it does not connect one dated observation
+  to a source, custodian, recipient, recipient authority, disposition, or
+  timely unresolved stop.
+- It does not prove one observation changed a then-current validation burden
+  or was causally relevant to a named decision.
+- Water, health, civil-rights, regulatory, and legal explanations remain.
 - Receiver fit remains candidate-only.
-</record>
-
-<record id="SF-COMP-FLINT-GRENFELL-AFFECTED-OBSERVATION">
-- Flint preserves resident complaints, independent sampling, official concern,
-  changed corrosion-control and exposure burdens, and utility/state/federal
-  paths.
-- Grenfell preserves resident concerns beside distinct professional, coroner,
-  incident-learning, design, control, product, fire-service, and government-
-  guidance evidence across many owners.
-- The bounded comparison does not reconstruct every observation's date,
-  custodian, recipient, authority, decision relevance, or disposition.
-- The comparison preserves water, health, civil-rights, building-safety,
-  product, regulatory, emergency-response, and legal absorbers.
 </record>
 
 ## Required artifact
 
-Draft `SFQ-0002-AFFECTED-OBSERVATION-TRACE-GAPS-PROPOSAL.md` with raw
-frontmatter fields `trace_id`, `status: provisional_evidence_trace_proposal`,
-`subject: SFQ-0002`, `claim_posture: provisional`, and `external_action: none`;
-title; `Boundary`; `Selected case`; `Supported trace`; `Gap register`;
-`Decision-time chain`; `Domain absorbers`; `Stop rule`; `Candidate effect`;
-and `Frontier verification`.
+Draft `SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL.md` with raw frontmatter
+fields `disposition_id`, `status: provisional_source_sufficiency_proposal`,
+`subject: SFQ-0002`, `claim_posture: provisional`, and
+`external_action: none`; title; `Boundary`; `Literal evidence ledger`;
+`Disposition`; `Evidence required`; `Domain absorbers`; `Stop rule`;
+`Candidate effect`; and `Frontier verification`.
 
-Select exactly one case, Flint or Grenfell, based on which bounded evidence can
-support the most complete trace without invention. In `Gap register`, list
-each of these separately as `supported` or `unknown`: observation and date;
-source; affected standing; custodian; recipient; recipient authority;
-then-current validation burden; disposition; timely unresolved stop; causal
-relevance. Do not convert `unknown` into a finding or borrow from the other
-case. Preserve every named domain absorber and candidate-only receiver fit.
+In `Literal evidence ledger`, use exactly these ten rows and values:
 
-Candidate effect must be exactly: `PROPOSE ONE SOURCE-PRESERVING AFFECTED-
-OBSERVATION TRACE FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY, ACCEPTANCE,
-RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`. Return only the finished artifact,
-without a code fence, under 850 words.
+| Link | Value |
+|---|---|
+| observation and date | unknown |
+| source for that observation | unknown |
+| affected standing | supported |
+| custodian | unknown |
+| recipient | unknown |
+| recipient authority | unknown |
+| then-current validation burden | supported as classes; linkage unknown |
+| disposition | unknown |
+| timely unresolved stop | unknown |
+| causal relevance | unknown |
+
+Disposition must be `current_bounded_corpus_insufficient`. Preserve the five
+named domain absorbers and candidate-only receiver fit. Candidate effect must
+be exactly: `PROPOSE A FLINT TRACE-SUFFICIENCY DISPOSITION FOR FRONTIER
+VERIFICATION — NO TRACE FINDING, SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK, OR
+EXTERNAL-ACTION CHANGE`.
+
+Return only the finished artifact, without a code fence, under 650 words.
