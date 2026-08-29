@@ -179,9 +179,14 @@
     absorber without equating the cases or promoting schema
     (`SF-COMP-FLINT-GRENFELL-AFFECTED-OBSERVATION`,
     `SF-COMP-TX2021-I35W-STRESS-KNOWLEDGE-ABSORBER`).
-59. Next: disposition the affected-observation inquiry and the stress-knowledge
+59. Done: disposition the affected-observation inquiry and the stress-knowledge
     hypothesis across the completed public-source comparisons before adding
-    another case or continuing either lineage.
+    another case or continuing either lineage
+    (`SFQ-0002-DISPOSITION-0001`,
+    `SF-STRESS-KNOWLEDGE-DISPOSITION-0001`).
+60. Next: reconstruct one source-preserving affected-observation chain and one
+    narrowed stress-knowledge translation trace, marking unsupported links
+    unknown, before another cross-case comparison or new case.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

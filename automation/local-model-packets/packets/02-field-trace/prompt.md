@@ -1,58 +1,60 @@
-# Disposition the public stress-knowledge hypothesis
+# Draft one narrowed stress-knowledge translation trace
 
 ## Boundary
 
-Return one raw Markdown hypothesis-disposition proposal using only the bounded
-owner evidence embedded below. Do not claim repository or source access,
-convert any case into schema evidence, infer blame or legal duty, prescribe a
-remedy, accept a schema, create receiver work, or request action. Family
-lineage: `SF-LIN-PUBLIC-STRESS-HYPOTHESIS-DISPOSITION-01`.
+Return one raw Markdown evidence-trace proposal using only the bounded owner
+evidence embedded below. Do not claim repository or source access, fill an
+unknown, convert any case into schema evidence, infer blame or legal duty,
+prescribe a remedy, accept a schema, create receiver work, or request action.
+Family lineage: `SF-LIN-PUBLIC-STRESS-KNOWLEDGE-TRACE-01`.
 
 ## Bounded owner evidence
 
-<record id="SF-COMP-TX2021-CA2020">
-- Shared residue: extreme weather exposed a gap between stressed conditions and
-  dependable electricity resources.
-- California remains a resource-adequacy absorber; a stronger knowledge-to-
-  validation mechanism remains unproved.
+<record id="SF-STRESS-KNOWLEDGE-DISPOSITION-0001">
+- The hypothesis is narrowed to one question: did a named, date-bounded stress-
+  knowledge object reach an accountable authority, change or challenge a then-
+  current validation burden before decision, and remain visibly unresolved or
+  incorrectly closed?
+- Comparison count, prior attention, many actors, severe outcome, and later
+  correction are not support.
+- The next search must reconstruct one case independently; unsupported links
+  remain unknown.
 </record>
 
-<record id="SF-COMP-TX2021-FUKUSHIMA2011">
-- Each case contains prior stress attention and a later severe event.
-- The common link remains unproved: a relevant knowledge object reached a
-  decision-time accountable authority, changed the current validation burden,
-  and remained improperly open or incorrectly closed before the event.
-- Electric/gas and nuclear-hazard explanations remain distinct.
-</record>
-
-<record id="SF-COMP-TX2021-I35W-STRESS-KNOWLEDGE-ABSORBER">
-- I-35W absorbs a generic mechanism through structural capacity, original
-  design calculation, added load, rating, inspection, construction load, and
-  guidance.
-- Prior attention, changed stress or load, many actors, severe outcome, and
-  later correction routes are insufficient without independently supported
-  knowledge, authority, burden, stop, and causal links in both cases.
+<record id="BOUNDED-CASE-TRACES">
+- Texas preserves recurrent official cold-weather attention, familiar
+  freezing-prone components, equipment and fuel failures, gas-electric
+  interdependence, generator-preparation and coordination concerns, rolling
+  load shedding, and regional affected standing. It does not reconstruct every
+  actor's knowledge, authority, or decision chronology.
+- Fukushima preserves a licensing design basis grounded partly in historical
+  tsunami records, later reassessment and underestimation pressure, loss of
+  safety functions, beyond-design-basis accident-management limits, and
+  severe-accident progression. It does not establish one complete decision-
+  time authority and burden trace from the bounded material.
+- Electric/gas, planning, operating, resource-adequacy, nuclear-hazard,
+  design-basis, structural-capacity, design, rating, inspection, construction-
+  load, transportation, engineering, regulatory, and legal absorbers remain.
 </record>
 
 ## Required artifact
 
-Draft `SF-STRESS-KNOWLEDGE-HYPOTHESIS-DISPOSITION-PROPOSAL.md` with raw
-frontmatter fields `disposition_id`, `status:
-provisional_public_source_hypothesis_disposition`, `subject:
-stress_knowledge_translation`, `claim_posture: provisional`, and
-`external_action: none`; title; `Boundary`; `Comparison evidence`; `Supported
-residue`; `Absorber result`; `Disposition`; `Evidence still required`;
-`Falsifier`; `Candidate effect`; and `Frontier verification`.
+Draft `SF-STRESS-KNOWLEDGE-TRANSLATION-TRACE-PROPOSAL.md` with raw frontmatter
+fields `trace_id`, `status: provisional_public_source_trace_proposal`,
+`subject: stress_knowledge_translation`, `claim_posture: provisional`, and
+`external_action: none`; title; `Boundary`; `Selected case`; `Supported
+trace`; `Gap register`; `Decision-time translation test`; `Domain absorbers`;
+`Stop rule`; `Candidate effect`; and `Frontier verification`.
 
-Choose exactly one disposition: `continue_as_inquiry`, `narrow`, `split`, or
-`retire`. Do not count comparison volume as support. Identify the strongest
-residue surviving California, Fukushima, and I-35W, then state whether it is
-specific enough to change a bounded next evidence search. Preserve equipment,
-fuel, gas-electric, planning, operating, resource-adequacy, nuclear-hazard,
-design-basis, structural-capacity, design, rating, inspection, construction-
-load, transportation, engineering, regulatory, and legal absorbers.
+Select exactly one case, Texas or Fukushima, based on which bounded evidence
+can support the most complete trace without invention. In `Gap register`, list
+each separately as `supported` or `unknown`: knowledge object and date; source;
+custodian; accountable recipient; authority then in force; then-current
+validation burden; decision and timing; stop or closure state; causal
+relevance. Do not borrow facts from the other case. Preserve every named
+absorber. If any required link is unknown, keep the hypothesis unproved.
 
 Candidate effect must be exactly: `PROPOSE ONE PUBLIC-SOURCE STRESS-KNOWLEDGE
-HYPOTHESIS DISPOSITION FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY,
-ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`. Return only the finished
-artifact, without a code fence, under 850 words.
+TRANSLATION TRACE FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY, ACCEPTANCE,
+RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`. Return only the finished artifact,
+without a code fence, under 850 words.

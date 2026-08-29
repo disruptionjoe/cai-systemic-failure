@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-28T23:10:04-05:00"
-run_ref: RUN-20260829-040452-cai-systemic-failure-prepared-progress
-bottom_line: "Flint/Grenfell preserve an affected-observation question, while I-35W absorbs a generic Texas stress-knowledge mechanism; neither establishes a recurring mechanism."
+updated_at: "2026-08-29T00:08:38-05:00"
+run_ref: RUN-20260829-050411-cai-systemic-failure-prepared-progress
+bottom_line: "Keep SFQ-0002 unchanged; narrow stress knowledge to one source-preserving decision-time translation trace."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Added a Flint/Grenfell affected-observation comparison and a Texas/I-35W stress-knowledge absorber test."
-    movement_ref: "topology/SF-COMP-FLINT-GRENFELL-affected-observation.md; topology/SF-COMP-TX2021-I35W-stress-knowledge-absorber.md"
+    last_movement: "Dispositioned both public-source hypotheses and bounded the next evidence traces."
+    movement_ref: "inquiries/SFQ-0002-DISPOSITION-0001-affected-observation.md; topology/SF-STRESS-KNOWLEDGE-DISPOSITION-0001.md"
     steering_attention: watch
     steering_prompt: "Distinguish recurring knowledge-to-validation failure from event severity and narrower causes."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: public_comparisons_narrowed
-    evidence_ref: "topology/SF-COMP-FLINT-GRENFELL-affected-observation.md; topology/SF-COMP-TX2021-I35W-stress-knowledge-absorber.md; ROADMAP.md"
-    summary: "Affected-observation and stress-knowledge residues are explicit, but their common decision-time chains remain unproved."
-    evaluated_at: "2026-08-28T23:10:04-05:00"
-    run_ref: RUN-20260829-040452-cai-systemic-failure-prepared-progress
+    reason_code: public_hypotheses_dispositioned
+    evidence_ref: "inquiries/SFQ-0002-DISPOSITION-0001-affected-observation.md; topology/SF-STRESS-KNOWLEDGE-DISPOSITION-0001.md; ROADMAP.md"
+    summary: "Affected observation remains an unchanged inquiry; stress knowledge is narrowed to one decision-time translation trace."
+    evaluated_at: "2026-08-29T00:08:38-05:00"
+    run_ref: RUN-20260829-050411-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added two cross-case tests that preserve affected standing and domain absorbers without changing the nine-field count or accepting the schema."
+    progress_delta: "Completed both hypothesis dispositions, preserved receiver and absorber boundaries, and bounded the next source traces without changing the nine-field count or accepting the schema."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep provisional; disposition both public-source hypotheses before adding another case."
+    recommendation: "Keep provisional; reconstruct one complete trace for each continuing question before another comparison."
     findings:
-      - "Flint resident complaints and sampling are not equivalent to Grenfell resident, professional, coroner, design, control, product, or fire-service evidence."
-      - "I-35W's structural-capacity and design-calculation account absorbs a generic Texas stress-knowledge mechanism."
-      - "Both comparisons preserve source, standing, authority, uncertainty, domain absorbers, no-remedy, and non-promotion boundaries."
+      - "Flint/Grenfell strengthens the standing-versus-custody distinction already present in SFQ-0002 without changing the inquiry."
+      - "California and I-35W absorb generic stress-knowledge claims; only an exact decision-time translation trace remains eligible."
+      - "Both dispositions preserve source, standing, authority, uncertainty, domain absorbers, no-remedy, and non-promotion boundaries."
     options:
       - id: A
         label: "Stay provisional"

@@ -268,6 +268,20 @@ mechanism. Texas retains a provisional inquiry while I-35W remains absorbed by
 its structural-capacity, design-calculation, rating, inspection, and
 construction-load account. Neither comparison changes schema status.
 
+`SFQ-0002-DISPOSITION-0001` then continues the affected-observation inquiry
+unmodified. Flint/Grenfell makes the difference between affected standing,
+evidence custody, review receipt, and decision authority more visible, but
+that distinction is already part of `SFQ-0002`; the inquiry does not broaden,
+split, retire, or change its candidate-only receiver fit.
+`SF-STRESS-KNOWLEDGE-DISPOSITION-0001` separately narrows the public stress-
+knowledge hypothesis. California and I-35W defeat a generic mechanism, so the
+only continuing question is whether one independently supported, date-bounded
+knowledge object reached an accountable authority, changed a then-current
+validation burden before decision, and remained visibly unresolved or
+incorrectly closed. No comparison count or later harm supports that question.
+Neither disposition changes schema status, positive-record count, fields,
+absorbers, remedy, receiver work, or external action.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

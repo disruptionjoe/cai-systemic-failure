@@ -338,3 +338,9 @@ knowledge question against the I-35W structural-capacity absorber. Earlier
 attention, changed stress or load, institutional plurality, and severe outcome
 do not establish a shared mechanism without independently supported knowledge,
 authority, validation-burden, stop-condition, and causal links in both cases.
+
+`SF-STRESS-KNOWLEDGE-DISPOSITION-0001.md` narrows the public stress-knowledge
+hypothesis after the California and I-35W absorbers and the Fukushima mixed
+case. It keeps only a source-preserving decision-time translation question and
+requires one complete knowledge, custody, authority, validation-burden, stop,
+disposition, and causal trace before another case or comparison.
