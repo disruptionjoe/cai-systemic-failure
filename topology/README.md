@@ -381,3 +381,18 @@ across municipal/federal and regional/interdependent scales. It returns
 `insufficient_for_scale_claim`: shared incompleteness is an evidence-state
 similarity, not a recurring mechanism, and the deferred Texas hypothesis stays
 closed absent source-local evidence.
+
+`SF-CHALLENGER-DISSENT-TRACE-SUFFICIENCY-PROPOSAL.md` finds the current bounded
+Challenger corpus sufficient for a partial technical-dissent trace. It
+supports the recommendation, management-reversal, and incomplete-visibility
+residue while keeping exact custody, recipient transitions, then-current
+authority, complete disposition, accountable stop, and complete causal bridge
+unknown.
+
+`SF-COMP-BOEING737MAX-CHALLENGER-VISIBILITY-GATE.md` keeps one provisional
+two-case contradiction-visibility candidate. Boeing preserves evidence that
+was not held as one integrated review object; Challenger preserves technical
+dissent that was reversed and incompletely communicated upward. The gate
+establishes no recurring custody, authority, disposition, or stop mechanism
+and refuses shared domain, severity, institutional plurality, or later
+investigation as mechanism evidence.

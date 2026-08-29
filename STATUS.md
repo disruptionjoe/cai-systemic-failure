@@ -339,6 +339,20 @@ timing, absorber, and uncertainty boundaries. The active packets now test one
 source-preserving Challenger dissent trace and one bounded Boeing 737 MAX /
 Challenger contradiction-visibility hypothesis without promoting schema.
 
+`SF-CHALLENGER-DISSENT-TRACE-SUFFICIENCY-PROPOSAL` then finds the bounded
+Challenger corpus sufficient for a partial recommendation-to-reversal-to-
+incomplete-visibility trace, but not a complete custody, authority,
+disposition, stop, or causal chain. `SF-COMP-BOEING737MAX-CHALLENGER-
+VISIBILITY-GATE` separately keeps a bounded contradiction-visibility pattern
+candidate: Boeing preserves fragmented changed-function and integration
+evidence, while Challenger preserves reversed technical dissent and incomplete
+upward communication. It does not claim recurrence or borrow one case's
+authority path. Both results preserve distinct claim roles, source limits,
+domain absorbers, uncertainty, provisional schema status, and exact no-remedy,
+no-receiver-work, and no-external-action boundaries. The active packets now
+ask for the permitted Challenger partial trace and test Columbia as a
+source-preserving falsifier of the two-case visibility candidate.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

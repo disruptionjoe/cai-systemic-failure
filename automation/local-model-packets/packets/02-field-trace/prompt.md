@@ -1,58 +1,65 @@
-# Test Boeing 737 MAX and Challenger contradiction visibility
+# Test Columbia against the Boeing-Challenger visibility candidate
 
 ## Boundary
 
-Return one raw Markdown provisional public-source pattern gate using only the
+Return one raw Markdown provisional public-source falsifier gate using only the
 frozen owner facts below. Do not reopen sources, invent a missing link, merge
-the cases, infer blame or duty, prescribe an aviation remedy, accept a schema,
+the cases, infer blame or duty, prescribe an aerospace remedy, accept schema,
 create receiver work, or request action. Family lineage:
-`SF-LIN-PUBLIC-BOEING-CHALLENGER-VISIBILITY-GATE-01`.
+`SF-LIN-PUBLIC-VISIBILITY-PATTERN-COLUMBIA-FALSIFIER-01`.
 
 ## Frozen Owner Facts
 
-- `SF-0001` preserves a Boeing 737 MAX certification pattern in which changed-
-  product treatment, delegated review, design changes, human-factor
-  assumptions, and alert complexity were not held together as one integrated
-  review object. Its source set is NTSB, JATR/FAA, and U.S. House public
-  official material.
-- `SF-0001` does not contain the complete certification file. It preserves
-  changed-function, validation, delegated-review, integration, correction-
-  route, and affected-standing pressures without deciding motive, liability,
-  or the complete accident chain.
-- `SF-FN-0001` preserves Challenger technical dissent, a no-launch
-  recommendation below prior temperature experience, management reversal,
-  and incomplete communication to higher launch-decision levels from Rogers
-  Commission and NASA public official sources.
-- Challenger is a false-negative pressure test, not a sixth positive. Boeing
-  is the first bounded positive record. Their aircraft, hazards, decisions,
-  evidence objects, authority paths, and source limits remain distinct.
-- Aviation safety, engineering, certification, management, regulatory, legal,
-  program, launch-safety, spaceflight, and public-safety explanations remain
-  sovereign.
+- `SF-COMP-BOEING737MAX-CHALLENGER-VISIBILITY-GATE` preserves only a bounded
+  candidate: in Boeing, changed-function, assumption, delegated-review, and
+  integration evidence were not held as one integrated review object; in
+  Challenger, a technical recommendation was reversed and incompletely
+  communicated to higher launch-decision levels. It establishes no recurring
+  custody, authority, disposition, or stop mechanism.
+- `SF-0002` is a bounded public-source Columbia record from CAIB and NASA
+  material. It is the second positive record, not a new case or sixth positive.
+- Columbia preserves repeated foam-shedding history, a live-mission strike and
+  damage concern, imagery need, technical dissent, management disposition, and
+  crew-risk standing. The bounded synthesis says these were not kept as one
+  accountable contradiction object.
+- Columbia also preserves uncertainty: the repository may compress distinct
+  technical, mission-management, imagery-request, and institutional decisions.
+  It does not reconstruct individual knowledge, intent, or every decision
+  path.
+- Boeing certification, Challenger launch decision, and Columbia in-mission
+  damage review remain different evidence objects, decisions, authority paths,
+  affected standing, and source limits.
+- Aviation safety, spaceflight, engineering, certification, program,
+  management, regulatory, legal, and public-safety explanations remain
+  sovereign. Shared aerospace domain, severe outcome, institutional plurality,
+  or later investigation is not recurrence evidence.
 
 ## Required Artifact
 
-Draft `SF-COMP-BOEING737MAX-CHALLENGER-VISIBILITY-GATE.md` with frontmatter:
-`comparison_id`, `status: provisional_public_source_pattern_gate`, `subject:
-contradiction_visibility`, `disposition`, `claim_posture: provisional`,
-`source_material: [SF-0001, SF-FN-0001]`, and `external_action: none`.
+Draft `SF-COMP-VISIBILITY-PATTERN-COLUMBIA-FALSIFIER-0001.md` with delimited
+YAML frontmatter: `gate_id`, `status: provisional_public_source_falsifier_gate`,
+`subject: contradiction_visibility`, `disposition`, `claim_posture:
+provisional`, `source_material: [SF-0001, SF-FN-0001, SF-0002]`, and
+`external_action: none`.
 
-Include title, `Boundary`, `Cases under test`, and a nine-row `Pattern gate`
-for evidence object, source, changed condition, validation burden,
-dissent or contradiction, custody, accountable authority, disposition or
-stop, and domain absorber. Mark every unsupported link `unknown`; preserve
-the two records' different claim roles. Then include `Disposition`, `Shared
-residue`, `Material differences`, `Scope refused`, `Evidence required`,
-`Falsifier`, `Candidate effect`, and `Frontier verification`.
+Include title, `Boundary`, `Prior candidate`, `Columbia pressure`, and a
+nine-row `Falsifier gate` using exactly four columns: `Dimension`, `Prior
+two-case residue`, `Columbia evidence`, and `Gate result`. The dimensions are
+evidence object, source, changed condition, validation burden, dissent or
+contradiction, custody, accountable authority, disposition or stop, and domain
+absorber. Mark unsupported links `unknown`; do not borrow one case's facts.
 
-Disposition must be exactly one of `superficial_resemblance_only`,
-`bounded_visibility_pattern_candidate`, or `refuted`. A shared aviation domain,
-severe outcome, delegated actors, or later investigation is not mechanism
-evidence by itself.
+Then include `Disposition`, `Residue retained`, `Material differences`, `Scope
+refused`, `Evidence required`, `Falsifier`, `Candidate effect`, and `Frontier
+verification`.
 
-Candidate effect must be exactly: `TEST BOEING 737 MAX AND CHALLENGER FOR A
-BOUNDED CONTRADICTION-VISIBILITY PATTERN — NO SCHEMA, REMEDY, ACCEPTANCE,
-RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`.
+Disposition must be exactly one of `three_case_visibility_candidate`,
+`two_case_candidate_only`, or `refuted`. Three cases do not establish
+recurrence without the same independently supported bounded mechanism.
+
+Candidate effect must be exactly: `TEST COLUMBIA AGAINST THE BOEING-
+CHALLENGER CONTRADICTION-VISIBILITY CANDIDATE — NO SCHEMA, REMEDY,
+ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`.
 
 Return only the finished artifact. Do not use a code fence. Keep it under 900
 words.

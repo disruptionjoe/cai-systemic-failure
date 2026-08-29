@@ -209,11 +209,16 @@
     and every unknown; do not reopen the deferred Texas lineage or treat case
     plurality as a mechanism (`SFQ-0002-CHALLENGER-BOUNDARY-TEST-0001`,
     `SF-SCALE-RECURRENCE-GATE-0001`).
-64. In progress: test whether the current bounded Challenger record can support
+64. Done: test whether the current bounded Challenger record can support
     one source-preserving dissent-to-decision trace, and separately test Boeing
     737 MAX and Challenger for a narrow contradiction-visibility recurrence
     without borrowing custody, authority, timing, or domain facts across the
-    cases.
+    cases (`SF-CHALLENGER-DISSENT-TRACE-SUFFICIENCY-PROPOSAL`,
+    `SF-COMP-BOEING737MAX-CHALLENGER-VISIBILITY-GATE`).
+65. In progress: build the bounded Challenger partial trace permitted by the
+    current corpus, and test Columbia as a source-preserving falsifier of the
+    two-case Boeing/Challenger contradiction-visibility candidate without
+    treating case count or shared aerospace domain as recurrence.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
