@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-29T09:03:46-05:00"
-run_ref: RUN-20260829-140346-cai-systemic-failure-prepared-progress
-bottom_line: "Flint adds cross-domain visibility pressure without recurrence or a shared mechanism; final absorption awaits slot A."
+updated_at: "2026-08-29T10:03:40-05:00"
+run_ref: RUN-20260829-150340-cai-systemic-failure-prepared-progress
+bottom_line: "Visibility is absorbed by the existing screen; East Palestine adds a bounded two-phase public record without recurrence."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Preserved Flint cross-domain visibility pressure, retired its materially burdensome diagnostic family, and prepared a distinct East Palestine public-record packet."
-    movement_ref: "topology/SF-VISIBILITY-FLINT-FALSIFIER-0001.md; automation/local-model-packets/packets/02-field-trace/prompt.md"
+    last_movement: "Closed the visibility diagnostic as absorbed, added the East Palestine public record, and prepared distinct Texas City and East Palestine/Macondo packets."
+    movement_ref: "topology/SF-VISIBILITY-CANDIDATE-DISPOSITION-0001.md; evidence/records/SF-0007-east-palestine-bearing-monitoring-and-emergency-information.md"
     steering_attention: watch
     steering_prompt: "Distinguish recurring knowledge-to-validation failure from event severity and narrower causes."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: flint_cross_domain_visibility_pressure_without_mechanism
-    evidence_ref: "topology/SF-VISIBILITY-FLINT-FALSIFIER-0001.md; ROADMAP.md"
-    summary: "Flint independently preserves contradiction-visibility pressure while custody, authority, timing, disposition, stop, and a shared mechanism remain unproved."
-    evaluated_at: "2026-08-29T09:03:46-05:00"
-    run_ref: RUN-20260829-140346-cai-systemic-failure-prepared-progress
+    reason_code: visibility_absorbed_east_palestine_record_added
+    evidence_ref: "topology/SF-VISIBILITY-CANDIDATE-DISPOSITION-0001.md; evidence/records/SF-0007-east-palestine-bearing-monitoring-and-emergency-information.md; ROADMAP.md"
+    summary: "The visibility candidate adds no new inquiry beyond the screen; East Palestine preserves separate detection and incident-command information pressures."
+    evaluated_at: "2026-08-29T10:03:40-05:00"
+    run_ref: RUN-20260829-150340-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Advanced Roadmap 66 with the Flint cross-domain pressure result, kept slot A unchanged for final disposition, retired slot B's material-burden family, and prepared Roadmap 67's East Palestine record packet."
+    progress_delta: "Closed Roadmap 66 and 67, added one topology disposition and one evidence record, and prepared Roadmap 68 and 69 without changing schema or receiver authority."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep provisional; let the existing slot-A disposition close the visibility candidate while slot B returns to a distinct public-source record."
+    recommendation: "Keep provisional; test the distinct Texas City record and East Palestine/Macondo comparison without reopening visibility."
     findings:
-      - "Flint independently preserves accountable-contradiction-object pressure outside aerospace but does not establish recurrence or a shared control mechanism."
-      - "Complete custody, decision-time authority, timing, disposition, stop, and causal links remain unknown; sovereign water and public-health explanations remain active."
-      - "The Flint family retires without scale; the next slot-B family is a materially distinct NTSB-grounded East Palestine public-record candidate."
+      - "The capped visibility diagnostic is absorbed by existing provisional fields and adds no new inquiry, field, recurrence, or shared mechanism."
+      - "East Palestine keeps bearing detection distinct from later information-to-incident-command pressure and preserves complete custody, transition, liability, health, and remedy unknowns."
+      - "Both completed families close without scale; the two successors return to a new official-source record and a bounded cross-case comparison."
     options:
       - id: A
         label: "Stay provisional"

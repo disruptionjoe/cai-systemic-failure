@@ -28,3 +28,8 @@ research material is rejected and routed to a separately authorized secure owner
   failure, preserving recurrence, resource, gas-electric interdependence,
   affected-standing, multi-cause, and no-remedy boundaries without counting it
   as a sixth provisional review-chain positive.
+- `records/SF-0007-east-palestine-bearing-monitoring-and-emergency-information.md`
+  - bounded NTSB-source synthesis that keeps bearing failure and wayside
+  monitoring distinct from the later information-to-incident-command phase,
+  preserves affected standing and domain absorbers, and makes no recurrence,
+  schema, liability, health-causation, or remedy claim.

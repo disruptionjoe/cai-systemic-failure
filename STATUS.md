@@ -383,6 +383,24 @@ installed slot-A test. The materially burdensome Flint diagnostic lineage is
 retired without scale; slot B now prepares one materially different NTSB-
 grounded East Palestine public-record candidate.
 
+`SF-VISIBILITY-CANDIDATE-DISPOSITION-0001` then closes the capped visibility
+diagnostic as `absorbed_by_existing_screen`. The four-case pressure remains
+source-preserving evidence, but its decision-relevant distinctions are already
+expressible through observation environment, delegation visibility,
+validation burden, affected standing, absorbers, and correction-route or stop
+controls. No novel inquiry, recurrence, shared mechanism, field, or schema
+pressure is established.
+
+`SF-0007` separately adds a bounded East Palestine public-source record from
+NTSB `RIR-24-05` and `NR20240625`. It keeps the bearing-failure and wayside-
+monitoring phase distinct from the later information-to-incident-command
+phase, preserves the local incident commander's authority, and leaves complete
+custody, transitions, liability, health causation, and remedy efficacy unknown.
+The record is not a sixth positive and does not claim recurrence or schema
+fit. Both completed packet families close without scale. The active slots now
+prepare one CSB-grounded BP Texas City record and one source-preserving East
+Palestine/Macondo information-to-authority comparison.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

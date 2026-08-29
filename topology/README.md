@@ -415,3 +415,10 @@ the result is `cross_domain_visibility_pressure`; it does not establish
 recurrence or a common mechanism. Complete custody, authority, timing,
 disposition, stop, and causal links remain unknown, and the existing
 provisional screen may still absorb the residue.
+
+`SF-VISIBILITY-CANDIDATE-DISPOSITION-0001.md` closes the capped visibility
+diagnostic as `absorbed_by_existing_screen`. The current screen can preserve
+the bounded evidence object, affected standing, visibility, validation,
+absorber, and correction-route or stop distinctions without a new field or
+inquiry. The disposition does not accept schema or turn the cases into a
+recurrence claim.

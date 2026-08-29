@@ -221,19 +221,22 @@
     treating case count or shared aerospace domain as recurrence
     (`SF-CHALLENGER-DISSENT-PARTIAL-TRACE-0001`,
     `SF-COMP-VISIBILITY-PATTERN-COLUMBIA-FALSIFIER-0001`).
-66. In progress: complete the final contradiction-visibility disposition.
-    Flint independently preserves cross-domain visibility pressure but does not
-    establish recurrence or a shared custody, authority, disposition, stop,
-    validation, or causal mechanism (`SF-VISIBILITY-FLINT-FALSIFIER-0001`).
-    Await the already-installed slot-A disposition to decide whether the three-
-    case candidate adds a bounded inquiry beyond the existing provisional
-    screen, is absorbed, or retires. Do not add another visibility test.
-67. Prepared only: use the now-terminal slot B for one materially different
-    NTSB-grounded East Palestine public-record candidate at freight-rail,
-    hazardous-materials, local-emergency-response, and community scale. Keep
-    the defective-bearing/monitoring phase distinct from the post-derailment
-    information/authority phase; the packet creates no record until a later
-    attempt is independently verified and integrated.
+66. Done: close the final contradiction-visibility disposition as absorbed by
+    the existing provisional screen, with no new inquiry, recurrence, shared
+    mechanism, field, schema pressure, remedy, or receiver work
+    (`SF-VISIBILITY-CANDIDATE-DISPOSITION-0001`).
+67. Done: add one bounded NTSB-grounded East Palestine public-source record at
+    freight-rail, hazardous-materials, local-emergency-response, and community
+    scale while keeping bearing detection distinct from the later information-
+    to-authority phase (`SF-0007`).
+68. Prepared only: use slot A for one materially different CSB-grounded BP
+    Texas City refinery record that keeps startup, containment, and siting
+    distinct from process-safety control and oversight. The packet creates no
+    record until a later attempt is independently verified and integrated.
+69. Prepared only: compare East Palestine and Macondo only on the bounded
+    information-to-authority pressure, preserve their different decision
+    phases and sovereign domain explanations, and refuse recurrence based on
+    event sequence, contractor involvement, severity, or later investigation.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
