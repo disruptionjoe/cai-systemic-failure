@@ -318,3 +318,11 @@ narrow shared residue that extreme weather exposed a gap between stressed
 conditions and dependable electricity resources. A stronger recurring
 knowledge-to-validation or correction mechanism remains an answerable inquiry;
 California stays an absorber and neither case promotes the schema.
+
+`SF-COMP-TX2021-FUKUSHIMA2011-stress-knowledge.md` compares recurrent Texas
+cold-weather attention with Fukushima external-hazard and design-basis
+reassessment pressure. It preserves the different electric/gas and nuclear-
+hazard accounts and finds that the decision-time knowledge-to-validation link
+remains unproved in both cases. `inquiries/SFQ-0002-affected-observation-to-
+validation.md` separately forms a Flint/Texas inquiry without equating resident
+evidence with prior-inquiry or operating evidence or creating receiver work.

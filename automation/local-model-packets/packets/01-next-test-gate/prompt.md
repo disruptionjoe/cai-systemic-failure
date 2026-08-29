@@ -1,63 +1,60 @@
-# Compare stress-knowledge translation in Texas 2021 and Fukushima 2011
+# Compare affected-observation paths in Flint and Grenfell
 
 ## Boundary
 
 Return one raw Markdown comparison proposal using only the public-source
-evidence embedded below. Do not claim repository or source access, collapse
-the cases into one cause, infer individual blame or legal duty, prescribe a
-remedy, accept a schema, create receiver work, or request action. Separate
-reported facts, cross-case inference, material differences, counterevidence,
-and unknowns. Family lineage:
-`SF-LIN-PUBLIC-CROSS-DOMAIN-STRESS-COMPARISON-01`.
+evidence embedded below. Do not claim repository or source access, equate the
+cases, infer individual blame or legal duty, prescribe a remedy, accept a
+schema, create receiver work, or request action. Separate reported facts,
+cross-case inference, material differences, counterevidence, and unknowns.
+Family lineage: `SF-LIN-PUBLIC-AFFECTED-OBSERVATION-COMPARISON-01`.
 
 ## Public-source evidence
 
-<source id="TEXAS-2021" title="The February 2021 Cold Weather Outages in Texas and the South Central United States" publisher="FERC, NERC, and Regional Entity staff" date="2021-12-08" url="https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and">
-- Severe cold produced extensive generation outages, derates, failures to
-  start, fuel-supply problems, and rolling load shedding.
-- Freezing and fuel issues together accounted for 75.6 percent of unplanned
-  generating-unit outages, derates, and failures to start.
-- Some natural-gas production declined from freezing and some from power loss
-  at gas infrastructure, supporting a possible gas-electric feedback without
-  making it the whole event.
-- The report follows earlier 2011 and 2018 cold-weather inquiries and again
-  identifies familiar freezing-prone components and preparation concerns.
+<source id="FLINT-FWATF-EPA" title="Flint Water Advisory Task Force Final Report and EPA OIG Management Weaknesses Delayed Response to Flint Water Crisis" publisher="State of Michigan and U.S. EPA Office of Inspector General" date="2016-03-21; 2018-07-19" url="https://www.epa.gov/office-inspector-general/report-management-weaknesses-delayed-response-flint-water-crisis">
+- A changed water source altered corrosion-control, distribution-system, and
+  lead-exposure validation burdens.
+- Resident complaints, independent sampling, official concern, later health
+  evidence, and emergency action made affected-party observations visible.
+- Utility operation, state primacy oversight, and federal oversight or
+  emergency authority formed distinct paths.
+- The supplied evidence does not reduce the crisis to one missed message or
+  settle engineering, health, civil-rights, regulatory, or legal conclusions.
 </source>
 
-<source id="FUKUSHIMA-IAEA" title="The Fukushima Daiichi Accident: Report by the Director General and Technical Volume 2, Safety Assessment" publisher="International Atomic Energy Agency" date="2015" url="https://www-pub.iaea.org/mtcd/publications/pdf/pub1710-reportbythedg-web.pdf">
-- The licensing design basis still represented tsunami flooding at the time
-  of the March 2011 accident and drew on historical tsunami records, including
-  the 1960 Chile tsunami level at Onahama Port.
-- The source set records later reassessment, underestimation of extreme
-  flooding, loss of safety functions, beyond-design-basis accident-management
-  gaps, and severe-accident preparation limits.
-- Operator, regulator, legal-framework, site-protection, and emergency-response
-  paths are visible, but this packet supplies no complete decision chronology
-  or authority map.
+<source id="GRENFELL-INQUIRY" title="Grenfell Tower Inquiry Phase 2 Report" publisher="Grenfell Tower Inquiry / GOV.UK" date="2024-09-04" url="https://www.gov.uk/government/publications/publication-of-the-grenfell-tower-inquiry-phase-2-report">
+- The 2016 refurbishment changed the evidence context through an external
+  cladding system, altered window details, and related design dependencies.
+- Source-reported warning routes included prior incident learning,
+  professional or coroner concerns, building-control and design review, fire-
+  service preparedness, and residents' reported safety concerns.
+- Review crossed owner, manager, architect, contractor, subcontractor, fire
+  engineer, building control, product assurance, fire service, and government-
+  guidance boundaries.
+- The supplied evidence does not settle building-safety, fire-service,
+  product, regulatory, emergency-response, civil-rights, or legal conclusions.
 </source>
 
 ## Required artifact
 
-Draft `SF-COMP-TX2021-FUKUSHIMA2011-STRESS-KNOWLEDGE-PROPOSAL.md` with raw
+Draft `SF-COMP-FLINT-GRENFELL-AFFECTED-OBSERVATION-PROPOSAL.md` with raw
 frontmatter fields `comparison_id`, `status:
 provisional_public_source_comparison`, `source_material`, `claim_posture:
 provisional`, and `external_action: none`; title; `Boundary`; `Supported case
 traces`; `Comparison matrix`; `Shared residue`; `Material differences`;
-`Knowledge-to-validation test`; `Competing explanations`; `Counterevidence and
-unknowns`; `Falsifier`; `Candidate effect`; and `Frontier verification`.
+`Observation-to-validation test`; `Competing explanations`; `Counterevidence
+and unknowns`; `Falsifier`; `Candidate effect`; and `Frontier verification`.
 
-The matrix must compare stress type, prior official knowledge, resource or
-design-basis exposure, interdependence, validation burden, authority limits,
-affected standing, scale, and narrower domain explanation. Test whether the
-sources support a provisional recurring failure to carry stress knowledge into
-validated dependable preparation, or only two different forms of prior-hazard
-attention under severe events. Keep Texas component freezing, fuel supply,
-gas-electric coupling, and grid operations distinct from Fukushima tsunami
-hazard, nuclear design basis, site protection, severe-accident management,
-regulation, emergency response, and health or legal domains. State exactly
-which common causal link remains unproved.
+The matrix must compare observation type, affected standing, changed context,
+validation burden, evidence custody, review recipients, authority limits,
+stop or correction visibility, scale, and narrower domain explanation. Test
+whether the sources support a recurring failure to preserve affected-party
+observations as accountable validation objects, or only two domain-specific
+warning histories. Do not assume Flint complaints and sampling equal Grenfell
+resident concerns or professional, coroner, design, control, product, and fire-
+service evidence. State the exact common link that remains unproved.
 
-Candidate effect must be exactly: `PROPOSE ONE SOURCE-PRESERVING CROSS-DOMAIN
-STRESS-KNOWLEDGE COMPARISON FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY,
-ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`. Return only the finished
-artifact, without a code fence, under 1,050 words.
+Candidate effect must be exactly: `PROPOSE ONE SOURCE-PRESERVING FLINT /
+GRENFELL AFFECTED-OBSERVATION COMPARISON FOR FRONTIER VERIFICATION — NO
+SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`. Return
+only the finished artifact, without a code fence, under 1,050 words.

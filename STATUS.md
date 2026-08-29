@@ -246,6 +246,16 @@ and dependable electricity resources. A stronger recurring knowledge-to-
 validation or cross-boundary correction mechanism remains an answerable
 inquiry; California stays an absorber and neither case promotes the schema.
 
+`SF-COMP-TX2021-FUKUSHIMA2011` then compares recurrent Texas cold-weather
+attention with Fukushima tsunami design-basis and reassessment pressure. The
+cases preserve distinct electric/gas and nuclear-hazard accounts; the common
+decision-time link from stress knowledge through accountable authority to an
+unclosed current validation burden remains unproved. `SFQ-0002` separately
+forms an answerable Flint/Texas inquiry into when affected-party or operational
+observations become validation and correction objects across boundaries. It
+does not equate the observation types, authorize Mechanism Design work, or
+change schema status.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

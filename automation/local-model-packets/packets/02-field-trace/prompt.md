@@ -1,65 +1,66 @@
-# Form an affected-observation inquiry from Flint and Texas
+# Test stress-knowledge translation against the I-35W absorber
 
 ## Boundary
 
-Return one raw Markdown inquiry proposal using only the public-source evidence
-embedded below. Do not claim repository or source access, merge the cases into
-one failure, infer individual blame or legal duty, prescribe a remedy, select
-an intervention, accept a schema, create receiver work, or request action.
-Keep reported facts, cross-case inference, counterevidence, and unknowns
-distinct. Family lineage:
-`SF-LIN-PUBLIC-AFFECTED-OBSERVATION-INQUIRY-01`.
+Return one raw Markdown absorber-comparison proposal using only the public-
+source evidence embedded below. Do not claim repository or source access,
+convert either case into schema evidence, infer individual blame or legal duty,
+prescribe a remedy, accept a schema, create receiver work, or request action.
+Separate reported facts, cross-case inference, material differences,
+counterevidence, and unknowns. Family lineage:
+`SF-LIN-PUBLIC-STRESS-ABSORBER-TEST-01`.
 
 ## Public-source evidence
 
-<source id="FLINT-FWATF-EPA" title="Flint Water Advisory Task Force Final Report and EPA OIG Management Weaknesses Delayed Response to Flint Water Crisis" publisher="State of Michigan and U.S. EPA Office of Inspector General" date="2016-03-21; 2018-07-19" url="https://www.epa.gov/office-inspector-general/report-management-weaknesses-delayed-response-flint-water-crisis">
-- A changed water source altered corrosion-control, distribution-system, and
-  lead-exposure validation burdens.
-- Resident complaints, independent sampling, official concern, later health
-  evidence, and emergency action made affected-party observations visible.
-- Utility operation, state primacy oversight, and federal oversight or
-  emergency authority formed distinct paths; the supplied evidence does not
-  reduce the crisis to one missed message or settle engineering, health,
-  civil-rights, regulatory, or legal conclusions.
+<source id="TEXAS-2021" title="The February 2021 Cold Weather Outages in Texas and the South Central United States" publisher="FERC, NERC, and Regional Entity staff" date="2021-12-08" url="https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and">
+- Severe cold produced generation outages, derates, failures to start, fuel-
+  supply problems, and rolling load shedding.
+- Freezing and fuel issues together accounted for 75.6 percent of unplanned
+  generating-unit outages, derates, and failures to start.
+- Earlier 2011 and 2018 cold-weather inquiries identified familiar freezing-
+  prone components and preparation concerns.
+- Gas production declined from freezing and from power loss at some gas
+  infrastructure, supporting a possible gas-electric feedback without making
+  it the whole event.
 </source>
 
-<source id="TEXAS-2021" title="The February 2021 Cold Weather Outages in Texas and the South Central United States" publisher="FERC, NERC, and Regional Entity staff" date="2021-12-08" url="https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and">
-- Severe cold produced extensive generation outages, derates, fuel-supply
-  problems, and rolling load shedding; more than 4.5 million people in Texas
-  lost power.
-- The report identifies familiar freezing-prone components and prior
-  cold-weather inquiries, and it emphasizes generator preparedness and
-  gas-electric coordination.
-- Some gas production declined from freezing and some from power loss at gas
-  infrastructure, preserving multiple causes and cross-system coupling.
-- The supplied evidence does not establish an affected-party complaint path
-  analogous to Flint or a complete map of who could convert earlier learning
-  into binding validation or stop conditions.
+<source id="I35W-NTSB-FHWA" title="Collapse of I-35W Highway Bridge and Gusset Plates Final Report" publisher="National Transportation Safety Board and Federal Highway Administration" date="2008; 2017" url="https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR0803.pdf">
+- The official account centers inadequate gusset-plate load capacity from
+  original design error, added loads over time, construction equipment and
+  aggregate staging, and load-rating or inspection guidance that did not
+  account for gusset plates.
+- Design-firm quality control, transportation-owner review, federal or
+  standards guidance, bridge inspection, and contractor load placement are
+  visible, but multi-actor review alone does not create a generic review-chain
+  failure.
+- Affected standing and official correction routes are visible.
+- The narrower bridge-capacity, design-calculation, load-rating, construction-
+  load, and inspection-guidance account absorbs positive review-chain fit.
 </source>
 
 ## Required artifact
 
-Draft `SFQ-FLINT-TX2021-AFFECTED-OBSERVATION-TO-VALIDATION-PROPOSAL.md` with raw
-frontmatter fields `inquiry_id`, `status: answerable_inquiry_proposal`,
-`source_material`, `claim_posture: provisional`, `receiver_fit:
-cai-mechanism-design_candidate_only`, and `external_action: none`; title;
-`Boundary`; `Supported case traces`; `Material differences`; `Answerable
-inquiry`; `Candidate mechanism classes`; `Affected standing and scale`;
-`Evidence that would discriminate`; `Competing explanations`; `Falsifiers`;
-`Owner-fit boundary`; `Candidate effect`; and `Frontier verification`.
+Draft `SF-COMP-TX2021-I35W-STRESS-ABSORBER-PROPOSAL.md` with raw frontmatter
+fields `comparison_id`, `status: provisional_public_source_absorber_test`,
+`source_material`, `claim_posture: provisional`, and `external_action: none`;
+title; `Boundary`; `Supported case traces`; `Comparison matrix`; `Tempting
+surface fit`; `Material differences`; `Stress-knowledge test`; `Absorber
+result`; `Counterevidence and unknowns`; `Falsifier`; `Candidate effect`; and
+`Frontier verification`.
 
-Ask whether affected-party or operational observations become decision-relevant
-validation and correction objects differently when risk crosses infrastructure
-and authority boundaries. Do not assume Flint resident evidence and Texas
-prior-inquiry or operating evidence are equivalent. Preserve drinking-water,
-public-health, civil-rights, utility, electric-reliability, gas-system,
-regulatory, planning, emergency-response, and legal absorbers. State what
-further evidence would distinguish a recurring observation-to-validation
-mechanism from the superficial resemblance “public harm plus multiple
-institutions.” Receiver fit is proposal-only and cannot authorize Mechanism
-Design work.
+The matrix must compare prior knowledge, stress or load change, validation
+burden, interdependence, review fragmentation, affected standing, scale,
+correction visibility, and narrower domain explanation. Test whether Texas's
+recurrent cold-weather attention and I-35W's design/load history support one
+stress-knowledge translation mechanism, or whether bridge capacity and design-
+calculation evidence demonstrates why prior attention plus severe outcome is
+insufficient. Preserve Texas equipment, fuel, gas-electric, planning, and
+operating explanations and I-35W structural-capacity, design, rating,
+inspection, construction-load, transportation, engineering, and legal
+absorbers. State the exact evidence required before a shared mechanism could
+survive the absorber.
 
-Candidate effect must be exactly: `PROPOSE ONE ANSWERABLE AFFECTED-OBSERVATION
-TO VALIDATION INQUIRY FOR FRONTIER VERIFICATION — NO RECEIVER WORK, REMEDY,
-ACCEPTANCE, OR EXTERNAL-ACTION CHANGE`. Return only the finished artifact,
-without a code fence, under 1,050 words.
+Candidate effect must be exactly: `PROPOSE ONE TEXAS / I-35W PUBLIC-SOURCE
+STRESS-KNOWLEDGE ABSORBER TEST FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY,
+ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`. Return only the finished
+artifact, without a code fence, under 1,050 words.

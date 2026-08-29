@@ -166,9 +166,17 @@
     resource-adequacy absorber, preserve their material differences, and leave
     the stronger recurring mechanism as an answerable inquiry
     (`SF-COMP-TX2021-CA2020`).
-56. Next: test whether public evidence can distinguish a recurring failure to
+56. Done: test whether public evidence can distinguish a recurring failure to
     carry stress knowledge into validated dependable-resource requirements
-    from event severity and narrower technical, resource, or market causes.
+    from event severity and narrower technical, resource, design-basis, or
+    operating causes through a Texas 2021 / Fukushima 2011 comparison
+    (`SF-COMP-TX2021-FUKUSHIMA2011`).
+57. Done: form an answerable Flint/Texas inquiry into when affected-party or
+    operational observations become decision-relevant validation and correction
+    objects across infrastructure and authority boundaries (`SFQ-0002`).
+58. Next: compare one additional affected-observation path and one strong
+    domain absorber before deciding whether either public-source lineage merits
+    continuation.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
