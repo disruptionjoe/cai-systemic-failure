@@ -1,55 +1,62 @@
-# Test same-label validation-scope contraction
+# Compare Texas 2021 and California 2020 grid failures
 
 ## Boundary
 
-Write one complete proposal artifact from only the embedded synthetic evidence.
-Do not claim repository access, invent sources, change a field or status,
-prescribe a remedy, create follow-on work, or request action. Family lineage:
-`SF-LIN-VALIDATION-TIMING-01`.
+Return one raw Markdown comparison proposal from only the public-source
+evidence embedded below. Do not claim repository or source access, collapse
+the cases into one cause, infer individual blame, prescribe a remedy, accept a
+schema, create follow-on work, or request action. Separate reported facts,
+cross-case inference, counterevidence, and unknowns. Family lineage:
+`SF-LIN-PUBLIC-CROSS-CASE-COMPARISON-01`.
 
-## Evidence
+## Public-source evidence
 
-<synthetic_fixture id="VBT-SAME-LABEL-SCOPE-CONTRACTION-01">
-Decision `T0` reuses `A-old` under `C-new`. At `T-2`, burden `VB-v1` has
-component `VC-context` scoped to both continued operation of `A-old` and its
-relation to `C-new`; timely event `V-broad` and bridge `BR-v1` explicitly cover
-that broad historical scope. At `T-1`, revision `VB-v2` keeps label
-`VC-context` but narrows its current required scope to continued operation of
-`A-old` only. `D-history` cites `V-broad` and `BR-v1` without an admitted bridge
-to current `VB-v2`. `D-current` cites `V-broad` plus timely `BR-v2`, which
-explicitly connects the covered continued-operation scope to current `VB-v2`.
-`D-label` cites only label identity. All events, bridges, and the revision are
-timely and owner-visible; every non-target gate is supplied `PASS`. Infer no
-real-world adequacy, authority exercise, duty, cause, remedy, or outcome.
-</synthetic_fixture>
+<source id="TEXAS-2021" title="The February 2021 Cold Weather Outages in Texas and the South Central United States" publisher="FERC, NERC, and Regional Entity staff" date="2021-12-08" url="https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and">
+- The February 2021 severe-cold event produced extensive generation outages,
+  derates, fuel-supply problems, and rolling load shedding.
+- FERC's summary reports 20,000 MW of ERCOT rolling blackouts and more than
+  4.5 million people in Texas losing power.
+- The joint report identifies freezing and fuel issues as the dominant
+  reported generation-loss categories, describes gas-electric
+  interdependence, and points to earlier cold-weather warnings and inquiries.
+</source>
 
-## Work now
+<source id="CALIFORNIA-2020" title="Final Root Cause Analysis: Mid-August 2020 Extreme Heat Wave" publisher="CAISO, CPUC, and CEC" date="2021-01-13" url="https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/news-and-outreach/documents/news-office/key-issues/summer-reliability/final-root-cause-analysis-midaugust-2020-extreme-heat-wave--011321.pdf">
+- CAISO instituted rotating outages on August 14 and 15, 2020 during a
+  West-wide extreme heat wave.
+- The final analysis identifies no single root cause. It reports three major
+  contributing groups: extreme weather and demand beyond existing planning
+  targets; resource-adequacy and planning processes that did not ensure enough
+  dependable early-evening supply; and day-ahead market practices that
+  exacerbated stressed conditions.
+- The independent market monitor concurred with many findings and reported no
+  evidence that the event resulted from market manipulation.
+</source>
 
-Draft `SF-VBT-SAME-LABEL-SCOPE-CONTRACTION-0001.md` with raw frontmatter,
-title, Boundary, Synthetic Fixture, Validation Ledger, Distinction, nine-gate
-Candidate Gate Trace, Verdict, Candidate Effect, and five-bullet Frontier
-Verification. The ledger must return:
+## Required artifact
 
-The raw frontmatter must include
-`test_id: SF-VBT-SAME-LABEL-SCOPE-CONTRACTION-0001`,
-`status: synthetic_same_label_scope_contraction_proposal`,
-`source_material: synthetic`, and `external_action: none`.
+Draft `SF-COMP-TX2021-CA2020-POWER-OUTAGES-PROPOSAL.md` with raw frontmatter
+fields `comparison_id`, `status: public_source_comparison_proposal`,
+`source_material`, `claim_posture: provisional`, and `external_action: none`;
+title; `Boundary`; `Case summaries`; `Comparison matrix`; `Shared-pattern
+test`; `Difference and absorber test`; `Scale and recursion`; `Counterevidence
+and unknowns`; `Answerable inquiry`; `Candidate effect`; and `Frontier
+verification`.
 
-- `D-history | current_scope_coverage: FAIL | qualification_result: FAIL`
-- `D-current | current_scope_coverage: PASS | qualification_result: CONTINUE GATE CHECKS`
-- `D-label | current_scope_coverage: FAIL | qualification_result: FAIL`
+The comparison matrix must keep these dimensions distinct: initiating weather
+stress; resource loss or inadequacy; information and prior warning; planning
+and validation burden; authority or coordination structure; interdependence;
+operational response; affected standing; scale; feedback and recurrence.
+Identify only a provisional shared pattern that both source sets directly
+support. Test whether the resemblance is merely "extreme weather plus scarce
+power" or whether both show a stronger mismatch between anticipated stress,
+planning assumptions, dependable resources, and cross-boundary correction.
+Preserve the material differences: cold-related unit and fuel failures plus
+gas-electric coupling in Texas; heat-driven net-demand stress, resource
+adequacy, and market-practice findings in California. Do not use one case to
+fill an evidentiary gap in the other.
 
-Keep label identity, historical scope, current required scope, event coverage,
-bridge-to-current-burden coverage, timing, visibility, synthetic gate result,
-adequacy, authority, duty, outcome, and remedy separate. The validation gate is
-`D-history FAIL; D-current PASS; D-label FAIL`; the other eight gates are
-`PASS — supplied premise`. End with `Infer no other failed gate.` Verdict:
-`TEST FOR NEW PRESSURE — HISTORICAL BROAD-SCOPE COVERAGE DOES NOT PROVE CURRENT
-NARROW-SCOPE COVERAGE WITHOUT AN ADMITTED CURRENT-BURDEN BRIDGE`. Candidate
-effect: `PROPOSE SAME-LABEL SCOPE-CONTRACTION TEST ONLY — NO FIELD, RECORD,
-STATUS, ACCEPTANCE, OR REMEDY CHANGE`.
-
-Preserve proposal-only, provisional, synthetic, uncertainty, no-remedy,
-no-promotion, no-field-change, no-new-record, no-authority-exercise, no-duty,
-no-causal, no-outcome, and no-action boundaries. Return only raw Markdown,
-without a code fence, under 750 words. Return only the finished artifact.
+Candidate effect must be exactly: `PROPOSE ONE SOURCE-PRESERVING CROSS-CASE
+COMPARISON FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY, ACCEPTANCE, OR
+EXTERNAL-ACTION CHANGE`. Return only the finished artifact, without a code
+fence, under 1,100 words.
