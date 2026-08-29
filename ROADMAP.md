@@ -174,9 +174,14 @@
 57. Done: form an answerable Flint/Texas inquiry into when affected-party or
     operational observations become decision-relevant validation and correction
     objects across infrastructure and authority boundaries (`SFQ-0002`).
-58. Next: compare one additional affected-observation path and one strong
-    domain absorber before deciding whether either public-source lineage merits
-    continuation.
+58. Done: compare Flint and Grenfell affected-observation paths and test the
+    Texas stress-knowledge question against the I-35W structural-capacity
+    absorber without equating the cases or promoting schema
+    (`SF-COMP-FLINT-GRENFELL-AFFECTED-OBSERVATION`,
+    `SF-COMP-TX2021-I35W-STRESS-KNOWLEDGE-ABSORBER`).
+59. Next: disposition the affected-observation inquiry and the stress-knowledge
+    hypothesis across the completed public-source comparisons before adding
+    another case or continuing either lineage.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

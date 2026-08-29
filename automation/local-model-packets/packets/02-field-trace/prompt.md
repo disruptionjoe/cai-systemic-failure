@@ -1,66 +1,58 @@
-# Test stress-knowledge translation against the I-35W absorber
+# Disposition the public stress-knowledge hypothesis
 
 ## Boundary
 
-Return one raw Markdown absorber-comparison proposal using only the public-
-source evidence embedded below. Do not claim repository or source access,
-convert either case into schema evidence, infer individual blame or legal duty,
-prescribe a remedy, accept a schema, create receiver work, or request action.
-Separate reported facts, cross-case inference, material differences,
-counterevidence, and unknowns. Family lineage:
-`SF-LIN-PUBLIC-STRESS-ABSORBER-TEST-01`.
+Return one raw Markdown hypothesis-disposition proposal using only the bounded
+owner evidence embedded below. Do not claim repository or source access,
+convert any case into schema evidence, infer blame or legal duty, prescribe a
+remedy, accept a schema, create receiver work, or request action. Family
+lineage: `SF-LIN-PUBLIC-STRESS-HYPOTHESIS-DISPOSITION-01`.
 
-## Public-source evidence
+## Bounded owner evidence
 
-<source id="TEXAS-2021" title="The February 2021 Cold Weather Outages in Texas and the South Central United States" publisher="FERC, NERC, and Regional Entity staff" date="2021-12-08" url="https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and">
-- Severe cold produced generation outages, derates, failures to start, fuel-
-  supply problems, and rolling load shedding.
-- Freezing and fuel issues together accounted for 75.6 percent of unplanned
-  generating-unit outages, derates, and failures to start.
-- Earlier 2011 and 2018 cold-weather inquiries identified familiar freezing-
-  prone components and preparation concerns.
-- Gas production declined from freezing and from power loss at some gas
-  infrastructure, supporting a possible gas-electric feedback without making
-  it the whole event.
-</source>
+<record id="SF-COMP-TX2021-CA2020">
+- Shared residue: extreme weather exposed a gap between stressed conditions and
+  dependable electricity resources.
+- California remains a resource-adequacy absorber; a stronger knowledge-to-
+  validation mechanism remains unproved.
+</record>
 
-<source id="I35W-NTSB-FHWA" title="Collapse of I-35W Highway Bridge and Gusset Plates Final Report" publisher="National Transportation Safety Board and Federal Highway Administration" date="2008; 2017" url="https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR0803.pdf">
-- The official account centers inadequate gusset-plate load capacity from
-  original design error, added loads over time, construction equipment and
-  aggregate staging, and load-rating or inspection guidance that did not
-  account for gusset plates.
-- Design-firm quality control, transportation-owner review, federal or
-  standards guidance, bridge inspection, and contractor load placement are
-  visible, but multi-actor review alone does not create a generic review-chain
-  failure.
-- Affected standing and official correction routes are visible.
-- The narrower bridge-capacity, design-calculation, load-rating, construction-
-  load, and inspection-guidance account absorbs positive review-chain fit.
-</source>
+<record id="SF-COMP-TX2021-FUKUSHIMA2011">
+- Each case contains prior stress attention and a later severe event.
+- The common link remains unproved: a relevant knowledge object reached a
+  decision-time accountable authority, changed the current validation burden,
+  and remained improperly open or incorrectly closed before the event.
+- Electric/gas and nuclear-hazard explanations remain distinct.
+</record>
+
+<record id="SF-COMP-TX2021-I35W-STRESS-KNOWLEDGE-ABSORBER">
+- I-35W absorbs a generic mechanism through structural capacity, original
+  design calculation, added load, rating, inspection, construction load, and
+  guidance.
+- Prior attention, changed stress or load, many actors, severe outcome, and
+  later correction routes are insufficient without independently supported
+  knowledge, authority, burden, stop, and causal links in both cases.
+</record>
 
 ## Required artifact
 
-Draft `SF-COMP-TX2021-I35W-STRESS-ABSORBER-PROPOSAL.md` with raw frontmatter
-fields `comparison_id`, `status: provisional_public_source_absorber_test`,
-`source_material`, `claim_posture: provisional`, and `external_action: none`;
-title; `Boundary`; `Supported case traces`; `Comparison matrix`; `Tempting
-surface fit`; `Material differences`; `Stress-knowledge test`; `Absorber
-result`; `Counterevidence and unknowns`; `Falsifier`; `Candidate effect`; and
-`Frontier verification`.
+Draft `SF-STRESS-KNOWLEDGE-HYPOTHESIS-DISPOSITION-PROPOSAL.md` with raw
+frontmatter fields `disposition_id`, `status:
+provisional_public_source_hypothesis_disposition`, `subject:
+stress_knowledge_translation`, `claim_posture: provisional`, and
+`external_action: none`; title; `Boundary`; `Comparison evidence`; `Supported
+residue`; `Absorber result`; `Disposition`; `Evidence still required`;
+`Falsifier`; `Candidate effect`; and `Frontier verification`.
 
-The matrix must compare prior knowledge, stress or load change, validation
-burden, interdependence, review fragmentation, affected standing, scale,
-correction visibility, and narrower domain explanation. Test whether Texas's
-recurrent cold-weather attention and I-35W's design/load history support one
-stress-knowledge translation mechanism, or whether bridge capacity and design-
-calculation evidence demonstrates why prior attention plus severe outcome is
-insufficient. Preserve Texas equipment, fuel, gas-electric, planning, and
-operating explanations and I-35W structural-capacity, design, rating,
-inspection, construction-load, transportation, engineering, and legal
-absorbers. State the exact evidence required before a shared mechanism could
-survive the absorber.
+Choose exactly one disposition: `continue_as_inquiry`, `narrow`, `split`, or
+`retire`. Do not count comparison volume as support. Identify the strongest
+residue surviving California, Fukushima, and I-35W, then state whether it is
+specific enough to change a bounded next evidence search. Preserve equipment,
+fuel, gas-electric, planning, operating, resource-adequacy, nuclear-hazard,
+design-basis, structural-capacity, design, rating, inspection, construction-
+load, transportation, engineering, regulatory, and legal absorbers.
 
-Candidate effect must be exactly: `PROPOSE ONE TEXAS / I-35W PUBLIC-SOURCE
-STRESS-KNOWLEDGE ABSORBER TEST FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY,
+Candidate effect must be exactly: `PROPOSE ONE PUBLIC-SOURCE STRESS-KNOWLEDGE
+HYPOTHESIS DISPOSITION FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY,
 ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`. Return only the finished
-artifact, without a code fence, under 1,050 words.
+artifact, without a code fence, under 850 words.

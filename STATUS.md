@@ -256,6 +256,18 @@ observations become validation and correction objects across boundaries. It
 does not equate the observation types, authorize Mechanism Design work, or
 change schema status.
 
+`SF-COMP-FLINT-GRENFELL-AFFECTED-OBSERVATION` then compares two unlike
+affected-observation paths. It preserves resident standing, source type,
+evidence custody, review recipients, authority limits, timing, and the stronger
+water and building-safety explanations. The common decision-time link from a
+source-preserved observation to a current validation burden, accountable
+recipient, and unresolved stop remains unproved. `SF-COMP-TX2021-I35W-STRESS-
+KNOWLEDGE-ABSORBER` separately shows that earlier attention, changed stress or
+load, multi-actor review, and severe outcome do not establish one recurring
+mechanism. Texas retains a provisional inquiry while I-35W remains absorbed by
+its structural-capacity, design-calculation, rating, inspection, and
+construction-load account. Neither comparison changes schema status.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

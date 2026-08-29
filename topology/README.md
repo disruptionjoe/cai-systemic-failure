@@ -326,3 +326,15 @@ hazard accounts and finds that the decision-time knowledge-to-validation link
 remains unproved in both cases. `inquiries/SFQ-0002-affected-observation-to-
 validation.md` separately forms a Flint/Texas inquiry without equating resident
 evidence with prior-inquiry or operating evidence or creating receiver work.
+
+`SF-COMP-FLINT-GRENFELL-affected-observation.md` compares two affected-
+observation paths while keeping resident standing, source type, custody,
+review recipients, authority, timing, and the drinking-water and building-
+safety explanations distinct. The shared decision-time observation-to-
+validation chain remains unproved.
+
+`SF-COMP-TX2021-I35W-stress-knowledge-absorber.md` tests the Texas stress-
+knowledge question against the I-35W structural-capacity absorber. Earlier
+attention, changed stress or load, institutional plurality, and severe outcome
+do not establish a shared mechanism without independently supported knowledge,
+authority, validation-burden, stop-condition, and causal links in both cases.
