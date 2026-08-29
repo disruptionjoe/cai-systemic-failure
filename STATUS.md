@@ -282,6 +282,18 @@ incorrectly closed. No comparison count or later harm supports that question.
 Neither disposition changes schema status, positive-record count, fields,
 absorbers, remedy, receiver work, or external action.
 
+`SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL` and `SF-TEXAS-STRESS-TRACE-
+SUFFICIENCY-PROPOSAL` then test whether the current bounded owner corpus can
+support either requested decision-time trace. Both return
+`current_bounded_corpus_insufficient`: affected standing and validation-burden
+classes remain visible, but the required dated source, custody, recipient,
+authority, disposition, stop, and causal links remain unknown. These are
+source-sufficiency dispositions, not trace findings. They preserve the Flint
+water, health, civil-rights, regulatory, and legal absorbers and the Texas
+electric/gas, planning, operating, resource-adequacy, regulatory, and legal
+absorbers. Neither changes the inquiry, narrowed hypothesis, schema, receiver
+fit, remedy, acceptance, or external-action posture.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

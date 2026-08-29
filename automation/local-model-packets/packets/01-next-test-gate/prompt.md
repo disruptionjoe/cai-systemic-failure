@@ -1,58 +1,58 @@
-# Disposition current Flint trace-source sufficiency
+# Prepare one Flint official-source review contract
 
 ## Boundary
 
-Return one raw Markdown source-sufficiency disposition using only the bounded
-owner evidence below. Do not claim source or repository access, upgrade an
-unknown, reconstruct a chain, infer blame or duty, prescribe a remedy, accept
-a schema, create receiver work, or request action. Family lineage:
-`SF-LIN-PUBLIC-FLINT-TRACE-SUFFICIENCY-01`.
+Return one raw Markdown review contract using only the bounded owner state
+below. This packet does not provide the source document and does not authorize
+you to claim its contents. Do not fill a trace, upgrade an unknown, infer blame
+or duty, prescribe a remedy, accept a schema, create receiver work, or request
+action. Family lineage: `SF-LIN-PUBLIC-FLINT-OIG-SOURCE-REVIEW-01`.
 
-## Frozen evidence state
+## Frozen Owner State
 
-<record id="FLINT-TRACE-SUFFICIENCY">
-- Current owner synthesis names resident complaints, independent sampling,
-  official concern, residents including children as affected parties, and
-  corrosion-control, sampling, service-line, exposure, and complaint-evidence
-  validation burdens.
-- It names utility, state-primacy, public-health, and federal oversight or
-  emergency paths only as classes; it does not connect one dated observation
-  to a source, custodian, recipient, recipient authority, disposition, or
-  timely unresolved stop.
-- It does not prove one observation changed a then-current validation burden
-  or was causally relevant to a named decision.
-- Water, health, civil-rights, regulatory, and legal explanations remain.
-- Receiver fit remains candidate-only.
-</record>
+- `SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL` returns
+  `current_bounded_corpus_insufficient`.
+- Supported: affected standing; corrosion-control, sampling, service-line,
+  exposure, and complaint-evidence validation-burden classes.
+- Unknown: one observation and date, its source, custodian, recipient,
+  recipient authority, burden linkage, disposition, timely unresolved stop,
+  and causal relevance.
+- The selected next source is U.S. EPA Office of Inspector General,
+  *Management Weaknesses Delayed Response to Flint Water Crisis*, Report
+  18-P-0221, 19 July 2018. The current record preserves its public EPA pointer
+  but this packet supplies no report text.
+- Drinking-water, health, civil-rights, regulatory, and legal explanations
+  remain. Mechanism Design receiver fit remains candidate-only.
 
-## Required artifact
+## Required Artifact
 
-Draft `SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL.md` with raw frontmatter
-fields `disposition_id`, `status: provisional_source_sufficiency_proposal`,
-`subject: SFQ-0002`, `claim_posture: provisional`, and
-`external_action: none`; title; `Boundary`; `Literal evidence ledger`;
-`Disposition`; `Evidence required`; `Domain absorbers`; `Stop rule`;
-`Candidate effect`; and `Frontier verification`.
+Draft `SFQ-0002-FLINT-OIG-SOURCE-REVIEW-CONTRACT.md` with raw frontmatter:
+`review_id`, `status: provisional_source_review_contract`, `subject: SFQ-0002`,
+`selected_source: EPA_OIG_18-P-0221`, `claim_posture: provisional`, and
+`external_action: none`. Include title, `Boundary`, `Source identity`,
+`Extraction ledger`, `Admission rule`, `Refusal rule`, `Candidate effect`, and
+`Frontier verification`.
 
-In `Literal evidence ledger`, use exactly these ten rows and values:
+Use exactly these extraction rows, all with status `seek; do not infer`:
 
-| Link | Value |
-|---|---|
-| observation and date | unknown |
-| source for that observation | unknown |
-| affected standing | supported |
-| custodian | unknown |
-| recipient | unknown |
-| recipient authority | unknown |
-| then-current validation burden | supported as classes; linkage unknown |
-| disposition | unknown |
-| timely unresolved stop | unknown |
-| causal relevance | unknown |
+| Link |
+|---|
+| observation and date |
+| source for that observation |
+| custodian |
+| recipient |
+| recipient authority then in force |
+| then-current validation burden linkage |
+| disposition |
+| timely unresolved stop |
+| causal relevance |
 
-Disposition must be `current_bounded_corpus_insufficient`. Preserve the five
-named domain absorbers and candidate-only receiver fit. Candidate effect must
-be exactly: `PROPOSE A FLINT TRACE-SUFFICIENCY DISPOSITION FOR FRONTIER
-VERIFICATION — NO TRACE FINDING, SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK, OR
-EXTERNAL-ACTION CHANGE`.
+Admission rule: the later source review may support only literal links found
+in the selected report and must preserve page or section location. Refusal
+rule: any absent, ambiguous, later-only, borrowed, or merely institutional
+link remains `unknown`; one missing required link prevents a trace finding.
+Candidate effect must be exactly: `PREPARE ONE FLINT EPA-OIG SOURCE-REVIEW
+CONTRACT — NO SOURCE FINDING, TRACE, SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK,
+OR EXTERNAL-ACTION CHANGE`.
 
-Return only the finished artifact, without a code fence, under 650 words.
+Return only the finished artifact, without a code fence, under 600 words.

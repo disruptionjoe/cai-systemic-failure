@@ -344,3 +344,9 @@ hypothesis after the California and I-35W absorbers and the Fukushima mixed
 case. It keeps only a source-preserving decision-time translation question and
 requires one complete knowledge, custody, authority, validation-burden, stop,
 disposition, and causal trace before another case or comparison.
+
+`SF-TEXAS-STRESS-TRACE-SUFFICIENCY-PROPOSAL.md` records that the current
+bounded Texas corpus supports recurrent stress and validation-burden classes
+but not one complete dated knowledge-object, custody, authority, decision,
+closure, and causal trace. It is a negative source-sufficiency result, not a
+stress-knowledge finding or schema change.

@@ -17,3 +17,7 @@ Mechanism Design through the common envelope.
   unmodified after Flint/Grenfell because the comparison strengthens the
   standing-versus-custody distinction already present without adding a new
   mechanism class or changing candidate-only receiver fit.
+- `SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL.md` - records that the current
+  bounded Flint corpus supports affected standing and validation-burden
+  classes but not the complete dated observation, custody, authority,
+  disposition, stop, and causal trace required before comparison.

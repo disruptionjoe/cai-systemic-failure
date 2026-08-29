@@ -1,58 +1,59 @@
-# Disposition current Texas stress-trace source sufficiency
+# Prepare one Texas official-source review contract
 
 ## Boundary
 
-Return one raw Markdown source-sufficiency disposition using only the bounded
-owner evidence below. Do not claim source or repository access, upgrade an
-unknown, reconstruct a chain, infer blame or duty, prescribe a remedy, accept
-a schema, create receiver work, or request action. Family lineage:
-`SF-LIN-PUBLIC-TEXAS-STRESS-TRACE-SUFFICIENCY-01`.
+Return one raw Markdown review contract using only the bounded owner state
+below. This packet does not provide the source report and does not authorize
+you to claim its contents. Do not fill a trace, upgrade an unknown, infer blame
+or duty, prescribe a remedy, accept a schema, create receiver work, or request
+action. Family lineage: `SF-LIN-PUBLIC-TEXAS-JOINT-REPORT-REVIEW-01`.
 
-## Frozen evidence state
+## Frozen Owner State
 
-<record id="TEXAS-STRESS-TRACE-SUFFICIENCY">
-- Current owner synthesis names earlier 2011 and 2018 cold-weather inquiries,
-  familiar freezing-prone components, equipment and fuel failures,
-  gas-electric interdependence, generator-preparation and coordination
-  concerns, rolling load shedding, and regional affected standing.
-- It does not identify one dated stress-knowledge object and connect it to a
-  custodian, accountable recipient, authority then in force, named decision,
-  disposition, or timely stop or closure state.
-- Dependable generation, component weatherization, fuel availability,
-  planning, and cross-system coordination are supported validation-burden
-  classes; one knowledge-object-to-burden linkage is not proved.
+- `SF-TEXAS-STRESS-TRACE-SUFFICIENCY-PROPOSAL` returns
+  `current_bounded_corpus_insufficient`.
+- Supported as classes: dependable generation, component weatherization, fuel
+  availability, planning, and cross-system coordination.
+- Unknown: one dated knowledge object and source, custodian, accountable
+  recipient, authority then in force, burden linkage, decision and timing,
+  stop or closure state, and causal relevance.
+- The selected next source is the FERC, NERC, and Regional Entity staff final
+  report, *The February 2021 Cold Weather Outages in Texas and the South
+  Central United States*, dated 8 December 2021. The current record preserves
+  its public FERC pointer but this packet supplies no report text.
 - Electric/gas, planning, operating, resource-adequacy, regulatory, and legal
-  explanations remain.
-- The narrowed stress-knowledge hypothesis remains unproved.
-</record>
+  explanations remain. The narrowed hypothesis remains unproved.
 
-## Required artifact
+## Required Artifact
 
-Draft `SF-TEXAS-STRESS-TRACE-SUFFICIENCY-PROPOSAL.md` with raw frontmatter
-fields `disposition_id`, `status: provisional_source_sufficiency_proposal`,
-`subject: stress_knowledge_translation`, `claim_posture: provisional`, and
-`external_action: none`; title; `Boundary`; `Literal evidence ledger`;
-`Disposition`; `Evidence required`; `Domain absorbers`; `Stop rule`;
-`Candidate effect`; and `Frontier verification`.
+Draft `SF-TEXAS-JOINT-REPORT-SOURCE-REVIEW-CONTRACT.md` with raw frontmatter:
+`review_id`, `status: provisional_source_review_contract`,
+`subject: stress_knowledge_translation`,
+`selected_source: FERC_NERC_2021_joint_report`, `claim_posture: provisional`,
+and `external_action: none`. Include title, `Boundary`, `Source identity`,
+`Extraction ledger`, `Admission rule`, `Refusal rule`, `Candidate effect`, and
+`Frontier verification`.
 
-In `Literal evidence ledger`, use exactly these nine rows and values:
+Use exactly these extraction rows, all with status `seek; do not infer`:
 
-| Link | Value |
-|---|---|
-| knowledge object and date | unknown |
-| source for that object | unknown |
-| custodian | unknown |
-| accountable recipient | unknown |
-| authority then in force | unknown |
-| then-current validation burden | supported as classes; linkage unknown |
-| decision and timing | unknown |
-| stop or closure state | unknown |
-| causal relevance | unknown |
+| Link |
+|---|
+| knowledge object and date |
+| source for that object |
+| custodian |
+| accountable recipient |
+| authority then in force |
+| then-current validation burden linkage |
+| decision and timing |
+| stop or closure state |
+| causal relevance |
 
-Disposition must be `current_bounded_corpus_insufficient`. Preserve the six
-named domain absorbers and keep the hypothesis unproved. Candidate effect must
-be exactly: `PROPOSE A TEXAS STRESS-TRACE SUFFICIENCY DISPOSITION FOR FRONTIER
-VERIFICATION — NO TRACE FINDING, SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK, OR
-EXTERNAL-ACTION CHANGE`.
+Admission rule: the later source review may support only literal links found
+in the selected report and must preserve page or section location. Refusal
+rule: any absent, ambiguous, later-only, cross-case, or merely institutional
+link remains `unknown`; one missing required link prevents a trace finding.
+Candidate effect must be exactly: `PREPARE ONE TEXAS JOINT-REPORT SOURCE-REVIEW
+CONTRACT — NO SOURCE FINDING, TRACE, SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK,
+OR EXTERNAL-ACTION CHANGE`.
 
-Return only the finished artifact, without a code fence, under 650 words.
+Return only the finished artifact, without a code fence, under 600 words.

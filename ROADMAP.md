@@ -184,9 +184,16 @@
     another case or continuing either lineage
     (`SFQ-0002-DISPOSITION-0001`,
     `SF-STRESS-KNOWLEDGE-DISPOSITION-0001`).
-60. Next: reconstruct one source-preserving affected-observation chain and one
-    narrowed stress-knowledge translation trace, marking unsupported links
-    unknown, before another cross-case comparison or new case.
+60. Done: test whether the current bounded owner corpus can reconstruct one
+    Flint affected-observation chain and one Texas stress-knowledge translation
+    trace. Both tests preserve supported classes, mark the missing decision-time
+    links unknown, and return `current_bounded_corpus_insufficient`
+    (`SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL`,
+    `SF-TEXAS-STRESS-TRACE-SUFFICIENCY-PROPOSAL`).
+61. Next: perform one bounded public-official-source review for Flint and one
+    for Texas. Extract only literal source-backed links needed by the two gap
+    ledgers; narrow, defer, or retire the dependent lineage if a complete trace
+    still cannot be supported. Do not add another comparison or new case first.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
