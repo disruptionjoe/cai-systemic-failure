@@ -229,14 +229,18 @@
     freight-rail, hazardous-materials, local-emergency-response, and community
     scale while keeping bearing detection distinct from the later information-
     to-authority phase (`SF-0007`).
-68. Prepared only: use slot A for one materially different CSB-grounded BP
-    Texas City refinery record that keeps startup, containment, and siting
-    distinct from process-safety control and oversight. The packet creates no
-    record until a later attempt is independently verified and integrated.
-69. Prepared only: compare East Palestine and Macondo only on the bounded
-    information-to-authority pressure, preserve their different decision
-    phases and sovereign domain explanations, and refuse recurrence based on
-    event sequence, contractor involvement, severity, or later investigation.
+68. Done: add one bounded CSB-grounded BP Texas City refinery record that
+    keeps startup, containment, and siting distinct from process-safety control
+    and oversight (`SF-0008`).
+69. Done: compare East Palestine and Macondo only on a bounded information-to-
+    authority pressure while preserving their different decision phases and
+    sovereign domain explanations (`SF-COMP-EASTPALESTINE-MACONDO-INFO-AUTH`).
+70. Prepared only: compare Texas City and Macondo for bounded process-safety
+    control pressure without treating shared BP identity, severe outcome,
+    process-safety terminology, or later investigation as recurrence.
+71. Prepared only: compare East Palestine and Texas City for a cross-domain
+    information-to-control pressure while preserving their different phases,
+    source objects, authority facts, affected standing, and domain absorbers.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

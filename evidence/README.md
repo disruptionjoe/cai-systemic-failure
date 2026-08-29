@@ -33,3 +33,7 @@ research material is rejected and routed to a separately authorized secure owner
   monitoring distinct from the later information-to-incident-command phase,
   preserves affected standing and domain absorbers, and makes no recurrence,
   schema, liability, health-causation, or remedy claim.
+- `records/SF-0008-bp-texas-city-startup-containment-and-process-safety.md` -
+  bounded CSB-source synthesis that keeps startup, containment, and siting
+  distinct from process-safety control and oversight, preserves multiple
+  event and organizational pressures, and makes no recurrence or schema claim.

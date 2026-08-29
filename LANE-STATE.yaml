@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-29T10:03:40-05:00"
-run_ref: RUN-20260829-150340-cai-systemic-failure-prepared-progress
-bottom_line: "Visibility is absorbed by the existing screen; East Palestine adds a bounded two-phase public record without recurrence."
+updated_at: "2026-08-29T11:03:52-05:00"
+run_ref: RUN-20260829-160352-cai-systemic-failure-prepared-progress
+bottom_line: "Texas City adds a bounded two-level record; East Palestine and Macondo share only provisional information-to-authority pressure."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Closed the visibility diagnostic as absorbed, added the East Palestine public record, and prepared distinct Texas City and East Palestine/Macondo packets."
-    movement_ref: "topology/SF-VISIBILITY-CANDIDATE-DISPOSITION-0001.md; evidence/records/SF-0007-east-palestine-bearing-monitoring-and-emergency-information.md"
+    last_movement: "Added the Texas City record, completed the East Palestine/Macondo comparison, and prepared two distinct cross-case packets."
+    movement_ref: "evidence/records/SF-0008-bp-texas-city-startup-containment-and-process-safety.md; topology/SF-COMP-EASTPALESTINE-MACONDO-information-authority.md"
     steering_attention: watch
     steering_prompt: "Distinguish recurring knowledge-to-validation failure from event severity and narrower causes."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: visibility_absorbed_east_palestine_record_added
-    evidence_ref: "topology/SF-VISIBILITY-CANDIDATE-DISPOSITION-0001.md; evidence/records/SF-0007-east-palestine-bearing-monitoring-and-emergency-information.md; ROADMAP.md"
-    summary: "The visibility candidate adds no new inquiry beyond the screen; East Palestine preserves separate detection and incident-command information pressures."
-    evaluated_at: "2026-08-29T10:03:40-05:00"
-    run_ref: RUN-20260829-150340-cai-systemic-failure-prepared-progress
+    reason_code: texas_city_record_east_palestine_macondo_pressure
+    evidence_ref: "evidence/records/SF-0008-bp-texas-city-startup-containment-and-process-safety.md; topology/SF-COMP-EASTPALESTINE-MACONDO-information-authority.md; ROADMAP.md"
+    summary: "Texas City preserves distinct event and organizational pressures; East Palestine and Macondo support only a bounded comparison pressure."
+    evaluated_at: "2026-08-29T11:03:52-05:00"
+    run_ref: RUN-20260829-160352-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 66 and 67, added one topology disposition and one evidence record, and prepared Roadmap 68 and 69 without changing schema or receiver authority."
+    progress_delta: "Closed Roadmap 68 and 69, added one evidence record and one topology comparison, and prepared Roadmap 70 and 71 without changing schema or receiver authority."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep provisional; test the distinct Texas City record and East Palestine/Macondo comparison without reopening visibility."
+    recommendation: "Keep provisional; test the two new cross-case boundaries without claiming recurrence."
     findings:
-      - "The capped visibility diagnostic is absorbed by existing provisional fields and adds no new inquiry, field, recurrence, or shared mechanism."
-      - "East Palestine keeps bearing detection distinct from later information-to-incident-command pressure and preserves complete custody, transition, liability, health, and remedy unknowns."
-      - "Both completed families close without scale; the two successors return to a new official-source record and a bounded cross-case comparison."
+      - "Texas City keeps physical startup, containment, and siting pressures distinct from organizational process-safety control and oversight."
+      - "East Palestine and Macondo share only a provisional information-to-authority pressure across different decision phases and evidence objects."
+      - "Both completed families close without scale; the successors test two materially different bounded cross-case questions."
     options:
       - id: A
         label: "Stay provisional"

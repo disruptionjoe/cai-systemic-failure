@@ -401,6 +401,22 @@ fit. Both completed packet families close without scale. The active slots now
 prepare one CSB-grounded BP Texas City record and one source-preserving East
 Palestine/Macondo information-to-authority comparison.
 
+`SF-0008` then adds a bounded CSB-grounded BP Texas City public-source record.
+It keeps startup, containment, and siting distinct from process-safety control
+and oversight; preserves multiple event and organizational pressures without
+collapsing them into one cause; and leaves custody, authority, causal weight,
+liability, and remedy efficacy unknown.
+
+`SF-COMP-EASTPALESTINE-MACONDO-INFO-AUTH` separately preserves one provisional
+information-to-authority pressure. East Palestine's post-derailment incident-
+command decision remains distinct from Macondo's pre-blowout test-acceptance
+decision, and neither case supplies the other's custody, authority, standing,
+stop, or causal links. Neither result adds a positive record, establishes
+recurrence, changes schema, creates receiver work, or authorizes remedy or
+external action. The active slots now prepare a Texas City/Macondo process-
+safety comparison and an East Palestine/Texas City information-to-control
+comparison.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

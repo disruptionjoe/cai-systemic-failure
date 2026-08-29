@@ -422,3 +422,9 @@ the bounded evidence object, affected standing, visibility, validation,
 absorber, and correction-route or stop distinctions without a new field or
 inquiry. The disposition does not accept schema or turn the cases into a
 recurrence claim.
+
+`SF-COMP-EASTPALESTINE-MACONDO-information-authority.md` preserves one
+provisional information-to-authority pressure while keeping post-derailment
+incident command distinct from pre-blowout test acceptance. It establishes no
+recurring custody, authority, stop, or causal mechanism and keeps sovereign
+domain explanations separate.
