@@ -294,6 +294,15 @@ electric/gas, planning, operating, resource-adequacy, regulatory, and legal
 absorbers. Neither changes the inquiry, narrowed hypothesis, schema, receiver
 fit, remedy, acceptance, or external-action posture.
 
+`SFQ-0002-FLINT-OIG-SOURCE-REVIEW-CONTRACT` and `SF-TEXAS-JOINT-REPORT-
+SOURCE-REVIEW-CONTRACT` then freeze the exact evidence rows, page-or-section
+provenance rule, and refusal boundary for the next official-source reviews.
+They are review contracts, not source findings: every link remains `seek; do
+not infer`, one missing link prevents a complete trace, and the Flint inquiry
+and Texas hypothesis retain their prior provisional status. The active packets
+now supply bounded official-report facts for row-by-row review without changing
+the schema, receiver fit, remedy, acceptance, or external-action posture.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

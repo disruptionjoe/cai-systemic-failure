@@ -350,3 +350,8 @@ bounded Texas corpus supports recurrent stress and validation-burden classes
 but not one complete dated knowledge-object, custody, authority, decision,
 closure, and causal trace. It is a negative source-sufficiency result, not a
 stress-knowledge finding or schema change.
+
+`SF-TEXAS-JOINT-REPORT-SOURCE-REVIEW-CONTRACT.md` freezes the nine exact links,
+page-or-section provenance rule, and no-inference refusal boundary for one
+later review of the FERC/NERC/Regional Entity final report. It contains no
+source finding and leaves the narrowed stress-knowledge hypothesis unproved.

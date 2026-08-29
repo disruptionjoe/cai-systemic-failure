@@ -1,59 +1,65 @@
-# Prepare one Texas official-source review contract
+# Review one Texas winterization-knowledge trace
 
 ## Boundary
 
-Return one raw Markdown review contract using only the bounded owner state
-below. This packet does not provide the source report and does not authorize
-you to claim its contents. Do not fill a trace, upgrade an unknown, infer blame
-or duty, prescribe a remedy, accept a schema, create receiver work, or request
-action. Family lineage: `SF-LIN-PUBLIC-TEXAS-JOINT-REPORT-REVIEW-01`.
+Return one raw Markdown provisional source review using only the bounded
+official-report facts below. Do not imply that you opened the report, borrow a
+fact from another source, fill an unsupported link, infer blame or duty,
+prescribe a remedy, accept a schema, create receiver work, or request action.
+Family lineage: `SF-LIN-PUBLIC-TEXAS-WINTERIZATION-TRACE-REVIEW-01`.
 
-## Frozen Owner State
+## Source and Frozen Owner State
 
-- `SF-TEXAS-STRESS-TRACE-SUFFICIENCY-PROPOSAL` returns
-  `current_bounded_corpus_insufficient`.
-- Supported as classes: dependable generation, component weatherization, fuel
-  availability, planning, and cross-system coordination.
-- Unknown: one dated knowledge object and source, custodian, accountable
-  recipient, authority then in force, burden linkage, decision and timing,
-  stop or closure state, and causal relevance.
-- The selected next source is the FERC, NERC, and Regional Entity staff final
-  report, *The February 2021 Cold Weather Outages in Texas and the South
-  Central United States*, dated 8 December 2021. The current record preserves
-  its public FERC pointer but this packet supplies no report text.
-- Electric/gas, planning, operating, resource-adequacy, regulatory, and legal
-  explanations remain. The narrowed hypothesis remains unproved.
+Selected source: FERC, NERC, and Regional Entity staff, *The February 2021 Cold
+Weather Outages in Texas and the South Central United States*, final report
+dated 8 December 2021. `SF-TEXAS-JOINT-REPORT-SOURCE-REVIEW-CONTRACT` requires
+nine links and keeps any absent, ambiguous, later-only, cross-case, or merely
+institutional link `unknown`. One missing link prevents a complete trace. The
+narrowed stress-knowledge hypothesis remains unproved.
+
+## Supplied Page-Bounded Facts
+
+- Report page 17: multiple earlier FERC/NERC recommendations and annual
+  regional workshops urged winter preparation. The 2021 inquiry found units
+  still lacking winterization plans and found most freeze-related outages
+  occurred above the units' stated ambient design temperatures.
+- Report pages 39-40: ERCOT and Texas RE conducted recurring spot checks or
+  site visits after the 2011 event. Their checklists used earlier report
+  recommendations, readiness guidance, maintenance records, and prior freeze
+  experience; identified deficiencies could receive a follow-up visit. Staff
+  also said they could assess execution of a unit's plan more readily than the
+  plan's quality, and no common ambient-temperature design requirement applied.
+- Report page 41: ERCOT required annual winter-preparation declarations due by
+  December 1. Most surveyed owners/operators submitted them, while seven
+  entities reported critical work outstanding on eighteen gas units after the
+  deadline. The report says meaningful follow-up was absent and declarations
+  were not performance measures or guarantees of extreme-weather operation.
+- Report pages 47-48: the report identifies the August 2011 joint report as a
+  dated knowledge object and lists earlier recommendations on winter-specific
+  inspection, maintenance, training, design temperatures, capability forecasts,
+  and critical-load review. The 2021 team says several could have helped
+  prevent the event if followed; that counterfactual does not by itself prove
+  a named recipient's authority, one decision, or a complete causal trace.
 
 ## Required Artifact
 
-Draft `SF-TEXAS-JOINT-REPORT-SOURCE-REVIEW-CONTRACT.md` with raw frontmatter:
-`review_id`, `status: provisional_source_review_contract`,
+Draft `SF-TEXAS-WINTERIZATION-TRACE-REVIEW-0001.md` with frontmatter:
+`review_id`, `status: provisional_source_review`,
 `subject: stress_knowledge_translation`,
 `selected_source: FERC_NERC_2021_joint_report`, `claim_posture: provisional`,
-and `external_action: none`. Include title, `Boundary`, `Source identity`,
-`Extraction ledger`, `Admission rule`, `Refusal rule`, `Candidate effect`, and
+and `external_action: none`. Include title, `Boundary`, `Evidence ledger`,
+`Disposition`, `Domain absorbers`, `Falsifier`, `Candidate effect`, and
 `Frontier verification`.
 
-Use exactly these extraction rows, all with status `seek; do not infer`:
+Use exactly the contract's nine links. Give each one a value and report page;
+use `unknown` when the supplied facts do not establish that exact link.
+Disposition must be one of `complete_trace_supported`, `partial_trace_only`,
+or `trace_refuted`, with one-sentence rationale. Preserve electric/gas,
+planning, operating, resource-adequacy, regulatory, and legal absorbers. A
+complete trace is forbidden if any row is unknown.
 
-| Link |
-|---|
-| knowledge object and date |
-| source for that object |
-| custodian |
-| accountable recipient |
-| authority then in force |
-| then-current validation burden linkage |
-| decision and timing |
-| stop or closure state |
-| causal relevance |
-
-Admission rule: the later source review may support only literal links found
-in the selected report and must preserve page or section location. Refusal
-rule: any absent, ambiguous, later-only, cross-case, or merely institutional
-link remains `unknown`; one missing required link prevents a trace finding.
-Candidate effect must be exactly: `PREPARE ONE TEXAS JOINT-REPORT SOURCE-REVIEW
-CONTRACT — NO SOURCE FINDING, TRACE, SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK,
+Candidate effect must be exactly: `REVIEW ONE TEXAS WINTERIZATION-KNOWLEDGE
+TRACE FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK,
 OR EXTERNAL-ACTION CHANGE`.
 
-Return only the finished artifact, without a code fence, under 600 words.
+Return only the finished artifact, without a code fence, under 850 words.

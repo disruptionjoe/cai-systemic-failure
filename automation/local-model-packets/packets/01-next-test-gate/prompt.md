@@ -1,58 +1,63 @@
-# Prepare one Flint official-source review contract
+# Review one Flint complaint-to-oversight trace
 
 ## Boundary
 
-Return one raw Markdown review contract using only the bounded owner state
-below. This packet does not provide the source document and does not authorize
-you to claim its contents. Do not fill a trace, upgrade an unknown, infer blame
-or duty, prescribe a remedy, accept a schema, create receiver work, or request
-action. Family lineage: `SF-LIN-PUBLIC-FLINT-OIG-SOURCE-REVIEW-01`.
+Return one raw Markdown provisional source review using only the bounded
+official-report facts below. Do not imply that you opened the report, borrow a
+fact from another source, fill an unsupported link, infer blame or duty,
+prescribe a remedy, accept a schema, change receiver fit, create receiver work,
+or request action. Family lineage:
+`SF-LIN-PUBLIC-FLINT-OIG-TRACE-REVIEW-01`.
 
-## Frozen Owner State
+## Source and Frozen Owner State
 
-- `SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL` returns
-  `current_bounded_corpus_insufficient`.
-- Supported: affected standing; corrosion-control, sampling, service-line,
-  exposure, and complaint-evidence validation-burden classes.
-- Unknown: one observation and date, its source, custodian, recipient,
-  recipient authority, burden linkage, disposition, timely unresolved stop,
-  and causal relevance.
-- The selected next source is U.S. EPA Office of Inspector General,
-  *Management Weaknesses Delayed Response to Flint Water Crisis*, Report
-  18-P-0221, 19 July 2018. The current record preserves its public EPA pointer
-  but this packet supplies no report text.
-- Drinking-water, health, civil-rights, regulatory, and legal explanations
-  remain. Mechanism Design receiver fit remains candidate-only.
+Selected source: U.S. EPA Office of Inspector General, *Management Weaknesses
+Delayed Response to Flint Water Crisis*, Report 18-P-0221, 19 July 2018.
+`SFQ-0002-FLINT-OIG-SOURCE-REVIEW-CONTRACT` requires nine links and keeps any
+absent, ambiguous, later-only, borrowed, or merely institutional link
+`unknown`. One missing link prevents a complete trace. `SFQ-0002` remains
+provisional and Mechanism Design receiver fit remains candidate-only.
+
+## Supplied Page-Bounded Facts
+
+- Report page 23: the OIG timeline records first EPA Region 5 citizen water-
+  quality complaints in May 2014, an elevated-lead result and an internal
+  sampling-protocol concern in February 2015, and at least four homes above the
+  action level plus an interim report shared with an affected resident in June
+  2015. The table is the OIG's analysis of Region 5 records.
+- Report page 24: Region 5 received 87 citizen complaints before the January
+  2016 emergency order; 30 concerned lead. Staff used form responses directing
+  residents to state or city actors, six responses took more than a year, and
+  eleven lacked documented response. Region 5 had no complaint cataloguing and
+  response system, did not use complaint volume as a risk indicator, could not
+  assess severity, and could not alert management to an emerging incident.
+- Report pages 25-26: the OIG lists Region 5 oversight and enforcement tools,
+  including state-program grant conditions, administrative-order or civil-
+  action authority when a state does not act, federal corrosion-control
+  requirements, emergency authority, information requests, and primacy review.
+  The report distinguishes authorities used from those not used.
+- Report pages 28-31: the OIG recommends complaint tracking, risk assessment,
+  clear escalation, and intervention steps; these later recommendations are
+  corrective evidence, not proof that a timely stop already existed.
 
 ## Required Artifact
 
-Draft `SFQ-0002-FLINT-OIG-SOURCE-REVIEW-CONTRACT.md` with raw frontmatter:
-`review_id`, `status: provisional_source_review_contract`, `subject: SFQ-0002`,
+Draft `SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001.md` with frontmatter:
+`review_id`, `status: provisional_source_review`, `subject: SFQ-0002`,
 `selected_source: EPA_OIG_18-P-0221`, `claim_posture: provisional`, and
-`external_action: none`. Include title, `Boundary`, `Source identity`,
-`Extraction ledger`, `Admission rule`, `Refusal rule`, `Candidate effect`, and
+`external_action: none`. Include title, `Boundary`, `Evidence ledger`,
+`Disposition`, `Domain absorbers`, `Falsifier`, `Candidate effect`, and
 `Frontier verification`.
 
-Use exactly these extraction rows, all with status `seek; do not infer`:
+Use exactly the contract's nine links. Give each one a value and report page;
+use `unknown` when the supplied facts do not establish that exact link.
+Disposition must be one of `complete_trace_supported`, `partial_trace_only`,
+or `trace_refuted`, with one-sentence rationale. Preserve drinking-water,
+health, civil-rights, regulatory, and legal absorbers. A complete trace is
+forbidden if any row is unknown.
 
-| Link |
-|---|
-| observation and date |
-| source for that observation |
-| custodian |
-| recipient |
-| recipient authority then in force |
-| then-current validation burden linkage |
-| disposition |
-| timely unresolved stop |
-| causal relevance |
+Candidate effect must be exactly: `REVIEW ONE FLINT EPA-OIG TRACE FOR FRONTIER
+VERIFICATION — NO SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION
+CHANGE`.
 
-Admission rule: the later source review may support only literal links found
-in the selected report and must preserve page or section location. Refusal
-rule: any absent, ambiguous, later-only, borrowed, or merely institutional
-link remains `unknown`; one missing required link prevents a trace finding.
-Candidate effect must be exactly: `PREPARE ONE FLINT EPA-OIG SOURCE-REVIEW
-CONTRACT — NO SOURCE FINDING, TRACE, SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK,
-OR EXTERNAL-ACTION CHANGE`.
-
-Return only the finished artifact, without a code fence, under 600 words.
+Return only the finished artifact, without a code fence, under 850 words.

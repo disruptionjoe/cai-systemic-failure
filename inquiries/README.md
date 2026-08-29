@@ -21,3 +21,7 @@ Mechanism Design through the common envelope.
   bounded Flint corpus supports affected standing and validation-burden
   classes but not the complete dated observation, custody, authority,
   disposition, stop, and causal trace required before comparison.
+- `SFQ-0002-FLINT-OIG-SOURCE-REVIEW-CONTRACT.md` - freezes the nine exact
+  links, page-or-section provenance rule, and no-inference refusal boundary for
+  one later review of EPA OIG Report 18-P-0221; it contains no source finding
+  and leaves receiver fit candidate-only.

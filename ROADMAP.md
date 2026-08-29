@@ -190,10 +190,12 @@
     links unknown, and return `current_bounded_corpus_insufficient`
     (`SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL`,
     `SF-TEXAS-STRESS-TRACE-SUFFICIENCY-PROPOSAL`).
-61. Next: perform one bounded public-official-source review for Flint and one
-    for Texas. Extract only literal source-backed links needed by the two gap
-    ledgers; narrow, defer, or retire the dependent lineage if a complete trace
-    still cannot be supported. Do not add another comparison or new case first.
+61. In progress: the Flint EPA-OIG and Texas joint-report review contracts now
+    freeze the exact rows, source-local provenance rule, and refusal boundary.
+    Complete one bounded review of the supplied official-report facts for each
+    contract; keep unsupported links unknown and narrow, defer, or retire the
+    dependent lineage if a complete trace still cannot be supported. Do not
+    add another comparison or new case first.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

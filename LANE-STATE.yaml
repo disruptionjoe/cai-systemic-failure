@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-29T02:10:00-05:00"
-run_ref: RUN-20260829-070428-cai-systemic-failure-prepared-progress
-bottom_line: "The current bounded corpus cannot support either complete trace; review one exact official source per case before continuing."
+updated_at: "2026-08-29T03:04:48-05:00"
+run_ref: RUN-20260829-080448-cai-systemic-failure-prepared-progress
+bottom_line: "Both official-source review contracts are installed; evidence-complete row review is the next gate."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Completed both current-corpus source-sufficiency tests and preserved every unsupported decision-time link as unknown."
-    movement_ref: "inquiries/SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL.md; topology/SF-TEXAS-STRESS-TRACE-SUFFICIENCY-PROPOSAL.md"
+    last_movement: "Installed two provisional official-source review contracts and supplied one bounded evidence-review packet per case."
+    movement_ref: "inquiries/SFQ-0002-FLINT-OIG-SOURCE-REVIEW-CONTRACT.md; topology/SF-TEXAS-JOINT-REPORT-SOURCE-REVIEW-CONTRACT.md"
     steering_attention: watch
     steering_prompt: "Distinguish recurring knowledge-to-validation failure from event severity and narrower causes."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: bounded_corpus_trace_insufficient
-    evidence_ref: "inquiries/SFQ-0002-FLINT-TRACE-SUFFICIENCY-PROPOSAL.md; topology/SF-TEXAS-STRESS-TRACE-SUFFICIENCY-PROPOSAL.md; ROADMAP.md"
-    summary: "Affected standing and burden classes survive, but neither current-corpus trace has the required source, custody, authority, disposition, stop, and causal chain."
-    evaluated_at: "2026-08-29T02:10:00-05:00"
-    run_ref: RUN-20260829-070428-cai-systemic-failure-prepared-progress
+    reason_code: official_source_review_contracts_ready
+    evidence_ref: "inquiries/SFQ-0002-FLINT-OIG-SOURCE-REVIEW-CONTRACT.md; topology/SF-TEXAS-JOINT-REPORT-SOURCE-REVIEW-CONTRACT.md; ROADMAP.md"
+    summary: "The exact source-local rows and refusal gates are frozen; no trace link has yet been promoted from the review contracts."
+    evaluated_at: "2026-08-29T03:04:48-05:00"
+    run_ref: RUN-20260829-080448-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Preserved two bounded negative source-sufficiency results, kept all unsupported links unknown, and named exact official-source review gates without changing the nine-field count or accepting the schema."
+    progress_delta: "Converted both source-review gates into durable contracts and evidence-complete local packets without claiming a trace, changing the nine-field count, or accepting the schema."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep provisional; review one exact official source per case and stop either lineage if a complete independent trace remains unsupported."
+    recommendation: "Keep provisional; disposition each supplied official-source ledger and stop either lineage if a complete independent trace remains unsupported."
     findings:
-      - "The Flint corpus supports affected standing and validation-burden classes but not a dated observation-to-authority chain."
-      - "The Texas corpus supports recurrent stress and validation-burden classes but not one dated knowledge-object-to-decision chain."
-      - "Both insufficiency dispositions preserve source uncertainty, domain absorbers, candidate-only receiver fit where applicable, no remedy, and non-promotion."
+      - "The Flint contract requires page-local support for nine observation, custody, authority, disposition, stop, and causal links."
+      - "The Texas contract requires page-local support for nine knowledge, custody, authority, decision, closure, and causal links."
+      - "Both contracts preserve unknowns, domain absorbers, candidate-only receiver fit where applicable, no remedy, and non-promotion."
     options:
       - id: A
         label: "Stay provisional"
