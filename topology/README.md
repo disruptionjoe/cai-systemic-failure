@@ -355,3 +355,10 @@ stress-knowledge finding or schema change.
 page-or-section provenance rule, and no-inference refusal boundary for one
 later review of the FERC/NERC/Regional Entity final report. It contains no
 source finding and leaves the narrowed stress-knowledge hypothesis unproved.
+
+`SF-TEXAS-WINTERIZATION-TRACE-REVIEW-0001.md` records a
+`partial_trace_only` joint-report result. The dated 2011 knowledge object,
+limited translation into recurring readiness-check inputs, and limited
+source-stated relevance are supported, while custody, accountable-recipient
+authority, decision, and stop or closure links remain unknown. The narrowed
+stress-knowledge hypothesis remains unproved.

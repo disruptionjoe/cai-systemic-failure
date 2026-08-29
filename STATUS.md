@@ -303,6 +303,17 @@ and Texas hypothesis retain their prior provisional status. The active packets
 now supply bounded official-report facts for row-by-row review without changing
 the schema, receiver fit, remedy, acceptance, or external-action posture.
 
+`SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001` and `SF-TEXAS-WINTERIZATION-TRACE-
+REVIEW-0001` then complete those bounded reviews with `partial_trace_only`
+dispositions. Flint supports dated complaint evidence, its Region 5 record
+source, and receipt by Region 5 while leaving custody, authority, validation,
+disposition, stop, and causal links unknown. Texas supports a dated 2011
+knowledge object, limited translation into readiness-check inputs, and limited
+source-stated relevance while leaving custody, accountable authority, decision,
+and closure links unknown. Neither partial trace changes the inquiry,
+hypothesis, schema, receiver fit, remedy, acceptance, or external-action
+posture; the active packets now disposition the two dependent lineages.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

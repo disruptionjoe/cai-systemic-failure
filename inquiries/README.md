@@ -25,3 +25,8 @@ Mechanism Design through the common envelope.
   links, page-or-section provenance rule, and no-inference refusal boundary for
   one later review of EPA OIG Report 18-P-0221; it contains no source finding
   and leaves receiver fit candidate-only.
+- `SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001.md` - records a
+  `partial_trace_only` EPA-OIG result: dated complaint evidence, its Region 5
+  record source, and receipt by Region 5 are supported, while custody,
+  decision-time authority, validation, disposition, stop, and causal links
+  remain unknown; `SFQ-0002` and receiver fit remain provisional.

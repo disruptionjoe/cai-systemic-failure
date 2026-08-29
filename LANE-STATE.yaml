@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-29T03:04:48-05:00"
-run_ref: RUN-20260829-080448-cai-systemic-failure-prepared-progress
-bottom_line: "Both official-source review contracts are installed; evidence-complete row review is the next gate."
+updated_at: "2026-08-29T04:04:42-05:00"
+run_ref: RUN-20260829-090442-cai-systemic-failure-prepared-progress
+bottom_line: "Both official-report reviews are partial; separate lineage dispositions are the next gate."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Installed two provisional official-source review contracts and supplied one bounded evidence-review packet per case."
-    movement_ref: "inquiries/SFQ-0002-FLINT-OIG-SOURCE-REVIEW-CONTRACT.md; topology/SF-TEXAS-JOINT-REPORT-SOURCE-REVIEW-CONTRACT.md"
+    last_movement: "Integrated two partial official-report trace reviews and supplied one bounded disposition packet per case."
+    movement_ref: "inquiries/SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001.md; topology/SF-TEXAS-WINTERIZATION-TRACE-REVIEW-0001.md"
     steering_attention: watch
     steering_prompt: "Distinguish recurring knowledge-to-validation failure from event severity and narrower causes."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: official_source_review_contracts_ready
-    evidence_ref: "inquiries/SFQ-0002-FLINT-OIG-SOURCE-REVIEW-CONTRACT.md; topology/SF-TEXAS-JOINT-REPORT-SOURCE-REVIEW-CONTRACT.md; ROADMAP.md"
-    summary: "The exact source-local rows and refusal gates are frozen; no trace link has yet been promoted from the review contracts."
-    evaluated_at: "2026-08-29T03:04:48-05:00"
-    run_ref: RUN-20260829-080448-cai-systemic-failure-prepared-progress
+    reason_code: official_source_partial_traces_ready_for_disposition
+    evidence_ref: "inquiries/SFQ-0002-FLINT-OIG-TRACE-REVIEW-0001.md; topology/SF-TEXAS-WINTERIZATION-TRACE-REVIEW-0001.md; ROADMAP.md"
+    summary: "Each official report supports a bounded partial trace but leaves decision-time links unknown; neither dependent lineage is yet dispositioned."
+    evaluated_at: "2026-08-29T04:04:42-05:00"
+    run_ref: RUN-20260829-090442-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Converted both source-review gates into durable contracts and evidence-complete local packets without claiming a trace, changing the nine-field count, or accepting the schema."
+    progress_delta: "Converted both official-report packets into source-preserving partial-trace results and disposition successors without changing the nine-field count or accepting the schema."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep provisional; disposition each supplied official-source ledger and stop either lineage if a complete independent trace remains unsupported."
+    recommendation: "Keep provisional; disposition each dependent lineage from its partial trace before another source contract, comparison, or case."
     findings:
-      - "The Flint contract requires page-local support for nine observation, custody, authority, disposition, stop, and causal links."
-      - "The Texas contract requires page-local support for nine knowledge, custody, authority, decision, closure, and causal links."
-      - "Both contracts preserve unknowns, domain absorbers, candidate-only receiver fit where applicable, no remedy, and non-promotion."
+      - "The Flint review supports dated complaint evidence, its Region 5 record source, and receipt while leaving six decision-time links unknown."
+      - "The Texas review supports a dated knowledge object, limited readiness-check translation, and limited relevance while leaving five load-bearing links unknown."
+      - "Both partial traces preserve domain absorbers, candidate-only receiver fit where applicable, no remedy, and non-promotion."
     options:
       - id: A
         label: "Stay provisional"
