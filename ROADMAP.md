@@ -159,9 +159,16 @@
 53. Done: test whether an unchanged validation-component label preserves its
     historical scope after a timely pre-decision burden revision changes the
     current required scope (`SF-VBT-SAME-LABEL-SCOPE-REVISION-0001`).
-54. Next: keep the candidate provisional and add another bounded test only if a
-    new public or synthetic case creates material pressure on a core field,
-    refusal note, annotation, source gate, or correction-route gate.
+54. Done: add a bounded public-source record of the February 2021 Texas and
+    South Central cold-weather power failure without counting it as a sixth
+    positive for the provisional review-chain candidate (`SF-0006`).
+55. Done: compare Texas 2021 with the existing California August 2020
+    resource-adequacy absorber, preserve their material differences, and leave
+    the stronger recurring mechanism as an answerable inquiry
+    (`SF-COMP-TX2021-CA2020`).
+56. Next: test whether public evidence can distinguish a recurring failure to
+    carry stress knowledge into validated dependable-resource requirements
+    from event severity and narrower technical, resource, or market causes.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

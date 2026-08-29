@@ -304,3 +304,17 @@ absorbers `SF-ABS-0004` through `SF-ABS-0008`. It preserves warning and
 communication, single-owner execution, infrastructure capacity, resource
 adequacy, and new-design/change-control as distinct narrower explanations
 while keeping the common refusal and non-promotion boundary visible.
+
+`evidence/records/SF-0006-texas-cold-weather-power-failure.md` adds a bounded
+public-source record of the February 2021 Texas and South Central cold-weather
+power failure. It preserves equipment freezing, fuel constraints, prior
+cold-weather inquiries, gas-electric interdependence, regional scale, affected
+standing, multiple causes, and source limits without counting the case as a
+sixth positive for the provisional review-chain candidate.
+
+`SF-COMP-TX2021-CA2020-power-outages.md` compares that record with the existing
+California August 2020 resource-adequacy absorber. Both cases support only the
+narrow shared residue that extreme weather exposed a gap between stressed
+conditions and dependable electricity resources. A stronger recurring
+knowledge-to-validation or correction mechanism remains an answerable inquiry;
+California stays an absorber and neither case promotes the schema.

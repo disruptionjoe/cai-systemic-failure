@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-28T18:03:53-05:00"
-run_ref: RUN-20260828-230353-cai-systemic-failure-prepared-progress
-bottom_line: "An unchanged component label does not preserve historical validation scope; keep the schema candidate provisional."
+updated_at: "2026-08-28T20:11:00-05:00"
+run_ref: RUN-20260829-010327-cai-systemic-failure-prepared-progress
+bottom_line: "Texas 2021 and California 2020 share weather-stressed resource insufficiency, but a stronger recurring mechanism remains unproved."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Tested same-label validation-scope revision in one bounded synthetic fixture."
-    movement_ref: "topology/SF-VBT-SAME-LABEL-SCOPE-REVISION-0001.md"
+    last_movement: "Added a Texas 2021 public-source record and a source-preserving California comparison."
+    movement_ref: "evidence/records/SF-0006-texas-cold-weather-power-failure.md; topology/SF-COMP-TX2021-CA2020-power-outages.md"
     steering_attention: watch
-    steering_prompt: "Add future tests only if materially new pressure appears."
+    steering_prompt: "Distinguish recurring knowledge-to-validation failure from event severity and narrower causes."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: same_label_scope_revision_verified
-    evidence_ref: "topology/SF-VBT-SAME-LABEL-SCOPE-REVISION-0001.md; ROADMAP.md"
-    summary: "Coverage follows the current required scope even when a validation-component label remains unchanged."
-    evaluated_at: "2026-08-28T18:03:53-05:00"
-    run_ref: RUN-20260828-230353-cai-systemic-failure-prepared-progress
+    reason_code: public_failure_record_and_cross_case_comparison_added
+    evidence_ref: "evidence/records/SF-0006-texas-cold-weather-power-failure.md; topology/SF-COMP-TX2021-CA2020-power-outages.md; ROADMAP.md"
+    summary: "The cases share a weather-stressed dependable-resource gap; the stronger recurring mechanism remains an inquiry."
+    evaluated_at: "2026-08-28T20:11:00-05:00"
+    run_ref: RUN-20260829-010327-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Added one same-label scope-revision test without changing the nine-field count or accepting the schema."
+    progress_delta: "Added one public-source record and one cross-case comparison without changing the nine-field count or accepting the schema."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep provisional; test only materially new pressure."
+    recommendation: "Keep provisional; test the stronger recurring mechanism only with source-specific evidence."
     findings:
-      - "An unchanged component label does not preserve the component's historical scope after a timely revision."
-      - "Only explicit coverage of the current required scope may continue gate checks."
-      - "The nine-field list and provisional candidate status remain unchanged."
+      - "Texas 2021 preserves recurrent cold-weather attention, component freezing, fuel constraints, and gas-electric interdependence."
+      - "California 2020 preserves heat-driven demand, resource-adequacy, dependable-supply, and market-practice findings."
+      - "Only weather-stressed dependable-resource insufficiency is shared directly; the stronger mechanism and schema remain unproved."
     options:
       - id: A
         label: "Stay provisional"

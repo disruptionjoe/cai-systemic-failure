@@ -23,3 +23,8 @@ research material is rejected and routed to a separately authorized secure owner
   bounded public-source synthesis of a high-rise residential building,
   fire-safety, refurbishment, and resident-warning review chain used as the
   fifth provisional schema-candidate test.
+- `records/SF-0006-texas-cold-weather-power-failure.md` - bounded public-source
+  synthesis of the February 2021 Texas and South Central cold-weather power
+  failure, preserving recurrence, resource, gas-electric interdependence,
+  affected-standing, multi-cause, and no-remedy boundaries without counting it
+  as a sixth provisional review-chain positive.

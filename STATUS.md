@@ -233,6 +233,19 @@ preserving their distinct narrower explanations, affected standing, graded
 uncertainty, and no-remedy boundaries. Neither comparison adds evidence, a
 core field, an acceptance threshold, a domain conclusion, or external action.
 
+`SF-0006` then adds a bounded public-source record of the February 2021 Texas
+and South Central cold-weather power failure. It preserves recurrent official
+attention, equipment freezing, fuel constraints, gas-electric interdependence,
+regional scale, affected standing, multiple causes, and source limits without
+counting the case as a sixth positive for the provisional review-chain
+candidate.
+`SF-COMP-TX2021-CA2020` compares that record with the existing California
+August 2020 resource-adequacy absorber. Both cases support only the narrow
+shared residue that extreme weather exposed a gap between stressed conditions
+and dependable electricity resources. A stronger recurring knowledge-to-
+validation or cross-boundary correction mechanism remains an answerable
+inquiry; California stays an absorber and neither case promotes the schema.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
