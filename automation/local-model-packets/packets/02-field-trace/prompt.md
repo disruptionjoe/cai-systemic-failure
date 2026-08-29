@@ -1,60 +1,65 @@
-# Form a bounded inquiry from Texas 2021 and California 2020
+# Form an affected-observation inquiry from Flint and Texas
 
 ## Boundary
 
-Return one raw Markdown inquiry proposal from only the public-source evidence
-embedded below. Do not claim repository or source access, collapse the cases
-into one cause, infer individual blame, prescribe a remedy, select an
-intervention, accept a schema, create receiver work, or request action. Keep
-reported facts, cross-case inference, counterevidence, and unknowns distinct.
-Family lineage: `SF-LIN-PUBLIC-PATTERN-INQUIRY-01`.
+Return one raw Markdown inquiry proposal using only the public-source evidence
+embedded below. Do not claim repository or source access, merge the cases into
+one failure, infer individual blame or legal duty, prescribe a remedy, select
+an intervention, accept a schema, create receiver work, or request action.
+Keep reported facts, cross-case inference, counterevidence, and unknowns
+distinct. Family lineage:
+`SF-LIN-PUBLIC-AFFECTED-OBSERVATION-INQUIRY-01`.
 
 ## Public-source evidence
 
-<source id="TEXAS-2021" title="The February 2021 Cold Weather Outages in Texas and the South Central United States" publisher="FERC, NERC, and Regional Entity staff" date="2021-12-08" url="https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and">
-- Severe cold produced extensive generation outages, derates, fuel-supply
-  problems, and rolling load shedding.
-- FERC reports 20,000 MW of ERCOT rolling blackouts and more than 4.5 million
-  people in Texas losing power.
-- The joint report identifies freezing and fuel issues as dominant reported
-  generation-loss categories, describes gas-electric interdependence, and
-  points to earlier cold-weather warnings and inquiries.
+<source id="FLINT-FWATF-EPA" title="Flint Water Advisory Task Force Final Report and EPA OIG Management Weaknesses Delayed Response to Flint Water Crisis" publisher="State of Michigan and U.S. EPA Office of Inspector General" date="2016-03-21; 2018-07-19" url="https://www.epa.gov/office-inspector-general/report-management-weaknesses-delayed-response-flint-water-crisis">
+- A changed water source altered corrosion-control, distribution-system, and
+  lead-exposure validation burdens.
+- Resident complaints, independent sampling, official concern, later health
+  evidence, and emergency action made affected-party observations visible.
+- Utility operation, state primacy oversight, and federal oversight or
+  emergency authority formed distinct paths; the supplied evidence does not
+  reduce the crisis to one missed message or settle engineering, health,
+  civil-rights, regulatory, or legal conclusions.
 </source>
 
-<source id="CALIFORNIA-2020" title="Final Root Cause Analysis: Mid-August 2020 Extreme Heat Wave" publisher="CAISO, CPUC, and CEC" date="2021-01-13" url="https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/news-and-outreach/documents/news-office/key-issues/summer-reliability/final-root-cause-analysis-midaugust-2020-extreme-heat-wave--011321.pdf">
-- CAISO instituted rotating outages on August 14 and 15, 2020 during a West-
-  wide extreme heat wave.
-- The analysis identifies no single root cause and reports three contributing
-  groups: extreme weather and demand beyond existing planning targets;
-  resource-adequacy and planning processes that did not ensure enough
-  dependable early-evening supply; and day-ahead market practices that
-  exacerbated stressed conditions.
-- The independent market monitor concurred with many findings and reported no
-  evidence that the event resulted from market manipulation.
+<source id="TEXAS-2021" title="The February 2021 Cold Weather Outages in Texas and the South Central United States" publisher="FERC, NERC, and Regional Entity staff" date="2021-12-08" url="https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and">
+- Severe cold produced extensive generation outages, derates, fuel-supply
+  problems, and rolling load shedding; more than 4.5 million people in Texas
+  lost power.
+- The report identifies familiar freezing-prone components and prior
+  cold-weather inquiries, and it emphasizes generator preparedness and
+  gas-electric coordination.
+- Some gas production declined from freezing and some from power loss at gas
+  infrastructure, preserving multiple causes and cross-system coupling.
+- The supplied evidence does not establish an affected-party complaint path
+  analogous to Flint or a complete map of who could convert earlier learning
+  into binding validation or stop conditions.
 </source>
 
 ## Required artifact
 
-Draft `SFQ-TX2021-CA2020-STRESS-TO-DEPENDABLE-RESOURCES-PROPOSAL.md` with raw
+Draft `SFQ-FLINT-TX2021-AFFECTED-OBSERVATION-TO-VALIDATION-PROPOSAL.md` with raw
 frontmatter fields `inquiry_id`, `status: answerable_inquiry_proposal`,
 `source_material`, `claim_posture: provisional`, `receiver_fit:
 cai-mechanism-design_candidate_only`, and `external_action: none`; title;
-`Boundary`; `Supported cross-case residue`; `Material differences`;
-`Answerable inquiry`; `Candidate mechanism classes`; `Competing explanations`;
-`Evidence that would discriminate`; `Falsifiers`; `Owner-fit boundary`;
-`Candidate effect`; and `Frontier verification`.
+`Boundary`; `Supported case traces`; `Material differences`; `Answerable
+inquiry`; `Candidate mechanism classes`; `Affected standing and scale`;
+`Evidence that would discriminate`; `Competing explanations`; `Falsifiers`;
+`Owner-fit boundary`; `Candidate effect`; and `Frontier verification`.
 
-The inquiry must not assume the cases share one failure. Test whether a useful
-cross-case question can be asked about how anticipated stress is translated
-into validated dependable-resource requirements across organizational or
-system boundaries. Preserve Texas cold-related unit and fuel failures plus
-gas-electric coupling, and California heat-driven net-demand stress, resource
-adequacy, and market-practice findings. State what further evidence would
-distinguish a recurring knowledge-to-validation mechanism from the superficial
-resemblance "extreme weather plus scarce power." Receiver fit is a proposal
-only; it cannot authorize Mechanism Design work.
+Ask whether affected-party or operational observations become decision-relevant
+validation and correction objects differently when risk crosses infrastructure
+and authority boundaries. Do not assume Flint resident evidence and Texas
+prior-inquiry or operating evidence are equivalent. Preserve drinking-water,
+public-health, civil-rights, utility, electric-reliability, gas-system,
+regulatory, planning, emergency-response, and legal absorbers. State what
+further evidence would distinguish a recurring observation-to-validation
+mechanism from the superficial resemblance “public harm plus multiple
+institutions.” Receiver fit is proposal-only and cannot authorize Mechanism
+Design work.
 
-Candidate effect must be exactly: `PROPOSE ONE ANSWERABLE CROSS-CASE MECHANISM
-INQUIRY FOR FRONTIER VERIFICATION — NO RECEIVER WORK, REMEDY, ACCEPTANCE, OR
-EXTERNAL-ACTION CHANGE`. Return only the finished artifact, without a code
-fence, under 1,100 words.
+Candidate effect must be exactly: `PROPOSE ONE ANSWERABLE AFFECTED-OBSERVATION
+TO VALIDATION INQUIRY FOR FRONTIER VERIFICATION — NO RECEIVER WORK, REMEDY,
+ACCEPTANCE, OR EXTERNAL-ACTION CHANGE`. Return only the finished artifact,
+without a code fence, under 1,050 words.

@@ -1,62 +1,63 @@
-# Trace recurrence in the Texas 2021 cold-weather power failure
+# Compare stress-knowledge translation in Texas 2021 and Fukushima 2011
 
 ## Boundary
 
-Return one raw Markdown causal-trace proposal from only the public-source
-evidence embedded below. Do not claim repository or source access, infer
-individual blame or legal duty, prescribe a remedy, accept a schema, create
-follow-on work, or request action. Separate reported facts from inference and
-preserve interacting or narrower explanations. Family lineage:
-`SF-LIN-PUBLIC-FAILURE-TRACE-01`.
+Return one raw Markdown comparison proposal using only the public-source
+evidence embedded below. Do not claim repository or source access, collapse
+the cases into one cause, infer individual blame or legal duty, prescribe a
+remedy, accept a schema, create receiver work, or request action. Separate
+reported facts, cross-case inference, material differences, counterevidence,
+and unknowns. Family lineage:
+`SF-LIN-PUBLIC-CROSS-DOMAIN-STRESS-COMPARISON-01`.
 
 ## Public-source evidence
 
-<source id="FERC-NERC-2021-REPORT" title="The February 2021 Cold Weather Outages in Texas and the South Central United States" publisher="FERC, NERC, and Regional Entity staff" date="2021-12-08" url="https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and">
-- The report examines the February 8-20, 2021 severe-cold event across Texas
-  and the South Central United States.
-- It reports 1,045 generating units experiencing 4,124 outages, derates, or
-  failures to start; ERCOT averaged about 34,000 MW unavailable for more than
-  two consecutive days.
-- Freezing issues and fuel issues together accounted for 75.6 percent of
-  unplanned generating-unit outages, derates, and failures to start.
-- The report attributes some natural-gas production declines to freezing and
-  some to power losses at gas infrastructure, preserving multiple causes and
-  a possible gas-electric feedback.
-- The report follows earlier official inquiries into 2011 and 2018 cold-
-  weather events and again identifies familiar freezing-prone components and
-  cold-weather preparation concerns.
+<source id="TEXAS-2021" title="The February 2021 Cold Weather Outages in Texas and the South Central United States" publisher="FERC, NERC, and Regional Entity staff" date="2021-12-08" url="https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and">
+- Severe cold produced extensive generation outages, derates, failures to
+  start, fuel-supply problems, and rolling load shedding.
+- Freezing and fuel issues together accounted for 75.6 percent of unplanned
+  generating-unit outages, derates, and failures to start.
+- Some natural-gas production declined from freezing and some from power loss
+  at gas infrastructure, supporting a possible gas-electric feedback without
+  making it the whole event.
+- The report follows earlier 2011 and 2018 cold-weather inquiries and again
+  identifies familiar freezing-prone components and preparation concerns.
 </source>
 
-<source id="FERC-2021-SUMMARY" title="Final Report on February 2021 Freeze Underscores Winterization Recommendations" publisher="Federal Energy Regulatory Commission" date="2021-11-16" url="https://www.ferc.gov/news-events/news/final-report-february-2021-freeze-underscores-winterization-recommendations">
-- FERC reports that ERCOT ordered 20,000 MW of rolling blackouts to prevent
-  grid collapse and that more than 4.5 million people in Texas lost power.
-- The summary emphasizes generator cold-weather preparedness and coordination
-  between natural-gas and electric systems.
-- These recommendations are evidence of investigators' findings, not authority
-  for this proposal to prescribe a remedy.
+<source id="FUKUSHIMA-IAEA" title="The Fukushima Daiichi Accident: Report by the Director General and Technical Volume 2, Safety Assessment" publisher="International Atomic Energy Agency" date="2015" url="https://www-pub.iaea.org/mtcd/publications/pdf/pub1710-reportbythedg-web.pdf">
+- The licensing design basis still represented tsunami flooding at the time
+  of the March 2011 accident and drew on historical tsunami records, including
+  the 1960 Chile tsunami level at Onahama Port.
+- The source set records later reassessment, underestimation of extreme
+  flooding, loss of safety functions, beyond-design-basis accident-management
+  gaps, and severe-accident preparation limits.
+- Operator, regulator, legal-framework, site-protection, and emergency-response
+  paths are visible, but this packet supplies no complete decision chronology
+  or authority map.
 </source>
 
 ## Required artifact
 
-Draft `SF-TRACE-TX2021-KNOWLEDGE-RESOURCE-FEEDBACK-PROPOSAL.md` with raw
-frontmatter fields `trace_id`, `status: public_source_trace_proposal`,
-`source_material`, `claim_posture: provisional`, and `external_action: none`;
-title; `Boundary`; `Reported sequence`; `Information and recurrence`;
-`Resource and interdependence trace`; `Authority and coordination limits`;
-`Affected standing and scale`; `Competing explanations`; `Discriminating
-question`; `Counterevidence and unknowns`; `Candidate effect`; and `Frontier
-verification`.
+Draft `SF-COMP-TX2021-FUKUSHIMA2011-STRESS-KNOWLEDGE-PROPOSAL.md` with raw
+frontmatter fields `comparison_id`, `status:
+provisional_public_source_comparison`, `source_material`, `claim_posture:
+provisional`, and `external_action: none`; title; `Boundary`; `Supported case
+traces`; `Comparison matrix`; `Shared residue`; `Material differences`;
+`Knowledge-to-validation test`; `Competing explanations`; `Counterevidence and
+unknowns`; `Falsifier`; `Candidate effect`; and `Frontier verification`.
 
-Test one bounded question: do the supplied sources support only repeated cold-
-weather exposure, or also a provisional failure to carry earlier official
-learning into dependable preparation across interdependent electric and gas
-systems? Do not treat prior inquiries as proof that any particular actor knew,
-had authority, or failed a legal duty. Keep component freezing, fuel
-availability, unprecedented event severity, planning limits, load shedding,
-and gas-electric coupling distinct. Identify exactly which link in the causal
-trace remains unproved.
+The matrix must compare stress type, prior official knowledge, resource or
+design-basis exposure, interdependence, validation burden, authority limits,
+affected standing, scale, and narrower domain explanation. Test whether the
+sources support a provisional recurring failure to carry stress knowledge into
+validated dependable preparation, or only two different forms of prior-hazard
+attention under severe events. Keep Texas component freezing, fuel supply,
+gas-electric coupling, and grid operations distinct from Fukushima tsunami
+hazard, nuclear design basis, site protection, severe-accident management,
+regulation, emergency response, and health or legal domains. State exactly
+which common causal link remains unproved.
 
-Candidate effect must be exactly: `PROPOSE ONE SOURCE-PRESERVING RECURRENCE AND
-FEEDBACK TRACE FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY, ACCEPTANCE, OR
-EXTERNAL-ACTION CHANGE`. Return only the finished artifact, without a code
-fence, under 1,100 words.
+Candidate effect must be exactly: `PROPOSE ONE SOURCE-PRESERVING CROSS-DOMAIN
+STRESS-KNOWLEDGE COMPARISON FOR FRONTIER VERIFICATION — NO SCHEMA, REMEDY,
+ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`. Return only the finished
+artifact, without a code fence, under 1,050 words.
