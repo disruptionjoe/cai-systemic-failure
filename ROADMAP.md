@@ -201,13 +201,19 @@
     defer the Texas hypothesis until source-local evidence supplies a missing
     load-bearing link (`SFQ-0002-DISPOSITION-0002-FLINT-OIG`,
     `SF-STRESS-KNOWLEDGE-DISPOSITION-0002`).
-63. In progress: test whether Challenger technical dissent belongs inside or
+63. Done: test whether Challenger technical dissent belongs inside or
     outside the still-provisional affected-observation inquiry, and separately
     test whether the two partial Flint and Texas traces support any recurrence
     claim across municipal/federal and regional/interdependent scales. Preserve
     observation type, standing, source, authority, timing, domain absorbers,
     and every unknown; do not reopen the deferred Texas lineage or treat case
-    plurality as a mechanism.
+    plurality as a mechanism (`SFQ-0002-CHALLENGER-BOUNDARY-TEST-0001`,
+    `SF-SCALE-RECURRENCE-GATE-0001`).
+64. In progress: test whether the current bounded Challenger record can support
+    one source-preserving dissent-to-decision trace, and separately test Boeing
+    737 MAX and Challenger for a narrow contradiction-visibility recurrence
+    without borrowing custody, authority, timing, or domain facts across the
+    cases.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

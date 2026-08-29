@@ -34,3 +34,7 @@ Mechanism Design through the common envelope.
   after the partial OIG trace. The result preserves supported complaint and
   receipt facts, keeps six decision-time links unknown, refuses another
   intermediate Flint contract, and leaves receiver fit candidate-only.
+- `SFQ-0002-CHALLENGER-BOUNDARY-TEST-0001.md` - keeps technical dissent
+  distinct but relevant to `SFQ-0002`'s authority, disposition, and stop-
+  condition questions. It does not add a third observation type, broaden the
+  inquiry, borrow standing, or change candidate-only receiver fit.

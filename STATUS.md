@@ -328,6 +328,17 @@ authority, remedy, acceptance, or external-action posture. The active packets
 now test one technical-dissent boundary for `SFQ-0002` and one cross-scale
 recurrence gate without reopening either completed lineage.
 
+`SFQ-0002-CHALLENGER-BOUNDARY-TEST-0001` then keeps technical dissent
+distinct but relevant to the inquiry's authority-conversion, disposition, and
+accountable-stop questions. It does not add technical dissent as a third
+observation type or broaden `SFQ-0002`. `SF-SCALE-RECURRENCE-GATE-0001`
+separately finds the partial Flint and Texas traces insufficient for any
+cross-scale recurrence claim: common incompleteness is not a common failure
+mechanism. Both results preserve separate standing, source, custody, authority,
+timing, absorber, and uncertainty boundaries. The active packets now test one
+source-preserving Challenger dissent trace and one bounded Boeing 737 MAX /
+Challenger contradiction-visibility hypothesis without promoting schema.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

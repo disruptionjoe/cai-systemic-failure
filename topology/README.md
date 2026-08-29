@@ -369,3 +369,15 @@ dated knowledge object, limited validation translation, and limited relevance
 remain provisional residue; missing custody, accountable authority, decision,
 and closure links prevent continuation until source-local evidence changes the
 boundary.
+
+`inquiries/SFQ-0002-CHALLENGER-BOUNDARY-TEST-0001.md` tests technical dissent
+against the affected-observation inquiry without equating evidence types. It
+keeps the inquiry unmodified and treats the Challenger path only as distinct
+but relevant pressure on authority conversion, disposition, and accountable
+stop conditions.
+
+`SF-SCALE-RECURRENCE-GATE-0001.md` compares the partial Flint and Texas traces
+across municipal/federal and regional/interdependent scales. It returns
+`insufficient_for_scale_claim`: shared incompleteness is an evidence-state
+similarity, not a recurring mechanism, and the deferred Texas hypothesis stays
+closed absent source-local evidence.

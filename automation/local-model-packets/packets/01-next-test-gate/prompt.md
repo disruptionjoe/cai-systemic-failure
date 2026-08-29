@@ -1,50 +1,56 @@
-# Test the SFQ-0002 boundary against Challenger technical dissent
+# Test current-corpus sufficiency for one Challenger dissent trace
 
 ## Boundary
 
-Return one raw Markdown provisional boundary test using only the frozen owner
-facts below. Do not reopen sources, invent a missing link, equate resident and
-technical evidence, infer blame or duty, prescribe a remedy, accept a schema,
-change candidate-only receiver fit, create receiver work, or request action.
-Family lineage: `SF-LIN-PUBLIC-SFQ0002-CHALLENGER-BOUNDARY-01`.
+Return one raw Markdown provisional source-sufficiency proposal using only the
+frozen owner facts below. Do not reopen sources, invent a page, person, custody
+step, authority, decision, causal link, or stop condition; infer blame or duty;
+prescribe a remedy; accept a schema; create receiver work; or request action.
+Family lineage: `SF-LIN-PUBLIC-CHALLENGER-DISSENT-TRACE-SUFFICIENCY-01`.
 
 ## Frozen Owner Facts
 
-- `SFQ-0002` asks when affected-party or operational observations become
-  decision-relevant validation and correction objects across infrastructure
-  and authority boundaries.
-- `SFQ-0002-DISPOSITION-0002-FLINT-OIG` keeps that inquiry unmodified after a
-  partial complaint trace and refuses another intermediate Flint contract.
-- `SF-FN-0001` is a source-backed Challenger/Rogers Commission false-negative
-  pressure test. It preserves technical-dissent escalation pressure but does
-  not count Challenger as a sixth positive or accept schema.
-- Affected standing, operational observation, and technical dissent are
-  distinct evidence types. Source, custody, recipient, authority, timing,
-  validation burden, disposition, and stop condition cannot be borrowed
-  across them.
+- `SF-FN-0001` uses public official Rogers Commission and NASA sources. It
+  records prior O-ring and field-joint concerns, a contractor engineering
+  recommendation against launch below prior temperature experience,
+  management reversal, and incomplete communication to higher launch-decision
+  levels.
+- The record names contractor engineering and management, Marshall/project
+  paths, Flight Readiness Review levels, Mission Management Team awareness,
+  and higher launch-decision visibility. A named actor is not proof of custody,
+  accountable authority, or one complete transition.
+- The source-backed pressure is technical dissent, no-launch recommendation,
+  constraint reversal or containment, and escalation visibility. Challenger
+  is not a sixth positive and the schema remains provisional.
+- `SFQ-0002-CHALLENGER-BOUNDARY-TEST-0001` keeps technical dissent distinct but
+  relevant and requires every trace link to be independently supported before
+  comparison.
 - Launch-safety, spaceflight, engineering, management, regulatory, legal, and
-  public-safety absorbers remain sovereign.
+  public-safety explanations remain sovereign.
 
 ## Required Artifact
 
-Draft `SFQ-0002-CHALLENGER-BOUNDARY-TEST-0001.md` with frontmatter:
-`test_id`, `status: provisional_inquiry_boundary_test`, `subject: SFQ-0002`,
-`disposition`, `claim_posture: provisional`, `source_material: SF-FN-0001`,
-and `external_action: none`.
+Draft `SF-CHALLENGER-DISSENT-TRACE-SUFFICIENCY-PROPOSAL.md` with frontmatter:
+`proposal_id`, `status: provisional_source_sufficiency_proposal`, `subject:
+challenger_dissent_trace`, `verdict`, `claim_posture: provisional`,
+`source_material: SF-FN-0001`, and `external_action: none`.
 
-Include title, `Boundary`, `Inquiry under test`, `Challenger pressure`, a
-nine-row `Boundary matrix` for observation type, standing, source, custody,
-recipient, authority, timing/validation burden, disposition/stop, and domain
-absorber, then `Disposition`, `Scope retained`, `Scope refused`, `Falsifier`,
-`Candidate effect`, and `Frontier verification`.
+Include title, `Boundary`, `Question`, and a nine-row `Trace ledger` for
+dissent object and date, source, custodian, recipient, authority then in force,
+validation burden, conversion or disposition, accountable visibility or stop,
+and causal relevance. Give each row exactly one posture: `supported`,
+`supported_limited`, or `unknown`, with the literal owner fact that controls it.
+Then include `Verdict`, `Supported residue`, `Missing links`, `Domain
+absorbers`, `Next source gate`, `Falsifier`, `Candidate effect`, and `Frontier
+verification`.
 
-Disposition must be exactly one of `distinct_but_relevant`, `absorbed`,
-`supports_narrowing`, or `supports_expansion`. Do not use case plurality or
-shared severity as mechanism evidence.
+Verdict must be exactly one of `current_bounded_corpus_sufficient_for_partial_trace`,
+`current_bounded_corpus_insufficient`, or `refuted`. Incomplete is not refuted;
+institutional plurality is not a custody or authority chain.
 
-Candidate effect must be exactly: `TEST CHALLENGER TECHNICAL DISSENT AGAINST
-THE SFQ-0002 INQUIRY BOUNDARY — NO SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK,
-OR EXTERNAL-ACTION CHANGE`.
+Candidate effect must be exactly: `TEST CURRENT CHALLENGER CORPUS FOR ONE
+TECHNICAL-DISSENT-TO-DECISION TRACE — NO SCHEMA, REMEDY, ACCEPTANCE,
+RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`.
 
 Return only the finished artifact. Do not use a code fence. Keep it under 900
 words.

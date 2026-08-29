@@ -1,51 +1,58 @@
-# Test whether partial Flint and Texas traces support recurrence across scale
+# Test Boeing 737 MAX and Challenger contradiction visibility
 
 ## Boundary
 
-Return one raw Markdown provisional scale-recurrence gate using only the frozen
-owner facts below. Do not reopen sources, invent a missing link, infer blame or
-duty, prescribe a remedy, accept a schema, reopen the deferred Texas lineage,
+Return one raw Markdown provisional public-source pattern gate using only the
+frozen owner facts below. Do not reopen sources, invent a missing link, merge
+the cases, infer blame or duty, prescribe an aviation remedy, accept a schema,
 create receiver work, or request action. Family lineage:
-`SF-LIN-PUBLIC-SCALE-RECURRENCE-GATE-01`.
+`SF-LIN-PUBLIC-BOEING-CHALLENGER-VISIBILITY-GATE-01`.
 
 ## Frozen Owner Facts
 
-- The Flint EPA-OIG review supports dated complaint evidence, the OIG's Region
-  5 record source, and receipt by Region 5; custody, decision-time authority,
-  validation linkage, disposition, stop, and causal relevance remain unknown.
-- The Texas FERC/NERC review supports a dated 2011 knowledge object, limited
-  translation into recurring readiness-check inputs, and limited source-stated
-  relevance; custody, accountable authority, decision, and closure remain
-  unknown.
-- `SFQ-0002-DISPOSITION-0002-FLINT-OIG` continues the inquiry unmodified.
-- `SF-STRESS-KNOWLEDGE-DISPOSITION-0002` defers the Texas hypothesis until
-  source-local evidence supplies a missing load-bearing link.
-- Municipal water/federal oversight and regional electric/gas systems differ
-  in observation type, authority topology, technical mechanisms, scale, and
-  domain absorbers. Two severe outcomes or two partial traces do not establish
-  recurrence.
+- `SF-0001` preserves a Boeing 737 MAX certification pattern in which changed-
+  product treatment, delegated review, design changes, human-factor
+  assumptions, and alert complexity were not held together as one integrated
+  review object. Its source set is NTSB, JATR/FAA, and U.S. House public
+  official material.
+- `SF-0001` does not contain the complete certification file. It preserves
+  changed-function, validation, delegated-review, integration, correction-
+  route, and affected-standing pressures without deciding motive, liability,
+  or the complete accident chain.
+- `SF-FN-0001` preserves Challenger technical dissent, a no-launch
+  recommendation below prior temperature experience, management reversal,
+  and incomplete communication to higher launch-decision levels from Rogers
+  Commission and NASA public official sources.
+- Challenger is a false-negative pressure test, not a sixth positive. Boeing
+  is the first bounded positive record. Their aircraft, hazards, decisions,
+  evidence objects, authority paths, and source limits remain distinct.
+- Aviation safety, engineering, certification, management, regulatory, legal,
+  program, launch-safety, spaceflight, and public-safety explanations remain
+  sovereign.
 
 ## Required Artifact
 
-Draft `SF-SCALE-RECURRENCE-GATE-0001.md` with frontmatter: `gate_id`, `status:
-provisional_pattern_gate`, `subject: cross_scale_recurrence`, `disposition`,
-`claim_posture: provisional`, `source_material: [SFQ-0002-FLINT-OIG-TRACE-
-REVIEW-0001, SF-TEXAS-WINTERIZATION-TRACE-REVIEW-0001]`, and
-`external_action: none`.
+Draft `SF-COMP-BOEING737MAX-CHALLENGER-VISIBILITY-GATE.md` with frontmatter:
+`comparison_id`, `status: provisional_public_source_pattern_gate`, `subject:
+contradiction_visibility`, `disposition`, `claim_posture: provisional`,
+`source_material: [SF-0001, SF-FN-0001]`, and `external_action: none`.
 
-Include title, `Boundary`, `Cases under test`, a nine-row `Scale gate` for
-system scale, evidence object, source, custody, accountable authority,
-validation burden, disposition/stop, causal relevance, and domain absorber,
-then `Disposition`, `Shared residue`, `Scope refused`, `Evidence required`,
+Include title, `Boundary`, `Cases under test`, and a nine-row `Pattern gate`
+for evidence object, source, changed condition, validation burden,
+dissent or contradiction, custody, accountable authority, disposition or
+stop, and domain absorber. Mark every unsupported link `unknown`; preserve
+the two records' different claim roles. Then include `Disposition`, `Shared
+residue`, `Material differences`, `Scope refused`, `Evidence required`,
 `Falsifier`, `Candidate effect`, and `Frontier verification`.
 
-Disposition must be exactly one of `insufficient_for_scale_claim`,
-`bounded_recurrence_candidate`, or `refuted`. Keep every unsupported link
-`unknown`; do not turn case plurality into a mechanism.
+Disposition must be exactly one of `superficial_resemblance_only`,
+`bounded_visibility_pattern_candidate`, or `refuted`. A shared aviation domain,
+severe outcome, delegated actors, or later investigation is not mechanism
+evidence by itself.
 
-Candidate effect must be exactly: `TEST CROSS-SCALE RECURRENCE USING TWO
-PARTIAL PUBLIC-SOURCE TRACES — NO SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK,
-OR EXTERNAL-ACTION CHANGE`.
+Candidate effect must be exactly: `TEST BOEING 737 MAX AND CHALLENGER FOR A
+BOUNDED CONTRADICTION-VISIBILITY PATTERN — NO SCHEMA, REMEDY, ACCEPTANCE,
+RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`.
 
 Return only the finished artifact. Do not use a code fence. Keep it under 900
 words.
