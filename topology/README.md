@@ -396,3 +396,15 @@ dissent that was reversed and incompletely communicated upward. The gate
 establishes no recurring custody, authority, disposition, or stop mechanism
 and refuses shared domain, severity, institutional plurality, or later
 investigation as mechanism evidence.
+
+`SF-CHALLENGER-DISSENT-PARTIAL-TRACE-0001.md` records the permitted partial
+trace. Recommendation, reversal, and incomplete upward visibility survive;
+exact date, custody, recipient chain, authority, complete disposition,
+accountable stop, and complete causal bridge remain unknown.
+
+`SF-COMP-VISIBILITY-PATTERN-COLUMBIA-FALSIFIER-0001.md` tests Columbia against
+the Boeing/Challenger candidate. Columbia independently preserves an
+accountable-contradiction-object pressure, so the result remains a provisional
+three-case visibility candidate rather than a recurrence claim. No common
+custody, authority, disposition, stop, validation method, or causal mechanism
+is established.

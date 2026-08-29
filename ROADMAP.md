@@ -215,10 +215,18 @@
     without borrowing custody, authority, timing, or domain facts across the
     cases (`SF-CHALLENGER-DISSENT-TRACE-SUFFICIENCY-PROPOSAL`,
     `SF-COMP-BOEING737MAX-CHALLENGER-VISIBILITY-GATE`).
-65. In progress: build the bounded Challenger partial trace permitted by the
+65. Done: build the bounded Challenger partial trace permitted by the
     current corpus, and test Columbia as a source-preserving falsifier of the
     two-case Boeing/Challenger contradiction-visibility candidate without
-    treating case count or shared aerospace domain as recurrence.
+    treating case count or shared aerospace domain as recurrence
+    (`SF-CHALLENGER-DISSENT-PARTIAL-TRACE-0001`,
+    `SF-COMP-VISIBILITY-PATTERN-COLUMBIA-FALSIFIER-0001`).
+66. In progress: run one final diagnostic exception, limited to one cycle and
+    two attempts, to decide whether the three-case contradiction-visibility
+    pressure adds a bounded inquiry beyond the existing provisional screen and
+    survives a Flint cross-domain falsifier. Retain, absorb, or retire the
+    candidate after this diagnostic; do not rotate into another adjacent
+    one-opportunity artifact contract.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

@@ -353,6 +353,21 @@ no-receiver-work, and no-external-action boundaries. The active packets now
 ask for the permitted Challenger partial trace and test Columbia as a
 source-preserving falsifier of the two-case visibility candidate.
 
+`SF-CHALLENGER-DISSENT-PARTIAL-TRACE-0001` then preserves only the supported
+recommendation-to-reversal-to-incomplete-visibility sequence. Exact dissent
+date, custody, complete recipient transitions, then-current authority,
+complete disposition, accountable stop, and complete causal bridge remain
+unknown. `SF-COMP-VISIBILITY-PATTERN-COLUMBIA-FALSIFIER-0001` separately finds
+that Columbia does not falsify the narrow contradiction-visibility residue:
+its bounded owner record independently says concern, imagery need, dissent,
+management disposition, and standing were not preserved as one accountable
+contradiction object. The result is a three-case candidate, not recurrence,
+and establishes no common custody, authority, disposition, stop, validation
+method, or causal mechanism. Both materially burdensome packet lineages are
+retired without scale. The two active slots now form one final one-cycle,
+two-attempt diagnostic exception to decide whether the visibility pressure is
+novel, absorbed by the existing provisional screen, cross-domain, or retired.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
