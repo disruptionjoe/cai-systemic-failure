@@ -1,39 +1,38 @@
-# Disposition one East Palestine pressure on SFQ-0002
+# Gate SFQ-0002 receiver readiness after East Palestine
 
-Prepare one proposal-only inquiry-disposition candidate. Use only the supplied
+Prepare one proposal-only inquiry-readiness decision. Use only the supplied
 owner facts. Do not retrieve sources. Do not invent a Flint or Texas link,
-observation class, custody path, authority, recurrence, mechanism, blame,
-remedy, receiver action, or causal relation.
+custody path, authority, validation object, stop condition, recurrence,
+mechanism, blame, remedy, receiver action, or acceptance.
 
 Supplied owner facts:
 
-- NTSB `RIR-24-05` supports an East Palestine post-derailment chain in which
-  Oxy Vinyls assessed low polymerization probability and recommended
-  monitoring to Norfolk Southern and its contractors.
-- The contrary expertise was not carried to the full incident command.
-- The local incident commander retained final vent-and-burn authority and
-  approved the action after receiving incomplete and inaccurate information
-  under unwarranted urgency.
-- The report supports a bounded alternative set and source-stated relevance
-  to the unnecessary decision; complete custody and every feasible
-  alternative remain unknown.
-- `SFQ-0002` is defined by separate Flint affected-party and Texas operational-
-  knowledge chains. East Palestine cannot fill either chain's missing links or
-  add a new observation class by similarity alone.
+- `SFQ-0002` asks when affected-party or operational observations become
+  decision-relevant validation and correction objects across infrastructure
+  and authority boundaries.
+- The Flint review supports dated complaint evidence, its record source, and
+  receipt by EPA Region 5, while decision-time custody, authority, validation,
+  disposition, stop, and causal links remain unknown.
+- The Texas record preserves prior inquiries and operational evidence, while
+  a complete accountable knowledge-to-validation and stop chain remains
+  unproved.
+- East Palestine supplies a distinct authority-conversion pressure but cannot
+  fill either Flint or Texas source chain or add a new observation class.
+- Mechanism Design fit remains candidate-only and no receiver work exists.
 
 Return exactly eight short lines:
 
-- **Pressure:** exactly `East Palestine decision-information authority conversion`.
-- **Supported relation:** exactly `supplier expertise did not reach the full incident command before the accountable decision`.
-- **Inquiry boundary:** exactly `Flint and Texas source chains remain separate and incomplete`.
-- **Unknowns:** exactly `complete custody, every participant's knowledge, and the complete feasible alternative set`.
-- **Decision:** choose exactly `retain_as_distinct_sfq_pressure` or `absorbed_without_inquiry_change`.
-- **Decision basis:** name only one supplied distinction that changes the choice.
+- **Inquiry:** exactly `SFQ-0002 affected observation to validation across boundaries`.
+- **Flint boundary:** exactly `decision-time custody, authority, validation, disposition, stop, and causal links remain unknown`.
+- **Texas boundary:** exactly `a complete accountable knowledge-to-validation and stop chain remains unproved`.
+- **East Palestine boundary:** exactly `distinct authority-conversion pressure that fills neither source chain`.
+- **Decision:** choose exactly `require_source_local_completion_before_receiver` or `open_receiver_review_now`.
+- **Decision basis:** name only one supplied missing link or supported relation that controls the choice.
 - **Receiver boundary:** exactly `Mechanism Design fit remains candidate-only and no receiver work is created`.
-- **Non-effect:** exactly `No recurrence, shared mechanism, schema pressure, blame, remedy, acceptance, receiver work, or external action is accepted.`
+- **Non-effect:** exactly `No inquiry broadening, recurrence, shared mechanism, schema pressure, remedy, acceptance, receiver work, or external action is accepted.`
 
-Use `retain_as_distinct_sfq_pressure` only if the source-backed authority-
-conversion distinction sharpens the existing inquiry without broadening it.
-Otherwise use `absorbed_without_inquiry_change`. This is a Frontier inquiry-
-disposition decision, not owner research truth. Plain Markdown, no table or
-frontmatter, under 190 words.
+Use `open_receiver_review_now` only if both Flint and Texas have complete
+source-local evidence, custody, authority, validation, disposition, and stop
+chains in the supplied facts. Otherwise require source-local completion. This
+is a Frontier readiness decision, not owner research truth. Plain Markdown,
+no table or frontmatter, under 190 words.

@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-31T12:15:56-05:00"
-run_ref: RUN-20260831-170448-cai-systemic-failure-prepared-progress
-bottom_line: "I-35W remains a structural-capacity absorber; slot B now tests a distinct NTSB-grounded Conception marine-safety boundary."
+updated_at: "2026-08-31T13:19:14-05:00"
+run_ref: RUN-20260831-180536-cai-systemic-failure-prepared-progress
+bottom_line: "East Palestine remains a distinct SFQ-0002 authority-conversion pressure, and Conception is now a bounded marine-safety record with no schema promotion."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Closed the I-35W no-object source decision and prepared a distinct Conception marine-safety boundary opener."
-    movement_ref: "ROADMAP.md; automation/local-model-packets/packets/02-field-trace/prompt.md"
+    last_movement: "Closed the East Palestine disposition, added bounded Conception record SF-0009, and replenished both research slots."
+    movement_ref: "inquiries/SFQ-0002-DISPOSITION-0003-EAST-PALESTINE.md; evidence/records/SF-0009-conception-marine-safety-control-boundaries.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Test whether Conception exposes an operator-oversight seam distinct from marine regulatory and escape controls without promoting a recurring mechanism."
+    steering_prompt: "Test SFQ-0002 receiver readiness against its incomplete source chains while opening a separate Imperial Sugar public-source boundary."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: i35w_absorber_preserved_conception_packet_prepared
-    evidence_ref: "topology/SF-ABS-0006-infrastructure-capacity-i35w.md; ROADMAP.md; automation/local-model-packets/packets/02-field-trace/prompt.md"
-    summary: "The I-35W corpus offers no trace-opening object; a separate NTSB-grounded Conception packet now tests operator oversight against sovereign marine-safety controls."
-    evaluated_at: "2026-08-31T12:15:56-05:00"
-    run_ref: RUN-20260831-170448-cai-systemic-failure-prepared-progress
+    reason_code: east_palestine_disposition_conception_record_published
+    evidence_ref: "inquiries/SFQ-0002-DISPOSITION-0003-EAST-PALESTINE.md; evidence/records/SF-0009-conception-marine-safety-control-boundaries.md; ROADMAP.md"
+    summary: "The East Palestine trace sharpens but does not broaden SFQ-0002; Conception separates operator, regulatory-detection, and escape controls without recurrence or schema acceptance."
+    evaluated_at: "2026-08-31T13:19:14-05:00"
+    run_ref: RUN-20260831-180536-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 73 and 75, preserved I-35W as an absorber, and prepared one materially different public-source exploration packet without changing schema or receiver authority."
+    progress_delta: "Closed Roadmap 74, added bounded record SF-0009, and installed one production screen plus one materially different exploration opener without changing schema or receiver authority."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep I-35W absorbed and evaluate Conception only as a bounded source-backed case boundary."
+    recommendation: "Keep SFQ-0002 and the schema provisional; test receiver readiness only against source-local completion and treat Imperial Sugar as a bounded case opener."
     findings:
-      - "The current I-35W corpus does not identify a source-local calculation, rating decision, construction-load disposition, custody path, authority, and decision-time treatment worth a bounded trace."
-      - "NTSB MAR-20/03 separately names operator oversight, smoke-detection regulation, and escape arrangements in the Conception fire."
-      - "The prepared packet creates no Conception owner record, recurrence claim, schema pressure, remedy, or receiver work."
+      - "The East Palestine trace supplies a distinct authority-conversion pressure but cannot fill the separate Flint or Texas source chains."
+      - "NTSB MAR-20/03 supports a bounded Conception record with distinct operator, regulatory-detection, escape, and management-system pressures."
+      - "Neither owner effect establishes recurrence, shared mechanism, schema pressure, remedy, acceptance, receiver work, or external action."
     options:
       - id: A
         label: "Stay provisional"

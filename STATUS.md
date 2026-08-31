@@ -440,6 +440,20 @@ conversion pressure; it does not fill the Flint or Texas chains, broaden
 active slots now prepare one bounded disposition of that relation and one
 I-35W source-opening decision.
 
+`SFQ-0002-DISPOSITION-0003-EAST-PALESTINE` now retains that trace as a
+distinct authority-conversion pressure. It sharpens the inquiry's existing
+custody, accountable-receipt, disposition, and stop-condition dimensions but
+does not add an observation class, fill the separate Flint or Texas chains,
+broaden `SFQ-0002`, or change candidate-only receiver fit.
+
+`SF-0009` separately adds a bounded NTSB-grounded Conception public-source
+record. It keeps operator oversight and the required roving patrol distinct
+from smoke-detection regulation and escape arrangements, preserves the unknown
+fire origin and complete review or custody chain, and makes no recurrence,
+schema, remedy, acceptance, receiver-work, or external-action claim. The active
+slots now prepare one `SFQ-0002` receiver-readiness gate and one CSB-grounded
+Imperial Sugar case-opening decision.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

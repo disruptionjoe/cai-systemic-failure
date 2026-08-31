@@ -37,3 +37,8 @@ research material is rejected and routed to a separately authorized secure owner
   bounded CSB-source synthesis that keeps startup, containment, and siting
   distinct from process-safety control and oversight, preserves multiple
   event and organizational pressures, and makes no recurrence or schema claim.
+- `records/SF-0009-conception-marine-safety-control-boundaries.md` - bounded
+  NTSB-source synthesis that keeps operator oversight and roving patrol
+  distinct from smoke-detection regulation and escape arrangements, preserves
+  an unknown fire origin and sovereign marine-safety explanations, and makes
+  no recurrence or schema claim.

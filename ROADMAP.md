@@ -250,15 +250,29 @@
     Accident Report 20/03 to distinguish operator oversight, regulatory smoke-
     detection limits, and escape arrangements in the Conception fire before
     any bounded owner record is opened.
-74. Prepared only: disposition whether the East Palestine trace sharpens
-    `SFQ-0002` as a distinct authority-conversion pressure or is already
-    absorbed without changing the inquiry's observation classes or receiver
-    fit.
+74. Done: retain the East Palestine trace as a distinct authority-conversion
+    pressure that sharpens the existing custody, accountable-receipt,
+    disposition, and stop-condition questions while keeping `SFQ-0002`
+    unmodified, the Flint and Texas chains separate, and receiver fit
+    candidate-only (`SFQ-0002-DISPOSITION-0003-EAST-PALESTINE`).
 75. Done: preserve the existing I-35W structural-capacity absorber without a
     deeper trace because the bounded owner corpus supplies no source-local
     design calculation, load-rating decision, construction-load disposition,
     custody path, authority, or decision-time treatment that could change a
     named owner unknown.
+76. Done: add one bounded NTSB-grounded Conception public-source record that
+    keeps operator oversight and required roving patrol distinct from smoke-
+    detection regulation and escape arrangements while leaving fire origin,
+    complete review and custody, recurrence, and schema fit unknown
+    (`SF-0009`).
+77. Prepared only: test whether the still-incomplete Flint and Texas source
+    chains plus the distinct East Palestine authority-conversion pressure make
+    `SFQ-0002` ready for receiver review or require source-local completion
+    before any receiver handoff.
+78. Prepared only: open one bounded CSB-grounded Imperial Sugar decision that
+    separates dust release and equipment, accumulation and housekeeping,
+    enclosure and ignition, and regulatory-standard pressures before any owner
+    record is created.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

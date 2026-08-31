@@ -43,3 +43,8 @@ Mechanism Design through the common envelope.
   named decision authority, bounded alternative set, and disposition while
   keeping the trace distinct from the Flint and Texas chains and leaving
   receiver fit candidate-only.
+- `SFQ-0002-DISPOSITION-0003-EAST-PALESTINE.md` - retains East Palestine as a
+  distinct authority-conversion pressure that sharpens existing custody,
+  accountable-receipt, disposition, and stop-condition questions while
+  keeping `SFQ-0002` unmodified, its two source chains separate, and receiver
+  fit candidate-only.
