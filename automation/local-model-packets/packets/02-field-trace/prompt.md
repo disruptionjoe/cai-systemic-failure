@@ -1,40 +1,44 @@
-# Select one Texas City startup-control research move
+# Repair one Texas City startup-control source decision
 
-Prepare one proposal-only research choice for the BP Texas City record. Use
-only the supplied CSB-grounded owner facts. Do not retrieve sources. Do not invent
-a date, document, author, custodian, recipient, authority transition,
-decision, causal weight, blame, remedy, duty, liability, or recurrence.
+Prepare one proposal-only repair for the BP Texas City startup-control
+research choice. Use only the supplied CSB-grounded owner facts. Do not
+retrieve sources. Do not invent a passage, record, date, author, custodian,
+recipient, authority transition, decision, causal weight, blame, remedy,
+duty, liability, or recurrence.
 
 Supplied owner facts:
 
-- Startup instrumentation and control problems, abnormal-startup history,
-  splitter flooding and overpressure, atmospheric blowdown, and nearby trailer
-  siting are distinct event and protection pressures.
+- Abnormal-startup history is one event-level pressure alongside startup
+  instrumentation and control problems, splitter flooding and overpressure,
+  atmospheric blowdown, and nearby trailer siting.
 - The CSB named safety culture, regulatory oversight, process-safety metrics,
-  and human factors as key issues and found deficiencies at multiple levels.
-- The physical event chain does not by itself establish who held each wider
-  organizational control or decision.
-- Organizational findings do not fill missing event-level custody, authority,
-  or decision facts.
-- Complete information custody, each decision transition, relative causal
-  weight, liability, and remedy efficacy remain unknown.
+  and human factors as wider issues and found deficiencies at multiple levels.
+- Neither the physical event chain nor the wider organizational findings name
+  who held decision-time custody, accountable authority, or disposition for
+  the abnormal-startup history in this packet.
+- No supplied passage or linked record establishes that reviewing abnormal-
+  startup history would change a named owner unknown.
+- Startup, instrumentation, containment, relief, siting, fatigue, staffing,
+  regulation, and fire dynamics remain available domain explanations.
 
-Choose exactly one object: `abnormal-startup history` or `process-safety
-metrics distinction`. Return exactly seven short lines:
+Return exactly eight short lines:
 
-- **Research object:** the chosen object exactly.
-- **Why it may matter:** one sentence using only a supplied fact.
-- **Load-bearing unknown:** exactly `decision-time custody, accountable
+- **Unit:** exactly `BP Texas City startup-control phase`.
+- **Candidate object:** exactly `abnormal-startup history`.
+- **Supported relation:** exactly `a distinct event-level startup pressure`.
+- **Unsupported relation:** exactly `decision-time custody, accountable
   authority, disposition, and causal relevance`.
-- **Stronger alternative:** exactly `startup, instrumentation, containment,
-  relief, siting, fatigue, staffing, regulation, and fire dynamics remain
-  available domain explanations`.
-- **Source bar:** exactly `one CSB passage or linked record must support every
-  claimed decision-time relation`.
-- **Decision rule:** exactly `review only if the source can change a named
-  owner unknown; otherwise reject this move`.
+- **Decision:** choose exactly `open_bounded_source_review` or
+  `reject_current_candidate`.
+- **Decision basis:** for `open_bounded_source_review`, name only a supplied
+  source-local passage or linked record that could change the unsupported
+  relation; otherwise state exactly `no supplied source-local object can
+  change the named decision-time unknown`.
+- **Alternative boundary:** exactly `the available domain explanations remain
+  unresolved`.
 - **Non-effect:** exactly `No recurrence, schema pressure, blame, duty,
   liability, remedy, receiver work, or external action is accepted.`
 
-This is a candidate research choice for Frontier review, not owner research
-truth. Use plain Markdown, no table or frontmatter, under 200 words.
+Reject rather than invent when the source-opening condition is absent. This is
+a candidate source decision for Frontier review, not owner research truth. Use
+plain Markdown, no table or frontmatter, under 190 words.
