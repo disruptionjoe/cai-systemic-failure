@@ -428,3 +428,11 @@ provisional information-to-authority pressure while keeping post-derailment
 incident command distinct from pre-blowout test acceptance. It establishes no
 recurring custody, authority, stop, or causal mechanism and keeps sovereign
 domain explanations separate.
+
+`SF-COMP-ARKEMA-IMPERIAL-SUGAR-AUDIT-BOUNDARY.md` preserves two distinct
+insurer objects without turning their presence or incomplete custody into one
+audit-translation mechanism. Arkema's flood-risk report identified a hazard;
+Imperial Sugar's insurer assessment did not adequately address its hazard.
+Neither bounded record supplies the complete accountable-recipient,
+decision-time custody, disposition, implementation, and control-effect chain
+required for a positive comparison.

@@ -1,45 +1,56 @@
-# Test Arkema and Imperial Sugar audit-object comparability
+# Open a bounded Lac-Megantic public-source record
 
-Prepare one proposal-only comparison decision. Use only the supplied owner
-facts. Do not retrieve sources. Do not invent report distribution, accountable
-receipt, individual knowledge, decision-time authority, disposition,
-implementation, causal weight, recurrence, shared mechanism, blame, duty,
-remedy efficacy, schema fit, or receiver action.
+Lineage ID: `SF-LIN-LAC-MEGANTIC-CASE-OPENING-01`, opportunity 1.
+Prepare one proposal-only case-opening decision. Use only the supplied official-
+source facts. Do not retrieve sources. Do not invent or infer complete
+individual knowledge, every securement decision, one root cause, recurrence,
+shared mechanism, blame, legal duty, remedy efficacy, schema fit, receiver
+action, or external effect.
 
-Supplied owner facts:
+Supplied official-source facts from Transportation Safety Board of Canada
+Railway Investigation Report `R13D0054`, published August 19, 2014:
 
-- Arkema: a September 2016 FM Global report identified flood exposure and
-  floodplain designations. The CSB reported that employees other than a former
-  facility manager appeared unaware of that information; the process-hazard
-  analysis documented no flooding risk. Complete report distribution,
-  accountable receipt, decision-time authority, and control disposition remain
-  unknown.
-- Imperial Sugar: management had historical combustible-dust hazard
-  information, while a May 2007 insurer assessment did not adequately address
-  combustible dust. Complete assessment custody, accountable receipt,
-  decision-time authority, control disposition, and implementation remain
-  unknown.
-- Arkema's safeguards failed through common flood dependence. Imperial Sugar's
-  release, accumulation, enclosure and likely ignition, emergency, management,
-  audit, and regulatory layers remain distinct. Those event mechanisms must
-  not be merged.
-- Neither bounded record establishes recurrence, a shared audit-translation
-  mechanism, provisional-screen fit, or remedy efficacy.
+- On July 6, 2013, an unattended Montreal, Maine & Atlantic Railway train rolled
+  about 7.2 miles from Nantes to Lac-Megantic and derailed at about 65 mph.
+  Sixty-three crude-oil tank cars and two box cars derailed; 47 people died,
+  about 2,000 were evacuated, and fires, explosions, and released oil caused
+  extensive community and environmental harm.
+- The train was parked on a descending grade. The applied hand brakes did not
+  provide enough force, and their effectiveness test did not isolate the hand
+  brakes from locomotive air-brake force. After a locomotive fire, the lead
+  locomotive was shut down; as air pressure leaked off, the remaining force
+  was insufficient and the train began to roll.
+- The TSB kept train securement, locomotive condition and fire response, single-
+  person operation, dangerous-goods classification, tank-car containment,
+  company safety management, safety culture, and regulatory oversight as
+  distinct contributing or risk layers.
+- The TSB found that MMA lacked a fully functioning safety management system
+  and that Transport Canada oversight did not ensure associated operational
+  risks and recurring deficiencies were effectively addressed.
+- The report does not assign civil or criminal liability. This repository has
+  not yet opened a Lac-Megantic record or tested recurrence or schema fit.
+
+Source identity:
+
+- Transportation Safety Board of Canada, *Runaway and Main-Track Derailment,
+  Montreal, Maine & Atlantic Railway Freight Train MMA-002*, Railway
+  Investigation Report `R13D0054`:
+  `https://www.tsb.gc.ca/sites/default/files/rapports-reports/rail/R13D0054/eng/r13d0054.pdf`
 
 Return exactly ten short lines:
 
-- **Units:** exactly `Arkema Crosby and Imperial Sugar Port Wentworth`.
-- **Arkema object:** exactly `FM Global flood-risk report with incomplete custody and disposition`.
-- **Imperial Sugar object:** exactly `insurer assessment that did not adequately address combustible dust, with incomplete custody and disposition`.
-- **Common boundary:** exactly `risk information or assessment existence is not accountable receipt, disposition, implementation, or causal effect`.
-- **Event distinction:** exactly `Arkema common-mode flood dependence and Imperial Sugar dust-control layers remain different event mechanisms`.
-- **Decision:** choose exactly `preserve_separate_audit_boundaries` or `open_bounded_audit_translation_comparison`.
-- **Decision basis:** state whether both records support assessment object, accountable recipient, decision-time custody, disposition, and control effect.
-- **Counterevidence:** name only one supplied difference that prevents a shared-mechanism claim.
-- **Unknowns:** exactly `complete custody, accountable receipt, authority, disposition, implementation, causal weight, recurrence, and schema fit remain unknown`.
+- **Unit:** exactly `Lac-Megantic runaway and derailment, July 6, 2013`.
+- **Source:** exactly `TSB Railway Investigation Report R13D0054`.
+- **Securement layer:** name only hand-brake force and effectiveness testing.
+- **Transition layer:** name only locomotive fire, shutdown, and air-brake loss.
+- **Containment layer:** name only crude-oil classification and tank-car release protection.
+- **Control layer:** name only company safety management, safety culture, and regulatory oversight.
+- **Decision:** choose exactly `open_bounded_lac_megantic_record` or `defer_for_source_review`.
+- **Decision basis:** state whether the supplied report supports distinct event, organizational, regulatory, and affected-community layers without one-root-cause collapse.
+- **Unknowns:** exactly `complete individual knowledge, every decision and custody path, relative causal weight, recurrence, schema fit, liability, and remedy efficacy remain unknown`.
 - **Non-effect:** exactly `No recurrence, shared mechanism, schema pressure, blame, duty, remedy, receiver work, or external action is accepted.`
 
-Use `open_bounded_audit_translation_comparison` only if both supplied records
-support all five decision-basis links. Otherwise preserve separate audit
-boundaries. This is a Frontier comparison-gate decision, not owner research
-truth. Plain Markdown, no table or frontmatter, under 260 words.
+Use `open_bounded_lac_megantic_record` only if the supplied facts support a
+bounded record while preserving the distinct layers and unknowns. This is a
+Frontier case-opening decision, not owner research truth. Plain Markdown, no
+table or frontmatter, under 300 words.

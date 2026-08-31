@@ -8,10 +8,12 @@ The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
 retire the slots. Slot A now tests the January 21, 2016 EPA Flint order as a
 later authority, validation, and stop object without backfilling the earlier
-complaint chain. Slot B tests whether the Arkema and Imperial Sugar insurer or
-audit objects support any source-local comparison without manufacturing a
-shared mechanism. The two Mac LaunchAgents remain active. Prompt hashes are
-receipt metadata only and do not grant, deny, or continue eligibility.
+complaint chain. Slot B now tests a bounded Lac-Megantic case opening that
+keeps train securement, locomotive fire and shutdown, dangerous-goods
+containment, company safety management, regulatory oversight, and affected-
+community consequences distinct. The two Mac LaunchAgents remain active.
+Prompt hashes are receipt metadata only and do not grant, deny, or continue
+eligibility.
 
 Initial derived health: first-use automation path verified on 2026-07-17 through
 live-grant status reconciliation and synthetic acceptance fixture refresh.
@@ -479,6 +481,14 @@ knowledge, every forecast and decision, relative causal weight, recurrence,
 screen fit, legal duty, and remedy efficacy remain unknown. The active slots
 now test the later Flint order boundary and the Arkema/Imperial Sugar insurer-
 or-audit comparison without claiming a shared mechanism.
+
+`SF-COMP-ARKEMA-IMPERIAL-SUGAR-AUDIT-BOUNDARY` now closes that comparison as
+`preserve_separate_audit_boundaries`. Both records contain distinct insurer
+objects, but they do not both supply accountable receipt, decision-time
+custody, disposition, implementation, or control effect. Arkema's common-mode
+flood dependence and Imperial Sugar's combustible-dust control layers remain
+different event mechanisms. No recurrence, shared mechanism, schema pressure,
+remedy, acceptance, receiver work, or external action is created.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one

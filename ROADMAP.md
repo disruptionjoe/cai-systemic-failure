@@ -282,9 +282,15 @@
 80. Prepared only: test whether EPA's January 21, 2016 Section 1431 Flint order
     supplies a later authority, validation, and stop object while remaining
     insufficient to complete the earlier complaint-to-decision chain.
-81. Prepared only: compare the Arkema and Imperial Sugar insurer or audit
-    objects only on source-local risk-identification, custody, disposition, and
-    control effect without inferring one shared mechanism from two reports.
+81. Done: compare the Arkema and Imperial Sugar insurer or audit objects only
+    on source-local risk identification, custody, disposition, implementation,
+    and control effect. Preserve the objects and event mechanisms separately
+    because neither record supplies the complete positive comparison chain
+    (`SF-COMP-ARKEMA-IMPERIAL-SUGAR-AUDIT-BOUNDARY`).
+82. Prepared only: use TSB Railway Investigation Report `R13D0054` to decide
+    whether to open one bounded Lac-Megantic record that keeps securement,
+    locomotive fire and shutdown, dangerous-goods containment, company safety
+    management, regulatory oversight, and community consequences distinct.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
