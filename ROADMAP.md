@@ -239,12 +239,22 @@
     process-safety-control comparison.
 71. Retired after repeated low-yield attempts: East Palestine/Texas City
     cross-domain information-to-control comparison.
-72. Prepared only: choose the next official-source review most likely to
-    resolve one load-bearing `SFQ-0002` unknown, or recommend narrowing or
-    retirement if no bounded review can change the inquiry.
+72. Done: complete one bounded NTSB review of the East Palestine vent-and-burn
+    decision-information chain. Preserve the source-backed supplier-to-
+    contractor-to-incident-command gap, named authority, bounded alternatives,
+    disposition, and causal relevance without filling the separate Flint or
+    Texas chains or broadening `SFQ-0002`
+    (`SFQ-0002-EAST-PALESTINE-DECISION-INFORMATION-TRACE-REVIEW-0001`).
 73. Prepared only: select one materially different public-source research move
     from the complete owner priority, with a source bar, expected owner
     decision, and rejection condition.
+74. Prepared only: disposition whether the East Palestine trace sharpens
+    `SFQ-0002` as a distinct authority-conversion pressure or is already
+    absorbed without changing the inquiry's observation classes or receiver
+    fit.
+75. Prepared only: decide whether the existing I-35W absorber contains one
+    source-local design, load-rating, or construction-load decision object
+    worth a bounded trace, or should remain an absorber without deeper review.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

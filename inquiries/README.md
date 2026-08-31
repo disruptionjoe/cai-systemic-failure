@@ -38,3 +38,8 @@ Mechanism Design through the common envelope.
   distinct but relevant to `SFQ-0002`'s authority, disposition, and stop-
   condition questions. It does not add a third observation type, broaden the
   inquiry, borrow standing, or change candidate-only receiver fit.
+- `SFQ-0002-EAST-PALESTINE-DECISION-INFORMATION-TRACE-REVIEW-0001.md` -
+  preserves one NTSB-supported supplier-to-contractor-to-incident-command gap,
+  named decision authority, bounded alternative set, and disposition while
+  keeping the trace distinct from the Flint and Texas chains and leaving
+  receiver fit candidate-only.

@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-29T11:03:52-05:00"
-run_ref: RUN-20260829-160352-cai-systemic-failure-prepared-progress
-bottom_line: "Texas City adds a bounded two-level record; East Palestine and Macondo share only provisional information-to-authority pressure."
+updated_at: "2026-08-31T11:18:32-05:00"
+run_ref: RUN-20260831-160522-cai-systemic-failure-prepared-progress
+bottom_line: "East Palestine now has a bounded source-local decision-information trace that remains distinct from the Flint and Texas inquiry chains."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Added the Texas City record, completed the East Palestine/Macondo comparison, and prepared two distinct cross-case packets."
-    movement_ref: "evidence/records/SF-0008-bp-texas-city-startup-containment-and-process-safety.md; topology/SF-COMP-EASTPALESTINE-MACONDO-information-authority.md"
+    last_movement: "Completed one NTSB-supported East Palestine decision-information trace and prepared two distinct next source decisions."
+    movement_ref: "inquiries/SFQ-0002-EAST-PALESTINE-DECISION-INFORMATION-TRACE-REVIEW-0001.md"
     steering_attention: watch
-    steering_prompt: "Distinguish recurring knowledge-to-validation failure from event severity and narrower causes."
+    steering_prompt: "Test whether the East Palestine trace sharpens SFQ-0002 without filling the separate Flint or Texas chains."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: texas_city_record_east_palestine_macondo_pressure
-    evidence_ref: "evidence/records/SF-0008-bp-texas-city-startup-containment-and-process-safety.md; topology/SF-COMP-EASTPALESTINE-MACONDO-information-authority.md; ROADMAP.md"
-    summary: "Texas City preserves distinct event and organizational pressures; East Palestine and Macondo support only a bounded comparison pressure."
-    evaluated_at: "2026-08-29T11:03:52-05:00"
-    run_ref: RUN-20260829-160352-cai-systemic-failure-prepared-progress
+    reason_code: east_palestine_decision_information_trace_supported
+    evidence_ref: "inquiries/SFQ-0002-EAST-PALESTINE-DECISION-INFORMATION-TRACE-REVIEW-0001.md; ROADMAP.md"
+    summary: "The NTSB supports a bounded supplier-to-contractor-to-incident-command gap, named authority, disposition, and causal relevance without broadening SFQ-0002."
+    evaluated_at: "2026-08-31T11:18:32-05:00"
+    run_ref: RUN-20260831-160522-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 68 and 69, added one evidence record and one topology comparison, and prepared Roadmap 70 and 71 without changing schema or receiver authority."
+    progress_delta: "Closed Roadmap 72 with one official-source trace and prepared Roadmap 74 and 75 without changing schema or receiver authority."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep provisional; test the two new cross-case boundaries without claiming recurrence."
+    recommendation: "Keep the trace provisional and distinct; test its inquiry relation before any broader claim."
     findings:
-      - "Texas City keeps physical startup, containment, and siting pressures distinct from organizational process-safety control and oversight."
-      - "East Palestine and Macondo share only a provisional information-to-authority pressure across different decision phases and evidence objects."
-      - "Both completed families close without scale; the successors test two materially different bounded cross-case questions."
+      - "Oxy Vinyls' contrary assessment reached Norfolk Southern and its contractors but was not carried to the full incident command."
+      - "The local incident commander retained final authority, and the NTSB connected incomplete communication and unwarranted urgency to the unnecessary decision."
+      - "The trace does not fill Flint or Texas links, establish recurrence, change schema, or create receiver work."
     options:
       - id: A
         label: "Stay provisional"

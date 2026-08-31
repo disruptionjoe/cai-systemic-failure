@@ -426,6 +426,20 @@ external action. The active slots now prepare a Texas City/Macondo process-
 safety comparison and an East Palestine/Texas City information-to-control
 comparison.
 
+`SFQ-0002-EAST-PALESTINE-DECISION-INFORMATION-TRACE-REVIEW-0001` now adds one
+bounded NTSB-supported post-derailment trace. It preserves Oxy Vinyls'
+low-polymerization assessment and monitoring advice, partial custody through
+Norfolk Southern and its contractors, the failure to carry that contrary
+expertise to the full incident command, the local incident commander's final
+authority, a bounded alternative set, and the NTSB's source-stated connection
+to the unnecessary vent-and-burn decision. Complete custody, every
+participant's knowledge, the complete feasible alternative set, and legal,
+health, and remedy effects remain unknown. The trace is a distinct authority-
+conversion pressure; it does not fill the Flint or Texas chains, broaden
+`SFQ-0002`, add recurrence or schema pressure, or create receiver work. The
+active slots now prepare one bounded disposition of that relation and one
+I-35W source-opening decision.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
