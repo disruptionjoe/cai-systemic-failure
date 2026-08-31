@@ -1,35 +1,36 @@
-# Test source-admission readiness for one financial-system case
+# Triage one FCIC source opening before case admission
 
-Prepare a bounded source-opening decision for a possible System Failures case
-on the 2007–2009 financial crisis.
+Prepare one verify-only source-opening ticket for a possible bounded
+financial-system case. Do not propose a case record yet.
+
+Frontier selected the `one new bounded public-source case` branch for this
+packet. `one deeper source trace` and `one cross-case falsifier` remain
+alternatives, not work in this request. Do not invent source facts.
 
 Use only these planning facts:
 
-- This repository has eight public-source records but no bounded record at
-  financial-system, credit-market, or national regulatory scale.
-- The Financial Crisis Inquiry Commission is a candidate official source
-  owner. Frontier must verify the exact public report identity, date, stable
-  location, and relevant passages before any repository claim is admitted.
-- A new case is useful only if one official source can support a bounded system,
-  decision period, evidence object, authority or resource relationship,
-  counterevidence, and falsifier without turning a broad crisis narrative into
-  a universal mechanism.
+- The repository has no bounded record at financial-system, credit-market, or
+  national regulatory scale.
+- `FCIC final report — exact title/date/URL VERIFY` is the only source identity
+  supplied. No report content, institution, market unit, decision, or causal
+  relation is supplied.
+- A later case could proceed only if the verified source independently supports
+  one bounded unit, decision period, evidence object, authority or resource
+  relation, counterevidence, and falsifier.
 
-Answer with exactly seven short bullets:
+Answer with exactly six short lines using these labels:
 
-- **Source identity:** write `FCIC final report — exact title/date/URL VERIFY`.
-- **Bounded system:** one narrow unit and scale to test, not the whole economy.
-- **Question:** one information, resource, authority, power, participation,
-  scale, feedback, enforcement, recovery, or adaptation question.
-- **Evidence needed:** the minimum passage-level facts required from the
-  verified official source.
-- **Alternative:** one event-severity, market, firm, legal, regulatory, or
-  domain explanation that must remain sovereign.
-- **Decision:** exactly `open_source_check` or `reject_case_opening`.
-- **Stop:** the exact condition for refusal or closure.
+- **Source:** exactly `FCIC final report — exact title/date/URL VERIFY`.
+- **Unit category:** exactly `institution`, `market segment`, `regulatory
+  decision process`, or `no_bounded_unit`; do not invent a name.
+- **Opening target:** the minimum passage feature needed to name one bounded
+  unit and decision period.
+- **Admission bar:** the minimum additional passage features needed for the
+  evidence object, relation, counterevidence, and falsifier.
+- **Decision:** exactly `verify_source_only` or `stop_financial_case`.
+- **Stop:** refuse or close if identity, bounded unit, or any admission-bar
+  feature cannot be verified without widening beyond this official source.
 
-This is a source-admission proposal for Frontier verification, not a financial
-finding, recurrence claim, policy judgment, remedy, or action request. Do not invent
-source contents, dates, titles, URLs, institutions, liability, or causal
-weight. Use plain Markdown, no table or frontmatter, and keep it under 220
-words.
+This is a source-triage proposal, not a financial finding, recurrence claim,
+policy judgment, remedy, or action request. Use plain Markdown, no table or
+frontmatter, and keep it under 170 words.

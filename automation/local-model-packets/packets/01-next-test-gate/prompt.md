@@ -1,38 +1,35 @@
-# Map one official Challenger source path for SFQ-0002
+# Choose one verified Challenger source route
 
-Prepare one bounded source-retrieval plan for this still-provisional inquiry:
+Prepare one closed source-opening decision for the still-unknown causal bridge
+in the bounded Challenger dissent trace.
 
-> When do affected-party or operational observations become decision-relevant
-> validation and correction objects across infrastructure and authority
-> boundaries?
+For `SFQ-0002`, Frontier is replacing another generic official Flint source
+search with one official Challenger source route. Do not invent source facts.
 
 Use only these owner facts:
 
-- The bounded Challenger record preserves a recommendation-to-reversal-to-
-  incomplete-visibility sequence.
-- Exact dissent date, custody, complete recipient transitions, then-current
-  authority, complete disposition, accountable stop, and the causal bridge
-  remain unknown.
-- The official Rogers Commission source set is already an owner source class.
-  Do not claim that a more specific transcript, exhibit, log, memo, or catalog
-  entry exists until Frontier verifies it.
-- A prior proposal named generic “authority transition logs.” That name is not
-  accepted evidence and must not be repeated as if it were a known record.
+- Supported residue: a contractor engineering recommendation against launch
+  below prior temperature experience, management reversal, and incomplete
+  communication to higher launch-decision levels.
+- Unknown: whether one source-local passage independently connects that
+  recommendation-and-reversal sequence to a decision-relevant disposition,
+  accountable stop, or causal conclusion.
+- The owner record already points to `Rogers Commission Volume I` and `NASA
+  History Office Chapter V`. Their exact relevant passages remain `VERIFY`.
+- No transcript, exhibit, log, memo, catalog entry, custody chain, authority
+  assignment, or causal link may be assumed.
 
-Choose exactly one missing link to investigate. Answer with exactly six short
-bullets:
+Answer with exactly six short lines using these labels:
 
-- **Missing link:** one exact unknown from the list above.
-- **Source owner:** Rogers Commission, NASA, or another named official owner;
-  mark the choice `VERIFY` if the relevant custody is uncertain.
-- **Search object:** one document class or catalog target to verify, without
-  inventing a title, date, passage, or record.
-- **Support:** the minimum source-preserved fact that would resolve the link.
-- **Against:** the finding that would weaken or refuse the proposed link.
-- **Stop:** the exact condition for ending this source search without widening
-  it or borrowing facts.
+- **Route:** exactly `Rogers Commission Volume I`, `NASA History Office Chapter
+  V`, or `no_bounded_route`.
+- **Passage feature:** one literal feature to seek, not a claimed quotation.
+- **Supports if:** the minimum source-local connection that would support the
+  causal bridge.
+- **Refuses if:** one finding that would leave the bridge unknown or weaken it.
+- **Decision:** exactly `open_verified_source` or `stop_source_search`.
+- **Stop:** one exact condition that ends this route without widening sources.
 
-This is a retrieval proposal for Frontier verification, not a finding or
-source claim. Do not invent records or infer blame, liability, remedy,
-recurrence, authority, or causal weight. Use plain Markdown, no table or
-frontmatter, and keep it under 180 words.
+This is a verify-only retrieval proposal and decision, not a finding. Do not
+infer blame, liability, remedy, recurrence, authority, or causal weight. Use
+plain Markdown, no table or frontmatter, and keep it under 160 words.
