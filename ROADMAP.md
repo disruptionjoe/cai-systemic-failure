@@ -242,9 +242,9 @@
 72. Prepared only: choose the next official-source review most likely to
     resolve one load-bearing `SFQ-0002` unknown, or recommend narrowing or
     retirement if no bounded review can change the inquiry.
-73. Prepared only: rank three materially different public-source research
-    moves from the complete owner priority, with a source bar, expected owner
-    decision, and rejection condition for each.
+73. Prepared only: select one materially different public-source research move
+    from the complete owner priority, with a source bar, expected owner
+    decision, and rejection condition.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

@@ -8,8 +8,8 @@ The System Failures local-model packet transport has two reusable slots. The
 low-yield Texas City/Macondo and East Palestine/Texas City comparison families
 remain retired, but their retirement does not retire the slots. Slot A now
 asks for the next high-leverage official-source review for `SFQ-0002`; slot B
-asks for a ranked, nonduplicative next-research brief across the owner's full
-public-source priority. The two Mac LaunchAgents are restored after temporary
+asks for one nonduplicative next-research choice across the owner's full public-
+source priority. The two Mac LaunchAgents are restored after temporary
 stale-byte containment. Prompt hashes remain receipt metadata only
 and do not grant, deny, or continue eligibility.
 
