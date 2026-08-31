@@ -42,3 +42,7 @@ research material is rejected and routed to a separately authorized secure owner
   distinct from smoke-detection regulation and escape arrangements, preserves
   an unknown fire origin and sovereign marine-safety explanations, and makes
   no recurrence or schema claim.
+- `records/SF-0010-imperial-sugar-combustible-dust-control-boundaries.md` -
+  bounded CSB-source synthesis that keeps equipment release, accumulated fuel,
+  conveyor enclosure and likely ignition, emergency protection, and regulatory
+  standards distinct while making no recurrence or schema claim.

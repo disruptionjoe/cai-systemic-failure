@@ -269,10 +269,15 @@
     chains plus the distinct East Palestine authority-conversion pressure make
     `SFQ-0002` ready for receiver review or require source-local completion
     before any receiver handoff.
-78. Prepared only: open one bounded CSB-grounded Imperial Sugar decision that
+78. Done: open one bounded CSB-grounded Imperial Sugar record that
     separates dust release and equipment, accumulation and housekeeping,
-    enclosure and ignition, and regulatory-standard pressures before any owner
-    record is created.
+    enclosure and likely ignition, emergency protection, and management,
+    audit, or regulatory-standard pressures without claiming recurrence or
+    schema fit (`SF-0010`).
+79. Prepared only: open one bounded CSB-grounded Arkema Crosby decision that
+    separates extreme-weather flood exposure, common-mode refrigeration and
+    backup-power loss, organic-peroxide decomposition, and emergency-response
+    exposure before any owner record is created.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

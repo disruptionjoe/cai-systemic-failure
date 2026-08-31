@@ -454,6 +454,15 @@ schema, remedy, acceptance, receiver-work, or external-action claim. The active
 slots now prepare one `SFQ-0002` receiver-readiness gate and one CSB-grounded
 Imperial Sugar case-opening decision.
 
+`SF-0010` now adds a bounded CSB-grounded Imperial Sugar public-source record.
+It keeps equipment release, accumulated fuel and housekeeping, conveyor
+enclosure and likely ignition, emergency protection, and management, audit, or
+regulatory controls distinct. Exact ignition, complete custody and decisions,
+individual knowledge, recurrence, screen fit, legal duty, and remedy efficacy
+remain unknown. The receiver-readiness slot remains unattempted and unchanged;
+the exploration slot now prepares one materially different CSB-grounded Arkema
+flood-resilience case-opening decision.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-
