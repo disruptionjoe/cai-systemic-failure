@@ -1,8 +1,8 @@
 # Test the Flint emergency-order link without backfilling complaints
 
 Prepare one proposal-only source-link decision for `SFQ-0002`. Use only the
-supplied owner and EPA-order facts. Do not retrieve sources. Do not infer an
-earlier complaint custodian, complaint disposition, individual knowledge,
+supplied owner and EPA-order facts. Do not retrieve sources. Do not invent or
+infer an earlier complaint custodian, complaint disposition, individual knowledge,
 decision-time causal link, Texas link, recurrence, shared mechanism, blame,
 duty, remedy, receiver action, or acceptance.
 
