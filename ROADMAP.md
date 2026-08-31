@@ -279,18 +279,26 @@
     loss, organic-peroxide decomposition, risk-information custody, and
     emergency-response exposure without claiming recurrence or schema fit
     (`SF-0011`).
-80. Prepared only: test whether EPA's January 21, 2016 Section 1431 Flint order
-    supplies a later authority, validation, and stop object while remaining
-    insufficient to complete the earlier complaint-to-decision chain.
+80. Done: admit EPA's January 21, 2016 Section 1431 Flint order only as a later
+    authority, validation, and stop object while refusing to complete the
+    earlier complaint-to-decision chain or change receiver readiness
+    (`SFQ-0002-FLINT-ORDER-LINK-REVIEW-0001`).
 81. Done: compare the Arkema and Imperial Sugar insurer or audit objects only
     on source-local risk identification, custody, disposition, implementation,
     and control effect. Preserve the objects and event mechanisms separately
     because neither record supplies the complete positive comparison chain
     (`SF-COMP-ARKEMA-IMPERIAL-SUGAR-AUDIT-BOUNDARY`).
-82. Prepared only: use TSB Railway Investigation Report `R13D0054` to decide
-    whether to open one bounded Lac-Megantic record that keeps securement,
-    locomotive fire and shutdown, dangerous-goods containment, company safety
-    management, regulatory oversight, and community consequences distinct.
+82. Done: open one bounded Lac-Megantic record from TSB Railway Investigation
+    Report `R13D0054` that keeps securement, locomotive fire and shutdown,
+    dangerous-goods containment, company safety management, regulatory
+    oversight, and community consequences distinct (`SF-0012`).
+83. Prepared only: disposition whether the later Flint authority, validation,
+    and stop link changes the existing source-local-completion requirement or
+    receiver readiness without borrowing it into the earlier complaint chain.
+84. Prepared only: compare Lac-Megantic and East Palestine only on hazardous-
+    materials and authority phases while preserving runaway and securement,
+    bearing and derailment, post-derailment decision, containment, regulatory,
+    and community facts as separate source-local objects.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

@@ -6,12 +6,12 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. Slot A now tests the January 21, 2016 EPA Flint order as a
-later authority, validation, and stop object without backfilling the earlier
-complaint chain. Slot B now tests a bounded Lac-Megantic case opening that
-keeps train securement, locomotive fire and shutdown, dangerous-goods
-containment, company safety management, regulatory oversight, and affected-
-community consequences distinct. The two Mac LaunchAgents remain active.
+retire the slots. Slot A now tests whether the bounded later Flint order link
+changes receiver readiness without backfilling the earlier complaint chain.
+Slot B now compares Lac-Megantic and East Palestine only on hazardous-material
+and authority phases while preserving their different event mechanics,
+decision windows, containment conditions, and sovereign domain explanations.
+The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
 
@@ -489,6 +489,25 @@ custody, disposition, implementation, or control effect. Arkema's common-mode
 flood dependence and Imperial Sugar's combustible-dust control layers remain
 different event mechanisms. No recurrence, shared mechanism, schema pressure,
 remedy, acceptance, receiver work, or external action is created.
+
+`SFQ-0002-FLINT-ORDER-LINK-REVIEW-0001` now admits EPA's January 21, 2016
+Section 1431 order only as a later authority, validation, and stop object. The
+order supplies explicit corrosion-control, monitoring, source-transition, and
+written-termination controls, but it does not establish custody, complaint-
+specific authority, disposition, validation treatment, stop status, or causal
+relevance for one earlier complaint. `SFQ-0002` stays unmodified, the Texas
+chain remains separate, source-local completion remains required, and receiver
+fit remains candidate-only.
+
+`SF-0012` separately adds a bounded TSB-grounded Lac-Megantic public-source
+record. It keeps hand-brake force and effectiveness testing, locomotive fire
+and air-brake loss, dangerous-goods classification and tank-car containment,
+company safety management, regulatory oversight, and community consequences
+distinct. Complete individual knowledge, every decision and custody path,
+relative causal weight, recurrence, screen fit, liability, and remedy efficacy
+remain unknown. The active slots now test the dependent Flint receiver
+disposition and a bounded Lac-Megantic/East Palestine comparison without
+claiming a shared hazardous-material or authority mechanism.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one

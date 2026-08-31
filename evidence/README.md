@@ -51,3 +51,8 @@ research material is rejected and routed to a separately authorized secure owner
   refrigeration loss, organic-peroxide decomposition, risk-information
   custody, and emergency-response exposure distinct while making no recurrence
   or schema claim.
+- `records/SF-0012-lac-megantic-securement-and-oversight-boundaries.md` -
+  bounded TSB-source synthesis that keeps hand-brake force and testing,
+  locomotive fire and air-brake loss, dangerous-goods containment, company
+  safety management, regulatory oversight, and community consequences distinct
+  while making no recurrence, liability, remedy, or schema claim.

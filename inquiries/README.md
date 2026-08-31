@@ -52,3 +52,7 @@ Mechanism Design through the common envelope.
   completion before receiver review because the Flint and Texas chains remain
   incomplete. It keeps `SFQ-0002` unmodified, treats East Palestine only as a
   distinct pressure, and creates no Mechanism Design work.
+- `SFQ-0002-FLINT-ORDER-LINK-REVIEW-0001.md` - admits EPA's January 21,
+  2016 Section 1431 order only as a later authority, validation, and stop
+  object. It refuses to backfill the earlier complaint chain, keeps
+  source-local completion required, and leaves receiver fit candidate-only.

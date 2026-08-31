@@ -436,3 +436,16 @@ Imperial Sugar's insurer assessment did not adequately address its hazard.
 Neither bounded record supplies the complete accountable-recipient,
 decision-time custody, disposition, implementation, and control-effect chain
 required for a positive comparison.
+
+`inquiries/SFQ-0002-FLINT-ORDER-LINK-REVIEW-0001.md` admits EPA's January 21,
+2016 Section 1431 order only as a later authority, validation, and stop object.
+It refuses to backfill the earlier complaint chain, keeps `SFQ-0002`
+unmodified, preserves the Texas chain, and leaves source-local completion and
+candidate-only receiver fit unchanged.
+
+`evidence/records/SF-0012-lac-megantic-securement-and-oversight-boundaries.md`
+adds a bounded TSB-grounded Lac-Megantic record. It keeps securement force and
+testing, locomotive fire and air-brake loss, dangerous-goods containment,
+company safety management, regulatory oversight, and community consequences
+distinct without establishing recurrence, one root cause, liability, remedy,
+or schema fit.
