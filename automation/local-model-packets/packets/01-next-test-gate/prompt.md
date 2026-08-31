@@ -1,47 +1,40 @@
-# Decide one bounded 2003 blackout record opening
+# Repair one bounded 2003 blackout opening
 
-Prepare one proposal-only source-opening decision for the August 2003 North
-American blackout. Use only the supplied U.S.-Canada Power System Outage Task
-Force and U.S. Department of Energy facts. Do not retrieve sources. Do not
-invent operators, event sequences, duties, violations, causal allocation,
-remedies, or recurrence.
+Prepare one proposal-only repair decision for the August 2003 North American
+blackout. Use only the supplied U.S.-Canada Power System Outage Task Force
+facts. Do not retrieve sources. Do not invent operators, duties, event sequences,
+causal weights, remedies, recurrence, or schema fit.
 
-Source boundary:
+Supplied facts:
 
-- U.S. Department of Energy, `August 2003 Blackout`, says the August 14-15
-  outage affected the northeastern United States and southern Canada and
-  impacted approximately 50 million customers.
-- The April 5, 2004 Task Force release says the final report identified four
-  cause groups: inadequate system understanding, inadequate situational
-  awareness, inadequate tree trimming, and inadequate reliability-coordinator
-  diagnostic support.
-- The release says the report identified seven violations of voluntary NERC
-  reliability standards and found the blackout's causes strikingly similar to
-  earlier major North American outages.
-- This packet does not supply the complete final report, the event-by-event
-  propagation chain, source-local responsibility for each cause group,
-  counterevidence, or evidence sufficient to accept a recurrence claim.
+- The August 14-15 outage affected the northeastern United States and southern
+  Canada and approximately 50 million customers.
+- The Task Force identified inadequate system understanding, inadequate
+  situational awareness, inadequate tree trimming, and inadequate reliability-
+  coordinator diagnostic support as four cause groups.
+- The Task Force identified seven violations of voluntary NERC reliability
+  standards and said the causes were strikingly similar to earlier major North
+  American outages.
+- The packet does not supply the final report, event-by-event propagation,
+  source-local responsibility for each cause group, counterevidence, or proof
+  of recurrence.
 
-Return exactly nine short lines:
+Return exactly seven short lines:
 
 - **Unit:** exactly `interconnected northeastern U.S. and southern Canadian
   power system`.
 - **Period:** exactly `August 14-15, 2003 blackout`.
-- **Scale:** exactly `cross-border interconnected-grid scale`.
-- **Affected standing:** exactly `approximately 50 million customers`.
-- **Primary pressure:** choose exactly one of `system understanding`,
-  `situational awareness`, `tree trimming`, or `reliability-coordinator
-  diagnostic support`.
-- **Source support:** name the one supplied Task Force fact that supports that
-  choice without extending it.
-- **Alternative:** name one narrower outage or containment explanation that
-  remains possible under the missing propagation chain.
-- **Unknown:** name one missing source-local link required before claiming a
-  recurring mechanism.
+- **Primary pressure:** choose exactly `system understanding` or `situational
+  awareness`.
+- **Source support:** state exactly which supplied Task Force cause group
+  supports the chosen pressure; do not cite the four-group list generically.
+- **Alternative:** exactly `a narrower initiating or containment failure not
+  yet connected to cross-border propagation`.
+- **Unknown:** choose exactly `event-by-event propagation link from the chosen
+  pressure` or `source-local responsibility for the chosen pressure`.
 - **Opening decision:** choose exactly `open_bounded_record` or
   `defer_for_source_gap`.
 
-An `open_bounded_record` decision opens only a source-verification candidate
-for later Frontier review; it does not accept a record, cause, recurrence,
-schema fit, blame finding, policy judgment, remedy, or external action. Use
-plain Markdown, no table or frontmatter, and keep it under 220 words.
+`open_bounded_record` opens only a source-verification candidate for Frontier
+review. It accepts no record, cause, recurrence, blame, schema, remedy, or
+external action. Use plain Markdown, no table or frontmatter, under 180 words.
