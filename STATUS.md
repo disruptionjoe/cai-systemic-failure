@@ -9,8 +9,8 @@ low-yield Texas City/Macondo and East Palestine/Texas City comparison families
 remain retired, but their retirement does not retire the slots. Slot A now
 asks for the next high-leverage official-source review for `SFQ-0002`; slot B
 asks for a ranked, nonduplicative next-research brief across the owner's full
-public-source priority. The two Mac LaunchAgents are being restored after
-temporary stale-byte containment. Prompt hashes remain receipt metadata only
+public-source priority. The two Mac LaunchAgents are restored after temporary
+stale-byte containment. Prompt hashes remain receipt metadata only
 and do not grant, deny, or continue eligibility.
 
 Initial derived health: first-use automation path verified on 2026-07-17 through
