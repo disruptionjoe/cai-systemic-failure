@@ -4,6 +4,13 @@ Formation complete. CAI-directed repository automation is active only under the
 explicit live CapacityOS System grant and remains narrowed by this repository's
 governance, Lanes, and gates.
 
+The System Failures local-model packet transport is off as of 2026-08-30. The
+two Mac LaunchAgents for the retired Texas City/Macondo and East
+Palestine/Texas City lineages were unloaded, and their installed plist files
+were moved out of `~/Library/LaunchAgents`. The prompt files and hashes remain
+historical evidence only; they do not grant launch eligibility. No System
+Failures packet slot is currently active.
+
 Initial derived health: first-use automation path verified on 2026-07-17 through
 live-grant status reconciliation and synthetic acceptance fixture refresh.
 `SF-0001` is the first bounded public-source failure record, and `SFQ-0001`

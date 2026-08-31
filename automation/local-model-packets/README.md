@@ -4,7 +4,22 @@ This directory owns the prepared System Failures prompts used by the host-local
 Qwen model. Local responses are proposal-only candidate material; Frontier
 Progress owns verification, repository writes, validation, and acceptance.
 
-## Live shape
+## Current launch state
+
+System Failures packet transport is off as of 2026-08-30. The two installed
+Mac jobs were unloaded after both stable lineages were retired, and no System
+Failures packet folder is currently an active launch target. The retained
+prompts and their hashes are immutable experiment evidence, not eligibility
+state.
+
+Future operation must keep three meanings separate: stable lineage identifies
+the family across rewrites, explicit owner eligibility plus actual scheduler
+state determines whether a launch may occur, and the prompt hash records exact
+submitted bytes after selection. Retirement without a successor closes the
+matching scheduler target; changing guidance or preserving a hash is not a
+substitute.
+
+## Pilot shape when transport is active
 
 ```text
 two stable packet slots
@@ -23,10 +38,10 @@ four-hour aggregate learning review
   -> never interpret target truth or edit active prompts
 ```
 
-The active slot paths are `packets/01-next-test-gate/prompt.md` and
+The retained slot paths are `packets/01-next-test-gate/prompt.md` and
 `packets/02-field-trace/prompt.md`. Their names are stable transport IDs left
-from the experiment; their contents rotate. Packet folders 03 through 06 are
-historical Phase 2 evidence and are not active launch targets.
+from the experiment; neither is currently active. Packet folders 03 through 06
+are historical Phase 2 evidence and are not active launch targets.
 
 The current content priority is public-source research: recognizable present
 or historical failure cases, cross-case pattern tests, causal traces across

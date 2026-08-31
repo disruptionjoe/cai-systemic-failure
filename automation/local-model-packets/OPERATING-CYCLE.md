@@ -1,12 +1,27 @@
 # System Failures local-model operating cycle
 
-Status: `operational_pilot`
+Status: `operational_pilot_transport_off`
 
 This is the target-owned interface for an hourly Frontier Repository Operating
 Cycle using two rolling local-model packet slots. The complete governed Run
 contract and receipts remain in System Runtime.
 
-## Live topology
+## Current launch state
+
+The System Failures Mac packet triggers are disabled as of 2026-08-30. Both
+stable comparison lineages are retired without eligible successors, so the
+retained prompt files and hashes are evidence only. An hourly operating cycle
+may inspect already completed unseen attempts, but no new System Failures
+attempt should be launched until owner eligibility and an explicitly
+authorized host schedule are both restored.
+
+Prompt hashes identify exact bytes after selection. They never activate a
+slot, keep a retired lineage alive, or reset its history. A retirement close
+must disable or unload the matching host trigger when the close has that
+authority; otherwise it must return the exact launch-state wake and must not
+claim cessation.
+
+## Topology when transport is active
 
 ```text
 two Mac packet triggers per hour
@@ -29,9 +44,9 @@ four-hour Frontier learning review
 
 There is no scheduled self-selecting Deep Progress source for this pilot.
 
-## Active slots and ownership
+## Retained slots and ownership
 
-The stable active transport slots are:
+The stable transport slots, currently inactive, are:
 
 - `packets/01-next-test-gate/prompt.md` — rolling slot A;
 - `packets/02-field-trace/prompt.md` — rolling slot B.

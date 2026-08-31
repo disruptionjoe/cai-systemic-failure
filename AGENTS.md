@@ -48,6 +48,21 @@ Use a synthetic fixture only when it discriminates a named uncertainty raised
 by real evidence. Do not extend the current review-chain schema or its test
 matrix merely to keep automation active.
 
+## Local-Model Launch Eligibility
+
+Prompt hashes are immutable provenance for receipts, replay, and like-content
+comparison. They are not launch eligibility, lineage lifecycle, or scheduling
+authority, and a new hash never resets family history.
+
+When Stewardship retires a local-model lineage without an eligible successor,
+the corresponding host launch must be disabled or unloaded in the same
+authorized closeout. Do not rely on evaluator guidance, prompt wording, file
+presence, or the retired hash itself to stop execution. If the active Run lacks
+authority over the host launcher, preserve the retirement, report the exact
+launch-state wake, and do not claim verified cessation. Before treating a
+packet slot as active, verify both current owner eligibility and actual host
+launcher state.
+
 ## System Execution Boundary
 
 This repository owns its purpose, governance, authoritative work and Lane
