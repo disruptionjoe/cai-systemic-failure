@@ -1,41 +1,38 @@
-# Choose the next source review for SFQ-0002
+# Map one official Challenger source path for SFQ-0002
 
-Help a Frontier researcher choose the next useful move for this unresolved
-inquiry:
+Prepare one bounded source-retrieval plan for this still-provisional inquiry:
 
 > When do affected-party or operational observations become decision-relevant
 > validation and correction objects across infrastructure and authority
 > boundaries?
 
-Current owner evidence:
+Use only these owner facts:
 
-- The Flint review supports dated complaint evidence, its Region 5 record
-  source, and receipt of 87 complaints before the January 2016 order. It does
-  not establish custody of one selected observation, recipient authority then
-  in force, linkage to a current validation burden, source-preserved
-  disposition, a timely unresolved stop, or causal relevance.
-- The bounded Challenger record supports a recommendation-to-reversal-to-
-  incomplete-visibility sequence. Exact dissent date, custody, complete
-  recipient transitions, then-current authority, complete disposition,
-  accountable stop, and the causal bridge remain unknown.
-- The inquiry stays provisional. Another source review is worthwhile only if
-  it can resolve a load-bearing unknown without borrowing facts or inventing a
-  mechanism.
+- The bounded Challenger record preserves a recommendation-to-reversal-to-
+  incomplete-visibility sequence.
+- Exact dissent date, custody, complete recipient transitions, then-current
+  authority, complete disposition, accountable stop, and the causal bridge
+  remain unknown.
+- The official Rogers Commission source set is already an owner source class.
+  Do not claim that a more specific transcript, exhibit, log, memo, or catalog
+  entry exists until Frontier verifies it.
+- A prior proposal named generic “authority transition logs.” That name is not
+  accepted evidence and must not be repeated as if it were a known record.
 
-Write a short research decision brief. Choose exactly one:
+Choose exactly one missing link to investigate. Answer with exactly six short
+bullets:
 
-1. review one additional official Flint source;
-2. review one additional official Challenger source;
-3. narrow the inquiry now; or
-4. retire the inquiry now.
+- **Missing link:** one exact unknown from the list above.
+- **Source owner:** Rogers Commission, NASA, or another named official owner;
+  mark the choice `VERIFY` if the relevant custody is uncertain.
+- **Search object:** one document class or catalog target to verify, without
+  inventing a title, date, passage, or record.
+- **Support:** the minimum source-preserved fact that would resolve the link.
+- **Against:** the finding that would weaken or refuse the proposed link.
+- **Stop:** the exact condition for ending this source search without widening
+  it or borrowing facts.
 
-Explain why your choice has the highest expected research value. If you choose
-a source review, name the exact missing link to test, the specific official
-document or responsible institution to look for, what passage or record would
-count as support, what would count against the inquiry, and when to stop. If
-you are unsure a document exists, say it must be verified rather than claiming
-it as fact.
-
-This is a proposal for Frontier verification, not repository truth. Do not
-infer blame, liability, remedy, or unsupported facts. Use plain Markdown, no
-frontmatter or table, and keep it under 450 words.
+This is a retrieval proposal for Frontier verification, not a finding or
+source claim. Do not invent records or infer blame, liability, remedy,
+recurrence, authority, or causal weight. Use plain Markdown, no table or
+frontmatter, and keep it under 180 words.

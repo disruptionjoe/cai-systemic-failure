@@ -1,44 +1,35 @@
-# Pick one next System Failures research move
+# Test source-admission readiness for one financial-system case
 
-Help a Frontier steward choose what this repository should research next.
+Prepare a bounded source-opening decision for a possible System Failures case
+on the 2007–2009 financial crisis.
 
-Repository purpose: make systemic failure legible through public-source,
-source-preserving cases, comparisons, causal traces, and answerable inquiries
-without manufacturing certainty or prescribing remedies.
+Use only these planning facts:
 
-Current state:
+- This repository has eight public-source records but no bounded record at
+  financial-system, credit-market, or national regulatory scale.
+- The Financial Crisis Inquiry Commission is a candidate official source
+  owner. Frontier must verify the exact public report identity, date, stable
+  location, and relevant passages before any repository claim is admitted.
+- A new case is useful only if one official source can support a bounded system,
+  decision period, evidence object, authority or resource relationship,
+  counterevidence, and falsifier without turning a broad crisis narrative into
+  a universal mechanism.
 
-- Eight bounded public-source records already cover aerospace, drinking water,
-  offshore energy, residential fire, electric power, freight rail, and refinery
-  process safety.
-- `SFQ-0002` remains provisional because existing Flint and Challenger traces
-  preserve observations but leave important custody, decision-time authority,
-  disposition, stop-condition, and causal links unknown.
-- The Texas City/Macondo process-safety comparison and East Palestine/Texas
-  City information-to-control comparison were retired after repeated low-yield
-  attempts. Do not reopen or reword those comparisons.
-- The priority is recognizable current or historical failure evidence, not
-  another synthetic review-chain permutation.
+Answer with exactly seven short bullets:
 
-Choose exactly one next research move:
+- **Source identity:** write `FCIC final report — exact title/date/URL VERIFY`.
+- **Bounded system:** one narrow unit and scale to test, not the whole economy.
+- **Question:** one information, resource, authority, power, participation,
+  scale, feedback, enforcement, recovery, or adaptation question.
+- **Evidence needed:** the minimum passage-level facts required from the
+  verified official source.
+- **Alternative:** one event-severity, market, firm, legal, regulatory, or
+  domain explanation that must remain sovereign.
+- **Decision:** exactly `open_source_check` or `reject_case_opening`.
+- **Stop:** the exact condition for refusal or closure.
 
-- one new bounded public-source case;
-- one deeper source trace for an unresolved current inquiry; and
-- one cross-case falsifier or pattern test that is not either retired
-  comparison.
-
-Do not analyze all three options. Pick the one with the highest expected
-information gain and answer with exactly five short bullets:
-
-- **Choice:** new case, deeper trace, or cross-case falsifier.
-- **Question:** the one concrete question to answer.
-- **Source:** the official public source or source-owning institution Frontier
-  should verify.
-- **Decision:** the owner decision the result could change.
-- **Stop:** the clear rejection or stop condition.
-
-This is a research-priority proposal, not a finding. Do not invent source
-contents, infer liability, prescribe a remedy, or claim recurrence. If a source
-or fact is uncertain, label it for verification. Answer directly without
-showing your reasoning. Use plain Markdown, no frontmatter or table, and keep
-it under 180 words.
+This is a source-admission proposal for Frontier verification, not a financial
+finding, recurrence claim, policy judgment, remedy, or action request. Do not invent
+source contents, dates, titles, URLs, institutions, liability, or causal
+weight. Use plain Markdown, no table or frontmatter, and keep it under 220
+words.
