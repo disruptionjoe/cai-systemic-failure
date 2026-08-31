@@ -1,44 +1,46 @@
-# Repair one Upper Big Branch trace opening
+# Open one Grenfell affected-observation source review
 
-Prepare one proposal-only repair decision for the April 2010 Upper Big Branch
-mine disaster. Use only the supplied U.S. Mine Safety and Health
-Administration facts. Do not retrieve sources. Do not invent testimony, inspection
-dates, individual duties, causal weights, legal conclusions, remedies, or a
-cross-case pattern.
+Prepare one proposal-only source-review opening for the Grenfell Tower
+affected-observation path in `SFQ-0002`. Use only the supplied owner facts. Do
+not retrieve sources. Do not invent a complaint, date, page, custodian,
+recipient, authority, disposition, causal link, blame, remedy, or legal duty.
 
-Supplied MSHA facts:
+Supplied owner facts:
 
-- The explosion killed 29 miners and seriously injured two others.
-- MSHA says hazards sometimes appeared in production or maintenance records
-  but not in required examination books, and required hazard books were not
-  maintained.
-- MSHA says illegal advance notice of inspections allowed conditions to be
-  altered before inspectors arrived.
-- MSHA also names miner intimidation and a physical explosion chain; those
-  routes remain separate here.
-- The packet does not supply the complete report, full inspection chronology,
-  complete correction chain, individual accountability, counterevidence, or
-  evidence for recurrence or remedy.
+- The current owner record names residents' reported safety concerns alongside
+  distinct professional or coroner concerns, prior-incident learning, design
+  and building-control review, product assurance, fire-service preparedness,
+  and government guidance.
+- The 2016 refurbishment changed the external-wall, window-detail, product,
+  design, and fire-safety evidence context.
+- Residents, visitors, responders, nearby households, and the wider local
+  community carry affected standing; owner, manager, project, control,
+  assurance, fire-service, and government roles remain distinct.
+- The current Flint/Grenfell comparison does not reconstruct any selected
+  observation's date, custodian, recipient, authority then in force, decision
+  relevance, disposition, unresolved stop, or causal relevance.
+- The repository points to the public Grenfell Tower Inquiry Phase 2 report,
+  but this packet supplies no page-local source text.
 
 Return exactly eight short lines:
 
-- **Unit:** exactly `Upper Big Branch Mine-South operating and safety-control
+- **Unit:** exactly `Grenfell Tower refurbishment and resident-safety review
   system`.
-- **Period:** exactly `conditions preceding April 5, 2010`.
-- **Trace route:** choose exactly `hazard-recording-to-correction` or
-  `inspection-visibility`.
-- **Source support:** state both supplied MSHA facts that directly support the
-  chosen route; do not mix the routes.
-- **Boundary:** name the unchosen route and keep it separate.
-- **Alternative:** exactly `a narrower route-specific failure without evidence
-  of a cross-case pattern`.
-- **Unknown:** choose exactly `complete correction chain from hazard record to
-  accountable response` or `full chronology from inspection notice to
-  inspector arrival` and align it with the chosen route.
-- **Opening decision:** choose exactly `open_trace` or
-  `defer_for_source_gap`.
+- **Observation class:** choose exactly `resident safety concern` or
+  `professional or coroner concern`.
+- **Affected standing:** exactly `residents remain distinct from evidence
+  custodians, review recipients, and authority holders`.
+- **Source target:** exactly `Grenfell Tower Inquiry Phase 2 report — exact
+  volume, section, and page VERIFY`.
+- **Required link:** choose exactly `observation-to-accountable-recipient` or
+  `recipient-to-disposition-or-unresolved-stop`.
+- **Boundary:** name the unchosen observation class and keep it separate.
+- **Unknown:** state exactly the selected link that remains unsupported by the
+  supplied owner facts.
+- **Opening decision:** choose exactly `open_page_bounded_review` or
+  `defer_for_page_local_source`.
 
-`open_trace` opens only a source-verification candidate for Frontier review.
-Attribute findings to MSHA and accept no record, causal allocation, recurrence,
-schema pressure, blame, remedy, receiver work, or external action. Use plain
-Markdown, no table or frontmatter, under 200 words.
+`open_page_bounded_review` opens only a source-verification candidate for
+Frontier review. It accepts no trace, recurring mechanism, schema pressure,
+blame, duty, remedy, receiver work, or external action. Use plain Markdown, no
+table or frontmatter, under 200 words.
