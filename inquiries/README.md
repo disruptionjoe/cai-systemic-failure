@@ -48,3 +48,7 @@ Mechanism Design through the common envelope.
   accountable-receipt, disposition, and stop-condition questions while
   keeping `SFQ-0002` unmodified, its two source chains separate, and receiver
   fit candidate-only.
+- `SFQ-0002-DISPOSITION-0004-RECEIVER-READINESS.md` - requires source-local
+  completion before receiver review because the Flint and Texas chains remain
+  incomplete. It keeps `SFQ-0002` unmodified, treats East Palestine only as a
+  distinct pressure, and creates no Mechanism Design work.

@@ -265,19 +265,26 @@
     detection regulation and escape arrangements while leaving fire origin,
     complete review and custody, recurrence, and schema fit unknown
     (`SF-0009`).
-77. Prepared only: test whether the still-incomplete Flint and Texas source
-    chains plus the distinct East Palestine authority-conversion pressure make
-    `SFQ-0002` ready for receiver review or require source-local completion
-    before any receiver handoff.
+77. Done: require source-local completion before receiver review because the
+    Flint and Texas chains remain incomplete and East Palestine supplies only
+    a distinct authority-conversion pressure
+    (`SFQ-0002-DISPOSITION-0004-RECEIVER-READINESS`).
 78. Done: open one bounded CSB-grounded Imperial Sugar record that
     separates dust release and equipment, accumulation and housekeeping,
     enclosure and likely ignition, emergency protection, and management,
     audit, or regulatory-standard pressures without claiming recurrence or
     schema fit (`SF-0010`).
-79. Prepared only: open one bounded CSB-grounded Arkema Crosby decision that
-    separates extreme-weather flood exposure, common-mode refrigeration and
-    backup-power loss, organic-peroxide decomposition, and emergency-response
-    exposure before any owner record is created.
+79. Done: add one bounded CSB-grounded Arkema Crosby record that separates
+    extreme-weather flood exposure, common-mode refrigeration and backup-power
+    loss, organic-peroxide decomposition, risk-information custody, and
+    emergency-response exposure without claiming recurrence or schema fit
+    (`SF-0011`).
+80. Prepared only: test whether EPA's January 21, 2016 Section 1431 Flint order
+    supplies a later authority, validation, and stop object while remaining
+    insufficient to complete the earlier complaint-to-decision chain.
+81. Prepared only: compare the Arkema and Imperial Sugar insurer or audit
+    objects only on source-local risk-identification, custody, disposition, and
+    control effect without inferring one shared mechanism from two reports.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

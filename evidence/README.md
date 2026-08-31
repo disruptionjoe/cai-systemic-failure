@@ -46,3 +46,8 @@ research material is rejected and routed to a separately authorized secure owner
   bounded CSB-source synthesis that keeps equipment release, accumulated fuel,
   conveyor enclosure and likely ignition, emergency protection, and regulatory
   standards distinct while making no recurrence or schema claim.
+- `records/SF-0011-arkema-crosby-flood-and-refrigeration-boundaries.md` -
+  bounded CSB-source synthesis that keeps flood exposure, common-mode power and
+  refrigeration loss, organic-peroxide decomposition, risk-information
+  custody, and emergency-response exposure distinct while making no recurrence
+  or schema claim.

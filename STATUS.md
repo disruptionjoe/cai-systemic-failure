@@ -5,13 +5,13 @@ explicit live CapacityOS System grant and remains narrowed by this repository's
 governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
-low-yield Texas City/Macondo and East Palestine/Texas City comparison families
-remain retired, but their retirement does not retire the slots. Slot A now
-asks for the next high-leverage official-source review for `SFQ-0002`; slot B
-asks for one nonduplicative next-research choice across the owner's full public-
-source priority. The two Mac LaunchAgents are restored after temporary
-stale-byte containment. Prompt hashes remain receipt metadata only
-and do not grant, deny, or continue eligibility.
+low-yield predecessor families remain retired, but their retirement does not
+retire the slots. Slot A now tests the January 21, 2016 EPA Flint order as a
+later authority, validation, and stop object without backfilling the earlier
+complaint chain. Slot B tests whether the Arkema and Imperial Sugar insurer or
+audit objects support any source-local comparison without manufacturing a
+shared mechanism. The two Mac LaunchAgents remain active. Prompt hashes are
+receipt metadata only and do not grant, deny, or continue eligibility.
 
 Initial derived health: first-use automation path verified on 2026-07-17 through
 live-grant status reconciliation and synthetic acceptance fixture refresh.
@@ -462,6 +462,23 @@ individual knowledge, recurrence, screen fit, legal duty, and remedy efficacy
 remain unknown. The receiver-readiness slot remains unattempted and unchanged;
 the exploration slot now prepares one materially different CSB-grounded Arkema
 flood-resilience case-opening decision.
+
+`SFQ-0002-DISPOSITION-0004-RECEIVER-READINESS` now requires source-local
+completion before any receiver review. Flint still lacks decision-time custody,
+authority, validation, disposition, stop, and causal links; Texas still lacks a
+complete accountable knowledge-to-validation and stop chain; and East
+Palestine remains a distinct authority-conversion pressure that fills neither
+chain. `SFQ-0002` stays unmodified, Mechanism Design fit stays candidate-only,
+and no receiver work exists.
+
+`SF-0011` separately adds a bounded CSB-grounded Arkema Crosby public-source
+record. It keeps extreme-weather flood exposure, common-mode power and
+refrigeration loss, organic-peroxide decomposition, risk-information custody,
+and emergency-response exposure distinct. Complete custody, individual
+knowledge, every forecast and decision, relative causal weight, recurrence,
+screen fit, legal duty, and remedy efficacy remain unknown. The active slots
+now test the later Flint order boundary and the Arkema/Imperial Sugar insurer-
+or-audit comparison without claiming a shared mechanism.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
