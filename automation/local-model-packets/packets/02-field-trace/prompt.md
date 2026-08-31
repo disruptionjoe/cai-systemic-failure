@@ -1,36 +1,35 @@
-# Triage one FCIC source opening before case admission
+# Keep East Palestine detection and decision phases distinct
 
-Prepare one verify-only source-opening ticket for a possible bounded
-financial-system case. Do not propose a case record yet.
+Prepare one proposal-only phase-separation decision from the existing bounded
+East Palestine record. Do not retrieve sources or invent thresholds, custody,
+authority transfers, liability, health effects, remedies, or causal links.
 
-Frontier selected the `one new bounded public-source case` branch for this
-packet. `one deeper source trace` and `one cross-case falsifier` remain
-alternatives, not work in this request. Do not invent source facts.
+Use only these owner facts:
 
-Use only these planning facts:
-
-- The repository has no bounded record at financial-system, credit-market, or
-  national regulatory scale.
-- `FCIC final report — exact title/date/URL VERIFY` is the only source identity
-  supplied. No report content, institution, market unit, decision, or causal
-  relation is supplied.
-- A later case could proceed only if the verified source independently supports
-  one bounded unit, decision period, evidence object, authority or resource
-  relation, counterevidence, and falsifier.
+- Detection phase: a defective wheel bearing failed and overheated; wayside
+  monitoring did not diagnose the hot bearing in time for mitigation; a
+  critical alarm occurred only shortly before derailment.
+- Later decision phase: the local incident commander approved venting and
+  burning five vinyl-chloride-monomer tank cars.
+- The NTSB found that later decision unnecessary and based on incomplete and
+  misleading information supplied by Norfolk Southern officials and
+  contractors.
+- The incident commander retained on-scene decision authority.
+- Complete sensor history, upstream information custody, every alternative,
+  legal liability, health causation, and remedy effects remain unknown.
 
 Answer with exactly six short lines using these labels:
 
-- **Source:** exactly `FCIC final report — exact title/date/URL VERIFY`.
-- **Unit category:** exactly `institution`, `market segment`, `regulatory
-  decision process`, or `no_bounded_unit`; do not invent a name.
-- **Opening target:** the minimum passage feature needed to name one bounded
-  unit and decision period.
-- **Admission bar:** the minimum additional passage features needed for the
-  evidence object, relation, counterevidence, and falsifier.
-- **Decision:** exactly `verify_source_only` or `stop_financial_case`.
-- **Stop:** refuse or close if identity, bounded unit, or any admission-bar
-  feature cannot be verified without widening beyond this official source.
+- **Detection residue:** one supplied detection-phase fact.
+- **Decision residue:** one supplied later-decision fact.
+- **Relation:** exactly `distinct_phases` or `source_local_bridge_needed`.
+- **Bridge needed:** one source-local fact required before connecting the two
+  phases; use `none` only with `distinct_phases`.
+- **Refuses if:** one condition that blocks a combined mechanism claim.
+- **Next inquiry:** exactly `bearing_detection_trace`,
+  `decision_information_trace`, or `no_combined_inquiry`.
 
-This is a source-triage proposal, not a financial finding, recurrence claim,
-policy judgment, remedy, or action request. Use plain Markdown, no table or
-frontmatter, and keep it under 170 words.
+Case identity, chronology, or organizational presence alone is not a shared
+mechanism. This packet cannot create a recurrence claim, schema pressure,
+blame finding, remedy, or external-action request. Use plain Markdown, no
+table or frontmatter, and keep it under 160 words.

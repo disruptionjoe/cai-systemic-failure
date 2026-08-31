@@ -1,35 +1,38 @@
-# Choose one verified Challenger source route
+# Draft one bounded Equifax evidence packet
 
-Prepare one closed source-opening decision for the still-unknown causal bridge
-in the bounded Challenger dissent trace.
+Prepare a proposal-only record packet for the 2017 Equifax data breach using
+only the supplied U.S. Government Accountability Office facts. Do not retrieve
+sources or invent breach mechanics, decisions, owners, duties, or remedies.
 
-For `SFQ-0002`, Frontier is replacing another generic official Flint source
-search with one official Challenger source route. Do not invent source facts.
+Source boundary:
 
-Use only these owner facts:
+- `GAO-18-559, Data Protection: Actions Taken by Equifax and Federal Agencies
+  in Response to the 2017 Breach`, published August 30, 2018.
+- GAO says attackers gained unauthorized Internet access through Equifax's
+  online dispute portal, which maintained documents used to resolve consumer
+  disputes.
+- GAO says the attackers accessed personal information of at least 145.5
+  million individuals.
+- GAO reports that Equifax's investigation identified four major factor
+  classes: identification, detection, database-access segmentation, and data
+  governance.
+- This packet supplies no exact attack sequence, patch history, accountable
+  decision owner, complete counterevidence, causal allocation, or remedy test.
 
-- Supported residue: a contractor engineering recommendation against launch
-  below prior temperature experience, management reversal, and incomplete
-  communication to higher launch-decision levels.
-- Unknown: whether one source-local passage independently connects that
-  recommendation-and-reversal sequence to a decision-relevant disposition,
-  accountable stop, or causal conclusion.
-- The owner record already points to `Rogers Commission Volume I` and `NASA
-  History Office Chapter V`. Their exact relevant passages remain `VERIFY`.
-- No transcript, exhibit, log, memo, catalog entry, custody chain, authority
-  assignment, or causal link may be assumed.
+Answer with exactly eight short lines using these labels:
 
-Answer with exactly six short lines using these labels:
+- **Unit:** exactly `Equifax online dispute portal and connected databases`.
+- **Period:** exactly `2017 breach period`.
+- **Evidence object:** one supplied GAO finding, without adding detail.
+- **System relation:** exactly one of `identification`, `detection`,
+  `database-access segmentation`, or `data governance`.
+- **Affected standing:** the supplied population fact.
+- **Alternative:** one narrower intrusion or security-control explanation that
+  remains possible without claiming it is sufficient.
+- **Unknown:** one missing decision, authority, sequence, or causal link.
+- **Disposition:** exactly `draft_bounded_record` or `insufficient_for_record`.
 
-- **Route:** exactly `Rogers Commission Volume I`, `NASA History Office Chapter
-  V`, or `no_bounded_route`.
-- **Passage feature:** one literal feature to seek, not a claimed quotation.
-- **Supports if:** the minimum source-local connection that would support the
-  causal bridge.
-- **Refuses if:** one finding that would leave the bridge unknown or weaken it.
-- **Decision:** exactly `open_verified_source` or `stop_source_search`.
-- **Stop:** one exact condition that ends this route without widening sources.
-
-This is a verify-only retrieval proposal and decision, not a finding. Do not
-infer blame, liability, remedy, recurrence, authority, or causal weight. Use
-plain Markdown, no table or frontmatter, and keep it under 160 words.
+This is a source-bounded candidate, not an accepted failure record, recurrence
+claim, schema fit, blame finding, policy judgment, remedy, or external-action
+request. Use plain Markdown, no table or frontmatter, and keep it under 180
+words.
