@@ -1,44 +1,44 @@
-# Repair one Grenfell oversight-visibility distinction
+# Open one East Palestine decision-object source review
 
-Prepare one proposal-only repair for the Grenfell Tower fire-safety oversight
-path. Use only the supplied Grenfell Tower Inquiry Phase 2 Volume 1 executive-
-summary facts from paragraphs 2.59-2.60. Do not retrieve sources. Do not invent
-a review author, recommendation, date, custodian, recipient, decision,
-disposition, causal weight, blame, remedy, duty, or legal finding.
+Prepare one proposal-only official-source review opener for the East Palestine
+post-derailment emergency-decision phase. Use only the supplied NTSB-grounded
+facts. Do not retrieve sources. Do not invent a supplier, document, statement,
+timestamp, custodian, recipient transition, alternative, authority, causal
+weight, blame, remedy, duty, liability, or health finding.
 
 Supplied source-local facts:
 
-- Paragraph 2.59 says RBKC oversaw the TMO's activities rather than its day-to-
-  day operations; oversight was weak, fire safety had no key performance
-  indicator, and independent or rigorous scrutiny was absent.
-- Paragraph 2.59 says RBKC took little or no account of a highly critical 2009
-  fire-safety review carried out for the TMO.
-- Paragraph 2.59 says RBKC did not know of a highly critical 2013 report because
-  the TMO had not disclosed it to RBKC.
-- Paragraph 2.60 says reporting from TMO senior management to its board and
-  RBKC existed but did not operate effectively because relevant fire-safety
-  matters were not candidly reported.
-- This packet does not supply either review, its recommendations, one complete
-  custody chain, a decision changed or left unchanged, counterevidence, or a
-  causal link to the fire.
+- Three days after the derailment, the local incident commander approved
+  venting and burning five vinyl-chloride-monomer tank cars.
+- The NTSB found the decision unnecessary and based on incomplete and
+  misleading information supplied by Norfolk Southern officials and
+  contractors.
+- The local incident commander retained on-scene decision authority; reliance
+  on supplied information did not transfer that authority.
+- Complete information custody, every alternative available at decision time,
+  individual knowledge, liability, health causation, and remedy effects remain
+  unknown.
+- Bearing failure and wayside detection belong to an earlier phase and cannot
+  fill a later incident-command link.
 
-Return exactly seven short lines:
+Return exactly eight short lines:
 
-- **Unit:** exactly `RBKC-TMO fire-safety oversight and reporting system`.
-- **Evidence object:** choose exactly `2009 critical fire-safety review` or
-  `2013 critical fire-safety report`.
-- **Visibility relation:** for the 2009 review choose exactly `visible to RBKC
-  oversight; decision-time disposition unverified`; for the 2013 report choose
-  exactly `not disclosed to RBKC; oversight visibility absent`.
-- **Source support:** state exactly the matching supplied paragraph 2.59 fact.
-- **Missing link:** for the 2009 review choose exactly `review custody,
-  accountable recipient, and decision-time disposition`; for the 2013 report
-  choose exactly `report custody, disclosure route, and later disposition`.
-- **Review decision:** choose exactly `verify_selected_review_chain` or
-  `defer_for_review_text`.
-- **Non-effect:** exactly `No failure record, recurring mechanism, schema
-  pressure, blame, duty, remedy, receiver work, or external action is accepted.`
+- **Decision object:** exactly `technical information supporting the proposed
+  vent-and-burn decision`.
+- **Accountable authority:** exactly `local incident commander`.
+- **Supported disposition:** exactly `venting and burning was approved`.
+- **Source-stated problem:** exactly `the decision was unnecessary and based
+  on incomplete and misleading information`.
+- **Missing chain:** exactly `supplier statement, custody, receipt time,
+  alternative set, and decision-time treatment`.
+- **Phase refusal:** exactly `bearing monitoring cannot supply the missing
+  emergency-decision chain`.
+- **Review decision:** choose exactly `verify_decision_information_chain` or
+  `defer_for_source_local_chain_gap`.
+- **Non-effect:** exactly `No recurring mechanism, schema pressure, blame,
+  duty, liability, health conclusion, remedy, receiver work, or external
+  action is accepted.`
 
-`verify_selected_review_chain` opens only a source-verification candidate for
-Frontier review. It does not infer that visibility changed a decision. Use
-plain Markdown, no table or frontmatter, under 190 words.
+`verify_decision_information_chain` opens only a bounded Frontier review of the
+NTSB report and cited record for the named missing chain. Use plain Markdown,
+no table or frontmatter, under 210 words.
