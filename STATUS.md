@@ -509,6 +509,17 @@ remain unknown. The active slots now test the dependent Flint receiver
 disposition and a bounded Lac-Megantic/East Palestine comparison without
 claiming a shared hazardous-material or authority mechanism.
 
+`SF-COMP-LACMEGANTIC-EASTPALESTINE-HAZMAT-AUTHORITY-BOUNDARY` now closes that
+comparison as `preserve_separate_hazardous_material_authority_phases`.
+Lac-Megantic securement, shutdown, containment, management, and regulatory
+objects remain distinct from East Palestine bearing detection, derailment,
+technical-information supply, and later incident-command authority. Shared
+hazardous-material consequence establishes no common custody, accountable
+authority, disposition, stop condition, or control effect. The unattempted
+Flint receiver-disposition slot remains unchanged; the exploration slot now
+tests Lac-Megantic and Conception only on bounded safety-management and
+oversight pressures.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

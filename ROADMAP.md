@@ -295,10 +295,15 @@
 83. Prepared only: disposition whether the later Flint authority, validation,
     and stop link changes the existing source-local-completion requirement or
     receiver readiness without borrowing it into the earlier complaint chain.
-84. Prepared only: compare Lac-Megantic and East Palestine only on hazardous-
-    materials and authority phases while preserving runaway and securement,
-    bearing and derailment, post-derailment decision, containment, regulatory,
-    and community facts as separate source-local objects.
+84. Done: compare Lac-Megantic and East Palestine only on hazardous-materials
+    and authority phases while preserving runaway and securement, bearing and
+    derailment, post-derailment decision, containment, regulatory, and
+    community facts as separate source-local objects
+    (`SF-COMP-LACMEGANTIC-EASTPALESTINE-HAZMAT-AUTHORITY-BOUNDARY`).
+85. Prepared only: test whether Lac-Megantic and Conception support one common
+    safety-management and regulatory-oversight chain or only different rail
+    and marine control pressures with separate custody, authority,
+    disposition, stop, and control-effect unknowns.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

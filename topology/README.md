@@ -449,3 +449,9 @@ testing, locomotive fire and air-brake loss, dangerous-goods containment,
 company safety management, regulatory oversight, and community consequences
 distinct without establishing recurrence, one root cause, liability, remedy,
 or schema fit.
+
+`SF-COMP-LACMEGANTIC-EASTPALESTINE-HAZMAT-AUTHORITY-BOUNDARY.md` preserves the
+two records' event, containment, information, and authority phases as separate
+source-local objects. Hazardous-material consequence alone does not establish
+one custody-to-authority mechanism, and neither record supplies the other's
+accountable authority, disposition, stop condition, or control effect.

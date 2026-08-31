@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-31T17:20:00-05:00"
-run_ref: RUN-20260831-220523-cai-systemic-failure-prepared-progress
-bottom_line: "The later Flint order link does not complete the complaint chain; Lac-Megantic is open as a bounded multi-layer record."
+updated_at: "2026-08-31T18:20:00-05:00"
+run_ref: RUN-20260831-230349-cai-systemic-failure-prepared-progress
+bottom_line: "Lac-Megantic and East Palestine retain separate hazardous-material event, information, and authority phases."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published the bounded Flint order-link review and Lac-Megantic record, then replenished both terminal slots."
-    movement_ref: "inquiries/SFQ-0002-FLINT-ORDER-LINK-REVIEW-0001.md; evidence/records/SF-0012-lac-megantic-securement-and-oversight-boundaries.md; ROADMAP.md"
+    last_movement: "Closed the Lac-Megantic/East Palestine comparison as a negative source-local boundary and replenished only terminal slot B."
+    movement_ref: "topology/SF-COMP-LACMEGANTIC-EASTPALESTINE-HAZMAT-AUTHORITY-BOUNDARY.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Disposition the later Flint link while separately comparing Lac-Megantic and East Palestine on bounded hazardous-material and authority phases."
+    steering_prompt: "Disposition the later Flint link while separately testing Lac-Megantic and Conception on bounded safety-management and oversight pressures."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: later_order_bounded_and_lac_megantic_opened
-    evidence_ref: "inquiries/SFQ-0002-FLINT-ORDER-LINK-REVIEW-0001.md; evidence/records/SF-0012-lac-megantic-securement-and-oversight-boundaries.md; ROADMAP.md"
-    summary: "The later order supplies authority and stop objects without completing the earlier Flint chain; Lac-Megantic adds one bounded rail and community-scale record."
-    evaluated_at: "2026-08-31T17:20:00-05:00"
-    run_ref: RUN-20260831-220523-cai-systemic-failure-prepared-progress
+    reason_code: hazmat_authority_phases_kept_separate
+    evidence_ref: "topology/SF-COMP-LACMEGANTIC-EASTPALESTINE-HAZMAT-AUTHORITY-BOUNDARY.md; ROADMAP.md"
+    summary: "Shared hazardous-material consequence does not supply one custody, authority, disposition, stop, or control-effect chain across the two rail cases."
+    evaluated_at: "2026-08-31T18:20:00-05:00"
+    run_ref: RUN-20260831-230349-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 80 and 82 with one bounded source-link review and one source-backed case record, then installed two materially different successor questions without changing schema or receiver authority."
+    progress_delta: "Closed Roadmap 84 with one bounded negative comparison, preserved the unattempted production slot, and installed one materially different exploration question without changing schema or receiver authority."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep SFQ-0002 and the schema provisional; preserve the later-order chronology boundary and test any rail comparison only on source-local phase distinctions."
+    recommendation: "Keep SFQ-0002 and the schema provisional; preserve the rail phase boundary and test cross-domain oversight only through source-local objects."
     findings:
-      - "The later EPA order supplies accountable authority, validation, and stop objects but does not complete the earlier Flint complaint chain."
-      - "Lac-Megantic supports distinct securement, transition, containment, management, oversight, and community layers without one-root-cause collapse."
-      - "Neither result establishes recurrence, shared mechanism, schema pressure, remedy, acceptance, receiver work, liability, or external action."
+      - "Lac-Megantic securement, shutdown, containment, management, and oversight remain distinct from East Palestine bearing, detection, derailment, information, and incident-command phases."
+      - "Hazardous-material consequence alone establishes no shared custody-to-authority mechanism."
+      - "The comparison establishes no recurrence, shared mechanism, schema pressure, remedy, acceptance, receiver work, liability, health conclusion, or external action."
     options:
       - id: A
         label: "Stay provisional"
