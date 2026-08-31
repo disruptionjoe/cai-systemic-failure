@@ -54,14 +54,20 @@ Prompt hashes are immutable provenance for receipts, replay, and like-content
 comparison. They are not launch eligibility, lineage lifecycle, or scheduling
 authority, and a new hash never resets family history.
 
-When Stewardship retires a local-model lineage without an eligible successor,
-the corresponding host launch must be disabled or unloaded in the same
-authorized closeout. Do not rely on evaluator guidance, prompt wording, file
-presence, or the retired hash itself to stop execution. If the active Run lacks
-authority over the host launcher, preserve the retirement, report the exact
-launch-state wake, and do not claim verified cessation. Before treating a
-packet slot as active, verify both current owner eligibility and actual host
-launcher state.
+Retiring a weak lineage closes only that family. It frees the reusable packet
+slot for the next highest-value work selected from the repository's complete
+purpose and current state. Frontier Stewardship must refill every completed
+slot with a simpler, materially different successor before close; a family-
+local continuation or evidence gate cannot block unrelated successor work.
+
+Declining local-output quality is evidence to simplify, diversify, or
+reprioritize the next prompt, not a reason to turn off local capacity. Disable
+or unload a host job only for an exact safety, authority, machine-health, or
+owner-wide repository blocker that prevents all separable successor work. A
+temporary unload used to prevent rerunning stale bytes is containment only and
+must carry the exact wake to refill the slot and restore its job. Before
+treating a slot as active, verify both an eligible current prompt and actual
+host launcher state.
 
 ## System Execution Boundary
 

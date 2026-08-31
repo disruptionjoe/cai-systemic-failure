@@ -1,6 +1,6 @@
 # System Failures local-model operating cycle
 
-Status: `operational_pilot_transport_off`
+Status: `operational_pilot`
 
 This is the target-owned interface for an hourly Frontier Repository Operating
 Cycle using two rolling local-model packet slots. The complete governed Run
@@ -8,18 +8,18 @@ contract and receipts remain in System Runtime.
 
 ## Current launch state
 
-The System Failures Mac packet triggers are disabled as of 2026-08-30. Both
-stable comparison lineages are retired without eligible successors, so the
-retained prompt files and hashes are evidence only. An hourly operating cycle
-may inspect already completed unseen attempts, but no new System Failures
-attempt should be launched until owner eligibility and an explicitly
-authorized host schedule are both restored.
+The two System Failures Mac packet triggers are active. Their stable paths are
+reusable slots, not lineage identities: the low-yield comparison families are
+retired and two materially different owner-priority prompts now occupy the
+slots. The brief 2026-08-30 unload prevented more launches of stale bytes while
+replacement work was installed; it was not a reason to stop local capacity.
 
-Prompt hashes identify exact bytes after selection. They never activate a
-slot, keep a retired lineage alive, or reset its history. A retirement close
-must disable or unload the matching host trigger when the close has that
-authority; otherwise it must return the exact launch-state wake and must not
-claim cessation.
+Prompt hashes identify exact bytes after selection. They never activate or
+retire a slot, keep a lineage alive, reset its history, or gate unrelated
+successor selection. A completed slot is refilled before close unless an exact
+safety, authority, machine-health, or owner-wide repository blocker prevents
+all separable work. Restrict a narrower blocker to its affected effect and
+continue with the next useful successor.
 
 ## Topology when transport is active
 
@@ -46,7 +46,7 @@ There is no scheduled self-selecting Deep Progress source for this pilot.
 
 ## Retained slots and ownership
 
-The stable transport slots, currently inactive, are:
+The active stable transport slots are:
 
 - `packets/01-next-test-gate/prompt.md` — rolling slot A;
 - `packets/02-field-trace/prompt.md` — rolling slot B.
@@ -79,9 +79,11 @@ not on the live Mac schedule.
 Systemic Repository Stewardship is the sole writer of the two active prompts.
 For each slot it freezes the current prompt hash and completed attempts. After
 every attempt through the frozen boundary receives a terminal disposition, a
-Prepared Progress child may install one new complete prompt for that slot as
-bounded process Progress. The next prompt must address a materially different
-unhandled repository pressure and embed all evidence the local model needs.
+Prepared Progress child installs one new complete prompt for that slot as
+bounded process Progress before close. The next prompt must address a
+materially different unhandled repository pressure selected from the complete
+owner priority and embed all evidence the local model needs. A family-local
+continuation gate cannot block unrelated successor selection.
 
 Do not rewrite a slot while its current attempt is running, reuse an already
 handled effect, or make the local executor select work. The four-hour review
@@ -132,17 +134,19 @@ Each packet family has a stable lineage ID across prompt rewrites and slot
 renaming. Stewardship records whether it adopts, adapts, or declines advisory
 guidance with exact target evidence. Two consecutive sealed opportunities with
 both no retained contribution and no useful target-native owner effect require
-rotation or retirement unless a named diagnostic question is bounded to at
-most two cycles or four attempts. The default two-slot balance is one
-production family tied to a named unfinished owner need and one exploration
-family; changing that balance never adds slots, cadence, or model capacity.
+rotation or retirement of that family unless a named diagnostic question is
+bounded to at most two cycles or four attempts. Retirement frees the slot for
+same-cycle reselection. The default two-slot balance is one production family
+tied to a named unfinished owner need and one exploration family; changing
+that balance never adds slots, cadence, or model capacity.
 
 Prepared Progress independently verifies every admitted claim and may retain,
 repair, narrow, replace, or discard candidate content. A compatible batch may
 combine candidate integration with replenishing both completed slots. If no
 candidate survives, fresh nonduplicative packet preparation is still a valid
-bounded Progress effect. It is not target research Progress until the prompt
-is later executed, verified, and incorporated into owner truth.
+bounded Progress effect and is required while safe separable owner work
+remains. It is not target research Progress until the prompt is later executed,
+verified, and incorporated into owner truth.
 
 ## Progress and learning semantics
 

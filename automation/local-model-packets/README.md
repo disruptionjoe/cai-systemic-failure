@@ -6,18 +6,17 @@ Progress owns verification, repository writes, validation, and acceptance.
 
 ## Current launch state
 
-System Failures packet transport is off as of 2026-08-30. The two installed
-Mac jobs were unloaded after both stable lineages were retired, and no System
-Failures packet folder is currently an active launch target. The retained
-prompts and their hashes are immutable experiment evidence, not eligibility
-state.
+System Failures packet transport uses two reusable Mac slots. The old
+comparison families remain retired, while new purpose-aligned prompts occupy
+the same stable transport paths. The brief unload on 2026-08-30 was stale-byte
+containment, not a steady-state decision to stop useful local work.
 
-Future operation must keep three meanings separate: stable lineage identifies
-the family across rewrites, explicit owner eligibility plus actual scheduler
-state determines whether a launch may occur, and the prompt hash records exact
-submitted bytes after selection. Retirement without a successor closes the
-matching scheduler target; changing guidance or preserving a hash is not a
-substitute.
+Keep three meanings separate: stable lineage identifies one family across
+rewrites, the reusable slot carries successive families, and the prompt hash
+records exact submitted bytes after selection. Retiring a family frees its
+slot for immediate reselection from owner purpose. Only an exact safety,
+authority, machine-health, or owner-wide repository blocker may stop all
+separable successor work.
 
 ## Pilot shape when transport is active
 
@@ -38,9 +37,9 @@ four-hour aggregate learning review
   -> never interpret target truth or edit active prompts
 ```
 
-The retained slot paths are `packets/01-next-test-gate/prompt.md` and
+The active slot paths are `packets/01-next-test-gate/prompt.md` and
 `packets/02-field-trace/prompt.md`. Their names are stable transport IDs left
-from the experiment; neither is currently active. Packet folders 03 through 06
+from the experiment, not permanent work types. Packet folders 03 through 06
 are historical Phase 2 evidence and are not active launch targets.
 
 The current content priority is public-source research: recognizable present
@@ -57,12 +56,13 @@ sends no model-setting override. Output remains immutable under
 `/Users/joe/Brain/local-model-scout/outputs`.
 
 Systemic Repository Stewardship in the hourly operating cycle is the sole
-active-prompt author. A slot changes
-only after its completed attempts have terminal dispositions. A replacement
-prompt receives a new hash and asks for one materially different, bounded,
-nonduplicative candidate artifact. Observation remains evidence-only. The
-four-hour review records aggregate adaptation learning and bounded advisory
-guidance without racing or controlling production.
+active-prompt author. A slot changes only after its completed attempts have
+terminal dispositions, and it must receive a materially different bounded
+successor before the cycle closes unless one exact owner-wide blocker prevents
+all separable work. The new hash is recorded after selection; it does not make
+the decision. Observation remains evidence-only. The four-hour review records
+aggregate adaptation learning and bounded advisory guidance without racing or
+controlling production.
 
 Transport success, nonempty text, packet preparation, or `nothing to do` is
 not repository Progress. The production question is whether verified local

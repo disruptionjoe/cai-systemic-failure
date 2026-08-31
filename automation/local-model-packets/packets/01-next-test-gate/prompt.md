@@ -1,64 +1,41 @@
-# Compare Texas City and Macondo process-safety control pressure
+# Choose the next source review for SFQ-0002
 
-## Boundary
+Help a Frontier researcher choose the next useful move for this unresolved
+inquiry:
 
-Return one raw Markdown comparison candidate using only the frozen owner facts
-below. Do not reopen sources, borrow facts or links across cases, treat common
-BP identity, process-safety language, severe outcome, contractors, or later
-investigation as recurrence, infer intent or liability, prescribe remedy,
-accept schema, create receiver work, or request action. Family lineage:
-`SF-LIN-COMP-TEXAS-CITY-MACONDO-PROCESS-SAFETY-01`.
+> When do affected-party or operational observations become decision-relevant
+> validation and correction objects across infrastructure and authority
+> boundaries?
 
-## Frozen Owner Facts
+Current owner evidence:
 
-### Texas City (`SF-0008`)
+- The Flint review supports dated complaint evidence, its Region 5 record
+  source, and receipt of 87 complaints before the January 2016 order. It does
+  not establish custody of one selected observation, recipient authority then
+  in force, linkage to a current validation burden, source-preserved
+  disposition, a timely unresolved stop, or causal relevance.
+- The bounded Challenger record supports a recommendation-to-reversal-to-
+  incomplete-visibility sequence. Exact dissent date, custody, complete
+  recipient transitions, then-current authority, complete disposition,
+  accountable stop, and the causal bridge remain unknown.
+- The inquiry stays provisional. Another source review is worthwhile only if
+  it can resolve a load-bearing unknown without borrowing facts or inventing a
+  mechanism.
 
-- Startup instrumentation and control problems, abnormal-startup history,
-  splitter flooding and overpressure, atmospheric blowdown, trailer siting,
-  fatigue, and staffing remain distinct event and protection pressures.
-- Safety culture, regulatory oversight, process-safety metrics, and human
-  factors are visible at multiple levels. Complete custody, authority
-  transitions, causal weighting, liability, and remedy efficacy are `unknown`.
-- Refinery design, startup procedure, instrumentation, containment and relief,
-  siting, workforce, corporate governance, regulation, and legal accounts
-  remain sovereign.
+Write a short research decision brief. Choose exactly one:
 
-### Macondo (`SF-0004`)
+1. review one additional official Flint source;
+2. review one additional official Challenger source;
+3. narrow the inquiry now; or
+4. retire the inquiry now.
 
-- Conflicting negative-pressure-test, pressure, flow, barrier, procedure,
-  acceptance-criteria, and interpretation evidence needed resolution before
-  the prior barrier assumption could stand.
-- The review path crossed operator, rig, contractor, procedure, real-time
-  decision, and regulator-facing boundaries. Complete knowledge, intent,
-  custody, and authority transitions remain `unknown`.
-- Well design, cementing, drilling operations, blowout prevention, emergency
-  response, offshore regulation, worker safety, environmental, and legal
-  accounts remain sovereign.
+Explain why your choice has the highest expected research value. If you choose
+a source review, name the exact missing link to test, the specific official
+document or responsible institution to look for, what passage or record would
+count as support, what would count against the inquiry, and when to stop. If
+you are unsure a document exists, say it must be verified rather than claiming
+it as fact.
 
-### Comparison control
-
-- The only candidate common pressure is whether operational evidence and
-  process-safety control remained sufficiently integrated before the relevant
-  decision. Common corporate identity is not mechanism evidence.
-- Decide exactly one of `shared_process_safety_control_pressure`,
-  `superficial_similarity`, or `insufficient_evidence`.
-
-## Required Artifact
-
-Draft `SF-COMP-TEXASCITY-MACONDO-process-safety-control.md` with delimited YAML
-frontmatter naming comparison ID `SF-COMP-TEXASCITY-MACONDO-PROCESS-SAFETY`,
-records `[SF-0008, SF-0004]`, provisional claim posture, repository-record
-source material, one permitted disposition, and `external_action: none`.
-
-Include title, `Boundary`, `Cases and source custody`, and a nine-row matrix
-for `Operational evidence`, `Decision phase`, `Information custody`,
-`Accountable authority`, `Validation burden`, `Disposition or stop`, `Affected
-standing`, `Domain absorber`, and `Causal relevance`. Then include
-`Disposition`, `Shared residue or refusal`, `Material differences`,
-`Counterevidence and alternatives`, `Unknowns`, `Falsifier`, `Candidate
-effect`, and `Frontier verification`. Preserve `unknown` for unsupported links.
-
-Candidate effect must be exactly: `COMPARE TEXAS CITY AND MACONDO PROCESS-SAFETY CONTROL PRESSURE — NO RECURRENCE, SCHEMA, REMEDY, ACCEPTANCE, RECEIVER-WORK, OR EXTERNAL-ACTION CHANGE`.
-
-Return only the finished artifact. Do not use a code fence. Keep it under 700
-words.
+This is a proposal for Frontier verification, not repository truth. Do not
+infer blame, liability, remedy, or unsupported facts. Use plain Markdown, no
+frontmatter or table, and keep it under 450 words.

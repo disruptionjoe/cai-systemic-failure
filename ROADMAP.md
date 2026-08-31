@@ -235,12 +235,16 @@
 69. Done: compare East Palestine and Macondo only on a bounded information-to-
     authority pressure while preserving their different decision phases and
     sovereign domain explanations (`SF-COMP-EASTPALESTINE-MACONDO-INFO-AUTH`).
-70. Prepared only: compare Texas City and Macondo for bounded process-safety
-    control pressure without treating shared BP identity, severe outcome,
-    process-safety terminology, or later investigation as recurrence.
-71. Prepared only: compare East Palestine and Texas City for a cross-domain
-    information-to-control pressure while preserving their different phases,
-    source objects, authority facts, affected standing, and domain absorbers.
+70. Retired after repeated low-yield attempts: Texas City/Macondo bounded
+    process-safety-control comparison.
+71. Retired after repeated low-yield attempts: East Palestine/Texas City
+    cross-domain information-to-control comparison.
+72. Prepared only: choose the next official-source review most likely to
+    resolve one load-bearing `SFQ-0002` unknown, or recommend narrowing or
+    retirement if no bounded review can change the inquiry.
+73. Prepared only: rank three materially different public-source research
+    moves from the complete owner priority, with a source bar, expected owner
+    decision, and rejection condition for each.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
