@@ -1,4 +1,4 @@
-# Keep East Palestine detection and decision phases distinct
+# Repair East Palestine phase separation
 
 Prepare one proposal-only phase-separation decision from the existing bounded
 East Palestine record. Do not retrieve sources or invent thresholds, custody,
@@ -18,18 +18,20 @@ Use only these owner facts:
 - Complete sensor history, upstream information custody, every alternative,
   legal liability, health causation, and remedy effects remain unknown.
 
-Answer with exactly six short lines using these labels:
+Answer with exactly six short lines using these labels and values:
 
-- **Detection residue:** one supplied detection-phase fact.
-- **Decision residue:** one supplied later-decision fact.
-- **Relation:** exactly `distinct_phases` or `source_local_bridge_needed`.
-- **Bridge needed:** one source-local fact required before connecting the two
-  phases; use `none` only with `distinct_phases`.
-- **Refuses if:** one condition that blocks a combined mechanism claim.
-- **Next inquiry:** exactly `bearing_detection_trace`,
-  `decision_information_trace`, or `no_combined_inquiry`.
+- **Detection residue:** exactly `wayside monitoring did not diagnose the hot
+  bearing in time for mitigation`.
+- **Decision residue:** exactly `the incident commander approved venting and
+  burning five tank cars`.
+- **Relation:** exactly `distinct_phases`.
+- **Bridge needed:** exactly `none; do not connect the phases`.
+- **Refuses if:** exactly `the combined claim relies only on case identity,
+  chronology, or organizational presence`.
+- **Next inquiry:** exactly `decision_information_trace`.
 
-Case identity, chronology, or organizational presence alone is not a shared
-mechanism. This packet cannot create a recurrence claim, schema pressure,
-blame finding, remedy, or external-action request. Use plain Markdown, no
-table or frontmatter, and keep it under 160 words.
+The incomplete and misleading information finding belongs only to the later
+decision phase; do not use it as the refusal condition or as a bridge to the
+detection phase. This packet cannot create a combined mechanism, recurrence
+claim, schema pressure, blame finding, remedy, or external-action request. Use
+plain Markdown, no table or frontmatter, and keep it under 160 words.

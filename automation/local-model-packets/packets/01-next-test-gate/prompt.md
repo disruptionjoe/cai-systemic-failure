@@ -1,4 +1,4 @@
-# Draft one bounded Equifax evidence packet
+# Repair one bounded Equifax evidence packet
 
 Prepare a proposal-only record packet for the 2017 Equifax data breach using
 only the supplied U.S. Government Accountability Office facts. Do not retrieve
@@ -23,16 +23,21 @@ Answer with exactly eight short lines using these labels:
 
 - **Unit:** exactly `Equifax online dispute portal and connected databases`.
 - **Period:** exactly `2017 breach period`.
-- **Evidence object:** one supplied GAO finding, without adding detail.
+- **Evidence object:** exactly `GAO reports unauthorized Internet access
+  through the online dispute portal`.
 - **System relation:** exactly one of `identification`, `detection`,
   `database-access segmentation`, or `data governance`.
-- **Affected standing:** the supplied population fact.
-- **Alternative:** one narrower intrusion or security-control explanation that
-  remains possible without claiming it is sufficient.
-- **Unknown:** one missing decision, authority, sequence, or causal link.
-- **Disposition:** exactly `draft_bounded_record` or `insufficient_for_record`.
+- **Affected standing:** exactly `personal information of at least 145.5
+  million individuals`.
+- **Alternative:** exactly `a narrower intrusion or security-control failure
+  remains possible and is not sufficient by itself`.
+- **Unknown:** choose exactly one of `exact attack sequence is not supplied`,
+  `patch history is not supplied`, `accountable decision owner is not
+  supplied`, or `causal allocation among the four factor classes is not
+  supplied`.
+- **Disposition:** exactly `draft_bounded_record`.
 
-This is a source-bounded candidate, not an accepted failure record, recurrence
-claim, schema fit, blame finding, policy judgment, remedy, or external-action
-request. Use plain Markdown, no table or frontmatter, and keep it under 180
-words.
+Do not replace the **Unknown** choice with a generic label or list. This is a
+source-bounded candidate, not an accepted failure record, recurrence claim,
+schema fit, blame finding, policy judgment, remedy, or external-action request.
+Use plain Markdown, no table or frontmatter, and keep it under 180 words.
