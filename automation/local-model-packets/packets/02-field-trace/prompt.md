@@ -1,10 +1,10 @@
-# Open one Fukushima design-basis reassessment review
+# Repair one Fukushima design-basis continuity distinction
 
-Prepare one proposal-only source-review opening for the Fukushima Daiichi
-tsunami design-basis reassessment path. Use only the supplied IAEA-source facts
-already bounded by the owner repository. Do not retrieve sources. Do not invent
-a reassessment date, author, custodian, recipient, authority, decision,
-disposition, causal weight, blame, remedy, regulatory duty, or legal finding.
+Prepare one proposal-only repair for the Fukushima Daiichi external-hazard
+review path. Use only the supplied IAEA-source facts already bounded by the
+owner repository. Do not retrieve sources. Do not invent a reassessment date,
+author, custodian, recipient, authority, decision, disposition, causal weight,
+blame, remedy, regulatory duty, or legal finding.
 
 Supplied source-local facts:
 
@@ -22,27 +22,24 @@ Supplied source-local facts:
   custody, accountable recipient, authority then in force, decision-time
   disposition, unresolved stop, counterevidence, or causal link to the event.
 
-Return exactly nine short lines:
+Return exactly seven short lines:
 
 - **Unit:** exactly `Fukushima Daiichi external-hazard and site-protection
   review system`.
-- **Period:** exactly `before the March 2011 accident`.
-- **Knowledge object:** choose exactly `historical tsunami design basis` or
-  `pre-accident external-hazard reassessment`.
-- **Pressure route:** choose exactly `reassessment-to-design-basis` or
-  `reassessment-to-site-protection`.
-- **Source support:** state exactly one supplied fact supporting the selected
-  knowledge object and route.
-- **Boundary:** name the unchosen pressure route and keep it separate.
-- **Required next link:** exactly `dated reassessment to accountable recipient,
-  decision, and closure state before March 2011`.
+- **Established object:** exactly `historical tsunami design basis`.
+- **Established relation:** exactly `the licensing tsunami design basis still
+  represented flooding at the time of the March 2011 accident`.
+- **Unproved relation:** exactly `pre-accident reassessment to accountable
+  recipient, authority, decision, and closure state`.
 - **Alternative:** exactly `domain-specific tsunami hazard and site-protection
   inadequacy without one source-preserved review chain`.
-- **Opening decision:** choose exactly `open_bounded_source_review` or
-  `defer_for_decision_time_source_gap`.
+- **Review decision:** choose exactly `verify_pre_accident_reassessment_chain`
+  or `defer_for_decision_time_source_gap`.
+- **Non-effect:** exactly `No failure record, recurring mechanism, schema
+  pressure, nuclear-safety or regulatory conclusion, blame, duty, remedy,
+  receiver work, or external action is accepted.`
 
-`open_bounded_source_review` opens only a source-verification candidate for
-Frontier review. It accepts no failure record, recurring mechanism, schema
-pressure, nuclear-safety or regulatory conclusion, blame, duty, remedy,
-receiver work, or external action. Use plain Markdown, no table or frontmatter,
-under 220 words.
+`verify_pre_accident_reassessment_chain` opens only a source-verification
+candidate for Frontier review. Historical design-basis continuity does not by
+itself prove a reassessment-to-decision chain. Use plain Markdown, no table or
+frontmatter, under 200 words.
