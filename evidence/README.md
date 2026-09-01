@@ -103,3 +103,9 @@ research material is rejected and routed to a separately authorized secure owner
   ignition, worker or community standing, and industry learning distinct while
   making no recurrence, blame, HF or health, remedy, liability, or schema
   claim.
+- `records/SF-0021-philadelphia-energy-solutions-hf-alkylation-boundaries.md`
+  - bounded CSB-source synthesis that keeps pipe material and corrosion,
+  inspection coverage, process release, ignition and explosions, hydrocarbon
+  isolation, HF mitigation, worker or community standing, industry knowledge,
+  and later recommendation objects distinct while making no recurrence,
+  blame, HF or health, environmental, remedy, liability, or schema claim.

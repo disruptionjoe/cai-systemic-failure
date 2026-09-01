@@ -1,44 +1,44 @@
-# Open a bounded Philadelphia Energy Solutions refinery record
+# Trace PES HF mitigation control timing
 
-Lineage ID: `SF-LIN-PES-HF-ALKYLATION-OPENING-01`, opportunity 1. Prepare one
-proposal-only case-opening decision from the supplied official-source facts.
-Do not retrieve sources or invent unsupported facts. Frontier review decides
-owner truth. Do not infer recurrence, one root cause, blame, duty, remedy
-efficacy, health causation, or external effect.
+Lineage ID: `SF-LIN-PES-HF-MITIGATION-CONTROL-TIMING-01`, opportunity 1.
+Prepare one proposal-only source-local timing trace from these supplied
+official CSB report facts. Frontier review decides owner truth. Do not retrieve
+sources or invent unsupported facts. Do not infer recurrence, one root cause,
+blame, duty, remedy efficacy, health causation, or external effect.
 
-Official source pointer: U.S. Chemical Safety and Hazard Investigation Board,
-*Philadelphia Energy Solutions (PES) Refinery Fire and Explosions*, incident
-June 21, 2019; final report released October 11, 2022:
-https://www.csb.gov/philadelphia-energy-solutions-pes-refinery-fire-and-explosions-/
+Official source: U.S. Chemical Safety and Hazard Investigation Board,
+*Philadelphia Energy Solutions (PES) Refinery Fire and Explosions*, final
+report released October 11, 2022, especially pages 6-8 and 51-68:
+https://www.csb.gov/assets/1/20/PES_Final_Report_Published_October_2022_r1.pdf
 
 Supplied official-source facts:
 
-- A corroded pipe elbow ruptured in the refinery's HF alkylation unit and
-  released process fluid; vapor ignited, causing fire and multiple explosions.
-- The incident released more than 5,000 pounds of HF, launched a roughly
-  38,000-pound vessel fragment offsite across the Schuylkill River, and caused
-  estimated property damage of about $750 million.
-- The CSB recommendation set separately addresses protection of critical
-  safeguards and control-system components, including wiring and primary or
-  backup power, from fire, heat, and projectiles.
-- Investigation, recommendation, and later status do not prove custody,
-  implementation, control effect, health outcome, recurrence, or one
-  accountable chain.
-- Complete damage history, inspection, knowledge, custody, authority,
-  disposition, implementation, exposure, relative causal weight, recurrence,
-  and remedy efficacy remain unknown here.
+- The rapid acid deinventory system was activated after ignition and routed
+  about 339,000 pounds of HF from the unit to a separate drum.
+- At 4:02:06 a.m., vapor-cloud ignition occurred and control-system
+  communication to the HF-mitigation water pumps failed.
+- At 4:02:15 a.m., the unit's uninterruptible backup power supply failed.
+- At about 4:12 a.m., the control-room operator tried to start the water pumps
+  remotely, but they did not start.
+- At about 4:39 a.m., a shift supervisor in firefighting protective gear
+  manually started the pump supplying the elevated water cannons.
+- The system was designed to reduce airborne HF through water-spray vapor
+  suppression; these facts do not quantify the counterfactual protection
+  effect of earlier activation.
+- Complete alarm custody, component damage, command authority, field-access
+  exposure, implementation, and comparative mitigation effect remain unknown.
 
-Return exactly one Markdown table with eight ordered rows and columns
-`Dimension | Supplied fact | Boundary | Missing link`: `unit and operating
-context`, `pipe damage`, `release path`, `ignition and explosions`, `offsite
-fragment`, `critical safeguards`, `worker or community standing`, `HF and
-health boundary`.
+Return exactly one Markdown table with seven ordered rows and columns
+`Time or object | Supplied source fact | Control distinction | Missing link`:
+`RAD action`, `4:02:06 ignition`, `4:02:06 communication failure`, `4:02:15
+backup-power failure`, `4:12 remote attempt`, `4:39 manual activation`,
+`mitigation-effect boundary`.
 
-Then return exactly four lines:
+Then return exactly four lines outside the table:
 
-- **Decision:** choose `open_bounded_pes_record` or `current_facts_insufficient`.
-- **Falsifier:** name one exact official-source fact that would defeat the selected opening decision.
-- **Unknowns:** `complete damage history, inspection, knowledge, custody, authority, disposition, implementation, exposure, relative causal weight, recurrence, and remedy efficacy remain unknown`
-- **Non-effect:** `No schema, blame, duty, remedy, receiver work, HF or health conclusion, liability, or external action is accepted.`
+- **Decision:** choose `open_bounded_hf_mitigation_timing_trace` or `current_facts_insufficient`.
+- **Falsifier:** name one exact official-source fact that would defeat the selected trace decision.
+- **Unknowns:** `complete alarm custody, component damage, command authority, field-access exposure, implementation, and comparative mitigation effect remain unknown`
+- **Non-effect:** `No recurrence, shared authority mechanism, schema, blame, duty, remedy, receiver work, HF or health conclusion, environmental conclusion, liability, or external action is accepted.`
 
-Plain Markdown, no frontmatter, under 900 words.
+Plain Markdown, no frontmatter, under 750 words.

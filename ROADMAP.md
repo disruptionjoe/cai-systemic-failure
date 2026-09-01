@@ -434,6 +434,24 @@
      release, ignition, fire and explosions, offsite vessel-fragment path,
      safeguard vulnerability, worker or community standing, and HF and health
      boundaries.
+113. Done without a separate comparison artifact: preserve Buncefield and
+     Husky Superior as distinct safeguard-integrity boundaries because the
+     final repair adds no source-local maintenance, custody, authority,
+     disposition, implementation, or control-effect relation and its proposed
+     falsifier is not operative for the selected overfill-versus-FCC
+     separation. The family is retired after its final repair.
+114. Done: open one bounded CSB-grounded Philadelphia Energy Solutions record
+     that separates pipe material and corrosion, inspection coverage, process
+     release, rapid acid deinventory, ignition and explosions, hydrocarbon
+     isolation, HF water mitigation, worker or community standing, industry
+     knowledge, and later recommendation objects (`SF-0021`).
+115. Prepared only: test one source-local PES material-knowledge-to-inspection
+     trace while keeping composition, damage, published knowledge, standard
+     revision, inspection coverage, disposition, and later correction
+     distinct.
+116. Prepared only: test one source-local PES HF-mitigation control-timing
+     trace while keeping RAD, ignition, control communication, backup power,
+     remote command, manual activation, and mitigation effect distinct.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

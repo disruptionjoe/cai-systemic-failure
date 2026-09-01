@@ -6,12 +6,12 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. Slot A now gives the Buncefield/Husky safeguard-integrity
-family one compact final repair after its first opportunity ended with zero
-response bytes at the local generation limit. Slot B now tests whether the
-official CSB Philadelphia Energy Solutions facts support one bounded HF-
-alkylation-unit case opening. The Husky/Torrance comparison is terminal.
-The two Mac LaunchAgents remain active.
+retire the slots. The Buncefield/Husky final repair is terminal, and the PES
+case-opening family completed with one bounded record. Slot A now tests a
+source-local PES material-knowledge-to-inspection trace. Slot B now tests the
+PES HF-mitigation control timeline from RAD through failed remote water-spray
+activation and later manual activation. The two Mac LaunchAgents remain
+active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
 
@@ -34,6 +34,13 @@ reactor steam pressure, eroded slide-valve and missing catalyst-barrier state,
 hydrocarbon backflow, the regenerator and energized-ESP path, worker or
 community standing, and industry learning distinct without claiming
 recurrence, schema fit, liability, HF or health causation, or remedy efficacy.
+
+`SF-0021` adds a bounded Philadelphia Energy Solutions public-source record.
+It keeps pipe material and corrosion, inspection coverage, process release,
+rapid acid deinventory, ignition and explosions, hydrocarbon isolation, HF
+water mitigation, worker or community standing, industry knowledge, and later
+recommendation objects distinct without claiming recurrence, schema fit,
+liability, HF or health causation, environmental effect, or remedy efficacy.
 
 `SF-COMP-HUSKY-TORRANCE-FCC-TRANSIENT-BOUNDARY` adds a bounded comparison at
 the transient-operation and air-hydrocarbon-separation level. It keeps

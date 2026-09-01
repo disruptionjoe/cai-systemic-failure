@@ -533,3 +533,12 @@ opposite flow directions, ignition and escalation paths, standing, and
 industry-learning surfaces distinct. It establishes no recurrence, shared
 maintenance, authority, management, or remedy mechanism, schema pressure, HF
 or health conclusion, receiver work, liability, or external action.
+
+`evidence/records/SF-0021-philadelphia-energy-solutions-hf-alkylation-boundaries.md`
+adds a bounded PES public-source record. It keeps pipe material and corrosion,
+inspection coverage, process release, rapid acid deinventory, ignition and
+explosions, hydrocarbon isolation, HF water mitigation, worker or community
+standing, industry knowledge, and later recommendation objects distinct.
+Complete knowledge, custody, authority, disposition, implementation, exposure
+or health causation, environmental effect, relative causal weight, recurrence,
+screen fit, liability, and remedy efficacy remain unknown.
