@@ -1,30 +1,40 @@
-# Decide the Tesoro and Chevron integrity boundary
+# Build a CAPECO overfill signal-to-stop partial trace
 
-Lineage ID: `SF-LIN-COMP-TESORO-CHEVRON-INTEGRITY-DISPOSITION-01`,
-opportunity 2 and final bounded repair. The prior transport reached its length
-limit and returned zero response bytes. Answer only the compact contract below.
-Use only these supplied owner facts; do not retrieve sources. Do not invent
-unsupported facts. Frontier review decides owner truth.
+Lineage ID: `SF-LIN-CAPECO-OVERFILL-SIGNAL-STOP-TRACE-01`, opportunity 1.
+Prepare one proposal-only trace ledger from the supplied CSB-grounded owner
+facts. Do not retrieve sources. Frontier review decides owner truth. Do not
+invent unsupported facts or complete knowledge, custody, authority,
+disposition, stop status,
+implementation, ignition source, health or environmental causation, recurrence,
+schema fit, blame, duty, remedy efficacy, receiver action, or external effect.
 
-- Tesoro: HTHA weakened a carbon-steel heat exchanger before rupture during
-  non-routine startup. Historical condition prediction was incomplete, the
-  exchangers had not been inspected for HTHA, detection was localized and
-  skill-dependent, higher-chromium material was more resistant, and PHAs did
-  not verify HTHA or startup safeguards.
-- Chevron: sulfidation corrosion thinned one low-silicon carbon-steel pipe
-  component before rupture. Adjacent components corroded at different rates,
-  the failed component was not measured, broader inspection or material
-  upgrade did not enter turnaround scope, leak work lacked a formal protocol,
-  and relevant information did not fully reach incident command.
+Supplied facts from owner record `SF-0016`:
 
-Return exactly seven short lines:
+- A ship-to-terminal transfer was distributed among four tanks over more than
+  24 hours; remaining flow was later directed to tanks 409 and 411.
+- Tank 409 overflowed for about 26 minutes and released nearly 200,000 gallons
+  through vents into the containment dike.
+- Float-and-tape gauging was primary; instruments were poorly maintained and
+  frequently failed. Tank 409's transmitter card was out of service, so manual
+  hourly readings were required.
+- Tank 409 lacked an independent high-level alarm, and the terminal lacked an
+  automatic system able to shut off or divert flow.
+- The release formed a large vapor cloud that ignited; the exact ignition
+  source remains unknown.
 
-- **Unit:** `Tesoro Anacortes and Chevron Richmond integrity comparison`
-- **Damage:** name Tesoro HTHA and exchanger rupture; name Chevron sulfidation corrosion and pipe rupture.
-- **Controls:** separate prediction, inspection, material, work phase, planning, leak response, and incident-command information.
-- **Decision:** `preserve_separate_integrity_boundaries` unless both records establish the same complete degradation object, current condition evidence, inspection method, authority, disposition, stop condition, and control effect.
-- **Differences:** name equipment, damage mechanism, work phase, inspection limits, and affected standing.
-- **Unknowns:** `complete condition history, custody, accountable authority, disposition, stop conditions, relative causal weight, recurrence, schema fit, and remedy efficacy remain unknown`
-- **Non-effect:** `No recurrence, shared mechanism, schema pressure, blame, duty, remedy, receiver work, or external action is accepted.`
+Return a Markdown table with exactly these columns:
 
-Proposal only. No table or frontmatter. Under 220 words.
+`Layer | Supported fact | Boundary | Unknown`
+
+Use exactly seven ordered rows: `transfer allocation`, `level evidence`,
+`instrument condition`, `independent alarm`, `automatic flow control`,
+`overflow and release`, `stop-chain decision`.
+
+After the table return exactly three lines:
+
+- **Decision:** choose `current_record_supports_partial_signal_stop_trace` or `current_record_insufficient_for_trace`.
+- **Missing links:** `complete knowledge, custody, accountable receipt, authority, disposition, stop status, implementation, ignition, and control effect remain unknown`
+- **Non-effect:** `No recurrence, shared mechanism, schema pressure, blame, duty, environmental or health conclusion, remedy, receiver work, or external action is accepted.`
+
+Use the partial-trace decision only if every layer remains separate. Plain
+Markdown, no frontmatter, under 650 words.

@@ -475,3 +475,10 @@ facility and regional-system resource boundaries. Arkema's shared flood
 dependence across facility safeguards does not supply the same stress object,
 custody, authority, disposition, stop condition, or control effect as Texas
 2021's cold-weather electric-gas interdependence.
+
+`SF-DUPONT-LAPORTE-EMERGENCY-RESPONSE-PARTIAL-TRACE-0001.md` preserves a
+bounded CSB-grounded response-control sequence. Distress communication,
+technical support, incident command, responder entry, navigation, monitoring,
+hot-zone control, release control, characterization, and public protection
+remain separate; complete custody, accountable authority, disposition, stop,
+offsite exposure, implementation, and control effect remain unknown.

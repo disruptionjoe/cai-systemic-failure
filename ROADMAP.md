@@ -353,6 +353,23 @@
     technical support, incident command, responder entry, navigation, air
     monitoring, hot-zone control, release characterization, and public
     protection distinct without prescribing a remedy or claiming recurrence.
+96. Done without a separate comparison artifact: the final Tesoro/Chevron
+    repair selected the already-recorded separate-integrity disposition and
+    added no source-local object, custody, authority, disposition, stop, or
+    control-effect relation.
+97. Done: build the bounded DuPont La Porte emergency-response partial trace
+    permitted by CSB `2015-01-I-TX` while keeping technical support, incident
+    command, entry, navigation, monitoring, hot-zone control, release control,
+    characterization, and public protection distinct
+    (`SF-DUPONT-LAPORTE-EMERGENCY-RESPONSE-PARTIAL-TRACE-0001`).
+98. Prepared only: test whether the CAPECO final report supports one bounded
+    signal-to-stop partial trace from transfer allocation and level evidence
+    through alarm, independent protection, flow control, and overflow without
+    inventing complete custody, authority, or control effect.
+99. Prepared only: compare CAPECO and DuPont La Porte only on emergency
+    information, protective-zone, responder or operator standing, release
+    characterization, and public-protection boundaries before any recurrence
+    or shared-mechanism claim.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

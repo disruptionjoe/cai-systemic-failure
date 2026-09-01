@@ -6,10 +6,10 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. Slot A now gives the Tesoro Anacortes and Chevron Richmond
-integrity-boundary family one compact repair opportunity after a completed
-zero-byte length-limit transport. Slot B now prepares a bounded CSB-grounded
-DuPont La Porte toxic-release case opening.
+retire the slots. Slot A now tests one CAPECO overfill signal-to-stop partial
+trace. Slot B tests whether CAPECO and DuPont La Porte share an emergency-
+control pattern or only a superficial consequence resemblance. The Tesoro/
+Chevron repair and first DuPont response-trace opportunity are terminal.
 The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
@@ -618,6 +618,16 @@ repair remains unattempted and byte-identical; the completed slot now tests
 whether a source-local DuPont emergency-response trace can preserve technical
 support, incident command, entry, navigation, monitoring, hot-zone, and public-
 protection boundaries without claiming one mechanism or remedy.
+
+`SF-DUPONT-LAPORTE-EMERGENCY-RESPONSE-PARTIAL-TRACE-0001` now preserves the
+bounded response sequence supported by CSB `2015-01-I-TX`. Distress
+communication, technical support, command, entry, navigation, air monitoring,
+hot-zone control, release control, characterization, and public protection
+remain distinct. Complete custody, accountable receipt, authority,
+disposition, stop status, implementation, offsite exposure, and control effect
+remain unknown. The Tesoro/Chevron compact repair independently returned the
+same separate-integrity disposition already closed in Roadmap 91, so no
+duplicate comparison artifact was added.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one

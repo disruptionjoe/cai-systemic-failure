@@ -1,41 +1,47 @@
-# Trace DuPont La Porte emergency-response control boundaries
+# Compare CAPECO and DuPont emergency-control boundaries
 
-Lineage ID: `SF-LIN-DUPONT-LAPORTE-EMERGENCY-RESPONSE-TRACE-01`, opportunity 1.
-Prepare one proposal-only partial trace from the supplied U.S. Chemical Safety
-Board facts. Do not retrieve sources. Do not invent complete custody,
-individual knowledge, one root cause, blame, legal duty, offsite health
-causation, remedy efficacy, recurrence, schema fit, receiver action, or
-external effect. Frontier review decides owner truth.
+Lineage ID: `SF-LIN-COMP-CAPECO-DUPONT-EMERGENCY-CONTROL-01`, opportunity 1.
+Prepare one proposal-only comparison ledger from supplied owner facts. Do not
+retrieve sources. Frontier review decides owner truth. Do not invent
+unsupported facts or infer recurrence,
+one shared mechanism, one root cause, complete custody, authority, disposition,
+stop status, implementation, exposure or health causation, remedy efficacy,
+receiver action, or external effect.
 
-Supplied facts from CSB Investigation `2015-01-I-TX`:
+CAPECO supplied facts:
 
-- An urgent radio distress call led three operators to enter the manufacturing
-  building without respiratory protection because they did not know a major
-  methyl-mercaptan release was underway; one died and two escaped.
-- The ERT response was marked by miscommunication, disorganization, and weak
-  situational awareness. The shift supervisor designated as process
-  coordinator was a victim, and no on-shift backup filled that role.
-- ERT readiness was delayed; responders lacked building maps, entered without
-  air monitoring, and had difficulty navigating while searching for workers.
-- The hot zone was not clearly marked or communicated. Process data was not
-  analyzed early enough to identify the release source and possible isolation.
-- Release quantity was underestimated; fence-line monitoring and adequate air-
-  monitoring data were unavailable for release characterization and public-
-  protection decisions.
+- Tank 409 overflowed for about 26 minutes after a long multi-tank transfer;
+  unreliable gauging, an out-of-service transmitter card, no independent high-
+  level alarm, and no automatic shutoff or diversion remained distinct.
+- The gasoline formed a large vapor cloud, ignited, damaged tanks and nearby
+  property, and entered environmental resources. The exact ignition source and
+  complete warning, custody, authority, stop, and protection-effect chain are
+  unknown.
 
-Return exactly ten short lines:
+DuPont supplied facts:
 
-- **Unit:** `DuPont La Porte emergency-response partial trace`
-- **Initiation:** distress call, unknown major release, unprotected rescue entry.
-- **Technical link:** unavailable process coordinator, missing on-shift backup, incomplete process-data use.
-- **Entry and navigation:** delayed readiness, no building map, no pre-entry air monitoring, navigation difficulty.
-- **Control zone:** unclear hot-zone marking, communication, entry control, and protective information.
-- **Release characterization:** underestimated quantity, missing fence-line data, incomplete air monitoring, public-protection uncertainty.
-- **Decision:** choose exactly `current_report_supports_partial_response_trace` or `current_report_insufficient_for_trace`.
-- **Missing links:** `complete custody, accountable receipt, authority, disposition, stop status, implementation, offsite exposure, and control effect remain unknown`
-- **Boundary:** `Technical support, incident command, entry, navigation, monitoring, hot-zone control, release control, and public protection remain separate.`
-- **Non-effect:** `No recurrence, shared mechanism, schema pressure, blame, duty, health conclusion, remedy, receiver work, or external action is accepted.`
+- A distress call led unprotected rescue entry during an unrecognized major
+  toxic release. The process coordinator was unavailable, no on-shift backup
+  filled the role, readiness and air monitoring were delayed, maps were absent,
+  and hot-zone control was unclear.
+- Process data and release characterization were incomplete; timely fence-line
+  and adequate air-monitoring data were unavailable for public-protection
+  decisions. Complete custody, authority, disposition, stop, exposure, and
+  control effect are unknown.
 
-Use the partial-trace decision only if every layer stays separate and every
-missing link remains explicit. Plain Markdown, no table or frontmatter, under
-320 words.
+Return a Markdown table with exactly these columns:
+
+`Dimension | CAPECO | DuPont | Comparison boundary`
+
+Use exactly six ordered rows: `initiating control`, `signal and detection`,
+`command or technical support`, `protective zone and access`, `release and
+public characterization`, `complete-chain gate`.
+
+After the table return exactly four lines:
+
+- **Decision:** choose `preserve_separate_emergency_control_boundaries` or `candidate_shared_pattern_requires_frontier_review`.
+- **Shared residue:** name only any bounded relation present in both supplied records.
+- **Unknowns:** `complete custody, accountable authority, disposition, stop status, implementation, exposure, relative causal weight, recurrence, and remedy efficacy remain unknown`
+- **Non-effect:** `No recurrence, shared mechanism, schema pressure, blame, duty, environmental or health conclusion, remedy, receiver work, or external action is accepted.`
+
+Plain Markdown, no frontmatter, under 700 words.
