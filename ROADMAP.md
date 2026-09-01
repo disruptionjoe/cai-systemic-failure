@@ -476,9 +476,15 @@
 121. Prepared only: test whether the bounded PES/Tesoro relation is ready to
      form one answerable mechanism inquiry without converting a comparison into
      recurrence, remedy, receiver work, or shared authority.
-122. Prepared only: contrast PES RAD and water spray inside the same incident
-     to test whether opposite active-safeguard states narrow the broader
-     availability relation without inferring comparative protection effect.
+122. Done: contrast PES RAD and water spray inside the same incident while
+     preserving distinct purpose, activation, dependency, timing, observed-
+     operation, and counterfactual-effect boundaries
+     (`SF-PES-RAD-WATER-SPRAY-SAFEGUARD-CONTRAST`).
+123. Prepared only: open one bounded NTSB-grounded Dali/Francis Scott Key
+     Bridge case that separates electrical connection and blackout, propulsion
+     and steering recovery, vessel proximity and response time, bridge-impact
+     vulnerability, emergency communication, and worker standing without
+     collapsing vessel, bridge-owner, and highway-response authority.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

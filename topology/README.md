@@ -569,3 +569,11 @@ damaged or experienced availability problems in Marathon, CITGO, and PES. It
 keeps event mechanisms, damage states, supply and activation paths, timing,
 capture evidence, standing, authority, and comparative protection effect
 distinct.
+
+`SF-PES-RAD-WATER-SPRAY-SAFEGUARD-CONTRAST.md` narrows the PES evidence to a
+same-incident contrast between successful post-ignition rapid acid
+deinventory and ignition-time loss of remote water-pump control followed by
+later manual activation. It keeps purpose, activation, communication, power,
+physical condition, field access, timing, operation, capture, and
+counterfactual protection distinct and establishes no shared safeguard,
+authority, maintenance, management, or remedy mechanism.

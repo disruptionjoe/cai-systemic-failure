@@ -7,14 +7,17 @@ governance, Lanes, and gates.
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
 retire the slots. The two PES traces and their first comparison families are
-terminal. The PES/Tesoro comparison now preserves one bounded knowledge-to-
+terminal. The PES/Tesoro comparison preserves one bounded knowledge-to-
 installed-equipment relation across distinct corrosion and HTHA regimes. The
 PES-report comparison separately preserves active water-mitigation
-availability pressure across Marathon, CITGO, and PES without equating event
-or safeguard paths. Slot A now tests whether the first relation can support an
-answerable inquiry without creating receiver work. Slot B tests the
-same-incident contrast between successful PES RAD operation and degraded
-water-spray control. The two Mac LaunchAgents remain active.
+availability pressure across Marathon, CITGO, and PES. The new same-incident
+PES contrast keeps successful RAD deinventory distinct from failed remote and
+later manual water-pump activation without ranking protection effect. Slot A
+still tests whether the PES/Tesoro relation can support an answerable inquiry
+without creating receiver work. Slot B now opens a bounded NTSB Dali/Key
+Bridge case across vessel electrical, propulsion, steering, bridge-
+vulnerability, emergency-communication, and affected-standing layers. The two
+Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
 
@@ -70,6 +73,13 @@ damaged or experienced availability problems. It keeps initiating events,
 damage states, supply and activation paths, durations, capture estimates,
 standing, authority, and protection effects distinct and makes no shared
 maintenance, management, remedy, HF, health, or environmental conclusion.
+
+`SF-PES-RAD-WATER-SPRAY-SAFEGUARD-CONTRAST` preserves one same-incident
+contrast between RAD inventory transfer and water-spray vapor suppression. It
+keeps post-ignition operator activation, ignition-time communication loss,
+backup-power failure, failed remote pump command, later field activation,
+observed operation, and counterfactual effect distinct without claiming one
+shared safeguard, authority, maintenance, management, or remedy mechanism.
 
 `SF-COMP-HUSKY-TORRANCE-FCC-TRANSIENT-BOUNDARY` adds a bounded comparison at
 the transient-operation and air-hydrocarbon-separation level. It keeps
