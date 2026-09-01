@@ -391,6 +391,26 @@
      steam barrier, main-column purge, slide-valve integrity, process
      knowledge, explosion and asphalt escalation, and worker or community
      standing.
+104. Done: open one bounded CSB/HSE-grounded Buncefield record that separates
+     transfer and overfill, primary gauging, independent high-level
+     protection, automatic termination, safeguard integrity, safety
+     management, community or environmental standing, and COMAH oversight
+     (`SF-0018`).
+105. Done: open one bounded CSB-grounded Husky Superior record that separates
+     FCC shutdown state, reactor steam barrier, main-column purge, catalyst
+     slide-valve integrity, air and hydrocarbon separation, explosion and
+     asphalt escalation, worker or community standing, process knowledge,
+     process-safety management, and emergency preparedness (`SF-0019`).
+106. Prepared only: compare Buncefield and Husky Superior on installed-but-
+     inoperable or inadequate safeguard states while preserving their
+     different overfill and FCC transient-operation objects and refusing a
+     shared maintenance, authority, management, or remedy mechanism without a
+     complete source-local chain.
+107. Prepared only: open one bounded CSB-grounded ExxonMobil Torrance FCC
+     transient-operation record that separates idled mode, unscheduled
+     maintenance, pressure deviation, reactor steam-barrier disturbance,
+     hydrocarbon backflow, regenerator and ESP path, explosion, worker
+     standing, and industry-learning boundary.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

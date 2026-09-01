@@ -6,13 +6,27 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. Slot A now tests the source-local CAPECO/Buncefield overfill-
-protection boundary. Slot B tests whether CAPECO and West Fertilizer share a
-bounded community-protection relation or only consequence and proximity. The
-CAPECO trace and CAPECO/DuPont comparison opportunities are terminal.
+retire the slots. Slot A now tests whether Buncefield and Husky Superior share
+a bounded safeguard-integrity relation or retain distinct overfill and FCC
+transient-operation objects. Slot B opens a bounded ExxonMobil Torrance FCC
+transient-operation record. The Buncefield and Husky Superior openings are
+terminal.
 The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
+
+`SF-0018` adds a bounded Buncefield public-source record. It preserves
+installed-but-inoperable primary and independent overfill protections,
+automatic termination, safety management, community or environmental
+standing, and COMAH oversight as distinct objects without claiming one
+maintenance, authority, regulatory, recurrence, or remedy mechanism.
+
+`SF-0019` separately adds a bounded Husky Superior public-source record. It
+preserves FCC shutdown state, missing steam and purge safeguards, eroded slide-
+valve integrity, air and hydrocarbon separation, explosion and asphalt
+escalation, worker or community standing, process knowledge, safety
+management, and the HF non-release boundary without claiming recurrence,
+schema fit, liability, health causation, or remedy efficacy.
 
 Initial derived health: first-use automation path verified on 2026-07-17 through
 live-grant status reconciliation and synthetic acceptance fixture refresh.

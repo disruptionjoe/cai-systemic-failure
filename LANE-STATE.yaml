@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T03:12:00-05:00"
-run_ref: RUN-20260901-080432-cai-systemic-failure-prepared-progress
-bottom_line: "CAPECO and Buncefield support one bounded overfill-protection relation while their safeguard configurations and stronger mechanisms remain distinct."
+updated_at: "2026-09-01T04:15:00-05:00"
+run_ref: RUN-20260901-090623-cai-systemic-failure-prepared-progress
+bottom_line: "Buncefield and Husky Superior now have bounded source-backed records with safeguard, control, consequence, and oversight boundaries kept distinct."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published the bounded CAPECO/Buncefield overfill-protection comparison, closed the CAPECO/West gate, and replenished both slots."
-    movement_ref: "topology/SF-COMP-CAPECO-BUNCEFIELD-OVERFILL-PROTECTION-BOUNDARY.md; ROADMAP.md"
+    last_movement: "Published bounded Buncefield and Husky Superior records and replenished both terminal slots."
+    movement_ref: "evidence/records/SF-0018-buncefield-overfill-safeguard-integrity-and-community-boundaries.md; evidence/records/SF-0019-husky-superior-transient-operation-and-safeguard-boundaries.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Open bounded Buncefield safeguard-integrity and Husky Superior transient-operation records."
+    steering_prompt: "Test Buncefield/Husky safeguard-integrity boundaries and open a bounded ExxonMobil Torrance FCC transient-operation record."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: capeco_buncefield_relation_preserves_safeguard_differences
-    evidence_ref: "topology/SF-COMP-CAPECO-BUNCEFIELD-OVERFILL-PROTECTION-BOUNDARY.md; ROADMAP.md"
-    summary: "The cases share failed functional overfill protection but not one design, maintenance, authority, regulatory, or remedy mechanism."
-    evaluated_at: "2026-09-01T03:12:00-05:00"
-    run_ref: RUN-20260901-080432-cai-systemic-failure-prepared-progress
+    reason_code: bounded_buncefield_and_husky_records_preserve_distinct_controls
+    evidence_ref: "evidence/records/SF-0018-buncefield-overfill-safeguard-integrity-and-community-boundaries.md; evidence/records/SF-0019-husky-superior-transient-operation-and-safeguard-boundaries.md; ROADMAP.md"
+    summary: "The records preserve different overfill and FCC transient-operation safeguards without claiming one maintenance, authority, or remedy mechanism."
+    evaluated_at: "2026-09-01T04:15:00-05:00"
+    run_ref: RUN-20260901-090623-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 100-101, published one bounded comparison, and installed two materially different public-source openings without changing schema or receiver authority."
+    progress_delta: "Closed Roadmap 102-105, published two bounded public-source records, and installed one comparison plus one case-opening successor without changing schema or receiver authority."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; preserve safeguard absence, safeguard unavailability, regulatory posture, and control effect as distinct objects."
+    recommendation: "Keep the schema provisional; preserve safeguard state, operating mode, physical path, standing, oversight, and control effect as distinct objects."
     findings:
-      - "CAPECO and Buncefield support one bounded failed-functional-overfill-protection relation while preserving different safeguard configurations."
-      - "CAPECO and West Fertilizer share consequence and proximity but no supported community-protection mechanism, so no duplicate artifact was added."
-      - "The result establishes no recurrence, shared mechanism, schema pressure, health conclusion, remedy, acceptance, receiver work, liability, or external action."
+      - "Buncefield now has a standalone bounded record rather than borrowing all source-local truth from the CAPECO comparison."
+      - "Husky Superior keeps missing steam and purge safeguards, eroded slide-valve integrity, opposing flow, asphalt escalation, and HF non-release as distinct objects."
+      - "The result establishes no recurrence, shared mechanism, schema pressure, health or environmental conclusion, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A
         label: "Stay provisional"

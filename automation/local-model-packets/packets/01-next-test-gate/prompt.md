@@ -1,36 +1,39 @@
-# Open a bounded Buncefield safeguard-integrity record
+# Test Buncefield / Husky Superior safeguard-integrity boundaries
 
-Lineage ID: `SF-LIN-BUNCEFIELD-SAFEGUARD-INTEGRITY-OPENING-01`, opportunity 1.
-Prepare one proposal-only public-source case opening from supplied official-
-report facts. Do not retrieve sources or invent unsupported facts. Frontier
-review decides owner truth. Do not infer one root cause, recurrence, complete
-custody, authority, remedy efficacy, or external effect.
+Lineage ID: `SF-LIN-COMP-BUNCEFIELD-HUSKY-SAFEGUARD-INTEGRITY-01`, opportunity
+1. Prepare one proposal-only comparison from the supplied owner-record facts.
+Do not retrieve sources or invent unsupported facts. Frontier review decides
+owner truth. Do not infer recurrence, one root cause, a shared maintenance or
+authority chain, remedy efficacy, or external effect.
 
-Supplied facts from the U.K. HSE/Environment Agency Buncefield investigation
-and CSB `2010-02-I-PR`, sections 7.2-7.3 and Table 2:
+Supplied facts from `SF-0018` and `SF-0019`:
 
-- On December 11, 2005, gasoline tank 912 at the Buncefield Oil Storage Depot
-  overfilled; a large vapor cloud exploded and multiple tanks burned.
-- The remotely supervised automated level-control gauge and an independent
-  high-level switch that could trigger automatic shutdown were present but
-  inoperable. Redundant protection did not function.
-- Forty-three people were injured and no fatalities occurred; commercial,
-  residential, and environmental consequences followed.
-- Buncefield was treated as a high-hazard facility under the U.K. COMAH
-  framework. Regulatory coverage does not prove safeguard implementation or
-  efficacy.
+- Buncefield tank 912 overfilled after an automated level-control gauge and an
+  independent high-level switch capable of automatic shutdown were installed
+  but inoperable. The event involved gasoline transfer and storage.
+- Husky Superior's FCC unit was in shutdown. The refinery did not establish an
+  effective reactor steam barrier or proper main-column purge and relied on
+  catalyst slide valves; one eroded valve left an air path even after closure.
+- Buncefield's primary and independent overfill layers were unavailable.
+  Husky combined absent or ineffective process safeguards with mechanical
+  valve degradation. These are not interchangeable safeguard states.
+- Both incidents injured workers or members of the public and had offsite or
+  community consequence. Shared consequence does not prove a shared control
+  mechanism.
+- Complete maintenance, test, custody, authority, disposition,
+  implementation, relative causal weight, and remedy efficacy remain unknown
+  for the comparison.
 
-Return exactly one Markdown table with eight ordered rows and columns `Layer | Supplied fact |
-Boundary | Missing link`: `transfer and overfill`, `primary gauging`,
-`independent high-level switch`, `automatic shutdown`, `safeguard integrity`,
-`safety management`, `community and environmental standing`, `regulatory
-oversight`.
+Return exactly one Markdown table with seven ordered rows and columns
+`Dimension | Buncefield | Husky Superior | Comparison boundary`: `operating
+state`, `primary safeguard`, `independent or backup safeguard`, `failure
+state`, `physical path`, `affected standing`, `management and oversight`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `open_bounded_buncefield_record` or `source_boundary_insufficient`.
-- **Falsifier:** name one source-local fact that would defeat the decision.
+- **Decision:** choose `bounded_shared_safeguard_integrity_relation` or `preserve_distinct_safeguard_integrity_boundaries`.
+- **Falsifier:** name one exact source-local fact that would defeat the selected relation or separation.
 - **Unknowns:** `complete maintenance, test, custody, authority, disposition, implementation, relative causal weight, recurrence, and remedy efficacy remain unknown`
 - **Non-effect:** `No schema, blame, duty, remedy, receiver work, health or environmental conclusion, or external action is accepted.`
 
-Plain Markdown, no frontmatter, under 850 words.
+Plain Markdown, no frontmatter, under 900 words.

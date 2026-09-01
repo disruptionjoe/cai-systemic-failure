@@ -83,3 +83,16 @@ research material is rejected and routed to a separately authorized secure owner
   detection, rescue entry, emergency response, process-safety management, and
   worker or public standing distinct while making no recurrence, blame,
   health, remedy, liability, or schema claim.
+- `records/SF-0018-buncefield-overfill-safeguard-integrity-and-community-boundaries.md`
+  - bounded CSB/HSE-source synthesis that keeps gasoline-tank overfill,
+  primary gauging, independent high-level protection, automatic termination,
+  safeguard integrity, safety management, community or environmental
+  standing, and COMAH oversight distinct while making no recurrence, blame,
+  health, environmental, remedy, liability, or schema claim.
+- `records/SF-0019-husky-superior-transient-operation-and-safeguard-boundaries.md`
+  - bounded CSB-source synthesis that keeps FCC shutdown state, reactor steam
+  barrier, main-column purge, catalyst slide-valve integrity, air and
+  hydrocarbon separation, explosion and asphalt escalation, worker or
+  community standing, process knowledge, and safety management distinct while
+  making no recurrence, blame, HF or health, remedy, liability, or schema
+  claim.

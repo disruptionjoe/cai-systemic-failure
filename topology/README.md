@@ -497,3 +497,22 @@ termination layer. It keeps CAPECO's absent alarm and automatic protection,
 Buncefield's installed but inoperable layers, and their different regulatory
 postures distinct; no recurring management, authority, maintenance,
 regulatory, or remedy mechanism is established.
+
+`evidence/records/SF-0018-buncefield-overfill-safeguard-integrity-and-community-boundaries.md`
+now adds the standalone bounded Buncefield record anticipated by that
+comparison. It keeps transfer and overfill, primary gauging, independent high-
+level protection, automatic termination, safeguard integrity, safety
+management, community or environmental standing, and COMAH oversight
+distinct. Complete maintenance, test, custody, authority, disposition,
+implementation, relative causal weight, recurrence, screen fit, liability,
+and remedy efficacy remain unknown.
+
+`evidence/records/SF-0019-husky-superior-transient-operation-and-safeguard-boundaries.md`
+separately adds a bounded Husky Superior public-source record. It keeps FCC
+shutdown state, reactor steam barrier, main-column purge, catalyst slide-valve
+integrity, air and hydrocarbon separation, explosion and asphalt escalation,
+worker or community standing, process knowledge, process-safety management,
+and emergency preparedness distinct. No HF release occurred; complete
+knowledge, custody, authority, disposition, implementation, health causation,
+relative causal weight, recurrence, screen fit, liability, and remedy efficacy
+remain unknown.
