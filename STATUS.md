@@ -538,6 +538,24 @@ accountable authority, disposition, stop condition, or control effect. The two
 active slots now prepare a West Fertilizer case opening and an Arkema/Texas
 common-mode resource boundary without claiming recurrence or schema fit.
 
+`SF-0013` now adds a bounded CSB-grounded West Fertilizer public-source record.
+It keeps fire and ammonium-nitrate detonation, storage and construction,
+emergency preparation, community proximity, regulatory coverage, and insurance
+loss-control objects distinct. The exact fire cause, complete custody and
+authority, every inspection and emergency decision, relative causal weight,
+recurrence, screen fit, liability, and remedy efficacy remain unknown.
+
+`SF-COMP-ARKEMA-TX2021-COMMON-MODE-RESOURCE-BOUNDARY` separately closes the
+extreme-weather comparison as
+`preserve_separate_common_mode_resource_boundaries`. Arkema is a facility
+safeguard system with common flood dependence; Texas 2021 is a regional
+interdependent electric and gas system with a multi-cause outage account.
+Neither supplies the same complete stress object, custody, accountable
+authority, disposition, stop condition, or control effect. The active slots
+now test West Fertilizer and Imperial Sugar only on emergency/community
+protection and open one bounded Tesoro Anacortes case without claiming a shared
+mechanism.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

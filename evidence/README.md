@@ -56,3 +56,8 @@ research material is rejected and routed to a separately authorized secure owner
   locomotive fire and air-brake loss, dangerous-goods containment, company
   safety management, regulatory oversight, and community consequences distinct
   while making no recurrence, liability, remedy, or schema claim.
+- `records/SF-0013-west-fertilizer-storage-emergency-and-community-boundaries.md`
+  - bounded CSB-source synthesis that keeps fire and ammonium-nitrate
+  detonation, storage and construction, emergency preparation, community
+  proximity, regulatory coverage, and insurance loss-control objects distinct
+  while making no recurrence, blame, remedy, or schema claim.

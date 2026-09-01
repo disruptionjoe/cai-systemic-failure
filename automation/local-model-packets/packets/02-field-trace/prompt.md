@@ -1,48 +1,46 @@
-# Test the Arkema and Texas 2021 common-mode resource boundary
+# Open a bounded Tesoro Anacortes public-source record
 
-Lineage ID: `SF-LIN-COMP-ARKEMA-TX2021-COMMON-MODE-RESOURCE-01`, opportunity 1.
-Prepare one proposal-only comparison decision. Use only the supplied owner
-facts. Do not retrieve sources. Do not invent complete risk-information
-custody, shared authority, one root cause, recurrence, shared mechanism,
-blame, legal duty, remedy efficacy, schema fit, receiver action, or external
-effect.
+Lineage ID: `SF-LIN-TESORO-ANACORTES-HTHA-OPENING-01`, opportunity 1.
+Prepare one proposal-only case-opening decision from the supplied CSB facts.
+Do not retrieve sources. Do not invent complete inspection history, individual
+knowledge, one root cause, blame, legal duty, remedy efficacy, recurrence,
+schema fit, receiver action, or external effect.
 
-Supplied Arkema owner facts from `SF-0011`:
+Supplied official-source facts from the U.S. Chemical Safety Board final
+investigation of the April 2, 2010 Tesoro Anacortes refinery explosion and fire:
 
-- Hurricane Harvey flooding exceeded equipment design elevations and caused
-  loss of facility power, backup power, and critical refrigeration.
-- Refrigeration, emergency generators, liquid nitrogen, and refrigerated
-  trailers were distinct safeguards, but floodwater compromised them as a
-  common mode of failure.
-- FEMA mapping and an insurer report identified flood exposure while the
-  process-hazard analysis documented no flooding risk; complete custody,
-  accountable receipt, disposition, and implementation remain unknown.
+- A nearly forty-year-old heat exchanger catastrophically failed during a
+  non-routine maintenance operation that switched a process stream between two
+  parallel exchanger banks; the explosion and fire killed seven employees.
+- High-temperature hydrogen attack severely cracked and weakened carbon-steel
+  tubing over time before rupture.
+- The failed portion likely operated below the applicable API RP 941 Nelson
+  curve, while actual-condition prediction and HTHA inspection had material
+  limits.
+- HTHA cracks can be microscopic, localized, and difficult to detect; the CSB
+  contrasted inspection reliance with HTHA-resistant construction materials.
+- Recurring leaks and manual valve work increased the number of workers present
+  during hazardous non-routine startup activity.
+- Process-hazard analyses did not verify whether named safeguards were
+  effective, and the March 2009 state audit found no deficiency related to the
+  exchanger that later ruptured. Complete custody, authority, disposition,
+  implementation, and relative causal weight remain unknown.
 
-Supplied Texas 2021 owner facts from `SF-0006`:
+Return exactly eleven short lines:
 
-- Severe cold produced generation outages, derates, and failures to start;
-  freezing and fuel issues together accounted for most unplanned losses.
-- Power losses at some gas infrastructure and gas-supply loss to generators
-  make cross-system interdependence visible without proving one loop explains
-  every outage.
-- Earlier cold-weather inquiries preserve recurrent official attention, but
-  individual knowledge, complete authority, decision chronology, and closure
-  remain unknown.
-
-Return exactly ten short lines:
-
-- **Unit:** exactly `Arkema and Texas 2021 common-mode resource comparison`.
-- **Arkema stress boundary:** name only flood exposure and exceeded equipment design elevations.
-- **Arkema resource boundary:** name only power, backup power, refrigeration, liquid nitrogen, and refrigerated trailers.
-- **Texas stress boundary:** name only severe cold, equipment freezing, and fuel constraints.
-- **Texas resource boundary:** name only generation availability, gas supply, electric supply to gas infrastructure, and load shedding.
-- **Scale boundary:** exactly `Arkema is a facility safeguard system while Texas is a regional interdependent electric and gas system`.
-- **Decision:** choose exactly `preserve_separate_common_mode_resource_boundaries` or `open_shared_common_mode_resource_candidate`.
-- **Decision basis:** state whether both records establish the same stress knowledge, resource dependency, accountable authority, disposition, stop condition, and control effect.
-- **Unknowns:** exactly `complete custody, accountable authority, disposition, stop conditions, relative causal weight, recurrence, schema fit, and remedy efficacy remain unknown`.
+- **Unit:** exactly `Tesoro Anacortes public-source case opening`.
+- **Event boundary:** name only exchanger rupture, explosion, fire, and seven worker fatalities.
+- **Damage boundary:** name only HTHA cracking and weakening of carbon-steel tubing.
+- **Prediction boundary:** name only actual operating conditions, API RP 941 Nelson-curve use, and prediction limits.
+- **Inspection boundary:** name only microscopic localized damage and detection limits.
+- **Material boundary:** name only carbon steel and HTHA-resistant construction materials.
+- **Work boundary:** name only non-routine stream switching, recurring leaks, manual valve work, and worker presence.
+- **Control boundary:** name only process-hazard analysis, safeguard verification, industry guidance, and state audit layers.
+- **Decision:** choose exactly `open_bounded_tesoro_anacortes_record` or `decline_case_opening`.
+- **Source limit:** exactly `complete custody, individual knowledge, accountable authority, disposition, implementation, relative causal weight, recurrence, schema fit, and remedy efficacy remain unknown`.
 - **Non-effect:** exactly `No recurrence, shared mechanism, schema pressure, blame, duty, remedy, receiver work, or external action is accepted.`
 
-Use `preserve_separate_common_mode_resource_boundaries` unless both records
-independently support the same complete stress-to-resource-and-control chain.
-This is a Frontier comparison decision, not owner research truth. Plain
-Markdown, no table or frontmatter, under 340 words.
+Use `open_bounded_tesoro_anacortes_record` only if every layer stays separate
+and all named unknowns remain explicit. This is a Frontier case-opening
+decision, not owner research truth. Plain Markdown, no table or frontmatter,
+under 380 words.

@@ -462,3 +462,16 @@ Lac-Megantic rail securement, shutdown, safety culture, and regulatory
 oversight do not supply the same custody, accountable authority, disposition,
 stop condition, or control effect as Conception watchstanding, fire growth,
 smoke-detection regulation, and escape arrangements.
+
+`evidence/records/SF-0013-west-fertilizer-storage-emergency-and-community-boundaries.md`
+adds a bounded CSB-grounded West Fertilizer record. It keeps fire and
+ammonium-nitrate detonation, storage and construction, emergency preparation,
+community proximity, regulatory coverage, and insurance loss-control objects
+distinct without establishing recurrence, one root cause, blame, remedy, or
+schema fit.
+
+`SF-COMP-ARKEMA-TX2021-COMMON-MODE-RESOURCE-BOUNDARY.md` preserves separate
+facility and regional-system resource boundaries. Arkema's shared flood
+dependence across facility safeguards does not supply the same stress object,
+custody, authority, disposition, stop condition, or control effect as Texas
+2021's cold-weather electric-gas interdependence.

@@ -308,13 +308,20 @@
     authority, disposition, stop, or control-effect chain as marine
     watchstanding, detection regulation, and escape arrangements
     (`SF-COMP-LACMEGANTIC-CONCEPTION-SAFETY-MANAGEMENT-OVERSIGHT-BOUNDARY`).
-86. Prepared only: open one bounded CSB-grounded West Fertilizer case that
+86. Done: open one bounded CSB-grounded West Fertilizer case that
     separates ammonium-nitrate storage, fire and detonation, emergency
-    preparation, community proximity, regulation, and insurance controls.
-87. Prepared only: compare Arkema and Texas 2021 only on extreme-weather and
+    preparation, community proximity, regulation, and insurance controls
+    (`SF-0013`).
+87. Done: compare Arkema and Texas 2021 only on extreme-weather and
     common-mode resource pressure while preserving facility and regional
     system scales, distinct authority, and incomplete custody or control
-    effects.
+    effects (`SF-COMP-ARKEMA-TX2021-COMMON-MODE-RESOURCE-BOUNDARY`).
+88. Prepared only: compare West Fertilizer and Imperial Sugar only on bounded
+    emergency protection and community exposure while preserving distinct
+    ammonium-nitrate and combustible-dust event mechanisms.
+89. Prepared only: open one bounded CSB-grounded Tesoro Anacortes case that
+    separates HTHA damage, inspection and industry guidance, material
+    selection, maintenance timing, worker exposure, and regulatory layers.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
