@@ -23,11 +23,15 @@ and real-time control as distinct objects. The Dali/Potomac test preserves
 separate transport-risk boundaries without a redundant artifact. Bounded El
 Faro record `SF-0024` now separates storm exposure, weather information,
 route, bridge input, company oversight, flooding, propulsion, downflooding,
-damage control, muster, survival craft, and standing. Slot A now tests a
-source-local El Faro weather-information-to-route-decision trace; slot B tests
-the El Faro/Conception emergency-readiness and survival boundary. The two Mac
-LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
-grant, deny, or continue eligibility.
+damage control, muster, survival craft, and standing. A partial El Faro trace
+now separates weather delivery and use, bridge access, officer input, captain
+review, route decision, company oversight, and unresolved control effect. A
+bounded El Faro/Conception comparison keeps detection, warning and muster,
+damage control and escape, survival provision, oversight, regulation,
+standing, and control effect distinct. Slot A now tests El Faro officer input
+to route disposition; slot B tests the Conception patrol-to-detection-to-escape
+trace. The two Mac LaunchAgents remain active. Prompt hashes are receipt
+metadata only and do not grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
@@ -88,6 +92,18 @@ oversight and safety management, cargo-hold flooding, sustained list,
 propulsion, downflooding, damage control, muster, survival craft, and affected
 standing distinct without claiming one root cause, recurrence, shared
 authority, remedy, liability, or receiver work.
+
+`SF-EL-FARO-WEATHER-ROUTE-PARTIAL-TRACE-0001` preserves a partial relation
+among BVS weather delivery, captain use, officer suggestions, route decision,
+bridge resource management, and company oversight. Complete bridge and
+shoreside custody, accountable disposition, implementation, relative causal
+weight, and control effect remain incomplete.
+
+`SF-COMP-EL-FARO-CONCEPTION-EMERGENCY-SURVIVAL-BOUNDARY` preserves only a
+bounded residue across delayed recognition, emergency readiness, physical
+protection, operator oversight, and affected standing. It keeps storm and
+fire, damage control and escape, survival craft and egress, and the two
+regulatory regimes distinct without establishing recurrence or one mechanism.
 
 `SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001` preserves the source-local
 relation among material composition, differential corrosion, published

@@ -1,54 +1,51 @@
-# Compare El Faro and Conception emergency readiness and survival boundaries
+# Trace Conception patrol, detection, warning, and escape custody
 
-Lineage ID: `SF-LIN-COMP-EL-FARO-CONCEPTION-EMERGENCY-SURVIVAL-01`,
-opportunity 1. Prepare one proposal-only source-preserving comparison from the
+Lineage ID: `SF-LIN-CONCEPTION-PATROL-DETECTION-ESCAPE-TRACE-01`,
+opportunity 1. Prepare one proposal-only source-preserving partial trace from the
 supplied owner evidence. Frontier review decides owner truth. Do not retrieve
 sources or invent unsupported facts. Do not prescribe navigation, weather,
 watchstanding, detection, vessel, escape, survival, company, regulatory, or
 training changes; infer recurrence, one root cause, shared authority, blame,
 duty, liability, remedy efficacy, or external effect.
 
-Supplied bounded owner evidence:
+Supplied bounded owner evidence from NTSB `MAR-20/03`, `SF-0009`, and the
+bounded El Faro/Conception comparison:
 
-- El Faro: NTSB identified late muster, downflooding through unsecured
-  ventilation closures, absence of an approved damage-control plan that would
-  have assisted condition recognition and emergency response, and lack of
-  survival craft appropriate for the conditions. All 33 people aboard died.
-- El Faro also includes hurricane exposure, weather use, route decision,
-  bridge resource management, company oversight, cargo-hold flooding, sustained
-  list, and propulsion loss. Do not merge those objects into emergency
-  readiness or survival equipment.
-- Conception: the required roving patrol was not maintained, a fire of unknown
-  cause grew undetected, the salon lacked a smoke detector, and both bunkroom
-  exits led into the fire-engulfed salon. Thirty-three passengers and one
-  crewmember died.
-- Conception keeps operator oversight, watchstanding, smoke-detection
-  regulation, escape arrangement, management-system pressure, and exact
-  ignition uncertainty distinct.
-- Complete warning, muster, evacuation or abandon-ship custody, company and
-  regulatory review, authority, disposition, implementation, relative causal
-  weight, and comparative control effect remain unknown across the records.
+- The required roving patrol was not maintained. NTSB found that its absence
+  delayed detection, allowed fire growth, and precluded firefighting and
+  evacuation efforts.
+- Coast Guard inspections had no effective means to verify patrol compliance;
+  no patrol log was required and inspection checklists did not cover the
+  watchstanding requirement.
+- The salon lacked smoke detection. Both bunkroom exits led into the salon,
+  allowing one fire to block both paths.
+- Exact ignition source and timing, complete warning receipt, passenger and
+  crew evacuation custody, operator review, regulatory disposition,
+  implementation, relative causal weight, and control effect remain unknown.
+- Keep patrol, detection equipment, warning, firefighting, evacuation, escape
+  geometry, operator oversight, and regulatory verification distinct.
 
 Return exactly one Markdown table with eight ordered rows and columns
-`Comparison object | El Faro | Conception | Shared residue or boundary`:
-`hazard and event`, `detection and recognition`, `warning and muster`,
-`damage control or escape`, `survival provision`, `operator oversight`,
-`regulatory boundary`, `affected standing and control effect`.
+`Trace object | Supported source-local fact | Distinct custody or authority |
+Missing link`: `patrol requirement`, `patrol implementation`, `regulatory
+verification`, `fire detection`, `warning`, `firefighting`, `evacuation and
+escape`, `affected standing and control effect`.
 
 Then return exactly four lines outside the table:
 
-- **Decision:** choose `prepare_bounded_emergency_survival_comparison` or
-  `preserve_separate_marine_emergency_boundaries`.
+- **Decision:** choose `prepare_partial_patrol_detection_escape_trace` or
+  `current_bounded_corpus_insufficient`.
 - **Falsifier:** name one exact supplied fact whose removal or reversal would
   defeat the selected decision; do not cite this instruction or invent an
   unsupplied opposite fact.
-- **Unknowns:** `complete warning, muster, evacuation or abandon-ship custody,
-  company and regulatory review, authority, disposition, implementation,
-  relative causal weight, and comparative control effect remain unknown`
-- **Non-effect:** `No recurrence, one weather, fire, detection, warning,
-  muster, escape, survival, company, regulatory, emergency, or maritime-
-  safety mechanism, shared captain, crew, operator, vessel, regulator, or
+- **Unknowns:** `exact ignition source and timing, complete warning receipt,
+  passenger and crew evacuation custody, operator review, regulatory
+  disposition, implementation, relative causal weight, and control effect
+  remain unknown`
+- **Non-effect:** `No recurrence, one patrol, fire, detection, warning,
+  firefighting, evacuation, escape, operator, regulatory, emergency, or
+  maritime-safety mechanism, shared crew, operator, vessel, regulator, or
   responder authority, schema, blame, duty, remedy, acceptance, receiver
   work, liability, or external action is accepted.`
 
-Plain Markdown, no frontmatter, under 950 words.
+Plain Markdown, no frontmatter, under 850 words.

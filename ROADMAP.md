@@ -523,14 +523,22 @@
      bridge input, company oversight and safety management, cargo-hold
      flooding, propulsion and list, downflooding and damage control, muster and
      survival craft, and affected standing (`SF-0024`).
-132. Prepared only: test whether `MAR-17/01` and the bounded El Faro record
-     support one partial weather-information-to-route-decision trace without
-     inventing complete bridge or shoreside custody, authority, disposition,
-     implementation, or control effect.
-133. Prepared only: compare El Faro and Conception at the bounded emergency-
-     readiness and survival layer while keeping storm and fire exposure,
-     muster and warning, damage control and escape, survival craft, operator
-     oversight, regulation, standing, and control effect distinct.
+132. Done: preserve one partial El Faro weather-information-to-route-decision
+     trace while keeping product delivery, bridge access, officer input,
+     captain review, route decision, shoreside receipt, company disposition,
+     implementation, and control effect distinct
+     (`SF-EL-FARO-WEATHER-ROUTE-PARTIAL-TRACE-0001`).
+133. Done: preserve one bounded El Faro/Conception emergency-readiness and
+     survival comparison while keeping storm and fire exposure, detection,
+     warning and muster, damage control and escape, survival provision,
+     operator oversight, regulation, standing, and control effect distinct
+     (`SF-COMP-EL-FARO-CONCEPTION-EMERGENCY-SURVIVAL-BOUNDARY`).
+134. Prepared only: test the El Faro officer-suggestion-to-route-disposition
+     path without inventing complete bridge custody, response, escalation,
+     company receipt, implementation, or control effect.
+135. Prepared only: trace Conception from roving-patrol compliance through
+     detection, warning, firefighting, evacuation, escape, regulatory
+     verification, and unknown control effect.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

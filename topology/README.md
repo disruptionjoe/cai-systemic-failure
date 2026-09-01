@@ -611,3 +611,15 @@ control, muster, survival craft, and affected standing distinct. Complete
 information custody, officer-to-captain review, shoreside receipt, company
 disposition, vessel-state knowledge, emergency authority, implementation,
 relative causal weight, and control effect remain unknown.
+
+`SF-EL-FARO-WEATHER-ROUTE-PARTIAL-TRACE-0001.md` preserves a partial relation
+among weather-product delivery, captain use, officer suggestions, route
+decision, bridge resource management, and company oversight. Complete bridge
+and shoreside custody, disposition, implementation, relative causal weight,
+and control effect remain incomplete.
+
+`SF-COMP-EL-FARO-CONCEPTION-EMERGENCY-SURVIVAL-BOUNDARY.md` preserves a
+bounded comparison across delayed recognition, emergency readiness, physical
+protection, operator oversight, and affected standing while keeping storm and
+fire, damage control and escape, survival craft and egress, and the two
+regulatory regimes distinct.
