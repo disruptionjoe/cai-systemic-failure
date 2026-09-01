@@ -586,3 +586,11 @@ communication, and affected standing distinct. Complete electrical custody,
 inspection history, recovery authority, bridge-risk review, countermeasure
 disposition, worker-warning chain, relative causal weight, implementation,
 liability, and remedy efficacy remain unknown.
+
+`evidence/records/SF-0023-potomac-midair-airspace-control-and-safety-assurance-boundaries.md`
+adds a bounded Potomac midair public-source record. It keeps route design,
+altitude and charting, visual separation, controller workload and radio,
+risk-data review, Army and FAA safety assurance, collision-alerting technology,
+and affected standing distinct. Complete route-risk custody, data sharing,
+accountable review, real-time authority, disposition, implementation, relative
+causal weight, control effect, liability, and remedy efficacy remain unknown.

@@ -494,14 +494,24 @@
      electrical initiation, blackout sequence, power recovery, propulsion and
      steering, vessel proximity, bridge vulnerability, traffic closure,
      highway-worker communication, and affected standing distinct (`SF-0022`).
-126. Prepared only: compare Dali/Key Bridge and I-35W at the bounded bridge-risk
-     assessment layer while preserving vessel-impact vulnerability, structural
-     capacity, load history, assessment guidance, authority, implementation,
-     warning, and standing as source-local objects.
-127. Prepared only: open one bounded NTSB-grounded Potomac midair case that
+126. Done without a separate comparison artifact: preserve Dali/Key Bridge
+     vessel-impact vulnerability and I-35W structural-capacity failure as
+     separate bridge-risk boundaries because the candidate establishes no
+     shared source-local assessment, custody, authority, disposition,
+     implementation, warning, or control-effect relation.
+127. Done: open one bounded NTSB-grounded Potomac midair case that
      keeps airspace design, route altitude, visual separation, traffic-control
      workload, real-time risk management, Army safety assurance, collision-
-     avoidance technology, data sharing, and affected standing distinct.
+     avoidance technology, data sharing, and affected standing distinct
+     (`SF-0023`).
+128. Prepared only: compare Dali/Key Bridge and Potomac at the bounded prior-
+     risk-visibility layer while preserving bridge-vulnerability assessment,
+     close-encounter data, route review, recommendation, authority,
+     implementation, real-time control, and standing as distinct objects.
+129. Prepared only: test whether `AIR-26-02` supports one partial Potomac
+     risk-data-to-control trace that keeps report sources, data custody,
+     analysis, route review, recommendation, authority, implementation,
+     real-time control, and unknown control effect distinct.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

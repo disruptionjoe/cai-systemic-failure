@@ -10,15 +10,15 @@ retire the slots. The two PES traces and their first comparison families are
 terminal. The PES/Tesoro comparison now supports candidate-only inquiry
 `SFQ-0003` about how technical knowledge becomes installed-equipment-specific
 characterization, measurement, inspection, disposition, and an unresolved
-stop condition before continued operation. The Dali/Key Bridge opener now
-supports bounded record `SF-0022` across electrical initiation, blackout
-recovery, propulsion and steering, vessel proximity, bridge vulnerability,
-traffic closure, worker communication, and affected standing. Slot A now
-tests whether Dali and I-35W share one bounded bridge-risk relation or only
-superficial infrastructure language. Slot B opens a distinct NTSB Potomac
-midair case across airspace design, route altitude, visual separation, traffic
-control, risk management, Army safety assurance, collision avoidance, data
-sharing, and standing. The two Mac LaunchAgents remain active.
+stop condition before continued operation. The Dali/Key Bridge opener supports
+bounded record `SF-0022`; the Dali/I-35W comparison preserves separate vessel-
+impact-vulnerability and structural-capacity boundaries without a redundant
+artifact. The Potomac opener now supports bounded record `SF-0023` across
+airspace design, route altitude and charting, visual separation, traffic
+control, risk-data review, Army and FAA safety assurance, collision avoidance,
+data sharing, and standing. Slot A now tests whether Dali and Potomac share one
+bounded prior-risk-visibility relation; slot B tests a source-local Potomac
+risk-data-to-control partial trace. The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
 
@@ -61,6 +61,12 @@ installation, blackout sequence, power recovery, propulsion and steering,
 vessel proximity, bridge-impact vulnerability, traffic closure, highway-
 worker communication, and affected standing distinct without claiming one
 root cause, recurrence, shared authority, remedy, liability, or receiver work.
+
+`SF-0023` adds a bounded Potomac midair public-source record. It keeps route
+design, altitude and charting, visual separation, controller workload and
+radio, prior risk data, Army and FAA safety assurance, collision-alerting
+technology, and affected standing distinct without claiming one root cause,
+recurrence, shared authority, remedy, liability, or receiver work.
 
 `SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001` preserves the source-local
 relation among material composition, differential corrosion, published
