@@ -594,3 +594,11 @@ risk-data review, Army and FAA safety assurance, collision-alerting technology,
 and affected standing distinct. Complete route-risk custody, data sharing,
 accountable review, real-time authority, disposition, implementation, relative
 causal weight, control effect, liability, and remedy efficacy remain unknown.
+
+`SF-POTOMAC-RISK-DATA-CONTROL-PARTIAL-TRACE-0001.md` preserves a bounded
+relation among repeated occurrence reports, objective position data, local
+concerns, fragmented analysis, incomplete route review, recommendations,
+distributed authority, and absent timely mitigation. Complete cross-system
+custody, accountable review, Army or FAA disposition, implementation,
+real-time authority, relative causal weight, and control effect remain
+unknown.

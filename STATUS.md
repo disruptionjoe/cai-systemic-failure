@@ -16,11 +16,14 @@ impact-vulnerability and structural-capacity boundaries without a redundant
 artifact. The Potomac opener now supports bounded record `SF-0023` across
 airspace design, route altitude and charting, visual separation, traffic
 control, risk-data review, Army and FAA safety assurance, collision avoidance,
-data sharing, and standing. Slot A now tests whether Dali and Potomac share one
-bounded prior-risk-visibility relation; slot B tests a source-local Potomac
-risk-data-to-control partial trace. The two Mac LaunchAgents remain active.
-Prompt hashes are receipt metadata only and do not grant, deny, or continue
-eligibility.
+data sharing, and standing. The Potomac risk-data-to-control partial trace now
+preserves repeated reports, objective position data, local concerns,
+fragmented analysis, route review, recommendation, authority, implementation,
+and real-time control as distinct objects. Slot A still tests whether Dali and
+Potomac share one bounded prior-risk-visibility relation; slot B now opens a
+bounded El Faro hurricane, route, vessel-state, emergency, and standing
+record. The two Mac LaunchAgents remain active. Prompt hashes are receipt
+metadata only and do not grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
@@ -67,6 +70,13 @@ design, altitude and charting, visual separation, controller workload and
 radio, prior risk data, Army and FAA safety assurance, collision-alerting
 technology, and affected standing distinct without claiming one root cause,
 recurrence, shared authority, remedy, liability, or receiver work.
+
+`SF-POTOMAC-RISK-DATA-CONTROL-PARTIAL-TRACE-0001` preserves the bounded
+relation among repeated reports, objective position data, local concerns,
+fragmented analysis, incomplete route review, recommendations, distributed
+authority, and absent timely mitigation. It does not complete cross-system
+custody, accountable review, Army or FAA disposition, implementation,
+real-time authority, recurrence, or control effect.
 
 `SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001` preserves the source-local
 relation among material composition, differential corrosion, published

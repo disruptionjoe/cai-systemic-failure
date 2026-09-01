@@ -1,60 +1,68 @@
-# Trace the Potomac risk-data-to-control boundary
+# Open a bounded El Faro failure record
 
-Lineage ID: `SF-LIN-POTOMAC-RISK-DATA-CONTROL-TRACE-01`, opportunity 1.
-Prepare one proposal-only source-preserving partial trace from the supplied
+Lineage ID: `SF-LIN-EL-FARO-WEATHER-ROUTE-EMERGENCY-OPENING-01`, opportunity
+1. Prepare one proposal-only source-preserving case opening from the supplied
 official NTSB facts. Frontier review decides owner truth. Do not retrieve
-sources or invent unsupported facts. Do not prescribe route, traffic-control,
-data-sharing, Army, FAA, or technology changes; infer recurrence, one root
-cause, shared authority, blame, duty, remedy efficacy, or external effect.
+sources or invent unsupported facts. Do not prescribe navigation, weather,
+company, vessel, flooding, propulsion, emergency, survival, regulatory, or
+training changes; infer recurrence, one root cause, shared authority, blame,
+duty, remedy efficacy, or external effect.
 
-Official source: NTSB, *Midair Collision over the Potomac River, Washington,
-DC, January 29, 2025*, Aviation Investigation Report `AIR-26-02`:
-https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR2602.pdf
+Official source: NTSB, *Sinking of US Cargo Vessel SS El Faro, Atlantic Ocean,
+Northeast of Acklins and Crooked Island, Bahamas, October 1, 2015*, Marine
+Accident Report `MAR-17/01`:
+https://www.ntsb.gov/investigations/AccidentReports/Reports/MAR1701.pdf
 
 Supplied official-source facts:
 
-- FAA placed Helicopter Route 4 close to the runway 33 approach path without
-  procedural mitigations and did not regularly review or reevaluate the route
-  as required.
-- Multiple data sources showed close-proximity risk, and air-traffic personnel
-  repeatedly raised concerns. FAA did not act on recommendations or available
-  information to mitigate the identified risk.
-- Published helicopter-route altitude and boundary information was unclear or
-  inconsistent, and fixed-wing charts did not depict nearby helicopter routes.
-- The air-traffic system relied heavily on pilot-applied visual separation.
-  Combined helicopter and local control positions, elevated workload,
-  incomplete advisories, missing safety alerts, separate frequencies, and a
-  blocked transmission shaped the real-time control path.
-- Army safety-management implementation and FAA safety-culture, oversight,
-  data-integration, and earlier-recommendation implementation were incomplete.
-- All 64 people aboard the airplane and all three helicopter crewmembers died.
-- Keep event reports, objective position data, local concerns, analysis,
-  recommendation, route review, authority, implementation, real-time control,
-  and affected standing distinct.
-- Complete route-risk custody, data sharing, accountable review, real-time
-  authority, Army and FAA disposition, implementation, relative causal weight,
-  and control effect remain unknown here.
+- On October 1, 2015, during Hurricane Joaquin, the US-flagged cargo ship
+  `El Faro` sank about 40 nautical miles northeast of Acklins and Crooked
+  Island. All 33 people aboard died.
+- NTSB identified the captain's insufficient action to avoid the hurricane,
+  failure to use the most current weather information, and late decision to
+  muster the crew in its probable-cause finding.
+- Ineffective bridge resource management included inadequate consideration of
+  officers' suggestions. TOTE oversight and its safety-management system were
+  separately identified as inadequate.
+- Contributing vessel-state facts included cargo-hold flooding from an
+  undetected open watertight scuttle and damaged seawater piping, loss of
+  propulsion from low main-engine lube-oil pressure during a sustained list,
+  and downflooding through unsecured ventilation closures.
+- NTSB also identified the absence of an approved damage-control plan that
+  would have assisted recognition of the vessel's condition and emergency
+  response, and lack of survival craft appropriate for the conditions.
+- Keep storm exposure, weather information, route decision, bridge input,
+  company oversight, safety management, flooding, list, propulsion,
+  downflooding, damage control, muster, survival craft, and affected standing
+  distinct.
+- Complete information custody, officer-to-captain review, shoreside receipt,
+  company disposition, vessel-state knowledge, emergency authority,
+  implementation, relative causal weight, and control effect remain unknown
+  here.
 
-Return exactly one Markdown table with nine ordered rows and columns
-`Trace object | Supported fact | Distinct custody or authority | Missing link`:
-`risk-report sources`, `objective position data`, `local concern`, `analysis
-and integration`, `route review`, `recommendation`, `authority and
-disposition`, `implementation and real-time control`, `affected standing and
-control effect`.
+Return exactly one Markdown table with ten ordered rows and columns
+`Record object | Supported official-source fact | Distinct layer | Missing
+link`: `event and weather exposure`, `weather information`, `route decision`,
+`officer input and bridge management`, `company oversight and safety
+management`, `cargo-hold flooding`, `propulsion and sustained list`,
+`downflooding and damage control`, `muster and survival craft`, `affected
+standing and control effect`.
 
 Then return exactly four lines outside the table:
 
-- **Decision:** choose `prepare_bounded_potomac_risk_data_control_trace` or
-  `preserve_record_only`.
+- **Decision:** choose `open_bounded_el_faro_record` or
+  `preserve_source_only`.
 - **Falsifier:** name one exact supplied fact whose removal or reversal would
   defeat the selected decision; do not cite this instruction or invent an
   unsupplied opposite fact.
-- **Unknowns:** `complete route-risk custody, data sharing, accountable review,
-  real-time authority, Army and FAA disposition, implementation, relative
-  causal weight, and control effect remain unknown`
-- **Non-effect:** `No recurrence, one data-to-control mechanism, shared FAA,
-  Army, operator, crew, air-traffic, data, or technology authority, schema,
-  blame, duty, remedy, acceptance, receiver work, liability, or external
-  action is accepted.`
+- **Unknowns:** `complete information custody, officer-to-captain review,
+  shoreside receipt, company disposition, vessel-state knowledge, emergency
+  authority, implementation, relative causal weight, and control effect remain
+  unknown`
+- **Non-effect:** `No recurrence, one weather, route, bridge-management,
+  company, flooding, propulsion, emergency, survival, or maritime-safety
+  mechanism, shared captain, crew, operator, vessel, regulator, or responder
+  authority, schema, blame, duty, remedy, acceptance, receiver work, liability,
+  or external action is accepted.`
 
-Plain Markdown, no frontmatter, under 950 words.
+Plain Markdown, no frontmatter, under 1000 words.

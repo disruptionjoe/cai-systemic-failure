@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T13:04:37-05:00"
-run_ref: RUN-20260901-180437-cai-systemic-failure-prepared-progress
-bottom_line: "One bounded Potomac record now preserves distinct airspace, control, safety-assurance, alerting, and standing boundaries while Dali and I-35W remain separate."
+updated_at: "2026-09-01T14:04:41-05:00"
+run_ref: RUN-20260901-190441-cai-systemic-failure-prepared-progress
+bottom_line: "One bounded Potomac partial trace now preserves distinct safety-report, position-data, review, authority, and real-time-control boundaries."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published one bounded Potomac midair record, closed the Dali/I-35W separation without a redundant artifact, and installed two risk-visibility successors."
-    movement_ref: "evidence/records/SF-0023-potomac-midair-airspace-control-and-safety-assurance-boundaries.md; ROADMAP.md"
+    last_movement: "Published one bounded Potomac risk-data-to-control partial trace and rotated terminal slot B to an El Faro case-opening packet while preserving unattempted slot A."
+    movement_ref: "topology/SF-POTOMAC-RISK-DATA-CONTROL-PARTIAL-TRACE-0001.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Test whether Dali and Potomac support one bounded prior-risk-visibility relation, and trace the Potomac risk-data-to-control boundary without creating a shared mechanism."
+    steering_prompt: "Test the Dali/Potomac prior-risk-visibility boundary and open a bounded El Faro record without creating a shared mechanism."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: potomac_record_preserves_source_local_airspace_control_assurance_and_standing_boundaries
-    evidence_ref: "evidence/records/SF-0023-potomac-midair-airspace-control-and-safety-assurance-boundaries.md; ROADMAP.md"
-    summary: "The Potomac record preserves separate route, charting, visual-separation, workload, data, assurance, alerting, and standing paths."
-    evaluated_at: "2026-09-01T13:04:37-05:00"
-    run_ref: RUN-20260901-180437-cai-systemic-failure-prepared-progress
+    reason_code: potomac_partial_trace_preserves_source_local_report_data_review_authority_and_control_boundaries
+    evidence_ref: "topology/SF-POTOMAC-RISK-DATA-CONTROL-PARTIAL-TRACE-0001.md; ROADMAP.md"
+    summary: "The Potomac trace preserves separate report, position-data, concern, analysis, review, authority, implementation, control, and standing paths."
+    evaluated_at: "2026-09-01T14:04:41-05:00"
+    run_ref: RUN-20260901-190441-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 126 and 127, published SF-0023, and replenished both terminal slots with a Dali/Potomac comparison and Potomac partial trace."
+    progress_delta: "Closed Roadmap 129, published the Potomac partial trace, preserved unattempted slot A, and replenished terminal slot B with an El Faro case opening."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test the risk-visibility comparison and source-local Potomac trace without creating receiver work."
+    recommendation: "Keep the schema provisional; test the Dali/Potomac comparison and bounded El Faro opening without creating receiver work."
     findings:
-      - "The Dali/I-35W candidate supports only a separate-boundary disposition, not a shared bridge-risk mechanism."
-      - "AIR-26-02 supports separate route-design, charting, visual-separation, workload, data, safety-assurance, alerting, and standing paths."
+      - "The predecessor Dali/I-35W replay adds no source-local relation beyond the already closed separate-boundary result."
+      - "AIR-26-02 supports a bounded partial trace across occurrence reports, objective position data, concerns, analysis, route review, recommendation, authority, implementation, and real-time control."
       - "The result establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A

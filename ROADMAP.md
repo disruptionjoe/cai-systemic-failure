@@ -512,6 +512,16 @@
      risk-data-to-control trace that keeps report sources, data custody,
      analysis, route review, recommendation, authority, implementation,
      real-time control, and unknown control effect distinct.
+130. Done: preserve one source-local Potomac risk-data-to-control partial
+     trace while keeping occurrence reports, objective position data, local
+     concerns, analysis, route review, recommendation, distributed authority,
+     implementation, real-time control, standing, and unknown control effect
+     distinct (`SF-POTOMAC-RISK-DATA-CONTROL-PARTIAL-TRACE-0001`).
+131. Prepared only: open one bounded NTSB-grounded El Faro record that
+     separates hurricane exposure, weather information, route decision,
+     bridge input, company oversight and safety management, cargo-hold
+     flooding, propulsion and list, downflooding and damage control, muster and
+     survival craft, and affected standing.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
