@@ -316,17 +316,26 @@
     common-mode resource pressure while preserving facility and regional
     system scales, distinct authority, and incomplete custody or control
     effects (`SF-COMP-ARKEMA-TX2021-COMMON-MODE-RESOURCE-BOUNDARY`).
-88. Prepared only: compare West Fertilizer and Imperial Sugar only on bounded
-    emergency protection and community exposure while preserving distinct
-    ammonium-nitrate and combustible-dust event mechanisms.
+88. Done without a separate comparison artifact: preserve West Fertilizer and
+    Imperial Sugar as distinct emergency and community boundaries because the
+    two records do not establish the same complete hazard, warning custody,
+    accountable authority, disposition, stop condition, or protection effect.
 89. Done: open one bounded CSB-grounded Tesoro Anacortes case that
     separates HTHA damage, inspection and industry guidance, material
     selection, maintenance timing, worker exposure, and regulatory layers
     (`SF-0014`).
-90. Prepared only: open one bounded CSB-grounded Chevron Richmond case that
-    separates sulfidation corrosion, component inspection, material selection,
-    turnaround decisions, leak response, worker exposure, community warning,
-    and governance layers.
+90. Done: open one bounded CSB-grounded Chevron Richmond case that separates
+    sulfidation corrosion, component inspection, material selection, turnaround
+    decisions, leak response, worker exposure, community warning, and
+    governance layers (`SF-0015`).
+91. Prepared only: compare Tesoro Anacortes and Chevron Richmond only on a
+    bounded degradation-to-inspection-and-disposition chain while preserving
+    HTHA and sulfidation mechanisms, equipment, work phases, and affected
+    standing separately.
+92. Prepared only: open one bounded CSB-grounded CAPECO storage-terminal case
+    that separates ship transfer, tank overfill, level gauging, independent
+    overfill protection, vapor-cloud explosion, offsite consequences, and
+    regulatory coverage.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

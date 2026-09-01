@@ -66,3 +66,8 @@ research material is rejected and routed to a separately authorized secure owner
   prediction, inspection limits, material selection, non-routine startup,
   worker exposure, hazard analysis, industry guidance, and state oversight
   distinct while making no recurrence, blame, remedy, or schema claim.
+- `records/SF-0015-chevron-richmond-sulfidation-inspection-and-leak-response.md`
+  - bounded CSB-source synthesis that keeps sulfidation damage, component
+  inspection, material selection, turnaround scope, leak response, worker and
+  community exposure, industry guidance, and regulatory oversight distinct
+  while making no recurrence, blame, health, remedy, or schema claim.

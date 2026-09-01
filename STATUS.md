@@ -6,11 +6,10 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. Slot A now prepares a bounded CSB-grounded West Fertilizer
-case opening that keeps event, storage, emergency, community, regulatory, and
-insurance layers distinct. Slot B now compares Arkema and Texas 2021 only on
-extreme-weather and common-mode resource pressures while preserving their
-facility and regional-system scales.
+retire the slots. Slot A now tests Tesoro Anacortes and Chevron Richmond only
+on a bounded degradation-to-inspection-and-disposition chain while preserving
+HTHA and sulfidation mechanisms separately. Slot B now prepares a bounded
+CSB-grounded CAPECO storage-terminal overfill case opening.
 The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
@@ -565,6 +564,24 @@ authority, disposition, relative causal weight, recurrence, screen fit,
 liability, and remedy efficacy remain unknown. The active slots now compare
 West Fertilizer and Imperial Sugar on emergency/community protection and open
 one bounded Chevron Richmond case without claiming a shared mechanism.
+
+The West Fertilizer and Imperial Sugar emergency/community gate closes without
+a separate comparison artifact. Their bounded records already preserve
+distinct ammonium-nitrate and combustible-dust events, protection systems, and
+affected standing, and neither supplies the same complete hazard, warning
+custody, accountable authority, disposition, stop condition, and protection
+effect. This negative disposition creates no recurrence, shared mechanism,
+schema pressure, remedy, receiver work, or external action.
+
+`SF-0015` now adds a bounded CSB-grounded Chevron Richmond public-source
+record. It keeps sulfidation damage, component inspection, material selection,
+turnaround scope, leak response, worker and responder exposure, community
+warning, industry guidance, and regulatory oversight distinct. Complete
+component history, custody, individual knowledge, authority, disposition,
+implementation, health causation, relative causal weight, recurrence, screen
+fit, liability, and remedy efficacy remain unknown. The active slots now test
+Tesoro and Chevron only on a bounded integrity-management chain and open one
+bounded CAPECO overfill case without claiming a shared mechanism.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
