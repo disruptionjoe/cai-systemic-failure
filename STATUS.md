@@ -33,9 +33,14 @@ as bounded-corpus insufficient without a redundant artifact. A Conception
 partial trace now preserves the relation from missing patrol through delayed
 detection and reduced firefighting and evacuation opportunity while keeping
 operator, regulatory, detection, warning, escape, standing, and control-effect
-objects distinct. Slot A now tests Conception patrol-verification-to-correction
-custody; slot B tests a bounded Conception/Station detection-and-egress
-comparison. The two Mac LaunchAgents remain active. Prompt hashes are receipt
+objects distinct. The patrol-verification-to-correction test closed as bounded-
+corpus insufficient, and the Conception/Station comparison preserved separate
+marine watchstanding, detection, and same-space escape versus building fire-
+safety materials, suppression, crowding, and egress without a redundant
+artifact. Slot A now tests Conception/Buncefield required-practice verification
+versus installed-safeguard functional readiness; slot B tests whether
+Conception evidence changes the equipment-specific scope of candidate-only
+`SFQ-0003`. The two Mac LaunchAgents remain active. Prompt hashes are receipt
 metadata only and do not grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves

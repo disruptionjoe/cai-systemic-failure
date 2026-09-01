@@ -542,12 +542,24 @@
      detection, warning, firefighting, evacuation, escape geometry, affected
      standing, and control effect distinct
      (`SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001`).
-136. Prepared only: test whether the Conception source set supports a bounded
-     patrol-verification-to-correction path without inventing inspector or
-     operator receipt, disposition, implementation, or control effect.
-137. Prepared only: compare Conception and the Station nightclub only at the
-     detection, warning, evacuation, and egress-protection boundary while
-     preserving vessel and building/fire-safety domain explanations.
+136. Done without a separate trace: the bounded Conception corpus does not
+     establish complete patrol assignment, communication, inspection
+     knowledge, accountable receipt, operator or regulatory disposition,
+     correction, implementation, relative causal weight, or control effect
+     beyond the existing patrol-to-detection-to-escape trace.
+137. Done without a separate comparison artifact: preserve Conception marine
+     watchstanding, detection, and same-space escape as distinct from Station
+     building/fire-safety materials, sprinklers, pyrotechnics, crowding, and
+     egress because no shared custody, authority, disposition,
+     implementation, causal-weight, or control-effect relation is established.
+138. Prepared only: compare Conception and Buncefield at the bounded control-
+     assurance level while preserving required human-practice implementation
+     and regulatory verification as distinct from installed-safeguard
+     functional readiness, device testing, maintenance, and COMAH oversight.
+139. Prepared only: test whether Conception required-practice verification
+     evidence should alter candidate-only `SFQ-0003` or remain separate from
+     its installed-equipment-specific knowledge, characterization,
+     measurement, inspection, disposition, and unresolved-stop scope.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

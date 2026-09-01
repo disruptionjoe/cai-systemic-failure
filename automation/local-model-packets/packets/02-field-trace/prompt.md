@@ -1,55 +1,52 @@
-# Compare Conception and Station detection and egress boundaries
+# Test whether Conception changes SFQ-0003 scope
 
-Lineage ID: `SF-LIN-COMP-CONCEPTION-STATION-DETECTION-EGRESS-01`, opportunity
-1. Prepare one proposal-only source-preserving boundary test from supplied
-owner evidence. Frontier review decides owner truth. Do not retrieve sources
-or invent unsupported facts. Do not prescribe watchstanding, detection,
-sprinkler, material, pyrotechnic, evacuation, egress, vessel, building,
-company, regulatory, inspection, or emergency changes; infer recurrence, one
-root cause, shared authority, blame, duty, liability, remedy efficacy, or
-external effect.
+Lineage ID: `SF-LIN-SFQ0003-REQUIRED-PRACTICE-SCOPE-BOUNDARY-01`, opportunity
+1. Prepare one proposal-only inquiry-scope decision from supplied owner
+evidence. Frontier review decides owner truth. Do not retrieve sources. Do not
+invent unsupported facts. Do not create Mechanism Design work; prescribe equipment,
+inspection, patrol, vessel, operator, company, or regulatory changes; infer
+recurrence, one root cause, shared authority, blame, duty, liability, remedy
+efficacy, or external effect.
 
-Supplied bounded owner evidence from `SF-0009`,
-`SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001`, and
-`SF-ABS-0003`:
+Supplied bounded owner evidence from `SFQ-0003`, `SF-0009`, and
+`SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001`:
 
-- Conception had no maintained roving patrol, the salon lacked smoke
-  detection, and both bunkroom exits led through the salon; delayed detection
-  precluded firefighting and evacuation efforts.
-- The Station source set centers pyrotechnics igniting polyurethane foam,
-  rapid fire spread, no installed sprinklers, main-entrance crowding,
-  evacuation limits, code application, material restrictions, and inspection
-  or emergency-response recommendations.
-- Vessel watchstanding, marine inspection, smoke detection, and same-space
-  escape blockage are distinct from building/fire-safety code, materials,
-  sprinklers, pyrotechnics, crowding, and egress protection.
-- Complete cross-case custody, accountable authority, disposition,
-  implementation, relative causal weight, and control effect remain unknown.
-- Shared fire, warning, evacuation, or fatal consequence is not evidence of
-  recurrence or one mechanism.
+- Candidate-only `SFQ-0003` asks how materially relevant technical knowledge
+  becomes installed-equipment-specific characterization, measurement,
+  inspection, disposition, and an unresolved stop condition before continued
+  operation. It preserves PES HF corrosion and Tesoro HTHA as different
+  damage regimes.
+- Conception concerns a required human patrol that was not maintained and a
+  regulatory inspection process with no effective means to verify compliance;
+  no patrol log was required and inspection checklists did not cover the
+  watchstanding requirement.
+- Installed-equipment knowledge, characterization, measurement, and damage-
+  specific inspection are distinct from required-practice assignment,
+  performance, operator oversight, and regulatory verification.
+- Complete cross-case knowledge custody, accountable review, authority,
+  disposition, correction, implementation, recurrence, relative causal
+  weight, and control effect remain unknown.
 
-Return exactly one Markdown table with eight ordered rows and columns
-`Comparison object | Conception source-local boundary | Station source-local
-boundary | Preserved distinction or unknown`: `initial hazard`, `early
-detection`, `suppression protection`, `warning`, `evacuation`, `escape or
-egress`, `operator and regulatory context`, `affected standing and control
-effect`.
+Return exactly these eight labeled lines, with no table or extra text:
 
-Then return exactly four lines outside the table:
-
-- **Decision:** choose `prepare_bounded_detection_egress_comparison` or
-  `preserve_separate_fire_safety_boundaries`.
+- **Equipment-specific object:** name only the supplied `SFQ-0003` object.
+- **Required-practice object:** name only the supplied Conception object.
+- **Strongest bounded relation:** state the narrowest supplied relation without
+  calling it recurrence or one mechanism.
+- **Decisive distinction:** state why one object cannot supply the other.
+- **Decision:** choose `widen_inquiry_to_required_practice_verification` or
+  `preserve_equipment_specific_inquiry_scope`.
 - **Falsifier:** name one exact supplied fact whose removal or reversal would
-  defeat the selected decision; do not cite this instruction or invent an
-  unsupplied opposite fact.
-- **Unknowns:** `complete cross-case custody, accountable authority,
-  disposition, implementation, relative causal weight, and control effect
-  remain unknown`
-- **Non-effect:** `No recurrence, one fire, detection, warning, suppression,
-  evacuation, escape, egress, operator, regulatory, inspection, emergency,
-  marine-safety, or building/fire-safety mechanism, shared crew, operator,
-  venue, vessel, inspector, regulator, responder, or occupant authority,
-  schema, blame, duty, remedy, acceptance, receiver work, liability, or
-  external action is accepted.`
+  defeat the selected decision.
+- **Unknowns:** `complete cross-case knowledge custody, accountable review,
+  authority, disposition, correction, implementation, recurrence, relative
+  causal weight, and control effect remain unknown`
+- **Non-effect:** `No recurrence, one knowledge, characterization,
+  measurement, inspection, verification, patrol, correction, operator,
+  company, regulatory, equipment-integrity, process-safety, or maritime-safety
+  mechanism, shared owner, operator, company, inspector, regulator, equipment,
+  vessel, or responder authority, schema, blame, duty, remedy, acceptance,
+  Mechanism Design work, receiver work, liability, or external action is
+  accepted.`
 
-Plain Markdown, no frontmatter, under 850 words.
+Plain Markdown, no frontmatter, under 450 words.

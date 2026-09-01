@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T17:04:20-05:00"
-run_ref: RUN-20260901-220420-cai-systemic-failure-prepared-progress
-bottom_line: "The El Faro officer-input test closed without duplication, and one Conception trace now preserves distinct patrol, detection, escape, oversight, and control-effect boundaries."
+updated_at: "2026-09-01T18:05:01-05:00"
+run_ref: RUN-20260901-230501-cai-systemic-failure-prepared-progress
+bottom_line: "Two Conception tests closed without redundant artifacts; the next slots test a control-assurance comparison and the scope boundary of candidate-only SFQ-0003."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Closed one insufficient El Faro test without duplication, published one Conception partial trace, and replenished both terminal slots."
-    movement_ref: "topology/SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001.md; ROADMAP.md"
+    last_movement: "Closed two negative Conception tests without redundant artifacts and replenished both terminal slots with simpler, materially different families."
+    movement_ref: "ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Test Conception verification-to-correction custody and a bounded Conception/Station detection-and-egress comparison without creating a shared mechanism."
+    steering_prompt: "Test Conception/Buncefield control assurance and whether Conception changes the equipment-specific scope of candidate-only SFQ-0003."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: conception_trace_preserves_patrol_detection_escape_and_control_boundaries
-    evidence_ref: "topology/SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001.md; ROADMAP.md"
-    summary: "The trace preserves distinct patrol, operator, regulatory, detection, warning, firefighting, evacuation, escape, standing, and control-effect objects."
-    evaluated_at: "2026-09-01T17:04:20-05:00"
-    run_ref: RUN-20260901-220420-cai-systemic-failure-prepared-progress
+    reason_code: conception_negative_tests_close_without_redundant_artifacts
+    evidence_ref: "topology/SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001.md; topology/SF-ABS-0003-negative-absorber-station-nightclub.md; ROADMAP.md"
+    summary: "Current owner truth already preserves the incomplete patrol-correction chain and the distinct Conception and Station fire-safety boundaries."
+    evaluated_at: "2026-09-01T18:05:01-05:00"
+    run_ref: RUN-20260901-230501-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 134-135, published one bounded Conception trace, and installed two materially different successor prompts."
+    progress_delta: "Closed Roadmap 136-137 without duplicate artifacts, added 138-139, and installed two simpler successor prompts."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test Conception correction custody and a bounded detection-and-egress comparison without creating receiver work."
+    recommendation: "Keep the schema provisional; test one cross-domain control-assurance boundary and one inquiry-scope boundary without creating receiver work."
     findings:
-      - "The bounded El Faro corpus does not support a second complete officer-input artifact beyond the existing partial weather-to-route trace."
-      - "MAR-20/03 supports a partial patrol, delayed-detection, firefighting, evacuation, and escape relation with major custody gaps preserved."
-      - "The result establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, liability, or external action."
+      - "The bounded Conception corpus does not establish complete verification-to-correction custody beyond the existing partial trace."
+      - "Conception and Station remain separate marine and building/fire-safety control domains without a shared source-local mechanism."
+      - "The closures establish no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A
         label: "Stay provisional"
