@@ -455,3 +455,10 @@ two records' event, containment, information, and authority phases as separate
 source-local objects. Hazardous-material consequence alone does not establish
 one custody-to-authority mechanism, and neither record supplies the other's
 accountable authority, disposition, stop condition, or control effect.
+
+`SF-COMP-LACMEGANTIC-CONCEPTION-SAFETY-MANAGEMENT-OVERSIGHT-BOUNDARY.md`
+preserves separate transportation management and oversight boundaries.
+Lac-Megantic rail securement, shutdown, safety culture, and regulatory
+oversight do not supply the same custody, accountable authority, disposition,
+stop condition, or control effect as Conception watchstanding, fire growth,
+smoke-detection regulation, and escape arrangements.

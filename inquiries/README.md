@@ -56,3 +56,7 @@ Mechanism Design through the common envelope.
   2016 Section 1431 order only as a later authority, validation, and stop
   object. It refuses to backfill the earlier complaint chain, keeps
   source-local completion required, and leaves receiver fit candidate-only.
+- `SFQ-0002-DISPOSITION-0005-FLINT-ORDER-RECEIVER-READINESS.md` - confirms
+  that the later order does not change receiver readiness because it cannot
+  supply the earlier complaint's custody, complaint-specific authority,
+  disposition, validation treatment, stop status, or causal relevance.

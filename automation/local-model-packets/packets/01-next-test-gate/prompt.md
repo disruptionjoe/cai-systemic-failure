@@ -1,35 +1,51 @@
-# Disposition receiver readiness after the later Flint order link
+# Open a bounded West Fertilizer public-source record
 
-Lineage ID: `SF-LIN-SFQ0002-FLINT-ORDER-RECEIVER-DISPOSITION-01`, opportunity 1.
-Prepare one proposal-only readiness decision. Use only the supplied owner facts.
-Do not retrieve sources. Do not invent or infer complaint custody, complaint-
-specific authority, disposition, causal relevance, a Texas link, recurrence,
-shared mechanism, blame, duty, remedy, receiver action, or acceptance.
+Lineage ID: `SF-LIN-WEST-FERTILIZER-CASE-OPENING-01`, opportunity 1.
+Prepare one proposal-only case-opening decision from the supplied CSB facts.
+Do not retrieve sources. Do not invent fire origin, individual knowledge,
+complete hazard-information custody, complete inspection history, one root
+cause, blame, legal duty, remedy efficacy, recurrence, schema fit, receiver
+action, or external effect.
 
-Supplied owner facts:
+Supplied official-source facts from the U.S. Chemical Safety Board final report
+on the April 17, 2013 West Fertilizer Company fire and explosion:
 
-- `SFQ-0002-DISPOSITION-0004-RECEIVER-READINESS` requires source-local
-  completion because the Flint and Texas chains remain incomplete.
-- `SFQ-0002-FLINT-ORDER-LINK-REVIEW-0001` supports EPA's January 21, 2016
-  Section 1431 order as a later authority, corrosion-control and source-
-  transition validation object, and written stop or termination object.
-- That review explicitly does not establish custody, complaint-specific
-  authority, disposition, validation treatment, stop status, or causal
-  relevance for one earlier complaint.
-- `SFQ-0002` remains unmodified and Mechanism Design fit remains candidate-only.
+- A fire preceded detonation of fertilizer-grade ammonium nitrate stored at the
+  fertilizer blending, retail, and distribution facility in West, Texas.
+- The explosion killed 12 emergency responders and three members of the public,
+  injured more than 260 people, destroyed the facility, and damaged more than
+  150 offsite buildings, including residences, schools, apartments, and a
+  nursing home.
+- Combustible storage-bin and building materials and the lack of automatic
+  sprinklers plausibly contributed to the detonation; the exact fire cause was
+  not determined.
+- Federal regulatory coverage did not treat the ammonium-nitrate storage hazard
+  through one complete process-safety regime, while state and local land-use
+  controls allowed dense community development near the facility.
+- The volunteer fire department was not required to perform pre-incident
+  planning for an ammonium-nitrate emergency, and volunteer firefighters were
+  not required to receive hazardous-chemical fire training.
+- An earlier insurer had dropped the facility after safety concerns were not
+  addressed; the insurer at the time of the event did not appear to have
+  conducted its own facility safety inspection. Complete custody, receipt,
+  disposition, and implementation of insurer information remain unknown.
 
-Return exactly eight short lines:
+Return exactly twelve short lines:
 
-- **Unit:** exactly `SFQ-0002 Flint receiver readiness after later order link`.
-- **New supported link:** exactly `later EPA authority, validation, and stop objects only`.
-- **Earlier-chain boundary:** exactly `the earlier complaint custody, authority, disposition, validation treatment, stop status, and causal relevance remain incomplete`.
-- **Decision:** choose exactly `keep_source_local_completion_required` or `open_receiver_review`.
-- **Decision basis:** state whether a later authority and stop object completes the earlier complaint chain.
-- **Missing links:** exactly `one source-local earlier complaint custody, complaint-specific authority, disposition, validation treatment, stop status, and causal relevance remain required`.
-- **Receiver posture:** exactly `Mechanism Design fit remains candidate-only and no receiver work is created`.
-- **Non-effect:** exactly `No inquiry broadening, recurrence, shared mechanism, schema pressure, blame, duty, remedy, acceptance, receiver work, or external action is accepted.`
+- **Unit:** exactly `West Fertilizer public-source case opening`.
+- **Event boundary:** name only fire, ammonium-nitrate detonation, and offsite blast consequence.
+- **Storage boundary:** name only combustible construction, storage configuration, and absent automatic sprinklers.
+- **Emergency boundary:** name only pre-incident planning, hazardous-chemical fire training, and volunteer response.
+- **Community boundary:** name only facility proximity to residences, schools, apartments, and a nursing home.
+- **Regulatory boundary:** name only federal coverage, state and local land use, and inspection layers.
+- **Insurance boundary:** name only earlier loss-control concerns and the later insurer's absent apparent inspection.
+- **Source limit:** exactly `the exact fire cause and complete custody, authority, disposition, implementation, and relative causal weight remain unknown`.
+- **Decision:** choose exactly `open_bounded_west_fertilizer_record` or `decline_case_opening`.
+- **Decision basis:** state whether the supplied facts support distinct event, storage, emergency, community, regulatory, and insurance layers without one root-cause claim.
+- **Falsifier:** state what missing or contradictory official-source fact would prevent a bounded record.
+- **Non-effect:** exactly `No recurrence, shared mechanism, schema pressure, blame, duty, remedy, receiver work, or external action is accepted.`
 
-Use `keep_source_local_completion_required` unless the supplied facts complete
-every named earlier-chain link without backdating the later order. This is a
-Frontier disposition decision, not owner research truth. Plain Markdown, no
-table or frontmatter, under 230 words.
+Use `open_bounded_west_fertilizer_record` only if every layer stays separate
+and all named unknowns remain explicit. This is a Frontier case-opening
+decision, not owner research truth. Plain Markdown, no table or frontmatter,
+under 380 words.

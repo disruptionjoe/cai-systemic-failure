@@ -292,18 +292,29 @@
     Report `R13D0054` that keeps securement, locomotive fire and shutdown,
     dangerous-goods containment, company safety management, regulatory
     oversight, and community consequences distinct (`SF-0012`).
-83. Prepared only: disposition whether the later Flint authority, validation,
-    and stop link changes the existing source-local-completion requirement or
-    receiver readiness without borrowing it into the earlier complaint chain.
+83. Done: keep source-local completion required after the later Flint order
+    link because later authority, validation, and stop objects do not complete
+    the earlier complaint's custody, complaint-specific authority,
+    disposition, validation treatment, stop status, or causal relevance
+    (`SFQ-0002-DISPOSITION-0005-FLINT-ORDER-RECEIVER-READINESS`).
 84. Done: compare Lac-Megantic and East Palestine only on hazardous-materials
     and authority phases while preserving runaway and securement, bearing and
     derailment, post-derailment decision, containment, regulatory, and
     community facts as separate source-local objects
     (`SF-COMP-LACMEGANTIC-EASTPALESTINE-HAZMAT-AUTHORITY-BOUNDARY`).
-85. Prepared only: test whether Lac-Megantic and Conception support one common
-    safety-management and regulatory-oversight chain or only different rail
-    and marine control pressures with separate custody, authority,
-    disposition, stop, and control-effect unknowns.
+85. Done: preserve separate Lac-Megantic and Conception transportation
+    management and oversight boundaries because rail securement, safety
+    culture, and regulatory oversight do not supply the same custody,
+    authority, disposition, stop, or control-effect chain as marine
+    watchstanding, detection regulation, and escape arrangements
+    (`SF-COMP-LACMEGANTIC-CONCEPTION-SAFETY-MANAGEMENT-OVERSIGHT-BOUNDARY`).
+86. Prepared only: open one bounded CSB-grounded West Fertilizer case that
+    separates ammonium-nitrate storage, fire and detonation, emergency
+    preparation, community proximity, regulation, and insurance controls.
+87. Prepared only: compare Arkema and Texas 2021 only on extreme-weather and
+    common-mode resource pressure while preserving facility and regional
+    system scales, distinct authority, and incomplete custody or control
+    effects.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

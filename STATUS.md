@@ -6,11 +6,11 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. Slot A now tests whether the bounded later Flint order link
-changes receiver readiness without backfilling the earlier complaint chain.
-Slot B now compares Lac-Megantic and East Palestine only on hazardous-material
-and authority phases while preserving their different event mechanics,
-decision windows, containment conditions, and sovereign domain explanations.
+retire the slots. Slot A now prepares a bounded CSB-grounded West Fertilizer
+case opening that keeps event, storage, emergency, community, regulatory, and
+insurance layers distinct. Slot B now compares Arkema and Texas 2021 only on
+extreme-weather and common-mode resource pressures while preserving their
+facility and regional-system scales.
 The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
@@ -519,6 +519,24 @@ authority, disposition, stop condition, or control effect. The unattempted
 Flint receiver-disposition slot remains unchanged; the exploration slot now
 tests Lac-Megantic and Conception only on bounded safety-management and
 oversight pressures.
+
+`SFQ-0002-DISPOSITION-0005-FLINT-ORDER-RECEIVER-READINESS` now closes the
+dependent receiver gate as `keep_source_local_completion_required`. The later
+EPA order supplies authority, validation, and stop objects but does not fill
+the earlier complaint's custody, complaint-specific authority, disposition,
+validation treatment, stop status, or causal relevance. `SFQ-0002` remains
+unmodified, Mechanism Design fit remains candidate-only, and no receiver work
+is created.
+
+`SF-COMP-LACMEGANTIC-CONCEPTION-SAFETY-MANAGEMENT-OVERSIGHT-BOUNDARY` now
+closes the transportation comparison as
+`preserve_separate_transport_management_oversight_boundaries`. Rail
+securement, shutdown, safety culture, and Transport Canada oversight remain
+distinct from marine watchstanding, fire growth, smoke-detection regulation,
+and escape arrangements. Neither record supplies the same complete custody,
+accountable authority, disposition, stop condition, or control effect. The two
+active slots now prepare a West Fertilizer case opening and an Arkema/Texas
+common-mode resource boundary without claiming recurrence or schema fit.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
