@@ -372,14 +372,25 @@
     technical-support paths, protective boundaries, and release-
     characterization limits. Shared missing-chain vocabulary does not
     establish recurrence or one emergency-control mechanism.
-100. Prepared only: compare CAPECO and Buncefield on overfill protection using
-    the source-local comparison in CSB `2010-02-I-PR`, preserving their
-    different gauging, alarm, automatic-control, and regulatory conditions
-    before any recurrence claim.
-101. Prepared only: compare CAPECO and West Fertilizer only on community
-    standing, hazard assessment, emergency preparation, and public-protection
-    boundaries without treating severe consequence or proximity as one
-    mechanism.
+100. Done: compare CAPECO and Buncefield on overfill protection using the
+     source-local comparison in CSB `2010-02-I-PR`. Preserve the bounded
+     failed-functional-protection relation while keeping manual and automated
+     gauging, absent and inoperable safeguards, regulatory posture, and every
+     stronger mechanism or recurrence claim distinct
+     (`SF-COMP-CAPECO-BUNCEFIELD-OVERFILL-PROTECTION-BOUNDARY`).
+101. Done without a separate comparison artifact: CAPECO and West Fertilizer
+     share offsite consequence and community proximity but not one supported
+     hazard-assessment, emergency-preparation, land-use, environmental,
+     authority, or protection-effect mechanism.
+102. Prepared only: open one bounded HSE/Environment Agency Buncefield record
+     that separates transfer state, primary gauging, independent high-level
+     switch, automatic shutdown, safeguard integrity, safety management,
+     community and environmental consequence, and COMAH oversight.
+103. Prepared only: open one bounded CSB-grounded Husky Superior record that
+     separates FCC shutdown state, air and hydrocarbon separation, reactor
+     steam barrier, main-column purge, slide-valve integrity, process
+     knowledge, explosion and asphalt escalation, and worker or community
+     standing.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

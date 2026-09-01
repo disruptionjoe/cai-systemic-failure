@@ -489,3 +489,11 @@ instrument condition, independent alarm, automatic flow control, overflow
 detection, and the later manual halt request remain separate; complete
 knowledge, custody, accountable receipt, authority, verified stop,
 implementation, and control effect remain unknown.
+
+`SF-COMP-CAPECO-BUNCEFIELD-OVERFILL-PROTECTION-BOUNDARY.md` preserves one
+bounded event-and-protection-layer relation: both gasoline-tank overfills
+combined failed primary level control with no functioning independent
+termination layer. It keeps CAPECO's absent alarm and automatic protection,
+Buncefield's installed but inoperable layers, and their different regulatory
+postures distinct; no recurring management, authority, maintenance,
+regulatory, or remedy mechanism is established.

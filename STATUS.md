@@ -638,6 +638,18 @@ implementation, ignition, and control effect remain unknown. The CAPECO/
 DuPont candidate supplied no source-local shared relation, so Roadmap 99 closes
 without a separate comparison artifact or recurrence claim.
 
+`SF-COMP-CAPECO-BUNCEFIELD-OVERFILL-PROTECTION-BOUNDARY` now preserves one
+bounded relation supported by CSB `2010-02-I-PR`: both gasoline-tank overfills
+combined failed primary level control with no functioning independent
+termination layer. It keeps CAPECO's absent alarm and automatic protection,
+Buncefield's installed but inoperable layers, and their different regulatory
+postures distinct. The CAPECO/West community-protection gate closes without a
+separate artifact because shared offsite consequence, proximity, and missing
+protection-effect chains do not establish one hazard-assessment, emergency,
+land-use, authority, or control mechanism. The active slots now prepare a
+standalone Buncefield safeguard-integrity opening and a Husky Superior
+transient-operation opening.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

@@ -1,32 +1,40 @@
-# Compare CAPECO and West Fertilizer community-protection boundaries
+# Open a bounded Husky Superior transient-operation record
 
-Lineage ID: `SF-LIN-COMP-CAPECO-WEST-COMMUNITY-PROTECTION-01`, opportunity 1.
-Prepare one proposal-only comparison from supplied owner facts. Do not retrieve
-sources or invent unsupported facts. Frontier review decides owner truth. Do not infer one mechanism,
-recurrence, complete custody, authority, exposure or health causation, remedy
-efficacy, receiver action, or external effect.
+Lineage ID: `SF-LIN-HUSKY-SUPERIOR-TRANSIENT-OPERATION-OPENING-01`, opportunity 1.
+Prepare one proposal-only public-source case opening from supplied CSB facts.
+Do not retrieve sources or invent unsupported facts. Frontier review decides
+owner truth. Do not infer one root cause, recurrence, complete custody,
+authority, health causation, remedy efficacy, receiver action, or external
+effect.
 
-CAPECO facts: nearby homes and businesses were damaged; soil, wetlands, and
-waterways received petroleum; the CSB identified inadequate hazard assessment
-for nearby populations and environmental resources. Complete warning,
-emergency, land-use, regulatory, and protection-effect chains remain unknown.
+Supplied facts from CSB Investigation Report `2018-02-I-WI`:
 
-West Fertilizer facts: responders and members of the public were killed,
-offsite buildings were damaged, the volunteer fire department lacked
-FGAN-specific preplanning and training, and facility-community proximity was a
-separate land-use surface. Fire origin and complete command, warning,
-authority, and protection-effect chains remain unknown.
+- On April 26, 2018, the refinery was shutting down its fluid catalytic
+  cracking unit for a turnaround. Air and flammable hydrocarbons had to remain
+  separated during this transient operating state.
+- The refinery did not establish a reactor steam barrier or properly purge the
+  main column, relied on catalyst slide valves for separation, and one eroded
+  valve left a path for air to enter hydrocarbon-filled equipment.
+- Air and hydrocarbons mixed and exploded. Debris punctured a hot-asphalt
+  storage tank; released asphalt later ignited.
+- Thirty-six workers were injured, more than 2,500 residents were evacuated,
+  and Duluth issued a shelter-in-place order. Hydrofluoric acid did not release;
+  potential HF involvement remains a separate consequence boundary.
+- The CSB identified process-knowledge, procedure, hazard-analysis, training,
+  safeguard-integrity, and emergency-preparedness issues. The supplied facts do
+  not reconstruct complete individual knowledge, authority, or implementation.
 
-Return a Markdown table with columns `Dimension | CAPECO | West Fertilizer |
-Comparison boundary` and exactly six rows: `affected standing`, `hazard
-assessment`, `emergency preparation`, `community proximity`, `environmental
-or health boundary`, `shared-pattern gate`.
+Return exactly one Markdown table with eight ordered rows and columns `Layer | Supplied fact |
+Boundary | Missing link`: `shutdown state`, `reactor steam barrier`, `main
+column purge`, `slide-valve integrity`, `air and hydrocarbon separation`,
+`explosion and asphalt escalation`, `worker and community standing`, `process
+knowledge and safety management`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `candidate_community_protection_relation_requires_frontier_review` or `preserve_separate_community_boundaries`.
-- **Shared residue:** name only a bounded relation supported by both records, or `none`.
-- **Unknowns:** `complete custody, authority, disposition, implementation, relative causal weight, recurrence, exposure, and remedy efficacy remain unknown`
-- **Non-effect:** `No schema, blame, duty, remedy, receiver work, health conclusion, or external action is accepted.`
+- **Decision:** choose `open_bounded_husky_superior_record` or `source_boundary_insufficient`.
+- **Falsifier:** name one source-local fact that would defeat the decision.
+- **Unknowns:** `complete knowledge, custody, authority, disposition, implementation, relative causal weight, recurrence, exposure, and remedy efficacy remain unknown`
+- **Non-effect:** `No schema, blame, duty, remedy, receiver work, HF or health conclusion, or external action is accepted.`
 
-Plain Markdown, no frontmatter, under 700 words.
+Plain Markdown, no frontmatter, under 900 words.
