@@ -504,10 +504,11 @@
      workload, real-time risk management, Army safety assurance, collision-
      avoidance technology, data sharing, and affected standing distinct
      (`SF-0023`).
-128. Prepared only: compare Dali/Key Bridge and Potomac at the bounded prior-
-     risk-visibility layer while preserving bridge-vulnerability assessment,
-     close-encounter data, route review, recommendation, authority,
-     implementation, real-time control, and standing as distinct objects.
+128. Done without a separate comparison artifact: preserve Dali/Key Bridge
+     and Potomac as separate transport-risk boundaries. The bounded owner
+     records do not establish one shared source-local risk-information
+     custody, accountable review, authority, disposition, implementation,
+     warning, or control-effect relation.
 129. Prepared only: test whether `AIR-26-02` supports one partial Potomac
      risk-data-to-control trace that keeps report sources, data custody,
      analysis, route review, recommendation, authority, implementation,
@@ -517,11 +518,19 @@
      concerns, analysis, route review, recommendation, distributed authority,
      implementation, real-time control, standing, and unknown control effect
      distinct (`SF-POTOMAC-RISK-DATA-CONTROL-PARTIAL-TRACE-0001`).
-131. Prepared only: open one bounded NTSB-grounded El Faro record that
+131. Done: open one bounded NTSB-grounded El Faro record that
      separates hurricane exposure, weather information, route decision,
      bridge input, company oversight and safety management, cargo-hold
      flooding, propulsion and list, downflooding and damage control, muster and
-     survival craft, and affected standing.
+     survival craft, and affected standing (`SF-0024`).
+132. Prepared only: test whether `MAR-17/01` and the bounded El Faro record
+     support one partial weather-information-to-route-decision trace without
+     inventing complete bridge or shoreside custody, authority, disposition,
+     implementation, or control effect.
+133. Prepared only: compare El Faro and Conception at the bounded emergency-
+     readiness and survival layer while keeping storm and fire exposure,
+     muster and warning, damage control and escape, survival craft, operator
+     oversight, regulation, standing, and control effect distinct.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

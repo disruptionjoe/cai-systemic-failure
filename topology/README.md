@@ -602,3 +602,12 @@ distributed authority, and absent timely mitigation. Complete cross-system
 custody, accountable review, Army or FAA disposition, implementation,
 real-time authority, relative causal weight, and control effect remain
 unknown.
+
+`evidence/records/SF-0024-el-faro-weather-route-vessel-state-and-emergency-boundaries.md`
+adds a bounded El Faro public-source record. It keeps hurricane exposure,
+weather information, route decision, bridge input, company oversight and
+safety management, flooding, sustained list, propulsion, downflooding, damage
+control, muster, survival craft, and affected standing distinct. Complete
+information custody, officer-to-captain review, shoreside receipt, company
+disposition, vessel-state knowledge, emergency authority, implementation,
+relative causal weight, and control effect remain unknown.

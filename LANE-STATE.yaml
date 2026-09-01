@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T14:04:41-05:00"
-run_ref: RUN-20260901-190441-cai-systemic-failure-prepared-progress
-bottom_line: "One bounded Potomac partial trace now preserves distinct safety-report, position-data, review, authority, and real-time-control boundaries."
+updated_at: "2026-09-01T15:03:39-05:00"
+run_ref: RUN-20260901-200339-cai-systemic-failure-prepared-progress
+bottom_line: "One bounded El Faro record now preserves distinct weather, route, vessel-state, emergency, survival, and standing boundaries."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published one bounded Potomac risk-data-to-control partial trace and rotated terminal slot B to an El Faro case-opening packet while preserving unattempted slot A."
-    movement_ref: "topology/SF-POTOMAC-RISK-DATA-CONTROL-PARTIAL-TRACE-0001.md; ROADMAP.md"
+    last_movement: "Published one bounded El Faro record, closed the Dali/Potomac test without a redundant artifact, and replenished both terminal slots."
+    movement_ref: "evidence/records/SF-0024-el-faro-weather-route-vessel-state-and-emergency-boundaries.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Test the Dali/Potomac prior-risk-visibility boundary and open a bounded El Faro record without creating a shared mechanism."
+    steering_prompt: "Test one El Faro weather-to-route trace and the El Faro/Conception emergency-readiness boundary without creating a shared mechanism."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: potomac_partial_trace_preserves_source_local_report_data_review_authority_and_control_boundaries
-    evidence_ref: "topology/SF-POTOMAC-RISK-DATA-CONTROL-PARTIAL-TRACE-0001.md; ROADMAP.md"
-    summary: "The Potomac trace preserves separate report, position-data, concern, analysis, review, authority, implementation, control, and standing paths."
-    evaluated_at: "2026-09-01T14:04:41-05:00"
-    run_ref: RUN-20260901-190441-cai-systemic-failure-prepared-progress
+    reason_code: el_faro_record_preserves_weather_route_vessel_state_emergency_survival_and_standing_boundaries
+    evidence_ref: "evidence/records/SF-0024-el-faro-weather-route-vessel-state-and-emergency-boundaries.md; ROADMAP.md"
+    summary: "The El Faro record preserves separate storm, information, route, bridge, company, vessel-state, emergency, survival, and standing paths."
+    evaluated_at: "2026-09-01T15:03:39-05:00"
+    run_ref: RUN-20260901-200339-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 129, published the Potomac partial trace, preserved unattempted slot A, and replenished terminal slot B with an El Faro case opening."
+    progress_delta: "Closed Roadmap 128 and 131, published SF-0024, and installed two materially different El Faro follow-on prompts."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test the Dali/Potomac comparison and bounded El Faro opening without creating receiver work."
+    recommendation: "Keep the schema provisional; test the El Faro trace and El Faro/Conception comparison without creating receiver work."
     findings:
-      - "The predecessor Dali/I-35W replay adds no source-local relation beyond the already closed separate-boundary result."
-      - "AIR-26-02 supports a bounded partial trace across occurrence reports, objective position data, concerns, analysis, route review, recommendation, authority, implementation, and real-time control."
+      - "The Dali/Potomac candidate supports separate transport-risk boundaries but no shared source-local custody, authority, or control-effect relation."
+      - "MAR-17/01 supports a bounded El Faro record across weather, route, bridge, company, vessel-state, emergency, survival, and standing layers."
       - "The result establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A

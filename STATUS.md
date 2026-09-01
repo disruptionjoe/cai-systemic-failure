@@ -19,11 +19,15 @@ control, risk-data review, Army and FAA safety assurance, collision avoidance,
 data sharing, and standing. The Potomac risk-data-to-control partial trace now
 preserves repeated reports, objective position data, local concerns,
 fragmented analysis, route review, recommendation, authority, implementation,
-and real-time control as distinct objects. Slot A still tests whether Dali and
-Potomac share one bounded prior-risk-visibility relation; slot B now opens a
-bounded El Faro hurricane, route, vessel-state, emergency, and standing
-record. The two Mac LaunchAgents remain active. Prompt hashes are receipt
-metadata only and do not grant, deny, or continue eligibility.
+and real-time control as distinct objects. The Dali/Potomac test preserves
+separate transport-risk boundaries without a redundant artifact. Bounded El
+Faro record `SF-0024` now separates storm exposure, weather information,
+route, bridge input, company oversight, flooding, propulsion, downflooding,
+damage control, muster, survival craft, and standing. Slot A now tests a
+source-local El Faro weather-information-to-route-decision trace; slot B tests
+the El Faro/Conception emergency-readiness and survival boundary. The two Mac
+LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
+grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
@@ -77,6 +81,13 @@ fragmented analysis, incomplete route review, recommendations, distributed
 authority, and absent timely mitigation. It does not complete cross-system
 custody, accountable review, Army or FAA disposition, implementation,
 real-time authority, recurrence, or control effect.
+
+`SF-0024` adds a bounded El Faro public-source record. It keeps hurricane
+exposure, weather information, route decision, bridge input, company
+oversight and safety management, cargo-hold flooding, sustained list,
+propulsion, downflooding, damage control, muster, survival craft, and affected
+standing distinct without claiming one root cause, recurrence, shared
+authority, remedy, liability, or receiver work.
 
 `SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001` preserves the source-local
 relation among material composition, differential corrosion, published
