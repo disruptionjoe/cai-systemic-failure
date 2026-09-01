@@ -6,10 +6,10 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. Slot A now tests one CAPECO overfill signal-to-stop partial
-trace. Slot B tests whether CAPECO and DuPont La Porte share an emergency-
-control pattern or only a superficial consequence resemblance. The Tesoro/
-Chevron repair and first DuPont response-trace opportunity are terminal.
+retire the slots. Slot A now tests the source-local CAPECO/Buncefield overfill-
+protection boundary. Slot B tests whether CAPECO and West Fertilizer share a
+bounded community-protection relation or only consequence and proximity. The
+CAPECO trace and CAPECO/DuPont comparison opportunities are terminal.
 The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
@@ -628,6 +628,15 @@ disposition, stop status, implementation, offsite exposure, and control effect
 remain unknown. The Tesoro/Chevron compact repair independently returned the
 same separate-integrity disposition already closed in Roadmap 91, so no
 duplicate comparison artifact was added.
+
+`SF-CAPECO-OVERFILL-SIGNAL-STOP-PARTIAL-TRACE-0001` now preserves the bounded
+sequence supported by CSB `2010-02-I-PR`. Transfer allocation, level evidence,
+instrument condition, independent alarm, automatic flow control, overflow
+detection, and the later manual halt request remain distinct. Complete
+knowledge, custody, accountable receipt, authority, verified stop,
+implementation, ignition, and control effect remain unknown. The CAPECO/
+DuPont candidate supplied no source-local shared relation, so Roadmap 99 closes
+without a separate comparison artifact or recurrence claim.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one

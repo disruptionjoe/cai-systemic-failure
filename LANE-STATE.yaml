@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T01:12:00-05:00"
-run_ref: RUN-20260901-060519-cai-systemic-failure-prepared-progress
-bottom_line: "DuPont La Porte now has a bounded emergency-response partial trace with the complete custody-to-effect chain still unknown."
+updated_at: "2026-09-01T02:20:00-05:00"
+run_ref: RUN-20260901-070455-cai-systemic-failure-prepared-progress
+bottom_line: "CAPECO now has a bounded signal-to-stop partial trace with the complete knowledge-to-control-effect chain still unknown."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published the bounded DuPont emergency-response partial trace, closed both terminal families, and replenished both slots."
-    movement_ref: "topology/SF-DUPONT-LAPORTE-EMERGENCY-RESPONSE-PARTIAL-TRACE-0001.md; ROADMAP.md"
+    last_movement: "Published the bounded CAPECO signal-to-stop partial trace, closed both terminal families, and replenished both slots."
+    movement_ref: "topology/SF-CAPECO-OVERFILL-SIGNAL-STOP-PARTIAL-TRACE-0001.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Test CAPECO signal-to-stop evidence and the bounded CAPECO/DuPont emergency-control comparison."
+    steering_prompt: "Test the CAPECO/Buncefield overfill-protection boundary and the CAPECO/West community-protection boundary."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: dupont_response_partial_trace_preserves_missing_links
-    evidence_ref: "topology/SF-DUPONT-LAPORTE-EMERGENCY-RESPONSE-PARTIAL-TRACE-0001.md; ROADMAP.md"
-    summary: "DuPont response layers are source-local and bounded; complete custody, authority, stop, exposure, and control effect remain unknown."
-    evaluated_at: "2026-09-01T01:12:00-05:00"
-    run_ref: RUN-20260901-060519-cai-systemic-failure-prepared-progress
+    reason_code: capeco_signal_stop_partial_trace_preserves_missing_links
+    evidence_ref: "topology/SF-CAPECO-OVERFILL-SIGNAL-STOP-PARTIAL-TRACE-0001.md; ROADMAP.md"
+    summary: "CAPECO signal and stop layers are source-local and bounded; complete custody, authority, verified stop, and control effect remain unknown."
+    evaluated_at: "2026-09-01T02:20:00-05:00"
+    run_ref: RUN-20260901-070455-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 93 and 95-97, published one bounded partial trace, and installed two materially different successors without changing schema or receiver authority."
+    progress_delta: "Closed Roadmap 98-99, published one bounded partial trace, and installed two materially different successors without changing schema or receiver authority."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
     recommendation: "Keep the schema provisional; preserve distinct troubleshooting, pressure, release, ventilation, detection, response, standing, management, and oversight objects."
     findings:
-      - "DuPont La Porte supports one bounded emergency-response partial trace without completing custody, authority, stop, exposure, or control effect."
-      - "The final Tesoro/Chevron repair repeated the already-closed disposition and produced no duplicate artifact."
+      - "CAPECO supports one bounded signal-to-stop partial trace without completing custody, authority, verified stop, or control effect."
+      - "The CAPECO/DuPont comparison preserves separate emergency-control boundaries and produced no duplicate artifact."
       - "The result establishes no recurrence, shared mechanism, schema pressure, health conclusion, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A

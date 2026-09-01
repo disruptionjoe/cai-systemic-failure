@@ -362,14 +362,24 @@
     command, entry, navigation, monitoring, hot-zone control, release control,
     characterization, and public protection distinct
     (`SF-DUPONT-LAPORTE-EMERGENCY-RESPONSE-PARTIAL-TRACE-0001`).
-98. Prepared only: test whether the CAPECO final report supports one bounded
-    signal-to-stop partial trace from transfer allocation and level evidence
-    through alarm, independent protection, flow control, and overflow without
-    inventing complete custody, authority, or control effect.
-99. Prepared only: compare CAPECO and DuPont La Porte only on emergency
-    information, protective-zone, responder or operator standing, release
-    characterization, and public-protection boundaries before any recurrence
-    or shared-mechanism claim.
+98. Done: build the bounded CAPECO signal-to-stop partial trace permitted by
+    CSB `2010-02-I-PR`, keeping transfer allocation, level evidence,
+    instrument condition, independent alarm, automatic flow control, overflow
+    detection, and the manual halt request distinct
+    (`SF-CAPECO-OVERFILL-SIGNAL-STOP-PARTIAL-TRACE-0001`).
+99. Done without a separate comparison artifact: CAPECO and DuPont La Porte
+    preserve different initiating controls, detection objects, command or
+    technical-support paths, protective boundaries, and release-
+    characterization limits. Shared missing-chain vocabulary does not
+    establish recurrence or one emergency-control mechanism.
+100. Prepared only: compare CAPECO and Buncefield on overfill protection using
+    the source-local comparison in CSB `2010-02-I-PR`, preserving their
+    different gauging, alarm, automatic-control, and regulatory conditions
+    before any recurrence claim.
+101. Prepared only: compare CAPECO and West Fertilizer only on community
+    standing, hazard assessment, emergency preparation, and public-protection
+    boundaries without treating severe consequence or proximity as one
+    mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

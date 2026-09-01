@@ -482,3 +482,10 @@ technical support, incident command, responder entry, navigation, monitoring,
 hot-zone control, release control, characterization, and public protection
 remain separate; complete custody, accountable authority, disposition, stop,
 offsite exposure, implementation, and control effect remain unknown.
+
+`SF-CAPECO-OVERFILL-SIGNAL-STOP-PARTIAL-TRACE-0001.md` preserves a bounded
+CSB-grounded transfer-to-stop sequence. Allocation, level evidence,
+instrument condition, independent alarm, automatic flow control, overflow
+detection, and the later manual halt request remain separate; complete
+knowledge, custody, accountable receipt, authority, verified stop,
+implementation, and control effect remain unknown.
