@@ -60,3 +60,9 @@ Mechanism Design through the common envelope.
   that the later order does not change receiver readiness because it cannot
   supply the earlier complaint's custody, complaint-specific authority,
   disposition, validation treatment, stop status, or causal relevance.
+- `SFQ-0003-knowledge-to-installed-equipment-inspection.md` - forms one
+  candidate-only inquiry from the bounded PES/Tesoro relation: what decision
+  structures translate materially relevant technical knowledge into installed-
+  equipment-specific characterization, measurement, inspection, disposition,
+  and unresolved stop conditions before continued operation. It preserves the
+  distinct damage regimes and creates no Mechanism Design work.

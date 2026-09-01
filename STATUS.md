@@ -7,17 +7,18 @@ governance, Lanes, and gates.
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
 retire the slots. The two PES traces and their first comparison families are
-terminal. The PES/Tesoro comparison preserves one bounded knowledge-to-
-installed-equipment relation across distinct corrosion and HTHA regimes. The
-PES-report comparison separately preserves active water-mitigation
-availability pressure across Marathon, CITGO, and PES. The new same-incident
-PES contrast keeps successful RAD deinventory distinct from failed remote and
-later manual water-pump activation without ranking protection effect. Slot A
-still tests whether the PES/Tesoro relation can support an answerable inquiry
-without creating receiver work. Slot B now opens a bounded NTSB Dali/Key
-Bridge case across vessel electrical, propulsion, steering, bridge-
-vulnerability, emergency-communication, and affected-standing layers. The two
-Mac LaunchAgents remain active.
+terminal. The PES/Tesoro comparison now supports candidate-only inquiry
+`SFQ-0003` about how technical knowledge becomes installed-equipment-specific
+characterization, measurement, inspection, disposition, and an unresolved
+stop condition before continued operation. The Dali/Key Bridge opener now
+supports bounded record `SF-0022` across electrical initiation, blackout
+recovery, propulsion and steering, vessel proximity, bridge vulnerability,
+traffic closure, worker communication, and affected standing. Slot A now
+tests whether Dali and I-35W share one bounded bridge-risk relation or only
+superficial infrastructure language. Slot B opens a distinct NTSB Potomac
+midair case across airspace design, route altitude, visual separation, traffic
+control, risk management, Army safety assurance, collision avoidance, data
+sharing, and standing. The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
 
@@ -47,6 +48,19 @@ rapid acid deinventory, ignition and explosions, hydrocarbon isolation, HF
 water mitigation, worker or community standing, industry knowledge, and later
 recommendation objects distinct without claiming recurrence, schema fit,
 liability, HF or health causation, environmental effect, or remedy efficacy.
+
+`SFQ-0003` forms a candidate-only question from the PES/Tesoro comparison:
+what decision structures translate materially relevant technical knowledge
+into installed-equipment-specific characterization, measurement, inspection,
+disposition, and unresolved stop conditions before continued operation. It
+preserves distinct damage regimes, consequences, and authority and creates no
+Mechanism Design work.
+
+`SF-0022` adds a bounded Dali / Key Bridge public-source record. It keeps wire
+installation, blackout sequence, power recovery, propulsion and steering,
+vessel proximity, bridge-impact vulnerability, traffic closure, highway-
+worker communication, and affected standing distinct without claiming one
+root cause, recurrence, shared authority, remedy, liability, or receiver work.
 
 `SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001` preserves the source-local
 relation among material composition, differential corrosion, published

@@ -577,3 +577,12 @@ later manual activation. It keeps purpose, activation, communication, power,
 physical condition, field access, timing, operation, capture, and
 counterfactual protection distinct and establishes no shared safeguard,
 authority, maintenance, management, or remedy mechanism.
+
+`evidence/records/SF-0022-dali-key-bridge-electrical-vulnerability-and-communication-boundaries.md`
+adds a bounded Dali / Key Bridge public-source record. It keeps wire
+installation, blackouts, power recovery, propulsion and steering, vessel
+proximity, bridge-impact vulnerability, traffic closure, highway-worker
+communication, and affected standing distinct. Complete electrical custody,
+inspection history, recovery authority, bridge-risk review, countermeasure
+disposition, worker-warning chain, relative causal weight, implementation,
+liability, and remedy efficacy remain unknown.

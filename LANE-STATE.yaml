@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T10:11:02-05:00"
-run_ref: RUN-20260901-150302-cai-systemic-failure-prepared-progress
-bottom_line: "A same-incident PES contrast now separates RAD deinventory from water-spray control and effect boundaries without manufacturing a shared safeguard mechanism."
+updated_at: "2026-09-01T11:04:54-05:00"
+run_ref: RUN-20260901-160454-cai-systemic-failure-prepared-progress
+bottom_line: "One candidate-only knowledge-to-inspection inquiry and one bounded Dali/Key Bridge record now preserve distinct decision, system, authority, warning, and standing boundaries."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published one bounded PES same-incident safeguard contrast, preserved the unattempted inquiry slot, and installed one Dali/Key Bridge case-opening packet."
-    movement_ref: "topology/SF-PES-RAD-WATER-SPRAY-SAFEGUARD-CONTRAST.md; ROADMAP.md"
+    last_movement: "Published one candidate-only PES/Tesoro inquiry and one bounded Dali/Key Bridge record, then installed one bridge-risk comparison and one Potomac midair opener."
+    movement_ref: "inquiries/SFQ-0003-knowledge-to-installed-equipment-inspection.md; evidence/records/SF-0022-dali-key-bridge-electrical-vulnerability-and-communication-boundaries.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Test inquiry readiness for the PES/Tesoro relation and open one bounded Dali/Key Bridge case across distinct vessel, bridge, communication, and standing layers."
+    steering_prompt: "Test whether Dali and I-35W support one bounded bridge-risk relation, and open one Potomac midair case across distinct airspace, control, safety-assurance, technology, and standing layers."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: bounded_pes_same_incident_safeguard_contrast_preserves_control_and_effect_boundaries
-    evidence_ref: "topology/SF-PES-RAD-WATER-SPRAY-SAFEGUARD-CONTRAST.md; ROADMAP.md"
-    summary: "The PES contrast preserves distinct inventory-transfer and vapor-suppression functions, activation paths, dependency states, clocks, and unresolved effects."
-    evaluated_at: "2026-09-01T10:11:02-05:00"
-    run_ref: RUN-20260901-150302-cai-systemic-failure-prepared-progress
+    reason_code: bounded_inquiry_and_dali_record_preserve_source_local_decision_and_control_boundaries
+    evidence_ref: "inquiries/SFQ-0003-knowledge-to-installed-equipment-inspection.md; evidence/records/SF-0022-dali-key-bridge-electrical-vulnerability-and-communication-boundaries.md; ROADMAP.md"
+    summary: "The inquiry preserves distinct damage regimes and the Dali record preserves separate electrical, recovery, bridge-risk, warning, and standing paths."
+    evaluated_at: "2026-09-01T11:04:54-05:00"
+    run_ref: RUN-20260901-160454-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 122, published one bounded same-incident safeguard contrast, preserved slot A byte-identically, and installed one purpose-diversifying Dali/Key Bridge case-opening prompt."
+    progress_delta: "Closed Roadmap 121 and 123, published SFQ-0003 and SF-0022, and replenished both terminal slots with a Dali/I-35W comparison and Potomac midair case opener."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test inquiry readiness and the new Dali/Key Bridge case without creating receiver work."
+    recommendation: "Keep the schema provisional; test the bridge-risk boundary and Potomac midair case without creating receiver work."
     findings:
-      - "The PES report supports a bounded same-incident contrast between successful post-ignition RAD deinventory and degraded remote water-pump control followed by later manual activation."
-      - "Purpose, activation, communication, power, physical condition, field access, timing, operation, and counterfactual protection remain distinct."
-      - "The result establishes no recurrence, shared mechanism, schema pressure, HF, health or environmental conclusion, remedy, acceptance, receiver work, liability, or external action."
+      - "The PES/Tesoro relation supports an answerable candidate-only question but not a shared knowledge, inspection, authority, or remedy mechanism."
+      - "The Dali report supports separate electrical initiation, recovery, bridge-vulnerability, traffic-stop, worker-warning, and standing paths."
+      - "The result establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A
         label: "Stay provisional"

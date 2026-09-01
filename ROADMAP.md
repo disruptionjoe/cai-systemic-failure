@@ -485,6 +485,23 @@
      and steering recovery, vessel proximity and response time, bridge-impact
      vulnerability, emergency communication, and worker standing without
      collapsing vessel, bridge-owner, and highway-response authority.
+124. Done: form one candidate-only PES/Tesoro inquiry about how materially
+     relevant technical knowledge becomes installed-equipment-specific
+     characterization, measurement, inspection, disposition, and an unresolved
+     stop condition before continued operation while preserving distinct HF-
+     corrosion and HTHA regimes (`SFQ-0003`).
+125. Done: open one bounded NTSB-grounded Dali/Key Bridge record that keeps
+     electrical initiation, blackout sequence, power recovery, propulsion and
+     steering, vessel proximity, bridge vulnerability, traffic closure,
+     highway-worker communication, and affected standing distinct (`SF-0022`).
+126. Prepared only: compare Dali/Key Bridge and I-35W at the bounded bridge-risk
+     assessment layer while preserving vessel-impact vulnerability, structural
+     capacity, load history, assessment guidance, authority, implementation,
+     warning, and standing as source-local objects.
+127. Prepared only: open one bounded NTSB-grounded Potomac midair case that
+     keeps airspace design, route altitude, visual separation, traffic-control
+     workload, real-time risk management, Army safety assurance, collision-
+     avoidance technology, data sharing, and affected standing distinct.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
