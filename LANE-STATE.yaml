@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-08-31T23:12:00-05:00"
-run_ref: RUN-20260901-040527-cai-systemic-failure-prepared-progress
-bottom_line: "CAPECO preserves transfer, overfill, gauging, protection, event, standing, management, standards, and regulatory boundaries without establishing recurrence."
+updated_at: "2026-09-01T00:08:50-05:00"
+run_ref: RUN-20260901-050306-cai-systemic-failure-prepared-progress
+bottom_line: "DuPont La Porte preserves troubleshooting, release, detection, response, management, and standing boundaries without establishing recurrence."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Opened the bounded CAPECO record, closed the Tesoro/Chevron gate, and replenished both terminal slots."
-    movement_ref: "evidence/records/SF-0016-capeco-overfill-protection-and-community-boundaries.md; ROADMAP.md"
+    last_movement: "Opened the bounded DuPont La Porte record and replenished only the completed slot-B family."
+    movement_ref: "evidence/records/SF-0017-dupont-la-porte-troubleshooting-release-and-emergency-response.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Give the Tesoro/Chevron boundary one compact repair while separately opening a bounded DuPont La Porte record."
+    steering_prompt: "Keep the unattempted Tesoro/Chevron repair while testing one source-local DuPont emergency-response trace."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: public_case_and_overfill_protection_boundaries_preserved
-    evidence_ref: "evidence/records/SF-0016-capeco-overfill-protection-and-community-boundaries.md; ROADMAP.md"
-    summary: "CAPECO remains a bounded multi-layer case without a recurrence, environmental or health, or shared-mechanism claim."
-    evaluated_at: "2026-08-31T23:12:00-05:00"
-    run_ref: RUN-20260901-040527-cai-systemic-failure-prepared-progress
+    reason_code: public_case_and_toxic_release_response_boundaries_preserved
+    evidence_ref: "evidence/records/SF-0017-dupont-la-porte-troubleshooting-release-and-emergency-response.md; ROADMAP.md"
+    summary: "DuPont La Porte remains a bounded multi-layer case without a recurrence, health, remedy, or shared-mechanism claim."
+    evaluated_at: "2026-09-01T00:08:50-05:00"
+    run_ref: RUN-20260901-050306-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmaps 91 and 92, published one bounded public case, and installed one compact repair plus one materially different successor without changing schema or receiver authority."
+    progress_delta: "Closed Roadmap 94, published one bounded public case, preserved the unattempted slot-A repair byte-identically, and installed one materially different slot-B successor without changing schema or receiver authority."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; preserve distinct transfer, overfill, gauging, protection, event, standing, management, standards, and regulatory objects."
+    recommendation: "Keep the schema provisional; preserve distinct troubleshooting, pressure, release, ventilation, detection, response, standing, management, and oversight objects."
     findings:
-      - "CAPECO supports one bounded transfer, overfill, protection, community, and environmental record without establishing one root cause or recurrence."
-      - "Tesoro and Chevron remain separate integrity boundaries without a duplicate comparison artifact; the local attempt returned zero response bytes."
-      - "The result establishes no recurrence, shared mechanism, schema pressure, environmental or health conclusion, remedy, acceptance, receiver work, liability, or external action."
+      - "DuPont La Porte supports one bounded troubleshooting, toxic-release, response, worker-standing, and management record without establishing one root cause or recurrence."
+      - "The unattempted Tesoro/Chevron repair remains byte-identical; only the completed DuPont slot was replenished."
+      - "The result establishes no recurrence, shared mechanism, schema pressure, health conclusion, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A
         label: "Stay provisional"

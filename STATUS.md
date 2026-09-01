@@ -606,6 +606,19 @@ unknown. The active slots now give the Tesoro/Chevron family one compact repair
 and open one bounded DuPont La Porte toxic-release case without claiming a
 shared mechanism.
 
+`SF-0017` now adds a bounded CSB-grounded DuPont La Porte public-source record.
+It keeps hydrate formation, troubleshooting and temporary valve alignment,
+waste-gas-header pressure, indoor release and ventilation, detection and
+awareness, rescue entry, emergency-response control, process-safety
+management, and worker or public standing distinct. Complete operator
+knowledge, custody, accountable authority, disposition, implementation,
+offsite health causation, relative causal weight, recurrence, screen fit,
+liability, and remedy efficacy remain unknown. The Tesoro/Chevron compact
+repair remains unattempted and byte-identical; the completed slot now tests
+whether a source-local DuPont emergency-response trace can preserve technical
+support, incident command, entry, navigation, monitoring, hot-zone, and public-
+protection boundaries without claiming one mechanism or remedy.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

@@ -77,3 +77,9 @@ research material is rejected and routed to a separately authorized secure owner
   and environmental effects, terminal management, industry standards, and
   regulatory coverage distinct while making no recurrence, blame,
   environmental or health, remedy, or schema claim.
+- `records/SF-0017-dupont-la-porte-troubleshooting-release-and-emergency-response.md`
+  - bounded CSB-source synthesis that keeps hydrate formation,
+  troubleshooting, vent-header pressure, indoor release, ventilation,
+  detection, rescue entry, emergency response, process-safety management, and
+  worker or public standing distinct while making no recurrence, blame,
+  health, remedy, liability, or schema claim.

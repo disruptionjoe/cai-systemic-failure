@@ -343,11 +343,16 @@
 93. Prepared only: give the Tesoro/Chevron integrity-boundary family one
     compact repair opportunity that tests only the decisive completeness and
     separation conditions after its zero-byte length-limit transport.
-94. Prepared only: open one bounded CSB-grounded DuPont La Porte toxic-release
+94. Done: open one bounded CSB-grounded DuPont La Porte toxic-release
     case that separates hydrate-clearing work, process pressure and venting,
     toxic release and building ventilation, detection and awareness, emergency
     response, worker standing, process-safety management, and community
-    boundary.
+    boundary (`SF-0017`).
+95. Prepared only: test whether the DuPont La Porte final report supports one
+    partial emergency-response information-to-control trace that keeps
+    technical support, incident command, responder entry, navigation, air
+    monitoring, hot-zone control, release characterization, and public
+    protection distinct without prescribing a remedy or claiming recurrence.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
