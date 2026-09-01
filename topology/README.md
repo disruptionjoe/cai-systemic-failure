@@ -516,3 +516,12 @@ and emergency preparedness distinct. No HF release occurred; complete
 knowledge, custody, authority, disposition, implementation, health causation,
 relative causal weight, recurrence, screen fit, liability, and remedy efficacy
 remain unknown.
+
+`evidence/records/SF-0020-exxonmobil-torrance-fcc-transient-operation-boundaries.md`
+adds a bounded Torrance public-source record. It keeps Safe Park state,
+expander-maintenance isolation, procedure variance, reactor steam pressure,
+catalyst slide-valve and barrier condition, hydrocarbon backflow, air-side and
+energized-ESP path, worker or community standing, and industry learning
+distinct. Complete knowledge, custody, authority, disposition, implementation,
+exposure or health causation, relative causal weight, recurrence, screen fit,
+liability, and remedy efficacy remain unknown.

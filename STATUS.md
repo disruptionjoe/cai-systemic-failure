@@ -8,9 +8,11 @@ The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
 retire the slots. Slot A now tests whether Buncefield and Husky Superior share
 a bounded safeguard-integrity relation or retain distinct overfill and FCC
-transient-operation objects. Slot B opens a bounded ExxonMobil Torrance FCC
-transient-operation record. The Buncefield and Husky Superior openings are
-terminal.
+transient-operation objects. Slot B now tests whether Husky Superior and
+ExxonMobil Torrance support one bounded opposite-direction FCC transient
+relation or retain distinct shutdown, Safe Park, flow, ignition, and
+consequence boundaries. The Buncefield, Husky Superior, and Torrance openings
+are terminal.
 The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
@@ -27,6 +29,13 @@ valve integrity, air and hydrocarbon separation, explosion and asphalt
 escalation, worker or community standing, process knowledge, safety
 management, and the HF non-release boundary without claiming recurrence,
 schema fit, liability, health causation, or remedy efficacy.
+
+`SF-0020` adds a bounded ExxonMobil Torrance public-source record. It keeps
+Safe Park operating state, expander-maintenance isolation, procedure variance,
+reactor steam pressure, eroded slide-valve and missing catalyst-barrier state,
+hydrocarbon backflow, the regenerator and energized-ESP path, worker or
+community standing, and industry learning distinct without claiming
+recurrence, schema fit, liability, HF or health causation, or remedy efficacy.
 
 Initial derived health: first-use automation path verified on 2026-07-17 through
 live-grant status reconciliation and synthetic acceptance fixture refresh.

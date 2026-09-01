@@ -411,6 +411,15 @@
      maintenance, pressure deviation, reactor steam-barrier disturbance,
      hydrocarbon backflow, regenerator and ESP path, explosion, worker
      standing, and industry-learning boundary.
+108. Done: open one bounded CSB-grounded ExxonMobil Torrance record that keeps
+     Safe Park state, expander-maintenance isolation, procedure variance,
+     reactor steam pressure, catalyst slide-valve and barrier condition,
+     hydrocarbon backflow, energized-ESP ignition, worker or community
+     standing, and industry learning distinct (`SF-0020`).
+109. Prepared only: compare Husky Superior and Torrance on opposite-direction
+     FCC transient-operation paths while preserving distinct shutdown and Safe
+     Park states, steam and purge conditions, slide-valve roles, ignition and
+     consequence paths, standing, and industry-learning boundaries.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

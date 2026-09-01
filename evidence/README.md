@@ -96,3 +96,10 @@ research material is rejected and routed to a separately authorized secure owner
   community standing, process knowledge, and safety management distinct while
   making no recurrence, blame, HF or health, remedy, liability, or schema
   claim.
+- `records/SF-0020-exxonmobil-torrance-fcc-transient-operation-boundaries.md`
+  - bounded CSB-source synthesis that keeps Safe Park state, expander-
+  maintenance isolation, procedure variance, reactor steam pressure, catalyst
+  slide-valve and barrier condition, hydrocarbon backflow, energized-ESP
+  ignition, worker or community standing, and industry learning distinct while
+  making no recurrence, blame, HF or health, remedy, liability, or schema
+  claim.
