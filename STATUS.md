@@ -6,13 +6,11 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. Slot A now tests whether Buncefield and Husky Superior share
-a bounded safeguard-integrity relation or retain distinct overfill and FCC
-transient-operation objects. Slot B now tests whether Husky Superior and
-ExxonMobil Torrance support one bounded opposite-direction FCC transient
-relation or retain distinct shutdown, Safe Park, flow, ignition, and
-consequence boundaries. The Buncefield, Husky Superior, and Torrance openings
-are terminal.
+retire the slots. Slot A now gives the Buncefield/Husky safeguard-integrity
+family one compact final repair after its first opportunity ended with zero
+response bytes at the local generation limit. Slot B now tests whether the
+official CSB Philadelphia Energy Solutions facts support one bounded HF-
+alkylation-unit case opening. The Husky/Torrance comparison is terminal.
 The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
@@ -36,6 +34,14 @@ reactor steam pressure, eroded slide-valve and missing catalyst-barrier state,
 hydrocarbon backflow, the regenerator and energized-ESP path, worker or
 community standing, and industry learning distinct without claiming
 recurrence, schema fit, liability, HF or health causation, or remedy efficacy.
+
+`SF-COMP-HUSKY-TORRANCE-FCC-TRANSIENT-BOUNDARY` adds a bounded comparison at
+the transient-operation and air-hydrocarbon-separation level. It keeps
+turnaround shutdown and Safe Park, purge and pressure conditions, opposite
+flow directions, ignition and escalation paths, standing, and industry-
+learning surfaces distinct. No recurrence, shared maintenance, authority,
+management, or remedy mechanism, schema pressure, HF or health conclusion,
+receiver work, liability, or external action is created.
 
 Initial derived health: first-use automation path verified on 2026-07-17 through
 live-grant status reconciliation and synthetic acceptance fixture refresh.

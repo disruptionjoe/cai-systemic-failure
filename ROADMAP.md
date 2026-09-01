@@ -420,6 +420,20 @@
      FCC transient-operation paths while preserving distinct shutdown and Safe
      Park states, steam and purge conditions, slide-valve roles, ignition and
      consequence paths, standing, and industry-learning boundaries.
+110. Done: compare Husky Superior and Torrance at the bounded transient-
+     operation and air-hydrocarbon-separation level while preserving distinct
+     shutdown and Safe Park states, purge and pressure conditions, opposite
+     flow directions, ignition and escalation paths, standing, and industry-
+     learning boundaries
+     (`SF-COMP-HUSKY-TORRANCE-FCC-TRANSIENT-BOUNDARY`).
+111. Prepared only: give the Buncefield/Husky safeguard-integrity family one
+     compact final repair after its first opportunity ended with zero response
+     bytes at the local generation limit.
+112. Prepared only: open one bounded CSB-grounded Philadelphia Energy
+     Solutions refinery record that separates pipe damage, HF-alkylation-unit
+     release, ignition, fire and explosions, offsite vessel-fragment path,
+     safeguard vulnerability, worker or community standing, and HF and health
+     boundaries.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

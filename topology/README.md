@@ -525,3 +525,11 @@ energized-ESP path, worker or community standing, and industry learning
 distinct. Complete knowledge, custody, authority, disposition, implementation,
 exposure or health causation, relative causal weight, recurrence, screen fit,
 liability, and remedy efficacy remain unknown.
+
+`SF-COMP-HUSKY-TORRANCE-FCC-TRANSIENT-BOUNDARY.md` preserves one bounded
+relation between transient FCC operation and air-hydrocarbon separation while
+keeping turnaround shutdown and Safe Park, purge and pressure controls,
+opposite flow directions, ignition and escalation paths, standing, and
+industry-learning surfaces distinct. It establishes no recurrence, shared
+maintenance, authority, management, or remedy mechanism, schema pressure, HF
+or health conclusion, receiver work, liability, or external action.
