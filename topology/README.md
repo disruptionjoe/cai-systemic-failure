@@ -555,3 +555,17 @@ backup-power failure, failed remote water-pump command, and later manual
 activation. It does not infer the counterfactual effect of earlier spray,
 exposure or health causation, recurrence, remedy efficacy, or one shared
 safeguard mechanism.
+
+`SF-COMP-PES-TESORO-KNOWLEDGE-INSPECTION-BOUNDARY.md` preserves a bounded
+relation between technical knowledge and incomplete installed-equipment-
+specific characterization or inspection across PES HF corrosion and Tesoro
+HTHA. Damage mechanisms, guidance, measurement, inspection, work phase,
+standing, authority, and control effect remain distinct; no recurrence or
+shared mechanism is accepted.
+
+`SF-COMP-PES-MARATHON-CITGO-HF-SAFEGUARD-AVAILABILITY-BOUNDARY.md` preserves
+the PES report's bounded cross-incident relation where water mitigation was
+damaged or experienced availability problems in Marathon, CITGO, and PES. It
+keeps event mechanisms, damage states, supply and activation paths, timing,
+capture evidence, standing, authority, and comparative protection effect
+distinct.

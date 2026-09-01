@@ -6,13 +6,15 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. The Buncefield/Husky final repair and the PES case-opening,
-material-to-inspection, and mitigation-timing families are terminal. The two
-PES traces are now bounded owner artifacts. Slot A now tests whether PES and
-Tesoro Anacortes share a supported technical-knowledge-to-inspection relation
-or only distinct corrosion and HTHA boundaries. Slot B tests the PES report's
-own cross-incident evidence about active HF water-mitigation availability.
-The two Mac LaunchAgents remain active.
+retire the slots. The two PES traces and their first comparison families are
+terminal. The PES/Tesoro comparison now preserves one bounded knowledge-to-
+installed-equipment relation across distinct corrosion and HTHA regimes. The
+PES-report comparison separately preserves active water-mitigation
+availability pressure across Marathon, CITGO, and PES without equating event
+or safeguard paths. Slot A now tests whether the first relation can support an
+answerable inquiry without creating receiver work. Slot B tests the
+same-incident contrast between successful PES RAD operation and degraded
+water-spray control. The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
 
@@ -54,6 +56,20 @@ timeline from RAD through failed remote water-spray control and later manual
 activation. It does not quantify the counterfactual effect of earlier spray
 or establish recurrence, one safeguard mechanism, exposure or health
 causation, environmental effect, or remedy efficacy.
+
+`SF-COMP-PES-TESORO-KNOWLEDGE-INSPECTION-BOUNDARY` preserves one bounded
+relation between technical knowledge and incomplete installed-equipment-
+specific characterization or inspection. It keeps PES HF corrosion, Tesoro
+HTHA, their guidance, measurement, inspection, operating-phase, standing,
+authority, and control-effect boundaries distinct and creates no recurrence or
+shared mechanism.
+
+`SF-COMP-PES-MARATHON-CITGO-HF-SAFEGUARD-AVAILABILITY-BOUNDARY` preserves the
+PES report's bounded relation among three incidents where water mitigation was
+damaged or experienced availability problems. It keeps initiating events,
+damage states, supply and activation paths, durations, capture estimates,
+standing, authority, and protection effects distinct and makes no shared
+maintenance, management, remedy, HF, health, or environmental conclusion.
 
 `SF-COMP-HUSKY-TORRANCE-FCC-TRANSIENT-BOUNDARY` adds a bounded comparison at
 the transient-operation and air-hydrocarbon-separation level. It keeps

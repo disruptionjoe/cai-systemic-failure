@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T08:03:31-05:00"
-run_ref: RUN-20260901-130331-cai-systemic-failure-prepared-progress
-bottom_line: "PES now has two bounded source-local partial traces for material-to-inspection and HF-mitigation timing without manufacturing recurrence, authority closure, or protection effect."
+updated_at: "2026-09-01T09:02:57-05:00"
+run_ref: RUN-20260901-140257-cai-systemic-failure-prepared-progress
+bottom_line: "Two bounded comparisons now preserve knowledge-to-inspection and HF safeguard-availability relations without manufacturing recurrence, shared mechanism, or protection effect."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published two bounded PES partial traces and replenished both slots with nonduplicative source-local comparison tests."
-    movement_ref: "topology/SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001.md; topology/SF-PES-HF-MITIGATION-TIMING-PARTIAL-TRACE-0001.md; ROADMAP.md"
+    last_movement: "Published two bounded public-source comparisons and replenished both slots with inquiry-readiness and same-incident safeguard tests."
+    movement_ref: "topology/SF-COMP-PES-TESORO-KNOWLEDGE-INSPECTION-BOUNDARY.md; topology/SF-COMP-PES-MARATHON-CITGO-HF-SAFEGUARD-AVAILABILITY-BOUNDARY.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Test the PES/Tesoro knowledge-to-inspection boundary and the PES report's cross-incident active-safeguard evidence."
+    steering_prompt: "Test inquiry readiness for the PES/Tesoro relation and contrast successful RAD operation with degraded water-spray control inside PES."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: bounded_pes_partial_traces_preserve_material_inspection_and_mitigation_timing_boundaries
-    evidence_ref: "topology/SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001.md; topology/SF-PES-HF-MITIGATION-TIMING-PARTIAL-TRACE-0001.md; ROADMAP.md"
-    summary: "The two PES traces preserve material, inspection, knowledge, control timing, field activation, and mitigation-effect boundaries without claiming recurrence."
-    evaluated_at: "2026-09-01T08:03:31-05:00"
-    run_ref: RUN-20260901-130331-cai-systemic-failure-prepared-progress
+    reason_code: bounded_comparisons_preserve_knowledge_inspection_and_hf_safeguard_availability_boundaries
+    evidence_ref: "topology/SF-COMP-PES-TESORO-KNOWLEDGE-INSPECTION-BOUNDARY.md; topology/SF-COMP-PES-MARATHON-CITGO-HF-SAFEGUARD-AVAILABILITY-BOUNDARY.md; ROADMAP.md"
+    summary: "The comparisons preserve one bounded knowledge-to-installed-equipment relation and one bounded HF water-mitigation availability relation while keeping case-local mechanisms and effects distinct."
+    evaluated_at: "2026-09-01T09:02:57-05:00"
+    run_ref: RUN-20260901-140257-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 115-116, published two bounded PES partial traces, and installed two source-local comparison tests without changing schema or receiver authority."
+    progress_delta: "Closed Roadmap 117-118, published two bounded comparisons, and installed one inquiry-readiness and one same-incident safeguard test without changing schema or receiver authority."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; preserve safeguard state, operating mode, physical path, standing, oversight, and control effect as distinct objects."
+    recommendation: "Keep the schema provisional; test whether the bounded relations survive inquiry-readiness and same-incident counterevidence without creating receiver work."
     findings:
-      - "The PES material trace supports a bounded relation among composition, differential damage, published knowledge, incomplete inspection coverage, and later standard change."
-      - "The PES timing trace preserves RAD, ignition, communication loss, backup-power failure, failed remote command, and later manual activation as distinct objects."
+      - "PES and Tesoro support one bounded relation between technical knowledge and incomplete installed-equipment-specific characterization or inspection across distinct damage regimes."
+      - "The PES report supports one bounded availability relation across Marathon, CITGO, and PES while preserving distinct damage, supply, activation, timing, and effect evidence."
       - "The result establishes no recurrence, shared mechanism, schema pressure, HF, health or environmental conclusion, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A

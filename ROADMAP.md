@@ -462,6 +462,23 @@
      safeguard evidence while keeping Marathon, CITGO, and PES event objects,
      damage, water availability, activation, capture estimates, standing, and
      mitigation effects distinct.
+119. Done: compare PES and Tesoro Anacortes at the bounded technical-knowledge-
+     to-installed-equipment level while preserving distinct damage mechanisms,
+     guidance, measurement, inspection, operating phases, standing, authority,
+     and control-effect boundaries
+     (`SF-COMP-PES-TESORO-KNOWLEDGE-INSPECTION-BOUNDARY`).
+120. Done: compare the PES report's Marathon, CITGO, and PES water-mitigation
+     evidence at the bounded active-safeguard-availability level while
+     preserving distinct initiating events, damage states, supply and
+     activation paths, duration, capture evidence, standing, authority, and
+     protection-effect boundaries
+     (`SF-COMP-PES-MARATHON-CITGO-HF-SAFEGUARD-AVAILABILITY-BOUNDARY`).
+121. Prepared only: test whether the bounded PES/Tesoro relation is ready to
+     form one answerable mechanism inquiry without converting a comparison into
+     recurrence, remedy, receiver work, or shared authority.
+122. Prepared only: contrast PES RAD and water spray inside the same incident
+     to test whether opposite active-safeguard states narrow the broader
+     availability relation without inferring comparative protection effect.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

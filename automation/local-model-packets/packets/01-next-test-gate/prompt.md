@@ -1,59 +1,59 @@
-# Compare PES and Tesoro knowledge-to-inspection boundaries
+# Test PES/Tesoro inquiry readiness
 
-Lineage ID: `SF-LIN-COMP-PES-TESORO-KNOWLEDGE-INSPECTION-01`, opportunity 1.
-Prepare one proposal-only bounded comparison from the supplied official CSB
-report facts. Frontier review decides owner truth. Do not retrieve sources or
-invent unsupported facts. Do not infer recurrence, one root cause, shared
-authority, blame, duty, remedy efficacy, health causation, or external effect.
+Lineage ID: `SF-LIN-PES-TESORO-INSPECTION-INQUIRY-01`, opportunity 1.
+Prepare one proposal-only inquiry-readiness card from the supplied bounded
+owner evidence. Frontier review decides owner truth. Do not retrieve sources
+or invent unsupported facts. Do not prescribe a remedy, infer recurrence, one
+root cause, shared authority, blame, duty, health causation, or external
+effect. A ready inquiry is still only an owner proposal and creates no work in
+Mechanism Design.
 
-Official sources:
+Supplied bounded owner evidence:
 
-- CSB, *Philadelphia Energy Solutions (PES) Refinery Fire and Explosions*,
-  final report, October 11, 2022, especially pages 24-46 and 76-78:
-  https://www.csb.gov/assets/1/20/PES_Final_Report_Published_October_2022_r1.pdf
-- CSB, *Tesoro Anacortes Refinery Fatal Explosion and Fire*, Investigation
-  Report `2010-08-I-WA`, May 2014:
-  https://www.csb.gov/assets/1/6/Tesoro_Anacortes_2014-May-01.pdf
-
-Supplied official-source facts:
-
-- PES: an around-1973 carbon-steel elbow with elevated nickel and copper
-  corroded faster than adjacent components and thinned from 0.322 inch to
-  0.011 inch.
-- PES: 2003 NACE research and later ASTM/API revisions quantified relevant
-  material limits, but API RP 751, Sunoco, and PES did not ensure inspection
-  of every existing carbon-steel component; complete decision-time custody,
-  authority, disposition, implementation, and effect remain unknown.
-- Tesoro: the carbon-steel E exchanger failed from HTHA; CSB modeling placed
-  damage at locations operating below the applicable API RP 941 Nelson curve.
-- Tesoro: historical design data and incomplete actual-condition measurement
-  understated susceptibility; the B and E exchangers were not inspected for
-  HTHA before the incident, and HTHA detection is localized, microscopic, and
-  skill-dependent.
-- Tesoro: non-routine startup work and worker exposure are distinct from the
-  equipment-damage, prediction, inspection, material, guidance, and oversight
-  objects.
-- No supplied fact establishes one shared damage mechanism, knowledge-custody
-  chain, inspection authority, disposition, stop condition, implementation,
-  or control effect.
+- PES: 2003 NACE research and later ASTM/API revisions quantified nickel and
+  copper limits for HF service, but the installed high-nickel, high-copper
+  elbow and its faster corrosion were not identified and all carbon-steel
+  components were not inspected before the event.
+- Tesoro Anacortes: API RP 941 Nelson curves and damage-mechanism reviews
+  framed HTHA risk, but the B and E exchangers lacked complete actual-condition
+  measurement, reviews relied on incomplete design and cladding information,
+  and the exchangers were not inspected for HTHA before the event.
+- The bounded comparison supports only this relation: materially relevant
+  technical knowledge did not produce complete installed-equipment-specific
+  characterization and inspection in either case.
+- PES HF corrosion and Tesoro HTHA are different damage mechanisms with
+  different guidance, measurement, inspection, operating, and consequence
+  boundaries. No common knowledge-custody, inspection-authority, disposition,
+  implementation, or control-effect chain is established.
+- PES standing includes five workers and one firefighter with minor injuries
+  plus bounded community evidence. Tesoro standing includes seven employees
+  fatally injured during startup work. Do not collapse standing or consequence.
+- The repository may form answerable inquiries and route proposals. It cannot
+  prescribe an intervention or authorize another owner's work.
 
 Return exactly one Markdown table with seven ordered rows and columns
-`Comparison object | PES | Tesoro | Shared residue or boundary | Missing link`:
-`damage mechanism`, `technical knowledge`, `installed-equipment translation`,
-`measurement`, `inspection coverage`, `decision and authority`, `standing and
-control effect`.
+`Inquiry object | Supported material | Boundary or counterevidence | Missing before route`:
+`bounded relation`, `case-specific difference`, `affected standing`,
+`decision to explain`, `answerable question`, `candidate receiver boundary`,
+`source-completion gate`.
+
+In the `answerable question` row, write one question about what decision
+structures allow new technical knowledge to become installed-equipment-
+specific measurement and inspection before continued operation while
+preserving the two distinct damage regimes. Do not answer it or prescribe a
+design.
 
 Then return exactly four lines outside the table:
 
-- **Decision:** choose `open_bounded_knowledge_to_inspection_comparison` or
-  `preserve_distinct_integrity_boundaries`.
-- **Falsifier:** name one exact official-source fact that would defeat the
-  selected decision.
-- **Unknowns:** `complete custody, decision-time review, inspection selection,
-  authority, disposition, stop condition, implementation, and control effect
-  remain unknown`
-- **Non-effect:** `No recurrence, shared damage, authority, management, or
-  remedy mechanism, schema, blame, duty, receiver work, health conclusion,
-  liability, or external action is accepted.`
+- **Decision:** choose `prepare_bounded_mechanism_inquiry` or
+  `preserve_comparison_only`.
+- **Falsifier:** name one exact supplied fact that would defeat the selected
+  decision.
+- **Unknowns:** `complete source-local custody, accountable review,
+  inspection-selection authority, disposition, implementation, relative
+  causal weight, and control effect remain unknown`
+- **Non-effect:** `No recurrence, shared mechanism, schema, remedy,
+  acceptance, receiver work, blame, duty, HF or health conclusion,
+  environmental conclusion, liability, or external action is accepted.`
 
 Plain Markdown, no frontmatter, under 850 words.
