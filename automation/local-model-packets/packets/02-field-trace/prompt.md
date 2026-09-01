@@ -1,51 +1,55 @@
-# Trace Conception patrol, detection, warning, and escape custody
+# Compare Conception and Station detection and egress boundaries
 
-Lineage ID: `SF-LIN-CONCEPTION-PATROL-DETECTION-ESCAPE-TRACE-01`,
-opportunity 1. Prepare one proposal-only source-preserving partial trace from the
-supplied owner evidence. Frontier review decides owner truth. Do not retrieve
-sources or invent unsupported facts. Do not prescribe navigation, weather,
-watchstanding, detection, vessel, escape, survival, company, regulatory, or
-training changes; infer recurrence, one root cause, shared authority, blame,
-duty, liability, remedy efficacy, or external effect.
+Lineage ID: `SF-LIN-COMP-CONCEPTION-STATION-DETECTION-EGRESS-01`, opportunity
+1. Prepare one proposal-only source-preserving boundary test from supplied
+owner evidence. Frontier review decides owner truth. Do not retrieve sources
+or invent unsupported facts. Do not prescribe watchstanding, detection,
+sprinkler, material, pyrotechnic, evacuation, egress, vessel, building,
+company, regulatory, inspection, or emergency changes; infer recurrence, one
+root cause, shared authority, blame, duty, liability, remedy efficacy, or
+external effect.
 
-Supplied bounded owner evidence from NTSB `MAR-20/03`, `SF-0009`, and the
-bounded El Faro/Conception comparison:
+Supplied bounded owner evidence from `SF-0009`,
+`SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001`, and
+`SF-ABS-0003`:
 
-- The required roving patrol was not maintained. NTSB found that its absence
-  delayed detection, allowed fire growth, and precluded firefighting and
-  evacuation efforts.
-- Coast Guard inspections had no effective means to verify patrol compliance;
-  no patrol log was required and inspection checklists did not cover the
-  watchstanding requirement.
-- The salon lacked smoke detection. Both bunkroom exits led into the salon,
-  allowing one fire to block both paths.
-- Exact ignition source and timing, complete warning receipt, passenger and
-  crew evacuation custody, operator review, regulatory disposition,
+- Conception had no maintained roving patrol, the salon lacked smoke
+  detection, and both bunkroom exits led through the salon; delayed detection
+  precluded firefighting and evacuation efforts.
+- The Station source set centers pyrotechnics igniting polyurethane foam,
+  rapid fire spread, no installed sprinklers, main-entrance crowding,
+  evacuation limits, code application, material restrictions, and inspection
+  or emergency-response recommendations.
+- Vessel watchstanding, marine inspection, smoke detection, and same-space
+  escape blockage are distinct from building/fire-safety code, materials,
+  sprinklers, pyrotechnics, crowding, and egress protection.
+- Complete cross-case custody, accountable authority, disposition,
   implementation, relative causal weight, and control effect remain unknown.
-- Keep patrol, detection equipment, warning, firefighting, evacuation, escape
-  geometry, operator oversight, and regulatory verification distinct.
+- Shared fire, warning, evacuation, or fatal consequence is not evidence of
+  recurrence or one mechanism.
 
 Return exactly one Markdown table with eight ordered rows and columns
-`Trace object | Supported source-local fact | Distinct custody or authority |
-Missing link`: `patrol requirement`, `patrol implementation`, `regulatory
-verification`, `fire detection`, `warning`, `firefighting`, `evacuation and
-escape`, `affected standing and control effect`.
+`Comparison object | Conception source-local boundary | Station source-local
+boundary | Preserved distinction or unknown`: `initial hazard`, `early
+detection`, `suppression protection`, `warning`, `evacuation`, `escape or
+egress`, `operator and regulatory context`, `affected standing and control
+effect`.
 
 Then return exactly four lines outside the table:
 
-- **Decision:** choose `prepare_partial_patrol_detection_escape_trace` or
-  `current_bounded_corpus_insufficient`.
+- **Decision:** choose `prepare_bounded_detection_egress_comparison` or
+  `preserve_separate_fire_safety_boundaries`.
 - **Falsifier:** name one exact supplied fact whose removal or reversal would
   defeat the selected decision; do not cite this instruction or invent an
   unsupplied opposite fact.
-- **Unknowns:** `exact ignition source and timing, complete warning receipt,
-  passenger and crew evacuation custody, operator review, regulatory
+- **Unknowns:** `complete cross-case custody, accountable authority,
   disposition, implementation, relative causal weight, and control effect
   remain unknown`
-- **Non-effect:** `No recurrence, one patrol, fire, detection, warning,
-  firefighting, evacuation, escape, operator, regulatory, emergency, or
-  maritime-safety mechanism, shared crew, operator, vessel, regulator, or
-  responder authority, schema, blame, duty, remedy, acceptance, receiver
-  work, liability, or external action is accepted.`
+- **Non-effect:** `No recurrence, one fire, detection, warning, suppression,
+  evacuation, escape, egress, operator, regulatory, inspection, emergency,
+  marine-safety, or building/fire-safety mechanism, shared crew, operator,
+  venue, vessel, inspector, regulator, responder, or occupant authority,
+  schema, blame, duty, remedy, acceptance, receiver work, liability, or
+  external action is accepted.`
 
 Plain Markdown, no frontmatter, under 850 words.

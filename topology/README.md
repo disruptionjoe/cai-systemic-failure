@@ -623,3 +623,11 @@ bounded comparison across delayed recognition, emergency readiness, physical
 protection, operator oversight, and affected standing while keeping storm and
 fire, damage control and escape, survival craft and egress, and the two
 regulatory regimes distinct.
+
+`SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001.md` preserves the
+bounded relation from the required but unmaintained roving patrol through
+delayed detection and reduced firefighting and evacuation opportunity. It
+keeps operator implementation, regulatory verification, smoke detection,
+warning, escape geometry, affected standing, and control effect distinct;
+complete custody, disposition, implementation, relative causal weight, and
+control effect remain unknown.

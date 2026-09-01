@@ -533,12 +533,21 @@
      warning and muster, damage control and escape, survival provision,
      operator oversight, regulation, standing, and control effect distinct
      (`SF-COMP-EL-FARO-CONCEPTION-EMERGENCY-SURVIVAL-BOUNDARY`).
-134. Prepared only: test the El Faro officer-suggestion-to-route-disposition
-     path without inventing complete bridge custody, response, escalation,
-     company receipt, implementation, or control effect.
-135. Prepared only: trace Conception from roving-patrol compliance through
-     detection, warning, firefighting, evacuation, escape, regulatory
-     verification, and unknown control effect.
+134. Done without a redundant artifact: the bounded El Faro corpus does not
+     establish complete officer-suggestion custody, captain response,
+     escalation, company receipt or disposition, implementation, relative
+     causal weight, or control effect beyond the existing partial trace.
+135. Done: preserve a partial Conception patrol-to-detection-to-escape trace
+     while keeping operator implementation, regulatory verification, smoke
+     detection, warning, firefighting, evacuation, escape geometry, affected
+     standing, and control effect distinct
+     (`SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001`).
+136. Prepared only: test whether the Conception source set supports a bounded
+     patrol-verification-to-correction path without inventing inspector or
+     operator receipt, disposition, implementation, or control effect.
+137. Prepared only: compare Conception and the Station nightclub only at the
+     detection, warning, evacuation, and egress-protection boundary while
+     preserving vessel and building/fire-safety domain explanations.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
