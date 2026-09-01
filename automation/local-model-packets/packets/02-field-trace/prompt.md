@@ -1,49 +1,49 @@
-# Open a bounded CAPECO storage-terminal overfill record
+# Open a bounded DuPont La Porte toxic-release record
 
-Lineage ID: `SF-LIN-CAPECO-OVERFILL-PROTECTION-OPENING-01`, opportunity 1.
-Prepare one proposal-only case-opening decision from the supplied CSB facts.
-Do not retrieve sources. Do not invent the ignition source, complete operator
-knowledge, one root cause, blame, legal duty, environmental or health
+Lineage ID: `SF-LIN-DUPONT-LAPORTE-TOXIC-RELEASE-OPENING-01`, opportunity 1.
+Prepare one proposal-only case-opening decision from the supplied U.S.
+Chemical Safety Board facts. Do not retrieve sources. Do not invent complete
+operator knowledge, one root cause, blame, legal duty, offsite health
 causation, remedy efficacy, recurrence, schema fit, receiver action, or
 external effect.
 
-Supplied official-source facts from the U.S. Chemical Safety Board final
-investigation of the October 23, 2009 Caribbean Petroleum Corporation
-terminal explosion and fire in Bayamon, Puerto Rico:
+Frontier review decides owner truth.
 
-- A ship-to-terminal transfer distributed more than ten million gallons of
-  gasoline among four tanks over more than 24 hours; operators later directed
-  the remaining flow to tanks 409 and 411.
-- Tank 409 overflowed for about 26 minutes, releasing nearly 200,000 gallons of
-  gasoline through vents into the containment dike before ignition.
-- The release formed a 107-acre vapor cloud; ignition caused multiple tank
-  explosions and fires, burned 17 of 48 tanks, and took three days to control.
-- The pressure wave damaged about 300 nearby homes and businesses, and
-  petroleum entered surrounding soil, waterways, and wetlands; no fatalities
-  occurred.
-- Tank-level measuring devices were poorly maintained and frequently failed;
-  tank 409's transmitter card was out of service, requiring manual hourly
-  readings.
-- The float-and-tape gauging system was the only overfill control. No
-  independent high-level alarm or automatic overfill-prevention system was in
-  place, and atmospheric gasoline tanks were outside relevant process-safety
-  coverage described by the report.
+Supplied official-source facts from CSB Investigation `2015-01-I-TX`:
+
+- On November 15, 2014, nearly 24,000 pounds of toxic methyl mercaptan escaped
+  through two valves into a poorly ventilated manufacturing building at the
+  DuPont La Porte facility; four workers died and two additional responders
+  survived.
+- Water introduced during earlier operations formed a hydrate blockage in the
+  methyl-mercaptan feed line. A troubleshooting plan used hot water to clear
+  it and opened valves to vent expanding material, without the plan receiving
+  the required safety review or having written progress procedures.
+- As the hydrate cleared, methyl mercaptan entered a waste-gas vent header.
+  Operators treated related high-pressure events as a routine liquid-
+  accumulation problem and did not connect them to the clearing work.
+- Methyl-mercaptan detectors alarmed, but frequent alarms and hazard
+  normalization delayed recognition. The release continued inside the
+  building, and the emergency response was disorganized and exposed additional
+  workers.
+- The CSB treated engineering design, safeguards, troubleshooting, emergency
+  response, process-safety management, audit and corrective action, and safety
+  culture as distinct issues.
 
 Return exactly eleven short lines:
 
-- **Unit:** exactly `CAPECO storage-terminal public-source case opening`.
-- **Transfer boundary:** name only ship unloading, four receiving tanks, flow diversion, and multi-hour transfer.
-- **Overfill boundary:** name only tank 409, vent discharge, containment dike, duration, and released gasoline.
-- **Gauging boundary:** name only float-and-tape measurement, transmitter-card failure, and manual hourly readings.
-- **Protection boundary:** name only independent high-level alarm, automatic overfill prevention, and flow shutoff or diversion.
-- **Event boundary:** name only vapor cloud, ignition, explosions, tank fires, and fire-control duration.
-- **Standing boundary:** name only workers, nearby homes and businesses, road users, soil, waterways, and wetlands.
-- **Oversight boundary:** name only atmospheric-storage process-safety coverage and aboveground-tank standards.
-- **Decision:** choose exactly `open_bounded_capeco_record` or `decline_case_opening`.
-- **Source limit:** exactly `complete operator knowledge, ignition source, custody, accountable authority, disposition, implementation, environmental or health causation, relative causal weight, recurrence, schema fit, and remedy efficacy remain unknown`.
-- **Non-effect:** exactly `No recurrence, shared mechanism, schema pressure, blame, duty, environmental or health conclusion, remedy, receiver work, or external action is accepted.`
+- **Unit:** exactly `DuPont La Porte public-source case opening`.
+- **Troubleshooting boundary:** name only hydrate blockage, hot-water clearing, opened vent path, and missing written progress procedure.
+- **Pressure boundary:** name only waste-gas header pressure, routine-problem interpretation, and missing connection to hydrate clearing.
+- **Release boundary:** name only methyl mercaptan, two opened valves, enclosed building, poor ventilation, and release duration uncertainty.
+- **Detection boundary:** name only detector alarms, frequent-alarm normalization, hazard recognition, and delayed awareness.
+- **Response boundary:** name only distress call, responder entry, incident coordination, protective information, and release control.
+- **Standing boundary:** name only operators, responders, other workers, and potentially affected public.
+- **Management boundary:** name only engineering design, safeguards, process-safety system, audit, corrective action, and safety culture.
+- **Decision:** choose exactly `open_bounded_dupont_laporte_record` or `decline_case_opening`.
+- **Source limit:** exactly `complete operator knowledge, custody, accountable authority, disposition, implementation, offsite health causation, relative causal weight, recurrence, schema fit, liability, and remedy efficacy remain unknown`.
+- **Non-effect:** exactly `No recurrence, shared mechanism, schema pressure, blame, duty, health conclusion, remedy, receiver work, or external action is accepted.`
 
-Use `open_bounded_capeco_record` only if every layer stays separate and all
-named unknowns remain explicit. This is a Frontier case-opening decision, not
-owner research truth. Plain Markdown, no table or frontmatter, under 420
-words.
+Use `open_bounded_dupont_laporte_record` only if every layer stays separate and
+all named unknowns remain explicit. Plain Markdown, no table or frontmatter,
+under 420 words.

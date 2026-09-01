@@ -71,3 +71,9 @@ research material is rejected and routed to a separately authorized secure owner
   inspection, material selection, turnaround scope, leak response, worker and
   community exposure, industry guidance, and regulatory oversight distinct
   while making no recurrence, blame, health, remedy, or schema claim.
+- `records/SF-0016-capeco-overfill-protection-and-community-boundaries.md` -
+  bounded CSB-source synthesis that keeps ship transfer, tank overfill, level
+  gauging, independent overfill protection, vapor-cloud explosion, community
+  and environmental effects, terminal management, industry standards, and
+  regulatory coverage distinct while making no recurrence, blame,
+  environmental or health, remedy, or schema claim.

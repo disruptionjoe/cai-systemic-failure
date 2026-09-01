@@ -6,10 +6,10 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. Slot A now tests Tesoro Anacortes and Chevron Richmond only
-on a bounded degradation-to-inspection-and-disposition chain while preserving
-HTHA and sulfidation mechanisms separately. Slot B now prepares a bounded
-CSB-grounded CAPECO storage-terminal overfill case opening.
+retire the slots. Slot A now gives the Tesoro Anacortes and Chevron Richmond
+integrity-boundary family one compact repair opportunity after a completed
+zero-byte length-limit transport. Slot B now prepares a bounded CSB-grounded
+DuPont La Porte toxic-release case opening.
 The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
@@ -582,6 +582,29 @@ implementation, health causation, relative causal weight, recurrence, screen
 fit, liability, and remedy efficacy remain unknown. The active slots now test
 Tesoro and Chevron only on a bounded integrity-management chain and open one
 bounded CAPECO overfill case without claiming a shared mechanism.
+
+The Tesoro and Chevron integrity gate now closes without a separate comparison
+artifact. Their bounded records preserve different damage mechanisms,
+equipment, work phases, inspection limits, affected standing, and incomplete
+authority or disposition chains; neither supplies the same complete
+degradation object, current condition evidence, inspection method, accountable
+authority, disposition, stop condition, and control effect. The completed
+local transport returned zero response bytes at its generation limit, so no
+candidate content entered owner truth. One compact repair opportunity remains
+to test whether the family can produce a bounded decision without repeating
+that transport failure.
+
+`SF-0016` now adds a bounded CSB-grounded CAPECO public-source record. It keeps
+ship transfer and flow allocation, tank 409 overfill, level gauging,
+independent alarm and automatic overfill protection, vapor-cloud ignition,
+multiple tank fires, community standing, environmental release, terminal
+management, industry standards, and regulatory coverage distinct. Complete
+operator knowledge, ignition source, custody, accountable authority,
+disposition, implementation, environmental or health causation, relative
+causal weight, recurrence, screen fit, liability, and remedy efficacy remain
+unknown. The active slots now give the Tesoro/Chevron family one compact repair
+and open one bounded DuPont La Porte toxic-release case without claiming a
+shared mechanism.
 
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one

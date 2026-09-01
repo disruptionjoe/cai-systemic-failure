@@ -328,14 +328,26 @@
     sulfidation corrosion, component inspection, material selection, turnaround
     decisions, leak response, worker exposure, community warning, and
     governance layers (`SF-0015`).
-91. Prepared only: compare Tesoro Anacortes and Chevron Richmond only on a
-    bounded degradation-to-inspection-and-disposition chain while preserving
-    HTHA and sulfidation mechanisms, equipment, work phases, and affected
-    standing separately.
-92. Prepared only: open one bounded CSB-grounded CAPECO storage-terminal case
-    that separates ship transfer, tank overfill, level gauging, independent
-    overfill protection, vapor-cloud explosion, offsite consequences, and
-    regulatory coverage.
+91. Done without a separate comparison artifact: preserve Tesoro Anacortes
+    and Chevron Richmond as separate integrity boundaries because HTHA and
+    sulfidation corrosion affect different equipment and work phases and the
+    records do not establish the same complete degradation object, condition
+    evidence, inspection method, authority, disposition, stop condition, or
+    control effect. The zero-byte length-limit attempt contributes no owner
+    content; one compact repair opportunity remains for the family.
+92. Done: open one bounded CSB-grounded CAPECO storage-terminal case that
+    separates ship transfer, tank overfill, level gauging, independent
+    overfill protection, vapor-cloud explosion, community and environmental
+    effects, terminal management, industry standards, and regulatory coverage
+    (`SF-0016`).
+93. Prepared only: give the Tesoro/Chevron integrity-boundary family one
+    compact repair opportunity that tests only the decisive completeness and
+    separation conditions after its zero-byte length-limit transport.
+94. Prepared only: open one bounded CSB-grounded DuPont La Porte toxic-release
+    case that separates hydrate-clearing work, process pressure and venting,
+    toxic release and building ventilation, detection and awareness, emergency
+    response, worker standing, process-safety management, and community
+    boundary.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
