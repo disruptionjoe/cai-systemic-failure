@@ -542,3 +542,16 @@ standing, industry knowledge, and later recommendation objects distinct.
 Complete knowledge, custody, authority, disposition, implementation, exposure
 or health causation, environmental effect, relative causal weight, recurrence,
 screen fit, liability, and remedy efficacy remain unknown.
+
+`SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001.md` preserves a bounded
+relation among the failed elbow's composition, differential corrosion,
+published material knowledge, incomplete existing-component inspection, and
+later standard change. It does not complete knowledge custody, decision-time
+authority, disposition, implementation, control effect, recurrence, or remedy.
+
+`SF-PES-HF-MITIGATION-TIMING-PARTIAL-TRACE-0001.md` preserves the bounded
+sequence from RAD activation through ignition-time communication loss,
+backup-power failure, failed remote water-pump command, and later manual
+activation. It does not infer the counterfactual effect of earlier spray,
+exposure or health causation, recurrence, remedy efficacy, or one shared
+safeguard mechanism.

@@ -6,12 +6,13 @@ governance, Lanes, and gates.
 
 The System Failures local-model packet transport has two reusable slots. The
 low-yield predecessor families remain retired, but their retirement does not
-retire the slots. The Buncefield/Husky final repair is terminal, and the PES
-case-opening family completed with one bounded record. Slot A now tests a
-source-local PES material-knowledge-to-inspection trace. Slot B now tests the
-PES HF-mitigation control timeline from RAD through failed remote water-spray
-activation and later manual activation. The two Mac LaunchAgents remain
-active.
+retire the slots. The Buncefield/Husky final repair and the PES case-opening,
+material-to-inspection, and mitigation-timing families are terminal. The two
+PES traces are now bounded owner artifacts. Slot A now tests whether PES and
+Tesoro Anacortes share a supported technical-knowledge-to-inspection relation
+or only distinct corrosion and HTHA boundaries. Slot B tests the PES report's
+own cross-incident evidence about active HF water-mitigation availability.
+The two Mac LaunchAgents remain active.
 Prompt hashes are receipt metadata only and do not grant, deny, or continue
 eligibility.
 
@@ -41,6 +42,18 @@ rapid acid deinventory, ignition and explosions, hydrocarbon isolation, HF
 water mitigation, worker or community standing, industry knowledge, and later
 recommendation objects distinct without claiming recurrence, schema fit,
 liability, HF or health causation, environmental effect, or remedy efficacy.
+
+`SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001` preserves the source-local
+relation among material composition, differential corrosion, published
+industry knowledge, incomplete existing-component inspection, and later
+standard change. It does not complete custody, decision-time authority,
+disposition, implementation, recurrence, or control effect.
+
+`SF-PES-HF-MITIGATION-TIMING-PARTIAL-TRACE-0001` preserves the bounded control
+timeline from RAD through failed remote water-spray control and later manual
+activation. It does not quantify the counterfactual effect of earlier spray
+or establish recurrence, one safeguard mechanism, exposure or health
+causation, environmental effect, or remedy efficacy.
 
 `SF-COMP-HUSKY-TORRANCE-FCC-TRANSIENT-BOUNDARY` adds a bounded comparison at
 the transient-operation and air-hydrocarbon-separation level. It keeps

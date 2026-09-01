@@ -445,13 +445,23 @@
      release, rapid acid deinventory, ignition and explosions, hydrocarbon
      isolation, HF water mitigation, worker or community standing, industry
      knowledge, and later recommendation objects (`SF-0021`).
-115. Prepared only: test one source-local PES material-knowledge-to-inspection
-     trace while keeping composition, damage, published knowledge, standard
-     revision, inspection coverage, disposition, and later correction
-     distinct.
-116. Prepared only: test one source-local PES HF-mitigation control-timing
+115. Done: preserve one source-local PES material-knowledge-to-inspection
+     partial trace while keeping composition, damage, published knowledge,
+     standard revision, inspection coverage, decision-time translation, and
+     later correction distinct
+     (`SF-PES-MATERIAL-INSPECTION-PARTIAL-TRACE-0001`).
+116. Done: preserve one source-local PES HF-mitigation control-timing partial
      trace while keeping RAD, ignition, control communication, backup power,
-     remote command, manual activation, and mitigation effect distinct.
+     remote command, manual activation, and mitigation effect distinct
+     (`SF-PES-HF-MITIGATION-TIMING-PARTIAL-TRACE-0001`).
+117. Prepared only: test whether PES material-knowledge and Tesoro Anacortes
+     HTHA evidence support one bounded knowledge-to-inspection relation while
+     preserving distinct damage mechanisms, guidance, measurement, inspection,
+     work-phase, standing, authority, and control-effect boundaries.
+118. Prepared only: test the PES report's source-local cross-incident active-
+     safeguard evidence while keeping Marathon, CITGO, and PES event objects,
+     damage, water availability, activation, capture estimates, standing, and
+     mitigation effects distinct.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
