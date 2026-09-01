@@ -61,3 +61,8 @@ research material is rejected and routed to a separately authorized secure owner
   detonation, storage and construction, emergency preparation, community
   proximity, regulatory coverage, and insurance loss-control objects distinct
   while making no recurrence, blame, remedy, or schema claim.
+- `records/SF-0014-tesoro-anacortes-htha-inspection-and-worker-exposure.md` -
+  bounded CSB-source synthesis that keeps HTHA damage, operating-condition
+  prediction, inspection limits, material selection, non-routine startup,
+  worker exposure, hazard analysis, industry guidance, and state oversight
+  distinct while making no recurrence, blame, remedy, or schema claim.

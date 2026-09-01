@@ -556,6 +556,16 @@ now test West Fertilizer and Imperial Sugar only on emergency/community
 protection and open one bounded Tesoro Anacortes case without claiming a shared
 mechanism.
 
+`SF-0014` now adds a bounded CSB-grounded Tesoro Anacortes public-source
+record. It keeps HTHA damage, operating-condition prediction, inspection
+limits, material selection, non-routine startup, worker exposure, process-
+hazard analysis, industry guidance, and state oversight distinct. Complete
+historical conditions, inspection coverage, individual knowledge, custody,
+authority, disposition, relative causal weight, recurrence, screen fit,
+liability, and remedy efficacy remain unknown. The active slots now compare
+West Fertilizer and Imperial Sugar on emergency/community protection and open
+one bounded Chevron Richmond case without claiming a shared mechanism.
+
 No topology ontology is asserted yet; the first schema should be considered
 only as a provisional candidate with five source-backed positive records, one
 control-bypass negative-absorber refusal, one domain-code/protection negative-

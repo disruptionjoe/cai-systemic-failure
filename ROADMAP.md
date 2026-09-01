@@ -319,9 +319,14 @@
 88. Prepared only: compare West Fertilizer and Imperial Sugar only on bounded
     emergency protection and community exposure while preserving distinct
     ammonium-nitrate and combustible-dust event mechanisms.
-89. Prepared only: open one bounded CSB-grounded Tesoro Anacortes case that
+89. Done: open one bounded CSB-grounded Tesoro Anacortes case that
     separates HTHA damage, inspection and industry guidance, material
-    selection, maintenance timing, worker exposure, and regulatory layers.
+    selection, maintenance timing, worker exposure, and regulatory layers
+    (`SF-0014`).
+90. Prepared only: open one bounded CSB-grounded Chevron Richmond case that
+    separates sulfidation corrosion, component inspection, material selection,
+    turnaround decisions, leak response, worker exposure, community warning,
+    and governance layers.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
