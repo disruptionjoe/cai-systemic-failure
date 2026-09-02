@@ -581,15 +581,21 @@
      because the candidate adds no shared source-local custody, authority,
      disposition, implementation, causal-weight, recurrence, or control-effect
      relation beyond `SF-0025` and `SF-0026`.
-144. Prepared only: test whether `NTSB/PAR-19/02` and `SF-0026` support one
-     partial Merrimack design-to-control-line trace while keeping project
-     documentation, engineering review, sensing-line configuration, work
-     sequence, regulator response, monitoring, field shutdown, standing, and
-     control effect distinct.
-145. Prepared only: open one bounded NTSB-grounded San Bruno pipeline record
-     that separates pipe fabrication and records, integrity management,
-     rupture and ignition, detection, isolation, emergency response, standing,
-     regulation, and safety-management boundaries.
+144. Prepared only: give the Merrimack design-to-control-line family one
+     compact final repair after its first opportunity ended with zero response
+     bytes at the local generation limit.
+145. Done: open one bounded NTSB-grounded San Bruno pipeline record that
+     separates pipe fabrication and records, integrity management, rupture and
+     ignition, detection and isolation, emergency response, standing,
+     regulation, oversight, and safety-management boundaries (`SF-0027`).
+146. Prepared only: make the final Merrimack trace opportunity return one
+     compact relation among project documentation and approval, sensing-line
+     configuration, work sequence and regulator response, and monitoring plus
+     field shutdown while preserving incomplete custody and control effect.
+147. Prepared only: open one bounded NTSB-grounded Fort Totten Metrorail
+     record that separates train occupancy, track-circuit detection, automatic
+     speed commands, verification testing, maintenance and monitoring, safety
+     oversight, crashworthiness, and affected standing.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

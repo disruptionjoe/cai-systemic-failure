@@ -1,52 +1,38 @@
 # Trace Merrimack design change to control-line overpressure
 
 Lineage ID: `SF-LIN-MERRIMACK-DESIGN-CONTROL-LINE-PARTIAL-TRACE-01`,
-opportunity 1. Prepare one proposal-only partial trace from supplied official
-NTSB evidence. Frontier review decides owner truth. Do not retrieve sources or
-invent unsupported facts. Do not prescribe engineering, project-management,
-construction, inspection, overpressure-protection, emergency-response,
-regulatory, or safety-management changes; infer recurrence, one universal
+opportunity 2, final repair. The first opportunity returned zero response bytes
+at the generation limit. Prepare one proposal-only compact trace from the
+supplied `NTSB/PAR-19/02` facts. Frontier review decides owner truth. Do not
+retrieve sources. Do not invent facts, prescribe changes, or infer recurrence, one
 mechanism, blame, duty, liability, remedy efficacy, health causation, or
 external effect.
 
-Supplied official evidence from `NTSB/PAR-19/02` and bounded record `SF-0026`:
+Supplied relations:
 
-- Columbia Gas replaced an existing cast-iron main with a polyethylene main
-  while the low-pressure distribution system remained operating.
-- The project abandoned the cast-iron main before relocating regulator sensing
-  lines to the new main. Pressure fell in the old main and sensing lines,
-  causing regulators to open and admit high-pressure gas.
-- NTSB found weak engineering management did not adequately plan, review,
-  sequence, and oversee the project; the work package lacked documentation of
-  regulator sensing lines and did not receive professional-engineer approval.
-- SCADA detected high pressure but could only monitor it. Field technicians
-  isolated regulator stations and the system was later shut down.
-- Complete design-change custody, field communication, inspector awareness,
-  accountable review, correction, implementation, regulator disposition,
-  relative causal weight, and control effect remain incomplete.
+- The work package omitted regulator sensing lines and lacked professional-
+  engineer approval.
+- The project abandoned the old main before relocating the sensing lines;
+  falling sensing pressure caused regulators to open and admit high-pressure
+  gas.
+- SCADA could monitor but not control the pressure; field technicians isolated
+  regulator stations and the system was later shut down.
 
-Return exactly one Markdown table with eight ordered rows and columns
-`Trace object | Supplied source-local relation | Missing link or preserved
-boundary`: `project operating state`, `design documentation`, `engineering
-review and approval`, `sensing-line configuration`, `work sequence`,
-`regulator response`, `monitoring and field control`, `standing and control
-effect`.
+Return exactly five lines and nothing else:
 
-Then return exactly four lines:
-
-- **Decision:** choose `prepare_partial_merrimack_design_control_trace` or
+- **Trace:** one sentence preserving all three supplied relations in order.
+- **Decision:** `prepare_partial_merrimack_design_control_trace` or
   `bounded_corpus_insufficient`.
-- **Falsifier:** name one exact supplied relation whose removal would defeat
-  the selected partial trace, not merely narrow one row.
+- **Falsifier:** one exact supplied relation whose removal defeats the selected
+  trace.
 - **Unknowns:** `complete design-change custody, field communication,
   inspector awareness, accountable review, correction, implementation,
   regulator disposition, relative causal weight, and control effect remain
   incomplete`
 - **Non-effect:** `No recurrence, one design, documentation, sensing-line,
   pressure-control, construction, inspection, protection, emergency-response,
-  regulatory, or safety-management mechanism, shared engineer, approver,
-  contractor, inspector, operator, responder, regulator, community, or
-  affected-party authority, schema, blame, duty, remedy, acceptance, receiver
-  work, liability, or external action is accepted.`
+  regulatory, or safety-management mechanism, shared authority, schema,
+  blame, duty, remedy, acceptance, receiver work, liability, or external
+  action is accepted.`
 
-Plain Markdown, no frontmatter, under 800 words.
+Plain Markdown, no frontmatter, under 350 words.

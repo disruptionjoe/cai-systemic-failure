@@ -53,10 +53,14 @@ outside-notification inference, and delayed recognition while keeping signal,
 procedure, analyst, supervisor, field, community, standing, and control effect
 distinct. The Marshall/Merrimack test closed without a redundant artifact:
 current owner truth already preserves their separate transient and project-
-control boundaries. Slot A now tests a Merrimack design-to-control-line partial
-trace; slot B opens a bounded San Bruno pipeline case. The two Mac
-LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
-grant, deny, or continue eligibility.
+control boundaries. The first Merrimack trace attempt ended with zero response
+bytes at the local generation limit and receives one compact final repair.
+Bounded San Bruno record `SF-0027` now separates pipe fabrication, records,
+integrity management, rupture and ignition, recognition and isolation,
+emergency response, standing, oversight, and safety management without
+accepting recurrence or one mechanism. Slot B now opens a bounded Fort Totten
+Metrorail case. The two Mac LaunchAgents remain active. Prompt hashes are
+receipt metadata only and do not grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
@@ -131,6 +135,14 @@ sensing-line configuration, work execution, inspection, overpressure
 protection, monitoring and field control, emergency response, affected
 standing, regulation, and safety management distinct without claiming one
 root cause, recurrence, remedy, liability, or receiver work.
+
+`SF-0027` adds a bounded San Bruno natural-gas-transmission public-source
+record. It keeps pipe fabrication and quality control, inaccurate records,
+integrity management, rupture and ignition, line-break recognition and
+isolation, emergency response, affected standing, CPUC and PHMSA oversight,
+and company safety management distinct without claiming one root cause,
+recurrence, shared authority, remedy, health causation, liability, or receiver
+work.
 
 `SF-EL-FARO-WEATHER-ROUTE-PARTIAL-TRACE-0001` preserves a partial relation
 among BVS weather delivery, captain use, officer suggestions, route decision,

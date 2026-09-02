@@ -650,6 +650,15 @@ distinct. Complete design-change custody, field communication, inspector
 awareness, accountable review, correction, implementation, regulator
 disposition, relative causal weight, and control effect remain unknown.
 
+`evidence/records/SF-0027-san-bruno-pipeline-fabrication-records-isolation-and-oversight-boundaries.md`
+adds a bounded San Bruno public-source record. It keeps pipe fabrication and
+quality control, inaccurate records, integrity management, rupture and
+ignition, recognition and isolation, emergency response, affected standing,
+CPUC and PHMSA oversight, and safety management distinct. Complete fabrication
+and record custody, integrity decisions, rupture-recognition and isolation
+authority, response sequence, oversight disposition, implementation, relative
+causal weight, health causation, and control effect remain unknown.
+
 `SF-MARSHALL-ALARM-RESTART-PARTIAL-TRACE-0001.md` preserves the bounded
 relation from rupture indications through column-separation interpretation,
 the ten-minute stop rule, shutdown and restart decisions, outside-notification

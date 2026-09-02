@@ -139,3 +139,9 @@ research material is rejected and routed to a separately authorized secure owner
   emergency response, affected standing, regulation, and safety management
   distinct while making no recurrence, blame, remedy, liability, or schema
   claim.
+- `records/SF-0027-san-bruno-pipeline-fabrication-records-isolation-and-oversight-boundaries.md`
+  - bounded NTSB-source synthesis that keeps pipe fabrication and quality
+  control, inaccurate records, integrity management, rupture and ignition,
+  recognition and isolation, emergency response, affected standing, CPUC and
+  PHMSA oversight, and safety management distinct while making no recurrence,
+  health-causation, blame, remedy, liability, or schema claim.
