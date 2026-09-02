@@ -109,3 +109,33 @@ research material is rejected and routed to a separately authorized secure owner
   isolation, HF mitigation, worker or community standing, industry knowledge,
   and later recommendation objects distinct while making no recurrence,
   blame, HF or health, environmental, remedy, liability, or schema claim.
+- `records/SF-0022-dali-key-bridge-electrical-vulnerability-and-communication-boundaries.md`
+  - bounded NTSB-source synthesis that keeps wire installation, blackouts,
+  power recovery, propulsion and steering, vessel proximity, bridge-impact
+  vulnerability, traffic closure, worker communication, and affected standing
+  distinct while making no recurrence, blame, remedy, liability, or schema
+  claim.
+- `records/SF-0023-potomac-midair-airspace-control-and-safety-assurance-boundaries.md`
+  - bounded NTSB-source synthesis that keeps route design, altitude and
+  charting, visual separation, controller workload and radio, prior risk data,
+  Army and FAA safety assurance, collision alerting, data sharing, and affected
+  standing distinct while making no recurrence, blame, remedy, liability, or
+  schema claim.
+- `records/SF-0024-el-faro-weather-route-vessel-state-and-emergency-boundaries.md`
+  - bounded NTSB-source synthesis that keeps storm exposure, weather
+  information, route decision, bridge input, company oversight, vessel state,
+  damage control, muster, survival craft, and affected standing distinct while
+  making no recurrence, blame, remedy, liability, or schema claim.
+- `records/SF-0025-marshall-pipeline-rupture-detection-restart-and-community-boundaries.md`
+  - bounded NTSB-source synthesis that keeps pipe condition and coating,
+  integrity management, shutdown, rupture indications, restarts, control-
+  center training, public awareness, emergency response, community and
+  environmental standing, and PHMSA oversight distinct while making no
+  recurrence, health-causation, blame, remedy, liability, or schema claim.
+- `records/SF-0026-merrimack-valley-design-control-line-and-overpressure-boundaries.md`
+  - bounded NTSB-source synthesis that keeps distribution-system design,
+  project design and approval, sensing-line configuration, work execution,
+  inspection, overpressure protection, monitoring and field control,
+  emergency response, affected standing, regulation, and safety management
+  distinct while making no recurrence, blame, remedy, liability, or schema
+  claim.

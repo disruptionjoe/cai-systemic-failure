@@ -560,16 +560,25 @@
      evidence should alter candidate-only `SFQ-0003` or remain separate from
      its installed-equipment-specific knowledge, characterization,
      measurement, inspection, disposition, and unresolved-stop scope.
-140. Prepared only: open one bounded NTSB-grounded Marshall, Michigan pipeline
+140. Done: open one bounded NTSB-grounded Marshall, Michigan pipeline
      rupture record that separates physical defect and coating, integrity
      management, planned shutdown, rupture detection, restart, control-center
      training, public notification, emergency response, standing, and PHMSA
-     oversight.
-141. Prepared only: open one bounded NTSB-grounded Merrimack Valley gas-
+     oversight (`SF-0025`).
+141. Done: open one bounded NTSB-grounded Merrimack Valley gas-
      distribution overpressure record that separates project design and
      approval, control-line configuration, work execution, inspection,
      overpressure protection, emergency response, standing, regulation, and
-     safety-management boundaries.
+     safety-management boundaries (`SF-0026`).
+142. Prepared only: test whether `NTSB/PAR-12/01` and `SF-0025` support one
+     partial Marshall leak-indication-to-restart-and-recognition trace while
+     keeping signal, interpretation, stop rule, shutdown, authorization,
+     external notification, local verification, correction, and control effect
+     distinct.
+143. Prepared only: compare Marshall and Merrimack Valley at the bounded
+     transient and project-control layer while keeping shutdown and startup,
+     project change, physical configuration, alarm interpretation, sensing and
+     pressure protection, stop authority, standing, and oversight distinct.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

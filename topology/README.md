@@ -631,3 +631,21 @@ keeps operator implementation, regulatory verification, smoke detection,
 warning, escape geometry, affected standing, and control effect distinct;
 complete custody, disposition, implementation, relative causal weight, and
 control effect remain unknown.
+
+`evidence/records/SF-0025-marshall-pipeline-rupture-detection-restart-and-community-boundaries.md`
+adds a bounded Marshall public-source record. It keeps pipe condition and
+coating, integrity management, planned shutdown, rupture indications, alarm
+interpretation, restarts, control-center training, public awareness, emergency
+response, community and environmental standing, and PHMSA oversight distinct.
+Complete inspection and alarm custody, accountable review, restart authority,
+local verification, correction, implementation, relative causal weight,
+health causation, and control effect remain unknown.
+
+`evidence/records/SF-0026-merrimack-valley-design-control-line-and-overpressure-boundaries.md`
+adds a bounded Merrimack Valley public-source record. It keeps low-pressure
+system design, project design and approval, sensing-line configuration, work
+execution, inspection, overpressure protection, monitoring and field control,
+emergency response, affected standing, regulation, and safety management
+distinct. Complete design-change custody, field communication, inspector
+awareness, accountable review, correction, implementation, regulator
+disposition, relative causal weight, and control effect remain unknown.

@@ -40,11 +40,17 @@ safety materials, suppression, crowding, and egress without a redundant
 artifact. The Conception/Buncefield control-assurance test and the `SFQ-0003`
 required-practice scope test also closed without redundant artifacts: current
 owner truth already preserves the human-practice versus installed-safeguard
-distinction and the inquiry's installed-equipment-specific scope. Slot A now
-opens a bounded NTSB Marshall, Michigan pipeline-rupture case; slot B opens a
-bounded NTSB Merrimack Valley gas-overpressure case. The two Mac LaunchAgents
-remain active. Prompt hashes are receipt metadata only and do not grant, deny,
-or continue eligibility.
+distinction and the inquiry's installed-equipment-specific scope. Bounded
+Marshall record `SF-0025` now separates pipe and coating, integrity management,
+shutdown, detection, restart, control-center, public-awareness, response,
+standing, and oversight layers. Bounded Merrimack Valley record `SF-0026`
+separates system design, project design and approval, sensing-line
+configuration, work execution, inspection, overpressure protection, field
+control, emergency response, standing, regulation, and safety management.
+Slot A now tests a Marshall alarm-to-restart partial trace; slot B tests the
+Marshall/Merrimack Valley transient and project-control boundary. The two Mac
+LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
+grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
@@ -105,6 +111,20 @@ oversight and safety management, cargo-hold flooding, sustained list,
 propulsion, downflooding, damage control, muster, survival craft, and affected
 standing distinct without claiming one root cause, recurrence, shared
 authority, remedy, liability, or receiver work.
+
+`SF-0025` adds a bounded Marshall pipeline-rupture public-source record. It
+keeps pipe condition and coating, integrity management, planned shutdown,
+rupture indications, alarm interpretation, two restarts, control-center
+training, public awareness, emergency response, community and environmental
+standing, and PHMSA oversight distinct without claiming one root cause,
+recurrence, health causation, remedy, liability, or receiver work.
+
+`SF-0026` adds a bounded Merrimack Valley gas-overpressure public-source
+record. It keeps low-pressure system design, project design and approval,
+sensing-line configuration, work execution, inspection, overpressure
+protection, monitoring and field control, emergency response, affected
+standing, regulation, and safety management distinct without claiming one
+root cause, recurrence, remedy, liability, or receiver work.
 
 `SF-EL-FARO-WEATHER-ROUTE-PARTIAL-TRACE-0001` preserves a partial relation
 among BVS weather delivery, captain use, officer suggestions, route decision,
