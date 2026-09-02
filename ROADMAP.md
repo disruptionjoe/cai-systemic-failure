@@ -679,11 +679,18 @@
      policy, storm encounter, return attempt, hatch flooding, sinking,
      standing, and response while preserving incomplete custody, decision,
      reassessment, evacuation, correction, causal weight, and control effect.
-162. Prepared only: compare Stretch Duck 7 and El Faro at the bounded
+162. Done: compare Stretch Duck 7 and El Faro at the bounded
      weather-information-to-operation level while preserving lake-tour versus
      ocean-voyage context, decision participants, route or tour decisions,
      vessel state, flooding and survivability, standing, oversight, and
-     control-effect boundaries without accepting recurrence or one mechanism.
+     control-effect boundaries without accepting recurrence or one mechanism
+     (`SF-COMP-STRETCHDUCK7-ELFARO-WEATHER-OPERATION-BOUNDARY`).
+163. Prepared only: open one bounded NTSB-grounded Alaska Airlines Flight 261
+     record that separates jackscrew lubrication, lubrication interval,
+     end-play inspection, thread wear, trim-system failure, pitch control,
+     maintenance-program state, FAA approval and surveillance, fail-safe
+     design, affected standing, and consequence without creating one
+     maintenance, inspection, certification, or oversight mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

@@ -787,3 +787,11 @@ standing, response, company oversight, and Coast Guard oversight distinct.
 Complete custody, decision chronology, vessel-design and recommendation
 history, evacuation, correction, implementation, causal weight, and control
 effect remain incomplete.
+
+`SF-COMP-STRETCHDUCK7-ELFARO-WEATHER-OPERATION-BOUNDARY.md` preserves a bounded
+comparison between Stretch Duck 7's warning, tour sequencing, water entry,
+flooding, buoyancy, egress, standing, and oversight and El Faro's weather use,
+route decision, bridge input, vessel-state loss, damage control, muster,
+survival craft, standing, and oversight. The shared weather-information-to-
+operation pressure does not establish recurrence, shared authority, or one
+weather, operation, vessel, survivability, or oversight mechanism.

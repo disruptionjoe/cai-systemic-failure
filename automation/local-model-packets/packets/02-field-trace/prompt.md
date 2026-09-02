@@ -1,63 +1,67 @@
-# Compare Stretch Duck 7 and El Faro weather-to-operation boundaries
+# Open a bounded Alaska Airlines Flight 261 record
 
-Lineage ID: `SF-LIN-COMP-STRETCHDUCK7-ELFARO-WEATHER-OPERATION-01`,
-opportunity 1. Prepare one proposal-only bounded comparison from supplied
-official NTSB evidence and owner records `SF-0031` and `SF-0024`. Frontier
-review decides owner truth. Do not retrieve sources. Do not invent unsupported
-facts. Do not prescribe weather, tour, route, vessel, operator, company,
-captain, crew, hatch, flooding, propulsion, damage-control, survival,
-inspection, regulatory, or management changes; infer recurrence, one
-universal mechanism or authority, blame beyond supplied NTSB findings, duty,
-liability, remedy efficacy, health causation, or external effect.
+Lineage ID: `SF-LIN-ALASKA261-JACKSCREW-MAINTENANCE-OVERSIGHT-OPENING-01`,
+opportunity 1. Prepare one proposal-only bounded public-source record from the
+supplied official NTSB evidence. Frontier review decides owner truth. Do not
+retrieve sources. Do not invent unsupported facts. Do not prescribe aircraft,
+airline, lubrication, inspection, maintenance, interval, trim-control,
+certification, surveillance, regulatory, or management changes; infer
+recurrence, one universal mechanism, blame beyond supplied NTSB findings,
+duty, liability, remedy efficacy, health causation, or external effect.
 
-Supplied evidence:
+Supplied evidence from `NTSB/AAR-02/01`:
 
-- Stretch Duck 7: a severe thunderstorm warning was issued one minute before
-  shoreside departure; the manager directed the water portion first; the
-  vessel entered the lake after the warning; company policy lacked a specific
-  go/no-go rule; waves entered a non-weathertight bow hatch; insufficient
-  reserve buoyancy and fixed-canopy egress remained separate contributing
-  boundaries.
-- El Faro: weather information available to the captain, forecast products,
-  bridge-team input, route decisions near Hurricane Joaquin, company
-  oversight, loss of propulsion, flooding, downflooding, list, damage control,
-  muster, survival craft, and affected standing remain separate objects.
-- Stretch Duck 7 concerns a short lake tour sequenced into rapidly moving
-  severe weather with manager, company-policy, hatch, buoyancy, canopy, and
-  egress boundaries.
-- El Faro concerns an ocean cargo voyage near a hurricane with forecast-use,
-  bridge-input, captain-route, company-oversight, propulsion, flooding,
-  downflooding, damage-control, muster, and survival-craft boundaries.
-- Similar weather-information and operating-decision pressure does not
-  establish recurrence, one information-to-operation mechanism, shared
-  authority, shared vessel state, or shared control effect.
-- Complete information custody, decision chronology, challenge, authority,
-  vessel-state custody, correction, implementation, relative causal weight,
-  and verified control effect remain incomplete in both cases.
+- Alaska Airlines Flight 261, a McDonnell Douglas MD-83, crashed into the
+  Pacific Ocean near Anacapa Island, California, on January 31, 2000; the 2
+  pilots, 3 cabin crewmembers, and 83 passengers aboard died.
+- NTSB determined the probable cause was loss of pitch control after failure
+  of the horizontal-stabilizer trim-system jackscrew assembly's acme-nut
+  threads; excessive wear resulted from insufficient lubrication.
+- NTSB found Alaska Airlines' extended lubrication interval and FAA approval
+  of that extension increased the likelihood that missed or inadequate
+  lubrication would produce excessive thread wear.
+- NTSB found Alaska Airlines' extended end-play-check interval and FAA
+  approval of that extension allowed excessive wear to progress without an
+  opportunity for detection.
+- The absence of a fail-safe mechanism preventing the catastrophic effects of
+  total acme-nut thread loss also contributed.
+- NTSB separately identified widespread systemic deficiencies in Alaska
+  Airlines' maintenance program and ineffective FAA surveillance before the
+  accident, while declining to connect every discovered maintenance
+  deficiency directly to the accident.
+- Jackscrew physical condition, lubrication task and performance, lubrication
+  interval, end-play measurement, inspection interval, thread wear,
+  trim-system state, pitch control, flight-crew response, maintenance program,
+  airline authority, FAA approval and surveillance, design and certification,
+  affected standing, and consequence remain distinct.
+- Complete task custody, specific missed or inadequate lubrication history,
+  measurement custody, interval-decision history, approval and surveillance
+  chronology, correction, implementation, relative causal weight, and
+  verified control effect remain incomplete.
 
-Return exactly one Markdown table with eight ordered rows and columns
-`Comparison object | Stretch Duck 7 supplied fact | El Faro supplied fact |
-Preserved boundary`: `weather information`, `operating context`, `decision
-participants`, `route or tour decision`, `vessel state`, `flooding and
-survivability`, `standing and consequence`, `oversight and control effect`.
+Return exactly one Markdown table with ten ordered rows and columns
+`Record object | Supplied official-source fact | Missing link or preserved
+boundary`: `event and scale`, `jackscrew assembly`, `lubrication task`,
+`lubrication interval`, `end-play check`, `thread wear and trim-system
+failure`, `pitch control and crew response`, `maintenance program`, `FAA and
+design oversight`, `standing and consequence`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `prepare_bounded_stretch_duck_7_el_faro_comparison` or
-  `keep_separate_without_artifact`.
-- **Falsifier:** name one exact supplied cross-case distinction whose removal
-  would defeat the selected decision.
-- **Unknowns:** `complete information custody, decision chronology,
-  challenge, authority, vessel-state custody, correction, implementation,
-  relative causal weight, and verified control effect remain incomplete in
-  both cases`
-- **Non-effect:** `No recurrence, one weather-information, tour, route,
-  operation, company, captain, bridge-team, vessel-state, hatch, flooding,
-  propulsion, damage-control, survivability, egress, rescue, inspection,
-  regulatory, or safety-management mechanism, shared company, vessel,
-  operator, captain, crew, passenger, mariner, responder, Coast Guard,
-  weather-service, regulator, or affected-party authority, schema, blame
-  beyond supplied NTSB findings, duty, remedy, acceptance, receiver work,
-  health causation, liability, or external action is accepted.`
+- **Decision:** choose `prepare_bounded_alaska_261_record` or
+  `bounded_corpus_insufficient`.
+- **Falsifier:** name one exact supplied relation whose removal would defeat
+  the selected bounded opening.
+- **Unknowns:** `complete task custody, specific missed or inadequate
+  lubrication history, measurement custody, interval-decision history,
+  approval and surveillance chronology, correction, implementation, relative
+  causal weight, and verified control effect remain incomplete`
+- **Non-effect:** `No recurrence, one jackscrew, lubrication, inspection,
+  interval, wear, trim-control, pitch-control, maintenance-program,
+  certification, surveillance, regulatory, airline, manufacturer, FAA,
+  flight-crew, maintainer, inspector, passenger, responder, or affected-party
+  mechanism or authority, schema, blame beyond supplied NTSB findings, duty,
+  remedy, acceptance, receiver work, health causation, liability, or external
+  action is accepted.`
 
-Plain Markdown, no frontmatter, under 1,050 words.
+Plain Markdown, no frontmatter, under 1,000 words.

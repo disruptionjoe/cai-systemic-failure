@@ -101,10 +101,14 @@ boundaries without accepting recurrence or one mechanism. Bounded Stretch Duck
 7 record `SF-0031` now separates severe-weather forecast and warning, tour
 sequencing, water entry, monitoring and policy, flooding, reserve buoyancy,
 egress, lifejackets, standing, response, company oversight, and Coast Guard
-oversight. Slot A now traces warning to water entry and flooding; slot B tests
-the bounded Stretch Duck 7/El Faro weather-to-operation boundary. The two Mac LaunchAgents
-remain active. Prompt hashes are receipt metadata only and do not grant, deny,
-or continue eligibility.
+oversight. A bounded Stretch Duck 7/El Faro comparison now preserves the shared
+weather-information-to-operation pressure while keeping lake-tour and ocean-
+voyage context, decision participants, vessel state, flooding, survivability,
+standing, oversight, and control effect separate. Slot A continues the
+unattempted Stretch Duck 7 warning-to-flooding trace; slot B now opens a bounded
+Alaska Airlines Flight 261 maintenance, trim-control, and oversight record. The
+two Mac LaunchAgents remain active. Prompt hashes are receipt metadata only and
+do not grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
