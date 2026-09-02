@@ -697,3 +697,18 @@ from the Rosslyn warning and enhanced verification test through technician
 knowledge, June 2009 verification, false-vacant module signal, lost train
 detection, and automatic speed commands. Complete custody, correction,
 implementation, relative causal weight, and control effect remain incomplete.
+
+`SF-SANBRUNO-RECORD-INTEGRITY-ASSESSMENT-PARTIAL-TRACE-0001.md` preserves the
+relation from physical seam construction and an inaccurate seamless-pipe
+record through incomplete threat identification and an assessment method
+unable to detect the seam defect. Fabrication, record, assessment, rupture,
+recognition, isolation, standing, and oversight remain distinct; complete
+custody, authority, correction, implementation, causal weight, and control
+effect remain incomplete.
+
+`SF-COMP-FORTTOTTEN-SANBRUNO-DETECTION-ASSURANCE-BOUNDARY.md` preserves a
+bounded comparison between Fort Totten's capable but incompletely
+institutionalized enhanced verification test and San Bruno's assessment method
+that could not detect the seam-weld defect. Different physical objects,
+information paths, assurance methods, implementation loci, standing, and
+control effects remain separate; no recurrence or shared mechanism is accepted.

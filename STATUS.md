@@ -67,9 +67,15 @@ Bruno comparison now preserves separate project-time design/configuration and
 service-life fabrication/record/integrity phases. A Fort Totten partial trace
 now preserves the Rosslyn warning, enhanced test, technician knowledge, June
 2009 verification, false-vacant module signal, lost detection, and speed-
-command relation without completing custody or control effect. Slot A now
-traces San Bruno records to integrity assessment; slot B compares Fort Totten
-verification with San Bruno defect-assessment capability. The two Mac
+command relation without completing custody or control effect. A San Bruno
+partial trace now preserves physical seam construction, inaccurate historical
+records, incomplete threat identification, an incapable assessment method,
+rupture state, recognition, and isolation as distinct objects. A bounded Fort
+Totten/San Bruno comparison preserves capable-but-unused field testing as
+distinct from deployed assessment incapability without accepting recurrence or
+one detection-assurance mechanism. Slot A now traces San Bruno rupture
+recognition to isolation; slot B compares Marshall and San Bruno recognition
+and stopping boundaries. The two Mac
 LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
 grant, deny, or continue eligibility.
 
@@ -183,6 +189,21 @@ technician knowledge, June 2009 verification, false-vacant module signal, lost
 train detection, and automatic speed commands. Complete bulletin and test
 custody, maintenance response, train-control authority, oversight correction,
 implementation, relative causal weight, and control effect remain incomplete.
+
+`SF-SANBRUNO-RECORD-INTEGRITY-ASSESSMENT-PARTIAL-TRACE-0001` preserves the
+bounded relation from physical seam construction and an inaccurate seamless-
+pipe record through threat identification and an assessment method unable to
+detect the seam defect. Fabrication, record, risk, assessment, rupture,
+recognition, isolation, standing, and oversight remain distinct; complete
+custody, authority, correction, implementation, causal weight, and control
+effect remain incomplete.
+
+`SF-COMP-FORTTOTTEN-SANBRUNO-DETECTION-ASSURANCE-BOUNDARY` preserves a bounded
+comparison between Fort Totten's capable but incompletely institutionalized
+enhanced field test and San Bruno's selected assessment method that could not
+detect the seam-weld defect. It keeps rail and pipeline, component and asset,
+field test and integrity assessment, implementation locus, standing, and
+control effect separate and establishes no recurrence or shared mechanism.
 
 `SF-EL-FARO-WEATHER-ROUTE-PARTIAL-TRACE-0001` preserves a partial relation
 among BVS weather delivery, captain use, officer suggestions, route decision,

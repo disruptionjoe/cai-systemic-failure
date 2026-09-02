@@ -609,15 +609,26 @@
      preserving incomplete custody, authority, correction, implementation,
      causal weight, and control effect
      (`SF-FORT-TOTTEN-TEST-DETECTION-PARTIAL-TRACE-0001`).
-150. Prepared only: trace San Bruno from historical pipe records through threat
+150. Done: trace San Bruno from historical pipe records through threat
      identification and integrity-assessment method to preserved defect-
      detection and later recognition/isolation boundaries without creating one
-     recordkeeping or integrity mechanism.
-151. Prepared only: compare Fort Totten's capable but non-institutionalized
-     enhanced verification test with San Bruno's assessment method that could
-     not detect the seam-weld defect while preserving rail and pipeline,
-     component and asset, test and assessment, custody, authority, correction,
-     implementation, and control-effect differences.
+     recordkeeping or integrity mechanism
+     (`SF-SANBRUNO-RECORD-INTEGRITY-ASSESSMENT-PARTIAL-TRACE-0001`).
+151. Done: compare Fort Totten's capable but non-institutionalized enhanced
+     verification test with San Bruno's assessment method that could not detect
+     the seam-weld defect while preserving rail and pipeline, component and
+     asset, test and assessment, custody, authority, correction,
+     implementation, and control-effect differences
+     (`SF-COMP-FORTTOTTEN-SANBRUNO-DETECTION-ASSURANCE-BOUNDARY`).
+152. Prepared only: trace San Bruno from rupture indication through SCADA,
+     public reporting, dispatch, location, valve operation, field response,
+     isolation, and flow cessation while preserving incomplete custody,
+     authority, chronology, correction, causal weight, and control effect.
+153. Prepared only: compare Marshall's alarm interpretation, stop rule,
+     shutdown and restart sequence with San Bruno's line-break recognition,
+     location, isolation, and flow-cessation sequence while preserving liquid
+     and gas, restart and isolation, community information, authority,
+     chronology, consequence, and control-effect differences.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
