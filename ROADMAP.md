@@ -588,14 +588,25 @@
      separates pipe fabrication and records, integrity management, rupture and
      ignition, detection and isolation, emergency response, standing,
      regulation, oversight, and safety-management boundaries (`SF-0027`).
-146. Prepared only: make the final Merrimack trace opportunity return one
-     compact relation among project documentation and approval, sensing-line
-     configuration, work sequence and regulator response, and monitoring plus
-     field shutdown while preserving incomplete custody and control effect.
-147. Prepared only: open one bounded NTSB-grounded Fort Totten Metrorail
-     record that separates train occupancy, track-circuit detection, automatic
-     speed commands, verification testing, maintenance and monitoring, safety
-     oversight, crashworthiness, and affected standing.
+146. Done: preserve one partial Merrimack design-to-control-line trace among
+     project documentation and review, sensing-line configuration, main-
+     abandonment sequence, regulator response, SCADA monitoring, field
+     isolation, and system shutdown while keeping custody, authority,
+     correction, implementation, causal weight, and control effect incomplete
+     (`SF-MERRIMACK-DESIGN-CONTROL-LINE-PARTIAL-TRACE-0001`).
+147. Done: open one bounded NTSB-grounded Fort Totten Metrorail record that
+     separates train occupancy, track-circuit detection, automatic speed
+     commands, verification testing, maintenance and monitoring, collision,
+     safety oversight, crashworthiness, and affected standing (`SF-0028`).
+148. Prepared only: compare Merrimack project-specific design, approval,
+     configuration, and sequencing with San Bruno historical fabrication,
+     record, threat-identification, and integrity-assessment boundaries without
+     accepting recurrence or one design-record-control mechanism.
+149. Prepared only: trace Fort Totten from the Rosslyn warning and enhanced
+     verification test through technician knowledge, June 2009 verification,
+     module signal state, lost train detection, and speed commands while
+     preserving incomplete custody, authority, correction, implementation,
+     causal weight, and control effect.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

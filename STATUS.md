@@ -53,14 +53,20 @@ outside-notification inference, and delayed recognition while keeping signal,
 procedure, analyst, supervisor, field, community, standing, and control effect
 distinct. The Marshall/Merrimack test closed without a redundant artifact:
 current owner truth already preserves their separate transient and project-
-control boundaries. The first Merrimack trace attempt ended with zero response
-bytes at the local generation limit and receives one compact final repair.
-Bounded San Bruno record `SF-0027` now separates pipe fabrication, records,
+control boundaries. A partial Merrimack trace now preserves the source-local
+relation among project documentation and review, sensing-line configuration,
+main-abandonment sequence, regulator response, SCADA monitoring, field
+isolation, and system shutdown without completing custody or control effect.
+Bounded San Bruno record `SF-0027` separates pipe fabrication, records,
 integrity management, rupture and ignition, recognition and isolation,
-emergency response, standing, oversight, and safety management without
-accepting recurrence or one mechanism. Slot B now opens a bounded Fort Totten
-Metrorail case. The two Mac LaunchAgents remain active. Prompt hashes are
-receipt metadata only and do not grant, deny, or continue eligibility.
+emergency response, standing, oversight, and safety management. Bounded Fort
+Totten record `SF-0028` now separates train occupancy, track-circuit detection,
+automatic speed commands, verification testing, maintenance and monitoring,
+collision, standing, oversight, and crashworthiness. Slot A now compares
+Merrimack project control with San Bruno historical records and integrity; slot
+B traces Fort Totten verification testing to train-detection control. The two
+Mac LaunchAgents remain active. Prompt hashes are receipt metadata only and do
+not grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
@@ -143,6 +149,21 @@ isolation, emergency response, affected standing, CPUC and PHMSA oversight,
 and company safety management distinct without claiming one root cause,
 recurrence, shared authority, remedy, health causation, liability, or receiver
 work.
+
+`SF-MERRIMACK-DESIGN-CONTROL-LINE-PARTIAL-TRACE-0001` preserves the bounded
+relation among an operating distribution system, incomplete project
+documentation and review, unchanged sensing-line configuration, main-
+abandonment sequence, regulator response, monitoring, field isolation, and
+system shutdown. Complete design-change custody, field communication,
+inspector awareness, accountable review, correction, implementation, regulator
+disposition, relative causal weight, and control effect remain incomplete.
+
+`SF-0028` adds a bounded Fort Totten Metrorail public-source record. It keeps
+train occupancy, track-circuit detection, automatic speed commands,
+verification testing, maintenance and monitoring, collision, affected
+standing, Board and regulatory oversight, and railcar crashworthiness
+distinct without claiming one root cause, recurrence, shared authority,
+remedy, health causation, liability, or receiver work.
 
 `SF-EL-FARO-WEATHER-ROUTE-PARTIAL-TRACE-0001` preserves a partial relation
 among BVS weather delivery, captain use, officer suggestions, route decision,

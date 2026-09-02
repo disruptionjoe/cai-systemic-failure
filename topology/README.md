@@ -667,3 +667,20 @@ procedure, operator, analyst, supervisor, field verification, community
 observation, standing, and control effect distinct; complete custody,
 authority, correction, implementation, relative causal weight, and control
 effect remain unknown.
+
+`SF-MERRIMACK-DESIGN-CONTROL-LINE-PARTIAL-TRACE-0001.md` preserves the
+bounded relation among an operating distribution system, incomplete project
+documentation and review, unchanged sensing-line configuration, main-
+abandonment sequence, regulator response, SCADA monitoring, field isolation,
+and system shutdown. Complete design-change custody, field communication,
+inspector awareness, accountable review, correction, implementation, regulator
+disposition, relative causal weight, and control effect remain incomplete.
+
+`evidence/records/SF-0028-fort-totten-train-detection-control-and-oversight-boundaries.md`
+adds a bounded Fort Totten public-source record. It keeps train occupancy,
+track-circuit detection, automatic speed commands, verification testing,
+maintenance and monitoring, collision, affected standing, oversight, and
+crashworthiness distinct. Complete module and signal custody, test
+disposition, maintenance response, train-control authority, oversight
+correction, implementation, relative causal weight, and control effect remain
+unknown.

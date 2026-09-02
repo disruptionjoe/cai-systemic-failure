@@ -145,3 +145,9 @@ research material is rejected and routed to a separately authorized secure owner
   recognition and isolation, emergency response, affected standing, CPUC and
   PHMSA oversight, and safety management distinct while making no recurrence,
   health-causation, blame, remedy, liability, or schema claim.
+- `records/SF-0028-fort-totten-train-detection-control-and-oversight-boundaries.md`
+  - bounded NTSB-source synthesis that keeps train occupancy, track-circuit
+  detection, automatic speed commands, verification testing, maintenance and
+  monitoring, collision, affected standing, Board and regulatory oversight,
+  and railcar crashworthiness distinct while making no recurrence, health-
+  causation, blame, remedy, liability, or schema claim.
