@@ -1,71 +1,71 @@
-# Compare Alaska 261 and American 587 aircraft-control-loss boundaries
+# Open a bounded United Airlines Flight 232 public-source record
 
-Lineage ID: `SF-LIN-COMP-ALASKA261-AMERICAN587-CONTROL-LOSS-BOUNDARY-01`,
-opportunity 1. Prepare one proposal-only bounded comparison from supplied
-official NTSB evidence and records `SF-0032` and `SF-0034`. Frontier review
-decides whether any owner artifact is created. Do not retrieve sources. Do not
-invent unsupported facts. Do not prescribe maintenance, inspection, aircraft,
-rudder, training, upset-recovery, design, certification, airline,
-manufacturer, flight-crew, surveillance, regulatory, or management changes;
-infer recurrence, one universal mechanism, shared authority, blame beyond
-supplied NTSB findings, duty, liability, remedy efficacy, health causation, or
-external effect.
+Lineage ID: `SF-LIN-UNITED232-FANDISK-HYDRAULIC-CONTROL-OPENING-01`,
+opportunity 1. Prepare one proposal-only bounded record from supplied official
+NTSB evidence. Frontier review decides whether any owner artifact is created.
+Do not retrieve sources. Do not invent unsupported facts. Do not prescribe
+engine manufacture, inspection, maintenance, hydraulic, flight-control,
+training, airport, emergency-response, design, certification, airline,
+manufacturer, or regulatory changes; infer recurrence, one universal
+mechanism, shared authority, blame beyond supplied NTSB findings, duty,
+liability, remedy efficacy, health causation, or external effect.
 
-Supplied evidence:
+Supplied evidence from `NTSB/AAR-90/06`:
 
-- `NTSB/AAR-02/01`: Alaska Airlines Flight 261 lost pitch control after the
-  horizontal-stabilizer trim-system jackscrew assembly's acme-nut threads
-  failed in flight.
-- NTSB found insufficient lubrication caused excessive thread wear; extended
-  lubrication and end-play-check intervals and FAA approvals increased missed
-  maintenance and lost-detection risk; the MD-80 lacked a fail-safe mechanism
-  against catastrophic total thread loss.
-- The Alaska crew encountered jammed and then failed stabilizer-trim behavior,
-  attempted troubleshooting and recovery, and ultimately lost pitch control.
-- `NTSB/AAR-04/04`: American Airlines Flight 587 encountered wake turbulence,
-  and the first officer made unnecessary and excessive rudder-pedal inputs.
-- NTSB determined those inputs created loads beyond ultimate design and caused
-  the vertical stabilizer to separate in flight.
-- NTSB identified A300-600 rudder-system design characteristics and elements
-  of American Airlines' Advanced Aircraft Maneuvering Program as contributors
-  to the rudder inputs.
-- Alaska 261's maintenance task, interval, inspection, wear, acme-nut thread
-  failure, trim-system state, and pitch-control loss remain distinct from
-  American 587's wake encounter, pilot input, rudder-system response,
-  aerodynamic load, stabilizer separation, and loss of control.
-- Airline program, manufacturer design, FAA approval and surveillance, flight-
-  crew action, standing, consequence, and control effect remain distinct in
-  and between both records.
-- Complete Alaska task, measurement, interval-decision, approval, and
-  surveillance custody and complete American cue, input, training, design,
-  and certification custody remain incomplete. Correction, implementation,
-  relative causal weight, and verified control effect remain incomplete in
-  both.
+- United Airlines Flight 232, a McDonnell Douglas DC-10-10, experienced an
+  uncontained failure of the No. 2 tail-mounted engine's stage 1 fan disk on
+  July 19, 1989, near Sioux City, Iowa.
+- Fan-disk fragments severed or damaged hydraulic-system lines, and all three
+  hydraulic systems lost fluid and pressure. Normal flight-control surfaces
+  became unavailable.
+- NTSB traced the fan-disk failure to a fatigue crack that originated in a
+  metallurgical defect made during manufacture and was not detected during
+  later maintenance inspection.
+- Manufacture, material defect, crack growth, inspection technique, inspector
+  performance, maintenance-program custody, engine failure, and hydraulic
+  damage remain distinct objects.
+- The flight crew, assisted by a check airman, used differential thrust from
+  the two remaining engines to obtain limited pitch and roll control.
+- Air traffic control, the Sioux Gateway Airport, airport fire and rescue,
+  hospitals, and community responders prepared for the emergency landing.
+- The airplane reached the runway area but lost control during the final
+  approach, struck the ground, broke apart, and burned.
+- Of 296 people aboard, 111 died and 185 survived. Crew, passengers,
+  responders, airline and manufacturer staff, maintainers, inspectors,
+  regulators, families, and community members retain distinct standing.
+- Complete fan-disk manufacture and inspection custody, crack-detection
+  chronology, hydraulic-line damage sequence, crew coordination and control
+  chronology, emergency-response custody, survivability sequence, design and
+  certification chronology, correction, implementation, relative causal
+  weight, and verified control effect remain incomplete.
 
-Return exactly one Markdown table with eight ordered rows and columns
-`Comparison object | Alaska 261 supplied fact | American 587 supplied fact |
-Shared relation or preserved boundary`: `initiating condition`, `maintenance
-or action custody`, `component and system state`, `control loss`, `crew
-response`, `program design and authority`, `standing and consequence`,
-`bounded comparison verdict`.
+Return exactly one Markdown table with eleven ordered rows and columns
+`Record object | Supplied source-local fact | Missing link or preserved
+boundary`: `event and scale`, `fan-disk manufacture`, `metallurgical defect and
+fatigue crack`, `maintenance inspection`, `uncontained engine failure`,
+`hydraulic-system loss`, `flight-control loss`, `crew differential-thrust
+response`, `emergency coordination`, `landing breakup and fire`, `standing
+survivability and oversight`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `preserve_separate_alaska261_american587_control_loss_boundaries`
-  or `bounded_corpus_insufficient`.
-- **Falsifier:** name one exact supplied contrast whose reversal would defeat
-  the selected separate-boundaries decision.
-- **Unknowns:** `complete Alaska task, measurement, interval-decision,
-  approval, and surveillance custody; complete American cue, input, training,
-  design, and certification custody; correction, implementation, relative
+- **Decision:** choose `prepare_bounded_united232_opening` or
+  `bounded_corpus_insufficient`.
+- **Falsifier:** name one exact supplied manufacture-inspection-failure or
+  engine-hydraulic-control relation whose removal would defeat the selected
+  opening.
+- **Unknowns:** `complete fan-disk manufacture and inspection custody, crack-
+  detection chronology, hydraulic-line damage sequence, crew coordination and
+  control chronology, emergency-response custody, survivability sequence,
+  design and certification chronology, correction, implementation, relative
   causal weight, and verified control effect remain incomplete`
-- **Non-effect:** `No recurrence, one maintenance, lubrication, inspection,
-  interval, wear, jackscrew, trim-control, wake-turbulence, rudder, pilot-
-  input, training, upset-recovery, aircraft-pilot-coupling, aerodynamic-load,
-  structural-failure, aircraft-response, design, certification, airline,
-  manufacturer, FAA, flight-crew, passenger, ground-resident, responder, or
-  affected-party mechanism or authority, schema, blame beyond supplied NTSB
-  findings, duty, remedy, acceptance, receiver work, health causation,
-  liability, or external action is accepted.`
+- **Non-effect:** `No recurrence, one manufacture, titanium, defect, fatigue,
+  crack-detection, inspection, maintenance, fan-disk, engine, hydraulic,
+  flight-control, differential-thrust, crew-response, airport-response,
+  survivability, design, certification, airline, manufacturer, FAA, flight-
+  crew, passenger, responder, family, community, or affected-party mechanism
+  or authority, schema, blame beyond supplied NTSB findings, duty, remedy,
+  acceptance, receiver work, health causation, liability, or external action
+  is accepted.`
 
-Plain Markdown, no frontmatter, under 1,200 words.
+Plain Markdown, no frontmatter, under 1,300 words.

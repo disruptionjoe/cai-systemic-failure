@@ -812,6 +812,15 @@ Complete task, measurement, interval-decision, approval, surveillance,
 correction, implementation, causal weight, and control effect remain
 incomplete.
 
+`SF-COMP-ALASKA261-AMERICAN587-AIRCRAFT-CONTROL-LOSS-BOUNDARY.md` preserves a
+bounded comparison between Alaska 261's lubrication, interval, inspection,
+wear, jackscrew and trim-system failure, pitch-control loss, and crew recovery
+path and American 587's wake encounter, pilot input, rudder-system response,
+aerodynamic-load buildup, vertical-stabilizer separation, and loss of control.
+Maintenance, measurement, pilot action, training, design, certification,
+standing, consequence, and incomplete control effect do not establish
+recurrence, shared authority, or one aircraft-control-loss mechanism.
+
 `SF-COMP-ALASKA261-VALUJET592-MAINTENANCE-OPERATION-OVERSIGHT-BOUNDARY.md`
 preserves a bounded comparison between Alaska 261's in-service lubrication,
 interval, inspection, wear, trim-system failure, and crew recovery path and

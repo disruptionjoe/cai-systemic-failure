@@ -732,11 +732,20 @@
      response, training and design context, standing, and consequence while
      preserving incomplete cue, intent, custody, chronology, correction,
      causal weight, and control effect.
-170. Prepared only: compare Alaska Airlines Flight 261 and American Airlines
-     Flight 587 only at the bounded aircraft-control-loss level while keeping
+170. Done: compare Alaska Airlines Flight 261 and American Airlines Flight
+     587 only at the bounded aircraft-control-loss level while keeping
      maintenance task, interval, inspection, wear, and trim-system failure
      distinct from wake encounter, pilot input, rudder-system response,
-     aerodynamic loading, and structural separation.
+     aerodynamic loading, and structural separation
+     (`SF-COMP-ALASKA261-AMERICAN587-AIRCRAFT-CONTROL-LOSS-BOUNDARY`).
+171. Prepared only: open one bounded NTSB-grounded United Airlines Flight 232
+     record that separates fan-disk manufacture and defect, maintenance
+     inspection and crack detection, uncontained engine failure, loss of three
+     hydraulic systems, flight-control loss, differential-thrust response,
+     emergency coordination, landing and breakup, standing, survivability,
+     design and certification, and oversight without creating one manufacture,
+     inspection, hydraulic, flight-control, crew-response, airport-response,
+     design, certification, airline, manufacturer, or regulatory mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

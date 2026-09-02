@@ -128,11 +128,16 @@ standing, and consequence while keeping knowledge, receipt, chronology,
 correction, causal weight, and control effect incomplete. Bounded American
 Airlines Flight 587 record `SF-0034` separates wake encounter, rudder inputs,
 system response, aerodynamic load, stabilizer separation, aircraft response,
-training, design and certification, standing, and consequence. Slot A now
-traces the American 587 wake-to-stabilizer sequence; slot B compares Alaska
-261 and American 587 only at a bounded aircraft-control-loss boundary. The two
-Mac LaunchAgents remain active. Prompt hashes are receipt metadata only and do
-not grant, deny, or continue eligibility.
+training, design and certification, standing, and consequence. A bounded
+Alaska 261 / American 587 comparison now preserves separate maintenance-to-
+trim-failure and wake-input-to-stabilizer-separation paths without accepting
+recurrence or one aircraft-control-loss mechanism. Slot A continues to trace
+the American 587 wake-to-stabilizer sequence; slot B now opens a bounded United
+Airlines Flight 232 record across manufacture, inspection, uncontained engine
+failure, hydraulic and flight-control loss, crew response, emergency
+coordination, standing, survivability, design, certification, and oversight.
+The two Mac LaunchAgents remain active. Prompt hashes are receipt metadata only
+and do not grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
