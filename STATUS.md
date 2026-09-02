@@ -47,8 +47,14 @@ standing, and oversight layers. Bounded Merrimack Valley record `SF-0026`
 separates system design, project design and approval, sensing-line
 configuration, work execution, inspection, overpressure protection, field
 control, emergency response, standing, regulation, and safety management.
-Slot A now tests a Marshall alarm-to-restart partial trace; slot B tests the
-Marshall/Merrimack Valley transient and project-control boundary. The two Mac
+The Marshall partial trace now preserves rupture indications, column-
+separation interpretation, the ten-minute stop rule, shutdown, restart,
+outside-notification inference, and delayed recognition while keeping signal,
+procedure, analyst, supervisor, field, community, standing, and control effect
+distinct. The Marshall/Merrimack test closed without a redundant artifact:
+current owner truth already preserves their separate transient and project-
+control boundaries. Slot A now tests a Merrimack design-to-control-line partial
+trace; slot B opens a bounded San Bruno pipeline case. The two Mac
 LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
 grant, deny, or continue eligibility.
 

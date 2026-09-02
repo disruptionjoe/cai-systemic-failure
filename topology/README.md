@@ -649,3 +649,12 @@ emergency response, affected standing, regulation, and safety management
 distinct. Complete design-change custody, field communication, inspector
 awareness, accountable review, correction, implementation, regulator
 disposition, relative causal weight, and control effect remain unknown.
+
+`SF-MARSHALL-ALARM-RESTART-PARTIAL-TRACE-0001.md` preserves the bounded
+relation from rupture indications through column-separation interpretation,
+the ten-minute stop rule, shutdown and restart decisions, outside-notification
+inference, and delayed recognition. It keeps physical state, signals,
+procedure, operator, analyst, supervisor, field verification, community
+observation, standing, and control effect distinct; complete custody,
+authority, correction, implementation, relative causal weight, and control
+effect remain unknown.

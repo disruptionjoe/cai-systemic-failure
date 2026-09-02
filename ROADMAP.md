@@ -570,15 +570,26 @@
      approval, control-line configuration, work execution, inspection,
      overpressure protection, emergency response, standing, regulation, and
      safety-management boundaries (`SF-0026`).
-142. Prepared only: test whether `NTSB/PAR-12/01` and `SF-0025` support one
-     partial Marshall leak-indication-to-restart-and-recognition trace while
-     keeping signal, interpretation, stop rule, shutdown, authorization,
-     external notification, local verification, correction, and control effect
-     distinct.
-143. Prepared only: compare Marshall and Merrimack Valley at the bounded
-     transient and project-control layer while keeping shutdown and startup,
-     project change, physical configuration, alarm interpretation, sensing and
-     pressure protection, stop authority, standing, and oversight distinct.
+142. Done: preserve one partial Marshall alarm-to-restart trace from rupture
+     indications through column-separation interpretation, the ten-minute stop
+     rule, shutdown and restart, outside-notification inference, and delayed
+     recognition while keeping custody, authority, verification, correction,
+     implementation, causal weight, and control effect incomplete
+     (`SF-MARSHALL-ALARM-RESTART-PARTIAL-TRACE-0001`).
+143. Done without a separate comparison artifact: preserve Marshall and
+     Merrimack Valley as distinct transient and project-control boundaries
+     because the candidate adds no shared source-local custody, authority,
+     disposition, implementation, causal-weight, recurrence, or control-effect
+     relation beyond `SF-0025` and `SF-0026`.
+144. Prepared only: test whether `NTSB/PAR-19/02` and `SF-0026` support one
+     partial Merrimack design-to-control-line trace while keeping project
+     documentation, engineering review, sensing-line configuration, work
+     sequence, regulator response, monitoring, field shutdown, standing, and
+     control effect distinct.
+145. Prepared only: open one bounded NTSB-grounded San Bruno pipeline record
+     that separates pipe fabrication and records, integrity management,
+     rupture and ignition, detection, isolation, emergency response, standing,
+     regulation, and safety-management boundaries.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

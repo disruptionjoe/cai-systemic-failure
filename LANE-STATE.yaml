@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T20:04:08-05:00"
-run_ref: RUN-20260902-010408-cai-systemic-failure-prepared-progress
-bottom_line: "Two bounded pipeline records now preserve distinct physical, informational, operational, project, protection, standing, and oversight boundaries."
+updated_at: "2026-09-01T21:04:43-05:00"
+run_ref: RUN-20260902-020443-cai-systemic-failure-prepared-progress
+bottom_line: "A bounded Marshall trace now preserves the alarm, interpretation, stop-rule, restart, local-verification, and recognition sequence without accepting one mechanism."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published bounded Marshall and Merrimack Valley records, reconciled both indexes, and replenished both terminal slots."
-    movement_ref: "evidence/records/SF-0025-marshall-pipeline-rupture-detection-restart-and-community-boundaries.md; evidence/records/SF-0026-merrimack-valley-design-control-line-and-overpressure-boundaries.md; ROADMAP.md"
+    last_movement: "Published the Marshall alarm-to-restart partial trace, closed the duplicate comparison, and replenished both terminal slots."
+    movement_ref: "topology/SF-MARSHALL-ALARM-RESTART-PARTIAL-TRACE-0001.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Test one Marshall alarm-to-restart trace and one Marshall/Merrimack Valley control-boundary comparison without creating recurrence."
+    steering_prompt: "Test one Merrimack design-to-control-line trace and one bounded San Bruno case opening without creating recurrence."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: two_pipeline_records_preserve_distinct_detection_restart_design_control_line_protection_and_standing_boundaries
-    evidence_ref: "evidence/records/SF-0025-marshall-pipeline-rupture-detection-restart-and-community-boundaries.md; evidence/records/SF-0026-merrimack-valley-design-control-line-and-overpressure-boundaries.md; ROADMAP.md"
-    summary: "The two records preserve separate hazardous-liquid rupture and gas-distribution overpressure paths without accepting recurrence or one control mechanism."
-    evaluated_at: "2026-09-01T20:04:08-05:00"
-    run_ref: RUN-20260902-010408-cai-systemic-failure-prepared-progress
+    reason_code: marshall_trace_preserves_signal_interpretation_stop_restart_verification_and_recognition_boundaries
+    evidence_ref: "topology/SF-MARSHALL-ALARM-RESTART-PARTIAL-TRACE-0001.md; ROADMAP.md"
+    summary: "The trace preserves a source-local sequence without accepting one alarm, procedure, operator, response, or regulatory mechanism."
+    evaluated_at: "2026-09-01T21:04:43-05:00"
+    run_ref: RUN-20260902-020443-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 140-141, published SF-0025 and SF-0026, repaired the evidence index through current records, and installed two successor prompts."
+    progress_delta: "Closed Roadmap 142-143, published one Marshall partial trace, and installed Merrimack trace and San Bruno opening prompts."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test one source-local trace and one bounded pipeline comparison without creating receiver work."
+    recommendation: "Keep the schema provisional; test one source-local trace and one new bounded pipeline case without creating receiver work."
     findings:
-      - "PAR-12/01 supports a bounded Marshall record across defect, integrity, transient operation, detection, restart, training, public awareness, response, standing, and oversight."
-      - "PAR-19/02 supports a bounded Merrimack Valley record across system design, project change, sensing, execution, inspection, protection, field control, response, standing, and oversight."
-      - "The records establish no cross-case recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, liability, or external action."
+      - "PAR-12/01 supports a bounded relation among leak triggers, column-separation interpretation, the ten-minute stop rule, shutdown, restart, local verification, and delayed recognition."
+      - "The Marshall/Merrimack candidate adds no shared source-local relation beyond the two bounded owner records."
+      - "The trace establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A
         label: "Stay provisional"
