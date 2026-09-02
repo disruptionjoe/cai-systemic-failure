@@ -699,13 +699,20 @@
      standing, and consequence while preserving incomplete task, measurement,
      interval-decision, approval, surveillance, correction, and control-effect
      custody.
-165. Prepared only: open one bounded NTSB-grounded ValuJet Flight 592 record
+165. Done: open one bounded NTSB-grounded ValuJet Flight 592 record
      that separates chemical oxygen generators, contractor removal and
      handling, work-card signoff, packaging and labeling, company-material and
      hazardous-material custody, forward cargo loading, in-flight fire,
      detection and suppression, carrier and FAA oversight, affected standing,
      and consequence without creating one hazardous-material, maintenance,
      cargo-fire, carrier, contractor, or regulatory mechanism.
+166. Prepared only: compare Alaska Airlines Flight 261 and ValuJet Flight 592
+     at the bounded maintenance-to-operation and oversight level while
+     preserving in-service lubrication, interval, inspection, wear, and trim-
+     system failure as distinct from removed-component handling, work-card
+     signoff, hazardous-material custody, cargo fire, detection and
+     suppression, carrier oversight, FAA oversight, standing, consequence,
+     and control effect.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

@@ -179,3 +179,11 @@ research material is rejected and routed to a separately authorized secure owner
   surveillance, fail-safe design, affected standing, and consequence distinct
   while making no recurrence, health-causation, blame beyond NTSB findings,
   remedy, liability, or schema claim.
+- `records/SF-0033-valujet-flight-592-oxygen-generator-cargo-fire-and-oversight-boundaries.md`
+  - bounded NTSB-source synthesis that keeps chemical-oxygen-generator
+  condition, removal and work-card signoff, safety-cap status, packaging and
+  identification, contractor and carrier custody, cargo loading, fire
+  initiation and spread, detection and suppression, flight-crew response,
+  carrier and FAA oversight, affected standing, and consequence distinct while
+  making no recurrence, health-causation, blame beyond NTSB findings, remedy,
+  liability, or schema claim.
