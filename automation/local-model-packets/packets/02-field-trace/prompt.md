@@ -3,7 +3,7 @@
 Lineage ID: `SF-LIN-UNITED232-FANDISK-HYDRAULIC-CONTROL-OPENING-01`,
 opportunity 2, final repair. Prepare one proposal-only bounded record from the
 supplied `NTSB/AAR-90/06` facts. Frontier decides owner truth. Do not retrieve
-sources, invent facts, prescribe changes, or infer recurrence, one universal
+sources. Do not invent facts, prescribe changes, or infer recurrence, one universal
 mechanism, shared authority, blame beyond NTSB findings, duty, remedy,
 liability, acceptance, or external effect.
 
