@@ -655,23 +655,35 @@
      inspection, repair verification, state oversight, occupant protection,
      affected standing, and consequence without creating one maintenance,
      inspection, enforcement, or oversight mechanism (`SF-0030`).
-158. Prepared only: trace Schoharie from the out-of-service finding through
+158. Done: trace Schoharie from the out-of-service finding through
      carrier receipt, repair representation and verification, operating
      authority, dispatch, brake condition and operation, and affected standing
      while preserving incomplete custody, authority, correction,
-     implementation, causal weight, and control effect.
+     implementation, causal weight, and control effect
+     (`SF-SCHOHARIE-OOS-DISPATCH-PARTIAL-TRACE-0001`).
 159. Done: compare Fort Totten and Schoharie at the bounded
      verification-to-operation level while preserving a capable but unused
      rail test as distinct from a highway out-of-service order, repair
      verification, operating authority, dispatch, enforcement, standing, and
      control effect
      (`SF-COMP-FORTTOTTEN-SCHOHARIE-VERIFICATION-OPERATION-BOUNDARY`).
-160. Prepared only: open one bounded NTSB-grounded Stretch Duck 7 record that
+160. Done: open one bounded NTSB-grounded Stretch Duck 7 record that
      separates severe-weather forecast and warning, tour sequencing, water
      entry, weather monitoring, go/no-go policy, flooding path, reserve
      buoyancy, canopy and egress, lifejackets, affected standing, response,
      company oversight, and Coast Guard oversight without creating one
-     weather, operation, vessel-design, survivability, or oversight mechanism.
+     weather, operation, vessel-design, survivability, or oversight mechanism
+     (`SF-0031`).
+161. Prepared only: trace Stretch Duck 7 from severe-weather watch and warning
+     through manager direction, tour sequencing, water entry, monitoring and
+     policy, storm encounter, return attempt, hatch flooding, sinking,
+     standing, and response while preserving incomplete custody, decision,
+     reassessment, evacuation, correction, causal weight, and control effect.
+162. Prepared only: compare Stretch Duck 7 and El Faro at the bounded
+     weather-information-to-operation level while preserving lake-tour versus
+     ocean-voyage context, decision participants, route or tour decisions,
+     vessel state, flooding and survivability, standing, oversight, and
+     control-effect boundaries without accepting recurrence or one mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

@@ -771,3 +771,19 @@ unverified repair, missing authority, carrier dispatch, enforcement, brake
 condition, and operation. Diagnostic test, operating prohibition, custody,
 authority, standing, consequence, and control effect remain separate; no
 recurrence or shared verification-to-operation mechanism is accepted.
+
+`SF-SCHOHARIE-OOS-DISPATCH-PARTIAL-TRACE-0001.md` preserves the source-local
+relation from Schoharie's prior out-of-service finding through unresolved
+carrier receipt and repair verification, missing operating authority, carrier
+dispatch, brake condition and operation, and affected standing. Complete
+custody, decision, enforcement, correction, implementation, causal weight, and
+control effect remain incomplete.
+
+`evidence/records/SF-0031-stretch-duck-7-weather-flooding-buoyancy-egress-and-oversight-boundaries.md`
+adds a bounded Stretch Duck 7 public-source record. It keeps severe-weather
+forecast and warning, tour sequencing, water entry, monitoring and policy,
+flooding path, reserve buoyancy, canopy and egress, lifejackets, affected
+standing, response, company oversight, and Coast Guard oversight distinct.
+Complete custody, decision chronology, vessel-design and recommendation
+history, evacuation, correction, implementation, causal weight, and control
+effect remain incomplete.

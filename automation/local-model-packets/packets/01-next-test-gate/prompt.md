@@ -1,59 +1,62 @@
-# Trace Schoharie out-of-service evidence to dispatch
+# Trace Stretch Duck 7 warning to water entry and flooding
 
-Lineage ID: `SF-LIN-SCHOHARIE-OOS-DISPATCH-PARTIAL-TRACE-01`, opportunity 1.
-Prepare one proposal-only partial trace from supplied official NTSB evidence
-and bounded record `SF-0030`. Frontier review decides owner truth. Do not
-retrieve sources. Do not invent unsupported facts. Do not prescribe vehicle,
-carrier, driver, maintenance, inspection, registration, repair-verification,
-enforcement, occupant-protection, regulatory, or management changes; infer
-recurrence, one universal mechanism, blame beyond the supplied NTSB finding,
+Lineage ID: `SF-LIN-STRETCHDUCK7-WARNING-WATERENTRY-PARTIAL-TRACE-01`,
+opportunity 1. Prepare one proposal-only partial trace from supplied official
+NTSB evidence and bounded record `SF-0031`. Frontier review decides owner
+truth. Do not retrieve sources. Do not invent unsupported facts. Do not
+prescribe weather, tour, manager, captain, crew, vessel, hatch, flooding,
+buoyancy, egress, inspection, regulatory, or management changes; infer
+recurrence, one universal mechanism, blame beyond supplied NTSB findings,
 duty, liability, remedy efficacy, health causation, or external effect.
 
-Supplied evidence from `NTSB/HAR-20/03`:
+Supplied evidence from `NTSB/MAR-20/01`:
 
-- NYSDOT placed the limousine out of service before the crash for safety
-  defects that included brake deficiencies; the vehicle had not been verified
-  as repaired.
-- Prestige Limousine dispatched it for a passenger charter despite the out-of-
-  service order and without operating authority.
-- NTSB found the brake system inadequately maintained and in poor condition;
-  rear-brake components showed evidence they had not been appreciably working.
-- NTSB found NYSDOT oversight ineffective despite knowledge of repeated out-
-  of-service violations and lack of authority, and found its repair-
-  verification process inadequate.
-- NTSB separately found inadequate DMV oversight of state-licensed inspection
-  stations and improper registration enabled avoidance of more rigorous safety
-  requirements.
-- Out-of-service finding, carrier receipt, repair representation, verification,
-  operating authority, dispatch, driver receipt, brake condition, enforcement,
-  occupant standing, and consequence remain distinct.
-- Complete order custody, repair history, inspection decision, information
-  transfer, enforcement chronology, dispatch decision, correction,
+- The National Weather Service issued a severe thunderstorm watch more than 7
+  hours before the accident and a warning one minute before Stretch Duck 7
+  departed the shoreside boarding facility.
+- The manager-on-duty directed the crew to complete the lake portion before
+  the usual land tour; Stretch Duck 7 entered the water at 1855 after the
+  warning.
+- Ride The Ducks restricted water entry when severe weather was approaching
+  but lacked a specific go/no-go policy. NTSB found available weather
+  information was not effectively used and the last waterborne tours should
+  have been suspended.
+- About 5 minutes after water entry, the leading edge of the storm reached the
+  vessel with strong winds and waves; the vessel later attempted to return to
+  the exit ramp.
+- Waves flooded through a non-weathertight bow air-intake hatch. The vessel
+  lacked subdivision and sufficient reserve buoyancy, and uncontrolled
+  flooding produced rapid sinking.
+- Forecast production, company access, manager and crew receipt, tour
+  sequencing, water entry, monitoring, captain operation, storm encounter,
+  flooding path, standing, and response remain distinct.
+- Complete forecast custody, accountable receipt, tour decision, monitoring
+  chronology, reassessment, hatch custody, evacuation sequence, correction,
   implementation, relative causal weight, and verified control effect remain
   incomplete.
 
 Return exactly one Markdown table with seven ordered rows and columns
 `Trace object | Supplied source-local relation | Missing link or preserved
-boundary`: `out-of-service finding`, `carrier receipt`, `repair representation
-and verification`, `operating authority`, `dispatch`, `brake condition and
-operation`, `standing and consequence`.
+boundary`: `watch and warning`, `manager direction`, `tour sequencing and
+water entry`, `weather monitoring and policy`, `storm encounter and return`,
+`hatch flooding and sinking`, `standing and response`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `prepare_partial_schoharie_oos_dispatch_trace` or
-  `bounded_corpus_insufficient`.
+- **Decision:** choose `prepare_partial_stretch_duck_7_warning_water_entry_trace`
+  or `bounded_corpus_insufficient`.
 - **Falsifier:** name one exact supplied relation whose removal would defeat
   the selected partial trace.
-- **Unknowns:** `complete order custody, repair history, inspection decision,
-  information transfer, enforcement chronology, dispatch decision,
-  correction, implementation, relative causal weight, and verified control
-  effect remain incomplete`
-- **Non-effect:** `No recurrence, one out-of-service, repair, verification,
-  operating-authority, dispatch, brake, maintenance, inspection, registration,
-  enforcement, occupant-protection, regulatory, or safety-management
-  mechanism, shared carrier, maintainer, inspector, agency, regulator, driver,
-  occupant, pedestrian, responder, or affected-party authority, schema, blame
-  beyond the supplied NTSB finding, duty, remedy, acceptance, receiver work,
-  health causation, liability, or external action is accepted.`
+- **Unknowns:** `complete forecast custody, accountable receipt, tour
+  decision, monitoring chronology, reassessment, hatch custody, evacuation
+  sequence, correction, implementation, relative causal weight, and verified
+  control effect remain incomplete`
+- **Non-effect:** `No recurrence, one weather, forecast, warning, manager,
+  tour, water-entry, monitoring, go/no-go, captain, vessel, hatch, flooding,
+  buoyancy, egress, rescue, inspection, regulatory, or safety-management
+  mechanism, shared company, manager, captain, crew, passenger, responder,
+  Coast Guard, weather-service, regulator, or affected-party authority,
+  schema, blame beyond supplied NTSB findings, duty, remedy, acceptance,
+  receiver work, health causation, liability, or external action is accepted.`
 
-Plain Markdown, no frontmatter, under 850 words.
+Plain Markdown, no frontmatter, under 900 words.

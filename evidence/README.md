@@ -165,3 +165,10 @@ research material is rejected and routed to a separately authorized secure owner
   repair verification, state oversight, occupant protection, affected
   standing, and consequence distinct while making no recurrence, health-
   causation, blame beyond the NTSB finding, remedy, liability, or schema claim.
+- `records/SF-0031-stretch-duck-7-weather-flooding-buoyancy-egress-and-oversight-boundaries.md`
+  - bounded NTSB-source synthesis that keeps severe-weather forecast and
+  warning, tour sequencing, water entry, monitoring and policy, flooding path,
+  reserve buoyancy, canopy and egress, lifejackets, affected standing,
+  response, company oversight, and Coast Guard oversight distinct while making
+  no recurrence, health-causation, blame beyond NTSB findings, remedy,
+  liability, or schema claim.

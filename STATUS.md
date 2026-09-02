@@ -92,12 +92,17 @@ speed and curve state, absent automatic enforcement, emergency braking,
 derailment, and affected standing. Bounded Schoharie record `SF-0030` separates
 vehicle alteration, brake condition, out-of-service status, carrier dispatch,
 operating authority, inspection, registration, repair verification, oversight,
-occupant protection, standing, and consequence. Slot A now traces Schoharie
-out-of-service evidence to dispatch. A bounded Fort Totten/Schoharie comparison
-now preserves their separate verification-to-operation boundaries without
-accepting recurrence or one mechanism; slot B now opens the materially
-different Stretch Duck 7 weather, flooding, buoyancy, egress, and oversight
-case. The two Mac LaunchAgents
+occupant protection, standing, and consequence. A partial Schoharie trace now
+preserves the relation from the out-of-service finding through unresolved
+carrier receipt and repair verification, missing operating authority, carrier
+dispatch, brake condition and operation, and affected standing. A bounded Fort
+Totten/Schoharie comparison preserves their separate verification-to-operation
+boundaries without accepting recurrence or one mechanism. Bounded Stretch Duck
+7 record `SF-0031` now separates severe-weather forecast and warning, tour
+sequencing, water entry, monitoring and policy, flooding, reserve buoyancy,
+egress, lifejackets, standing, response, company oversight, and Coast Guard
+oversight. Slot A now traces warning to water entry and flooding; slot B tests
+the bounded Stretch Duck 7/El Faro weather-to-operation boundary. The two Mac LaunchAgents
 remain active. Prompt hashes are receipt metadata only and do not grant, deny,
 or continue eligibility.
 
