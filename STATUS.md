@@ -82,9 +82,12 @@ dispatch, valve operation, isolation, flow cessation, authority, and standing
 as distinct objects. Bounded Amtrak Train 188 record `SF-0029` separates speed
 and curve, radio information, situational awareness, signals and rules,
 positive train control, emergency braking, derailment, occupant protection,
-response, patient distribution, standing, and oversight. Slot A now traces
-Amtrak radio attention to speed control; slot B compares Fort Totten and
-Amtrak train-control boundaries. The two Mac
+response, patient distribution, standing, and oversight. A bounded Fort
+Totten/Amtrak comparison now separates false-vacant detection and permissive
+automatic commands from an unenforced permanent restriction and absent
+automatic intervention without accepting recurrence or one train-control
+mechanism. Slot A traces Amtrak radio attention to speed control; slot B now
+opens a bounded Schoharie stretch-limousine public-source record. The two Mac
 LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
 grant, deny, or continue eligibility.
 

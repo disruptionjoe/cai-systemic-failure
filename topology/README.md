@@ -737,3 +737,11 @@ patient distribution, standing, and oversight distinct. Complete attention
 custody, train-control decision sequence, implementation history, response and
 patient-distribution custody, causal weight, correction, and verified control
 effect remain incomplete.
+
+`SF-COMP-FORTTOTTEN-AMTRAK-TRAIN-CONTROL-BOUNDARY.md` preserves a bounded
+comparison between Fort Totten's false-vacant track-circuit state and continued
+permissive automatic speed commands and Amtrak Train 188's unenforced permanent
+curve restriction and absent automatic intervention. Detection, command,
+restriction, assurance, operator action, implementation, oversight, standing,
+and control-effect boundaries remain distinct; no recurrence or one train-
+control mechanism is accepted.

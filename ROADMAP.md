@@ -642,11 +642,18 @@
      rule and signal state, absent automatic enforcement, emergency braking,
      derailment, and affected standing while preserving incomplete custody,
      decision, implementation, correction, causal weight, and control effect.
-156. Prepared only: compare Fort Totten false-vacant detection and permissive
+156. Done: compare Fort Totten false-vacant detection and permissive
      automatic speed commands with Amtrak Train 188's unenforced permanent
      restriction and absent automatic intervention while preserving distinct
      component, test, route, operator, authority, standing, consequence, and
-     control-effect boundaries.
+     control-effect boundaries
+     (`SF-COMP-FORTTOTTEN-AMTRAK-TRAIN-CONTROL-BOUNDARY`).
+157. Prepared only: open one bounded NTSB-grounded Schoharie stretch-limousine
+     record that separates vehicle alteration and classification, brake
+     condition, out-of-service status, carrier dispatch and operating
+     authority, inspection, repair verification, state oversight, occupant
+     protection, affected standing, and consequence without creating one
+     maintenance, inspection, enforcement, or oversight mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
