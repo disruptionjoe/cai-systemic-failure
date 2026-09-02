@@ -172,3 +172,10 @@ research material is rejected and routed to a separately authorized secure owner
   response, company oversight, and Coast Guard oversight distinct while making
   no recurrence, health-causation, blame beyond NTSB findings, remedy,
   liability, or schema claim.
+- `records/SF-0032-alaska-airlines-flight-261-jackscrew-maintenance-and-oversight-boundaries.md`
+  - bounded NTSB-source synthesis that keeps jackscrew condition, lubrication
+  task and interval, end-play inspection, thread wear, trim-system failure,
+  pitch control and crew response, maintenance-program state, FAA approval and
+  surveillance, fail-safe design, affected standing, and consequence distinct
+  while making no recurrence, health-causation, blame beyond NTSB findings,
+  remedy, liability, or schema claim.

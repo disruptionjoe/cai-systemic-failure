@@ -104,11 +104,20 @@ egress, lifejackets, standing, response, company oversight, and Coast Guard
 oversight. A bounded Stretch Duck 7/El Faro comparison now preserves the shared
 weather-information-to-operation pressure while keeping lake-tour and ocean-
 voyage context, decision participants, vessel state, flooding, survivability,
-standing, oversight, and control effect separate. Slot A continues the
-unattempted Stretch Duck 7 warning-to-flooding trace; slot B now opens a bounded
-Alaska Airlines Flight 261 maintenance, trim-control, and oversight record. The
-two Mac LaunchAgents remain active. Prompt hashes are receipt metadata only and
-do not grant, deny, or continue eligibility.
+standing, oversight, and control effect separate. A partial Stretch Duck 7
+trace now preserves the source-local relation from watch and warning through
+manager direction, tour sequencing, water entry, storm encounter, return
+attempt, hatch flooding, rapid sinking, affected standing, and response while
+keeping custody, authority, reassessment, evacuation, correction, and control
+effect incomplete. Bounded Alaska Airlines Flight 261 record `SF-0032` now
+separates jackscrew condition, lubrication task and interval, end-play check,
+thread wear, trim-system failure, pitch control and crew response, maintenance-
+program state, FAA approval and surveillance, fail-safe design, standing, and
+consequence. Slot A now traces Alaska 261 maintenance-to-failure relations;
+slot B opens a bounded ValuJet Flight 592 oxygen-generator, cargo-fire,
+contract-maintenance, and oversight record. The two Mac LaunchAgents remain
+active. Prompt hashes are receipt metadata only and do not grant, deny, or
+continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,

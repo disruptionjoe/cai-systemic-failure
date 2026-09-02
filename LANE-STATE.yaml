@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-02T08:04:19-05:00"
-run_ref: RUN-20260902-130419-cai-systemic-failure-prepared-progress
-bottom_line: "A bounded Stretch Duck 7/El Faro comparison preserves distinct weather-to-operation boundaries while slot B advances to an Alaska Airlines Flight 261 opening."
+updated_at: "2026-09-02T09:03:46-05:00"
+run_ref: RUN-20260902-140346-cai-systemic-failure-prepared-progress
+bottom_line: "A Stretch Duck 7 partial trace and bounded Alaska 261 record preserve distinct source-local layers while both packet slots advance."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published the bounded Stretch Duck 7/El Faro weather-to-operation comparison and replenished terminal slot B."
-    movement_ref: "topology/SF-COMP-STRETCHDUCK7-ELFARO-WEATHER-OPERATION-BOUNDARY.md; ROADMAP.md"
+    last_movement: "Published the Stretch Duck 7 warning-to-flooding partial trace and bounded Alaska Airlines Flight 261 record, then replenished both terminal slots."
+    movement_ref: "topology/SF-STRETCHDUCK7-WARNING-FLOODING-PARTIAL-TRACE-0001.md; evidence/records/SF-0032-alaska-airlines-flight-261-jackscrew-maintenance-and-oversight-boundaries.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Trace Stretch Duck 7 warning to flooding and open one bounded Alaska Airlines Flight 261 record without creating recurrence."
+    steering_prompt: "Trace Alaska 261 maintenance-to-failure relations and open one bounded ValuJet Flight 592 record without creating recurrence."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: stretch_duck_el_faro_comparison_preserves_distinct_context_authority_vessel_survival_standing_and_control_effect_boundaries
-    evidence_ref: "topology/SF-COMP-STRETCHDUCK7-ELFARO-WEATHER-OPERATION-BOUNDARY.md; ROADMAP.md"
-    summary: "The comparison preserves a bounded shared pressure while keeping operation, authority, vessel state, survival, standing, oversight, and control effect distinct."
-    evaluated_at: "2026-09-02T08:04:19-05:00"
-    run_ref: RUN-20260902-130419-cai-systemic-failure-prepared-progress
+    reason_code: stretch_duck_trace_and_alaska_261_record_preserve_distinct_information_operation_maintenance_design_standing_and_oversight_layers
+    evidence_ref: "topology/SF-STRETCHDUCK7-WARNING-FLOODING-PARTIAL-TRACE-0001.md; evidence/records/SF-0032-alaska-airlines-flight-261-jackscrew-maintenance-and-oversight-boundaries.md; ROADMAP.md"
+    summary: "The trace and record preserve bounded source-local relations while keeping custody, authority, design, maintenance, standing, oversight, and control effect distinct."
+    evaluated_at: "2026-09-02T09:03:46-05:00"
+    run_ref: RUN-20260902-140346-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 162, published one bounded comparison, preserved unattempted slot A, and installed a materially different successor in terminal slot B."
+    progress_delta: "Closed Roadmap 161 and 163, published one partial trace and one bounded record, reconciled owner state and indexes, and installed materially different successors in both terminal slots."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test one source-local Stretch Duck 7 trace and one bounded Alaska Airlines Flight 261 opening without creating receiver work."
+    recommendation: "Keep the schema provisional; test one source-local Alaska 261 trace and one bounded ValuJet Flight 592 opening without creating receiver work."
     findings:
-      - "MAR-20/01 supports warning, tour sequencing, water entry, flooding, reserve buoyancy, egress, standing, response, and oversight as distinct source-local objects."
-      - "MAR-17/01 supports current-weather use, route decision, bridge input, vessel-state loss, damage control, muster, survival craft, standing, and oversight as separate objects."
-      - "The comparison establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, health causation, liability, or external action."
+      - "MAR-20/01 supports a bounded warning-to-entry-to-flooding relation while leaving complete custody, authority, reassessment, evacuation, and control effect incomplete."
+      - "AAR-02/01 supports distinct jackscrew, lubrication, interval, inspection, wear, trim-system, crew-response, program, FAA, design, standing, and consequence objects."
+      - "The artifacts establish no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, health causation, liability, or external action."
     options:
       - id: A
         label: "Stay provisional"

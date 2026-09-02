@@ -795,3 +795,11 @@ route decision, bridge input, vessel-state loss, damage control, muster,
 survival craft, standing, and oversight. The shared weather-information-to-
 operation pressure does not establish recurrence, shared authority, or one
 weather, operation, vessel, survivability, or oversight mechanism.
+
+`SF-STRETCHDUCK7-WARNING-FLOODING-PARTIAL-TRACE-0001.md` preserves the bounded
+source-local relation from severe-weather watch and warning through manager
+direction, tour sequencing, water entry, storm encounter, return attempt, bow-
+hatch flooding, rapid sinking, affected standing, and response. Complete
+forecast and instruction custody, tour-decision authority, monitoring and
+reassessment chronology, hatch custody, evacuation, correction,
+implementation, causal weight, and control effect remain incomplete.

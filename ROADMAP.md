@@ -674,23 +674,38 @@
      company oversight, and Coast Guard oversight without creating one
      weather, operation, vessel-design, survivability, or oversight mechanism
      (`SF-0031`).
-161. Prepared only: trace Stretch Duck 7 from severe-weather watch and warning
+161. Done: trace Stretch Duck 7 from severe-weather watch and warning
      through manager direction, tour sequencing, water entry, monitoring and
      policy, storm encounter, return attempt, hatch flooding, sinking,
      standing, and response while preserving incomplete custody, decision,
-     reassessment, evacuation, correction, causal weight, and control effect.
+     reassessment, evacuation, correction, causal weight, and control effect
+     (`SF-STRETCHDUCK7-WARNING-FLOODING-PARTIAL-TRACE-0001`).
 162. Done: compare Stretch Duck 7 and El Faro at the bounded
      weather-information-to-operation level while preserving lake-tour versus
      ocean-voyage context, decision participants, route or tour decisions,
      vessel state, flooding and survivability, standing, oversight, and
      control-effect boundaries without accepting recurrence or one mechanism
      (`SF-COMP-STRETCHDUCK7-ELFARO-WEATHER-OPERATION-BOUNDARY`).
-163. Prepared only: open one bounded NTSB-grounded Alaska Airlines Flight 261
+163. Done: open one bounded NTSB-grounded Alaska Airlines Flight 261
      record that separates jackscrew lubrication, lubrication interval,
      end-play inspection, thread wear, trim-system failure, pitch control,
      maintenance-program state, FAA approval and surveillance, fail-safe
      design, affected standing, and consequence without creating one
-     maintenance, inspection, certification, or oversight mechanism.
+     maintenance, inspection, certification, or oversight mechanism
+     (`SF-0032`).
+164. Prepared only: trace Alaska Airlines Flight 261 from lubrication task and
+     interval through end-play inspection opportunity, thread wear, jackscrew
+     and trim-system failure, pitch-control loss, flight-crew response,
+     standing, and consequence while preserving incomplete task, measurement,
+     interval-decision, approval, surveillance, correction, and control-effect
+     custody.
+165. Prepared only: open one bounded NTSB-grounded ValuJet Flight 592 record
+     that separates chemical oxygen generators, contractor removal and
+     handling, work-card signoff, packaging and labeling, company-material and
+     hazardous-material custody, forward cargo loading, in-flight fire,
+     detection and suppression, carrier and FAA oversight, affected standing,
+     and consequence without creating one hazardous-material, maintenance,
+     cargo-fire, carrier, contractor, or regulatory mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.
