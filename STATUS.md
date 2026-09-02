@@ -37,11 +37,14 @@ objects distinct. The patrol-verification-to-correction test closed as bounded-
 corpus insufficient, and the Conception/Station comparison preserved separate
 marine watchstanding, detection, and same-space escape versus building fire-
 safety materials, suppression, crowding, and egress without a redundant
-artifact. Slot A now tests Conception/Buncefield required-practice verification
-versus installed-safeguard functional readiness; slot B tests whether
-Conception evidence changes the equipment-specific scope of candidate-only
-`SFQ-0003`. The two Mac LaunchAgents remain active. Prompt hashes are receipt
-metadata only and do not grant, deny, or continue eligibility.
+artifact. The Conception/Buncefield control-assurance test and the `SFQ-0003`
+required-practice scope test also closed without redundant artifacts: current
+owner truth already preserves the human-practice versus installed-safeguard
+distinction and the inquiry's installed-equipment-specific scope. Slot A now
+opens a bounded NTSB Marshall, Michigan pipeline-rupture case; slot B opens a
+bounded NTSB Merrimack Valley gas-overpressure case. The two Mac LaunchAgents
+remain active. Prompt hashes are receipt metadata only and do not grant, deny,
+or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,

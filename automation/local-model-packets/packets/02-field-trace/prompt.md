@@ -1,52 +1,53 @@
-# Test whether Conception changes SFQ-0003 scope
+# Open the Merrimack Valley gas-overpressure case
 
-Lineage ID: `SF-LIN-SFQ0003-REQUIRED-PRACTICE-SCOPE-BOUNDARY-01`, opportunity
-1. Prepare one proposal-only inquiry-scope decision from supplied owner
+Lineage ID: `SF-LIN-MERRIMACK-VALLEY-OVERPRESSURE-OPENING-01`, opportunity 1.
+Prepare one proposal-only bounded case opening from supplied official NTSB
 evidence. Frontier review decides owner truth. Do not retrieve sources. Do not
-invent unsupported facts. Do not create Mechanism Design work; prescribe equipment,
-inspection, patrol, vessel, operator, company, or regulatory changes; infer
-recurrence, one root cause, shared authority, blame, duty, liability, remedy
-efficacy, or external effect.
+invent unsupported facts. Do not prescribe gas-distribution, engineering,
+project-management, inspection, overpressure-protection, emergency-response,
+regulatory, or safety-management changes; infer recurrence, one universal
+mechanism, blame, duty, liability, remedy efficacy, or external effect.
 
-Supplied bounded owner evidence from `SFQ-0003`, `SF-0009`, and
-`SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001`:
+Supplied official evidence from NTSB investigation `PLD18MR003` and report
+`NTSB/PAR-19/02`:
 
-- Candidate-only `SFQ-0003` asks how materially relevant technical knowledge
-  becomes installed-equipment-specific characterization, measurement,
-  inspection, disposition, and an unresolved stop condition before continued
-  operation. It preserves PES HF corrosion and Tesoro HTHA as different
-  damage regimes.
-- Conception concerns a required human patrol that was not maintained and a
-  regulatory inspection process with no effective means to verify compliance;
-  no patrol log was required and inspection checklists did not cover the
-  watchstanding requirement.
-- Installed-equipment knowledge, characterization, measurement, and damage-
-  specific inspection are distinct from required-practice assignment,
-  performance, operator oversight, and regulatory verification.
-- Complete cross-case knowledge custody, accountable review, authority,
-  disposition, correction, implementation, recurrence, relative causal
-  weight, and control effect remain unknown.
+- On September 13, 2018, high-pressure natural gas entered a low-pressure
+  distribution system in Massachusetts' Merrimack Valley, causing fires and
+  explosions that damaged 131 structures, destroyed at least five homes,
+  killed one person, and sent 22 people to hospitals.
+- A Columbia Gas-contracted work crew, including a Columbia Gas inspector, was
+  performing a Columbia Gas-designed and approved pipe-replacement project.
+- NTSB found the project should have relocated regulator sensing lines to the
+  newly installed plastic main after replacing the existing cast-iron main.
+- NTSB separately identified inadequate overpressure protection and safety
+  issues involving project documentation, project management, risk assessment,
+  emergency response, regulation, and safety-management systems.
+- Complete design-change custody, field communication, inspector awareness,
+  accountable review, correction, implementation, regulator disposition,
+  relative causal weight, and remedy effect remain bounded by the report.
 
-Return exactly these eight labeled lines, with no table or extra text:
+Return exactly one Markdown table with nine ordered rows and columns
+`Case object | NTSB-grounded bounded fact | Unknown or preserved boundary`:
+`distribution-system state`, `replacement project`, `design and approval`,
+`control-line configuration`, `work execution`, `inspection`, `overpressure
+protection`, `emergency response and standing`, `regulation and safety
+management`.
 
-- **Equipment-specific object:** name only the supplied `SFQ-0003` object.
-- **Required-practice object:** name only the supplied Conception object.
-- **Strongest bounded relation:** state the narrowest supplied relation without
-  calling it recurrence or one mechanism.
-- **Decisive distinction:** state why one object cannot supply the other.
-- **Decision:** choose `widen_inquiry_to_required_practice_verification` or
-  `preserve_equipment_specific_inquiry_scope`.
+Then return exactly four lines:
+
+- **Decision:** choose `prepare_bounded_merrimack_record` or
+  `bounded_corpus_insufficient`.
 - **Falsifier:** name one exact supplied fact whose removal or reversal would
   defeat the selected decision.
-- **Unknowns:** `complete cross-case knowledge custody, accountable review,
-  authority, disposition, correction, implementation, recurrence, relative
-  causal weight, and control effect remain unknown`
-- **Non-effect:** `No recurrence, one knowledge, characterization,
-  measurement, inspection, verification, patrol, correction, operator,
-  company, regulatory, equipment-integrity, process-safety, or maritime-safety
-  mechanism, shared owner, operator, company, inspector, regulator, equipment,
-  vessel, or responder authority, schema, blame, duty, remedy, acceptance,
-  Mechanism Design work, receiver work, liability, or external action is
-  accepted.`
+- **Unknowns:** `complete design-change custody, field communication,
+  inspector awareness, accountable review, correction, implementation,
+  regulator disposition, relative causal weight, and remedy effect remain
+  bounded by the report`
+- **Non-effect:** `No recurrence, one design, documentation, control-line,
+  inspection, overpressure, project-management, risk-assessment, emergency-
+  response, regulatory, or safety-management mechanism, shared engineer,
+  contractor, inspector, operator, regulator, responder, or affected-party
+  authority, schema, blame, duty, remedy, acceptance, receiver work, liability,
+  or external action is accepted.`
 
-Plain Markdown, no frontmatter, under 450 words.
+Plain Markdown, no frontmatter, under 700 words.

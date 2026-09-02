@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T18:05:01-05:00"
-run_ref: RUN-20260901-230501-cai-systemic-failure-prepared-progress
-bottom_line: "Two Conception tests closed without redundant artifacts; the next slots test a control-assurance comparison and the scope boundary of candidate-only SFQ-0003."
+updated_at: "2026-09-01T19:04:22-05:00"
+run_ref: RUN-20260902-000422-cai-systemic-failure-prepared-progress
+bottom_line: "Two supplied-boundary tests closed without redundant artifacts; both slots now return to bounded official-source case openings."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Closed two negative Conception tests without redundant artifacts and replenished both terminal slots with simpler, materially different families."
+    last_movement: "Closed two supplied-boundary tests without redundant artifacts and replenished both terminal slots with official-source case openings."
     movement_ref: "ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Test Conception/Buncefield control assurance and whether Conception changes the equipment-specific scope of candidate-only SFQ-0003."
+    steering_prompt: "Open bounded Marshall pipeline-rupture and Merrimack Valley gas-overpressure records from official NTSB evidence."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: conception_negative_tests_close_without_redundant_artifacts
-    evidence_ref: "topology/SF-CONCEPTION-PATROL-DETECTION-ESCAPE-PARTIAL-TRACE-0001.md; topology/SF-ABS-0003-negative-absorber-station-nightclub.md; ROADMAP.md"
-    summary: "Current owner truth already preserves the incomplete patrol-correction chain and the distinct Conception and Station fire-safety boundaries."
-    evaluated_at: "2026-09-01T18:05:01-05:00"
-    run_ref: RUN-20260901-230501-cai-systemic-failure-prepared-progress
+    reason_code: supplied_boundary_tests_close_and_case_openings_restore_priority
+    evidence_ref: "evidence/records/SF-0009-conception-marine-safety-control-boundaries.md; evidence/records/SF-0018-buncefield-overfill-safeguard-integrity-and-community-boundaries.md; inquiries/SFQ-0003-knowledge-to-installed-equipment-inspection.md; ROADMAP.md"
+    summary: "Current owner truth already preserves the control-assurance distinction and SFQ-0003 scope; the next slots return to public-source case research."
+    evaluated_at: "2026-09-01T19:04:22-05:00"
+    run_ref: RUN-20260902-000422-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 136-137 without duplicate artifacts, added 138-139, and installed two simpler successor prompts."
+    progress_delta: "Closed Roadmap 138-139 without duplicate artifacts, added 140-141, and installed two official-source successor prompts."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test one cross-domain control-assurance boundary and one inquiry-scope boundary without creating receiver work."
+    recommendation: "Keep the schema provisional; use two bounded official-source openings to restore recognizable case research without creating receiver work."
     findings:
-      - "The bounded Conception corpus does not establish complete verification-to-correction custody beyond the existing partial trace."
-      - "Conception and Station remain separate marine and building/fire-safety control domains without a shared source-local mechanism."
+      - "The Conception/Buncefield draft added no source-local relation beyond the supplied human-practice versus installed-safeguard distinction."
+      - "The SFQ-0003 scope draft repeated the inquiry's existing equipment-specific boundary and created no operative scope test."
       - "The closures establish no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, liability, or external action."
     options:
       - id: A
