@@ -1,34 +1,34 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-01T23:04:17-05:00"
-run_ref: RUN-20260902-040417-cai-systemic-failure-prepared-progress
-bottom_line: "A Merrimack partial trace and bounded Fort Totten record now preserve distinct design, detection, control, oversight, and standing boundaries without accepting recurrence or one mechanism."
+updated_at: "2026-09-02T00:04:26-05:00"
+run_ref: RUN-20260902-050426-cai-systemic-failure-prepared-progress
+bottom_line: "A Merrimack/San Bruno comparison and Fort Totten partial trace now preserve distinct project, integrity, testing, detection, authority, and standing boundaries without accepting recurrence or one mechanism."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published the Merrimack partial trace and bounded Fort Totten record, then replenished both terminal slots."
-    movement_ref: "topology/SF-MERRIMACK-DESIGN-CONTROL-LINE-PARTIAL-TRACE-0001.md; evidence/records/SF-0028-fort-totten-train-detection-control-and-oversight-boundaries.md; ROADMAP.md"
+    last_movement: "Published the Merrimack/San Bruno comparison and Fort Totten test-to-detection partial trace, then replenished both terminal slots."
+    movement_ref: "topology/SF-COMP-MERRIMACK-SANBRUNO-DESIGN-RECORD-CONTROL-BOUNDARY.md; topology/SF-FORT-TOTTEN-TEST-DETECTION-PARTIAL-TRACE-0001.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Compare Merrimack with San Bruno and trace Fort Totten testing to detection control without creating recurrence."
+    steering_prompt: "Trace San Bruno record-to-assessment boundaries and compare Fort Totten verification with San Bruno assessment capability without creating recurrence."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: merrimack_trace_and_fort_totten_record_preserve_design_detection_control_oversight_and_standing_boundaries
-    evidence_ref: "topology/SF-MERRIMACK-DESIGN-CONTROL-LINE-PARTIAL-TRACE-0001.md; evidence/records/SF-0028-fort-totten-train-detection-control-and-oversight-boundaries.md; ROADMAP.md"
-    summary: "The two artifacts preserve distinct source-backed relations without accepting one project-control, detection, maintenance, oversight, or safety-management mechanism."
-    evaluated_at: "2026-09-01T23:04:17-05:00"
-    run_ref: RUN-20260902-040417-cai-systemic-failure-prepared-progress
+    reason_code: merrimack_sanbruno_comparison_and_fort_totten_trace_preserve_project_integrity_test_detection_authority_and_standing_boundaries
+    evidence_ref: "topology/SF-COMP-MERRIMACK-SANBRUNO-DESIGN-RECORD-CONTROL-BOUNDARY.md; topology/SF-FORT-TOTTEN-TEST-DETECTION-PARTIAL-TRACE-0001.md; ROADMAP.md"
+    summary: "The two artifacts preserve distinct source-backed project, record, integrity, test, detection, oversight, and standing relations without accepting recurrence or one mechanism."
+    evaluated_at: "2026-09-02T00:04:26-05:00"
+    run_ref: RUN-20260902-050426-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 146-147, published the Merrimack partial trace and SF-0028, and installed two materially different successors."
+    progress_delta: "Closed Roadmap 148-149, published the Merrimack/San Bruno comparison and Fort Totten partial trace, and installed two materially different successors."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test one bounded cross-case separation and one source-local rail trace without creating receiver work."
+    recommendation: "Keep the schema provisional; test one source-local pipeline trace and one bounded rail/pipeline assurance separation without creating receiver work."
     findings:
-      - "PAR-19/02 supports a bounded Merrimack relation from project documentation and review through sensing-line configuration, sequence, regulator response, monitoring, field isolation, and shutdown."
-      - "RAR-10/02 supports a bounded Fort Totten record across train occupancy, failed detection, speed commands, testing, maintenance, standing, oversight, and crashworthiness."
+      - "PAR-19/02 and PAR-11/01 support a bounded comparison while preserving project-time distribution-system control as distinct from service-life transmission-pipeline integrity."
+      - "RAR-10/02 supports a bounded relation from the Rosslyn warning and enhanced test through field verification, false-vacant indication, lost train detection, and speed commands."
       - "Neither artifact establishes recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, health causation, liability, or external action."
     options:
       - id: A

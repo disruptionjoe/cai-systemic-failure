@@ -598,15 +598,26 @@
      separates train occupancy, track-circuit detection, automatic speed
      commands, verification testing, maintenance and monitoring, collision,
      safety oversight, crashworthiness, and affected standing (`SF-0028`).
-148. Prepared only: compare Merrimack project-specific design, approval,
+148. Done: compare Merrimack project-specific design, approval,
      configuration, and sequencing with San Bruno historical fabrication,
      record, threat-identification, and integrity-assessment boundaries without
-     accepting recurrence or one design-record-control mechanism.
-149. Prepared only: trace Fort Totten from the Rosslyn warning and enhanced
+     accepting recurrence or one design-record-control mechanism
+     (`SF-COMP-MERRIMACK-SANBRUNO-DESIGN-RECORD-CONTROL-BOUNDARY`).
+149. Done: trace Fort Totten from the Rosslyn warning and enhanced
      verification test through technician knowledge, June 2009 verification,
      module signal state, lost train detection, and speed commands while
      preserving incomplete custody, authority, correction, implementation,
-     causal weight, and control effect.
+     causal weight, and control effect
+     (`SF-FORT-TOTTEN-TEST-DETECTION-PARTIAL-TRACE-0001`).
+150. Prepared only: trace San Bruno from historical pipe records through threat
+     identification and integrity-assessment method to preserved defect-
+     detection and later recognition/isolation boundaries without creating one
+     recordkeeping or integrity mechanism.
+151. Prepared only: compare Fort Totten's capable but non-institutionalized
+     enhanced verification test with San Bruno's assessment method that could
+     not detect the seam-weld defect while preserving rail and pipeline,
+     component and asset, test and assessment, custody, authority, correction,
+     implementation, and control-effect differences.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

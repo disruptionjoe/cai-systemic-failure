@@ -684,3 +684,16 @@ crashworthiness distinct. Complete module and signal custody, test
 disposition, maintenance response, train-control authority, oversight
 correction, implementation, relative causal weight, and control effect remain
 unknown.
+
+`SF-COMP-MERRIMACK-SANBRUNO-DESIGN-RECORD-CONTROL-BOUNDARY.md` preserves
+Merrimack project-time documentation, review, configuration, and sequencing as
+distinct from San Bruno service-life fabrication, recordkeeping, threat
+identification, assessment, recognition, and isolation. Similar information
+pressure and public consequence do not establish recurrence, shared authority,
+or one design-record-control mechanism.
+
+`SF-FORT-TOTTEN-TEST-DETECTION-PARTIAL-TRACE-0001.md` preserves the relation
+from the Rosslyn warning and enhanced verification test through technician
+knowledge, June 2009 verification, false-vacant module signal, lost train
+detection, and automatic speed commands. Complete custody, correction,
+implementation, relative causal weight, and control effect remain incomplete.

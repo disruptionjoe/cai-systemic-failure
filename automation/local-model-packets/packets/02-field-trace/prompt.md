@@ -1,52 +1,52 @@
-# Trace Fort Totten verification testing to train-detection control
+# Compare Fort Totten verification with San Bruno defect assessment
 
-Lineage ID: `SF-LIN-FORT-TOTTEN-TEST-DETECTION-PARTIAL-TRACE-01`, opportunity
-1. Prepare one proposal-only partial trace from supplied official NTSB evidence
-and bounded record `SF-0028`. Frontier review decides owner truth. Do not
-retrieve sources. Do not invent unsupported facts. Do not prescribe signaling, train control,
-maintenance, testing, operations, oversight, regulatory, or railcar changes;
+Lineage ID: `SF-LIN-COMP-FORTTOTTEN-SANBRUNO-DETECTION-ASSURANCE-01`,
+opportunity 1. Prepare one proposal-only comparison from supplied official NTSB
+evidence and owner records `SF-0027`, `SF-0028`, and
+`SF-FORT-TOTTEN-TEST-DETECTION-PARTIAL-TRACE-0001`. Frontier review decides
+owner truth. Do not retrieve sources. Do not invent unsupported facts. Do not
 infer recurrence, one universal mechanism, blame, duty, liability, remedy
 efficacy, health causation, or external effect.
 
-Supplied evidence from `NTSB/RAR-10/02`:
+Supplied evidence:
 
-- Failed B2-304 track-circuit modules produced a spurious signal that mimicked
-  a valid signal, indicated the circuit vacant while train 214 occupied it, and
-  permitted speed commands to train 112 up to impact.
-- After 2005 Rosslyn near-collisions, WMATA developed an enhanced verification
-  test but did not institutionalize and use it systemwide; technicians
-  interviewed after Fort Totten were not familiar with it.
-- NTSB found the enhanced test would have identified the faulty circuit. It
-  also found that proper shunt placement during June 2009 testing could have
-  exposed the loss of train detection before the accident.
-- Manufacturer procedures would not have detected the spurious signals over
-  module service life; maintenance planning, periodic monitoring, test
-  disposition, correction, and implementation remained separate questions.
-- Complete bulletin and test custody, technician knowledge, maintenance
-  response, train-control authority, oversight correction, implementation,
-  relative causal weight, and control effect remain incomplete.
+- Fort Totten: WMATA developed an enhanced verification test after the Rosslyn
+  warning but did not institutionalize and use it systemwide; technicians were
+  unfamiliar with it. NTSB found the test would have identified the faulty
+  circuit, and proper June 2009 shunt placement could have exposed lost train
+  detection.
+- San Bruno: records identified the segment as seamless although the ruptured
+  assembly contained longitudinal seam welds. Integrity management relied on
+  incomplete information and selected an assessment method unable to detect
+  the seam-weld defect.
+- Fort Totten concerns a capable but incompletely institutionalized field test
+  for an electronic detection component. San Bruno concerns inaccurate
+  historical asset records, threat identification, and an incapable integrity-
+  assessment method for a physical seam defect.
+- Complete evidence custody, accountable review, field or program disposition,
+  correction, implementation, relative causal weight, recurrence, and control
+  effect remain incomplete.
 
-Return exactly one Markdown table with seven ordered rows and columns
-`Trace object | Supplied source-local relation | Missing link or preserved
-boundary`: `Rosslyn warning`, `enhanced test`, `technician knowledge`, `June
-2009 verification`, `module signal state`, `train detection and speed command`,
-`standing and control effect`.
+Return exactly one Markdown table with six ordered rows and columns
+`Comparison object | Fort Totten boundary | San Bruno boundary | Shared
+relation or preserved separation`: `physical object`, `information object`,
+`assurance method`, `capability state`, `implementation locus`, `standing and
+control effect`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `prepare_partial_fort_totten_test_detection_trace` or
-  `bounded_corpus_insufficient`.
-- **Falsifier:** name one exact supplied relation whose removal would defeat
-  the selected partial trace.
-- **Unknowns:** `complete bulletin and test custody, technician knowledge,
-  maintenance response, train-control authority, oversight correction,
-  implementation, relative causal weight, and control effect remain
-  incomplete`
-- **Non-effect:** `No recurrence, one warning, test, training, track-circuit,
-  signal, detection, speed-command, maintenance, monitoring, train-control,
-  oversight, or crashworthiness mechanism, shared engineer, technician,
-  operator, controller, manager, director, regulator, passenger, or affected-
-  party authority, schema, blame, duty, remedy, acceptance, receiver work,
-  liability, health causation, or external action is accepted.`
+- **Decision:** choose `preserve_separate_test_and_assessment_assurance_phases`
+  or `prepare_bounded_detection_assurance_comparison`.
+- **Falsifier:** name one exact supplied fact whose removal would defeat the
+  selected decision.
+- **Unknowns:** `complete evidence custody, accountable review, field or
+  program disposition, correction, implementation, relative causal weight,
+  recurrence, and control effect remain incomplete`
+- **Non-effect:** `No recurrence, one test, training, track-circuit, signal,
+  recordkeeping, fabrication, integrity, assessment, detection, isolation,
+  regulatory, or safety-management mechanism, shared engineer, technician,
+  controller, operator, regulator, community, passenger, or affected-party
+  authority, schema, blame, duty, remedy, acceptance, receiver work, health
+  causation, liability, or external action is accepted.`
 
 Plain Markdown, no frontmatter, under 750 words.

@@ -62,11 +62,16 @@ integrity management, rupture and ignition, recognition and isolation,
 emergency response, standing, oversight, and safety management. Bounded Fort
 Totten record `SF-0028` now separates train occupancy, track-circuit detection,
 automatic speed commands, verification testing, maintenance and monitoring,
-collision, standing, oversight, and crashworthiness. Slot A now compares
-Merrimack project control with San Bruno historical records and integrity; slot
-B traces Fort Totten verification testing to train-detection control. The two
-Mac LaunchAgents remain active. Prompt hashes are receipt metadata only and do
-not grant, deny, or continue eligibility.
+collision, standing, oversight, and crashworthiness. A bounded Merrimack/San
+Bruno comparison now preserves separate project-time design/configuration and
+service-life fabrication/record/integrity phases. A Fort Totten partial trace
+now preserves the Rosslyn warning, enhanced test, technician knowledge, June
+2009 verification, false-vacant module signal, lost detection, and speed-
+command relation without completing custody or control effect. Slot A now
+traces San Bruno records to integrity assessment; slot B compares Fort Totten
+verification with San Bruno defect-assessment capability. The two Mac
+LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
+grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
@@ -164,6 +169,20 @@ verification testing, maintenance and monitoring, collision, affected
 standing, Board and regulatory oversight, and railcar crashworthiness
 distinct without claiming one root cause, recurrence, shared authority,
 remedy, health causation, liability, or receiver work.
+
+`SF-COMP-MERRIMACK-SANBRUNO-DESIGN-RECORD-CONTROL-BOUNDARY` preserves a
+bounded comparison between Merrimack project-time documentation, review,
+configuration, and sequencing and San Bruno service-life fabrication,
+recordkeeping, threat identification, assessment, recognition, and isolation.
+It does not establish recurrence, shared authority, or one design-record-
+control mechanism.
+
+`SF-FORT-TOTTEN-TEST-DETECTION-PARTIAL-TRACE-0001` preserves the bounded
+relation from the Rosslyn warning and enhanced verification test through
+technician knowledge, June 2009 verification, false-vacant module signal, lost
+train detection, and automatic speed commands. Complete bulletin and test
+custody, maintenance response, train-control authority, oversight correction,
+implementation, relative causal weight, and control effect remain incomplete.
 
 `SF-EL-FARO-WEATHER-ROUTE-PARTIAL-TRACE-0001` preserves a partial relation
 among BVS weather delivery, captain use, officer suggestions, route decision,
