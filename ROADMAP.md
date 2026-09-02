@@ -624,11 +624,18 @@
      public reporting, dispatch, location, valve operation, field response,
      isolation, and flow cessation while preserving incomplete custody,
      authority, chronology, correction, causal weight, and control effect.
-153. Prepared only: compare Marshall's alarm interpretation, stop rule,
+153. Done: compare Marshall's alarm interpretation, stop rule,
      shutdown and restart sequence with San Bruno's line-break recognition,
      location, isolation, and flow-cessation sequence while preserving liquid
      and gas, restart and isolation, community information, authority,
-     chronology, consequence, and control-effect differences.
+     chronology, consequence, and control-effect differences
+     (`SF-COMP-MARSHALL-SANBRUNO-RECOGNITION-STOP-BOUNDARY`).
+154. Prepared only: open one bounded NTSB-grounded Amtrak Train 188 record
+     that separates operating speed, curve restriction, situational awareness,
+     nearby-train radio traffic, positive train control, emergency braking,
+     derailment, occupant protection, emergency medical distribution,
+     affected standing, and federal oversight without collapsing them into one
+     operator, attention, speed-control, or safety mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

@@ -73,9 +73,11 @@ records, incomplete threat identification, an incapable assessment method,
 rupture state, recognition, and isolation as distinct objects. A bounded Fort
 Totten/San Bruno comparison preserves capable-but-unused field testing as
 distinct from deployed assessment incapability without accepting recurrence or
-one detection-assurance mechanism. Slot A now traces San Bruno rupture
-recognition to isolation; slot B compares Marshall and San Bruno recognition
-and stopping boundaries. The two Mac
+one detection-assurance mechanism. A bounded Marshall/San Bruno comparison now
+preserves distinct hazardous-liquid restart and gas-transmission isolation
+sequences without accepting recurrence or one recognition-and-stop mechanism.
+Slot A now traces San Bruno rupture recognition to isolation; slot B opens one
+bounded Amtrak Train 188 record. The two Mac
 LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
 grant, deny, or continue eligibility.
 

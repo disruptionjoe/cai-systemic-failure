@@ -712,3 +712,11 @@ institutionalized enhanced verification test and San Bruno's assessment method
 that could not detect the seam-weld defect. Different physical objects,
 information paths, assurance methods, implementation loci, standing, and
 control effects remain separate; no recurrence or shared mechanism is accepted.
+
+`SF-COMP-MARSHALL-SANBRUNO-RECOGNITION-STOP-BOUNDARY.md` preserves a bounded
+comparison between Marshall's hazardous-liquid shutdown, alarm
+interpretation, restart, and delayed-stop sequence and San Bruno's gas-
+transmission recognition, location, field-isolation, and flow-cessation
+sequence. Remote indication, community information, emergency response,
+standing, authority, and consequence remain distinct; no recurrence or one
+recognition-and-stop mechanism is accepted.

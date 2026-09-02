@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-02T01:05:55-05:00"
-run_ref: RUN-20260902-060555-cai-systemic-failure-prepared-progress
-bottom_line: "A San Bruno partial trace and Fort Totten/San Bruno comparison now preserve distinct record, assessment, test-capability, implementation, authority, and standing boundaries without accepting recurrence or one mechanism."
+updated_at: "2026-09-02T02:05:40-05:00"
+run_ref: RUN-20260902-070540-cai-systemic-failure-prepared-progress
+bottom_line: "A bounded Marshall/San Bruno comparison now preserves distinct restart, recognition, location, isolation, response, authority, and standing boundaries without accepting recurrence or one mechanism."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published the San Bruno record-to-assessment partial trace and Fort Totten/San Bruno assurance comparison, then replenished both terminal slots."
-    movement_ref: "topology/SF-SANBRUNO-RECORD-INTEGRITY-ASSESSMENT-PARTIAL-TRACE-0001.md; topology/SF-COMP-FORTTOTTEN-SANBRUNO-DETECTION-ASSURANCE-BOUNDARY.md; ROADMAP.md"
+    last_movement: "Published the Marshall/San Bruno recognition-and-stop comparison and replenished the one terminal slot."
+    movement_ref: "topology/SF-COMP-MARSHALL-SANBRUNO-RECOGNITION-STOP-BOUNDARY.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Trace San Bruno rupture recognition to isolation and compare Marshall and San Bruno recognition-and-stop boundaries without creating recurrence."
+    steering_prompt: "Trace San Bruno rupture recognition to isolation and open one bounded Amtrak Train 188 record without creating recurrence."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: sanbruno_trace_and_forttotten_comparison_preserve_record_assessment_test_capability_implementation_authority_and_standing_boundaries
-    evidence_ref: "topology/SF-SANBRUNO-RECORD-INTEGRITY-ASSESSMENT-PARTIAL-TRACE-0001.md; topology/SF-COMP-FORTTOTTEN-SANBRUNO-DETECTION-ASSURANCE-BOUNDARY.md; ROADMAP.md"
-    summary: "The two artifacts preserve distinct source-backed record, integrity-assessment, test-capability, implementation, detection, oversight, and standing relations without accepting recurrence or one mechanism."
-    evaluated_at: "2026-09-02T01:05:55-05:00"
-    run_ref: RUN-20260902-060555-cai-systemic-failure-prepared-progress
+    reason_code: marshall_sanbruno_comparison_preserves_restart_recognition_location_isolation_response_authority_and_standing_boundaries
+    evidence_ref: "topology/SF-COMP-MARSHALL-SANBRUNO-RECOGNITION-STOP-BOUNDARY.md; ROADMAP.md"
+    summary: "The comparison preserves distinct source-backed restart, recognition, location, isolation, response, authority, and standing relations without accepting recurrence or one mechanism."
+    evaluated_at: "2026-09-02T02:05:40-05:00"
+    run_ref: RUN-20260902-070540-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 150-151, published the San Bruno partial trace and Fort Totten/San Bruno comparison, and installed two materially different successors."
+    progress_delta: "Closed Roadmap 153, published the Marshall/San Bruno comparison, and installed one materially different successor while leaving unattempted slot A unchanged."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test one source-local recognition trace and one bounded pipeline recognition-and-stop separation without creating receiver work."
+    recommendation: "Keep the schema provisional; test one source-local recognition trace and open one bounded rail case without creating receiver work."
     findings:
-      - "PAR-11/01 supports a bounded relation from physical seam construction and inaccurate records through threat identification and an assessment method unable to detect the seam defect."
-      - "RAR-10/02 and PAR-11/01 support a bounded assurance comparison while preserving capable-but-unused field testing as distinct from deployed assessment incapability."
-      - "Neither artifact establishes recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, health causation, liability, or external action."
+      - "PAR-12/01 and PAR-11/01 support a bounded comparison of rupture indication, recognition, and stopping while keeping Marshall restart and San Bruno field-isolation sequences distinct."
+      - "Community information, emergency response, transported material, consequence, procedure, valve protection, and stopping authority remain separate across the two incidents."
+      - "The comparison establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, health causation, liability, or external action."
     options:
       - id: A
         label: "Stay provisional"
