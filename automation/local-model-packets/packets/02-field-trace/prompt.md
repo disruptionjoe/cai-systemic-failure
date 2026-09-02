@@ -1,57 +1,59 @@
-# Open a bounded Amtrak Train 188 record
+# Compare Fort Totten and Amtrak 188 train-control boundaries
 
-Lineage ID: `SF-LIN-AMTRAK-188-PHILADELPHIA-OPENING-01`, opportunity 1.
-Prepare one proposal-only bounded case opening from supplied official NTSB
-evidence. Frontier review decides owner truth. Do not retrieve sources. Do not
-invent unsupported facts. Do not prescribe railroad, crew, speed-control,
-passenger-protection, emergency-response, regulatory, or management changes;
-infer recurrence, one universal mechanism, blame, duty, liability, remedy
-efficacy, health causation, or external effect.
+Lineage ID: `SF-LIN-COMP-FORTTOTTEN-AMTRAK-TRAIN-CONTROL-BOUNDARY-01`,
+opportunity 1. Prepare one proposal-only bounded comparison from supplied
+official NTSB evidence and owner records `SF-0028` and `SF-0029`. Frontier
+review decides owner truth. Do not retrieve sources. Do not invent unsupported
+facts. Do not prescribe rail, signal, testing, maintenance, crew, speed-
+control, positive-train-control, passenger-protection, regulatory, or
+management changes; infer recurrence, one universal mechanism, blame, duty,
+liability, remedy efficacy, health causation, or external effect.
 
-Supplied evidence from `NTSB/RAR-16/02`:
+Supplied evidence:
 
-- Amtrak passenger train 188 entered the Frankford Junction curve, where speed
-  was restricted to 50 mph, at 106 mph; the engineer applied emergency braking
-  immediately before derailment.
-- The NTSB found that the engineer likely lost situational awareness after his
-  attention was diverted to radio traffic about an emergency involving a nearby
-  SEPTA train.
-- Positive train control was not implemented in the accident area at the time;
-  the NTSB found that PTC or another system enforcing the permanent 50 mph
-  restriction could have prevented the accident.
-- Eight passengers died and 185 people were transported to hospitals. The
-  report separately addressed window retention, occupant protection, incident
-  management, patient transport, and hospital distribution.
-- Engineer action, operating rule, curve geometry, cab and wayside signals,
-  radio information, situational awareness, automatic enforcement, emergency
-  braking, railcar containment, passenger standing, responder action, hospital
-  distribution, Amtrak, FRA, NTSB, and later implementation remain distinct.
-- Complete attention custody, train-control decision sequence, implementation
-  history, response and patient-distribution custody, relative causal weight,
-  correction, and verified control effect remain incomplete.
+- At Fort Totten, failed track-circuit modules falsely indicated that occupied
+  track was vacant, so the automatic train-control system transmitted speed
+  commands to the following train up to impact.
+- WMATA had developed an enhanced verification test after earlier warning
+  evidence but had not institutionalized and used it systemwide; NTSB found the
+  test would have identified the faulty circuit.
+- At Amtrak Train 188, the route had a permanent 50 mph curve restriction, but
+  cab-signal protection did not enforce it eastbound and PTC was not
+  implemented at the accident location.
+- Train 188 entered the curve at 106 mph after likely loss of situational
+  awareness; NTSB found PTC or equivalent speed enforcement would have
+  prevented the accident.
+- Fort Totten concerns false-vacant detection and permissive automatic
+  commands; Amtrak concerns an unenforced permanent restriction and absent
+  automatic intervention. Component state, field testing, route protection,
+  operator action, oversight, standing, and control effect remain distinct.
+- Complete test and signal custody, maintenance and implementation authority,
+  operator opportunity, oversight correction, relative causal weight,
+  recurrence, and verified control effect remain incomplete.
 
-Return exactly one Markdown table with nine ordered rows and columns
-`Record object | Supplied official-source fact | Missing link or preserved
-boundary`: `operating speed and curve`, `radio information and attention`,
-`situational awareness`, `signal and operating-rule boundary`, `positive train
-control`, `emergency braking and derailment`, `occupant protection`, `response
-and patient distribution`, `standing and oversight`.
+Return exactly one Markdown table with seven ordered rows and columns
+`Comparison object | Fort Totten boundary | Amtrak 188 boundary | Preserved
+difference or unknown`: `event and control context`, `hazard representation`,
+`automatic command or enforcement`, `assurance or implementation gap`,
+`operator action`, `standing and consequence`, `authority and control effect`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `open_bounded_amtrak_188_record` or
-  `bounded_corpus_insufficient`.
-- **Falsifier:** name one exact supplied fact whose removal would defeat the
-  selected bounded opening.
-- **Unknowns:** `complete attention custody, train-control decision sequence,
-  implementation history, response and patient-distribution custody, relative
-  causal weight, correction, and verified control effect remain incomplete`
-- **Non-effect:** `No recurrence, one operator, attention, situational-
-  awareness, speed-control, signal, operating-rule, train-control, braking,
-  derailment, occupant-protection, emergency-response, patient-distribution,
-  regulatory, or safety-management mechanism, shared engineer, conductor,
-  dispatcher, responder, hospital, operator, regulator, passenger, or affected-
-  party authority, schema, blame, duty, remedy, acceptance, receiver work,
-  health causation, liability, or external action is accepted.`
+- **Decision:** choose
+  `prepare_bounded_forttotten_amtrak_train_control_comparison` or
+  `preserve_separate_train_control_boundaries`.
+- **Falsifier:** name one exact supplied relation whose removal would defeat
+  the selected comparison.
+- **Unknowns:** `complete test and signal custody, maintenance and
+  implementation authority, operator opportunity, oversight correction,
+  relative causal weight, recurrence, and verified control effect remain
+  incomplete`
+- **Non-effect:** `No recurrence, one track-circuit, detection, speed-command,
+  speed-restriction, signal, testing, maintenance, train-control, positive-
+  train-control, operator, braking, collision, derailment, occupant-protection,
+  oversight, regulatory, or safety-management mechanism, shared technician,
+  engineer, dispatcher, operator, regulator, passenger, or affected-party
+  authority, schema, blame, duty, remedy, acceptance, receiver work, health
+  causation, liability, or external action is accepted.`
 
-Plain Markdown, no frontmatter, under 900 words.
+Plain Markdown, no frontmatter, under 950 words.

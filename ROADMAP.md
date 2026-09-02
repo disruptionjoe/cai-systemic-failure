@@ -620,22 +620,33 @@
      asset, test and assessment, custody, authority, correction,
      implementation, and control-effect differences
      (`SF-COMP-FORTTOTTEN-SANBRUNO-DETECTION-ASSURANCE-BOUNDARY`).
-152. Prepared only: trace San Bruno from rupture indication through SCADA,
+152. Done: trace San Bruno from rupture indication through SCADA,
      public reporting, dispatch, location, valve operation, field response,
      isolation, and flow cessation while preserving incomplete custody,
-     authority, chronology, correction, causal weight, and control effect.
+     authority, chronology, correction, causal weight, and control effect
+     (`SF-SANBRUNO-RECOGNITION-ISOLATION-PARTIAL-TRACE-0001`).
 153. Done: compare Marshall's alarm interpretation, stop rule,
      shutdown and restart sequence with San Bruno's line-break recognition,
      location, isolation, and flow-cessation sequence while preserving liquid
      and gas, restart and isolation, community information, authority,
      chronology, consequence, and control-effect differences
      (`SF-COMP-MARSHALL-SANBRUNO-RECOGNITION-STOP-BOUNDARY`).
-154. Prepared only: open one bounded NTSB-grounded Amtrak Train 188 record
+154. Done: open one bounded NTSB-grounded Amtrak Train 188 record
      that separates operating speed, curve restriction, situational awareness,
      nearby-train radio traffic, positive train control, emergency braking,
      derailment, occupant protection, emergency medical distribution,
      affected standing, and federal oversight without collapsing them into one
-     operator, attention, speed-control, or safety mechanism.
+     operator, attention, speed-control, or safety mechanism (`SF-0029`).
+155. Prepared only: trace Amtrak Train 188 from nearby-train radio information
+     through attention allocation, situational awareness, curve and speed,
+     rule and signal state, absent automatic enforcement, emergency braking,
+     derailment, and affected standing while preserving incomplete custody,
+     decision, implementation, correction, causal weight, and control effect.
+156. Prepared only: compare Fort Totten false-vacant detection and permissive
+     automatic speed commands with Amtrak Train 188's unenforced permanent
+     restriction and absent automatic intervention while preserving distinct
+     component, test, route, operator, authority, standing, consequence, and
+     control-effect boundaries.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

@@ -151,3 +151,10 @@ research material is rejected and routed to a separately authorized secure owner
   monitoring, collision, affected standing, Board and regulatory oversight,
   and railcar crashworthiness distinct while making no recurrence, health-
   causation, blame, remedy, liability, or schema claim.
+- `records/SF-0029-amtrak-188-speed-awareness-control-and-response-boundaries.md`
+  - bounded NTSB-source synthesis that keeps operating speed and curve
+  restriction, radio information, situational awareness, signals and rules,
+  positive train control, emergency braking, derailment, occupant protection,
+  response and patient distribution, affected standing, and federal oversight
+  distinct while making no recurrence, health-causation, blame, remedy,
+  liability, or schema claim.

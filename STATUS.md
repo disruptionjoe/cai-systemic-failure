@@ -76,8 +76,15 @@ distinct from deployed assessment incapability without accepting recurrence or
 one detection-assurance mechanism. A bounded Marshall/San Bruno comparison now
 preserves distinct hazardous-liquid restart and gas-transmission isolation
 sequences without accepting recurrence or one recognition-and-stop mechanism.
-Slot A now traces San Bruno rupture recognition to isolation; slot B opens one
-bounded Amtrak Train 188 record. The two Mac
+A San Bruno recognition-to-isolation partial trace now preserves SCADA,
+public reporting, municipal response, operator recognition, location,
+dispatch, valve operation, isolation, flow cessation, authority, and standing
+as distinct objects. Bounded Amtrak Train 188 record `SF-0029` separates speed
+and curve, radio information, situational awareness, signals and rules,
+positive train control, emergency braking, derailment, occupant protection,
+response, patient distribution, standing, and oversight. Slot A now traces
+Amtrak radio attention to speed control; slot B compares Fort Totten and
+Amtrak train-control boundaries. The two Mac
 LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
 grant, deny, or continue eligibility.
 
@@ -177,6 +184,22 @@ verification testing, maintenance and monitoring, collision, affected
 standing, Board and regulatory oversight, and railcar crashworthiness
 distinct without claiming one root cause, recurrence, shared authority,
 remedy, health causation, liability, or receiver work.
+
+`SF-SANBRUNO-RECOGNITION-ISOLATION-PARTIAL-TRACE-0001` preserves the bounded
+relation from physical rupture through SCADA indication, public reporting and
+municipal response, operator recognition, location and dispatch, valve
+operation, isolation, and flow cessation. Complete signal custody, command
+transfer, location decision, dispatch and valve authority, chronology,
+correction, implementation, causal weight, and control effect remain
+incomplete.
+
+`SF-0029` adds a bounded Amtrak Train 188 public-source record. It keeps
+operating speed and curve restriction, radio information, situational
+awareness, signals and operating rules, positive train control, emergency
+braking, derailment, occupant protection, response and patient distribution,
+affected standing, and federal oversight distinct without claiming one root
+cause, recurrence, shared authority, remedy, health causation, liability, or
+receiver work.
 
 `SF-COMP-MERRIMACK-SANBRUNO-DESIGN-RECORD-CONTROL-BOUNDARY` preserves a
 bounded comparison between Merrimack project-time documentation, review,

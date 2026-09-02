@@ -720,3 +720,20 @@ transmission recognition, location, field-isolation, and flow-cessation
 sequence. Remote indication, community information, emergency response,
 standing, authority, and consequence remain distinct; no recurrence or one
 recognition-and-stop mechanism is accepted.
+
+`SF-SANBRUNO-RECOGNITION-ISOLATION-PARTIAL-TRACE-0001.md` preserves the
+source-local relation from rupture through SCADA indication, public reporting
+and municipal response, operator recognition, location and dispatch, valve
+operation, isolation, and flow cessation. Complete signal custody, command
+transfer, location decision, dispatch and valve authority, response
+chronology, correction, implementation, causal weight, and control effect
+remain incomplete.
+
+`evidence/records/SF-0029-amtrak-188-speed-awareness-control-and-response-boundaries.md`
+adds a bounded Amtrak Train 188 public-source record. It keeps speed and curve,
+radio information, situational awareness, signals and rules, positive train
+control, emergency braking, derailment, occupant protection, response and
+patient distribution, standing, and oversight distinct. Complete attention
+custody, train-control decision sequence, implementation history, response and
+patient-distribution custody, causal weight, correction, and verified control
+effect remain incomplete.
