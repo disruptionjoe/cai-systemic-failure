@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-02T04:05:14-05:00"
-run_ref: RUN-20260902-090514-cai-systemic-failure-prepared-progress
-bottom_line: "A Fort Totten/Amtrak comparison now preserves distinct detection, command, restriction, intervention, authority, standing, and control-effect boundaries without accepting recurrence or one mechanism."
+updated_at: "2026-09-02T05:05:35-05:00"
+run_ref: RUN-20260902-100535-cai-systemic-failure-prepared-progress
+bottom_line: "An Amtrak radio-to-speed-control trace and bounded Schoharie record now preserve source-local attention, control, maintenance, dispatch, oversight, standing, and consequence boundaries without accepting recurrence or one mechanism."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published the Fort Totten/Amtrak train-control comparison and replenished terminal slot B."
-    movement_ref: "topology/SF-COMP-FORTTOTTEN-AMTRAK-TRAIN-CONTROL-BOUNDARY.md; ROADMAP.md"
+    last_movement: "Published the Amtrak radio-to-speed-control trace and bounded Schoharie record and replenished both terminal slots."
+    movement_ref: "topology/SF-AMTRAK188-RADIO-SPEED-CONTROL-PARTIAL-TRACE-0001.md; evidence/records/SF-0030-schoharie-stretch-limousine-brake-dispatch-and-oversight-boundaries.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Trace Amtrak radio attention to speed control and open one bounded Schoharie public-source record without creating recurrence."
+    steering_prompt: "Trace Schoharie out-of-service evidence to dispatch and compare Fort Totten/Schoharie verification-to-operation boundaries without creating recurrence."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: forttotten_amtrak_comparison_preserves_detection_command_restriction_intervention_authority_standing_and_control_boundaries
-    evidence_ref: "topology/SF-COMP-FORTTOTTEN-AMTRAK-TRAIN-CONTROL-BOUNDARY.md; ROADMAP.md"
-    summary: "The comparison preserves distinct source-backed detection, command, restriction, intervention, operator, authority, standing, and control-effect relations without accepting recurrence or one mechanism."
-    evaluated_at: "2026-09-02T04:05:14-05:00"
-    run_ref: RUN-20260902-090514-cai-systemic-failure-prepared-progress
+    reason_code: amtrak_trace_and_schoharie_record_preserve_attention_control_maintenance_dispatch_oversight_standing_and_consequence_boundaries
+    evidence_ref: "topology/SF-AMTRAK188-RADIO-SPEED-CONTROL-PARTIAL-TRACE-0001.md; evidence/records/SF-0030-schoharie-stretch-limousine-brake-dispatch-and-oversight-boundaries.md; ROADMAP.md"
+    summary: "The trace and record preserve distinct source-backed attention, speed-control, maintenance, dispatch, authority, oversight, standing, and consequence relations without accepting recurrence or one mechanism."
+    evaluated_at: "2026-09-02T05:05:35-05:00"
+    run_ref: RUN-20260902-100535-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 156, published one bounded comparison, preserved unattempted slot A, and installed one materially different successor in terminal slot B."
+    progress_delta: "Closed Roadmap 155 and 157, published one bounded trace and one bounded record, and installed materially different successors in both terminal slots."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; test one source-local Amtrak trace and one bounded Schoharie case opening without creating receiver work."
+    recommendation: "Keep the schema provisional; test one source-local Schoharie trace and one bounded Fort Totten/Schoharie comparison without creating receiver work."
     findings:
-      - "RAR-10/02 supports a false-vacant track-circuit and permissive automatic-command path while preserving test, maintenance, oversight, standing, and authority distinctions."
-      - "RAR-16/02 supports a permanent curve restriction without eastbound automatic enforcement while preserving attention, operator, route, PTC, standing, and authority distinctions."
-      - "The comparison establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, health causation, liability, or external action."
+      - "RAR-16/02 supports a bounded relation from nearby-train radio information through likely attention diversion, situational awareness loss, speed excursion, absent automatic enforcement, emergency braking, derailment, and standing."
+      - "HAR-20/03 supports a bounded Schoharie record across alteration, brake condition, out-of-service status, carrier dispatch, operating authority, inspection, registration, repair verification, oversight, occupant protection, standing, and consequence."
+      - "Neither artifact establishes recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, health causation, liability, or external action."
     options:
       - id: A
         label: "Stay provisional"

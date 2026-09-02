@@ -745,3 +745,20 @@ curve restriction and absent automatic intervention. Detection, command,
 restriction, assurance, operator action, implementation, oversight, standing,
 and control-effect boundaries remain distinct; no recurrence or one train-
 control mechanism is accepted.
+
+`SF-AMTRAK188-RADIO-SPEED-CONTROL-PARTIAL-TRACE-0001.md` preserves the bounded
+relation from nearby-train radio information through likely attention
+diversion, loss of situational awareness, speed and curve state, signal and
+rule boundaries, absent automatic enforcement, emergency braking,
+derailment, and affected standing. Complete attention custody, cue receipt,
+train-control decision sequence, implementation history, correction, causal
+weight, and verified control effect remain incomplete.
+
+`evidence/records/SF-0030-schoharie-stretch-limousine-brake-dispatch-and-oversight-boundaries.md`
+adds a bounded Schoharie public-source record. It keeps vehicle alteration and
+classification, brake condition and maintenance, out-of-service status,
+carrier dispatch and operating authority, inspection and registration, repair
+verification, state oversight, occupant protection, standing, and consequence
+distinct. Complete custody, failure mode, repair and inspection history,
+information transfer, enforcement chronology, correction, implementation,
+causal weight, and control effect remain incomplete.

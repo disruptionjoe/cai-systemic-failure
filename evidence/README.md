@@ -158,3 +158,10 @@ research material is rejected and routed to a separately authorized secure owner
   response and patient distribution, affected standing, and federal oversight
   distinct while making no recurrence, health-causation, blame, remedy,
   liability, or schema claim.
+- `records/SF-0030-schoharie-stretch-limousine-brake-dispatch-and-oversight-boundaries.md`
+  - bounded NTSB-source synthesis that keeps vehicle alteration and
+  classification, brake condition and maintenance, out-of-service status,
+  carrier dispatch and operating authority, inspection and registration,
+  repair verification, state oversight, occupant protection, affected
+  standing, and consequence distinct while making no recurrence, health-
+  causation, blame beyond the NTSB finding, remedy, liability, or schema claim.

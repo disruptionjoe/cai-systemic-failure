@@ -86,10 +86,17 @@ response, patient distribution, standing, and oversight. A bounded Fort
 Totten/Amtrak comparison now separates false-vacant detection and permissive
 automatic commands from an unenforced permanent restriction and absent
 automatic intervention without accepting recurrence or one train-control
-mechanism. Slot A traces Amtrak radio attention to speed control; slot B now
-opens a bounded Schoharie stretch-limousine public-source record. The two Mac
-LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
-grant, deny, or continue eligibility.
+mechanism. A partial Amtrak trace now preserves the relation from nearby-train
+radio information through likely attention diversion, situational awareness,
+speed and curve state, absent automatic enforcement, emergency braking,
+derailment, and affected standing. Bounded Schoharie record `SF-0030` separates
+vehicle alteration, brake condition, out-of-service status, carrier dispatch,
+operating authority, inspection, registration, repair verification, oversight,
+occupant protection, standing, and consequence. Slot A now traces Schoharie
+out-of-service evidence to dispatch; slot B compares Fort Totten and Schoharie
+only at the verification-to-operation boundary. The two Mac LaunchAgents
+remain active. Prompt hashes are receipt metadata only and do not grant, deny,
+or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,
