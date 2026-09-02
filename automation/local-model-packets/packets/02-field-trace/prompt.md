@@ -1,81 +1,61 @@
-# Compare Alaska Airlines Flight 261 and ValuJet Flight 592 maintenance boundaries
+# Open one bounded American Airlines Flight 587 record
 
-Lineage ID:
-`SF-LIN-COMP-ALASKA261-VALUJET592-MAINTENANCE-OPERATION-OVERSIGHT-01`,
-opportunity 1. Prepare one proposal-only bounded comparison from supplied
-official NTSB evidence and owner records `SF-0032` and `SF-0033`. Frontier
-review decides owner truth. Do not retrieve sources. Do not invent unsupported
-facts. Do not prescribe aircraft, airline, contractor, lubrication,
-inspection, work-card, packaging, hazardous-material, cargo, fire-protection,
-certification, surveillance, regulatory, or management changes; infer
-recurrence, one universal mechanism, blame beyond supplied NTSB findings,
-duty, liability, remedy efficacy, health causation, or external effect.
+Lineage ID: `SF-LIN-AMERICAN587-RUDDER-STABILIZER-OPENING-01`, opportunity 1.
+Prepare one proposal-only bounded opening from supplied official NTSB evidence.
+Frontier review decides whether any owner record is created. Do not retrieve
+sources. Do not invent unsupported facts. Do not prescribe aircraft, wake-
+turbulence, rudder, training, upset-recovery, design, certification, airline,
+manufacturer, flight-crew, surveillance, regulatory, or management changes;
+infer recurrence, one universal mechanism, blame beyond supplied NTSB
+findings, duty, liability, remedy efficacy, health causation, or external
+effect.
 
-Supplied Alaska 261 evidence from `NTSB/AAR-02/01`:
+Supplied evidence from `NTSB/AAR-04/04`:
 
-- Insufficient lubrication produced excessive jackscrew acme-nut thread wear;
-  the threads failed in flight and pitch control was lost.
-- Alaska Airlines extended lubrication and end-play-check intervals, FAA
-  approved the extensions, and NTSB connected them to increased wear risk and
-  a lost detection opportunity.
-- The crew encountered jammed and failed stabilizer-trim behavior and attempted
-  recovery. The design lacked a fail-safe mechanism against catastrophic total
-  thread loss.
-- Task custody, specific lubrication history, measurement custody, interval-
-  decision and approval chronology, correction, implementation, relative
-  causal weight, and verified control effect remain incomplete.
-
-Supplied ValuJet 592 evidence from `NTSB/AAR-97/06`:
-
-- Work card 0069 required safety caps on removed unexpended chemical oxygen
-  generators; cards were signed as complete although caps had not been
-  installed.
-- SabreTech failed to properly prepare, package, and identify the generators;
-  five boxes described as empty oxygen canisters were loaded with tires in the
-  forward class D cargo compartment.
-- One or more generators activated and initiated the in-flight fire. The
-  compartment lacked required detection and suppression; the crew reported
-  fire and smoke and attempted an immediate return.
-- NTSB separately identified ValuJet contract-maintenance oversight and FAA
-  cargo-protection and monitoring findings.
-- Generator-by-generator custody, exact packaging and loading sequence,
-  accountable receipt, fire and oversight chronology, correction,
+- American Airlines Flight 587, an Airbus A300-605R, encountered wake
+  turbulence shortly after takeoff from John F. Kennedy International Airport
+  on November 12, 2001.
+- The first officer made a series of rudder-pedal inputs. NTSB determined that
+  unnecessary and excessive inputs created loads beyond ultimate design and
+  caused the vertical stabilizer to separate in flight.
+- The rudder and vertical stabilizer separated before impact; the engines
+  separated later in the accident sequence.
+- NTSB identified A300-600 rudder-system design characteristics and elements
+  of American Airlines' Advanced Aircraft Maneuvering Program as contributing
+  to the rudder inputs.
+- Wake encounter, pilot input, rudder-system response, aerodynamic load,
+  structural separation, aircraft response, training, design, certification,
+  airline program, standing, and consequence remain distinct.
+- All 2 flight crewmembers, 7 flight attendants, and 251 passengers aboard,
+  plus 5 people on the ground, died.
+- Complete cue perception, input-by-input intent and effect, training-to-
+  action custody, design and certification chronology, correction,
   implementation, relative causal weight, and verified control effect remain
   incomplete.
 
-Compare only whether the two records support one bounded shared maintenance-
-to-operation and oversight relation or preserve separate boundaries. Keep in-
-service lubrication, interval, measurement, wear, trim-system failure, and
-crew recovery distinct from removed-component handling, work-card signoff,
-safety-cap state, hazardous-material custody, cargo loading, cargo fire,
-detection and suppression, and immediate return. Carrier programs, FAA roles,
-standing, consequence, and incomplete control effect do not by themselves
-establish recurrence or one mechanism.
-
-Return exactly one Markdown table with eight ordered rows and columns
-`Comparison object | Alaska 261 supplied relation | ValuJet 592 supplied
-relation | Shared relation or preserved boundary`: `component state`,
-`maintenance task`, `inspection and signoff`, `custody to operation`, `failure
-and crew response`, `carrier program`, `FAA role`, `standing consequence and
-control effect`.
+Return exactly one Markdown table with ten ordered rows and columns
+`Record object | Supplied official-source fact | Preserved boundary or
+unknown`: `event and wake encounter`, `rudder-pedal inputs`, `rudder-system
+response`, `aerodynamic loads`, `vertical-stabilizer separation`, `aircraft
+response`, `training program`, `design and certification`, `standing`,
+`consequence`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `prepare_bounded_maintenance_oversight_comparison` or
-  `preserve_separate_maintenance_operation_boundaries`.
+- **Decision:** choose `open_bounded_american_587_record` or
+  `bounded_corpus_insufficient`.
 - **Falsifier:** name one exact supplied relation whose removal would defeat
-  the selected decision.
-- **Unknowns:** `complete task and component custody, individual knowledge,
-  accountable receipt, interval, signoff, packaging, loading, fire, approval,
-  surveillance and response chronology, correction, implementation, relative
-  causal weight, and verified control effect remain incomplete`
-- **Non-effect:** `No recurrence, one maintenance, task, inspection, signoff,
-  custody, interval, wear, hazardous-material, cargo-fire, detection,
-  suppression, crew-response, carrier, contractor, certification,
-  surveillance, regulatory, Alaska Airlines, ValuJet, SabreTech, FAA,
-  maintainer, inspector, flight-crew, passenger, responder, or affected-party
-  mechanism or authority, schema, blame beyond supplied NTSB findings, duty,
-  remedy, acceptance, receiver work, health causation, liability, or external
-  action is accepted.`
+  the selected bounded opening.
+- **Unknowns:** `complete cue perception, input-by-input intent and effect,
+  training-to-action custody, design and certification chronology,
+  correction, implementation, relative causal weight, and verified control
+  effect remain incomplete`
+- **Non-effect:** `No recurrence, one wake-turbulence, rudder, pilot-input,
+  training, upset-recovery, aerodynamic-load, structural-failure, aircraft-
+  response, design, certification, airline, manufacturer, FAA, flight-crew,
+  passenger, ground-resident, responder, or affected-party mechanism or
+  authority, schema, blame beyond supplied NTSB findings, duty, remedy,
+  acceptance, receiver work, health causation, liability, or external action
+  is accepted.`
 
-Plain Markdown, no frontmatter, under 1,100 words.
+Plain Markdown, no frontmatter, under 1,050 words.

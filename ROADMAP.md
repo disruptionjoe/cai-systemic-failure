@@ -693,12 +693,12 @@
      design, affected standing, and consequence without creating one
      maintenance, inspection, certification, or oversight mechanism
      (`SF-0032`).
-164. Prepared only: trace Alaska Airlines Flight 261 from lubrication task and
-     interval through end-play inspection opportunity, thread wear, jackscrew
-     and trim-system failure, pitch-control loss, flight-crew response,
-     standing, and consequence while preserving incomplete task, measurement,
-     interval-decision, approval, surveillance, correction, and control-effect
-     custody.
+164. Done: trace Alaska Airlines Flight 261 from lubrication task and interval
+     through end-play inspection opportunity, thread wear, jackscrew and trim-
+     system failure, pitch-control loss, flight-crew response, standing, and
+     consequence while preserving incomplete task, measurement, interval-
+     decision, approval, surveillance, correction, and control-effect custody
+     (`SF-ALASKA261-MAINTENANCE-TRIM-FAILURE-PARTIAL-TRACE-0001`).
 165. Done: open one bounded NTSB-grounded ValuJet Flight 592 record
      that separates chemical oxygen generators, contractor removal and
      handling, work-card signoff, packaging and labeling, company-material and
@@ -706,13 +706,25 @@
      detection and suppression, carrier and FAA oversight, affected standing,
      and consequence without creating one hazardous-material, maintenance,
      cargo-fire, carrier, contractor, or regulatory mechanism.
-166. Prepared only: compare Alaska Airlines Flight 261 and ValuJet Flight 592
-     at the bounded maintenance-to-operation and oversight level while
-     preserving in-service lubrication, interval, inspection, wear, and trim-
-     system failure as distinct from removed-component handling, work-card
-     signoff, hazardous-material custody, cargo fire, detection and
-     suppression, carrier oversight, FAA oversight, standing, consequence,
-     and control effect.
+166. Done: compare Alaska Airlines Flight 261 and ValuJet Flight 592 at the
+     bounded maintenance-to-operation and oversight level while preserving in-
+     service lubrication, interval, inspection, wear, and trim-system failure
+     as distinct from removed-component handling, work-card signoff,
+     hazardous-material custody, cargo fire, detection and suppression,
+     carrier oversight, FAA oversight, standing, consequence, and control
+     effect (`SF-COMP-ALASKA261-VALUJET592-MAINTENANCE-OPERATION-OVERSIGHT-BOUNDARY`).
+167. Prepared only: trace ValuJet Flight 592 from removed-generator condition
+     through work-card instruction and signoff, safety-cap state, packaging and
+     identification, contractor-to-carrier custody, cargo loading, generator
+     activation and fire, cargo protection, flight-crew response, oversight,
+     standing, and consequence while preserving incomplete custody,
+     chronology, correction, causal weight, and control effect.
+168. Prepared only: open one bounded NTSB-grounded American Airlines Flight
+     587 record that keeps wake encounter, rudder-pedal inputs, rudder-system
+     response, aerodynamic loads, vertical-stabilizer separation, aircraft
+     response, training, design and certification, standing, and consequence
+     distinct without creating one pilot-input, training, design,
+     certification, airline, or regulatory mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

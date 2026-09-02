@@ -109,22 +109,22 @@ trace now preserves the source-local relation from watch and warning through
 manager direction, tour sequencing, water entry, storm encounter, return
 attempt, hatch flooding, rapid sinking, affected standing, and response while
 keeping custody, authority, reassessment, evacuation, correction, and control
-effect incomplete. Bounded Alaska Airlines Flight 261 record `SF-0032` now
-separates jackscrew condition, lubrication task and interval, end-play check,
-thread wear, trim-system failure, pitch control and crew response, maintenance-
-program state, FAA approval and surveillance, fail-safe design, standing, and
-consequence. Bounded ValuJet Flight 592 record `SF-0033` now separates oxygen-
-generator condition, removal and work-card signoff, safety-cap status,
-packaging and identification, contractor and carrier custody, cargo loading,
-fire initiation and spread, detection and suppression, flight-crew response,
-carrier oversight, FAA oversight, standing, and consequence. The predecessor-
-hash Stretch Duck 7 replay was already handled and created no duplicate owner
-effect; its immutable request remained intact across a contained prompt-change
-timing overlap. Slot A remains byte-identical and traces Alaska 261
-maintenance-to-failure relations; slot B now tests Alaska 261 and ValuJet 592
-only at a bounded maintenance-to-operation and oversight boundary. The two Mac
-LaunchAgents remain active. Prompt hashes are receipt metadata only and do not
-grant, deny, or continue eligibility.
+effect incomplete. Bounded Alaska Airlines Flight 261 record `SF-0032` and
+ValuJet Flight 592 record `SF-0033` retain distinct component, maintenance,
+custody, operation, oversight, standing, and consequence layers. A partial
+Alaska 261 trace now preserves the source-local relation from lubrication task
+and interval through end-play detection opportunity, thread wear, jackscrew and
+trim-system failure, pitch-control loss, crew response, standing, and
+consequence while keeping task, measurement, decision, approval, surveillance,
+correction, and control-effect custody incomplete. A bounded Alaska 261 /
+ValuJet 592 comparison preserves only a broad maintenance-to-operation and
+oversight pressure while keeping installed-component lubrication and wear
+distinct from removed-generator handling, signoff, hazardous-material custody,
+cargo loading, cargo fire, and protection. Slot A now traces the ValuJet work-
+card-to-cargo-fire path; slot B opens American Airlines Flight 587 only as a
+bounded wake, rudder-input, structural-load, training, design, standing, and
+consequence record. The two Mac LaunchAgents remain active. Prompt hashes are
+receipt metadata only and do not grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,

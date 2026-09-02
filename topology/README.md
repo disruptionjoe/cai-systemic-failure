@@ -803,3 +803,20 @@ hatch flooding, rapid sinking, affected standing, and response. Complete
 forecast and instruction custody, tour-decision authority, monitoring and
 reassessment chronology, hatch custody, evacuation, correction,
 implementation, causal weight, and control effect remain incomplete.
+
+`SF-ALASKA261-MAINTENANCE-TRIM-FAILURE-PARTIAL-TRACE-0001.md` preserves the
+bounded source-local relation from lubrication task and interval through end-
+play detection opportunity, thread wear, jackscrew and trim-system failure,
+pitch-control loss, crew response, affected standing, and consequence.
+Complete task, measurement, interval-decision, approval, surveillance,
+correction, implementation, causal weight, and control effect remain
+incomplete.
+
+`SF-COMP-ALASKA261-VALUJET592-MAINTENANCE-OPERATION-OVERSIGHT-BOUNDARY.md`
+preserves a bounded comparison between Alaska 261's in-service lubrication,
+interval, inspection, wear, trim-system failure, and crew recovery path and
+ValuJet 592's removed-generator handling, work-card signoff, safety-cap,
+hazardous-material custody, cargo loading, fire, protection, and return path.
+Carrier programs, FAA roles, standing, consequence, and incomplete control
+effect do not establish recurrence, shared authority, or one maintenance or
+oversight mechanism.
