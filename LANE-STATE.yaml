@@ -1,35 +1,35 @@
 schema_version: "2.0"
 owner_id: cai-systemic-failure
 rule_ref: system/runtime/flows/derive-lane-health.md
-updated_at: "2026-09-02T13:10:30-05:00"
-run_ref: RUN-20260902-180418-cai-systemic-failure-prepared-progress
-bottom_line: "The Alaska 261 / American 587 comparison preserves separate aircraft-control-loss paths while terminal slot B advances to United 232."
+updated_at: "2026-09-02T14:03:11-05:00"
+run_ref: RUN-20260902-190311-cai-systemic-failure-prepared-progress
+bottom_line: "The American 587 trace preserves the wake-input-load-separation path while both terminal slots advance."
 decision_default: "Keep the candidate provisional; no Joe action needed."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "Published the bounded Alaska 261 / American 587 comparison and replenished terminal slot B while preserving running slot A."
-    movement_ref: "topology/SF-COMP-ALASKA261-AMERICAN587-AIRCRAFT-CONTROL-LOSS-BOUNDARY.md; ROADMAP.md"
+    last_movement: "Published the bounded American 587 wake-to-stabilizer trace and replenished both terminal slots."
+    movement_ref: "topology/SF-AMERICAN587-WAKE-RUDDER-STABILIZER-PARTIAL-TRACE-0001.md; ROADMAP.md"
     steering_attention: watch
-    steering_prompt: "Trace American 587 from wake encounter to stabilizer separation and open one bounded United 232 record."
+    steering_prompt: "Test the American 587 / United 232 control-loss boundary and give the United 232 opening its compact final repair."
     steering_ref: "ROADMAP.md"
     light: green
-    reason_code: alaska261_american587_control_loss_boundaries_preserved
-    evidence_ref: "topology/SF-COMP-ALASKA261-AMERICAN587-AIRCRAFT-CONTROL-LOSS-BOUNDARY.md; ROADMAP.md"
-    summary: "The comparison preserves distinct maintenance, wear, input, load, structural, standing, and control-effect paths without accepting recurrence."
-    evaluated_at: "2026-09-02T13:10:30-05:00"
-    run_ref: RUN-20260902-180418-cai-systemic-failure-prepared-progress
+    reason_code: american587_wake_rudder_stabilizer_trace_preserved
+    evidence_ref: "topology/SF-AMERICAN587-WAKE-RUDDER-STABILIZER-PARTIAL-TRACE-0001.md; ROADMAP.md"
+    summary: "The trace preserves wake, input, system response, aerodynamic load, structural separation, standing, and consequence without accepting recurrence."
+    evaluated_at: "2026-09-02T14:03:11-05:00"
+    run_ref: RUN-20260902-190311-cai-systemic-failure-prepared-progress
     objective: "Turn credible evidence and contradiction into source-preserving models and answerable inquiries."
-    progress_delta: "Closed Roadmap 170, published one bounded comparison, reconciled owner state and the topology index, kept running slot A byte-identical, and installed a materially different successor in terminal slot B."
+    progress_delta: "Closed Roadmap 169, published one bounded partial trace, reconciled owner state and the topology index, installed a comparison successor in slot A, and installed one compact final United 232 repair in slot B."
     scope_position: "schema candidate: 5 positives, 7 non-synthetic false-positive absorbers, source, counterevidence-quality, source-revision-lineage, correction-route-authority, explicit stop-condition, composite-evidence coherence, intra-packet contradiction, temporal coherence, decision-time review authority, observation-route chronology, validation-burden timing, annotation-lineage, mixed, and false-negative pressures; comparison controls remain explicit"
     trend_24h: up
     confidence: high
-    recommendation: "Keep the schema provisional; finish the American 587 trace and test one bounded United 232 opening without creating receiver work."
+    recommendation: "Keep the schema provisional; test the two prepared aircraft-control-loss boundaries without creating receiver work."
     findings:
-      - "AAR-02/01 and AAR-04/04 support a bounded aircraft-control-loss comparison while preserving distinct initiating conditions, components, custody paths, crew relations, design and program objects, standing, and consequence."
-      - "The comparison establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, health causation, liability, or external action."
-      - "Running slot A remains immutable; terminal slot B advances to a materially different United 232 public-source opening."
+      - "AAR-04/04 supports a bounded event-local relation from the second wake encounter through alternating rudder inputs, load buildup, vertical-stabilizer separation, aircraft response, standing, and consequence."
+      - "The trace establishes no recurrence, shared mechanism or authority, schema pressure, remedy, acceptance, receiver work, health causation, liability, or external action."
+      - "Both terminal slots advance: slot A to a bounded comparison and slot B to one compact final United 232 repair."
     options:
       - id: A
         label: "Stay provisional"

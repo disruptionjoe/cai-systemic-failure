@@ -726,12 +726,13 @@
      response, training, design and certification, standing, and consequence
      distinct without creating one pilot-input, training, design,
      certification, airline, or regulatory mechanism (`SF-0034`).
-169. Prepared only: trace American Airlines Flight 587 from the second wake
+169. Done: trace American Airlines Flight 587 from the second wake
      encounter through control inputs, rudder-system response, sideslip and
      aerodynamic-load buildup, vertical-stabilizer separation, aircraft
      response, training and design context, standing, and consequence while
      preserving incomplete cue, intent, custody, chronology, correction,
-     causal weight, and control effect.
+     causal weight, and control effect
+     (`SF-AMERICAN587-WAKE-RUDDER-STABILIZER-PARTIAL-TRACE-0001`).
 170. Done: compare Alaska Airlines Flight 261 and American Airlines Flight
      587 only at the bounded aircraft-control-loss level while keeping
      maintenance task, interval, inspection, wear, and trim-system failure
@@ -746,6 +747,11 @@
      design and certification, and oversight without creating one manufacture,
      inspection, hydraulic, flight-control, crew-response, airport-response,
      design, certification, airline, manufacturer, or regulatory mechanism.
+172. Prepared only: compare American Airlines Flight 587 and United Airlines
+     Flight 232 only at the bounded aircraft-control-loss level while keeping
+     wake encounter, pilot input, rudder-system response, aerodynamic loading,
+     and structural separation distinct from fan-disk manufacture, inspection,
+     engine failure, hydraulic loss, and differential-thrust response.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

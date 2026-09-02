@@ -1,66 +1,68 @@
-# Trace American Airlines Flight 587 wake encounter to stabilizer separation
+# Compare American Airlines Flight 587 and United Airlines Flight 232 at the aircraft-control-loss boundary
 
-Lineage ID: `SF-LIN-AMERICAN587-WAKE-RUDDER-STABILIZER-PARTIAL-TRACE-01`,
-opportunity 1. Prepare one proposal-only partial trace from supplied official
-NTSB evidence and bounded record `SF-0034`. Frontier review decides owner
-truth. Do not retrieve sources. Do not invent unsupported facts. Do not
-prescribe aircraft, wake-turbulence, rudder, training, upset-recovery, design,
-certification, airline, manufacturer, flight-crew, surveillance, regulatory,
-or management changes; infer recurrence, one universal mechanism, blame
-beyond supplied NTSB findings, duty, liability, remedy efficacy, health
-causation, or external effect.
+Lineage ID: `SF-LIN-AMERICAN587-UNITED232-CONTROL-LOSS-COMPARISON-01`,
+opportunity 1. Prepare one proposal-only bounded comparison from the supplied
+official NTSB evidence. Frontier review decides whether any owner artifact is
+created. Do not retrieve sources. Do not invent facts. Do not infer recurrence,
+one aircraft-control-loss mechanism, shared authority, blame beyond supplied
+NTSB findings, duty, remedy, liability, acceptance, or external effect.
 
-Supplied evidence from `NTSB/AAR-04/04`:
+American Airlines Flight 587, from `NTSB/AAR-04/04`:
 
-- American Airlines Flight 587 encountered a second wake-turbulence event
-  shortly after takeoff from John F. Kennedy International Airport on
-  November 12, 2001.
-- The first officer responded with control-wheel and rudder-pedal input, then
-  made five subsequent alternating full rudder-pedal inputs over about 6.5
-  seconds until the vertical stabilizer separated.
+- A second wake-turbulence encounter was followed by control-wheel and rudder-
+  pedal input and five alternating full rudder-pedal inputs over about 6.5
+  seconds.
 - NTSB determined that unnecessary and excessive rudder-pedal inputs created
-  loads beyond ultimate design and caused the vertical stabilizer to separate
-  in flight.
-- The A300-600 rudder system combined increasing sensitivity with airspeed and
-  unusually light pedal forces among transport aircraft NTSB evaluated.
-- Alternating inputs rapidly built sideslip and aerodynamic loads. Pedal
-  command, rudder motion, aircraft response, load, structural capacity, and
-  separation remain distinct.
-- The stabilizer and rudder separated before the engines; the airplane then
-  departed controlled flight and crashed.
-- NTSB identified A300-600 rudder-system design characteristics and elements
-  of American Airlines' Advanced Aircraft Maneuvering Program as contributors
-  to the rudder inputs.
-- The 2 flight crewmembers, 7 flight attendants, and 251 passengers aboard,
-  plus 5 people on the ground, died.
-- Complete cue perception, input-by-input intent and effect, training-to-
-  action custody, design and certification chronology, post-separation control
-  chronology, correction, implementation, relative causal weight, and
-  verified control effect remain incomplete.
+  loads beyond ultimate design and caused the vertical stabilizer to separate.
+- A300-600 rudder-system characteristics and elements of American Airlines'
+  Advanced Aircraft Maneuvering Program contributed to the inputs.
+- The airplane departed controlled flight and crashed; all 260 people aboard
+  and 5 people on the ground died.
 
-Return exactly one Markdown table with nine ordered rows and columns
-`Trace object | Supplied source-local relation | Missing link or preserved
-boundary`: `wake encounter`, `initial control response`, `alternating rudder
-inputs`, `rudder-system response`, `sideslip and aerodynamic load`, `vertical-
-stabilizer separation`, `aircraft response`, `training design and
-certification`, `standing and consequence`.
+United Airlines Flight 232, from `NTSB/AAR-90/06`:
+
+- A fatigue crack originating in a manufacturing metallurgical defect was not
+  detected during later maintenance inspection; the stage 1 fan disk failed
+  uncontained.
+- Fan-disk fragments damaged hydraulic-system lines, all three hydraulic
+  systems lost fluid and pressure, and normal flight-control surfaces became
+  unavailable.
+- The crew and a check airman used differential thrust for limited pitch and
+  roll control before the airplane lost control during landing, broke apart,
+  and burned.
+- Of 296 people aboard, 111 died and 185 survived.
+
+Keep environmental encounter, pilot input, rudder-system response,
+aerodynamic load, structural separation, training, and certification distinct
+from manufacture, defect, crack detection, inspection, engine failure,
+hydraulic loss, differential-thrust response, emergency coordination, and
+survivability. Complete custody, chronology, correction, implementation,
+relative causal weight, and verified control effect remain incomplete.
+
+Return exactly one Markdown table with eight ordered rows and columns
+`Comparison object | American 587 boundary | United 232 boundary`:
+`initiating condition`, `detection and information`, `control input or loss`,
+`aircraft-system response`, `structural or component failure`, `crew response`,
+`standing and consequence`, `design certification and oversight`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `prepare_partial_american_587_wake_rudder_stabilizer_trace`
-  or `bounded_corpus_insufficient`.
-- **Falsifier:** name one exact supplied input-load-separation relation whose
-  removal would defeat the selected partial trace.
-- **Unknowns:** `complete cue perception, input-by-input intent and effect,
-  training-to-action custody, design and certification chronology, post-
-  separation control chronology, correction, implementation, relative causal
-  weight, and verified control effect remain incomplete`
-- **Non-effect:** `No recurrence, one wake-turbulence, rudder, pilot-input,
-  training, upset-recovery, aircraft-pilot-coupling, aerodynamic-load,
-  structural-failure, aircraft-response, design, certification, airline,
-  manufacturer, FAA, flight-crew, passenger, ground-resident, responder, or
-  affected-party mechanism or authority, schema, blame beyond supplied NTSB
-  findings, duty, remedy, acceptance, receiver work, health causation,
-  liability, or external action is accepted.`
+- **Decision:** choose
+  `preserve_separate_american587_united232_control_loss_boundaries` or
+  `bounded_corpus_insufficient`.
+- **Falsifier:** name one exact evidence change that would erase the distinction
+  between input-created beyond-design stabilizer loads and defect-origin fan-
+  disk failure followed by hydraulic-system loss.
+- **Unknowns:** `complete cue, intent, manufacture, inspection, training,
+  design, certification, hydraulic-damage, crew-control, emergency-response,
+  correction, implementation, relative-causal-weight, and verified-control-
+  effect custody remain incomplete`
+- **Non-effect:** `No recurrence, one aircraft-control-loss, pilot-input,
+  rudder, structural-separation, manufacture, inspection, fan-disk, engine,
+  hydraulic, differential-thrust, crew-response, design, certification,
+  airline, manufacturer, FAA, affected-party, or survivability mechanism or
+  authority, schema, blame beyond supplied NTSB findings, duty, remedy,
+  acceptance, receiver work, health causation, liability, or external action
+  is accepted.`
 
-Plain Markdown, no frontmatter, under 1,100 words.
+Plain Markdown, no frontmatter, under 1,000 words.

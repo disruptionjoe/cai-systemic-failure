@@ -818,8 +818,18 @@ wear, jackscrew and trim-system failure, pitch-control loss, and crew recovery
 path and American 587's wake encounter, pilot input, rudder-system response,
 aerodynamic-load buildup, vertical-stabilizer separation, and loss of control.
 Maintenance, measurement, pilot action, training, design, certification,
-standing, consequence, and incomplete control effect do not establish
-recurrence, shared authority, or one aircraft-control-loss mechanism.
+standing, consequence, and incomplete control effect remain distinct; no
+recurrence, shared authority, or one aircraft-control-loss mechanism is
+accepted.
+
+`SF-AMERICAN587-WAKE-RUDDER-STABILIZER-PARTIAL-TRACE-0001.md` preserves the
+bounded source-local relation from American 587's second wake encounter
+through alternating rudder inputs, rudder-system response, sideslip and
+aerodynamic-load buildup, vertical-stabilizer separation, aircraft response,
+training and design context, affected standing, and consequence. Complete cue
+perception, input intent and effect, training-to-action custody, design and
+certification chronology, correction, implementation, causal weight, and
+control effect remain incomplete.
 
 `SF-COMP-ALASKA261-VALUJET592-MAINTENANCE-OPERATION-OVERSIGHT-BOUNDARY.md`
 preserves a bounded comparison between Alaska 261's in-service lubrication,

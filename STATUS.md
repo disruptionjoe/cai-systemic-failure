@@ -131,11 +131,15 @@ system response, aerodynamic load, stabilizer separation, aircraft response,
 training, design and certification, standing, and consequence. A bounded
 Alaska 261 / American 587 comparison now preserves separate maintenance-to-
 trim-failure and wake-input-to-stabilizer-separation paths without accepting
-recurrence or one aircraft-control-loss mechanism. Slot A continues to trace
-the American 587 wake-to-stabilizer sequence; slot B now opens a bounded United
-Airlines Flight 232 record across manufacture, inspection, uncontained engine
-failure, hydraulic and flight-control loss, crew response, emergency
-coordination, standing, survivability, design, certification, and oversight.
+recurrence or one aircraft-control-loss mechanism. A partial American 587
+trace now preserves the event-local relation from the second wake encounter
+through alternating rudder inputs, rudder-system response, sideslip and load
+buildup, vertical-stabilizer separation, aircraft response, training and
+design context, standing, and consequence while keeping cue, intent, custody,
+chronology, correction, causal weight, and control effect incomplete. Slot A
+now tests the bounded American 587 / United 232 aircraft-control-loss boundary;
+slot B gives the United 232 opening one compact final repair after its first
+attempt returned zero response bytes at the generation limit.
 The two Mac LaunchAgents remain active. Prompt hashes are receipt metadata only
 and do not grant, deny, or continue eligibility.
 
