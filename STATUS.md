@@ -120,11 +120,19 @@ correction, and control-effect custody incomplete. A bounded Alaska 261 /
 ValuJet 592 comparison preserves only a broad maintenance-to-operation and
 oversight pressure while keeping installed-component lubrication and wear
 distinct from removed-generator handling, signoff, hazardous-material custody,
-cargo loading, cargo fire, and protection. Slot A now traces the ValuJet work-
-card-to-cargo-fire path; slot B opens American Airlines Flight 587 only as a
-bounded wake, rudder-input, structural-load, training, design, standing, and
-consequence record. The two Mac LaunchAgents remain active. Prompt hashes are
-receipt metadata only and do not grant, deny, or continue eligibility.
+cargo loading, cargo fire, and protection. A partial ValuJet trace now
+preserves the source-local relation from removal and work-card signoff through
+safety-cap state, packaging and identification, contractor-to-carrier custody,
+loading, activation and fire, cargo protection, crew response, oversight,
+standing, and consequence while keeping knowledge, receipt, chronology,
+correction, causal weight, and control effect incomplete. Bounded American
+Airlines Flight 587 record `SF-0034` separates wake encounter, rudder inputs,
+system response, aerodynamic load, stabilizer separation, aircraft response,
+training, design and certification, standing, and consequence. Slot A now
+traces the American 587 wake-to-stabilizer sequence; slot B compares Alaska
+261 and American 587 only at a bounded aircraft-control-loss boundary. The two
+Mac LaunchAgents remain active. Prompt hashes are receipt metadata only and do
+not grant, deny, or continue eligibility.
 
 `SF-0018` adds a bounded Buncefield public-source record. It preserves
 installed-but-inoperable primary and independent overfill protections,

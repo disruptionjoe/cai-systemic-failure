@@ -1,66 +1,64 @@
-# Trace ValuJet Flight 592 work-card handling to cargo fire
+# Trace American Airlines Flight 587 wake encounter to stabilizer separation
 
-Lineage ID: `SF-LIN-VALUJET592-WORKCARD-CARGO-FIRE-PARTIAL-TRACE-01`,
+Lineage ID: `SF-LIN-AMERICAN587-WAKE-RUDDER-STABILIZER-PARTIAL-TRACE-01`,
 opportunity 1. Prepare one proposal-only partial trace from supplied official
-NTSB evidence and bounded record `SF-0033`. Frontier review decides owner
+NTSB evidence and bounded record `SF-0034`. Frontier review decides owner
 truth. Do not retrieve sources. Do not invent unsupported facts. Do not
-prescribe airline, contractor, work-card, safety-cap, packaging,
-hazardous-material, cargo-loading, fire-protection, flight-crew,
-certification, surveillance, regulatory, or management changes; infer
-recurrence, one universal mechanism, blame beyond supplied NTSB findings,
-duty, liability, remedy efficacy, health causation, or external effect.
+prescribe aircraft, wake-turbulence, rudder, training, upset-recovery, design,
+certification, airline, manufacturer, flight-crew, surveillance, regulatory,
+or management changes; infer recurrence, one universal mechanism, blame
+beyond supplied NTSB findings, duty, liability, remedy efficacy, health
+causation, or external effect.
 
-Supplied evidence from `NTSB/AAR-97/06`:
+Supplied evidence from `NTSB/AAR-04/04`:
 
-- SabreTech removed unexpended chemical oxygen generators from three MD-80
-  airplanes during heavy maintenance for ValuJet.
-- Work card 0069 required safety caps on removed unexpended generators. The
-  cards were signed as complete although the caps had not been installed.
-- SabreTech failed to properly prepare, package, and identify the generators
-  before presenting them to ValuJet for carriage.
-- Five boxes described as empty oxygen canisters were loaded with tires and
-  wheels in Flight 592's forward class D cargo compartment.
-- One or more generators activated and initiated the in-flight fire. Exact
-  generator, box, orientation, loading, and activation sequence remain
-  incomplete.
-- The class D compartment had neither required smoke/fire detection nor fire
-  suppression. The crew received cabin reports, reported fire and smoke, and
-  attempted an immediate return.
-- NTSB identified SabreTech preparation, packaging, and identification;
-  ValuJet contract-maintenance oversight; class D cargo protection; and FAA
-  monitoring among separate causal or contributing findings.
-- Both pilots, 3 flight attendants, and 105 passengers died.
-- Component state, removal, task instruction, signoff, safety-cap state,
-  packaging, labeling, contractor custody, carrier receipt, loading, fire,
-  protection, crew response, oversight, standing, and consequence remain
-  distinct.
-- Complete generator-by-generator custody, individual knowledge, accountable
-  receipt, exact packaging and loading sequence, fire and warning chronology,
-  oversight chronology, correction, implementation, relative causal weight,
-  and verified control effect remain incomplete.
+- American Airlines Flight 587 encountered a second wake-turbulence event
+  shortly after takeoff from John F. Kennedy International Airport on
+  November 12, 2001.
+- The first officer responded with control-wheel and rudder-pedal input, then
+  made five subsequent alternating full rudder-pedal inputs over about 6.5
+  seconds until the vertical stabilizer separated.
+- NTSB determined that unnecessary and excessive rudder-pedal inputs created
+  loads beyond ultimate design and caused the vertical stabilizer to separate
+  in flight.
+- The A300-600 rudder system combined increasing sensitivity with airspeed and
+  unusually light pedal forces among transport aircraft NTSB evaluated.
+- Alternating inputs rapidly built sideslip and aerodynamic loads. Pedal
+  command, rudder motion, aircraft response, load, structural capacity, and
+  separation remain distinct.
+- The stabilizer and rudder separated before the engines; the airplane then
+  departed controlled flight and crashed.
+- NTSB identified A300-600 rudder-system design characteristics and elements
+  of American Airlines' Advanced Aircraft Maneuvering Program as contributors
+  to the rudder inputs.
+- The 2 flight crewmembers, 7 flight attendants, and 251 passengers aboard,
+  plus 5 people on the ground, died.
+- Complete cue perception, input-by-input intent and effect, training-to-
+  action custody, design and certification chronology, post-separation control
+  chronology, correction, implementation, relative causal weight, and
+  verified control effect remain incomplete.
 
 Return exactly one Markdown table with nine ordered rows and columns
 `Trace object | Supplied source-local relation | Missing link or preserved
-boundary`: `component removal`, `work card and signoff`, `safety-cap state`,
-`packaging and identification`, `contractor-to-carrier custody`, `cargo
-loading`, `activation fire and cargo protection`, `crew response`,
-`oversight standing and consequence`.
+boundary`: `wake encounter`, `initial control response`, `alternating rudder
+inputs`, `rudder-system response`, `sideslip and aerodynamic load`, `vertical-
+stabilizer separation`, `aircraft response`, `training design and
+certification`, `standing and consequence`.
 
 Then return exactly four lines:
 
-- **Decision:** choose `prepare_partial_valujet_592_workcard_cargo_fire_trace`
+- **Decision:** choose `prepare_partial_american_587_wake_rudder_stabilizer_trace`
   or `bounded_corpus_insufficient`.
-- **Falsifier:** name one exact supplied relation whose removal would defeat
-  the selected partial trace.
-- **Unknowns:** `complete generator-by-generator custody, individual
-  knowledge, accountable receipt, exact packaging and loading sequence, fire
-  and warning chronology, oversight chronology, correction, implementation,
-  relative causal weight, and verified control effect remain incomplete`
-- **Non-effect:** `No recurrence, one oxygen-generator, maintenance, work-card,
-  signoff, safety-cap, packaging, labeling, custody, hazardous-material,
-  cargo-loading, cargo-fire, detection, suppression, crew-response,
-  contractor, carrier, certification, surveillance, regulatory, SabreTech,
-  ValuJet, FAA, maintainer, inspector, flight-crew, passenger, responder, or
+- **Falsifier:** name one exact supplied input-load-separation relation whose
+  removal would defeat the selected partial trace.
+- **Unknowns:** `complete cue perception, input-by-input intent and effect,
+  training-to-action custody, design and certification chronology, post-
+  separation control chronology, correction, implementation, relative causal
+  weight, and verified control effect remain incomplete`
+- **Non-effect:** `No recurrence, one wake-turbulence, rudder, pilot-input,
+  training, upset-recovery, aircraft-pilot-coupling, aerodynamic-load,
+  structural-failure, aircraft-response, design, certification, airline,
+  manufacturer, FAA, flight-crew, passenger, ground-resident, responder, or
   affected-party mechanism or authority, schema, blame beyond supplied NTSB
   findings, duty, remedy, acceptance, receiver work, health causation,
   liability, or external action is accepted.`

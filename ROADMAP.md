@@ -713,18 +713,30 @@
      hazardous-material custody, cargo fire, detection and suppression,
      carrier oversight, FAA oversight, standing, consequence, and control
      effect (`SF-COMP-ALASKA261-VALUJET592-MAINTENANCE-OPERATION-OVERSIGHT-BOUNDARY`).
-167. Prepared only: trace ValuJet Flight 592 from removed-generator condition
+167. Done: trace ValuJet Flight 592 from removed-generator condition
      through work-card instruction and signoff, safety-cap state, packaging and
      identification, contractor-to-carrier custody, cargo loading, generator
      activation and fire, cargo protection, flight-crew response, oversight,
      standing, and consequence while preserving incomplete custody,
-     chronology, correction, causal weight, and control effect.
-168. Prepared only: open one bounded NTSB-grounded American Airlines Flight
+     chronology, correction, causal weight, and control effect
+     (`SF-VALUJET592-WORKCARD-CARGO-FIRE-PARTIAL-TRACE-0001`).
+168. Done: open one bounded NTSB-grounded American Airlines Flight
      587 record that keeps wake encounter, rudder-pedal inputs, rudder-system
      response, aerodynamic loads, vertical-stabilizer separation, aircraft
      response, training, design and certification, standing, and consequence
      distinct without creating one pilot-input, training, design,
-     certification, airline, or regulatory mechanism.
+     certification, airline, or regulatory mechanism (`SF-0034`).
+169. Prepared only: trace American Airlines Flight 587 from the second wake
+     encounter through control inputs, rudder-system response, sideslip and
+     aerodynamic-load buildup, vertical-stabilizer separation, aircraft
+     response, training and design context, standing, and consequence while
+     preserving incomplete cue, intent, custody, chronology, correction,
+     causal weight, and control effect.
+170. Prepared only: compare Alaska Airlines Flight 261 and American Airlines
+     Flight 587 only at the bounded aircraft-control-loss level while keeping
+     maintenance task, interval, inspection, wear, and trim-system failure
+     distinct from wake encounter, pilot input, rudder-system response,
+     aerodynamic loading, and structural separation.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

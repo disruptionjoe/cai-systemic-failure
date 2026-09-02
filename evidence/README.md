@@ -187,3 +187,10 @@ research material is rejected and routed to a separately authorized secure owner
   carrier and FAA oversight, affected standing, and consequence distinct while
   making no recurrence, health-causation, blame beyond NTSB findings, remedy,
   liability, or schema claim.
+- `records/SF-0034-american-airlines-flight-587-rudder-stabilizer-training-and-certification-boundaries.md`
+  - bounded NTSB-source synthesis that keeps wake encounter, first-officer
+  control inputs, rudder-system response, aerodynamic loading, vertical-
+  stabilizer separation, aircraft response, airline training, design and
+  certification, affected standing, and consequence distinct while making no
+  recurrence, health-causation, blame beyond NTSB findings, remedy, liability,
+  or schema claim.

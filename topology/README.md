@@ -820,3 +820,12 @@ hazardous-material custody, cargo loading, fire, protection, and return path.
 Carrier programs, FAA roles, standing, consequence, and incomplete control
 effect do not establish recurrence, shared authority, or one maintenance or
 oversight mechanism.
+
+`SF-VALUJET592-WORKCARD-CARGO-FIRE-PARTIAL-TRACE-0001.md` preserves the
+bounded relation from generator removal and work-card signoff through safety-
+cap state, packaging and identification, contractor-to-carrier custody, cargo
+loading, activation and fire, cargo protection, crew response, oversight,
+standing, and consequence. Complete generator custody, individual knowledge,
+accountable receipt, packaging, loading, fire and warning chronology,
+correction, implementation, causal weight, and control effect remain
+incomplete.
