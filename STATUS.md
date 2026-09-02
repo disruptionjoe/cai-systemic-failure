@@ -93,8 +93,11 @@ derailment, and affected standing. Bounded Schoharie record `SF-0030` separates
 vehicle alteration, brake condition, out-of-service status, carrier dispatch,
 operating authority, inspection, registration, repair verification, oversight,
 occupant protection, standing, and consequence. Slot A now traces Schoharie
-out-of-service evidence to dispatch; slot B compares Fort Totten and Schoharie
-only at the verification-to-operation boundary. The two Mac LaunchAgents
+out-of-service evidence to dispatch. A bounded Fort Totten/Schoharie comparison
+now preserves their separate verification-to-operation boundaries without
+accepting recurrence or one mechanism; slot B now opens the materially
+different Stretch Duck 7 weather, flooding, buoyancy, egress, and oversight
+case. The two Mac LaunchAgents
 remain active. Prompt hashes are receipt metadata only and do not grant, deny,
 or continue eligibility.
 
@@ -224,6 +227,14 @@ technician knowledge, June 2009 verification, false-vacant module signal, lost
 train detection, and automatic speed commands. Complete bulletin and test
 custody, maintenance response, train-control authority, oversight correction,
 implementation, relative causal weight, and control effect remain incomplete.
+
+`SF-COMP-FORTTOTTEN-SCHOHARIE-VERIFICATION-OPERATION-BOUNDARY` preserves a
+bounded comparison between Fort Totten's capable but non-institutionalized
+enhanced test, different field verification, false-vacant indication, and
+continued automatic commands and Schoharie's out-of-service order, unverified
+repair, missing authority, carrier dispatch, enforcement, brake condition, and
+operation. It keeps test, order, custody, authority, standing, and control
+effect separate and establishes no recurrence or shared mechanism.
 
 `SF-SANBRUNO-RECORD-INTEGRITY-ASSESSMENT-PARTIAL-TRACE-0001` preserves the
 bounded relation from physical seam construction and an inaccurate seamless-

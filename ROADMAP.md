@@ -660,11 +660,18 @@
      authority, dispatch, brake condition and operation, and affected standing
      while preserving incomplete custody, authority, correction,
      implementation, causal weight, and control effect.
-159. Prepared only: compare Fort Totten and Schoharie at the bounded
+159. Done: compare Fort Totten and Schoharie at the bounded
      verification-to-operation level while preserving a capable but unused
      rail test as distinct from a highway out-of-service order, repair
      verification, operating authority, dispatch, enforcement, standing, and
-     control effect.
+     control effect
+     (`SF-COMP-FORTTOTTEN-SCHOHARIE-VERIFICATION-OPERATION-BOUNDARY`).
+160. Prepared only: open one bounded NTSB-grounded Stretch Duck 7 record that
+     separates severe-weather forecast and warning, tour sequencing, water
+     entry, weather monitoring, go/no-go policy, flooding path, reserve
+     buoyancy, canopy and egress, lifejackets, affected standing, response,
+     company oversight, and Coast Guard oversight without creating one
+     weather, operation, vessel-design, survivability, or oversight mechanism.
 
 Do not create an empty ontology, universal taxonomy, intervention program, or
 field-research pathway merely to make the repository appear mature.

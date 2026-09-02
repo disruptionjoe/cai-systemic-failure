@@ -762,3 +762,12 @@ verification, state oversight, occupant protection, standing, and consequence
 distinct. Complete custody, failure mode, repair and inspection history,
 information transfer, enforcement chronology, correction, implementation,
 causal weight, and control effect remain incomplete.
+
+`SF-COMP-FORTTOTTEN-SCHOHARIE-VERIFICATION-OPERATION-BOUNDARY.md` preserves a
+bounded comparison between Fort Totten's capable but non-institutionalized
+enhanced verification test, different field verification, false-vacant state,
+and continued automatic commands and Schoharie's out-of-service order,
+unverified repair, missing authority, carrier dispatch, enforcement, brake
+condition, and operation. Diagnostic test, operating prohibition, custody,
+authority, standing, consequence, and control effect remain separate; no
+recurrence or shared verification-to-operation mechanism is accepted.
